@@ -17,7 +17,7 @@ class SessionWidget(QWidget):
         
         # Thanh tìm kiếm
         self.search_bar = QLineEdit()
-        self.search_bar.setPlaceholderText("🔍 Tìm kiếm từ vựng (Nhật, Việt, Hán Việt)...")
+        self.search_bar.setPlaceholderText("🔍 Tìm kiếm từ vựng ...")
         self.search_bar.setStyleSheet("""
             QLineEdit {
                 padding: 10px 15px;
