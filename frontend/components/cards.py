@@ -1,7 +1,7 @@
 import re
 from PyQt6.QtWidgets import QFrame, QVBoxLayout, QHBoxLayout, QLabel, QGraphicsDropShadowEffect
-from PyQt6.QtCore import Qt, pyqtSignal, QPoint
-from PyQt6.QtGui import QColor, QPainter, QBrush, QCursor
+from PyQt6.QtCore import Qt, pyqtSignal
+from PyQt6.QtGui import QColor, QPainter, QBrush
 
 class ShadowWidget(QFrame):
     def __init__(self, parent=None):
@@ -15,14 +15,8 @@ class ShadowWidget(QFrame):
         self.setGraphicsEffect(shadow)
 
 class VocabCard(ShadowWidget):
-    clicked = pyqtSignal(str)  # Phát ra chữ Kanji khi được click
-
     def __init__(self, item, parent=None):
         super().__init__(parent)
-        self._word = item.get('word', '')
-        self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-        self.setToolTip(f"Click để tra cứu '{self._word}' trên Mazii")
-
         layout = QVBoxLayout(self)
         subtitle = QLabel(item.get('reading', ''))
         subtitle.setObjectName("CardSubtitle")
@@ -41,17 +35,6 @@ class VocabCard(ShadowWidget):
             layout.addWidget(lbl_kanji)
             
         layout.addWidget(meaning)
-
-        # Thêm gợi ý nhỏ tra từ ở góc phải dưới
-        lbl_hint = QLabel("🔍 Tra Mazii")
-        lbl_hint.setStyleSheet("color: #9CA3AF; font-size: 11px; margin-top: 4px;")
-        lbl_hint.setAlignment(Qt.AlignmentFlag.AlignRight)
-        layout.addWidget(lbl_hint)
-
-    def mousePressEvent(self, event):
-        if event.button() == Qt.MouseButton.LeftButton:
-            self.clicked.emit(self._word)
-        super().mousePressEvent(event)
 
 class GrammarCard(ShadowWidget):
     def __init__(self, item, parent=None):
