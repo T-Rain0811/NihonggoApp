@@ -1,7 +1,7 @@
 import re
 from PyQt6.QtWidgets import QFrame, QVBoxLayout, QHBoxLayout, QLabel, QGraphicsDropShadowEffect
 from PyQt6.QtCore import Qt, pyqtSignal
-from PyQt6.QtGui import QColor, QPainter, QBrush
+from PyQt6.QtGui import QColor, QPainter, QBrush, QCursor
 
 class ShadowWidget(QFrame):
     def __init__(self, parent=None):
@@ -15,26 +15,50 @@ class ShadowWidget(QFrame):
         self.setGraphicsEffect(shadow)
 
 class VocabCard(ShadowWidget):
+    clicked = pyqtSignal(str)  # Phát ra từ khi được click
+
     def __init__(self, item, parent=None):
         super().__init__(parent)
+        self._word = item.get('word', '')
+
+        # Cursor bàn tay và tooltip khi hover
+        self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.setToolTip("Xem chi tiết hơn")
+
         layout = QVBoxLayout(self)
-        subtitle = QLabel(item.get('reading', ''))
-        subtitle.setObjectName("CardSubtitle")
-        title = QLabel(item.get('word', ''))
-        title.setObjectName("CardTitle")
-        meaning = QLabel(item.get('meaning', ''))
-        meaning.setObjectName("CardMeaning")
-        
+
+        def make_label(text, obj_name=None, style=None):
+            lbl = QLabel(text)
+            if obj_name:
+                lbl.setObjectName(obj_name)
+            if style:
+                lbl.setStyleSheet(style)
+            # Cho phép click xuyên qua label lên tới card
+            lbl.setAttribute(Qt.WidgetAttribute.WA_TransparentForMouseEvents, True)
+            return lbl
+
+        subtitle = make_label(item.get('reading', ''), "CardSubtitle")
+        title    = make_label(item.get('word', ''), "CardTitle")
+        meaning  = make_label(item.get('meaning', ''), "CardMeaning")
+
         layout.addWidget(subtitle)
         layout.addWidget(title)
-        
+
         kanji_m = item.get('kanji_meaning', '')
         if kanji_m:
-            lbl_kanji = QLabel(f"Hán Việt: {kanji_m}")
-            lbl_kanji.setStyleSheet("color: #D97706; font-size: 14px; font-weight: bold; margin-bottom: 2px;")
+            lbl_kanji = make_label(
+                f"Hán Việt: {kanji_m}",
+                style="color: #D97706; font-size: 14px; font-weight: bold; margin-bottom: 2px;"
+            )
             layout.addWidget(lbl_kanji)
-            
+
         layout.addWidget(meaning)
+
+    def mousePressEvent(self, event):
+        if event.button() == Qt.MouseButton.LeftButton:
+            self.clicked.emit(self._word)
+        super().mousePressEvent(event)
+
 
 class GrammarCard(ShadowWidget):
     def __init__(self, item, parent=None):
