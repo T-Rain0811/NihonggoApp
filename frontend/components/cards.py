@@ -21,9 +21,8 @@ class VocabCard(ShadowWidget):
         super().__init__(parent)
         self._word = item.get('word', '')
 
-        # Cursor bàn tay và tooltip khi hover
+        # Cursor bàn tay
         self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-        self.setToolTip("Xem chi tiết hơn")
 
         layout = QVBoxLayout(self)
 
@@ -53,6 +52,20 @@ class VocabCard(ShadowWidget):
             layout.addWidget(lbl_kanji)
 
         layout.addWidget(meaning)
+
+        # Label hiển thị khi hover (thay thế cho tooltip để mượt hơn khi cuộn)
+        self.hover_label = make_label("Xem chi tiết hơn", style="color: #4F46E5; font-size: 11px; font-weight: bold; margin-top: 4px;")
+        self.hover_label.setAlignment(Qt.AlignmentFlag.AlignRight)
+        self.hover_label.hide()
+        layout.addWidget(self.hover_label)
+
+    def enterEvent(self, event):
+        self.hover_label.show()
+        super().enterEvent(event)
+
+    def leaveEvent(self, event):
+        self.hover_label.hide()
+        super().leaveEvent(event)
 
     def mousePressEvent(self, event):
         if event.button() == Qt.MouseButton.LeftButton:

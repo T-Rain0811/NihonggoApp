@@ -1,5 +1,6 @@
 from PyQt6.QtWidgets import QWidget, QVBoxLayout, QTabWidget, QScrollArea
 from frontend.components.cards import VocabCard, GrammarCard
+from frontend.views.mazii_view import MaziiWebDialog
 
 class SessionWidget(QWidget):
     def __init__(self, vocab_data, grammar_data, parent=None):
@@ -17,7 +18,9 @@ class SessionWidget(QWidget):
         content_v = QWidget()
         layout_v = QVBoxLayout(content_v)
         for item in vocab_data:
-            layout_v.addWidget(VocabCard(item))
+            card = VocabCard(item)
+            card.clicked.connect(self._open_mazii)
+            layout_v.addWidget(card)
         layout_v.addStretch()
         scroll_v.setWidget(content_v)
         vocab_layout.addWidget(scroll_v)
@@ -38,3 +41,8 @@ class SessionWidget(QWidget):
         self.tabs.addTab(grammar_tab, "Kiến thức Ngữ pháp")
         
         layout.addWidget(self.tabs)
+
+    def _open_mazii(self, word: str):
+        """Mở Popup Mazii khi người dùng click vào thẻ từ vựng."""
+        dialog = MaziiWebDialog(word, parent=self)
+        dialog.exec()

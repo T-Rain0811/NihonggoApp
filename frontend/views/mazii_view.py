@@ -5,6 +5,8 @@ from PyQt6.QtWidgets import (
 )
 from PyQt6.QtCore import Qt, QUrl
 from PyQt6.QtGui import QFont
+from PyQt6.QtWebEngineWidgets import QWebEngineView
+from PyQt6.QtWebEngineCore import QWebEngineSettings
 
 
 def is_connected(host="mazii.net", port=443, timeout=3):
@@ -70,9 +72,6 @@ class MaziiWebDialog(QDialog):
 
     def _show_web_content(self):
         """Hiển thị WebView khi có mạng."""
-        from PyQt6.QtWebEngineWidgets import QWebEngineView
-        from PyQt6.QtWebEngineCore import QWebEngineSettings
-
         self.web_view = QWebEngineView()
         self.web_view.settings().setAttribute(
             QWebEngineSettings.WebAttribute.PlaybackRequiresUserGesture, False
