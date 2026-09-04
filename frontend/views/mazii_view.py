@@ -146,3 +146,10 @@ class MaziiWebDialog(QDialog):
             self._offline_widget.setParent(None)
             self._offline_widget.deleteLater()
             self._show_web_content()
+
+    def closeEvent(self, event):
+        """Dọn dẹp WebEngine khi đóng cửa sổ để giải phóng RAM/VRAM"""
+        if hasattr(self, 'web_view'):
+            self.web_view.setUrl(QUrl("about:blank"))
+            self.web_view.deleteLater()
+        super().closeEvent(event)

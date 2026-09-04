@@ -1358,13 +1358,19 @@ VOCABULARY = {
         {
             "word": "傾く",
             "reading": "かたむく",
-            "meaning": "Nghiêng",
+            "meaning": "1.nghiêng\n2.(mặt trăng, mặt trời) lặn, ngả sang hướng nào đó\n3.nghiêng ý kiến, lòng dạ\n4.chao đảo (cty, kinh tế...)",
             "kanji_meaning": "KHUYNH"
         },
         {
             "word": "片寄る",
             "reading": "かたよる",
-            "meaning": "Dồn sang một phía, lệch",
+            "meaning": "Dồn về một phía\nDi chuyển hoặc tụ lại một bên,\nđể lại khoảng trống ở bên kia (vật lý)",
+            "kanji_meaning": "PHIẾN KỲ"
+        },
+        {
+            "word": "偏る",
+            "reading": "かたよる",
+            "meaning": "Lệch lạc, mất cân bằng\nThường dùng cho các khái niệm trừu tượng.\nDiễn tả sự mất cân bản, thiên vị,\nphiến diện hoặc không đồng đều khi phân chia",
             "kanji_meaning": "PHIẾN KỲ"
         },
         {
@@ -1376,13 +1382,13 @@ VOCABULARY = {
         {
             "word": "破れる",
             "reading": "やぶれる",
-            "meaning": "Rách",
+            "meaning": "Bị xé, rách",
             "kanji_meaning": "PHÁ"
         },
         {
             "word": "装う",
             "reading": "よそおう",
-            "meaning": "Giả vờ, diện (trang phục)",
+            "meaning": "Giả vờ, diện (trang phục), ngụy trang",
             "kanji_meaning": "TRANG"
         },
         {
@@ -1412,7 +1418,7 @@ VOCABULARY = {
         {
             "word": "きつい",
             "reading": "きつい",
-            "meaning": "Chật, khắt khe, mệt mỏi",
+            "meaning": "1. Lời nói nghiêm khắc\n2. Quần áo chật chội\n3. Nắp nồi vừa khít\n4. Cuộc sống khó khăn",
             "kanji_meaning": ""
         },
         {
@@ -1490,7 +1496,7 @@ VOCABULARY = {
         {
             "word": "ぶかぶか",
             "reading": "ぶかぶか",
-            "meaning": "Thùng thình, rộng quá khổ",
+            "meaning": "Thùng thình, rộng quá khổ\nCách nhớ nè：Bự quá bự quá ⇒ To, rộng",
             "kanji_meaning": ""
         },
         {
@@ -1556,7 +1562,7 @@ VOCABULARY = {
         {
             "word": "斜め",
             "reading": "ななめ",
-            "meaning": "Nghiêng, chéo",
+            "meaning": "Nghiêng, chéo, xiên, góc nghiêng (hình học)",
             "kanji_meaning": "TÀ"
         },
         {

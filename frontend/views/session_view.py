@@ -70,6 +70,7 @@ class SessionWidget(QWidget):
     def _open_mazii(self, word: str):
         """Mở Popup Mazii khi người dùng click vào thẻ từ vựng."""
         dialog = MaziiWebDialog(word, parent=self)
+        dialog.setAttribute(Qt.WidgetAttribute.WA_DeleteOnClose)
         dialog.exec()
 
     def _filter_vocab(self, text):
