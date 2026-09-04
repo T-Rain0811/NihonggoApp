@@ -1,0 +1,198 @@
+/* styles.qss */
+QMainWindow {
+    background-color: #F3F4F6;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Sidebar */
+#Sidebar {
+    background-color: #FFFFFF;
+    border-right: 1px solid #E5E7EB;
+}
+
+QListWidget {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+QListWidget::item {
+    padding: 15px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    color: #4B5563;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+QListWidget::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+QListWidget::indicator:unchecked {
+    border: 2px solid #9CA3AF;
+    background-color: white;
+}
+
+QListWidget::indicator:checked {
+    border: 2px solid #4338CA;
+    background-color: #4338CA;
+    image: url("frontend/assets/img/check.svg");
+}
+
+QListWidget::item:selected {
+    background-color: #4338CA;
+    color: #FFFFFF;
+}
+
+QListWidget::item:hover:!selected {
+    background-color: #F3F4F6;
+}
+
+/* Tabs */
+QTabWidget::pane {
+    border: none;
+    background: transparent;
+}
+
+QTabBar::tab {
+    background: transparent;
+    color: #6B7280;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border-bottom: 2px solid transparent;
+}
+
+QTabBar::tab:selected {
+    color: #4338CA;
+    border-bottom: 2px solid #4338CA;
+}
+
+QTabBar::tab:hover {
+    color: #3730A3;
+}
+
+/* Cards */
+#CardWidget {
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    margin: 10px;
+    padding: 20px;
+}
+
+#CardTitle {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+}
+
+#CardSubtitle {
+    font-size: 14px;
+    color: #4338CA;
+    font-weight: bold;
+}
+
+#CardMeaning {
+    font-size: 16px;
+    color: #374151;
+    margin-top: 5px;
+}
+
+#CardFormula {
+    background-color: #EEF2FF;
+    border: 1px solid #C7D2FE;
+    border-radius: 6px;
+    padding: 5px 10px;
+    color: #3730A3;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#FlashcardWidget {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+#FlashcardText {
+    font-size: 32px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* Buttons */
+QPushButton {
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: bold;
+    border: none;
+    color: white;
+}
+
+#BtnStart {
+    background-color: #4338CA;
+}
+#BtnStart:hover { background-color: #3730A3; }
+
+#BtnForget { background-color: #EF4444; }
+#BtnForget:hover { background-color: #DC2626; }
+
+#BtnHard { background-color: #F59E0B; color: white; }
+#BtnHard:hover { background-color: #D97706; }
+
+#BtnEasy { background-color: #10B981; }
+#BtnEasy:hover { background-color: #059669; }
+
+/* QMessageBox Buttons */
+QMessageBox QPushButton {
+    background-color: #4338CA;
+    color: white;
+    min-width: 80px;
+}
+QMessageBox QPushButton:hover {
+    background-color: #3730A3;
+}
+
+/* ScrollArea */
+QScrollArea {
+    border: none;
+    background-color: transparent;
+}
+QScrollArea > QWidget > QWidget {
+    background-color: transparent;
+}
+
+/* Quiz Styles */
+#QuizQuestion {
+    font-size: 24px;
+    font-weight: bold;
+    color: #111827;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px;
+}
+
+#QuizOptionBtn {
+    background-color: #FFFFFF;
+    color: #4B5563;
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 15px;
+    text-align: left;
+}
+
+#QuizOptionBtn:hover {
+    background-color: #F3F4F6;
+    border-color: #D1D5DB;
+}
+
+#QuizOptionBtn:disabled {
+    color: white;
+}
