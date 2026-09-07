@@ -358,7 +358,7 @@ VOCABULARY = {
         {
             "word": "卑怯",
             "reading": "ひきょう",
-            "meaning": "Hèn hạ, bần tiện, bỉ ổi\nchơi không đẹp, gian xảo",
+            "meaning": "Hèn hạ, bần tiện, bỉ ổi\nchơi không đẹp, gian xảo\n=ずるい: xảo quyệt",
             "kanji_meaning": "TY KHIẾP"
         },
         {
@@ -1532,7 +1532,7 @@ VOCABULARY = {
         {
             "word": "賞味",
             "reading": "しょうみ",
-            "meaning": "Thưởng thức (nghĩa trong hạn sử dụng)",
+            "meaning": "Thưởng thức ( ご賞味下さい！ Xin hãy thưởng thức! )\n賞味期限: hạn sử dụng mà trong hạn đó vị còn ngon",
             "kanji_meaning": "BỒI VỊ"
         },
         {
@@ -1784,7 +1784,7 @@ VOCABULARY = {
         {
             "word": "粗末",
             "reading": "そまつ",
-            "meaning": "Sơ sài, đạm bạc, coi rẻ",
+            "meaning": "Sự hèn mọn, thấp kém\nlãng phí, coi thường",
             "kanji_meaning": "THÔ MẠT"
         },
         {
