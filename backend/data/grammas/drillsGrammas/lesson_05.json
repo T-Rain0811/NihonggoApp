@@ -1,0 +1,307 @@
+{
+  "lesson": 5,
+  "title": "第５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "これだけ事故が起きてもまだ酒を飲んで運転する人の気持ちが理解（　　）。",
+          "options": [
+            "しかねる",
+            "するものか",
+            "せざるをえない",
+            "するわけではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かねる」＝〜できない（心理的・状況的に）。いくら考えても理解できない。",
+          "explanation_vi": "「〜かねる」 = Khó lòng mà ~, không thể nào ~ (về mặt tâm lý, tình huống). Tai nạn xảy ra nhiều như vậy rồi mà tôi vẫn không thể nào hiểu nổi tâm lý của những người uống rượu rồi lái xe.",
+          "sentence_furigana": "これだけ事故(じこ)が起き(おき)てもまだ酒(さけ)を飲ん(のん)で運転(うんてん)する人(ひと)の気持ち(きもち)が理解(りかい)（　　）。",
+          "sentence_vi": "Xảy ra biết bao vụ tai nạn như vậy rồi mà tôi vẫn không tài nào hiểu nổi tâm lý của những người uống rượu rồi lái xe."
+        },
+        {
+          "id": 2,
+          "text": "政府は方針を決定する（　　）、全国の病院にアンケートを実施した。",
+          "options": [
+            "以上",
+            "以上は",
+            "にあたり",
+            "において"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にあたり」＝〜するときに（準備段階）。方針を決定する前に、その準備としてアンケートを行った。",
+          "explanation_vi": "「〜にあたり」 = Khi, trước khi (chuẩn bị làm một việc quan trọng). Trước khi quyết định phương hướng, chính phủ đã tiến hành khảo sát các bệnh viện trên toàn quốc.",
+          "sentence_furigana": "政府(せいふ)は方針(ほうしん)を決定(けってい)する（　　）、全国(ぜんこく)の病院(びょういん)にアンケート(あんけーと)を実施(じっし)した。",
+          "sentence_vi": "Trước khi quyết định phương hướng, chính phủ đã tiến hành một cuộc khảo sát đối với các bệnh viện trên toàn quốc."
+        },
+        {
+          "id": 3,
+          "text": "たとえ失敗した（　　）、やってみることに価値がある。",
+          "options": [
+            "せいで",
+            "だけに",
+            "からには",
+            "としても"
+          ],
+          "correct_answer": 4,
+          "explanation": "「たとえ〜としても」＝もし〜という事態になっても（逆接条件）。失敗したという事態になっても価値はある。",
+          "explanation_vi": "「たとえ〜としても」 = Cho dù có ~ đi chăng nữa. Cho dù có thất bại đi chăng nữa thì việc làm thử cũng rất có giá trị.",
+          "sentence_furigana": "たとえ失敗(しっぱい)した（　　）、やってみることに価値(かち)がある。",
+          "sentence_vi": "Cho dù có thất bại đi chăng nữa, thì việc dấn thân làm thử cũng rất đáng giá."
+        },
+        {
+          "id": 4,
+          "text": "今は辛くても、この経験はいつか必ず役に立つ（　　）。",
+          "options": [
+            "にすぎない",
+            "に違いない",
+            "とは限らない",
+            "よりほかない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜に違いない」＝絶対に〜だ（強い確信）。必ず役に立つはずだという強い思い。",
+          "explanation_vi": "「〜に違いない」 = Chắc chắn là ~, nhất định là ~ (sự tin tưởng mạnh mẽ). Bây giờ dù có khó khăn, nhưng kinh nghiệm này nhất định sau này sẽ có ích.",
+          "sentence_furigana": "今(いま)は辛く(つらく)ても、この経験(けいけん)はいつか必ず(かならず)役(やく)に立つ(たつ)（　　）。",
+          "sentence_vi": "Dù bây giờ có gian khổ, nhưng kinh nghiệm này chắc chắn sẽ có lúc giúp ích."
+        },
+        {
+          "id": 5,
+          "text": "暗くならないうちに、散歩（　　）買い物に行ってこよう。",
+          "options": [
+            "つつ",
+            "がてら",
+            "ついで",
+            "ながら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜がてら」＝〜のついでに。散歩を兼ねて買い物に行く。",
+          "explanation_vi": "「〜がてら」 = Tiện thể ~, nhân tiện ~. Trong lúc trời chưa tối, mình hãy tiện đi dạo rồi đi mua sắm luôn đi.",
+          "sentence_furigana": "暗く(くらく)ならないうちに、散歩(さんぽ)（　　）買い物(かいもの)に行って(いって)こよう。",
+          "sentence_vi": "Trong lúc trời chưa tối, nhân tiện đi dạo chúng ta đi mua sắm luôn nhé."
+        },
+        {
+          "id": 6,
+          "text": "面接を希望される方は、電話連絡（　　）、履歴書をお送りください。",
+          "options": [
+            "の上",
+            "の上に",
+            "の末",
+            "の末に"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜の上(で)」＝まず〜してから、その結果に基づいて。電話連絡をしてから履歴書を送る。",
+          "explanation_vi": "「〜の上」 = Sau khi ~ (rồi mới làm việc tiếp theo). Những ai có nguyện vọng phỏng vấn, xin vui lòng gọi điện thoại liên lạc trước, sau đó hãy gửi sơ yếu lý lịch.",
+          "sentence_furigana": "面接(めんせつ)を希望(きぼう)される方(かた)は、電話(でんわ)連絡(れんらく)（　　）、履歴書(りれきしょ)をお送り(おおくり)ください。",
+          "sentence_vi": "Quý vị nào có nguyện vọng phỏng vấn, vui lòng liên hệ qua điện thoại trước rồi hãy gửi sơ yếu lý lịch."
+        },
+        {
+          "id": 7,
+          "text": "こんな作品が作れる彼は天才だ。発想（　　）普通の人とは違っている。",
+          "options": [
+            "からして",
+            "はおろか",
+            "を問わず",
+            "をはじめ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜からして」＝（基本的な）〜の点からすでに。アイデア（発想）の段階からすでに普通の人と違う。",
+          "explanation_vi": "「〜からして」 = Ngay cả từ ~, xét ngay từ ~ (chỉ ra một ví dụ cơ bản nhất). Anh ấy có thể làm ra tác phẩm thế này đúng là thiên tài. Ngay từ ý tưởng phát minh đã khác người bình thường rồi.",
+          "sentence_furigana": "こんな作品(さくひん)が作れる(つくれる)彼(かれ)は天才(てんさい)だ。発想(はっそう)（　　）普通(ふつう)の人(ひと)とは違っ(ちがっ)ている。",
+          "sentence_vi": "Anh ta đúng là thiên tài khi có thể tạo ra được tác phẩm như thế này. Ngay từ ý tưởng ban đầu đã khác biệt so với người bình thường rồi."
+        },
+        {
+          "id": 8,
+          "text": "その事件について私が知っている（　　）のことは、もう全部話しました。",
+          "options": [
+            "ほど",
+            "まま",
+            "限り",
+            "ばかり"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜限り(の)」＝〜の範囲すべて。自分が知っている範囲のすべてを話した。",
+          "explanation_vi": "「〜限りの」 = Trong giới hạn của ~, toàn bộ phạm vi của ~. Tôi đã kể hết toàn bộ những gì tôi biết về vụ án đó rồi.",
+          "sentence_furigana": "その事件(じけん)について私(わたし)が知っ(しっ)ている（　　）のことは、もう全部(ぜんぶ)話(はな)しました。",
+          "sentence_vi": "Tôi đã kể hết tất cả những gì trong phạm vi tôi biết về vụ án đó rồi."
+        },
+        {
+          "id": 9,
+          "text": "インターネットを使えば、外出する（　　）買い物ができる。",
+          "options": [
+            "ことに",
+            "ことなく",
+            "どころか",
+            "どころじゃなく"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ことなく」＝〜しないで。外に出ないで買い物ができる。",
+          "explanation_vi": "「〜ことなく」 = Mà không cần phải ~. Nếu sử dụng Internet thì bạn có thể mua sắm mà không cần phải đi ra ngoài.",
+          "sentence_furigana": "インターネット(いんたーねっと)を使え(つかえ)ば、外出(がいしゅつ)する（　　）買い物(かいもの)ができる。",
+          "sentence_vi": "Nếu dùng Internet, bạn có thể mua sắm mà không cần phải ra khỏi nhà."
+        },
+        {
+          "id": 10,
+          "text": "このマンガは一度読み始めたら最後まで（　　）ほどおもしろい。",
+          "options": [
+            "読みきれない",
+            "読まずにいられない",
+            "読むどころじゃない",
+            "読まないことはない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ずにはいられない」＝〜せずにはすまない、どうしても〜してしまう。最後まで読まないではいられない（読んでしまう）。",
+          "explanation_vi": "「〜ずにはいられない」 = Không thể không ~, chắc chắn sẽ ~. Bộ truyện tranh này hễ đã đọc là thú vị đến mức không thể không đọc cho đến tận cùng.",
+          "sentence_furigana": "このマンガ(まんが)は一度(いちど)読み(よみ)始め(はじめ)たら最後(さいご)まで（　　）ほどおもしろい。",
+          "sentence_vi": "Bộ manga này một khi đã bắt đầu đọc thì hấp dẫn đến mức không thể ngừng đọc cho tới trang cuối cùng."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "準決勝までの彼の活躍が ＿＿＿ ＿＿＿ ★ ＿＿＿ のは残念でならない。",
+          "options": [
+            "決勝に",
+            "だけに",
+            "出られない",
+            "すばらしかった"
+          ],
+          "correct_order": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "準決勝までの彼の活躍が すばらしかった だけに 決勝に 出られない のは残念でならない。",
+          "explanation": "正しい語順は「すばらしかった(4) だけに(2) 決勝に(1) 出られない(3)」。★は3番目なので「決勝に」。",
+          "explanation_vi": "Thứ tự đúng là: すばらしかった(4) だけに(2) 決勝に(1) 出られない(3). Vị trí ngôi sao là 1 (決勝に). Chính vì màn trình diễn của anh ấy cho đến trận bán kết quá tuyệt vời nên việc anh ấy không thể ra sân ở trận chung kết quả là điều đáng tiếc vô cùng.",
+          "sentence_furigana": "準決勝(じゅんけっしょう)までの彼(かれ)の活躍(かつやく)が すばらしかった だけに 決勝(けっしょう)に 出られ(でられ)ない のは残念(ざんねん)でならない。",
+          "sentence_vi": "Chính vì sự thể hiện của anh ấy tính đến vòng bán kết là quá tuyệt vời, nên việc anh không thể thi đấu ở trận chung kết thật vô cùng đáng tiếc."
+        },
+        {
+          "id": 12,
+          "text": "行列に1時間 ＿＿＿ ＿＿＿ ★ ＿＿＿ チケットは売り切れで買えなかった。",
+          "options": [
+            "なく",
+            "並んだ",
+            "かいも",
+            "結局"
+          ],
+          "correct_order": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "行列に1時間 並んだ かいも なく 結局 チケットは売り切れで買えなかった。",
+          "explanation": "正しい語順は「並んだ(2) かいも(3) なく(1) 結局(4)」。★は3番目なので「なく」。",
+          "explanation_vi": "Thứ tự đúng là: 並んだ(2) かいも(3) なく(1) 結局(4). Vị trí ngôi sao là 1 (なく). Xếp hàng suốt 1 tiếng đồng hồ chẳng mang lại kết quả gì, rốt cuộc vé đã bán hết nên tôi không thể mua được.",
+          "sentence_furigana": "行列(ぎょうれつ)に1時間(じかん) 並ん(ならん)だ かいも なく 結局(けっきょく) チケット(ちけっと)は売り切れ(うりきれ)で買え(かえ)なかった。",
+          "sentence_vi": "Uổng công xếp hàng suốt một tiếng đồng hồ, rốt cuộc vé đã bán hết nên chẳng thể mua nổi."
+        },
+        {
+          "id": 13,
+          "text": "誰の ＿＿＿ ＿＿＿ ★ ＿＿＿ いいときもあるものだ。",
+          "options": [
+            "あれば",
+            "ときも",
+            "苦しい",
+            "人生にも"
+          ],
+          "correct_order": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 2,
+          "full_sentence": "誰の 人生にも 苦しい ときも あれば いいときもあるものだ。",
+          "explanation": "正しい語順は「人生にも(4) 苦しい(3) ときも(2) あれば(1)」。★は3番目なので「ときも」。",
+          "explanation_vi": "Thứ tự đúng là: 人生にも(4) 苦しい(3) ときも(2) あれば(1). Vị trí ngôi sao là 2 (ときも). Cuộc đời của ai cũng vậy, có những lúc đau khổ thì cũng sẽ có những lúc tốt đẹp.",
+          "sentence_furigana": "誰(だれ)の 人生(じんせい)にも 苦しい(くるしい) ときも あれば いいときもあるものだ。",
+          "sentence_vi": "Cuộc đời của ai thì cũng có lúc khó khăn, và rồi cũng sẽ có lúc tươi đẹp."
+        },
+        {
+          "id": 14,
+          "text": "このことは人の命 ＿＿＿ ＿＿＿ ★ ＿＿＿ 慎重な判断が必要だ。",
+          "options": [
+            "である",
+            "問題",
+            "だけに",
+            "にかかわる"
+          ],
+          "correct_order": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "このことは人の命 にかかわる 問題 である だけに 慎重な判断が必要だ。",
+          "explanation": "正しい語順は「にかかわる(4) 問題(2) である(1) だけに(3)」。★は3番目なので「である」。",
+          "explanation_vi": "Thứ tự đúng là: にかかわる(4) 問題(2) である(1) だけに(3). Vị trí ngôi sao là 1 (である). Chính vì đây là vấn đề liên quan đến mạng sống của con người nên rất cần một quyết định thận trọng.",
+          "sentence_furigana": "このことは人(ひと)の命(いのち) にかかわる 問題(もんだい) である だけに 慎重(しんちょう)な判断(はんだん)が必要(ひつよう)だ。",
+          "sentence_vi": "Chính vì đây là vấn đề liên quan đến sinh mạng con người nên càng cần phải phán đoán một cách thận trọng."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　花粉症の方は、朝晩2回、こちらの白い錠剤を1回1錠飲んでください。また、目に痛みやかゆみを感じる際には、この目薬を1,2滴さしてください。目薬をさすのは、1日4,5回まで【１】、1度さしたら、次まで1時間以上は時間をおくようにしてください。使いすぎはよくありません。\n　また、もし目薬をさしてしばらく経ってもかゆみが引かない場合は、医師にご相談ください。かゆい【２】、目を強くこすることのないようにしてください。目を強くこすると、よけいかゆみがひどくなる【３】、目やまぶたが傷つくおそれがあります。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "では",
+            "なら",
+            "とし",
+            "といい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜を〜とする」＝〜を基準や条件として決める。1日4,5回までを限度とする、という意味。",
+          "explanation_vi": "「〜とする」 = Quy định là ~, coi như là ~. Việc nhỏ thuốc mắt được giới hạn quy định tối đa là 4-5 lần 1 ngày."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "ことから",
+            "からといって",
+            "のはもとより",
+            "にもかかわらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜からといって」＝〜という理由があっても（後ろには否定や禁止が来る）。かゆいからといって、強くこすってはいけない。",
+          "explanation_vi": "「〜からといって」 = Cho dù là vì lý do ~ (vế sau thường là phủ định hoặc cấm đoán). Cho dù có ngứa đi chăng nữa cũng đừng dụi mắt mạnh."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "ばかりか",
+            "ばかりで",
+            "ばかりに",
+            "ばかりなら"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ばかりか」＝〜だけでなく、さらに（悪いことが重なる）。かゆみがひどくなるだけでなく、目も傷つく。",
+          "explanation_vi": "「〜ばかりか」 = Không chỉ ~ mà còn (nhấn mạnh tình trạng tồi tệ hơn). Dụi mắt mạnh không những làm cho cơn ngứa trở nên tồi tệ hơn mà còn có nguy cơ làm tổn thương mắt và mí mắt."
+        }
+      ]
+    }
+  ]
+}

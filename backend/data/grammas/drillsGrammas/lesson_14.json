@@ -1,0 +1,307 @@
+{
+  "lesson": 14,
+  "title": "第１４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "A：この学校、知っていますか。\nB：知っている（　　）、その学校は私の母校ですよ。",
+          "options": [
+            "どころか",
+            "ばかりか",
+            "はおろか",
+            "はもちろん"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜どころか」＝〜という程度ではなく（実際の事態はそれと大きく異なる、あるいは逆である）。知っているどころか、自分の母校だ。",
+          "explanation_vi": "「〜どころか」 = Đâu chỉ có vậy, mà còn ~ (thực tế khác xa hoặc ở một mức độ cao hơn hẳn). Đâu chỉ có biết, đó là trường cũ của tôi đấy.",
+          "sentence_furigana": "A：この学校(がっこう)、知っ(しっ)ていますか。\nB：知っ(しっ)ている（　　）、その学校(がっこう)は私(わたし)の母校(ぼこう)ですよ。",
+          "sentence_vi": "A: Anh có biết ngôi trường này không?\nB: Biết chứ sao không, đó chính là trường cũ của tôi đấy."
+        },
+        {
+          "id": 2,
+          "text": "住民からの要望（　　）マンションの周囲に監視カメラを取り付けた。",
+          "options": [
+            "につれて",
+            "にあたって",
+            "にこたえて",
+            "にともなって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にこたえて」＝〜（期待や要望など）に沿うように。住民の要望に応える形でカメラを取り付けた。",
+          "explanation_vi": "「〜にこたえて」 = Đáp ứng lại, đáp lại (kỳ vọng, yêu cầu). Để đáp ứng yêu cầu từ người dân, chúng tôi đã lắp đặt camera giám sát xung quanh chung cư.",
+          "sentence_furigana": "住民(じゅうみん)からの要望(ようぼう)（　　）マンション(まんしょん)の周囲(しゅうい)に監視(かんし)カメラ(かめら)を取り付け(とりつけ)た。",
+          "sentence_vi": "Để đáp lại yêu cầu từ phía người dân, camera giám sát đã được lắp đặt xung quanh khu chung cư."
+        },
+        {
+          "id": 3,
+          "text": "視聴者からのリクエスト（　　）、人気ランキングを作成した。",
+          "options": [
+            "とともに",
+            "にあたり",
+            "において",
+            "をもとに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜をもとに（して）」＝〜を基礎・材料にして。視聴者のリクエストを基礎としてランキングを作った。",
+          "explanation_vi": "「〜をもとに」 = Dựa trên ~ (như một nền tảng, dữ liệu). Chúng tôi đã tạo ra bảng xếp hạng độ yêu thích dựa trên những yêu cầu từ phía khán giả.",
+          "sentence_furigana": "視聴(しちょう)者(しゃ)からのリクエスト(りくえすと)（　　）、人気(にんき)ランキング(らんきんぐ)を作成(さくせい)した。",
+          "sentence_vi": "Dựa trên những yêu cầu của khán giả, chúng tôi đã tạo ra một bảng xếp hạng độ yêu thích."
+        },
+        {
+          "id": 4,
+          "text": "芸術は国境を越えるというから、この作品に感動するのは日本人（　　）。",
+          "options": [
+            "を問わない",
+            "だけではあるまい",
+            "どころではない",
+            "にほかならない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ではあるまい」＝〜ではないだろう。芸術は国境を越えるのだから、感動するのは日本人だけではないだろう。",
+          "explanation_vi": "「〜ではあるまい」 = Có lẽ không phải là, chắc hẳn không phải là. Người ta thường nói nghệ thuật không biên giới, nên chắc hẳn không chỉ có người Nhật mới cảm động trước tác phẩm này đâu.",
+          "sentence_furigana": "芸術(げいじゅつ)は国境(こっきょう)を越える(こえる)というから、この作品(さくひん)に感動(かんどう)するのは日本(にほん)人(じん)（　　）。",
+          "sentence_vi": "Vì nghệ thuật vượt qua mọi ranh giới quốc gia, nên chắc hẳn không chỉ có mỗi người Nhật mới cảm động trước tác phẩm này."
+        },
+        {
+          "id": 5,
+          "text": "川沿いに、1キロ（　　）桜が植えられている。",
+          "options": [
+            "にかけて",
+            "に沿って",
+            "にわたって",
+            "にしたがって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にわたって」＝〜という範囲全体で。1キロという距離全体に桜が植えられている。",
+          "explanation_vi": "「〜にわたって」 = Trải khắp, suốt (chỉ một khoảng thời gian hoặc không gian rộng lớn). Dọc theo bờ sông, người ta đã trồng hoa anh đào trải dài suốt 1 km.",
+          "sentence_furigana": "川沿い(かわぞい)に、1キロ(きろ)（　　）桜(さくら)が植え(うえ)られている。",
+          "sentence_vi": "Dọc theo bờ sông, hoa anh đào được trồng trải dài suốt 1 km."
+        },
+        {
+          "id": 6,
+          "text": "この問題は関係する二つの国（　　）、周りの国々にも影響を与えた。",
+          "options": [
+            "のみならず",
+            "はともかく",
+            "もかまわず",
+            "にもかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜のみならず」＝〜だけでなく（硬い表現）。二つの国だけでなく、周りの国々にも。",
+          "explanation_vi": "「〜のみならず」 = Không chỉ ~ mà còn (cách nói trang trọng của だけでなく). Vấn đề này không chỉ ảnh hưởng đến hai quốc gia có liên quan mà còn lan sang cả các nước xung quanh.",
+          "sentence_furigana": "この問題(もんだい)は関係(かんけい)する二つ(ふたつ)の国(くに)（　　）、周り(まわり)の国々(くにぐに)にも影響(えいきょう)を与え(あたえ)た。",
+          "sentence_vi": "Vấn đề này không chỉ ảnh hưởng đến hai quốc gia trực tiếp liên quan mà còn ảnh hưởng đến cả các nước lân cận."
+        },
+        {
+          "id": 7,
+          "text": "誰でも褒められると嬉しくなる（　　）。",
+          "options": [
+            "ことです",
+            "ものです",
+            "一方です",
+            "ところです"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ものだ／ものです」＝〜というのが一般的な性質だ、当然だ。人は誰でも褒められれば嬉しいのが当たり前だ。",
+          "explanation_vi": "「〜ものだ／ものです」 = Vốn dĩ là, đương nhiên là (chỉ một chân lý, bản chất thông thường). Ai cũng vậy, được khen thì đương nhiên là sẽ thấy vui rồi.",
+          "sentence_furigana": "誰(だれ)でも褒め(ほめ)られると嬉しく(うれしく)なる（　　）。",
+          "sentence_vi": "Đã là con người thì ai được khen mà chẳng thấy vui."
+        },
+        {
+          "id": 8,
+          "text": "携帯電話の請求書をかばんに入れ（　　）で、払うのを忘れていた。",
+          "options": [
+            "すぎ",
+            "っきり",
+            "まんま",
+            "っぱなし"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜っぱなし」＝〜したまま（当然その後すべきことをしていないという不満やよくない状態）。入れたままにしていて払うのを忘れた。",
+          "explanation_vi": "「〜っぱなし」 = Cứ để nguyên như vậy (thường mang nghĩa tiêu cực, bỏ mặc không làm việc đáng lẽ phải làm). Tôi cứ vứt tờ hóa đơn điện thoại trong cặp mà quên bẵng đi việc phải đi đóng tiền.",
+          "sentence_furigana": "携帯(けいたい)電話(でんわ)の請求書(せいきゅうしょ)をかばんに入れ(いれ)（　　）で、払う(はらう)のを忘れ(わすれ)ていた。",
+          "sentence_vi": "Tôi cứ vứt tờ hóa đơn tiền điện thoại trong cặp rồi quên béng đi mất chuyện phải đi thanh toán."
+        },
+        {
+          "id": 9,
+          "text": "A：こちらの商品は、定価の20%引きになりますよ。\nB：ということは、1万円が8,000円になる（　　）。",
+          "options": [
+            "ことか",
+            "ほどか",
+            "ものか",
+            "わけか"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わけだ」＝（相手の話を聞いて）なるほど、そういうことか（納得・結論）。20%引きだから1万円が8千円になるんだな、と納得している。",
+          "explanation_vi": "「〜わけか」 = Ra là vậy, thảo nào (hiểu ra lý do, kết luận lại lời của đối phương). Nghĩa là món đồ 1 man sẽ giảm xuống còn 8 sen phải không.",
+          "sentence_furigana": "A：こちらの商品(しょうひん)は、定価(ていか)の20%(にじっぱーせんと)引き(びき)になりますよ。\nB：ということは、1万円(いちまんえん)が8,000円(はっせんえん)になる（　　）。",
+          "sentence_vi": "A: Sản phẩm này đang được giảm giá 20% so với giá niêm yết ạ.\nB: Nghĩa là 1 man sẽ chỉ còn 8 sen chứ gì."
+        },
+        {
+          "id": 10,
+          "text": "昨日お電話をいただいたと聞き、ご連絡さしあげた（　　）です。",
+          "options": [
+            "うえ",
+            "こと",
+            "次第",
+            "もの"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜次第だ」＝〜という事情・理由だ（ビジネスなど改まった場面）。電話をいただいたと聞いて連絡した、という事情です。",
+          "explanation_vi": "「〜次第だ」 = Do đó, vì vậy (dùng để giải thích hoàn cảnh, lý do một cách trang trọng). Nghe nói hôm qua anh có gọi điện cho tôi nên hôm nay tôi mới liên lạc lại (sự tình là như vậy).",
+          "sentence_furigana": "昨日(きのう)お電話(でんわ)をいただいたと聞き(きき)、ご連絡(れんらく)さしあげた（　　）です。",
+          "sentence_vi": "Nghe tin hôm qua anh có gọi điện, vì thế nên hôm nay tôi mới liên lạc lại cho anh."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "こんなに忙しくては、とても長い休み ＿＿＿ ＿＿＿ ★ ＿＿＿ ない。",
+          "options": [
+            "なんて",
+            "とれ",
+            "も",
+            "そう"
+          ],
+          "correct_order": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "こんなに忙しくては、とても長い休み なんて とれ そう も ない。",
+          "explanation": "正しい語順は「なんて(1) とれ(2) そう(4) も(3)」。★は3番目なので「そう」。",
+          "explanation_vi": "Thứ tự đúng là: なんて(1) とれ(2) そう(4) も(3). Vị trí ngôi sao là 4 (そう). Bận rộn thế này thì có vẻ tôi không thể nào xin nghỉ dài ngày được rồi.",
+          "sentence_furigana": "こんなに忙しく(いそがしく)ては、とても長い(ながい)休み(やすみ) なんて とれ そう も ない。",
+          "sentence_vi": "Cứ bận rộn thế này thì có lẽ chẳng thể nào tôi xin nghỉ dài hạn được."
+        },
+        {
+          "id": 12,
+          "text": "行き先はまだ決めていないが ＿＿＿ ＿＿＿ ★ ＿＿＿ 帰らないつもりだ。",
+          "options": [
+            "にせよ",
+            "しばらく",
+            "どこへ",
+            "行く"
+          ],
+          "correct_order": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "行き先はまだ決めていないが どこへ 行く にせよ しばらく 帰らないつもりだ。",
+          "explanation": "正しい語順は「どこへ(3) 行く(4) にせよ(1) しばらく(2)」。★は3番目なので「にせよ」。",
+          "explanation_vi": "Thứ tự đúng là: どこへ(3) 行く(4) にせよ(1) しばらく(2). Vị trí ngôi sao là 1 (にせよ). Dù chưa quyết định điểm đến, nhưng dù có đi đâu đi chăng nữa thì tôi định sẽ không về nhà trong một khoảng thời gian.",
+          "sentence_furigana": "行き先(いきさき)はまだ決め(きめ)ていないが どこへ 行く(いく) にせよ しばらく 帰ら(かえら)ないつもりだ。",
+          "sentence_vi": "Dù chưa chốt được điểm đến nhưng mà cho dù đi đâu đi chăng nữa thì tôi cũng định tạm thời chưa về vội."
+        },
+        {
+          "id": 13,
+          "text": "長い間探していた本を見つけた ＿＿＿ ＿＿＿ ★ ＿＿＿ 飛び上がってしまった。",
+          "options": [
+            "もの",
+            "あまり",
+            "嬉しさの",
+            "だから"
+          ],
+          "correct_order": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "長い間探していた本を見つけた もの だから 嬉しさの あまり 飛び上がってしまった。",
+          "explanation": "正しい語順は「もの(1) だから(4) 嬉しさの(3) あまり(2)」。★は3番目なので「嬉しさの」。",
+          "explanation_vi": "Thứ tự đúng là: もの(1) だから(4) 嬉しさの(3) あまり(2). Vị trí ngôi sao là 3 (嬉しさの). Vì tìm được cuốn sách mà mình đã cất công tìm kiếm bấy lâu nay, tôi sướng quá nhảy cẫng cả lên.",
+          "sentence_furigana": "長い(ながい)間(あいだ)探し(さがし)ていた本(ほん)を見つけ(みつけ)た もの だから 嬉しさ(うれしさ)の あまり 飛び上がっ(とびあがっ)てしまった。",
+          "sentence_vi": "Vì tìm thấy cuốn sách mà mình đã lùng sục suốt bấy lâu nay, tôi sung sướng đến mức nhảy cẫng cả lên."
+        },
+        {
+          "id": 14,
+          "text": "今になって1週間も前になくした ＿＿＿ ＿＿＿ ★ ＿＿＿ っこないよ。",
+          "options": [
+            "見つかり",
+            "探した",
+            "財布を",
+            "って"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "今になって1週間も前になくした 財布を 探した って 見つかり っこないよ。",
+          "explanation": "正しい語順は「財布を(3) 探した(2) って(4) 見つかり(1)」。★は3番目なので「って」。",
+          "explanation_vi": "Thứ tự đúng là: 財布を(3) 探した(2) って(4) 見つかり(1). Vị trí ngôi sao là 4 (って). Bây giờ mới đi tìm cái ví đã làm mất từ tận 1 tuần trước thì làm sao mà tìm thấy cho được.",
+          "sentence_furigana": "今(いま)になって1週間(いっしゅうかん)も前(まえ)になくした 財布(さいふ)を 探し(さがし)た って 見つかり(みつかり) っこないよ。",
+          "sentence_vi": "Giờ này mới đi tìm cái ví bị mất từ tận một tuần trước thì làm sao mà tìm ra được cơ chứ."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　お昼前にコンビニに買い物に行こうとして、公園で懐かしい光景に出会った。\n　若いおとうさんと子供たち、おにいちゃんは小学一年生か二年生、妹は幼稚園の年長組って【１】かな、三人でキャッチボールをしていた。おにいちゃんも妹も新品のグローブをはめて、おとうさんが放るボールを追っかける。（中略）\n　顔よりグローブのほうが大きい妹は、おにいちゃんに文句ばかり【２】、すごく楽しそうだった。おにいちゃんはどうやらイチローのファンみたいで、背面キャッチに挑戦してはボールを頭で受けている。\n　でも、妹よりもおにいちゃんよりも楽しそうに笑っていたのは、やっぱりおとうさんだった。おにいちゃんも妹も、いつか、おとうさんといっしょにキャッチボールをしたことを懐かしく思い出すだろう。子供たちがひょっとして忘れてしまっても、おとうさんはよく晴れた休日のキャッチボールのことをぜったい、ぜーったいに【３】。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "こと",
+            "ほど",
+            "もの",
+            "ところ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜といったところだ」＝だいたい〜くらいだ（程度や状態の概算）。「幼稚園の年長組ぐらいかな」と推測している。",
+          "explanation_vi": "「〜といったところだ」 = Chắc vào khoảng ~ (đoán chừng mức độ). Câu này tác giả đoán \"đứa em gái thì chắc vào khoảng mẫu giáo lớn\"."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "言われてこそ",
+            "言われながらも",
+            "言われがちだが",
+            "言われてまでも"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ながらも」＝〜けれども（逆接）。お兄ちゃんに文句ばかり言われているけれど、すごく楽しそうだった。",
+          "explanation_vi": "「〜ながらも」 = Tuy ~ nhưng vẫn. Cô em gái tuy toàn bị anh trai cằn nhằn nhưng trông vẫn vô cùng vui vẻ."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "忘れないはずだ",
+            "忘れざるを得ない",
+            "忘れないつもりだ",
+            "忘れるどころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜はずだ」＝〜だと確信している（客観的な根拠に基づく強い推量）。「おとうさんは絶対に忘れない（に違いない）」と筆者が強く確信している。",
+          "explanation_vi": "「〜はずだ」 = Chắc chắn là ~, nhất định là ~ (dựa trên cơ sở khách quan để đưa ra kết luận chắc nịch). Tác giả tin chắc rằng \"người cha nhất định sẽ không bao giờ quên kỉ niệm đó\"."
+        }
+      ]
+    }
+  ]
+}

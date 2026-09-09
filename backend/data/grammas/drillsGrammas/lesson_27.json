@@ -1,0 +1,265 @@
+{
+  "lesson": 27,
+  "title": "第２７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "制度（　　）、男性社員も育児休暇を取ることが認められている。",
+          "options": [
+            "上は",
+            "上に",
+            "以上は",
+            "上には"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜上（じょう）は」＝〜の面では、〜の観点からは。制度の面では認められている。",
+          "explanation_vi": "「〜上（じょう）は」 = Về mặt ~, xét trên phương diện ~. Về mặt chế độ thì các nhân viên nam cũng được phép nghỉ thai sản.",
+          "sentence_furigana": "制度(せいど)（　　）、男性(だんせい)社員(しゃいん)も育児(いくじ)休暇(きゅうか)を取る(とる)ことが認め(みとめ)られている。",
+          "sentence_vi": "Về mặt chế độ thì các nhân viên nam cũng được cho phép nghỉ phép chăm sóc con cái."
+        },
+        {
+          "id": 2,
+          "text": "初めて会った人に自宅に招待され、夕食（　　）ごちそうになってしまった。",
+          "options": [
+            "さえ",
+            "すら",
+            "ほど",
+            "まで"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜まで」＝〜という極端なことまでも。自宅に招待されただけでなく、夕食までもごちそうになった。",
+          "explanation_vi": "「〜まで」 = Đến mức ~, thậm chí cả ~. Người mới gặp lần đầu không chỉ mời tôi đến nhà chơi, mà thậm chí còn thiết đãi cả bữa tối nữa.",
+          "sentence_furigana": "初めて(はじめて)会っ(あっ)た人(ひと)に自宅(じたく)に招待(しょうたい)され、夕食(ゆうしょく)（　　）ごちそうになってしまった。",
+          "sentence_vi": "Người mới gặp lần đầu không những mời tôi đến nhà mà thậm chí còn thiết đãi luôn cả bữa tối nữa."
+        },
+        {
+          "id": 3,
+          "text": "すぐ帰りますので、おかまい（　　）。",
+          "options": [
+            "なく",
+            "がちで",
+            "なしで",
+            "抜きで"
+          ],
+          "correct_answer": 1,
+          "explanation": "「おかまいなく」＝気を使わないでください、おもてなしは不要です（慣用表現）。",
+          "explanation_vi": "「おかまいなく」 = Xin đừng bận tâm, xin đừng khách sáo (cụm từ cố định dùng khi đến chơi nhà người khác). Vì tôi sẽ về ngay nên xin anh chị cứ tự nhiên, đừng bận tâm đến tôi.",
+          "sentence_furigana": "すぐ帰り(かえり)ますので、おかまい（　　）。",
+          "sentence_vi": "Vì tôi sẽ về ngay nên xin gia đình cứ tự nhiên, đừng bận tâm ạ."
+        },
+        {
+          "id": 4,
+          "text": "海へ行ったが、人が多すぎて泳ぐ（　　）ではなかった。",
+          "options": [
+            "はず",
+            "わけ",
+            "あまり",
+            "どころ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜どころではない」＝〜できるような状況ではない。人が多すぎて、とても泳げるような状況ではなかった。",
+          "explanation_vi": "「〜どころではない」 = Không phải là lúc ~, hoàn toàn không thể ~ (do hoàn cảnh không cho phép). Đi ra biển nhưng mà đông người quá, hoàn toàn không có chỗ nào mà bơi.",
+          "sentence_furigana": "海(うみ)へ行っ(いっ)たが、人(ひと)が多(おお)すぎて泳ぐ(およぐ)（　　）ではなかった。",
+          "sentence_vi": "Đi ra biển nhưng đông người quá đâm ra chẳng còn tâm trí/chỗ trống nào mà bơi lội."
+        },
+        {
+          "id": 5,
+          "text": "A：ごめんなさい。やっと就職が決まったから、嬉しくて飲みすぎちゃって……。\nB：ふーん、それで寝坊して、遅刻したって（　　）。",
+          "options": [
+            "はずか",
+            "もんか",
+            "わけか",
+            "ものやら"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜というわけか」＝（理由を聞いて）なるほど、そういう理由（事情）なのかと納得する。飲みすぎたから遅刻したということか、と納得している。",
+          "explanation_vi": "「〜というわけか」 = Ra là thế, thảo nào mà lại ~ (dùng khi nghe giải thích xong và hiểu ra vấn đề). A: Xin lỗi nha, khó khăn lắm mới xin được việc nên tớ vui quá uống hơi nhiều... B: Hừm, ra là vì thế nên mới ngủ quên rồi đi muộn chứ gì.",
+          "sentence_furigana": "A：ごめんなさい。やっと就職(しゅうしょく)が決まっ(きまっ)たから、嬉しくて(うれしくて)飲みすぎ(のみすぎ)ちゃって……。\nB：ふーん、それで寝坊(ねぼう)して、遅刻(ちこく)したって（　　）。",
+          "sentence_vi": "A: Xin lỗi nhé. Tại mãi mới xin được việc nên tớ vui quá uống hơi nhiều...\nB: Hừm, thảo nào mà ngủ quên rồi đi muộn chứ gì."
+        },
+        {
+          "id": 6,
+          "text": "兄は答えを知っている（　　）聞いても教えてくれない。",
+          "options": [
+            "せいで",
+            "ために",
+            "ものの",
+            "くせして"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜くせして／くせに」＝〜のに（相手への非難・不満）。知っているのに教えてくれない。",
+          "explanation_vi": "「〜くせして」 = Giống với くせに (Dù là ~ vậy mà, mang ý trách móc). Anh trai tôi biết đáp án đấy, thế mà tôi hỏi thì lại chẳng chịu chỉ cho tôi.",
+          "sentence_furigana": "兄(あに)は答え(こたえ)を知っ(しっ)ている（　　）聞い(きい)ても教え(おしえ)てくれない。",
+          "sentence_vi": "Anh trai tôi biết đáp án thế mà hỏi cũng không chịu chỉ cho."
+        },
+        {
+          "id": 7,
+          "text": "30代になっても遊んでばかりいる彼を、親が心配するのも（　　）。",
+          "options": [
+            "同然だ",
+            "違いない",
+            "もっともだ",
+            "ほかならない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜のももっともだ」＝〜するのも当然だ、当たり前だ。親が心配するのも当然だ。",
+          "explanation_vi": "「〜もっともだ」 = ~ là chuyện đương nhiên, hợp tình hợp lý. Đã sang tuổi 30 rồi mà anh ta vẫn cứ mải chơi lêu lổng, bố mẹ có lo lắng thì cũng là chuyện đương nhiên thôi.",
+          "sentence_furigana": "30代(さんじゅうだい)になっても遊ん(あそん)でばかりいる彼(かれ)を、親(おや)が心配(しんぱい)するのも（　　）。",
+          "sentence_vi": "Đã 30 tuổi đầu rồi mà vẫn cứ chơi bời lêu lổng, việc bố mẹ anh ta lo lắng âu cũng là chuyện đương nhiên."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "数人で始めた会社をここ ＿＿＿ ＿＿＿ ★ ＿＿＿ 、やはり社長は他の人とは違う。",
+          "options": [
+            "まで",
+            "だけ",
+            "あって",
+            "成長させた"
+          ],
+          "correct_order": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "数人で始めた会社をここ まで 成長させた だけ あって、やはり社長は他の人とは違う。",
+          "explanation": "正しい語順は「まで(1) 成長させた(4) だけ(2) あって(3)」。★は3番目なので「だけ」。\n「〜だけあって」＝〜という理由があるから、さすがにその通りだ。",
+          "explanation_vi": "Thứ tự đúng là: まで(1) 成長させた(4) だけ(2) あって(3). Vị trí ngôi sao là 2 (だけ).\n「〜だけあって」 = Quả đúng là ~ có khác (thể hiện sự khâm phục, khen ngợi). Quả đúng là người đã phát triển một công ty bắt đầu chỉ với vài người lên được đến tầm cỡ như bây giờ có khác, rõ ràng giám đốc đúng là có sự khác biệt so với người thường.",
+          "sentence_furigana": "数人(すうにん)で始め(はじめ)た会社(かいしゃ)をここ まで 成長(せいちょう)させた だけ あって、やはり社長(しゃちょう)は他(ほか)の人(ひと)とは違う(ちがう)。",
+          "sentence_vi": "Quả đúng là người đã nuôi nấng công ty từ mấy người lên được đến cỡ này có khác, giám đốc quả nhiên có sự khác biệt so với những người khác."
+        },
+        {
+          "id": 9,
+          "text": "この方法が必ずしも ＿＿＿ ＿＿＿ ★ ＿＿＿ か。",
+          "options": [
+            "最良",
+            "のではない",
+            "限らない",
+            "とは"
+          ],
+          "correct_order": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "この方法が必ずしも 最良 とは 限らない のではない か。",
+          "explanation": "正しい語順は「最良(1) とは(4) 限らない(3) のではない(2)」。★は3番目なので「限らない」。\n「必ずしも〜とは限らない」＝例外もあるので、必ず〜だとは言えない。「〜のではないか」＝〜と思うがどうだろうか（婉曲な意見）。",
+          "explanation_vi": "Thứ tự đúng là: 最良(1) とは(4) 限らない(3) のではない(2). Vị trí ngôi sao là 3 (限らない).\n「必ずしも〜とは限らない」 = Chưa chắc đã là, không hẳn là ~. Phương pháp này chưa chắc đã phải là phương án tốt nhất đâu nhỉ.",
+          "sentence_furigana": "この方法(ほうほう)が必ずしも(かならずしも) 最良(さいりょう) とは 限ら(かぎら)ない のではない か。",
+          "sentence_vi": "Phương pháp này chưa chắc đã phải là cách giải quyết tốt nhất đâu nhỉ."
+        },
+        {
+          "id": 10,
+          "text": "本番直前にトイレに ＿＿＿ ＿＿＿ ★ ＿＿＿ 、本当に困った。",
+          "options": [
+            "なって",
+            "たまらなく",
+            "行きたくて",
+            "しまって"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "本番直前にトイレに 行きたくて たまらなく なって しまって、本当に困った。",
+          "explanation": "正しい語順は「行きたくて(3) たまらなく(2) なって(1) しまって(4)」。★は3番目なので「なって」。\n「〜てたまらない」＝我慢できないくらい〜だ。行きたくて我慢できなくなってしまって、困った。",
+          "explanation_vi": "Thứ tự đúng là: 行きたくて(3) たまらなく(2) なって(1) しまって(4). Vị trí ngôi sao là 1 (なって).\n「〜てたまらない」 = Rất ~, vô cùng ~ (không kìm nén được). Ngay sát trước giờ diễn chính thức thì tôi lại mắc đi vệ sinh không chịu nổi, thật sự rất rắc rối.",
+          "sentence_furigana": "本番(ほんばん)直前(ちょくぜん)にトイレ(といれ)に 行き(いき)たくて たまらなく なっ(なっ)て しまって、本当(ほんとう)に困っ(こまっ)た。",
+          "sentence_vi": "Ngay sát trước giờ G thì tôi lại buồn đi vệ sinh không chịu nổi, đúng là khốn đốn thật sự."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　当図書館の貸出手続きは次の通りです。\n\n１．ご利用には貸出カードが必要となります。「貸出カード申込書」に必要事項を記入の【１】、図書館カウンターにお出しください。その際、ご本人確認をさせていただきますので、運転免許証やパスポート、学生証などの身分証明書が必要となります。\n\n２．一度に借りることができるのは、本と雑誌が合わせて10冊以内、CDが３点以内です。貸出期間は２週間ですが、１回【２】、１週間の延長が可能です。ただし、事前の連絡が必要です。\n\n３．お借りになった資料は、返却期限内に図書館の「返却カウンター」にお返しください。開館時間外のご返却は、入り口の横に設置してある「返却ポスト」に入れてください。ただし、CDは破損する【３】ので、ポストには入れず、必ず返却カウンターまでお持ちください。\n\n４．資料の返却が遅れると、その資料を【４】他の利用者の方にご迷惑がかかります。長期にわたって返却が遅れた場合には、延滞日数【５】、一定期間図書館の利用が制限されます。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "上",
+            "末",
+            "あげく",
+            "以上"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜の上（うえ）」＝〜したあとで。必要事項を記入したうえで、カウンターに提出してください。",
+          "explanation_vi": "「〜の上（うえ）」 = Sau khi làm V thì... Xin quý khách vui lòng nộp lại cho quầy tiếp tân sau khi đã điền đầy đủ các thông tin cần thiết vào form đăng ký thẻ mượn sách."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "に限り",
+            "にあたり",
+            "に対し",
+            "にかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に限り」＝〜だけは特別に（限定）。延長ができるのは「１回だけ」に限られている。",
+          "explanation_vi": "「〜に限り」 = Chỉ giới hạn trong ~, ngoại lệ chỉ dành cho ~. Người dùng chỉ được gia hạn thêm 1 tuần với giới hạn tối đa là 1 lần."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "次第です",
+            "おそれがあります",
+            "かいがあります",
+            "ことになっています"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜おそれがある」＝〜という悪いことが起こる可能性がある。CDはポストに入れると壊れる危険性がある。",
+          "explanation_vi": "「〜おそれがある」 = Có nguy cơ, e rằng sẽ ~. Tuy nhiên đối với đĩa CD thì có nguy cơ sẽ bị hỏng hóc nên xin đừng bỏ vào hộp thư mà hãy mang trực tiếp đến quầy tiếp tân."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "お待ちの",
+            "お待ちしている",
+            "待たされている",
+            "待ってくださる"
+          ],
+          "correct_answer": 1,
+          "explanation": "「お待ちの」＝待っている（尊敬語）。その資料を待っている他の利用者に迷惑がかかる。",
+          "explanation_vi": "「お待ちの」 = Tôn kính ngữ của 待っている. Sẽ làm phiền đến những vị khách khác đang mong ngóng tài liệu đó."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "にかけて",
+            "に応じて",
+            "に加えて",
+            "にこたえて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜に応じて」＝〜に合わせて。遅れた日数の長さに合わせて、利用制限の期間も決まる。",
+          "explanation_vi": "「〜に応じて」 = Tương ứng với ~, dựa theo ~. Trong trường hợp chậm trả dài ngày, thì tùy thuộc vào số ngày bị trễ mà người dùng sẽ bị hạn chế sử dụng thư viện trong một khoảng thời gian nhất định."
+        }
+      ]
+    }
+  ]
+}

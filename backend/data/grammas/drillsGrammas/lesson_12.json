@@ -1,0 +1,307 @@
+{
+  "lesson": 12,
+  "title": "第１２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "厳しいトレーニング（　　）、1回戦で負けてしまった。",
+          "options": [
+            "のかいもなく",
+            "のかいあって",
+            "をきっかけに",
+            "を抜きにして"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜のかいもなく」＝努力した効果や結果が出ずに（残念な気持ち）。厳しいトレーニングをした努力もむなしく、負けてしまった。",
+          "explanation_vi": "「〜のかいもなく」 = Mặc dù đã cất công ~, nhưng chẳng có kết quả gì (thể hiện sự tiếc nuối). Mặc dù đã tập luyện rất khắc nghiệt nhưng công sức bỏ ra chẳng được đền đáp, cuối cùng vẫn bị thua ngay từ vòng 1.",
+          "sentence_furigana": "厳しい(きびしい)トレーニング(とれーにんぐ)（　　）、1回戦(いっかいせん)で負け(まけ)てしまった。",
+          "sentence_vi": "Bõ công tập luyện khắc nghiệt, rốt cuộc lại bị thua ngay ở vòng đầu tiên."
+        },
+        {
+          "id": 2,
+          "text": "団体旅行ではなく、妻と二人（　　）で南の島にでも行きたい。",
+          "options": [
+            "限り",
+            "きり",
+            "以内",
+            "ぼっち"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜きり」＝〜だけ（限定）。他の人は入れず、妻と二人だけで。",
+          "explanation_vi": "「〜きり」 = Chỉ ~ (giới hạn số lượng). Không phải là đi du lịch theo đoàn, tôi muốn chỉ có hai vợ chồng đi đến một hòn đảo phía nam nào đó.",
+          "sentence_furigana": "団体(だんたい)旅行(りょこう)ではなく、妻(つま)と二人(ふたり)（　　）で南(みなみ)の島(しま)にでも行き(いき)たい。",
+          "sentence_vi": "Tôi không muốn đi du lịch theo đoàn, mà chỉ muốn có hai vợ chồng cùng nhau đi đến một hòn đảo phía nam nào đó."
+        },
+        {
+          "id": 3,
+          "text": "私の名前は、父の好きな女優の名が「さゆり」だった（　　）つけられたそうだ。",
+          "options": [
+            "ことから",
+            "ことなく",
+            "ことには",
+            "ことだから"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことから」＝〜という理由や原因で。女優の名前が「さゆり」だったという理由でつけられた。",
+          "explanation_vi": "「〜ことから」 = Bắt nguồn từ việc ~, vì lý do ~. Nghe nói tên của tôi được đặt bắt nguồn từ việc tên của nữ diễn viên mà bố tôi thích là Sayuri.",
+          "sentence_furigana": "私(わたし)の名前(なまえ)は、父(ちち)の好き(すき)な女優(じょゆう)の名(な)が「さゆり」だった（　　）つけられたそうだ。",
+          "sentence_vi": "Nghe nói tên của tôi được đặt như thế là do bố tôi thích một nữ diễn viên tên là Sayuri."
+        },
+        {
+          "id": 4,
+          "text": "A：新人のアルバイト、今日も遅刻でしたよ。\nB：前の人は無断で休むこともあったから、来る（　　）よ。",
+          "options": [
+            "だけましだ",
+            "だけのことはある",
+            "もんじゃない",
+            "わけでもない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜だけましだ」＝状況は良くないが、もっと悪い状況に比べれば少しは良い。遅刻でも、無断で休まないで来るだけまだ良い。",
+          "explanation_vi": "「〜だけましだ」 = Dù sao thì ~ vẫn còn tốt chán (so với một tình huống tồi tệ hơn). Người trước đó còn có khi tự ý nghỉ làm không xin phép, nên người này chịu đến làm đã là tốt chán rồi.",
+          "sentence_furigana": "A：新人(しんじん)のアルバイト(あるばいと)、今日(きょう)も遅刻(ちこく)でしたよ。\nB：前(まえ)の人(ひと)は無断(むだん)で休む(やすむ)こともあったから、来る(くる)（　　）よ。",
+          "sentence_vi": "A: Cậu nhân viên làm thêm mới vào hôm nay lại đến muộn đấy.\nB: Người trước còn hay tự ý nghỉ làm không xin phép, cậu này chịu đến là vẫn còn tốt chán rồi."
+        },
+        {
+          "id": 5,
+          "text": "大雨と強風の中、前に進もうにも、目を開けて（　　）ほどだった。",
+          "options": [
+            "ならない",
+            "いられない",
+            "かなわない",
+            "たまらない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜て(は)いられない」＝（状況的に・心理的に）〜し続けることはできない。目を開けたままの状態を維持できない。",
+          "explanation_vi": "「〜てはいられない」 = Không thể cứ tiếp tục ~ được (do tình huống hoặc tâm lý). Giữa cơn mưa to và gió lớn, muốn tiến lên phía trước nhưng lại chẳng thể nào mở nổi mắt ra.",
+          "sentence_furigana": "大雨(おおあめ)と強風(きょうふう)の中(なか)、前(まえ)に進もう(すすもう)にも、目(め)を開け(あけ)て（　　）ほどだった。",
+          "sentence_vi": "Giữa trời mưa to gió lớn, có muốn đi tiếp cũng không thể nào mở nổi mắt ra."
+        },
+        {
+          "id": 6,
+          "text": "新しい店長の方針（　　）、店を改装することにした。",
+          "options": [
+            "に沿って",
+            "に対して",
+            "を中心に",
+            "を通して"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に沿って」＝〜という方針や基準に合わせて。新しい店長の方針に合わせて改装する。",
+          "explanation_vi": "「〜に沿って」 = Tuân theo, dựa theo (phương châm, quy tắc). Dựa theo phương châm của cửa hàng trưởng mới, chúng tôi đã quyết định sẽ cải tạo lại cửa hàng.",
+          "sentence_furigana": "新しい(あたらしい)店長(てんちょう)の方針(ほうしん)（　　）、店(みせ)を改装(かいそう)することにした。",
+          "sentence_vi": "Dựa theo phương châm của cửa hàng trưởng mới, chúng tôi quyết định tiến hành cải tạo lại cửa hàng."
+        },
+        {
+          "id": 7,
+          "text": "聞くところによると、大学に合格された（　　）。よかったですね。",
+          "options": [
+            "こと",
+            "とか",
+            "とは",
+            "なら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜とか」＝〜ということを聞いた（不確実な伝聞）。合格されたと聞きました、よかったですね。",
+          "explanation_vi": "「〜とか」 = Nghe nói là ~ (truyền đạt lại thông tin). Theo như tôi nghe được thì hình như bạn đã đỗ đại học rồi. Chúc mừng nhé.",
+          "sentence_furigana": "聞く(きく)ところによると、大学(だいがく)に合格(ごうかく)された（　　）。よかったですね。",
+          "sentence_vi": "Nghe nói là em đã thi đậu đại học. Tuyệt vời quá."
+        },
+        {
+          "id": 8,
+          "text": "この食堂は、安い（　　）おいしいと評判だ。",
+          "options": [
+            "上で",
+            "上に",
+            "上は",
+            "上では"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜上に」＝〜に加えて、その上（良いこと・悪いことが重なる）。安いという良いことに加えて、おいしい。",
+          "explanation_vi": "「〜上に」 = Không chỉ ~ mà còn, thêm vào đó. Quán ăn này nổi tiếng là không chỉ rẻ mà còn ngon.",
+          "sentence_furigana": "この食堂(しょくどう)は、安い(やすい)（　　）おいしいと評判(ひょうばん)だ。",
+          "sentence_vi": "Quán ăn này có tiếng là không những rẻ mà đồ ăn lại còn ngon."
+        },
+        {
+          "id": 9,
+          "text": "明日の面接は将来に（　　）重要なものなので、失敗のないようにしなければ。",
+          "options": [
+            "関わる",
+            "かまわず",
+            "先立つ",
+            "基づく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に関わる」＝〜に重大な影響を及ぼす。将来に重大な影響を与える面接。",
+          "explanation_vi": "「〜に関わる」 = Liên quan đến, ảnh hưởng đến (những vấn đề quan trọng). Buổi phỏng vấn ngày mai là một buổi phỏng vấn quan trọng có ảnh hưởng đến cả tương lai sau này, nên tôi phải cố gắng không để xảy ra sai sót nào.",
+          "sentence_furigana": "明日(あす)の面接(めんせつ)は将来(しょうらい)に（　　）重要(じゅうよう)なものなので、失敗(しっぱい)のないようにしなければ。",
+          "sentence_vi": "Buổi phỏng vấn ngày mai rất quan trọng vì nó ảnh hưởng đến cả tương lai của tôi, do đó tôi phải làm sao để không xảy ra sai sót gì mới được."
+        },
+        {
+          "id": 10,
+          "text": "昨年の大会では準優勝だったが、今年こそ絶対に優勝（　　）。",
+          "options": [
+            "しかねない",
+            "してみせる",
+            "することか",
+            "するものか"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜てみせる」＝（困難だが）自分の強い決意・意志を表す。絶対に優勝を勝ち取ってみせる。",
+          "explanation_vi": "「〜てみせる」 = Nhất định sẽ làm ~ (cho mà xem), thể hiện quyết tâm mạnh mẽ. Ở giải đấu năm ngoái chỉ giành được giải nhì, nhưng năm nay thì tôi nhất định sẽ giành chức vô địch cho mà xem.",
+          "sentence_furigana": "昨年(さくねん)の大会(たいかい)では準優勝(じゅんゆうしょう)だったが、今年(ことし)こそ絶対(ぜったい)に優勝(ゆうしょう)（　　）。",
+          "sentence_vi": "Năm ngoái ở giải đấu tôi chỉ giành ngôi á quân, nhưng năm nay tôi nhất định sẽ vô địch cho mà xem."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "木村さんに会ったとたん、ずっと前から ＿＿＿ ＿＿＿ ★ ＿＿＿ 気がした。",
+          "options": [
+            "か",
+            "のような",
+            "だった",
+            "友だち"
+          ],
+          "correct_order": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "木村さんに会ったとたん、ずっと前から 友だち だった か のような 気がした。",
+          "explanation": "正しい語順は「友だち(4) だった(3) か(1) のような(2)」。★は3番目なので「か」。",
+          "explanation_vi": "Thứ tự đúng là: 友だち(4) だった(3) か(1) のような(2). Vị trí ngôi sao là 1 (か). Ngay khoảnh khắc vừa gặp anh Kimura, tôi đã có cảm giác cứ như thể chúng tôi đã là bạn bè từ rất lâu rồi vậy.",
+          "sentence_furigana": "木村(きむら)さんに会っ(あっ)たとたん、ずっと前(まえ)から 友だち(ともだち) だった か のような 気(き)がした。",
+          "sentence_vi": "Ngay khi vừa gặp anh Kimura, tôi đã có cảm giác cứ như thể chúng tôi là bạn bè từ rất lâu rồi."
+        },
+        {
+          "id": 12,
+          "text": "先生に薦められた本を ＿＿＿ ＿＿＿ ★ ＿＿＿ 、難しすぎて全然読めない。",
+          "options": [
+            "ものの",
+            "読もうと",
+            "買ってみた",
+            "思って"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "先生に薦められた本を 読もうと 思って 買ってみた ものの 、難しすぎて全然読めない。",
+          "explanation": "正しい語順は「読もうと(2) 思って(4) 買ってみた(3) ものの(1)」。★は3番目なので「買ってみた」。",
+          "explanation_vi": "Thứ tự đúng là: 読もうと(2) 思って(4) 買ってみた(3) ものの(1). Vị trí ngôi sao là 3 (買ってみた). Tôi định đọc cuốn sách mà thầy giới thiệu nên đã mua về rồi đấy, thế nhưng mà nó khó quá nên tôi chẳng đọc hiểu nổi chữ nào.",
+          "sentence_furigana": "先生(せんせい)に薦め(すすめ)られた本(ほん)を 読もう(よもう)と 思っ(おもっ)て 買っ(かっ)てみた ものの 、難し(むずかし)すぎて全然(ぜんぜん)読め(よめ)ない。",
+          "sentence_vi": "Định sẽ đọc nên tôi đã thử mua cuốn sách mà thầy giáo giới thiệu, nhưng nó khó quá tôi hoàn toàn không đọc nổi."
+        },
+        {
+          "id": 13,
+          "text": "今すぐに昔の ＿＿＿ ＿＿＿ ★ ＿＿＿ いうものだ。",
+          "options": [
+            "なんて",
+            "豊かな森を",
+            "無理と",
+            "取り戻そう"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "今すぐに昔の 豊かな森を 取り戻そう なんて 無理と いうものだ。",
+          "explanation": "正しい語順は「豊かな森を(2) 取り戻そう(4) なんて(1) 無理と(3)」。★は3番目なので「なんて」。",
+          "explanation_vi": "Thứ tự đúng là: 豊かな森を(2) 取り戻そう(4) なんて(1) 無理と(3). Vị trí ngôi sao là 1 (なんて). Mấy cái việc như là ngay lập tức lấy lại được khu rừng phong phú như ngày xưa, đúng là điều bất khả thi.",
+          "sentence_furigana": "今(いま)すぐに昔(むかし)の 豊か(ゆたか)な森(もり)を 取り戻そう(とりもどそう) なんて 無理(むり)と いうものだ。",
+          "sentence_vi": "Những việc kiểu như là đòi lấy lại ngay được khu rừng phong phú của ngày xưa đúng là một điều bất khả thi."
+        },
+        {
+          "id": 14,
+          "text": "ちょうど会社を ＿＿＿ ＿＿＿ ★ ＿＿＿ ものだから、帰れなくなってしまった。",
+          "options": [
+            "とした",
+            "ところに",
+            "出よう",
+            "電話があった"
+          ],
+          "correct_order": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "ちょうど会社を 出よう とした ところに 電話があった ものだから、帰れなくなってしまった。",
+          "explanation": "正しい語順は「出よう(3) とした(1) ところに(2) 電話があった(4)」。★は3番目なので「ところに」。",
+          "explanation_vi": "Thứ tự đúng là: 出よう(3) とした(1) ところに(2) 電話があった(4). Vị trí ngôi sao là 2 (ところに). Vừa đúng lúc tôi chuẩn bị ra khỏi công ty thì lại có điện thoại gọi đến, thành ra không về được nữa.",
+          "sentence_furigana": "ちょうど会社(かいしゃ)を 出よう(でよう) とした ところに 電話(でんわ)があった ものだから、帰れ(かえれ)なくなってしまった。",
+          "sentence_vi": "Bởi vì vừa đúng lúc tôi định ra khỏi công ty thì lại có điện thoại, thành ra tôi không về được nữa."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　日本人は風呂好きと言われている。この場合の「風呂好き」はシャワーを浴びることではなく、湯ぶねに入ることをいうことが多い。わざわざ湯ぶねにお湯をため、そこに全身をつけて体を温める。入る前には湯ぶねの外で全身を洗う。だから家族が同じ湯ぶねのお湯に入ること【１】。\n　一方、西洋式のいわゆるバスルーム【２】、清潔を保つ場所といえるだろう。ここにはトイレとバスタブ、つまり日本で言う湯ぶねが一緒にある。トイレは体の内部からのものを流し、バスタブでは体表面の汚れを流す。バスルームは体全体の汚れを落とすところなのだ。だから、西洋の人々【３】、バスタブのお湯を他の人と一緒に使うなどということは考えられない。\n　湯ぶねとバスタブは形は似ているが、実はまったく目的が違うのである。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "なにもない",
+            "なんでもない",
+            "なんにもない",
+            "なんともいえない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「なんでもないことだ」＝特別なことではない、普通のことだ。体を洗ってから入るから、家族が同じお湯に入るのは普通の（なんでもない）ことだ。",
+          "explanation_vi": "「なんでもない」 = Chẳng có gì to tát cả, là một chuyện hết sức bình thường. Bởi vì người Nhật rửa sạch cơ thể trước khi ngâm mình, nên việc cả gia đình cùng ngâm chung một bồn nước nóng là một chuyện hết sức bình thường (chẳng có gì phải bận tâm)."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "かといって",
+            "といっては",
+            "はというと",
+            "ということは"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜はというと」＝話題を切り替えて、「〜について言えば」という意味。日本のお風呂について述べた後、「一方、西洋のバスルームについて言えば」と話題を移している。",
+          "explanation_vi": "「〜はというと」 = Còn nói về ~, nhắc đến ~ thì (dùng để chuyển chủ đề). Sau khi nói về bồn tắm kiểu Nhật, tác giả chuyển sang nói: \"Mặt khác, nếu nói về phòng tắm kiểu phương Tây thì...\"."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "こそ",
+            "からすると",
+            "だけあって",
+            "のことだから"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜からすると」＝〜の視点や基準から判断すると。西洋の人々の視点から考えると、お湯を共有するのは考えられない。",
+          "explanation_vi": "「〜からすると」 = Xét từ góc độ của ~, nhìn từ quan điểm của ~. Nếu nhìn từ quan điểm của người phương Tây (nơi bồn tắm dùng để gột rửa bụi bẩn), thì việc dùng chung nước trong bồn với người khác là điều không thể tưởng tượng nổi."
+        }
+      ]
+    }
+  ]
+}

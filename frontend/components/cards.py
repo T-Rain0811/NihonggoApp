@@ -6,6 +6,7 @@ from PyQt6.QtGui import QColor, QPainter, QBrush, QCursor
 class ShadowWidget(QFrame):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.setAttribute(Qt.WidgetAttribute.WA_StyledBackground, True)
         self.setObjectName("CardWidget")
         
         shadow = QGraphicsDropShadowEffect(self)
@@ -73,6 +74,84 @@ class VocabCard(ShadowWidget):
         super().mousePressEvent(event)
 
 
+
+from PyQt6.QtWidgets import QWidget
+class ClickableWordWidget(QWidget):
+    clicked = pyqtSignal(str)
+    def __init__(self, w_data, parent=None):
+        super().__init__(parent)
+        self.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
+        self.word = w_data.get('word', '')
+        
+        lay = QHBoxLayout(self)
+        lay.setContentsMargins(0, 4, 0, 4)
+        
+        col1 = QVBoxLayout()
+        read_lbl = QLabel(w_data.get('reading', ''))
+        read_lbl.setStyleSheet("font-size: 12px; color: #4338CA;")
+        word_lbl = QLabel(self.word)
+        word_lbl.setStyleSheet("font-size: 18px; font-weight: bold; color: #111827;")
+        col1.addWidget(read_lbl)
+        col1.addWidget(word_lbl)
+        
+        col2 = QVBoxLayout()
+        mean_lbl = QLabel(w_data.get('meaning', ''))
+        mean_lbl.setStyleSheet("font-size: 14px; color: #374151;")
+        col2.setAlignment(Qt.AlignmentFlag.AlignVCenter)
+        col2.addWidget(mean_lbl)
+        
+        lay.addLayout(col1, 1)
+        lay.addLayout(col2, 2)
+        
+    def mousePressEvent(self, event):
+        if event.button() == Qt.MouseButton.LeftButton:
+            self.clicked.emit(self.word)
+        super().mousePressEvent(event)
+
+class PrefixCard(ShadowWidget):
+    clicked = pyqtSignal(str)
+    def __init__(self, item, parent=None):
+        super().__init__(parent)
+        layout = QHBoxLayout(self)
+        
+        left_layout = QVBoxLayout()
+        prefix_title = QLabel(item.get('prefix', ''))
+        prefix_title.setObjectName("CardTitle")
+        
+        prefix_meaning = QLabel(item.get('meaning', ''))
+        prefix_meaning.setObjectName("CardMeaning")
+        prefix_meaning.setWordWrap(True)
+        
+        left_layout.addWidget(prefix_title)
+        left_layout.addWidget(prefix_meaning)
+        left_layout.addStretch()
+        
+        right_layout = QVBoxLayout()
+        words = item.get('words', [])
+        for w in words:
+            w_widget = ClickableWordWidget(w)
+            w_widget.clicked.connect(self.clicked.emit)
+            right_layout.addWidget(w_widget)
+            
+            line = QFrame()
+            line.setFrameShape(QFrame.Shape.HLine)
+            line.setStyleSheet("background-color: #F3F4F6;")
+            right_layout.addWidget(line)
+        
+        left_widget = QWidget()
+        left_widget.setLayout(left_layout)
+        left_widget.setFixedWidth(250)
+        
+        layout.addWidget(left_widget)
+        
+        vline = QFrame()
+        vline.setFrameShape(QFrame.Shape.VLine)
+        vline.setStyleSheet("background-color: #E5E7EB;")
+        layout.addWidget(vline)
+        
+        layout.addLayout(right_layout)
+        layout.addStretch()
+
 class GrammarCard(ShadowWidget):
     def __init__(self, item, parent=None):
         super().__init__(parent)
@@ -83,7 +162,7 @@ class GrammarCard(ShadowWidget):
         title.setObjectName("CardTitle")
         
         formula = QLabel("Cấu trúc ngữ pháp")
-        formula.setObjectName("CardFormula")
+        formula.setObjectName("GrammarCardFormula")
         
         header_layout.addWidget(title)
         header_layout.addWidget(formula)
@@ -102,7 +181,7 @@ class GrammarCard(ShadowWidget):
         examples = item.get('examples', [])
         if examples:
             ex_label = QLabel("Ví dụ:")
-            ex_label.setStyleSheet("font-weight: bold; color: #4338CA; margin-top: 15px; margin-bottom: 5px;")
+            ex_label.setStyleSheet("font-weight: bold; color: #059669; margin-top: 15px; margin-bottom: 5px;")
             layout.addWidget(ex_label)
             for ex in examples:
                 jp = QLabel(f"• {ex.get('jp', '')}")

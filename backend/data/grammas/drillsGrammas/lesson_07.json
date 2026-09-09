@@ -1,0 +1,307 @@
+{
+  "lesson": 7,
+  "title": "第７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "海外旅行に行ったら、あいさつ（　　）はその国の言葉でしたいと思う。",
+          "options": [
+            "ほど",
+            "まで",
+            "ぐらい",
+            "ばかり"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ぐらい」＝せめて〜だけでも（程度の低さ）。他の言葉は話せなくても、せめて挨拶ぐらいは。",
+          "explanation_vi": "「〜ぐらい」 = Ít nhất là ~, cỡ như ~. Dù không nói được nhiều nhưng nếu đi du lịch nước ngoài thì tôi muốn nói được ít nhất là vài câu chào hỏi bằng ngôn ngữ của nước đó.",
+          "sentence_furigana": "海外(かいがい)旅行(りょこう)に行っ(いっ)たら、あいさつ（　　）はその国(くに)の言葉(ことば)でしたいと思う(おもう)。",
+          "sentence_vi": "Nếu đi du lịch nước ngoài, tôi muốn có thể nói được ít nhất là vài câu chào hỏi bằng ngôn ngữ của nước đó."
+        },
+        {
+          "id": 2,
+          "text": "寝坊した！もうどんなに急いでも、あの飛行機には間に合い（　　）。",
+          "options": [
+            "がたい",
+            "にくい",
+            "かねない",
+            "っこない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜っこない」＝絶対に〜しない（強い否定の推量）。急いでも絶対に間に合わない。",
+          "explanation_vi": "「〜っこない」 = Tuyệt đối không thể ~, chắc chắn không ~ (phủ định mạnh mẽ). Ngủ quên mất rồi! Giờ có vội cỡ nào đi nữa thì cũng tuyệt đối không thể kịp chuyến bay đó được đâu.",
+          "sentence_furigana": "寝坊(ねぼう)した！もうどんなに急い(いそい)でも、あの飛行機(ひこうき)には間に合い(まにあい)（　　）。",
+          "sentence_vi": "Ngủ quên mất rồi! Giờ có vội vàng cỡ nào đi chăng nữa thì cũng tuyệt đối không thể đuổi kịp chuyến bay đó."
+        },
+        {
+          "id": 3,
+          "text": "そんな服装で面接に行ったのなら、落とされ（　　）。",
+          "options": [
+            "得ない",
+            "て当然だ",
+            "てならない",
+            "て仕方がない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜て当然だ」＝〜して当たり前だ。あんな服装で行ったのだから、不合格になって当たり前だ。",
+          "explanation_vi": "「〜て当然だ」 = Là chuyện đương nhiên. Đi phỏng vấn mà ăn mặc như thế thì bị đánh trượt là chuyện quá đương nhiên.",
+          "sentence_furigana": "そんな服装(ふくそう)で面接(めんせつ)に行っ(いっ)たのなら、落とさ(おとさ)れ（　　）。",
+          "sentence_vi": "Nếu mà ăn mặc cái kiểu đó đi phỏng vấn thì bị trượt là chuyện đương nhiên thôi."
+        },
+        {
+          "id": 4,
+          "text": "敵に1点も与えず守り（　　）ゴールキーパーがMVPをとった。",
+          "options": [
+            "終えた",
+            "かけた",
+            "込んだ",
+            "抜いた"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜抜く」＝最後まで〜し続ける（困難を乗り越えて）。最後まで1点も取られずに守りきった。",
+          "explanation_vi": "「〜抜く」 = Làm gì đó đến cùng, hoàn thành trọn vẹn (vượt qua khó khăn). Thủ môn người mà đã bảo vệ khung thành đến cùng không để lọt lưới một bàn nào đã giành giải MVP.",
+          "sentence_furigana": "敵(てき)に1点(てん)も与え(あたえ)ず守り(まもり)（　　）ゴールキーパー(ごーるきーぱー)がMVPをとった。",
+          "sentence_vi": "Thủ môn đã bảo vệ khung thành đến cùng không để lọt lưới bàn nào đã xuất sắc giành giải MVP."
+        },
+        {
+          "id": 5,
+          "text": "行けるかどうかわからないけれど、もし行ける（　　）9時頃になります。",
+          "options": [
+            "と思えば",
+            "としたら",
+            "かと思ったら",
+            "としてみたら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜としたら」＝もし〜だとしたら（仮定）。もし行けるという仮定なら、9時になる。",
+          "explanation_vi": "「〜としたら」 = Giả sử như, nếu như ~. Không biết là tôi có đi được hay không, nhưng giả sử mà đi được thì chắc khoảng 9 giờ tôi mới đến.",
+          "sentence_furigana": "行ける(いける)かどうかわからないけれど、もし行ける(いける)（　　）9時頃(じごろ)になります。",
+          "sentence_vi": "Tuy chưa biết có đi được không, nhưng giả sử mà đi được thì cũng phải tầm 9 giờ tôi mới đến."
+        },
+        {
+          "id": 6,
+          "text": "私は魚が嫌いです。焼いてある（　　）、生で食べるなんてできません。",
+          "options": [
+            "ならまだしも",
+            "にしてみたら",
+            "からといって",
+            "とはいうものの"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ならまだしも」＝〜ならまだ許容できるが（後ろはさらに悪い状況）。焼いてあればまだしも、生なんて無理だ。",
+          "explanation_vi": "「〜ならまだしも」 = Nếu là ~ thì còn đỡ (nhưng đằng này lại...). Tôi rất ghét ăn cá. Cá nướng chín thì còn tàm tạm chứ ăn sống thì tôi chịu không ăn nổi.",
+          "sentence_furigana": "私(わたし)は魚(さかな)が嫌い(きらい)です。焼い(やい)てある（　　）、生(なま)で食べる(たべる)なんてできません。",
+          "sentence_vi": "Tôi ghét cá. Nếu nướng lên thì còn đỡ, chứ bảo tôi ăn sống thì tôi không thể nào nuốt nổi."
+        },
+        {
+          "id": 7,
+          "text": "まだ17歳（　　）高校生が、今年の小説大賞を受賞した。",
+          "options": [
+            "とする",
+            "ばかりの",
+            "にすぎない",
+            "に相違ない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にすぎない」＝ただ〜だけだ。まだたった17歳の高校生でしかないのに。",
+          "explanation_vi": "「〜にすぎない」 = Chẳng qua chỉ là ~, mới chỉ là ~. Một học sinh trung học phổ thông mới chỉ 17 tuổi mà đã giành được giải thưởng Tiểu thuyết lớn nhất năm nay.",
+          "sentence_furigana": "まだ17歳(さい)（　　）高校生(こうこうせい)が、今年(ことし)の小説(しょうせつ)大賞(たいしょう)を受賞(じゅしょう)した。",
+          "sentence_vi": "Một cậu học sinh cấp 3 mới chỉ 17 tuổi đã xuất sắc đoạt giải thưởng Tiểu thuyết của năm nay."
+        },
+        {
+          "id": 8,
+          "text": "今日は娘の合格発表なので、朝から気になって仕事（　　）ではない。",
+          "options": [
+            "ぐらい",
+            "どころ",
+            "ばかり",
+            "というもの"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜どころではない」＝〜している余裕や状況ではない。気になって仕事をする状況ではない。",
+          "explanation_vi": "「〜どころではない」 = Chẳng còn tâm trí đâu mà ~, không phải lúc để ~. Hôm nay là ngày thông báo kết quả thi của con gái, tôi lo lắng từ sáng nên chẳng còn tâm trí đâu mà làm việc nữa.",
+          "sentence_furigana": "今日(きょう)は娘(むすめ)の合格(ごうかく)発表(はっぴょう)なので、朝(あさ)から気(き)になって仕事(しごと)（　　）ではない。",
+          "sentence_vi": "Hôm nay là ngày công bố kết quả thi của con gái tôi, lo từ sáng đến giờ nên tôi chẳng còn tâm trí đâu mà làm việc."
+        },
+        {
+          "id": 9,
+          "text": "弟は父親の帰りを待ち（　　）、駅まで迎えに行った。",
+          "options": [
+            "つつ",
+            "かけて",
+            "かねて",
+            "すぎて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜つつ」＝〜しながら（ここでは動作の継続や同時進行）。待ちながら駅まで行った。",
+          "explanation_vi": "「〜つつ」 = Vừa ~ vừa ~. Em trai tôi vừa ngóng đợi bố về vừa ra tận nhà ga để đón.",
+          "sentence_furigana": "弟(おとうと)は父親(ちちおや)の帰り(かえり)を待ち(まち)（　　）、駅(えき)まで迎え(むかえ)に行っ(いっ)た。",
+          "sentence_vi": "Em trai tôi đã đi ra tận nhà ga để vừa đón vừa ngóng bố về."
+        },
+        {
+          "id": 10,
+          "text": "事故を起こしてから、二度とバイクには（　　）と決めた。",
+          "options": [
+            "乗らざる",
+            "乗るまい",
+            "乗りかねる",
+            "乗り得ない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜まい」＝絶対に〜しない（強い否定の意志）。二度と乗らないと決めた。",
+          "explanation_vi": "「〜まい」 = Tuyệt đối không ~, quyết không ~. Kể từ sau khi gây ra tai nạn, tôi đã tự nhủ với lòng sẽ không bao giờ lái xe máy thêm một lần nào nữa.",
+          "sentence_furigana": "事故(じこ)を起こし(おこし)てから、二度と(にどと)バイク(ばいく)には（　　）と決め(きめ)た。",
+          "sentence_vi": "Sau khi gây ra tai nạn, tôi đã quyết định sẽ không bao giờ đụng đến xe máy nữa."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "彼はサッカー ＿＿＿ ＿＿＿ ★ ＿＿＿ 、モデルとしても活躍している。",
+          "options": [
+            "のみ",
+            "である",
+            "選手",
+            "ならず"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "彼はサッカー 選手 である のみ ならず 、モデルとしても活躍している。",
+          "explanation": "正しい語順は「選手(3) である(2) のみ(1) ならず(4)」。★は3番目なので「のみ」。",
+          "explanation_vi": "Thứ tự đúng là: 選手(3) である(2) のみ(1) ならず(4). Vị trí ngôi sao là 1 (のみ). Anh ấy không chỉ là một cầu thủ bóng đá mà còn hoạt động năng nổ với tư cách là một người mẫu.",
+          "sentence_furigana": "彼(かれ)はサッカー(さっかー) 選手(せんしゅ) である のみ ならず 、モデル(もでる)としても活躍(かつやく)している。",
+          "sentence_vi": "Anh ấy không chỉ là một cầu thủ bóng đá mà còn đang hoạt động rất tích cực trong vai trò người mẫu."
+        },
+        {
+          "id": 12,
+          "text": "失恋したから ＿＿＿ ＿＿＿ ★ ＿＿＿ ない。",
+          "options": [
+            "泣いて",
+            "いられ",
+            "ばかりも",
+            "といって"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "失恋したから といって 泣いて ばかりも いられ ない。",
+          "explanation": "正しい語順は「といって(4) 泣いて(1) ばかりも(3) いられ(2)」。★は3番目なので「ばかりも」。",
+          "explanation_vi": "Thứ tự đúng là: といって(4) 泣いて(1) ばかりも(3) いられ(2). Vị trí ngôi sao là 3 (ばかりも). Dù là thất tình đi chăng nữa thì tôi cũng không thể cứ khóc mãi như vậy được.",
+          "sentence_furigana": "失恋(しつれん)したから といって 泣い(ない)て ばかりも いられ ない。",
+          "sentence_vi": "Tuy nói là thất tình đi chăng nữa thì tôi cũng chẳng thể cứ khóc lóc ủ rũ mãi được."
+        },
+        {
+          "id": 13,
+          "text": "住むところは、ただ単に ＿＿＿ ＿＿＿ ★ ＿＿＿ でもない。",
+          "options": [
+            "いい",
+            "という",
+            "広ければ",
+            "もの"
+          ],
+          "correct_order": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "住むところは、ただ単に 広ければ いい という もの でもない。",
+          "explanation": "正しい語順は「広ければ(3) いい(1) という(2) もの(4)」。★は3番目なので「という」。",
+          "explanation_vi": "Thứ tự đúng là: 広ければ(3) いい(1) という(2) もの(4). Vị trí ngôi sao là 2 (という). Nơi ở không phải cứ rộng rãi là tốt đâu.",
+          "sentence_furigana": "住む(すむ)ところは、ただ単に(たんに) 広けれ(ひろけれ)ば いい という もの でもない。",
+          "sentence_vi": "Nơi để sống không phải cứ đơn thuần là rộng rãi thì là tốt."
+        },
+        {
+          "id": 14,
+          "text": "この困難な時にこそ、力を ＿＿＿ ＿＿＿ ★ ＿＿＿ か。",
+          "options": [
+            "助け",
+            "ではない",
+            "合おう",
+            "合わせて"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "この困難な時にこそ、力を 合わせて 助け 合おう ではない か。",
+          "explanation": "正しい語順は「合わせて(4) 助け(1) 合おう(3) ではない(2)」。★は3番目なので「合おう」。",
+          "explanation_vi": "Thứ tự đúng là: 合わせて(4) 助け(1) 合おう(3) ではない(2). Vị trí ngôi sao là 3 (合おう). Chính trong những lúc khó khăn như thế này, chúng ta hãy đồng tâm hiệp lực và giúp đỡ lẫn nhau nhé.",
+          "sentence_furigana": "この困難(こんなん)な時(とき)にこそ、力(ちから)を 合わせ(あわせ)て 助け(たすけ) 合おう(あおう) ではない か。",
+          "sentence_vi": "Chính trong những lúc khó khăn như thế này, sao chúng ta không hợp sức lại để giúp đỡ lẫn nhau nhỉ?"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私は電話が嫌いだ。連絡はもっぱらメールを利用する。\n　なぜか。それは、電話には、受ける側の自由がないからである。メールの利点【１】、世界中の人々に瞬時にメッセージが送れることだと多くの人は思っているに違いない。だが、それよりも大きな利点は、受け手がそのメッセージをいつ読んでいつ返事するかを自由に選べることにあるのではないかと私は思う。\n　ところが電話は、完全に連絡する側の都合だ。受ける側がどんなに【２】、電話をかけた瞬間、相手の電話は鳴る。携帯だと履歴が残るので、たいした用事でもないのに、相手がかけ直してくることもある。自分の用事でかけたのに、わざわざ相手にかけさせてしまうことになる【３】、私はとても電話をする気にはならないのである。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "といえば",
+            "としても",
+            "とすれば",
+            "となると"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜といえば」＝〜に関して言うと、〜の話題が出たなら。メールの利点という話題を挙げて、「それについて言えば」という意味。",
+          "explanation_vi": "「〜といえば」 = Nếu nói về ~. Nếu nhắc đến ưu điểm của việc sử dụng email thì chắc hẳn rất nhiều người sẽ nghĩ ngay đến việc nó có thể gửi tin nhắn tức thì cho mọi người trên toàn thế giới."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "忙しくても",
+            "忙しくしても",
+            "忙しいものでも",
+            "忙しいことか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「どんなに〜ても」＝いくら〜であっても（逆接の仮定条件）。どんなに忙しくても、かかってくれば電話は鳴る。",
+          "explanation_vi": "Cấu trúc 「どんなに〜ても」 mang nghĩa \"Cho dù có... đến mức nào đi chăng nữa\". Người nhận cho dù có đang bận bịu đến thế nào đi chăng nữa thì tiếng chuông điện thoại vẫn cứ vang lên."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "あまり",
+            "としても",
+            "も同然で",
+            "かと思うと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜かと思うと」＝〜ということを考えると。「相手にわざわざかけさせてしまうことになる」ということを考えると、電話をする気にならない。",
+          "explanation_vi": "「〜かと思うと」 = Cứ nghĩ đến việc ~. Cứ mỗi lần nghĩ đến việc mình gọi vì việc riêng mà lại làm phiền người ta phải tốn công gọi lại cho mình, tôi lại chẳng muốn gọi điện thoại một chút nào."
+        }
+      ]
+    }
+  ]
+}

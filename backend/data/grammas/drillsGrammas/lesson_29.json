@@ -1,0 +1,265 @@
+{
+  "lesson": 29,
+  "title": "第２９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "笑っては失礼かと（　　）、我慢できずに笑ってしまった。",
+          "options": [
+            "思いつつ",
+            "思ってこそ",
+            "思うばかりに",
+            "思ったきり"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜つつ（も）」＝〜けれども、〜のに（逆接）。失礼かと思いながらも、笑ってしまった。",
+          "explanation_vi": "「〜つつ（も）」 = Mặc dù ~, dẫu biết là ~ nhưng (vẫn làm hành động trái ngược). Dẫu nghĩ rằng cười thì sẽ hơi vô duyên, nhưng tôi không thể kìm nén được mà bật cười mất tiêu.",
+          "sentence_furigana": "笑っ(わらっ)ては失礼(しつれい)かと（　　）、我慢(がまん)できずに笑っ(わらっ)てしまった。",
+          "sentence_vi": "Biết là cười thì sẽ thất lễ lắm nhưng mà tôi không nhịn được mà bật cười thành tiếng."
+        },
+        {
+          "id": 2,
+          "text": "記事というものは、感情に流される（　　）事実を正確に書かなければならない。",
+          "options": [
+            "のみか",
+            "わりに",
+            "ことなく",
+            "にしては"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ことなく」＝〜しないで。感情に流されないで事実を書く。",
+          "explanation_vi": "「〜ことなく」 = Không ~, mà không ~. Đã là các bài báo thì phải viết dựa trên sự thật một cách chính xác mà không bị chi phối bởi cảm tính.",
+          "sentence_furigana": "記事(きじ)というものは、感情(かんじょう)に流さ(ながさ)れる（　　）事実(じじつ)を正確(せいかく)に書か(かか)なければならない。",
+          "sentence_vi": "Những thứ như là bài báo thì cần phải viết một cách chính xác sự thật mà không được để cảm tính xen vào."
+        },
+        {
+          "id": 3,
+          "text": "文化や習慣や宗教（　　）その国のことを理解するのは無理だろう。",
+          "options": [
+            "によらず",
+            "を問わず",
+            "にかかわらず",
+            "を抜きにして"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜を抜きにして」＝〜を考えに入れないで。文化や習慣を除外して理解することは無理だ。",
+          "explanation_vi": "「〜を抜きにして（は〜ない）」 = Bỏ qua ~, nếu không có ~ thì (không thể). Nếu bỏ qua văn hóa, phong tục hay tôn giáo, thì có lẽ sẽ không thể nào thấu hiểu được đất nước đó.",
+          "sentence_furigana": "文化(ぶんか)や習慣(しゅうかん)や宗教(しゅうきょう)（　　）その国(くに)のことを理解(りかい)するのは無理(むり)だろう。",
+          "sentence_vi": "Nếu bỏ qua các yếu tố như văn hóa, phong tục hay tôn giáo thì có lẽ sẽ chẳng thể nào thấu hiểu được đất nước đó."
+        },
+        {
+          "id": 4,
+          "text": "今朝はバナナを1本食べた（　　）なので、もうお腹が空いてきた。",
+          "options": [
+            "ほど",
+            "まま",
+            "きり",
+            "ばかり"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜きり」＝それだけ（限定）。バナナを１本食べただけで、他には何も食べていないから、お腹が空いた。",
+          "explanation_vi": "「〜きり」 = Chỉ có ~, vỏn vẹn (đi với số lượng ít, thể hiện sự giới hạn). Sáng nay tôi chỉ ăn vỏn vẹn mỗi một quả chuối nên bây giờ đã thấy đói meo rồi.",
+          "sentence_furigana": "今朝(けさ)はバナナ(ばなな)を1本(いっぽん)食べ(たべ)た（　　）なので、もうお腹(おなか)が空い(すい)てきた。",
+          "sentence_vi": "Sáng nay tôi mới lót dạ chỉ vỏn vẹn có một quả chuối nên giờ bụng đã biểu tình rồi."
+        },
+        {
+          "id": 5,
+          "text": "新しい学校にはじめはとまどっていたが、子ども（　　）すぐに慣れるだろう。",
+          "options": [
+            "ながらも",
+            "に限って",
+            "のわりには",
+            "のことだから"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜のことだから」＝〜の性格や普段の態度から判断すると（きっと〜だろう）。子どもの性格や柔軟性から考えると、すぐに慣れるだろう。",
+          "explanation_vi": "「〜のことだから」 = Ai chứ ~ thì chắc chắn là (dựa trên tính cách, bản chất của người đó để suy đoán). Ban đầu thì còn bỡ ngỡ với ngôi trường mới thật đấy, nhưng bản tính trẻ con dễ thích nghi nên chắc hẳn sẽ quen ngay thôi mà.",
+          "sentence_furigana": "新しい(あたらしい)学校(がっこう)にはじめはとまどっていたが、子ども(こども)（　　）すぐに慣れる(なれる)だろう。",
+          "sentence_vi": "Ban đầu với ngôi trường mới thì còn bỡ ngỡ đấy, nhưng mà trẻ con nên rồi sẽ quen ngay ấy mà."
+        },
+        {
+          "id": 6,
+          "text": "渋滞していた（　　）、ずいぶん早く着いたね。",
+          "options": [
+            "あまりに",
+            "としては",
+            "にしては",
+            "ばかりか"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にしては」＝〜という状況から予想されるのとは違って。渋滞していたという事実からすると、意外に早く着いた。",
+          "explanation_vi": "「〜にしては」 = Thế mà lại, vậy mà (chỉ kết quả khác với dự đoán thông thường từ một tình huống). Đường tắc thế mà cậu lại đến sớm hơn dự đoán nhiều nhỉ.",
+          "sentence_furigana": "渋滞(じゅうたい)していた（　　）、ずいぶん早く(はやく)着い(つい)たね。",
+          "sentence_vi": "Kẹt xe như thế mà cậu lại tới nơi sớm phết nhỉ."
+        },
+        {
+          "id": 7,
+          "text": "周りに反対された（　　）、むしろやってやろうと思った。",
+          "options": [
+            "からこそ",
+            "からといって",
+            "といって",
+            "ということは"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜からこそ」＝ほかの理由ではなく、まさにその理由で。反対されたという理由があったから、逆にやる気になった。",
+          "explanation_vi": "「〜からこそ」 = Chính vì ~ (nhấn mạnh lý do). Chính vì bị những người xung quanh phản đối, nên tôi lại càng có động lực muốn làm cho bằng được.",
+          "sentence_furigana": "周り(まわり)に反対(はんたい)された（　　）、むしろやってやろうと思っ(おもっ)た。",
+          "sentence_vi": "Chính vì bị những người xung quanh phản đối nên tôi lại càng quyết tâm phải làm cho bằng được."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "その犬は、 ＿＿＿ ＿＿＿ ★ ＿＿＿ 走り出していった。",
+          "options": [
+            "見えないか",
+            "見えるか",
+            "飼い主の姿が",
+            "のうちに"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "その犬は、 飼い主の姿が 見えるか 見えないか のうちに 走り出していった。",
+          "explanation": "正しい語順は「飼い主の姿が(3) 見えるか(2) 見えないか(1) のうちに(4)」。★は3番目なので「見えないか」。\n「〜か〜ないかのうちに」＝〜すると同時くらいに（〜が終わるか終わらないかの短い時間で）。",
+          "explanation_vi": "Thứ tự đúng là: 飼い主の姿が(3) 見えるか(2) 見えないか(1) のうちに(4). Vị trí ngôi sao là 1 (見えないか).\n「〜か〜ないかのうちに」 = Ngay khi vừa mới ~ (gần như đồng thời). Con chó đó vội vàng cắm cổ chạy đi ngay khi vừa thoắt bóng thấy người chủ.",
+          "sentence_furigana": "その犬(いぬ)は、 飼い主(かいぬし)の姿(すがた)が 見える(みえる)か 見えない(みえない)か のうちに 走り出し(はしりだし)ていった。",
+          "sentence_vi": "Con chó đó vừa thấp thoáng thấy bóng dáng người chủ cái là đã vội vàng lao đi ngay."
+        },
+        {
+          "id": 9,
+          "text": "景気が ＿＿＿ ＿＿＿ ★ ＿＿＿ での増税は、国民が許さないだろう。",
+          "options": [
+            "まだしも",
+            "なら",
+            "いい",
+            "この不況下"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "景気が いい なら まだしも この不況下 での増税は、国民が許さないだろう。",
+          "explanation": "正しい語順は「いい(3) なら(2) まだしも(1) この不況下(4)」。★は3番目なので「まだしも」。\n「〜ならまだしも」＝〜ならまだ許せるが（実際はひどい状態だから許せない）。景気がいいならまだしも、この不況の時に増税するのは許されない。",
+          "explanation_vi": "Thứ tự đúng là: いい(3) なら(2) まだしも(1) この不況下(4). Vị trí ngôi sao là 1 (まだしも).\n「〜ならまだしも」 = Nếu là ~ thì còn tạm chấp nhận được. Tình hình kinh tế khấm khá thì còn đỡ, đằng này lại tăng thuế ngay giữa bối cảnh suy thoái thế này thì nhân dân chắc chắn sẽ không thể chấp nhận được.",
+          "sentence_furigana": "景気(けいき)が いい なら まだしも この不況(ふきょう)下(か) での増税(ぞうぜい)は、国民(こくみん)が許さ(ゆるさ)ないだろう。",
+          "sentence_vi": "Kinh tế mà phát triển thì còn thông cảm được, chứ tăng thuế ngay giữa thời kỳ suy thoái thế này thì người dân chắc chắn không để yên đâu."
+        },
+        {
+          "id": 10,
+          "text": "信じ ＿＿＿ ＿＿＿ ★ ＿＿＿ 部長が退職することになったそうだ。",
+          "options": [
+            "限りで",
+            "がたい",
+            "今月",
+            "ことに"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "信じ がたい ことに 今月 限りで 部長が退職することになったそうだ。",
+          "explanation": "正しい語順は「がたい(2) ことに(4) 今月(3) 限りで(1)」。★は3番目なので「今月」。\n「信じがたい」＝信じるのが難しい。「〜限りで」＝〜を最後に。「〜ことに」＝〜なことには（感情を前に出して強調する）。",
+          "explanation_vi": "Thứ tự đúng là: がたい(2) ことに(4) 今月(3) 限りで(1). Vị trí ngôi sao là 3 (今月).\n「〜がたい」 = Khó mà ~. 「〜限りで」 = Hết ~, cho đến hết ~ (thời gian). Thật khó có thể tin được, nghe nói trưởng phòng sẽ nghỉ việc vào cuối tháng này.",
+          "sentence_furigana": "信じ(しんじ) がたい ことに 今月(こんげつ) 限り(かぎり)で 部長(ぶちょう)が退職(たいしょく)することになったそうだ。",
+          "sentence_vi": "Thật khó tin, nghe nói trưởng phòng sẽ nghỉ việc sau khi hết tháng này."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私は自転車に乗れるようになるまでに、かなり苦労をしたほうだと思う。友人や知人の話をきく【１】、皆それほどたいした苦労もなく乗れている人が多い。なんとなく乗ったら乗れたとか、いつのまにか乗れるようになっていたとか、【２】夢か魔法でも使ったのかと言いたい話ばかりである。\n　私の場合にはまさに血と汗と涙の特訓であった。一度目は、小学校二年の夏に友人の勧めで練習をすることになった。（中略）\n　友人は既にのれるので「さあ、がんばっていこう。カンタンカンタン」と気軽に言う。初めはその言葉にのせられ、ああそうか、カンタンなのかと両足を地面から離したとたんに転んだ。全然話が違うではないか。これの【3-a】カンタンな【3-b】。少し考えればわかる事だが、このふたつしかない車輪が地面に立つわけはないのである。だから両足を地面から離したら転ぶに決まっている。冗談ではない、この友人は何てことを私にさせるのであろう。そんな思いが湧いていた。私は友人に「乗れるわけないよ。コレ、転ぶに決まってるじゃん。両足離したらすぐ転ぶ【４】」と文句を言った。しかし友人は「転ぶ前にこぐんだよ。そうすれば転ばないで前に進むんだから。ホントだよ」と言う。\n　ホントかなァ…と【５】、もう一回やってみる。ダメである。やはり転ぶ。転ぶ前にペダルに足をかけてそれを回すなどという余裕は全くない。とにかく、地面から足を離すと同時に車体は傾くのである。どうしようもない。\n（さくらももこ著『あのころ』集英社刊　※一部省略あり）",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "上では",
+            "限りでは",
+            "からには",
+            "折には"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜限りでは」＝〜の範囲からの情報によれば（「聞く限りでは」「見る限りでは」などと使う）。友人から聞いた話の範囲では、皆苦労なく乗れている。",
+          "explanation_vi": "「〜限りでは」 = Theo như, trong giới hạn mà (tôi biết, tôi nghe được). \"Theo như những gì tôi nghe được từ bạn bè và người quen, thì hầu hết mọi người đều có thể đi được xe đạp mà không mất quá nhiều công sức.\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "私からみれば",
+            "言わせてもらえば",
+            "言うなれば",
+            "そうなってみれば"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜からみれば」＝〜の立場・視点から考えると。苦労せずに乗れたという他人の話は、苦労している「私」の立場から考えると、まるで魔法を使ったかのようだ。",
+          "explanation_vi": "「〜からみれば」 = Nhìn từ góc độ của ~, xét theo quan điểm của ~. \"Nhìn từ góc độ của tôi mà nói thì những mẩu chuyện kiểu như thế cứ như thể là họ đang mơ hay là đã sử dụng phép thuật vậy.\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "a どこが／b ものか",
+            "a どこが／b ものだ",
+            "a どこも／b ものではない",
+            "a どこも／b ものなのだ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものか（もんか）」＝絶対に〜ない（強い否定の気持ち）。これのどこがカンタンなものか（＝いや、絶対にカンタンじゃない！）。",
+          "explanation_vi": "「どこが〜ものか」 = Cái chỗ nào mà ~ cơ chứ! (nhấn mạnh sự phủ định mạnh mẽ). \"Làm quái gì có chỗ nào là đơn giản cơ chứ! Hơi ngẫm lại một chút là hiểu, cái thứ chỉ có hai bánh xe này làm sao mà có thể đứng vững trên mặt đất được cơ chứ.\""
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "つけ",
+            "っぽい",
+            "かな",
+            "もん"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜もん（もの）」＝〜だから（理由を主張したり言い訳したりする口語表現）。すぐ転ぶから乗れないんだ、という言い訳。",
+          "explanation_vi": "「〜もん」 = Là vì ~ mà (dùng trong văn nói, thể hiện lý do với chút hờn dỗi hoặc phân bua). \"Có mà đi bằng mắt ấy. Cái này kiểu gì chả ngã. Cứ nhấc hai chân lên một cái là ngã luôn cho mà xem\" - Tôi đã cằn nhằn với bạn tôi như thế."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "疑ってこそ",
+            "疑うまま",
+            "疑いつつ",
+            "疑った以上"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜つつ（も）」＝〜ながら（逆接）。「本当に乗れるのかなぁ」と疑いの気持ちを持ちながらも、もう一回やってみる。",
+          "explanation_vi": "「〜つつ」 = Vừa ~ vừa (làm 2 hành động cùng lúc) hoặc Mặc dù ~ (diễn tả sự đối lập). \"Dẫu mang theo sự hoài nghi không biết có thật là như lời bạn tôi nói không, tôi lại thử đạp thêm một lần nữa.\""
+        }
+      ]
+    }
+  ]
+}

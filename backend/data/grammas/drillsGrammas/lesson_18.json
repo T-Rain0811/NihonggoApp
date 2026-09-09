@@ -1,0 +1,265 @@
+{
+  "lesson": 18,
+  "title": "第１８回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "面接の結果を早く知りたくて（　　）。",
+          "options": [
+            "限りない",
+            "違いない",
+            "たまらない",
+            "ほかならない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てたまらない」＝我慢できないくらい〜だ、非常に〜だ（感情や感覚の強調）。早く知りたくて我慢できない。",
+          "explanation_vi": "「〜てたまらない」 = Rất ~, vô cùng ~ (đến mức không thể chịu đựng nổi, nhấn mạnh cảm xúc). Tôi đang nóng lòng muốn biết kết quả phỏng vấn đến mức không chịu nổi.",
+          "sentence_furigana": "面接(めんせつ)の結果(けっか)を早く(はやく)知り(しり)たくて（　　）。",
+          "sentence_vi": "Tôi nóng lòng muốn biết kết quả phỏng vấn sớm đến mức không thể chịu nổi."
+        },
+        {
+          "id": 2,
+          "text": "突然暗くなった（　　）大粒の雨が降り出した。",
+          "options": [
+            "ものの",
+            "からして",
+            "と思ったら",
+            "やいなや"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜かと思ったら」＝〜するとすぐに（予想外の出来事が連続して起こる）。突然暗くなるとすぐに雨が降ってきた。",
+          "explanation_vi": "「〜と思ったら」 = Vừa mới ~ thì ngay lập tức (diễn tả sự thay đổi đột ngột). Trời vừa mới sập tối thì ngay lập tức những hạt mưa to đã trút xuống.",
+          "sentence_furigana": "突然(とつぜん)暗く(くらく)なった（　　）大粒(おおつぶ)の雨(あめ)が降り出し(ふりだし)た。",
+          "sentence_vi": "Trời vừa sập tối một cái là ngay lập tức những hạt mưa to đã trút xuống."
+        },
+        {
+          "id": 3,
+          "text": "環境のために、私たちができることから始め（　　）。",
+          "options": [
+            "そうじゃないか",
+            "そうもないか",
+            "ようがないか",
+            "ようじゃないか"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ようじゃないか」＝〜しましょう（呼びかけ・提案）。できることから始めよう、という提案。",
+          "explanation_vi": "「〜ようじゃないか」 = Chúng ta hãy cùng ~ nhé (dùng để kêu gọi, rủ rê một cách mạnh mẽ). Vì môi trường, chúng ta hãy cùng bắt đầu từ những việc trong khả năng của mình nhé.",
+          "sentence_furigana": "環境(かんきょう)のために、私(わたし)たちができることから始め(はじめ)（　　）。",
+          "sentence_vi": "Vì môi trường, chúng ta hãy cùng bắt đầu từ những việc trong khả năng của mình nhé."
+        },
+        {
+          "id": 4,
+          "text": "野菜はコンビニでも（　　）が、スーパーのほうが種類が多い。",
+          "options": [
+            "買えないことはない",
+            "買えるわけがない",
+            "買えるはずがない",
+            "買えないに違いない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ないことはない」＝〜可能性はゼロではない、一応〜できる。コンビニでも買えるが、スーパーのほうが多い。",
+          "explanation_vi": "「〜ないことはない」 = Không phải là không ~, vẫn có thể ~. Không phải là không thể mua rau ở cửa hàng tiện lợi, thế nhưng ở siêu thị thì sẽ có nhiều loại hơn.",
+          "sentence_furigana": "野菜(やさい)はコンビニ(こんびに)でも（　　）が、スーパー(すーぱー)のほうが種類(しゅるい)が多い(おおい)。",
+          "sentence_vi": "Không phải là không thể mua rau ở cửa hàng tiện lợi, nhưng ở siêu thị thì nhiều loại hơn."
+        },
+        {
+          "id": 5,
+          "text": "おいしいものがまん（　　）やせたいとは思わない。",
+          "options": [
+            "次第で",
+            "してこそ",
+            "してまで",
+            "からして"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜してまで」＝そこまで極端なことをして。おいしいものを我慢するという苦しいことをしてまで、やせたいと思わない。",
+          "explanation_vi": "「〜てまで」 = Đến mức phải làm cả những việc (cực đoan, quá đáng) ~. Tôi không hề muốn giảm cân đến mức phải nhịn ăn những món đồ ngon.",
+          "sentence_furigana": "おいしいものがまん（　　）やせたいとは思わ(おもわ)ない。",
+          "sentence_vi": "Tôi không hề muốn giảm cân đến mức phải nhịn ăn những món ngon."
+        },
+        {
+          "id": 6,
+          "text": "仕事は速ければいい（　　）よ。正確にやらないと。",
+          "options": [
+            "に違いない",
+            "ったらない",
+            "ってもんじゃない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜というものではない（〜ってもんじゃない）」＝必ずしも〜が正しいとは言えない。速ければいいというわけではない。",
+          "explanation_vi": "「〜ってもんじゃない（というものではない）」 = Không phải cứ ~ là được. Công việc đâu phải cứ làm nhanh là được đâu. Cần phải làm một cách chính xác nữa.",
+          "sentence_furigana": "仕事(しごと)は速けれ(はやけれ)ばいい（　　）よ。正確(せいかく)にやらないと。",
+          "sentence_vi": "Công việc không phải cứ làm nhanh là được đâu. Phải làm thật chính xác nữa."
+        },
+        {
+          "id": 7,
+          "text": "かいてはいけないと言われても、かゆくてかゆくて、かかない（　　）。",
+          "options": [
+            "しかない",
+            "でならない",
+            "わけではない",
+            "ではいられない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ずにはいられない（〜ないではいられない）」＝我慢できずに〜してしまう。かゆくて、かかない状態を維持できない（＝かいてしまう）。",
+          "explanation_vi": "「〜ないではいられない」 = Không thể không ~, không nhịn được ~. Dù bị nhắc là không được gãi, nhưng vì ngứa quá nên tôi không thể nào nhịn gãi cho được.",
+          "sentence_furigana": "かい てはいけないと言わ(いわ)れても、かゆくてかゆくて、かかない（　　）。",
+          "sentence_vi": "Dù bị dặn là không được gãi, nhưng ngứa quá nên tôi không thể không gãi được."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "その報告を聞けば ＿＿＿ ＿＿＿ ★ ＿＿＿ だろう。",
+          "options": [
+            "せざるを",
+            "誰もが",
+            "えない",
+            "納得"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "その報告を聞けば 誰もが 納得 せざるを えない だろう。",
+          "explanation": "正しい語順は「誰もが(2) 納得(4) せざるを(1) えない(3)」。★は3番目なので「せざるを」。\n「〜ざるを得ない」＝どうしても〜しなければならない。",
+          "explanation_vi": "Thứ tự đúng là: 誰もが(2) 納得(4) せざるを(1) えない(3). Vị trí ngôi sao là 1 (せざるを).\n「〜ざるを得ない」 = Không thể không ~, buộc phải ~. Nếu nghe bản báo cáo đó thì chắc hẳn ai cũng sẽ buộc phải đồng tình thôi.",
+          "sentence_furigana": "その報告(ほうこく)を聞け(きけ)ば 誰も(だれも)が 納得(なっとく) せざるを えない だろう。",
+          "sentence_vi": "Nếu nghe được bản báo cáo đó thì chắc hẳn bất kỳ ai cũng sẽ buộc phải đồng tình thôi."
+        },
+        {
+          "id": 9,
+          "text": "彼は ＿＿＿ ＿＿＿ ★ ＿＿＿ 、池に落ちた子どもを助けに行った。",
+          "options": [
+            "かまわず",
+            "自分が",
+            "のも",
+            "ぬれる"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "彼は 自分が ぬれる のも かまわず 、池に落ちた子どもを助けに行った。",
+          "explanation": "正しい語順は「自分が(2) ぬれる(4) のも(3) かまわず(1)」。★は3番目なので「のも」。\n「〜もかまわず」＝〜を気にしないで。",
+          "explanation_vi": "Thứ tự đúng là: 自分が(2) ぬれる(4) のも(3) かまわず(1). Vị trí ngôi sao là 3 (のも).\n「〜もかまわず」 = Bất chấp, chẳng màng đến ~. Anh ấy bất chấp việc bản thân sẽ bị ướt, lao đi cứu đứa trẻ bị rơi xuống hồ.",
+          "sentence_furigana": "彼(かれ)は 自分(じぶん)が ぬれる のも かまわず 、池(いけ)に落ち(おち)た子ども(こども)を助け(たすけ)に行っ(いっ)た。",
+          "sentence_vi": "Anh ấy chẳng màng đến việc bản thân bị ướt mà vội lao đi cứu đứa trẻ bị rơi xuống hồ."
+        },
+        {
+          "id": 10,
+          "text": "一度は断った ＿＿＿ ＿＿＿ ★ ＿＿＿ 頼まれたので、結局引き受けてしまった。",
+          "options": [
+            "あまり",
+            "ものの",
+            "に",
+            "熱心に"
+          ],
+          "correct_order": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "一度は断った ものの あまり に 熱心に 頼まれたので、結局引き受けてしまった。",
+          "explanation": "正しい語順は「ものの(2) あまり(1) に(3) 熱心に(4)」。★は3番目なので「に」。\n「〜ものの」＝〜だけれども。「あまりに〜ので」＝程度がはなはだしく〜なので。",
+          "explanation_vi": "Thứ tự đúng là: ものの(2) あまり(1) に(3) 熱心に(4). Vị trí ngôi sao là 3 (に).\nDù là tôi đã từng từ chối một lần rồi đấy, nhưng vì người ta nhờ vả quá sức nhiệt tình nên rốt cuộc tôi lại nhận lời mất rồi.",
+          "sentence_furigana": "一度(いちど)は断っ(ことわっ)た ものの あまり に 熱心(ねっしん)に 頼ま(たのま)れたので、結局(けっきょく)引き受け(ひきうけ)てしまった。",
+          "sentence_vi": "Dù đã một lần từ chối rồi, nhưng vì người ta nhờ vả quá đỗi nhiệt tình nên rốt cục tôi lại nhận lời mất tiêu."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "山田花子様\n\n　このたびは、当校の「英会話レッスン３カ月集中コース」へのお申し込み、まことにありがとうございます。\n　山田様の英会話力の向上のため、スタッフ一丸となってサポート【１】。\n　さて、コース開始前に、いくつか注意事項がございます。まず、一度納入された受講料は、どのような場合におきましてもご返金には応じられませんので、ご了承ください。\n　やむを得ずレッスンに参加できない場合は、前後１週間以内【２】、同じレベルの別のクラスを受講することが可能です。ただし、事前の連絡がなかった場合、他のクラスにご参加いただくことは【３】のでご注意ください。\n　なお、受講料には教材費が含まれておりません。初回のレッスンの際に教材のご紹介と販売をいたしますので、必要【４】ご購入ください。\n　初回のレッスンは、通常より30分早いスタートとなります。くれぐれも、遅れる【５】、お気をつけください。\n　それでは、当日お会いできますことを、スタッフ一同心よりお待ちしております。\n\n英会話スクールABC\nスタッフ代表　木村太郎",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "させていただきます",
+            "されていただきます",
+            "させてくださいます",
+            "されてくださいます"
+          ],
+          "correct_answer": 1,
+          "explanation": "「サポートさせていただきます」＝私がサポートいたします（謙譲表現）。自分たちの行為をへりくだって言う正しい敬語表現。",
+          "explanation_vi": "「〜させていただきます」 = Cho phép chúng tôi được ~ (khiêm nhường ngữ). Tập thể nhân viên chúng tôi xin phép được dốc toàn lực hỗ trợ để nâng cao khả năng giao tiếp tiếng Anh của chị Yamada."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "にあれば",
+            "にすれば",
+            "であれば",
+            "ですれば"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜であれば」＝〜なら（「〜である＋ば」の形）。前後１週間以内なら、別のクラスを受講できる。",
+          "explanation_vi": "「〜であれば」 = Nếu là ~, nếu nằm trong (thời hạn) ~. Nếu trong phạm vi trước hoặc sau 1 tuần thì học viên có thể học bù ở một lớp khác có cùng trình độ."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "できかねます",
+            "できないままです",
+            "できるどころではありません",
+            "できないものです"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かねる」＝〜できない（ビジネスなどでの婉曲な断り）。他のクラスに参加することはできません、と丁寧にお断りしている。",
+          "explanation_vi": "「〜かねる」 = Không thể ~ (cách từ chối khéo léo, lịch sự trong môi trường kinh doanh/dịch vụ). Việc tham gia lớp khác là không thể (xin từ chối) nếu học viên không báo trước."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "に応じて",
+            "に沿って",
+            "を問わず",
+            "をもとに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「必要に応じて」＝必要な状況や要求に合わせて（慣用的な表現）。必要な場合に買ってください。",
+          "explanation_vi": "「必要に応じて」 = Tùy theo nhu cầu, khi thấy cần thiết. Cụm từ cố định mang nghĩa \"Xin hãy mua tùy theo nhu cầu của bản thân\"."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "ことなしに",
+            "ことがないので",
+            "ことがなくても",
+            "ことのないよう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ことのないように」＝〜しないように気をつけて。遅れることがないように気を付けてください。",
+          "explanation_vi": "「〜ことのないよう」 = Để không bị ~, chú ý đừng để bị ~. Xin học viên hãy lưu ý cẩn thận để không bị đến muộn."
+        }
+      ]
+    }
+  ]
+}

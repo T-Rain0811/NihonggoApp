@@ -1,0 +1,307 @@
+{
+  "lesson": 6,
+  "title": "第６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "黙っている（　　）必ずしも賛成しているとは限らない。",
+          "options": [
+            "からして",
+            "ものだから",
+            "わけだから",
+            "からといって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜からといって」＝〜という理由があっても（後ろには否定が来る）。黙っているからといって、賛成しているとは限らない。",
+          "explanation_vi": "「〜からといって」 = Cho dù là vì lý do ~ (vế sau thường là phủ định). Cho dù có im lặng đi chăng nữa thì cũng không hẳn là đang đồng ý.",
+          "sentence_furigana": "黙っ(だまっ)ている（　　）必ずしも(かならずしも)賛成(さんせい)しているとは限ら(かぎら)ない。",
+          "sentence_vi": "Cho dù có im lặng thì cũng không hẳn là đang tán thành."
+        },
+        {
+          "id": 2,
+          "text": "許可をもらって（　　）、この建物の撮影はできません。",
+          "options": [
+            "以来",
+            "までも",
+            "からすると",
+            "からでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てからでないと」＝〜した後でなければ〜できない（前提条件）。許可をもらった後でなければ撮影できない。",
+          "explanation_vi": "「〜てからでないと」 = Nếu chưa ~ thì không thể ~ (điều kiện tiên quyết). Nếu chưa nhận được sự cho phép thì không thể chụp ảnh tòa nhà này.",
+          "sentence_furigana": "許可(きょか)をもらって（　　）、この建物(たてもの)の撮影(さつえい)はできません。",
+          "sentence_vi": "Nếu chưa được cấp phép thì không thể chụp ảnh tòa nhà này."
+        },
+        {
+          "id": 3,
+          "text": "時間を守らないあの人（　　）、きっと今日も遅れてくるだろう。",
+          "options": [
+            "次第で",
+            "と思うと",
+            "ばかりに",
+            "のことだから"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜のことだから」＝〜の性格や普段の態度から考えて（推測）。いつも時間を守らないあの人のことだから、今日も遅れるだろう。",
+          "explanation_vi": "「〜のことだから」 = Vì là ~ nên chắc chắn sẽ (suy đoán dựa trên tính cách, thói quen của ai đó). Với cái người không bao giờ đúng giờ như người đó thì chắc chắn hôm nay cũng sẽ đến muộn thôi.",
+          "sentence_furigana": "時間(じかん)を守ら(まもら)ないあの人(ひと)（　　）、きっと今日(きょう)も遅れ(おくれ)てくるだろう。",
+          "sentence_vi": "Với một người không biết giữ đúng giờ giấc như anh ta, chắc chắn hôm nay lại đến trễ cho xem."
+        },
+        {
+          "id": 4,
+          "text": "今日は睡眠不足だ。（　　）、昨日夜中に子どもを病院に連れて行ったからだ。",
+          "options": [
+            "というのは",
+            "といえば",
+            "といったら",
+            "ということは"
+          ],
+          "correct_answer": 1,
+          "explanation": "「というのは」＝なぜなら〜（理由の説明）。睡眠不足だ、なぜなら病院に行ったからだ。",
+          "explanation_vi": "「というのは」 = Lý do là vì ~. Hôm nay tôi bị thiếu ngủ. Lý do là vì đêm qua tôi phải đưa con đến bệnh viện.",
+          "sentence_furigana": "今日(きょう)は睡眠(すいみん)不足(ぶそく)だ。（　　）、昨日(きのう)夜中(よなか)に子ども(こども)を病院(びょういん)に連れ(つれ)て行っ(いっ)たからだ。",
+          "sentence_vi": "Hôm nay tôi thiếu ngủ. Lý do là vì đêm hôm qua tôi phải đưa con đi bệnh viện."
+        },
+        {
+          "id": 5,
+          "text": "桜の季節になると、ふるさとの家から学校まで続く桜並木が（　　）。",
+          "options": [
+            "思い出される",
+            "思い出している",
+            "思い出さないはずがない",
+            "思い出さないものか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜（ら）れる」＝自然に〜してしまう（自発）。自然と桜並木が思い出される。",
+          "explanation_vi": "「〜（ら）れる」 = Tự nhiên cảm thấy, bất giác nghĩ đến (tự phát). Cứ đến mùa hoa anh đào là tự nhiên những hàng cây anh đào trải dài từ nhà đến trường ở quê lại hiện về trong tâm trí.",
+          "sentence_furigana": "桜(さくら)の季節(きせつ)になると、ふるさとの家(いえ)から学校(がっこう)まで続く(つづく)桜(さくら)並木(なみき)が（　　）。",
+          "sentence_vi": "Cứ mỗi độ hoa anh đào nở, tôi lại bất giác nhớ về hàng cây anh đào trải dài từ nhà đến trường ở quê."
+        },
+        {
+          "id": 6,
+          "text": "数十年前に書かれた経営書が、近年再び注目され（　　）。",
+          "options": [
+            "気味だ",
+            "つつある",
+            "てならない",
+            "たばかりだ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜つつある」＝（今まさに）〜しているところだ（変化の進行中）。再び注目されてきている。",
+          "explanation_vi": "「〜つつある」 = Đang dần dần ~ (chỉ sự biến đổi đang diễn ra). Cuốn sách kinh doanh được viết từ hàng chục năm trước, dạo gần đây đang dần thu hút sự chú ý trở lại.",
+          "sentence_furigana": "数十(すうじゅう)年(ねん)前(まえ)に書か(かか)れた経営(けいえい)書(しょ)が、近年(きんねん)再び(ふたたび)注目(ちゅうもく)され（　　）。",
+          "sentence_vi": "Cuốn sách kinh doanh được viết từ vài chục năm trước, nay đang dần nhận được sự chú ý trở lại trong những năm gần đây."
+        },
+        {
+          "id": 7,
+          "text": "コンサートの後、感動（　　）涙が止まらなかった。",
+          "options": [
+            "あまり",
+            "ままに",
+            "のあまり",
+            "のままに"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜のあまり」＝〜すぎる結果（名詞＋のあまり）。感動しすぎた結果、涙が止まらなかった。",
+          "explanation_vi": "「〜のあまり」 = Vì quá ~ nên dẫn đến kết quả (đi với Danh từ + の). Vì quá cảm động sau buổi hòa nhạc nên nước mắt tôi cứ tuôn rơi không ngừng.",
+          "sentence_furigana": "コンサート(こんさーと)の後(あと)、感動(かんどう)（　　）涙(なみだ)が止まら(とまら)なかった。",
+          "sentence_vi": "Sau buổi hòa nhạc, vì quá cảm động nên tôi đã không thể kìm được nước mắt."
+        },
+        {
+          "id": 8,
+          "text": "高校の卒業式で別れた（　　）、彼とは10年以上会っていない。",
+          "options": [
+            "きり",
+            "しか",
+            "だけ",
+            "のみ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜たきり」＝〜したのを最後に、ずっと〜していない。卒業式で別れたのを最後に、会っていない。",
+          "explanation_vi": "「〜たきり」 = Kể từ sau khi ~ thì suốt khoảng thời gian dài không (trạng thái giữ nguyên). Kể từ lúc chia tay nhau ở lễ tốt nghiệp cấp 3 đến nay, đã hơn 10 năm rồi tôi không gặp lại cậu ấy.",
+          "sentence_furigana": "高校(こうこう)の卒業(そつぎょう)式(しき)で別れ(わかれ)た（　　）、彼(かれ)とは10年(ねん)以上(いじょう)会っ(あっ)ていない。",
+          "sentence_vi": "Kể từ lúc chia tay trong lễ tốt nghiệp cấp 3, tôi đã không gặp lại cậu ấy hơn 10 năm nay."
+        },
+        {
+          "id": 9,
+          "text": "この音楽を聞くと、踊り（　　）んです。",
+          "options": [
+            "出しがちになる",
+            "出すに違いない",
+            "出すとは限らない",
+            "出さずにはいられない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ずにはいられない」＝どうしても〜してしまう（感情や行動を抑えられない）。踊り出してしまう。",
+          "explanation_vi": "「〜ずにはいられない」 = Không thể không ~, chắc chắn sẽ ~ (không kiềm chế được). Cứ nghe bản nhạc này là tôi không thể nào không nhún nhảy theo.",
+          "sentence_furigana": "この音楽(おんがく)を聞く(きく)と、踊り(おどり)（　　）んです。",
+          "sentence_vi": "Cứ nghe thấy bản nhạc này là tôi lại không kìm được mà muốn nhảy múa."
+        },
+        {
+          "id": 10,
+          "text": "A：弟さんの就職、決まりました？\nB：（　　）、なかなか難しいみたいで……。",
+          "options": [
+            "そこで",
+            "それが",
+            "それなら",
+            "それはそうと"
+          ],
+          "correct_answer": 2,
+          "explanation": "「それが」＝それが実は（相手の予想に反する事実を言うときに使う）。決まったかと思いきや、実は難しい。",
+          "explanation_vi": "「それが」 = Thực ra thì... (Dùng khi nói ra sự thật trái với mong đợi hoặc dự đoán của đối phương). Tưởng là xong rồi nhưng thực ra thì lại có vẻ khá gian nan...",
+          "sentence_furigana": "A：弟(おとうと)さんの就職(しゅうしょく)、決まり(きまり)ました？\nB：（　　）、なかなか難しい(むずかしい)みたいで……。",
+          "sentence_vi": "A: Việc làm của em trai anh đã quyết định xong chưa?\nB: Chuyện đó thì... có vẻ như vẫn còn đang khá khó khăn..."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "天気予報が外れた ＿＿＿ ＿＿＿ ★ ＿＿＿ 降られてしまった。",
+          "options": [
+            "雨に",
+            "途中で",
+            "せいで",
+            "帰る"
+          ],
+          "correct_order": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "天気予報が外れた せいで 帰る 途中で 雨に 降られてしまった。",
+          "explanation": "正しい語順は「せいで(3) 帰る(4) 途中で(2) 雨に(1)」。★は3番目なので「途中で」。",
+          "explanation_vi": "Thứ tự đúng là: せいで(3) 帰る(4) 途中で(2) 雨に(1). Vị trí ngôi sao là 2 (途中で). Tại vì dự báo thời tiết sai nên trên đường về tôi đã bị dính mưa.",
+          "sentence_furigana": "天気(てんき)予報(よほう)が外れ(はずれ)た せいで 帰る(かえる) 途中(とちゅう)で 雨(あめ)に 降ら(ふら)れてしまった。",
+          "sentence_vi": "Tại dự báo thời tiết sai bét nên đang đi trên đường về thì tôi bị mắc mưa."
+        },
+        {
+          "id": 12,
+          "text": "何でもすぐに難しい ＿＿＿ ＿＿＿ ★ ＿＿＿ のはよくない。",
+          "options": [
+            "しまう",
+            "いって",
+            "あきらめて",
+            "からと"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "何でもすぐに難しい からと いって あきらめて しまう のはよくない。",
+          "explanation": "正しい語順は「からと(4) いって(2) あきらめて(3) しまう(1)」。★は3番目なので「あきらめて」。",
+          "explanation_vi": "Thứ tự đúng là: からと(4) いって(2) あきらめて(3) しまう(1). Vị trí ngôi sao là 3 (あきらめて). Bất cứ việc gì mà cứ hễ thấy khó là lại bỏ cuộc ngay thì thật không tốt.",
+          "sentence_furigana": "何(なん)でもすぐに難しい(むずかしい) からと いっ(いっ)て あきらめ(あきらめ)て しまう のはよくない。",
+          "sentence_vi": "Làm gì cũng vậy, hễ mới thấy khó một chút đã viện cớ rồi bỏ cuộc ngay là không tốt đâu."
+        },
+        {
+          "id": 13,
+          "text": "食べる物がなくて ＿＿＿ ＿＿＿ ★ ＿＿＿ 、台風が来る前に買い物に行っておこう。",
+          "options": [
+            "困る",
+            "ように",
+            "ない",
+            "ことが"
+          ],
+          "correct_order": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "食べる物がなくて 困る ことが ない ように 、台風が来る前に買い物に行っておこう。",
+          "explanation": "正しい語順は「困る(1) ことが(4) ない(3) ように(2)」。★は3番目なので「ない」。",
+          "explanation_vi": "Thứ tự đúng là: 困る(1) ことが(4) ない(3) ように(2). Vị trí ngôi sao là 3 (ない). Để không bị rơi vào cảnh khốn đốn vì không có đồ ăn, chúng ta hãy đi mua sắm trước khi bão đổ bộ thôi.",
+          "sentence_furigana": "食べる(たべる)物(もの)がなくて 困る(こまる) ことが ない ように 、台風(たいふう)が来る(くる)前(まえ)に買い物(かいもの)に行っ(いっ)ておこう。",
+          "sentence_vi": "Để không bị khốn đốn vì hết đồ ăn, chúng ta hãy đi mua sắm chuẩn bị trước khi bão đổ bộ thôi."
+        },
+        {
+          "id": 14,
+          "text": "一度でいいから、本物の映画スター ＿＿＿ ＿＿＿ ★ ＿＿＿ だ。",
+          "options": [
+            "会って",
+            "もの",
+            "に",
+            "みたい"
+          ],
+          "correct_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "一度でいいから、本物の映画スター に 会って みたい もの だ。",
+          "explanation": "正しい語順は「に(3) 会って(1) みたい(4) もの(2)」。★は3番目なので「みたい」。",
+          "explanation_vi": "Thứ tự đúng là: に(3) 会って(1) みたい(4) もの(2). Vị trí ngôi sao là 4 (みたい). Chỉ một lần thôi cũng được, tôi rất muốn được gặp thử một ngôi sao điện ảnh bằng xương bằng thịt.",
+          "sentence_furigana": "一度(いちど)でいいから、本物(ほんもの)の映画(えいが)スター(すたー) に 会っ(あっ)て みたい もの だ。",
+          "sentence_vi": "Dù chỉ một lần thôi cũng được, tôi thực sự rất khao khát được gặp gỡ một ngôi sao điện ảnh ngoài đời thực."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私は休日になると公園へ行き、ベンチに座って時間を過ごす。\n　公園のベンチは不思議な場所だ。そこに座っていると、目の前を通り過ぎる人を目で追っても、周りにいる人をじっと観察しても、何も言われない。ボーっと遠くを見ていてもかまわない。もし会社の中でこんなことを【１】、「どうしたの？」とすぐに声を【１】。\n　さらに、不思議なことに、公園のベンチに座ると、そこにいる【２】、自分の存在を消すことができる。誰もこちらに注意を向けようとしない。誰かの目にとまったとしても、それはただの「ベンチに座っている人」【３】、名前を持った人間ではないのだ。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "aしていたら／bかけられた",
+            "aしていたら／bかけられるだろう",
+            "aしてみれば／bかけられた",
+            "aしてみれば／bかけられるだろう"
+          ],
+          "correct_answer": 2,
+          "explanation": "もし〜たら、〜だろうという仮定の話。「もし会社の中でこんなことを（a していたら）、「どうしたの？」とすぐに声を（b かけられるだろう）」。",
+          "explanation_vi": "Đây là câu giả định \"Nếu... thì có lẽ sẽ...\". Nếu mà cứ ngẩn ngơ như thế ở trong công ty (a していたら) thì chắc chắn sẽ bị người khác hỏi thăm ngay lập tức (b かけられるだろう)."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "からこそ",
+            "もかまわず",
+            "かと思ったら",
+            "にもかかわらず"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜にもかかわらず」＝〜なのに（逆接）。公園のベンチに座ってそこに「いる」のに、「存在を消すことができる」。",
+          "explanation_vi": "「〜にもかかわらず」 = Mặc dù... nhưng (thể hiện sự đối lập). Mặc dù là \"đang ở đó\" nhưng lại \"có thể xóa bỏ sự tồn tại của mình\"."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "であって",
+            "において",
+            "どころか",
+            "にすれば"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜であって、〜ではない」の形。ただの「ベンチに座っている人」であって、名前を持った人間ではない。",
+          "explanation_vi": "Cấu trúc 「〜であって、〜ではない」 mang nghĩa \"Chỉ là A chứ không phải là B\". Trong trường hợp này là: chỉ là một \"người đang ngồi trên ghế đá\" chứ không phải là một con người cụ thể có tên tuổi."
+        }
+      ]
+    }
+  ]
+}

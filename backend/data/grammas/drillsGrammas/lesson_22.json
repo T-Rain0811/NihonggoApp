@@ -1,0 +1,265 @@
+{
+  "lesson": 22,
+  "title": "第２２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ガソリンが入っていなければ、車が走る（　　）だろう。",
+          "options": [
+            "に違いない",
+            "ほかはない",
+            "わけがない",
+            "どころではない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜わけがない」＝絶対に〜ない（強い否定）。ガソリンがなければ、車が走るはずがない。",
+          "explanation_vi": "「〜わけがない」 = Tuyệt đối không thể ~, làm gì có chuyện ~. Nếu không đổ xăng thì làm sao mà ô tô chạy cho được.",
+          "sentence_furigana": "ガソリン(がそりん)が入っ(はいっ)ていなければ、車(くるま)が走る(はしる)（　　）だろう。",
+          "sentence_vi": "Nếu không có xăng thì làm sao mà ô tô chạy cho nổi."
+        },
+        {
+          "id": 2,
+          "text": "いくら薬をかえても、父の病状は悪化する（　　）だった。",
+          "options": [
+            "最中",
+            "一方",
+            "限り",
+            "次第"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜一方だ」＝ずっと〜という一つの方向にばかり変化が進む。病状が悪くなる一方だ。",
+          "explanation_vi": "「〜一方だ」 = Ngày càng ~, cứ dần ~ (chỉ một sự thay đổi diễn ra theo một chiều hướng nhất định, thường là chiều hướng xấu). Dù có đổi thuốc bao nhiêu lần đi nữa thì bệnh tình của bố tôi vẫn cứ ngày một xấu đi.",
+          "sentence_furigana": "いくら薬(くすり)をかえても、父(ちち)の病状(びょうじょう)は悪化(あっか)する（　　）だった。",
+          "sentence_vi": "Mặc dù đã đổi bao nhiêu loại thuốc nhưng bệnh tình của bố tôi vẫn cứ ngày một trầm trọng thêm."
+        },
+        {
+          "id": 3,
+          "text": "この科学者の裁判（　　）、発明者の権利が見直されるようになった。",
+          "options": [
+            "によると",
+            "からして",
+            "を契機に",
+            "にあたって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜を契機（けいき）に」＝〜をきっかけとして（硬い表現）。この裁判をきっかけにして、権利が見直された。",
+          "explanation_vi": "「〜を契機（けいき）に」 = Nhân cơ hội ~, lấy ~ làm bước ngoặt (tương tự をきっかけに nhưng trang trọng hơn). Nhân cái vụ kiện tụng của nhà khoa học này, mà quyền lợi của những nhà phát minh đã bắt đầu được nhìn nhận lại.",
+          "sentence_furigana": "この科学(かがく)者(しゃ)の裁判(さいばん)（　　）、発明(はつめい)者(しゃ)の権利(けんり)が見直さ(みなおさ)れるようになった。",
+          "sentence_vi": "Nhân vụ kiện tụng của nhà khoa học này mà quyền lợi của các nhà phát minh đã bắt đầu được xem xét lại."
+        },
+        {
+          "id": 4,
+          "text": "海外で人気のこのサービスも、日本（　　）まだあまり普及していない。",
+          "options": [
+            "においては",
+            "にとっては",
+            "にあたっては",
+            "にかけては"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜において（は）」＝〜で、〜の場所や状況で（「で」の硬い表現）。日本ではまだ普及していない。",
+          "explanation_vi": "「〜において（は）」 = Ở, tại, trong (bối cảnh, địa điểm) (dạng trang trọng của で). Dịch vụ này dù rất phổ biến ở nước ngoài, nhưng ở Nhật Bản thì vẫn chưa được thịnh hành cho lắm.",
+          "sentence_furigana": "海外(かいがい)で人気(にんき)のこのサービス(さーびす)も、日本(にほん)（　　）まだあまり普及(ふきゅう)していない。",
+          "sentence_vi": "Dịch vụ này tuy rất phổ biến ở nước ngoài nhưng ở Nhật Bản thì vẫn chưa thịnh hành cho lắm."
+        },
+        {
+          "id": 5,
+          "text": "経験がある（　　）、初めての人にすべてを任せるのはやめたほうがいい。",
+          "options": [
+            "にしろ",
+            "もかまわず",
+            "ならまだしも",
+            "にかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜にしろ／にせよ」＝〜だとしても（逆接条件）。経験があるにしても、すべてを任せるべきではない。",
+          "explanation_vi": "「〜にしろ／にせよ」 = Dẫu cho là có ~ đi chăng nữa. Dẫu cho anh ta có kinh nghiệm đi chăng nữa, thì cũng không nên giao phó toàn bộ mọi việc cho một người mới đến lần đầu tiên.",
+          "sentence_furigana": "経験(けいけん)がある（　　）、初めて(はじめて)の人(ひと)にすべてを任せる(まかせる)のはやめたほうがいい。",
+          "sentence_vi": "Dẫu là có kinh nghiệm đi chăng nữa thì cũng không nên giao phó toàn bộ mọi thứ cho một người mới lần đầu làm việc."
+        },
+        {
+          "id": 6,
+          "text": "予想以上の売り上げで、社員（　　）アルバイトにまでボーナスが支給された。",
+          "options": [
+            "ながらも",
+            "のあまり",
+            "を問わず",
+            "ばかりでなく"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ばかりでなく〜までも」＝〜だけでなく、さらに（範囲が広がる）。社員だけでなく、アルバイトまでも。",
+          "explanation_vi": "「〜ばかりでなく（〜まで）」 = Không chỉ ~ mà cả ~. Do doanh thu vượt mức dự kiến nên không chỉ nhân viên chính thức mà ngay cả những người làm thêm cũng được phát tiền thưởng.",
+          "sentence_furigana": "予想(よそう)以上(いじょう)の売り上げ(うりあげ)で、社員(しゃいん)（　　）アルバイト(あるばいと)にまでボーナス(ぼーなす)が支給(しきゅう)された。",
+          "sentence_vi": "Do doanh thu vượt mức kỳ vọng nên không chỉ nhân viên chính thức mà đến cả những bạn làm thêm cũng được phát tiền thưởng."
+        },
+        {
+          "id": 7,
+          "text": "多くの人に対して何度も同じことを説明（　　）疲れてしまった。",
+          "options": [
+            "させて",
+            "されて",
+            "させられて",
+            "してもらって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜させられる（使役受身）」＝（やりたくないのに）〜するように強制される、結果的に〜してしまう。何度も説明させられて、疲れた。",
+          "explanation_vi": "「〜させられる」 = Bị bắt phải ~ (thể sai khiến bị động, mang nghĩa bị ép buộc, làm một việc không tự nguyện). Bị bắt phải giải thích đi giải thích lại một chuyện cho rất nhiều người nghe khiến tôi mệt rã rời.",
+          "sentence_furigana": "多く(おおく)の人(ひと)に対して(たいして)何度(なんど)も同じ(おなじ)ことを説明(せつめい)（　　）疲れ(つかれ)てしまった。",
+          "sentence_vi": "Bị bắt phải giải thích đi giải thích lại một điều cho rất nhiều người nghe khiến tôi mệt bở hơi tai."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "留学中は、毎日 ＿＿＿ ＿＿＿ ★ ＿＿＿ なかった。",
+          "options": [
+            "遊ぶ",
+            "ばかりで",
+            "勉強して",
+            "どころでは"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "留学中は、毎日 勉強して ばかりで 遊ぶ どころでは なかった。",
+          "explanation": "正しい語順は「勉強して(3) ばかりで(2) 遊ぶ(1) どころでは(4)」。★は3番目なので「遊ぶ」。\n「〜てばかり」＝〜だけをずっとしている。「〜どころではない」＝〜できるような状況や余裕がない。",
+          "explanation_vi": "Thứ tự đúng là: 勉強して(3) ばかりで(2) 遊ぶ(1) どころでは(4). Vị trí ngôi sao là 1 (遊ぶ).\n「〜どころではない」 = Không có tâm trí đâu mà ~, không phải lúc để ~. Hồi đi du học, ngày nào tôi cũng chỉ học và học, hoàn toàn không có tâm trí hay thời gian đâu mà chơi bời rảnh rỗi.",
+          "sentence_furigana": "留学(りゅうがく)中(ちゅう)は、毎日(まいにち) 勉強(べんきょう)して ばかりで 遊ぶ(あそぶ) どころでは なかった。",
+          "sentence_vi": "Hồi đi du học, ngày nào tôi cũng cắm đầu vào học, hoàn toàn không rảnh rang đâu mà đi chơi bời."
+        },
+        {
+          "id": 9,
+          "text": "ヨットで旅に出た ＿＿＿ ＿＿＿ ★ ＿＿＿ だ。",
+          "options": [
+            "ただ",
+            "ばかり",
+            "祈る",
+            "友人の無事を"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "ヨットで旅に出た 友人の無事を ただ 祈る ばかり だ。",
+          "explanation": "正しい語順は「友人の無事を(4) ただ(1) 祈る(3) ばかり(2)」。★は3番目なので「祈る」。\n「ただ〜ばかりだ」＝他のことは何もできず、ただ〜だけをする。",
+          "explanation_vi": "Thứ tự đúng là: 友人の無事を(4) ただ(1) 祈る(3) ばかり(2). Vị trí ngôi sao là 3 (祈る).\n「ただ〜ばかりだ」 = Chỉ còn cách là ~. Người bạn của tôi đã ra khơi bằng du thuyền rồi, giờ đây tôi chỉ còn biết cầu nguyện cho sự bình an của cậu ấy.",
+          "sentence_furigana": "ヨット(よっと)で旅(たび)に出た(でた) 友人(ゆうじん)の無事(ぶじ)を ただ 祈る(いのる) ばかり だ。",
+          "sentence_vi": "Giờ đây tôi chỉ còn biết cầu nguyện cho sự bình an của người bạn đã dong buồm ra khơi kia."
+        },
+        {
+          "id": 10,
+          "text": "その映画は、ほかの人にも見ること ＿＿＿ ＿＿＿ ★ ＿＿＿ よかった。",
+          "options": [
+            "いられない",
+            "勧めず",
+            "ほど",
+            "には"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "その映画は、ほかの人にも見ることを 勧めず には いられない ほど よかった。",
+          "explanation": "正しい語順は「勧めず(2) には(4) いられない(1) ほど(3)」。★は3番目なので「いられない」。\n「〜ずにはいられない」＝どうしても〜してしまう。「〜ほど」＝程度を表す。勧めたくなるくらい良かった。",
+          "explanation_vi": "Thứ tự đúng là: 勧めず(2) には(4) いられない(1) ほど(3). Vị trí ngôi sao là 1 (いられない).\n「〜ずにはいられないほど」 = Đến mức không thể không ~. Bộ phim đó hay đến mức khiến tôi không thể không đi giới thiệu cho người khác xem cùng.",
+          "sentence_furigana": "その映画(えいが)は、ほかの人(ひと)にも見ること(みること)を 勧め(すすめ)ず には いられない ほど よかった。",
+          "sentence_vi": "Bộ phim đó hay đến mức tôi không thể nào kìm được sự thôi thúc đi giới thiệu nó cho người khác xem."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私には10歳年下の弟がいる。\n　弟が小さい頃は、母の代わりによく私が弟の世話をしていたものだ。ミルクをあげたり、お風呂に入れたり、遊び相手になったり。家にいるときは、とにかく何をする【１】いっしょだった。その頃の私は、【2-a】に対して、【2-b】というよりも自分の【2-c】のような気持ちで接していたように思う。\n　弟は、私や母の言うことをよく聞く素直ないい子だったが、食事に関してだけは別だった。野菜が嫌いで、まったく口にしようとしなかったのだ。なんとか【３】と、母はいろいろと料理を工夫した。ところが、弟は料理の中に野菜を見つけると、すぐに口から出してしまうのだった。母は心配【４】、医者にまで相談したが、「だいじょうぶ、そのうち食べるようになりますよ」と言われるだけだった。\n　医者の言葉どおり、弟は成長する【５】、少しずつ野菜を食べるようになった。そして、小学校を卒業する頃には、ほとんど何でも食べられるようになった。母はとても喜んでいたが、私はそんな弟の成長に、少し寂しさも感じていた。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "でも",
+            "にも",
+            "までも",
+            "よりも"
+          ],
+          "correct_answer": 2,
+          "explanation": "「何をするにも」＝どんなことをする場合であっても。家にいる時は、何をする場合でも一緒だった。",
+          "explanation_vi": "「何をするにも」 = Làm bất cứ việc gì cũng. \"Khi ở nhà, làm bất cứ việc gì chúng tôi cũng đều ở cùng nhau cả\"."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "a 弟／b 弟／c 子ども",
+            "a 弟／b 子ども／c 弟",
+            "a 子ども／b 弟／c 子ども",
+            "a 子ども／b 子ども／c 弟"
+          ],
+          "correct_answer": 1,
+          "explanation": "「弟に対して、弟というよりも自分の子どものような気持ちで接していた」という文脈。自分が母親代わりだったから。",
+          "explanation_vi": "Dịch nghĩa: \"Vào thời điểm đó, tôi nghĩ rằng tôi đã đối xử với em trai mình, giống như là đối xử với con cái của chính mình hơn là đối xử với em trai\". Vậy nên đáp án phải là a: Em trai, b: Em trai, c: Con cái."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "食べよう",
+            "食べさせよう",
+            "食べられそう",
+            "食べさせられそう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「食べさせる（使役）」＝相手（弟）に食べさせる。母はなんとかして弟に（野菜を）食べさせようと思って、工夫をした。",
+          "explanation_vi": "「食べさせる（使役）」 = Cho ăn, bắt ăn. \"Người mẹ đã nghĩ ra đủ cách chế biến món ăn cốt là để làm sao có thể dụ cho thằng bé ăn được rau củ\"."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "のあまり",
+            "をこめて",
+            "な以上",
+            "に伴って"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜のあまり」＝〜すぎる結果として（感情・状態が激しすぎて）。母は心配しすぎた結果、医者にまで相談した。",
+          "explanation_vi": "「〜のあまり」 = Vì quá... nên. \"Vì quá lo lắng nên mẹ tôi thậm chí còn đi tham khảo ý kiến cả bác sĩ\"."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "とすれば",
+            "とたんに",
+            "につれて",
+            "にあたって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜につれて」＝〜という変化とともに。成長するという変化とともに、少しずつ野菜を食べるようになった。",
+          "explanation_vi": "「〜につれて」 = Cùng với sự thay đổi của ~ thì (kéo theo một sự thay đổi khác). \"Cùng với sự trưởng thành, em trai tôi đã dần dần ăn được rau củ giống y như lời bác sĩ nói.\""
+        }
+      ]
+    }
+  ]
+}

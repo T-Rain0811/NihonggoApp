@@ -1,0 +1,307 @@
+{
+  "lesson": 8,
+  "title": "第８回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "アルバイトの学生は給料について遠慮（　　）たずねた。",
+          "options": [
+            "げに",
+            "がちに",
+            "ほどに",
+            "ばかりに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜がち」＝〜する傾向がある、〜になりやすい。遠慮がちに（少し遠慮するような様子で）たずねた。",
+          "explanation_vi": "「〜がち」 = Có xu hướng ~, thường hay ~ (trạng thái). Cậu sinh viên làm thêm ngập ngừng (có vẻ hơi ngại ngùng) hỏi về chuyện tiền lương.",
+          "sentence_furigana": "アルバイト(あるばいと)の学生(がくせい)は給料(きゅうりょう)について遠慮(えんりょ)（　　）たずねた。",
+          "sentence_vi": "Cậu sinh viên làm thêm có vẻ hơi ngại ngùng khi hỏi về vấn đề tiền lương."
+        },
+        {
+          "id": 2,
+          "text": "学生の皆さん！ もっと政治に関心を（　　）！",
+          "options": [
+            "持とうとしませんか",
+            "持とうではありませんか",
+            "持たないものでしょうか",
+            "持たないではいられませんか"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜（よ）うではないか／〜（よ）うではありませんか」＝一緒に〜しよう（強い呼びかけ）。関心を持とう！と呼びかけている。",
+          "explanation_vi": "「〜（よ）うではないか」 = Chúng ta hãy cùng nhau ~ nhé (lời kêu gọi mạnh mẽ). Các bạn sinh viên! Chúng ta hãy cùng nhau quan tâm đến chính trị nhiều hơn nữa nào!",
+          "sentence_furigana": "学生(がくせい)の皆さん(みなさん)！ もっと政治(せいじ)に関心(かんしん)を（　　）！",
+          "sentence_vi": "Các bạn sinh viên! Chúng ta hãy cùng nhau quan tâm hơn nữa đến chính trị nào!"
+        },
+        {
+          "id": 3,
+          "text": "当ホテルでは季節を（　　）、すばらしい景色とお料理をお楽しみいただけます。",
+          "options": [
+            "問わず",
+            "かかわらず",
+            "かまわず",
+            "のみならず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜を問わず」＝〜に関係なく。季節に関係なく、いつでも楽しめる。",
+          "explanation_vi": "「〜を問わず」 = Bất kể ~, không phân biệt ~. Tại khách sạn chúng tôi, quý khách có thể thưởng thức cảnh đẹp và món ăn tuyệt ngon bất kể mùa nào trong năm.",
+          "sentence_furigana": "当(とう)ホテル(ほてる)では季節(きせつ)を（　　）、すばらしい景色(けしき)とお料理(りょうり)をお楽しみ(たのしみ)いただけます。",
+          "sentence_vi": "Tại khách sạn chúng tôi, quý khách có thể thưởng thức phong cảnh tuyệt đẹp và những món ăn ngon bất kể là vào mùa nào."
+        },
+        {
+          "id": 4,
+          "text": "緊急（　　）、この番号に電話してください。",
+          "options": [
+            "上は",
+            "次第",
+            "にあたり",
+            "の際は"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜の際は」＝〜の時には（改まった表現）。緊急の時には電話してほしい。",
+          "explanation_vi": "「〜の際は」 = Trong trường hợp ~, khi ~ (cách nói trang trọng). Trong trường hợp khẩn cấp, xin vui lòng gọi vào số này.",
+          "sentence_furigana": "緊急(きんきゅう)（　　）、この番号(ばんごう)に電話(でんわ)してください。",
+          "sentence_vi": "Trong trường hợp khẩn cấp, xin vui lòng gọi vào số điện thoại này."
+        },
+        {
+          "id": 5,
+          "text": "久しぶりに会ったのだから、時間が許す（　　）ゆっくり話しをしましょう。",
+          "options": [
+            "限り",
+            "くらい",
+            "にかけて",
+            "にわたって"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜限り」＝〜の限界まで。時間が許す限界までゆっくり話そう。",
+          "explanation_vi": "「〜限り」 = Chừng nào mà ~, trong giới hạn ~. Lâu lắm rồi chúng ta mới gặp lại nhau, nên hãy cứ thong thả nói chuyện chừng nào thời gian còn cho phép nhé.",
+          "sentence_furigana": "久しぶり(ひさしぶり)に会っ(あっ)たのだから、時間(じかん)が許す(ゆるす)（　　）ゆっくり話し(はなし)をしましょう。",
+          "sentence_vi": "Lâu lắm rồi mới gặp lại, nên chừng nào thời gian còn cho phép, chúng ta hãy cứ thong thả nói chuyện nhé."
+        },
+        {
+          "id": 6,
+          "text": "奥様が無事に退院された（　　）。おめでとうございます。",
+          "options": [
+            "とか",
+            "にて",
+            "など",
+            "まで"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜とか」＝〜ということを聞いた（不確実な伝聞）。退院されたと聞きました、おめでとう。",
+          "explanation_vi": "「〜とか」 = Nghe nói là ~ (truyền đạt lại thông tin không chắc chắn lắm). Nghe nói phu nhân đã xuất viện bình an vô sự. Xin chúc mừng anh.",
+          "sentence_furigana": "奥様(おくさま)が無事(ぶじ)に退院(たいいん)された（　　）。おめでとうございます。",
+          "sentence_vi": "Nghe nói phu nhân nhà anh đã xuất viện bình an. Xin chúc mừng gia đình."
+        },
+        {
+          "id": 7,
+          "text": "4月（　　）、まだ寒い日もある。",
+          "options": [
+            "としては",
+            "のうえでは",
+            "ならでは",
+            "とはいうものの"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜とはいうものの」＝〜とは言うけれど、実際は違う（逆接）。4月とは言うけれど、実際はまだ寒い日もある。",
+          "explanation_vi": "「〜とはいうものの」 = Tuy nói là ~ nhưng thực ra lại (ngược lại). Tuy nói là đã tháng 4 rồi nhưng thực ra vẫn có những ngày trời còn lạnh.",
+          "sentence_furigana": "4月(しがつ)（　　）、まだ寒い(さむい)日(ひ)もある。",
+          "sentence_vi": "Tuy nói là đã tháng 4 rồi nhưng vẫn còn có những ngày trời lạnh."
+        },
+        {
+          "id": 8,
+          "text": "そのような一方的な要求は受け入れ（　　）。",
+          "options": [
+            "がたい",
+            "がいがない",
+            "ざるを得ない",
+            "てたまらない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜がたい」＝〜するのが難しい（心理的に）。一方的な要求を受け入れることは心理的に難しい。",
+          "explanation_vi": "「〜がたい」 = Khó lòng mà ~ (về mặt tâm lý, cảm giác). Những yêu cầu mang tính áp đặt một chiều như vậy thì khó lòng mà chấp nhận được.",
+          "sentence_furigana": "そのような一方的(いっぽうてき)な要求(ようきゅう)は受け入れ(うけいれ)（　　）。",
+          "sentence_vi": "Một yêu cầu mang tính áp đặt từ một phía như vậy thì thật khó để chấp nhận."
+        },
+        {
+          "id": 9,
+          "text": "焦る気持ちもわかるが、今は落ち着いて、無理はしない（　　）。",
+          "options": [
+            "ことか",
+            "ことだ",
+            "ほどだ",
+            "ものか"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ことだ」＝〜したほうがいい、〜すべきだ（忠告・助言）。無理はしないほうがいい。",
+          "explanation_vi": "「〜ことだ」 = Nên ~, không nên ~ (đưa ra lời khuyên, cảnh báo). Tôi hiểu tâm trạng nôn nóng của bạn, nhưng bây giờ bạn nên bình tĩnh lại và không nên làm việc quá sức.",
+          "sentence_furigana": "焦る(あせる)気持ち(きもち)もわかるが、今(いま)は落ち着い(おちつい)て、無理(むり)はしない（　　）。",
+          "sentence_vi": "Tôi hiểu cảm giác sốt ruột của bạn, nhưng lúc này bạn nên bình tĩnh và không nên gắng sức quá."
+        },
+        {
+          "id": 10,
+          "text": "買える（　　）買いたいが、今の給料では何年かかっても無理だ。",
+          "options": [
+            "あまり",
+            "だけに",
+            "からこそ",
+            "ものなら"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ものなら」＝（無理だと思うが）もし〜できるなら。もし買えるなら買いたいが、無理だ。",
+          "explanation_vi": "「〜ものなら」 = Nếu mà có thể ~ (nhưng thực tế là rất khó hoặc không thể). Nếu mà mua được thì tôi cũng muốn mua đấy, nhưng với mức lương hiện tại thì có mất bao nhiêu năm đi nữa cũng vô vọng thôi.",
+          "sentence_furigana": "買える(かえる)（　　）買い(かい)たいが、今(いま)の給料(きゅうりょう)では何年(なんねん)かかっても無理(むり)だ。",
+          "sentence_vi": "Giá mà mua được thì tôi cũng muốn mua đấy, nhưng với đồng lương bây giờ thì bao nhiêu năm nữa cũng chịu thôi."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "工業の ＿＿＿ ＿＿＿ ★ ＿＿＿ 環境汚染の問題が深刻になってきた。",
+          "options": [
+            "発展",
+            "空気や水",
+            "にともなって",
+            "をはじめとする"
+          ],
+          "correct_order": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "工業の 発展 にともなって 空気や水 をはじめとする 環境汚染の問題が深刻になってきた。",
+          "explanation": "正しい語順は「発展(1) にともなって(3) 空気や水(2) をはじめとする(4)」。★は3番目なので「空気や水」。",
+          "explanation_vi": "Thứ tự đúng là: 発展(1) にともなって(3) 空気や水(2) をはじめとする(4). Vị trí ngôi sao là 2 (空気や水). Kéo theo sự phát triển của công nghiệp, các vấn đề ô nhiễm môi trường như không khí hay nguồn nước cũng trở nên nghiêm trọng hơn.",
+          "sentence_furigana": "工業(こうぎょう)の 発展(はってん) にともなって 空気(くうき)や水(みず) をはじめとする 環境(かんきょう)汚染(おせん)の問題(もんだい)が深刻(しんこく)になってきた。",
+          "sentence_vi": "Cùng với sự phát triển của công nghiệp, vấn đề ô nhiễm môi trường, điển hình như không khí và nước, đã trở nên nghiêm trọng hơn."
+        },
+        {
+          "id": 12,
+          "text": "高い試験料を払って ＿＿＿ ＿＿＿ ★ ＿＿＿ 合格したい。",
+          "options": [
+            "申し込んだ",
+            "してでも",
+            "なんと",
+            "からには"
+          ],
+          "correct_order": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "高い試験料を払って 申し込んだ からには なんと してでも 合格したい。",
+          "explanation": "正しい語順は「申し込んだ(1) からには(4) なんと(3) してでも(2)」。★は3番目なので「なんと」。",
+          "explanation_vi": "Thứ tự đúng là: 申し込んだ(1) からには(4) なんと(3) してでも(2). Vị trí ngôi sao là 3 (なんと). Một khi đã nộp khoản lệ phí thi đắt đỏ để đăng ký, thì tôi muốn làm bằng mọi giá để thi đỗ.",
+          "sentence_furigana": "高い(たかい)試験料(しけんりょう)を払っ(はらっ)て 申し込ん(もうしこん)だ からには なんと してでも 合格(ごうかく)したい。",
+          "sentence_vi": "Một khi đã trả phí thi đắt đỏ để đăng ký rồi thì tôi nhất quyết muốn đậu bằng mọi giá."
+        },
+        {
+          "id": 13,
+          "text": "仕事の速い ＿＿＿ ＿＿＿ ★ ＿＿＿ すぐにやってくれるだろう。",
+          "options": [
+            "こと",
+            "彼の",
+            "頼めば",
+            "だから"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "仕事の速い 彼の こと だから 頼めば すぐにやってくれるだろう。",
+          "explanation": "正しい語順は「彼の(2) こと(1) だから(4) 頼めば(3)」。★は3番目なので「だから」。",
+          "explanation_vi": "Thứ tự đúng là: 彼の(2) こと(1) だから(4) 頼めば(3). Vị trí ngôi sao là 4 (だから). Người làm việc nhanh nhẹn như anh ấy thì nếu nhờ, chắc chắn anh ấy sẽ làm ngay cho thôi.",
+          "sentence_furigana": "仕事(しごと)の速い(はやい) 彼(かれ)の こと だから 頼め(たのめ)ば すぐにやってくれるだろう。",
+          "sentence_vi": "Vì là người làm việc nhanh nhẹn như anh ấy, nên nếu nhờ vả chắc anh ấy sẽ làm xong ngay thôi."
+        },
+        {
+          "id": 14,
+          "text": "祖父が入院したという連絡があり、国に ＿＿＿ ＿＿＿ ★ ＿＿＿ 迷っている。",
+          "options": [
+            "帰る",
+            "か",
+            "帰ろう",
+            "まいか"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "祖父が入院したという連絡があり、国に 帰ろう か 帰る まいか 迷っている。",
+          "explanation": "正しい語順は「帰ろう(3) か(2) 帰る(1) まいか(4)」。★は3番目なので「帰る」。",
+          "explanation_vi": "Thứ tự đúng là: 帰ろう(3) か(2) 帰る(1) まいか(4). Vị trí ngôi sao là 1 (帰る). Nhận được tin nhắn ông nội nhập viện, tôi đang băn khoăn không biết có nên về nước hay không.",
+          "sentence_furigana": "祖父(そふ)が入院(にゅういん)したという連絡(れんらく)があり、国(くに)に 帰ろう(かえろう) か 帰る(かえる) まいか 迷っ(まよっ)ている。",
+          "sentence_vi": "Nhận được tin ông nội nhập viện, tôi đang phân vân không biết có nên về nước hay không."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　「山登りしてみたい、でも初めてなのでどうしたらいいでしょうか」「疲れない歩き方ってあるのでしょうか」という質問が、最近特に多い。\n　なんでも初めては不安な【１】。また、山登りは特別なものと思う人も結構多い。身近にハイキングでも行ってみようか、という仲間がいれば入りやすいのだが、だれもいないと不安だ。\n　そんなとき、市や町が主催する山の講座に参加してみたら、と勧めている。【２】スポーツ店に相談するのもいい。初めて山を歩く人のために、という企画が必ずある。ここでいいリーダーに出会えるかどうかは運【３】だ。リーダーがよければそこに集まる人たちもいい。\n　一回、一回と数を重ねるごとに、自分と同じ体力の人、似たような環境の人、同じ好みを持っている人――などと知り合いになれる。山歩きも楽しいが、仲間に会えることがうれしい、となればしめたものだ。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "うえだ",
+            "ことだ",
+            "だけだ",
+            "ものだ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ものだ」＝〜というのが一般的な性質だ、〜するのが当然だ。何でも初めてのときは不安なのが当たり前だ。",
+          "explanation_vi": "「〜ものだ」 = Bản chất thường là ~, đương nhiên là ~. Bất cứ chuyện gì thì lần đầu tiên làm cũng đương nhiên là sẽ thấy bất an."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "あるいは",
+            "それとも",
+            "けれども",
+            "そこで"
+          ],
+          "correct_answer": 1,
+          "explanation": "前文で「講座に参加する」という方法を提案し、「（または）スポーツ店に相談するのもいい」と別の選択肢を提案しているため、「あるいは（＝または）」が適切。",
+          "explanation_vi": "「あるいは」 = Hoặc là. Câu trước đưa ra lời khuyên \"hãy thử tham gia một khóa học\", câu này đưa ra phương án khác \"hoặc là đi hỏi tư vấn ở cửa hàng đồ thể thao cũng được\"."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "のみ",
+            "次第",
+            "どおり",
+            "ばかり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜次第だ」＝〜によって決まる。いいリーダーに出会えるかどうかは「運によって決まる」という意味。",
+          "explanation_vi": "「〜次第だ」 = Tùy thuộc vào ~. Việc ở đó có gặp được một người trưởng nhóm tốt hay không là tùy thuộc vào sự may mắn."
+        }
+      ]
+    }
+  ]
+}

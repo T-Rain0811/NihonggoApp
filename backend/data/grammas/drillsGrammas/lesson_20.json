@@ -1,0 +1,265 @@
+{
+  "lesson": 20,
+  "title": "第２０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "持ってきてくれて助かったよ。おかげで外に買いに（　　）。",
+          "options": [
+            "行かなくてすんだ",
+            "行かなかったんだ",
+            "行けっこなかった",
+            "行くわけにはいかなかった"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ずにすむ（〜なくてすむ）」＝〜しないで解決する。持ってきてくれたおかげで、わざわざ買いに行かなくても済んだ（解決した）。",
+          "explanation_vi": "「〜なくてすむ」 = Không cần phải ~, khỏi phải ~ (thể hiện sự nhẹ nhõm vì đỡ tốn công sức hoặc tránh được chuyện rắc rối). Cậu mang đến cho mình đúng là đỡ quá. Nhờ thế mà mình khỏi phải chạy ra ngoài mua nữa.",
+          "sentence_furigana": "持っ(もっ)てきてくれて助かっ(たすかっ)たよ。おかげで外(そと)に買い(かい)に（　　）。",
+          "sentence_vi": "Cậu cầm đến cho tớ đúng là đỡ quá. Nhờ thế mà tớ khỏi phải chạy ra ngoài mua nữa."
+        },
+        {
+          "id": 2,
+          "text": "日本語（　　）どんな外国語でも、使う相手がいないと上達しない。",
+          "options": [
+            "に限らず",
+            "とはいえ",
+            "は抜きにして",
+            "のことだから"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に限らず」＝〜だけでなく（他のものもすべて）。日本語だけに限らず、どんな外国語でも同じだ。",
+          "explanation_vi": "「〜に限らず」 = Không chỉ riêng ~ (mà còn mở rộng ra những thứ khác). Không chỉ riêng tiếng Nhật, mà bất kỳ ngoại ngữ nào cũng vậy, nếu không có người để giao tiếp cùng thì sẽ không thể tiến bộ được.",
+          "sentence_furigana": "日本(にほん)語(ご)（　　）どんな外国(がいこく)語(ご)でも、使う(つかう)相手(あいて)がいないと上達(じょうたつ)しない。",
+          "sentence_vi": "Không chỉ riêng tiếng Nhật, mà bất cứ ngoại ngữ nào cũng thế, nếu không có đối tượng để thực hành thì sẽ không thể tiến bộ được."
+        },
+        {
+          "id": 3,
+          "text": "何をばかなことを言ってるんだ。就職面接のときはスーツ（　　）だろう。",
+          "options": [
+            "も同然",
+            "ももっとも",
+            "に違いない",
+            "に決まっている"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜に決まっている」＝絶対に〜だ、当然〜だ（話し手の強い確信）。面接にはスーツで行くのが当然だ。",
+          "explanation_vi": "「〜に決まっている」 = Chắc chắn là ~, hiển nhiên là ~ (thể hiện sự khẳng định chắc nịch của người nói). Cậu đang nói cái chuyện ngớ ngẩn gì vậy. Đi phỏng vấn xin việc thì hiển nhiên là phải mặc vest rồi.",
+          "sentence_furigana": "何(なに)をばかなことを言っ(いっ)てるんだ。就職(しゅうしょく)面接(めんせつ)のときはスーツ(すーつ)（　　）だろう。",
+          "sentence_vi": "Đang nói cái chuyện ngớ ngẩn gì vậy. Lúc đi phỏng vấn xin việc thì tất nhiên là phải mặc vest rồi còn gì."
+        },
+        {
+          "id": 4,
+          "text": "学生にとってはもちろん、教師（　　）長い休みは嬉しいものだ。",
+          "options": [
+            "にしては",
+            "からすると",
+            "にしたって",
+            "というより"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にしたって」＝〜にしても、〜の場合でも（話し言葉）。学生だけでなく、教師の場合でも休みは嬉しい。",
+          "explanation_vi": "「〜にしたって（〜にしても）」 = Ngay cả ~, cho dù là ~ đi chăng nữa. Đối với học sinh thì khỏi phải bàn rồi, nhưng ngay cả đối với giáo viên thì kỳ nghỉ dài cũng là một điều đáng mừng.",
+          "sentence_furigana": "学生(がくせい)にとってはもちろん、教師(きょうし)（　　）長い(ながい)休み(やすみ)は嬉しい(うれしい)ものだ。",
+          "sentence_vi": "Đối với học sinh thì hiển nhiên rồi, nhưng ngay cả đối với giáo viên thì những kỳ nghỉ dài cũng là những dịp rất đáng vui mừng."
+        },
+        {
+          "id": 5,
+          "text": "兄はいい仕事が見つかった（　　）結婚も決まって、今とても幸せそうだ。",
+          "options": [
+            "上で",
+            "上に",
+            "以上",
+            "以上に"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜上に」＝〜に加えて、さらに（良いこと・悪いことが重なる）。いい仕事が見つかったことに加えて、結婚も決まった。",
+          "explanation_vi": "「〜上に」 = Không chỉ ~ mà còn, thêm vào đó. Anh trai tôi không chỉ tìm được một công việc tốt mà lại còn chốt được luôn cả chuyện cưới xin, nên bây giờ trông anh ấy hạnh phúc lắm.",
+          "sentence_furigana": "兄(あに)はいい仕事(しごと)が見つかっ(みつかっ)た（　　）結婚(けっこん)も決まっ(きまっ)て、今(いま)とても幸せ(しあわせ)そうだ。",
+          "sentence_vi": "Anh trai tôi vừa tìm được công việc tốt lại còn vừa chốt được chuyện cưới xin, nên bây giờ trông anh ấy có vẻ rất hạnh phúc."
+        },
+        {
+          "id": 6,
+          "text": "ここに書いてあることは、事実に（　　）。",
+          "options": [
+            "相違ありません",
+            "あり得ません",
+            "なりません",
+            "関わりません"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に相違ない」＝絶対に〜だ、〜に違いない（硬い表現）。「相違ありません」は事実であることを強く肯定する表現。",
+          "explanation_vi": "「〜に相違（そうい）ない」 = Chắc chắn là ~, không hề sai lệch. Những điều được viết ở đây chắc chắn là sự thật (không có gì sai trái).",
+          "sentence_furigana": "ここに書い(かい)てあることは、事実(じじつ)に（　　）。",
+          "sentence_vi": "Những điều được viết ở đây cam đoan hoàn toàn là sự thật."
+        },
+        {
+          "id": 7,
+          "text": "この写真を見る（　　）、楽しかったあの頃のことが思い出される。",
+          "options": [
+            "にしろ",
+            "にせよ",
+            "につき",
+            "につけ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜につけ」＝〜するたびにいつも（感情の動きを伴う）。この写真を見るたびにいつも、あの頃を思い出す。",
+          "explanation_vi": "「〜につけ」 = Cứ mỗi lần ~ là lại (thường đi kèm với những từ ngữ chỉ cảm xúc). Cứ mỗi lần nhìn thấy bức ảnh này là những ký ức vui vẻ của ngày xưa lại ùa về trong tôi.",
+          "sentence_furigana": "この写真(しゃしん)を見(み)る（　　）、楽しかっ(たのしかっ)たあの頃(ころ)のことが思い出さ(おもいださ)れる。",
+          "sentence_vi": "Cứ mỗi lần nhìn thấy bức ảnh này là tôi lại nhớ về những tháng ngày vui vẻ thuở ấy."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "一度はサービスをやめたが、これだけ ＿＿＿ ＿＿＿ ★ ＿＿＿ しかないだろう。",
+          "options": [
+            "集まった",
+            "多くの要望が",
+            "からには",
+            "再開する"
+          ],
+          "correct_order": [
+            2,
+            1,
+            3,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "一度はサービスをやめたが、これだけ 多くの要望が 集まった からには 再開する しかないだろう。",
+          "explanation": "正しい語順は「多くの要望が(2) 集まった(1) からには(3) 再開する(4)」。★は3番目なので「からには」。\n「〜からには」＝〜のだから当然。「〜するしかない」＝〜するよりほかに方法がない。",
+          "explanation_vi": "Thứ tự đúng là: 多くの要望が(2) 集まった(1) からには(3) 再開する(4). Vị trí ngôi sao là 3 (からには).\n「〜からには」 = Một khi đã ~ thì (phải làm gì đó). Dù đã từng dừng cung cấp dịch vụ một lần rồi, nhưng một khi đã nhận được nhiều yêu cầu đến mức này thì có lẽ chỉ còn cách mở lại thôi.",
+          "sentence_furigana": "一度(いちど)はサービス(さーびす)をやめたが、これだけ 多く(おおく)の要望(ようぼう)が 集まっ(あつまっ)た からには 再開(さいかい)する しかないだろう。",
+          "sentence_vi": "Dù đã một lần tạm dừng dịch vụ, nhưng một khi đã thu thập được nhiều ý kiến yêu cầu đến như thế này thì có lẽ chỉ còn cách là mở lại mà thôi."
+        },
+        {
+          "id": 9,
+          "text": "誰もいないのに電気も ＿＿＿ ＿＿＿ ★ ＿＿＿ 、本当にもったいない。",
+          "options": [
+            "なんて",
+            "つけ",
+            "エアコンも",
+            "っぱなし"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "誰もいないのに電気も エアコンも つけ っぱなし なんて 、本当にもったいない。",
+          "explanation": "正しい語順は「エアコンも(3) つけ(2) っぱなし(4) なんて(1)」。★は3番目なので「っぱなし」。\n「〜っぱなし」＝〜したまま（良くない状態を放置している）。",
+          "explanation_vi": "Thứ tự đúng là: エアコンも(3) つけ(2) っぱなし(4) なんて(1). Vị trí ngôi sao là 4 (っぱなし).\n「〜っぱなし」 = Cứ để nguyên như vậy (thường mang nghĩa tiêu cực, chê trách). Chẳng có ai ở trong phòng mà lại cứ để điện với điều hòa bật nguyên như vậy, đúng là lãng phí hết sức.",
+          "sentence_furigana": "誰も(だれも)いないのに電気(でんき)も エアコン(えあこん)も つけ っぱなし なんて 、本当(ほんとう)にもったいない。",
+          "sentence_vi": "Chẳng có người nào ở trong phòng mà lại cứ để cả điện lẫn điều hòa bật tung lên như thế, thật đúng là phí phạm hết sức."
+        },
+        {
+          "id": 10,
+          "text": "その日私は、目覚まし時計が ＿＿＿ ＿＿＿ ★ ＿＿＿ 飛び起きた。",
+          "options": [
+            "の",
+            "鳴らないか",
+            "鳴るか",
+            "うちに"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "その日私は、目覚まし時計が 鳴るか 鳴らないか の うちに 飛び起きた。",
+          "explanation": "正しい語順は「鳴るか(3) 鳴らないか(2) の(1) うちに(4)」。★は3番目なので「の」。\n「〜か〜ないかのうちに」＝〜すると同時くらいに（非常に短い時間差）。目覚ましが鳴り終わる前にすぐ起きた。",
+          "explanation_vi": "Thứ tự đúng là: 鳴るか(3) 鳴らないか(2) の(1) うちに(4). Vị trí ngôi sao là 1 (の).\n「〜か〜ないかのうちに」 = Ngay khi vừa mới ~ (gần như là đồng thời). Ngày hôm đó, chuông báo thức vừa mới kêu lên một cái là tôi đã giật mình bật dậy ngay tắp lự.",
+          "sentence_furigana": "その日(ひ)私(わたし)は、目覚まし(めざまし)時計(とけい)が 鳴る(なる)か 鳴ら(なら)ないか の うちに 飛び起き(とびおき)た。",
+          "sentence_vi": "Ngày hôm đó, chuông báo thức vừa mới réo lên một cái (chưa biết là réo xong hay chưa) là tôi đã bật dậy ngay lập tức."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　ある人が自分の作った米10kgを売ろうと考えました。この人は10kgの米に5,000円という値段をつけました。では、この5,000円という値段は何から決められたのでしょうか。この米がとれた土地の価値【１】いるのか、それとも米を作ったこの人の働きからなのでしょうか。\n　この米の価値は、人の働きと、土地【２】自然の働きとを合わせることで生み出されたと言えます。\n　イギリスのウィリアム・ペティという統計学者は「労働は富の父であり、土地（自然）は富の母である」と言っています。しかし、実際にはこの米【３】支払われた5,000円を人と自然が分け合うことはありません。5,000円はすべて人のものになります。\n　ところで、父親が母親の役割をみとめない家庭はよい家庭でしょうか。そのような家庭を【4-a】よい家庭とは【4-b】と思います。これは人と自然の関係にもあてはまります。人は、母である自然の役割をきちんと認めてきませんでした。だから今、家庭である地球の環境がよい状態ではないのです。\n　人は自然とともに生み出した米10kgから得た5,000円を、自分たちだけのものにするのをあらためなければなりません。自然は何も要求してきませんが、このお金が自然のために使われて【５】と考えなければならないのです。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "に沿って",
+            "に関して",
+            "をもとにして",
+            "をはじめとして"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜をもとにして」＝〜を基礎・判断基準として。土地の価値を判断基準にして値段が決められたのか、という文脈。",
+          "explanation_vi": "「〜をもとにして」 = Dựa trên (làm cơ sở, nền tảng). Câu này ý hỏi \"Cái giá 5.000 yên này được định ra dựa trên cơ sở là giá trị của mảnh đất trồng ra lúa gạo hay là dựa trên sức lao động của người nông dân?\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "つまり",
+            "たとえば",
+            "それとも",
+            "または"
+          ],
+          "correct_answer": 1,
+          "explanation": "「つまり」＝言い換えると。「土地、言い換えると自然の働き」という意味で、前後の言葉を同じ意味で言い換えている。",
+          "explanation_vi": "「つまり」 = Tóm lại là, nói cách khác là (dùng để nói lại một cách khác cho rõ nghĩa hơn). Ở đây tác giả muốn nói \"Mảnh đất, nói cách khác chính là sức mạnh của tự nhiên\"."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "に対して",
+            "にとって",
+            "をめぐって",
+            "を通じて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に対して」＝〜に向かって、〜を対象として。この米という対象に支払われた5,000円。",
+          "explanation_vi": "「〜に対して」 = Đối với ~ (chỉ đối tượng hướng tới). 5.000 yên được trả cho/đối với số lúa gạo này."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "a 決して／b 言うまい",
+            "a 決して／b 言わない",
+            "a まるで／b 見えまい",
+            "a まるで／b 見えない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「決して〜ない」＝絶対に〜ない。そのような家庭を決して良い家庭とは言わない、という強い否定の呼応。",
+          "explanation_vi": "「決して〜ない」 = Tuyệt đối không ~, quyết không ~. \"Gia đình mà người cha không công nhận vai trò của người mẹ thì tuyệt đối không thể gọi là một gia đình tốt được\"."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "当然だ",
+            "同然だ",
+            "かいがある",
+            "ほかならない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜て当然だ」＝〜するのが当たり前だ、理にかなっている。自然のために使われるのが当たり前だと考えなければならない。",
+          "explanation_vi": "「〜て当然だ」 = ~ là điều đương nhiên, hợp lẽ thường. Chúng ta phải suy nghĩ rằng số tiền đó được dùng vì tự nhiên là một lẽ đương nhiên."
+        }
+      ]
+    }
+  ]
+}

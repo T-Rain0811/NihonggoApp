@@ -1,0 +1,307 @@
+{
+  "lesson": 13,
+  "title": "第１３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "私の転勤が多かった（　　）子ども達も何度も学校を変わらなければならなかった。",
+          "options": [
+            "ままに",
+            "からして",
+            "としても",
+            "ばかりに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ばかりに」＝〜したせいで（悪い結果の原因）。私の転勤が多かったせいで、子ども達も何度も転校することになった。",
+          "explanation_vi": "「〜ばかりに」 = Chỉ vì ~ (dẫn đến kết quả xấu, mang tâm trạng hối hận, tiếc nuối). Chỉ vì tôi phải chuyển công tác quá nhiều lần mà các con tôi cũng phải chuyển trường hết lần này đến lần khác.",
+          "sentence_furigana": "私(わたし)の転勤(てんきん)が多かった(おおかった)（　　）子ども(こども)達(たち)も何度(なんど)も学校(がっこう)を変わら(かわら)なければならなかった。",
+          "sentence_vi": "Chỉ vì tôi bị luân chuyển công tác quá nhiều lần mà bọn trẻ cũng phải chuyển trường không biết bao nhiêu lần."
+        },
+        {
+          "id": 2,
+          "text": "このまま赤字経営が続けば、店はつぶれてしまうのでは（　　）。",
+          "options": [
+            "あるまい",
+            "ほかない",
+            "あるまいか",
+            "ほかならない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜のではあるまいか」＝〜のではないだろうか（推量・心配）。つぶれてしまうのではないかと心配だ。",
+          "explanation_vi": "「〜のではあるまいか」 = Phải chăng là ~, không chừng là ~ (thể hiện sự phỏng đoán, lo lắng). Nếu tình trạng kinh doanh thua lỗ này cứ tiếp diễn thì không chừng cửa hàng sẽ phải phá sản mất thôi.",
+          "sentence_furigana": "このまま赤字(あかじ)経営(けいえい)が続け(つづけ)ば、店(みせ)はつぶれてしまうのでは（　　）。",
+          "sentence_vi": "Nếu tình trạng kinh doanh thua lỗ này vẫn tiếp diễn thì phải chăng cửa hàng sẽ bị phá sản mất."
+        },
+        {
+          "id": 3,
+          "text": "電話で指示される（　　）お金を振り込んだが、後でだまされていたとわかった。",
+          "options": [
+            "うえに",
+            "うちに",
+            "までに",
+            "ままに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜まま（に）」＝〜の通りに（相手の言う通りに行動する）。指示された通りにお金を振り込んだ。",
+          "explanation_vi": "「〜まま（に）」 = Đúng như ~, theo như ~ (làm theo đúng y như những gì được bảo/nhìn thấy). Tôi đã chuyển tiền đúng theo như những gì được hướng dẫn qua điện thoại, nhưng mãi sau mới biết là mình đã bị lừa.",
+          "sentence_furigana": "電話(でんわ)で指示(しじ)される（　　）お金(おかね)を振り込ん(ふりこん)だが、後(あと)でだまされていたとわかった。",
+          "sentence_vi": "Tôi đã chuyển tiền đúng y như những gì được yêu cầu qua điện thoại, nhưng sau đó mới biết là mình đã bị lừa."
+        },
+        {
+          "id": 4,
+          "text": "この映画には人の心を打つ（　　）。ぜひ、多くの人に見てほしい。",
+          "options": [
+            "ものがある",
+            "おそれがある",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものがある」＝〜と感じられる要素がある、〜という感じが強い。人の心を打つ力があると感じる。",
+          "explanation_vi": "「〜ものがある」 = Có cảm giác ~, có một cái gì đó rất ~. Bộ phim này có một sức mạnh/yếu tố gì đó rất lay động lòng người. Tôi thực sự mong sẽ có nhiều người được xem nó.",
+          "sentence_furigana": "この映画(えいが)には人(ひと)の心(こころ)を打つ(うつ)（　　）。ぜひ、多く(おおく)の人(ひと)に見(み)てほしい。",
+          "sentence_vi": "Bộ phim này có một sức hút gì đó rất lay động lòng người. Tôi rất muốn nhiều người được xem nó."
+        },
+        {
+          "id": 5,
+          "text": "休める（　　）10日ぐらい休みたいが、しばらくは無理な話だ。",
+          "options": [
+            "ものか",
+            "ものの",
+            "ものなら",
+            "ものだから"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ものなら」＝（無理だと思うが）もし〜できるなら。もし休めるなら休みたい。",
+          "explanation_vi": "「〜ものなら」 = Nếu mà có thể ~ (nhưng thực tế là rất khó). Nếu mà được nghỉ thì tôi cũng muốn nghỉ hẳn chục ngày đấy, nhưng trước mắt thì đó là chuyện không tưởng.",
+          "sentence_furigana": "休める(やすめる)（　　）10日(とおか)ぐらい休み(やすみ)たいが、しばらくは無理(むり)な話(はなし)だ。",
+          "sentence_vi": "Nếu mà xin nghỉ được thì tôi cũng muốn nghỉ khoảng 10 ngày đấy, nhưng lúc này thì chịu rồi."
+        },
+        {
+          "id": 6,
+          "text": "早朝の湖は言葉では（　　）ほど美しかった。",
+          "options": [
+            "表しようがない",
+            "表しそうにない",
+            "表しかねない",
+            "表さざるをえない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ようがない」＝方法がなくて、〜できない。言葉で表現する方法がないほど美しかった。",
+          "explanation_vi": "「〜ようがない」 = Không có cách nào để ~, không thể nào ~. Mặt hồ lúc sáng sớm đẹp đến mức không thể nào diễn tả bằng lời được.",
+          "sentence_furigana": "早朝(そうちょう)の湖(みずうみ)は言葉(ことば)では（　　）ほど美しかっ(うつくしかっ)た。",
+          "sentence_vi": "Mặt hồ lúc sáng sớm đẹp đến mức không có ngôn từ nào có thể diễn tả được."
+        },
+        {
+          "id": 7,
+          "text": "今のアルバイトは力仕事で疲れる（　　）時給が安い。",
+          "options": [
+            "あまり",
+            "せいで",
+            "わけで",
+            "わりに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わりに」＝〜という基準から予想される程度と違って。疲れる（大変な）仕事だという基準から予想されるのに反して、時給が安い。",
+          "explanation_vi": "「〜わりに」 = Tuy ~ nhưng lại (trái với dự đoán). Công việc làm thêm hiện tại là việc chân tay rất mệt nhọc, vậy mà mức lương theo giờ lại rất bèo bọt.",
+          "sentence_furigana": "今(いま)のアルバイト(あるばいと)は力仕事(ちからしごと)で疲れる(つかれる)（　　）時給(じきゅう)が安い(やすい)。",
+          "sentence_vi": "Công việc làm thêm hiện giờ là lao động chân tay rất mệt nhọc, thế mà lương theo giờ lại rẻ mạt."
+        },
+        {
+          "id": 8,
+          "text": "休日の朝は平日より遅く起きて、朝食と昼食を（　　）食事をとる。",
+          "options": [
+            "かねた",
+            "ふまえた",
+            "重ねた",
+            "通した"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜をかねて（かねた）」＝一つの行為が二つの目的・役割を持つ。朝食と昼食の二つの役割をあわせ持った食事（ブランチ）。",
+          "explanation_vi": "「〜をかねて／かねた」 = Kiêm luôn ~, kết hợp cả 2 mục đích. Sáng ngày nghỉ tôi thường thức dậy muộn hơn ngày thường, và ăn một bữa gộp chung (kiêm luôn) cả bữa sáng lẫn bữa trưa.",
+          "sentence_furigana": "休日(きゅうじつ)の朝(あさ)は平日(へいじつ)より遅く(おそく)起き(おき)て、朝食(ちょうしょく)と昼食(ちゅうしょく)を（　　）食事(しょくじ)をとる。",
+          "sentence_vi": "Vào sáng ngày nghỉ tôi thường thức dậy muộn hơn ngày thường, rồi ăn một bữa gộp chung cả bữa sáng và bữa trưa."
+        },
+        {
+          "id": 9,
+          "text": "この曲のヒット（　　）、彼は海外でもコンサートをするようになった。",
+          "options": [
+            "に際して",
+            "に反して",
+            "を抜きに",
+            "をきっかけに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜をきっかけに」＝〜を始まりの機会として（前向きな変化）。ヒットがきっかけとなって海外へ進出した。",
+          "explanation_vi": "「〜をきっかけに」 = Lấy ~ làm cớ/lý do khởi đầu (nhân dịp, nhân cơ hội). Nhân cơ hội bài hát này trở thành bản hit, anh ấy đã bắt đầu tổ chức các buổi biểu diễn ở cả nước ngoài.",
+          "sentence_furigana": "この曲(きょく)のヒット(ひっと)（　　）、彼(かれ)は海外(かいがい)でもコンサート(こんさーと)をするようになった。",
+          "sentence_vi": "Nhân cơ hội bài hát này trở thành một bản hit, anh ấy đã bắt đầu tổ chức các buổi hòa nhạc ở cả nước ngoài."
+        },
+        {
+          "id": 10,
+          "text": "A国とB国の間では、昔から資源（　　）争いが続いている。",
+          "options": [
+            "の上で",
+            "を頼りに",
+            "をめぐる",
+            "のことだから"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜をめぐる」＝〜に関して（議論や争いの中心となる話題。名詞を修飾する時は「〜をめぐる」）。資源に関する争い。",
+          "explanation_vi": "「〜をめぐる」 = Xoay quanh vấn đề ~ (khi bổ nghĩa cho danh từ đằng sau). Giữa quốc gia A và quốc gia B, từ ngày xưa đã liên tục nổ ra những cuộc xung đột xoay quanh vấn đề tài nguyên.",
+          "sentence_furigana": "A国(えーこく)とB国(びーこく)の間(あいだ)では、昔(むかし)から資源(しげん)（　　）争い(あらそい)が続い(つづい)ている。",
+          "sentence_vi": "Giữa nước A và nước B từ xa xưa đã liên tục xảy ra các cuộc xung đột xoay quanh vấn đề tài nguyên."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "いくら他の人に ＿＿＿ ＿＿＿ ★ ＿＿＿ ことにはわからない。",
+          "options": [
+            "自分で",
+            "いい",
+            "使ってみない",
+            "と言われても"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "いくら他の人に いい と言われても 自分で 使ってみない ことにはわからない。",
+          "explanation": "正しい語順は「いい(2) と言われても(4) 自分で(1) 使ってみない(3)」。★は3番目なので「自分で」。",
+          "explanation_vi": "Thứ tự đúng là: いい(2) と言われても(4) 自分で(1) 使ってみない(3). Vị trí ngôi sao là 1 (自分で). Cho dù có bị người khác nói là tốt đến bao nhiêu đi chăng nữa, thì nếu không tự mình dùng thử sẽ không thể nào biết được.",
+          "sentence_furigana": "いくら他(ほか)の人(ひと)に いい と言わ(いわ)れても 自分(じぶん)で 使っ(つかっ)てみない ことにはわからない。",
+          "sentence_vi": "Cho dù có được người khác bảo là tốt đến mấy đi chăng nữa, nếu không tự mình dùng thử thì sẽ không thể nào biết được."
+        },
+        {
+          "id": 12,
+          "text": "長時間運転する際は、眠く ＿＿＿ ＿＿＿ ★ ＿＿＿ 休憩をとってください。",
+          "options": [
+            "ように",
+            "応じて",
+            "必要に",
+            "ならない"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "長時間運転する際は、眠く ならない ように 必要に 応じて 休憩をとってください。",
+          "explanation": "正しい語順は「ならない(4) ように(1) 必要に(3) 応じて(2)」。★は3番目なので「必要に」。",
+          "explanation_vi": "Thứ tự đúng là: ならない(4) ように(1) 必要に(3) 応じて(2). Vị trí ngôi sao là 3 (必要に). Khi lái xe trong thời gian dài, để không bị buồn ngủ thì hãy nghỉ ngơi tùy theo nhu cầu (tùy lúc thấy cần thiết).",
+          "sentence_furigana": "長時間(ちょうじかん)運転(うんてん)する際(さい)は、眠く(ねむく) ならない ように 必要(ひつよう)に 応じ(おうじ)て 休憩(きゅうけい)をとってください。",
+          "sentence_vi": "Khi lái xe trong thời gian dài, để không bị buồn ngủ, xin hãy nghỉ ngơi tùy theo lúc thấy cần thiết."
+        },
+        {
+          "id": 13,
+          "text": "明日は東北から北海道に ＿＿＿ ＿＿＿ ★ ＿＿＿ らしい。",
+          "options": [
+            "おそれが",
+            "かけて",
+            "ある",
+            "大雪となる"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "明日は東北から北海道に かけて 大雪となる おそれが ある らしい。",
+          "explanation": "正しい語順は「かけて(2) 大雪となる(4) おそれが(1) ある(3)」。★は3番目なので「おそれが」。",
+          "explanation_vi": "Thứ tự đúng là: かけて(2) 大雪となる(4) おそれが(1) ある(3). Vị trí ngôi sao là 1 (おそれが). Nghe nói ngày mai có nguy cơ sẽ xảy ra tuyết lớn trải dài từ vùng Tohoku cho đến Hokkaido.",
+          "sentence_furigana": "明日(あす)は東北(とうほく)から北海道(ほっかいどう)に かけて 大雪(おおゆき)となる おそれが ある らしい。",
+          "sentence_vi": "Nghe nói ngày mai có nguy cơ sẽ có tuyết rơi dày trải dài từ vùng Tohoku đến vùng Hokkaido."
+        },
+        {
+          "id": 14,
+          "text": "うちの猫は外へ ＿＿＿ ＿＿＿ ★ ＿＿＿ こないことがよくある。",
+          "options": [
+            "帰って",
+            "っきり",
+            "しばらく",
+            "出ていった"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "うちの猫は外へ 出ていった っきり しばらく 帰って こないことがよくある。",
+          "explanation": "正しい語順は「出ていった(4) っきり(2) しばらく(3) 帰って(1)」。★は3番目なので「しばらく」。",
+          "explanation_vi": "Thứ tự đúng là: 出ていった(4) っきり(2) しばらく(3) 帰って(1). Vị trí ngôi sao là 3 (しばらく). Con mèo nhà tôi thường xuyên có chuyện một khi đã đi ra ngoài là đi miết một thời gian dài không thấy về.",
+          "sentence_furigana": "うちの猫(ねこ)は外(そと)へ 出ていった(でていった) っきり しばらく 帰っ(かえっ)て こないことがよくある。",
+          "sentence_vi": "Con mèo nhà tôi hay có kiểu hễ đi ra ngoài là đi miết một lúc lâu không thèm về."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　じつは川の中や水辺の周辺には、皆さんが知らない、あるいは【１】、多くの生き物たちのさまざまな暮らしがあるのです。そのことを体感するには、たくさんの本を読んだり、ビデオを見たりして知識を身につけるよりも、もっと確実な方法があります。それは、皆さんがふだんの暮らしの中で知らず知らず【２】身につけてしまった、時間や空間やさまざまな日常生活に対する「人工的な感覚」を、できるだけ捨て去ることです。そして水に囲まれた小宇宙に自分の身を置く心持ちになって、川を感じてみることです。つまり川の流れに身をひたして、魚たちの視線で川をながめてみるのです。\n　私たちは、身のまわりの世界のほとんどを「視覚」を通して認識しています。でも、目にはして【３】、“ほんとうは見ていない”ことも多いのです。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "気づかざるをえない",
+            "気づくかいもない",
+            "気づこうともしない",
+            "気づかないことはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ようとしない」＝〜する意志が全くない。「皆さんが知らない」、または「（知る機会があっても）気付こうともしない」という意味で、人間が無関心であることを表す。",
+          "explanation_vi": "「〜ようとしない」 = Không thèm ~, hoàn toàn không có ý định ~. Nghĩa là \"những điều mà mọi người không biết, hoặc là có biết cũng không thèm để ý/bận tâm đến\"."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "としても",
+            "のうちに",
+            "の限りに",
+            "にかかわらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜のうちに」＝〜している間に。「知らず知らずのうちに」は「気付かない間に自然と」という意味の慣用表現。",
+          "explanation_vi": "「〜のうちに」 = Trong lúc, trong khi ~. \"知らず知らずのうちに\" là một cụm cố định mang nghĩa \"trong lúc không hề hay biết, một cách vô thức\"."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "いながら",
+            "いるものなら",
+            "いるにつけても",
+            "いるのみならず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ながら（も）」＝〜にもかかわらず（逆接）。「目にはしていながら（＝目では見ているのに）、本当は見ていないことも多い」。",
+          "explanation_vi": "「〜ながら」 = Mặc dù ~, dẫu cho ~. Câu này nghĩa là: \"Mặc dù (mắt) vẫn đang nhìn thấy đấy, nhưng có rất nhiều thứ 'thực sự ta không hề nhìn thấy (thấu hiểu)'\"."
+        }
+      ]
+    }
+  ]
+}

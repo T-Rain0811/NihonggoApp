@@ -1,0 +1,307 @@
+{
+  "lesson": 1,
+  "title": "第１回",
+  "time_limit_minutes": 20,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "毎晩お酒を飲んで（　　）、病気になりますよ。",
+          "options": [
+            "ばかりに",
+            "ばかりは",
+            "ばかりいると",
+            "ばかりでなく"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ばかりいると」は「〜ばかりいると」の形で、「ずっと〜し続けていると（悪い結果になる）」という意味。",
+          "explanation_vi": "「ばかりいると」là dạng của 「〜ばかりいると」 và có nghĩa là ``Nếu bạn tiếp tục làm ~ trong một thời gian dài (sẽ dẫn đến kết quả tồi tệ).''",
+          "sentence_furigana": "毎晩(まいばん)お酒(さけ)を飲ん(のん)で（　　）、病気(びょうき)になりますよ。",
+          "sentence_vi": "Nếu bạn uống rượu mỗi đêm, bạn sẽ bị bệnh."
+        },
+        {
+          "id": 2,
+          "text": "雪国の人なら誰でもスキーが上手（　　）、必ずしもそうではない。",
+          "options": [
+            "というと",
+            "かというと",
+            "といったら",
+            "というなら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜かというと」は「〜かといえば、そうではない」という形で使われ、一般的な思い込みを否定する表現。",
+          "explanation_vi": "“Điều đó đúng, nhưng không phải vậy” được dùng như một cách diễn đạt để phủ nhận một niềm tin chung.",
+          "sentence_furigana": "雪国(ゆきぐに)の人(にん)なら誰(だれ)でもスキー(すきー)が上手(じょうず)（　　）、必ずしも(かならずしも)そうではない。",
+          "sentence_vi": "Bất cứ ai đến từ một đất nước có tuyết đều giỏi trượt tuyết, nhưng điều đó không hẳn đúng."
+        },
+        {
+          "id": 3,
+          "text": "手術をしない（　　）、命は助からないだろう。",
+          "options": [
+            "ことには",
+            "うちに",
+            "ものには",
+            "もので"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことには」は「〜しない限り、〜しなければ」という条件を表す。手術しなければ命が助からない。",
+          "explanation_vi": "「〜ことには」 đại diện cho điều kiện 「〜しない限り、〜しなければ」. Sự sống không thể được cứu nếu không phẫu thuật.",
+          "sentence_furigana": "手術(しゅじゅつ)をしない（　　）、命(いのち)は助か(たすか)らないだろう。",
+          "sentence_vi": "Nếu bạn không phẫu thuật, cuộc sống của bạn sẽ không được cứu."
+        },
+        {
+          "id": 4,
+          "text": "苦しい時に支えあう、それが家族という（　　）。",
+          "options": [
+            "ことだ",
+            "そうだ",
+            "ものだ",
+            "ようだ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜というものだ」は「〜の本質・定義はそういうものだ」と一般的な真理を述べる表現。",
+          "explanation_vi": "「〜というものだ」 là biểu thức nêu lên sự thật chung của 「〜の本質・定義はそういうものだ」.",
+          "sentence_furigana": "苦しい(くるしい)時に(ときに)支え(ささえ)あう、それが家族(かぞく)という（　　）。",
+          "sentence_vi": "Hỗ trợ lẫn nhau lúc khó khăn là cái gọi là gia đình ___."
+        },
+        {
+          "id": 5,
+          "text": "信じ（　　）ことに、日本の借金は800兆円以上もあるそうだ。",
+          "options": [
+            "がたい",
+            "づらい",
+            "られる",
+            "やすい"
+          ],
+          "correct_answer": 1,
+          "explanation": "「信じがたい」＝信じるのが難しい。「〜がたい」は感情的・心理的に難しいことに使う。",
+          "explanation_vi": "「信じがたい」 = Khó tin. 「〜がたい」 được sử dụng cho những việc khó khăn về mặt cảm xúc và tâm lý.",
+          "sentence_furigana": "信じ(しんじ)（　　）ことに、日本(にっぽん)の借金(しゃっきん)は800兆円(ちょうえん)以上(いじょう)もあるそうだ。",
+          "sentence_vi": "Tôi tin rằng khoản nợ của Nhật Bản là hơn 800 nghìn tỷ yên."
+        },
+        {
+          "id": 6,
+          "text": "彼女は何年も悩んだ（　　）、ついに離婚した。",
+          "options": [
+            "あげく",
+            "ところで",
+            "ばかりに",
+            "からには"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜あげく（に）」＝長い過程の末、最終的に（多くは望ましくない結果）。",
+          "explanation_vi": "「〜あげく（に）」 = Sau một quá trình dài, cuối cùng （多くは望ましくない結果）.",
+          "sentence_furigana": "彼女(かのじょ)は何年(なんねん)も悩ん(なやん)だ（　　）、ついに離婚(りこん)した。",
+          "sentence_vi": "Cô vật lộn trong nhiều năm và cuối cùng đã ly hôn."
+        },
+        {
+          "id": 7,
+          "text": "こんなに欠席が多くては、単位を落とし（　　）。",
+          "options": [
+            "がちだ",
+            "かねない",
+            "そうにない",
+            "てはいけない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜かねない」＝悪いことが起こりうる可能性がある。欠席が多いと単位を落とす可能性がある。",
+          "explanation_vi": "「〜かねない」 = Có khả năng xảy ra điều gì đó tồi tệ. Nếu bạn vắng mặt quá nhiều lần, bạn có thể bị mất tín chỉ.",
+          "sentence_furigana": "こんなに欠席(けっせき)が多く(おおく)ては、単位(たんい)を落と(おと)し（　　）。",
+          "sentence_vi": "Nếu tôi vắng mặt quá nhiều, tôi sẽ bị mất tín nhiệm ____."
+        },
+        {
+          "id": 8,
+          "text": "時代の変化に（　　）、日本人の食生活も変化してきた。",
+          "options": [
+            "続いて",
+            "先立って",
+            "ともなって",
+            "つながって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にともなって」＝〜と同時に、〜に連れて変化する。時代の変化と食生活の変化が並行している。",
+          "explanation_vi": "“Cùng với” = thay đổi cùng lúc với, cùng với. Những thay đổi về thời gian và những thay đổi trong thói quen ăn uống là song song.",
+          "sentence_furigana": "時代(じだい)の変化(へんか)に（　　）、日本人(にほんじん)の食生活(しょくせいかつ)も変化し(へんかし)てきた。",
+          "sentence_vi": "Thời thế thay đổi, thói quen ăn uống của người Nhật cũng thay đổi."
+        },
+        {
+          "id": 9,
+          "text": "簡単な調べものならインターネットでできるので、図書館に行く（　　）。",
+          "options": [
+            "までもない",
+            "ほかはない",
+            "のみか",
+            "まいか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜までもない」＝〜するほどのことはない、〜する必要がない。",
+          "explanation_vi": "「〜までもない」 = Không có gì đáng làm, không cần phải làm.",
+          "sentence_furigana": "簡単(かんたん)な調べ(しらべ)ものならインターネット(いんたーねっと)でできるので、図書館(としょかん)に行く(いく)（　　）。",
+          "sentence_vi": "Nếu bạn muốn thực hiện một số nghiên cứu đơn giản, bạn có thể thực hiện trên internet, vì vậy tôi đến thư viện ___."
+        },
+        {
+          "id": 10,
+          "text": "ある程度の困難は予想していた（　　）、ここまで大変だとは思わなかった。",
+          "options": [
+            "ものの",
+            "だけに",
+            "からこそ",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものの」＝〜だけれども。前後に逆接の関係がある。困難は予想していたが、これほどとは思わなかった。",
+          "explanation_vi": "Mặc dù 「〜ものの」 = ~. Có một mối quan hệ nghịch đảo giữa trước và sau. Tôi đã mong đợi nó sẽ khó khăn nhưng không ngờ nó lại tệ đến thế.",
+          "sentence_furigana": "ある程度(ていど)の困難(こんなん)は予想(よそう)していた（　　）、ここまで大変(たいへん)だとは思わ(おもわ)なかった。",
+          "sentence_vi": "Tôi đã mong đợi một số khó khăn, nhưng tôi không ngờ nó lại khó đến thế."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "映画館から出てきた人が ＿＿＿ ＿＿＿ ★ ＿＿＿ よほど感動的な映画なのだろう。",
+          "options": [
+            "見ると",
+            "ところを",
+            "泣いている",
+            "あんなに"
+          ],
+          "correct_order": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 2,
+          "full_sentence": "映画館から出てきた人が あんなに 泣いている ところを 見ると よほど感動的な映画なのだろう。",
+          "explanation": "「あんなに泣いているところを見ると」という形。★の位置（3番目）は「ところを」が来る。正しい順序は「あんなに→泣いている→ところを→見ると」。",
+          "explanation_vi": "Mẫu là 「あんなに泣いているところを見ると」. ★ vị trí （3番目） đi kèm với 「ところを」. Thứ tự đúng là 「あんなに→泣いている→ところを→見ると」.",
+          "sentence_furigana": "映画館(えいがかん)から出て(でて)きた人(にん)が あんなに 泣い(ない)ている ところを 見る(みる)と よほど感動的(かんどうてき)な映画(えいが)なのだろう。",
+          "sentence_vi": "Chắc hẳn đó là một bộ phim rất cảm động khi thấy mọi người khóc rất nhiều khi bước ra khỏi rạp chiếu phim."
+        },
+        {
+          "id": 12,
+          "text": "採用 ＿＿＿ ＿＿＿ ★ ＿＿＿ 受けてみることにした。",
+          "options": [
+            "面接を",
+            "されるか",
+            "ともかく",
+            "どうかは"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "採用 されるか どうかは ともかく 面接を 受けてみることにした。",
+          "explanation": "「されるかどうかはともかく」という形。★の位置（3番目）は「ともかく」が来る。正しい順序は「されるか→どうかは→ともかく→面接を」。",
+          "explanation_vi": "Mẫu là 「されるかどうかはともかく」. ★ vị trí （3番目） đi kèm với 「ともかく」. Thứ tự đúng là 「されるか→どうかは→ともかく→面接を」.",
+          "sentence_furigana": "採用(さいよう) されるか どうかは ともかく 面接(めんせつ)を 受け(うけ)てみることにした。",
+          "sentence_vi": "Bất kể tôi có được tuyển dụng hay không, tôi vẫn quyết định đi phỏng vấn."
+        },
+        {
+          "id": 13,
+          "text": "お客様に満足して ＿＿＿ ＿＿＿ ★ ＿＿＿ の価値があるのではないだろうか。",
+          "options": [
+            "商品",
+            "はじめて",
+            "いただけて",
+            "として"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "お客様に満足して いただけて はじめて 商品 として の価値があるのではないだろうか。",
+          "explanation": "「いただけてはじめて商品として」という形。★の位置（3番目）は「商品」が来る。正しい順序は「いただけて→はじめて→商品→として」。",
+          "explanation_vi": "Mẫu là 「いただけてはじめて商品として」. ★ vị trí （3番目） đi kèm với 「商品」. Thứ tự đúng là 「いただけて→はじめて→商品→として」.",
+          "sentence_furigana": "お客様(きゃくさま)に満足(まんぞく)して いただけて はじめて 商品(しょうひん) として の価値(かち)があるのではないだろうか。",
+          "sentence_vi": "Tôi tin rằng một sản phẩm chỉ có giá trị nếu khách hàng hài lòng."
+        },
+        {
+          "id": 14,
+          "text": "志望校に合格するために、 ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "だけの",
+            "ことは",
+            "やった",
+            "やれる"
+          ],
+          "correct_order": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 2,
+          "full_sentence": "志望校に合格するために、 やれる だけの ことは やった 。",
+          "explanation": "「やれるだけのことはやった」という慣用句。★の位置（3番目）は「ことは」が来る。正しい順序は「やれる→だけの→ことは→やった」。",
+          "explanation_vi": "Thành ngữ: 「やれるだけのことはやった」. ★ vị trí （3番目） đi kèm với 「ことは」. Thứ tự đúng là 「やれる→だけの→ことは→やった」.",
+          "sentence_furigana": "志望校(しぼうこう)に合格(ごうかく)するために、 やれる だけの ことは やった 。",
+          "sentence_vi": "Tôi đã làm mọi thứ có thể để được vào trường mà tôi đã chọn."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "常にメモ帳とペンを持っていましょう。一日を過ごすなかで、自分の感情や思い、つぶやきなど、どんなことでも気にかけたことを書き記しておきます。人に見せるものでは 【１】 、できるだけ正直な言葉を残します。\n仕事と暮らし 【２】 、自分を知ることはとても大切なことです。しかし、今自分が何を考えていて、何を感じていて、何を思っているのか。また、何が好きで、何が嫌いなのかなど、わかっているつもりでも、なかなか、わからないものです。 【３】 、日々のメモにその断片を書き記すことで、自分を知るためのヒントとしましょう。\nどんなことでも、書き記すという習慣はよいことです。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "なくても",
+            "ないのに",
+            "ないので",
+            "ないなら"
+          ],
+          "correct_answer": 3,
+          "explanation": "「人に見せるものではないので」＝人に見せないから、正直な言葉を残せる。理由を表す「ので」が適切。",
+          "explanation_vi": "「人に見せるものではないので」 = Vì tôi không cho ai xem nên tôi có thể để lại những lời nói chân thật. 「ので」 thể hiện lý do là phù hợp."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "において",
+            "にかけて",
+            "にとって",
+            "に際して"
+          ],
+          "correct_answer": 1,
+          "explanation": "「仕事と暮らしにおいて」＝仕事と生活の場面/領域で。「において」は場所・場面・領域を表す。",
+          "explanation_vi": "「仕事と暮らしにおいて」 = Trong các tình huống/lĩnh vực công việc và cuộc sống. 「において」 đại diện cho một địa điểm, cảnh hoặc khu vực."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "また",
+            "しかし",
+            "そのため",
+            "ですから"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ですから」＝だから、したがって。前の文「わからないものです」を受けて、解決策（メモを書く）を提案している。",
+          "explanation_vi": "「ですから」 = Do đó, do đó. Cho câu trước 「わからないものです」 đề xuất giải pháp （メモを書く）."
+        }
+      ]
+    }
+  ]
+}

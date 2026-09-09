@@ -1,0 +1,265 @@
+{
+  "lesson": 30,
+  "title": "第３０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "政府には、もっと税金を有効に使ってもらいたい（　　）。",
+          "options": [
+            "ことだ",
+            "ほどだ",
+            "ものだ",
+            "くらいだ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜たいものだ」＝心から〜したいと思う、本当に〜してほしい（強い願望）。政府に税金を有効に使ってほしいと心から思っている。",
+          "explanation_vi": "「〜たいものだ」 = Thật sự rất muốn ~, rất mong ~ (nhấn mạnh mong muốn, nguyện vọng). Thật sự rất mong chính phủ sử dụng tiền thuế một cách hiệu quả hơn.",
+          "sentence_furigana": "政府(せいふ)には、もっと税金(ぜいきん)を有効(ゆうこう)に使っ(つかっ)てもらいたい（　　）。",
+          "sentence_vi": "Thực sự rất mong chính phủ sử dụng tiền thuế một cách có hiệu quả hơn."
+        },
+        {
+          "id": 2,
+          "text": "そんなこと言われたら、誰（　　）怒るに決まっている。",
+          "options": [
+            "さえ",
+            "だって",
+            "ばかり",
+            "までも"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜だって（＝でも）」＝〜であっても。そんなことを言われたら、誰であっても怒るに決まっている。",
+          "explanation_vi": "「〜だって」 = Ngay cả ~, thậm chí ~ (giống với でも). Bị nói như thế thì ai mà chả tức giận cơ chứ.",
+          "sentence_furigana": "そんなこと言わ(いわ)れたら、誰(だれ)（　　）怒る(おこる)に決まっ(きまっ)ている。",
+          "sentence_vi": "Bị nói những lời như thế thì bất cứ ai mà chả nổi điên lên cho được."
+        },
+        {
+          "id": 3,
+          "text": "天気が悪くなりそうなので、出発しよう（　　）迷っている。",
+          "options": [
+            "かしまいか",
+            "がしまいが",
+            "としまいと",
+            "ともしまいとも"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜（よ）うか〜まいか」＝〜しようか、それとも〜するのをやめようかと（迷う）。出発しようか、出発するのをやめようか迷っている。",
+          "explanation_vi": "「〜（よ）うか〜まいか」 = Có nên ~ hay không (thể hiện sự phân vân, do dự). Trời có vẻ sắp chuyển xấu nên tôi đang phân vân không biết có nên xuất phát hay không đây.",
+          "sentence_furigana": "天気(てんき)が悪く(わるく)なりそうなので、出発(しゅっぱつ)しよう（　　）迷っ(まよっ)ている。",
+          "sentence_vi": "Thời tiết có vẻ sắp chuyển biến xấu nên tôi đang phân vân xem có nên khởi hành hay không đây."
+        },
+        {
+          "id": 4,
+          "text": "10回頼んでだめだったら、あきらめる（　　）だ。",
+          "options": [
+            "限り",
+            "まで",
+            "まま",
+            "ほど"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜までだ／までのことだ」＝（ダメなら）ただ〜すればいいだけだ。他の方法がないから、あきらめるだけだ。",
+          "explanation_vi": "「〜までだ」 = Cùng lắm thì ~, chỉ còn cách là ~ (thể hiện thái độ buông xuôi, không còn lựa chọn nào khác). Nếu đã nhờ vả đến 10 lần rồi mà vẫn không được thì cùng lắm là bỏ cuộc thôi.",
+          "sentence_furigana": "10回(じゅっかい)頼ん(たのん)でだめだったら、あきらめる（　　）だ。",
+          "sentence_vi": "Nếu đã cất công nhờ vả tới 10 lần rồi mà vẫn không được thì cùng lắm là bỏ cuộc thôi."
+        },
+        {
+          "id": 5,
+          "text": "線路の安全が確認できるまで、電車を動かす（　　）。",
+          "options": [
+            "に限らない",
+            "に違いない",
+            "にほかならない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わけにはいかない」＝社会的・心理的な理由から〜できない。安全が確認できるまでは、電車を動かすことはできない。",
+          "explanation_vi": "「〜わけにはいかない」 = Không thể ~ (vì những lý do liên quan đến luân thường đạo lý, xã hội, tâm lý). Cho đến khi xác nhận được đường ray đã an toàn thì chúng tôi không thể cho tàu chạy được.",
+          "sentence_furigana": "線路(せんろ)の安全(あんぜん)が確認(かくにん)できるまで、電車(でんしゃ)を動かす(うごかす)（　　）。",
+          "sentence_vi": "Chừng nào chưa xác nhận được sự an toàn của đường ray thì không thể nào cho tàu chạy được."
+        },
+        {
+          "id": 6,
+          "text": "日本に来て友達ができるまでは、国に帰り（　　）。",
+          "options": [
+            "たくてたまらなかった",
+            "たいに違いなかった",
+            "たくてはならなかった",
+            "たいとは限らなかった"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜てたまらない」＝我慢できないくらい〜だ。友達ができるまでは、国に帰りたくて我慢できなかった。",
+          "explanation_vi": "「〜てたまらない」 = Rất ~, vô cùng ~ (không kiềm nén nổi cảm xúc). Hồi mới đến Nhật, lúc mà chưa có lấy một người bạn nào, tôi đã nhớ nhà và muốn về nước đến không thể chịu nổi.",
+          "sentence_furigana": "日本(にほん)に来て(きて)友達(ともだち)ができるまでは、国(くに)に帰り(かえり)（　　）。",
+          "sentence_vi": "Hồi tới Nhật, cho đến tận lúc kết được bạn thì tôi lúc nào cũng muốn về nước đến mức không chịu nổi."
+        },
+        {
+          "id": 7,
+          "text": "帰り道で彼は何か（　　）だったが、結局何も言わずに帰っていった。",
+          "options": [
+            "言いがち",
+            "言いかけ",
+            "言いたげ",
+            "言いっぱなし"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜たげ」＝いかにも〜したいという様子だ（「〜たそう」と同じ）。何か言いたいような様子だったが、何も言わなかった。",
+          "explanation_vi": "「〜たげ」 = Trông có vẻ như muốn ~ (cách nói diễn tả vẻ bề ngoài, sắc mặt). Trên đường về anh ấy trông có vẻ như muốn nói điều gì đó, nhưng rồi rốt cục lại chẳng nói lời nào mà cứ thế đi về.",
+          "sentence_furigana": "帰り道(かえりみち)で彼(かれ)は何(なに)か（　　）だったが、結局(けっきょく)何(なに)も言わ(いわ)ずに帰っ(かえっ)ていった。",
+          "sentence_vi": "Trên đường về trông anh ấy có vẻ như đang muốn nói điều gì đó, nhưng rốt cuộc lại chẳng nói gì mà cứ thế đi về."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "自分の欠点を ＿＿＿ ＿＿＿ ★ ＿＿＿ かねない。",
+          "options": [
+            "失敗し",
+            "再び",
+            "ない限り",
+            "意識し"
+          ],
+          "correct_order": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "自分の欠点を 意識し ない限り 再び 失敗し かねない。",
+          "explanation": "正しい語順は「意識し(4) ない限り(3) 再び(2) 失敗し(1)」。★は3番目なので「再び」。\n「〜ない限り」＝〜しなければ。「〜かねない」＝〜する可能性がある（悪い結果）。自分の欠点を意識しないままだと、また失敗する危険性がある。",
+          "explanation_vi": "Thứ tự đúng là: 意識し(4) ない限り(3) 再び(2) 失敗し(1). Vị trí ngôi sao là 2 (再び).\n「〜ない限り」 = Chừng nào chưa ~, nếu không ~. 「〜かねない」 = Có nguy cơ, e là sẽ ~. Nếu không tự ý thức được những khuyết điểm của bản thân thì có nguy cơ sẽ lại thất bại thêm một lần nữa.",
+          "sentence_furigana": "自分(じぶん)の欠点(けってん)を 意識(いしき)し ない限り(ないかぎり) 再び(ふたたび) 失敗(しっぱい)し かねない。",
+          "sentence_vi": "Nếu không tự ý thức được những thiếu sót của bản thân thì có nguy cơ sẽ lại tiếp tục thất bại một lần nữa."
+        },
+        {
+          "id": 9,
+          "text": "その時父は何も言わなかったが、心の中では ＿＿＿ ＿＿＿ ★ ＿＿＿ か。",
+          "options": [
+            "どれほど",
+            "こと",
+            "嬉しかった",
+            "だろう"
+          ],
+          "correct_order": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "その時父は何も言わなかったが、心の中では どれほど 嬉しかった こと だろう か。",
+          "explanation": "正しい語順は「どれほど(1) 嬉しかった(3) こと(2) だろう(4)」。★は3番目なので「こと」。\n「どれほど〜ことだろうか」＝非常に〜だ（感情を強調する表現）。心の中ではものすごく嬉しかったに違いない。",
+          "explanation_vi": "Thứ tự đúng là: どれほど(1) 嬉しかった(3) こと(2) だろう(4). Vị trí ngôi sao là 2 (こと).\n「どれほど〜ことだろうか」 = Không biết là ~ nhường nào (nhấn mạnh mức độ cảm xúc). Lúc đó tuy bố tôi không nói lời nào cả, nhưng trong thâm tâm chắc hẳn ông đã vui sướng biết nhường nào.",
+          "sentence_furigana": "その時(そのとき)父(ちち)は何(なに)も言わ(いわ)なかったが、心(こころ)の中(なか)では どれほど 嬉しかっ(うれしかっ)た こと だろう か。",
+          "sentence_vi": "Lúc đó bố tôi không nói gì cả, nhưng chắc hẳn trong lòng ông đang vui sướng biết nhường nào."
+        },
+        {
+          "id": 10,
+          "text": "この野菜はよくゆでて ＿＿＿ ＿＿＿ ★ ＿＿＿ 苦くてとても食べられない。",
+          "options": [
+            "でないと",
+            "でなく",
+            "から",
+            "固いだけ"
+          ],
+          "correct_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "この野菜はよくゆでて から でないと 固いだけ でなく 苦くてとても食べられない。",
+          "explanation": "正しい語順は「から(3) でないと(1) 固いだけ(4) でなく(2)」。★は3番目なので「固いだけ」。\n「〜てからでないと」＝〜した後でなければ。「〜だけでなく」＝〜に加えて。よくゆでた後でなければ、固いし苦くて食べられない。",
+          "explanation_vi": "Thứ tự đúng là: から(3) でないと(1) 固いだけ(4) でなく(2). Vị trí ngôi sao là 4 (固いだけ).\n「〜てからでないと」 = Nếu chưa ~ thì (sẽ không thể...). Loại rau này nếu không luộc kỹ thì không những bị cứng mà còn bị đắng không thể nào ăn nổi.",
+          "sentence_furigana": "この野菜(やさい)はよくゆでて から でないと 固い(かたい)だけ でなく 苦くて(にがくて)とても食べ(たべ)られない。",
+          "sentence_vi": "Loại rau này nếu không luộc cho thật kỹ thì không những cứng mà còn đắng chát không thể nào ăn nổi."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　自分自身が幸せを感じられることを仕事にする。本来仕事【1-a】そういうものでは【1-b】。\n　毎日会社に行かなくちゃならない。仕事をしなくちゃならない。しなくちゃいけないことばかりに囲まれて、それが人【２】幸福になるのでしょうか。お前はミュージシャンだからそんなことが言えるんだ。そう言う人もいるでしょう。でも、ミュージシャンもサラリーマンも本当は同じ。【３】、自分のやりたいことを行動に移すかどうか。自分が思っている幸せに向かって、一歩を踏み出すかどうかだけです。\n　「俺、本当は会社を辞めて、好きな釣りを仕事にしたいんだ。それが俺の幸せなんだ」と言う人間がいる。「だったらやればいいじゃない」「でも、会社もあるし家族もあるからできないよ」「【４】、会社や家族って、君を不幸にするものなの？」と僕は問い掛けたい。\n　人生と仕事は切り離すことができません。生活するためには働かなくてはいけない。それも何十年という永きにわたって。【５】やりたいことを仕事にするべきではないでしょうか。「そんなことは夢だ」と言うかもしれない。でも、夢は夢だと思った瞬間に夢になるもの。「夢は夢にあらず」というのが僕の人生哲学です。\n（谷村新司著「心の命ずるままに」PHP研究所刊『幸福論』所収）",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "a とは／b ないでしょう",
+            "a とは／b ないでしょうか",
+            "a なら／b ないでしょう",
+            "a なら／b ないでしょうか"
+          ],
+          "correct_answer": 2,
+          "explanation": "「仕事とはそういうものではないでしょうか（＝仕事とはそういうものだ）」と相手に同意を求めたり、一般的な考えを述べたりする文脈。",
+          "explanation_vi": "「〜とは〜ではないでしょうか」 = Chẳng phải ~ là bản chất của ~ hay sao. \"Biến những việc bản thân cảm thấy hạnh phúc thành công việc. Chẳng phải tính chất cốt lõi của công việc vốn dĩ là như thế hay sao.\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "に対しての",
+            "につけては",
+            "としての",
+            "といっては"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜としての」＝〜の立場で、〜の資格で。「人としての幸福（＝人間という存在としての幸せ）」になるのでしょうか、という問いかけ。",
+          "explanation_vi": "「〜としての」 = Với tư cách là, với vai trò là ~. \"Bị bủa vây bởi toàn những việc bắt buộc phải làm như thế, liệu đó có thể trở thành hạnh phúc với tư cách là một con người được chăng?\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "ただ",
+            "もし",
+            "たとえ",
+            "けっして"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ただ」＝しかし、そうは言うものの。「やりたいことをやればいい」と思うが、「ただ（しかし）、それを行動に移すかどうかが重要だ」と文が続く。",
+          "explanation_vi": "「ただ」 = Chỉ có điều là, tuy nhiên. \"Thế nhưng, nhạc sĩ hay nhân viên văn phòng thì thực chất cũng đều giống nhau cả. Tuy nhiên, quan trọng là bạn có dám chuyển hóa những điều mình muốn làm thành hành động hay không, có dám bước một bước tiến về phía hạnh phúc mà bản thân hằng mong đợi hay không mà thôi.\""
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "というのは",
+            "ということは",
+            "といっても",
+            "というより"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ということは」＝前の発言から判断すると。「家族があるから（好きなことが）できない」という発言を受けて、「ということは（それなら）、家族は君を不幸にするものなのか？」と問いかけている。",
+          "explanation_vi": "「ということは」 = Điều đó có nghĩa là ~ (rút ra kết luận từ phát ngôn trước đó). \"Điều đó có nghĩa là, công ty và gia đình chính là những thứ mang lại bất hạnh cho cậu à?\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "これといって",
+            "だからといって",
+            "これでこそ",
+            "だからこそ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「だからこそ」＝だからこそ（理由の強調）。何十年も長く働かなければならないという理由があるからこそ、やりたいことを仕事にするべきだ。",
+          "explanation_vi": "「だからこそ」 = Chính vì vậy nên. \"Để duy trì cuộc sống thì con người ta buộc phải làm việc. Hơn nữa, việc đó còn kéo dài đằng đẵng suốt hàng chục năm trời. Chính vì vậy nên, chẳng phải chúng ta càng cần phải biến việc mình muốn làm thành công việc hay sao.\""
+        }
+      ]
+    }
+  ]
+}

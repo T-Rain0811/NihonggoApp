@@ -1,0 +1,307 @@
+{
+  "lesson": 4,
+  "title": "第４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この大型店がオープン（　　）、近くの道路はいつも車でいっぱいだ。",
+          "options": [
+            "して以来",
+            "した以上",
+            "したまま",
+            "したばかり"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜て以来」＝〜してからずっと。オープンしてからずっと車でいっぱいだ。",
+          "explanation_vi": "「〜て以来」 = Kể từ sau khi ~ thì suốt. Kể từ sau khi cửa hàng lớn này mở cửa thì con đường gần đó lúc nào cũng đông nghẹt xe.",
+          "sentence_furigana": "この大型(おおがた)店(てん)がオープン(おーぷん)（　　）、近く(ちかく)の道路(どうろ)はいつも車(くるま)でいっぱいだ。",
+          "sentence_vi": "Kể từ khi cửa hàng lớn này khai trương, con đường gần đó luôn tấp nập xe cộ."
+        },
+        {
+          "id": 2,
+          "text": "女の子がさびし（　　）顔をして、一人で公園のベンチに座っている。",
+          "options": [
+            "げな",
+            "ぎみな",
+            "っぽい",
+            "らしい"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜げな」＝〜そうな、〜という様子で。さびしそうな顔をして座っている。",
+          "explanation_vi": "「〜げな」 = Có vẻ ~, mang dáng vẻ ~. Cô bé đang ngồi một mình trên ghế đá công viên với khuôn mặt có vẻ buồn bã.",
+          "sentence_furigana": "女の子(おんなのこ)がさびし（　　）顔(かお)をして、一人(ひとり)で公園(こうえん)のベンチ(べんち)に座っ(すわっ)ている。",
+          "sentence_vi": "Một bé gái đang ngồi một mình trên ghế đá công viên với khuôn mặt buồn bã."
+        },
+        {
+          "id": 3,
+          "text": "ご契約に（　　）、運転免許証やパスポートなど身分を証明するものが必要です。",
+          "options": [
+            "応じては",
+            "際しては",
+            "こたえては",
+            "わたっては"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜に際して」＝〜するときに、〜にあたって。契約をするときには身分証明が必要。",
+          "explanation_vi": "「〜に際して」 = Khi làm gì đó (trang trọng). Khi ký hợp đồng, cần có những giấy tờ chứng minh nhân thân như bằng lái xe hoặc hộ chiếu.",
+          "sentence_furigana": "ご契約(けいやく)に（　　）、運転(うんてん)免許証(めんきょしょう)やパスポート(ぱすぽーと)など身分(みぶん)を証明(しょうめい)するものが必要(ひつよう)です。",
+          "sentence_vi": "Khi ký hợp đồng, yêu cầu phải có giấy tờ tùy thân như bằng lái xe hoặc hộ chiếu."
+        },
+        {
+          "id": 4,
+          "text": "対応は遅いし情報は不正確だし、こんな旅行会社、二度と利用（　　）。",
+          "options": [
+            "するものか",
+            "しないもの",
+            "しないものだ",
+            "しようじゃないか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものか」＝絶対に〜しない（強い否定の意志）。二度と利用しないぞ、という気持ち。",
+          "explanation_vi": "「〜ものか」 = Tuyệt đối không ~, nhất định không ~ (thể hiện sự phủ định mạnh mẽ). Cách phục vụ thì chậm chạp, thông tin thì sai lệch, một công ty du lịch như thế này thì tôi quyết không bao giờ sử dụng lại lần hai.",
+          "sentence_furigana": "対応(たいおう)は遅い(おそい)し情報(じょうほう)は不正確(ふせいかく)だし、こんな旅行(りょこう)会社(がいしゃ)、二度と(にどと)利用(りよう)（　　）。",
+          "sentence_vi": "Phản hồi thì chậm mà thông tin thì lại không chính xác, cái công ty du lịch kiểu này tôi sẽ không bao giờ sử dụng lại lần nữa đâu."
+        },
+        {
+          "id": 5,
+          "text": "便利さ（　　）都心のほうがいいが、郊外のほうが家賃が安い。",
+          "options": [
+            "からして",
+            "からには",
+            "ことから",
+            "からいえば"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜からいえば」＝〜の面から判断すると。便利さという点から判断すると都心がいい。",
+          "explanation_vi": "「〜からいえば」 = Xét về mặt ~, nhìn từ khía cạnh ~. Xét về mặt tiện lợi thì trung tâm thành phố tốt hơn, nhưng vùng ngoại ô thì tiền thuê nhà lại rẻ hơn.",
+          "sentence_furigana": "便利(べんり)さ（　　）都心(としん)のほうがいいが、郊外(こうがい)のほうが家賃(やちん)が安い(やすい)。",
+          "sentence_vi": "Xét về sự tiện lợi thì ở trung tâm thành phố tốt hơn, nhưng ở ngoại ô thì tiền thuê nhà rẻ hơn."
+        },
+        {
+          "id": 6,
+          "text": "うまいやり方なんてありません。ただ目の前のことを一生懸命やる（　　）です。",
+          "options": [
+            "限り",
+            "のみ",
+            "ほど",
+            "まま"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜のみ」＝〜だけ。目の前のことを一生懸命やるだけです。",
+          "explanation_vi": "「〜のみ」 = Chỉ ~. Không có cách làm nào hay ho đâu. Chỉ có cách là cố gắng hết sức làm những việc trước mắt thôi.",
+          "sentence_furigana": "うまいやり方(かた)なんてありません。ただ目(め)の前(まえ)のことを一生懸命(いっしょうけんめい)やる（　　）です。",
+          "sentence_vi": "Chẳng có phương pháp nào khôn khéo đâu. Chỉ có cách duy nhất là cố gắng hết mình với công việc trước mắt thôi."
+        },
+        {
+          "id": 7,
+          "text": "資源の開発によって、この国も徐々に豊かに（　　）。",
+          "options": [
+            "なりつつある",
+            "なってみせる",
+            "なるかいがある",
+            "ならざるをえない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜つつある」＝（今まさに）〜しているところだ（変化の進行中）。徐々に豊かになってきている。",
+          "explanation_vi": "「〜つつある」 = Đang dần dần ~ (diễn tả sự thay đổi đang diễn ra). Nhờ vào việc khai thác tài nguyên, đất nước này cũng đang dần trở nên giàu có.",
+          "sentence_furigana": "資源(しげん)の開発(かいはつ)によって、この国(くに)も徐々に(じょじょに)豊か(ゆたか)に（　　）。",
+          "sentence_vi": "Nhờ vào việc phát triển tài nguyên, quốc gia này cũng đang dần trở nên giàu có."
+        },
+        {
+          "id": 8,
+          "text": "この公園は災害時（　　）避難場所に指定されています。",
+          "options": [
+            "による",
+            "にあたる",
+            "における",
+            "にかけて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜における」＝〜での、〜における（場所・時間・場面）。災害時における（での）避難場所。",
+          "explanation_vi": "「〜における」 = Tại, trong, ở (chỉ thời gian, địa điểm, bối cảnh). Công viên này được chỉ định làm nơi lánh nạn trong thời kỳ có thảm họa/thiên tai.",
+          "sentence_furigana": "この公園(こうえん)は災害(さいがい)時(じ)（　　）避難(ひなん)場所(ばしょ)に指定(してい)されています。",
+          "sentence_vi": "Công viên này được chỉ định làm nơi sơ tán trong trường hợp xảy ra thảm họa."
+        },
+        {
+          "id": 9,
+          "text": "自然破壊が進む（　　）、自然保護の活動も増えている。",
+          "options": [
+            "一方で",
+            "につけ",
+            "わりに",
+            "ばかりに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜一方で」＝〜という傾向がある反対側で。破壊が進むのとは反対に、保護の活動も増えている。",
+          "explanation_vi": "「〜一方で」 = Mặt khác, song song với đó. Một mặt sự phá hủy thiên nhiên đang diễn ra, mặt khác các hoạt động bảo vệ thiên nhiên cũng đang tăng lên.",
+          "sentence_furigana": "自然(しぜん)破壊(はかい)が進む(すすむ)（　　）、自然(しぜん)保護(ほご)の活動(かつどう)も増え(ふえ)ている。",
+          "sentence_vi": "Bên cạnh việc tàn phá thiên nhiên ngày càng nghiêm trọng, các hoạt động bảo vệ thiên nhiên cũng đang tăng lên."
+        },
+        {
+          "id": 10,
+          "text": "言葉の選び方は難しい。間違えると誤解され（　　）。",
+          "options": [
+            "かねない",
+            "そうもない",
+            "てたまらない",
+            "ずにはいられない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かねない」＝〜する可能性がある（悪いこと）。誤解される可能性がある。",
+          "explanation_vi": "「〜かねない」 = Có khả năng, có nguy cơ sẽ ~ (thường là kết quả xấu). Cách chọn từ ngữ rất khó. Nếu chọn sai, có nguy cơ sẽ bị hiểu lầm.",
+          "sentence_furigana": "言葉(ことば)の選び方(えらびかた)は難しい(むずかしい)。間違える(まちがえる)と誤解(ごかい)され（　　）。",
+          "sentence_vi": "Cách chọn từ ngữ rất khó. Nếu sai sót có thể dẫn đến sự hiểu lầm."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "授業中ずっと ＿＿＿ ＿＿＿ ★ ＿＿＿ ほうがましだ。",
+          "options": [
+            "くらいなら",
+            "居眠り",
+            "している",
+            "来ない"
+          ],
+          "correct_order": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "授業中ずっと 居眠り している くらいなら 来ない ほうがましだ。",
+          "explanation": "正しい語順は「居眠り(2) している(3) くらいなら(1) 来ない(4)」。★は3番目なので「くらいなら」。",
+          "explanation_vi": "Thứ tự đúng là: 居眠り(2) している(3) くらいなら(1) 来ない(4). Vị trí ngôi sao là 1 (くらいなら). Nếu mà cứ ngủ gật suốt trong giờ học thì thà đừng đến lớp còn hơn.",
+          "sentence_furigana": "授業中(じゅぎょうちゅう)ずっと 居眠り(いねむり) している くらいなら 来(こ)ない ほうがましだ。",
+          "sentence_vi": "Nếu suốt buổi học cứ ngủ gật thì thà không đến còn hơn."
+        },
+        {
+          "id": 12,
+          "text": "彼は、マラソンが始まる直前までみんなに体調を ＿＿＿ ＿＿＿ ★ ＿＿＿ みせた。",
+          "options": [
+            "心配され",
+            "きって",
+            "ながらも",
+            "走り"
+          ],
+          "correct_order": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "彼は、マラソンが始まる直前までみんなに体調を 心配され ながらも 走り きって みせた。",
+          "explanation": "正しい語順は「心配され(1) ながらも(3) 走り(4) きって(2)」。★は3番目なので「走り」。",
+          "explanation_vi": "Thứ tự đúng là: 心配され(1) ながらも(3) 走り(4) きって(2). Vị trí ngôi sao là 4 (走り). Dù bị mọi người lo lắng cho tình trạng sức khỏe cho đến tận ngay trước khi cuộc đua bắt đầu, anh ấy vẫn chạy hết quãng đường cho mọi người xem.",
+          "sentence_furigana": "彼(かれ)は、マラソン(まらそん)が始まる(はじまる)直前(ちょくぜん)までみんなに体調(たいちょう)を 心配(しんぱい)され ながらも 走り(はしり) きって みせた。",
+          "sentence_vi": "Dù bị mọi người lo lắng về tình trạng sức khỏe cho đến ngay trước khi cuộc thi marathon bắt đầu, anh ấy vẫn chạy hết quãng đường."
+        },
+        {
+          "id": 13,
+          "text": "数年後には、こんな計画があったこと ＿＿＿ ＿＿＿ ★ ＿＿＿ 違いない。",
+          "options": [
+            "しまう",
+            "さえ",
+            "に",
+            "忘れられて"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "数年後には、こんな計画があったこと さえ 忘れられて しまう に 違いない。",
+          "explanation": "正しい語順は「さえ(2) 忘れられて(4) しまう(1) に(3)」。★は3番目なので「しまう」。",
+          "explanation_vi": "Thứ tự đúng là: さえ(2) 忘れられて(4) しまう(1) に(3). Vị trí ngôi sao là 1 (しまう). Vài năm sau, chắc chắn người ta thậm chí sẽ quên luôn việc từng có một kế hoạch như thế này.",
+          "sentence_furigana": "数年(すうねん)後(ご)には、こんな計画(けいかく)があったこと さえ 忘れ(わすれ)られて しまう に 違いない(ちがいない)。",
+          "sentence_vi": "Vài năm nữa, chắc chắn ngay cả chuyện đã từng có một kế hoạch như thế này cũng sẽ bị người ta lãng quên."
+        },
+        {
+          "id": 14,
+          "text": "彼は、荷物を ＿＿＿ ＿＿＿ ★ ＿＿＿ 走り去っていった。",
+          "options": [
+            "置いた",
+            "ごとく",
+            "かと思うと",
+            "陸上選手の"
+          ],
+          "correct_order": [
+            1,
+            3,
+            4,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "彼は、荷物を 置いた かと思うと 陸上選手の ごとく 走り去っていった。",
+          "explanation": "正しい語順は「置いた(1) かと思うと(3) 陸上選手の(4) ごとく(2)」。★は3番目なので「陸上選手の」。",
+          "explanation_vi": "Thứ tự đúng là: 置いた(1) かと思うと(3) 陸上選手の(4) ごとく(2). Vị trí ngôi sao là 4 (陸上選手の). Vừa mới thấy anh ta đặt hành lý xuống, thoắt cái anh ta đã chạy biến đi như một vận động viên điền kinh.",
+          "sentence_furigana": "彼(かれ)は、荷物(にもつ)を 置い(おい)た かと思う(おもう)と 陸上(りくじょう)選手(せんしゅ)の ごとく 走り去っ(はしりさっ)ていった。",
+          "sentence_vi": "Vừa mới thấy anh ta đặt hành lý xuống, thoáng cái anh ta đã lao đi nhanh như một vận động viên điền kinh."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　長旅をする【１】何を持っていくべきか。そう考えたときに思い浮かぶのはこんなこと。\n　「旅は、持ち物が【２】楽しい」\n　実際に長い旅をしながら、ぼくはそう確信するようになりました。\n　友人で、小さなバックパックひとつにコンビニのビニール袋みたいなものをときに併せ持つだけで2,3年にわたって世界中を旅している人がいます。しかも彼は、途中で何度かそのすべてを盗まれたりしているのですが、【３-a】荷物が【３-b】なくしても被害は少なく、すぐに元通りに旅が続けられます。また、大切なものをなくしたらどうしようとか、荷物が重くて面倒だからここに行くのはやめようとか、そんなことを考えることなく、どこにでも気軽に行けるのです。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "にともなって",
+            "に先立って",
+            "にあたって",
+            "に対して"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にあたって」＝〜する際して、〜するときに（準備段階）。旅をするにあたって（旅をする前に）何を考えるか。",
+          "explanation_vi": "「〜にあたって」 = Khi, trước khi (chuẩn bị cho việc gì đó). Trước khi đi một chuyến đi dài, nên mang theo những gì?"
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "多ければ多いほど",
+            "少なければ少ないほど",
+            "重ければ重いほど",
+            "気軽であれば気軽であるほど"
+          ],
+          "correct_answer": 2,
+          "explanation": "文脈として「小さなバックパックひとつ」で旅をする友人の例が出ているため、「少なければ少ないほど楽しい」が適切。",
+          "explanation_vi": "Đoạn văn sau lấy ví dụ về người bạn đi du lịch chỉ với một chiếc balo nhỏ xíu, bị mất đồ cũng không sao. Vì vậy ở đây điền \"càng ít càng vui\" là hợp lý nhất."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "aますます／b少なくなるので",
+            "aますます／b少なくなるのに",
+            "aもともと／b少ないので",
+            "aもともと／b少ないのに"
+          ],
+          "correct_answer": 3,
+          "explanation": "バックパック一つとビニール袋だけだから「もともと少ない」＋だから盗まれても「被害が少ないので」旅が続けられる。",
+          "explanation_vi": "Vì từ đầu anh ta chỉ mang 1 balo và 1 túi nilon nên hành lý \"vốn dĩ đã ít\" (もともと), và \"bởi vì ít nên\" (少ないので) dù có bị mất hết thì thiệt hại cũng không đáng kể và có thể đi du lịch tiếp."
+        }
+      ]
+    }
+  ]
+}

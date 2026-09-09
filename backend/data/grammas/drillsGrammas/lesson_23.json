@@ -1,0 +1,265 @@
+{
+  "lesson": 23,
+  "title": "第２３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "メモをなくしたので、記憶（　　）その料理を作った。",
+          "options": [
+            "を頼りに",
+            "はもとより",
+            "もかまわず",
+            "にかけては"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜を頼りに」＝〜を助けとして、〜を手段・手がかりとして。メモがないので、記憶だけを手がかりにして作った。",
+          "explanation_vi": "「〜を頼（たよ）りに」 = Nhờ vào ~, dựa vào ~. Vì đã làm mất tờ giấy nhớ nên tôi đã phải dựa vào trí nhớ để nấu món đó.",
+          "sentence_furigana": "メモ(めも)をなくしたので、記憶(きおく)（　　）その料理(りょうり)を作っ(つくっ)た。",
+          "sentence_vi": "Vì đã làm mất giấy ghi chú nên tôi đã nấu món đó dựa vào trí nhớ của mình."
+        },
+        {
+          "id": 2,
+          "text": "おととし、東京の郊外に小さい（　　）庭つきの家を買いました。",
+          "options": [
+            "のに",
+            "くせに",
+            "ばかりの",
+            "ながらも"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ながら（も）」＝〜けれども、〜のに（逆接）。小さいけれども（立派な）庭付きの家を買った。",
+          "explanation_vi": "「〜ながら（も）」 = Tuy ~ nhưng (diễn tả sự đối lập). Năm ngoái, tôi đã mua một ngôi nhà có kèm sân vườn ở ngoại ô Tokyo, tuy nhỏ nhưng khá ổn.",
+          "sentence_furigana": "おととし、東京(とうきょう)の郊外(こうがい)に小さい(ちいさい)（　　）庭(にわ)つきの家(いえ)を買い(かい)ました。",
+          "sentence_vi": "Năm ngoái, tôi đã mua một căn nhà có sân vườn ở ngoại ô Tokyo tuy là nó hơi nhỏ."
+        },
+        {
+          "id": 3,
+          "text": "できると言った（　　）、どんなことがあってもやってみせる。",
+          "options": [
+            "以上",
+            "うえでは",
+            "ばかりに",
+            "ものだから"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜以上（は）」＝〜のだから、当然（義務や決意）。できると言ったのだから、当然最後までやり遂げる。",
+          "explanation_vi": "「〜以上（いじょう）（は）」 = Một khi đã ~ thì (phía sau đi với nghĩa vụ, quyết tâm). Một khi đã mở miệng nói là có thể làm được thì dù có xảy ra chuyện gì tôi cũng sẽ làm cho bằng được.",
+          "sentence_furigana": "できると言っ(いっ)た（　　）、どんなことがあってもやってみせる。",
+          "sentence_vi": "Một khi đã mở miệng nói là làm được thì cho dù có chuyện gì xảy ra tôi cũng sẽ làm cho bằng được."
+        },
+        {
+          "id": 4,
+          "text": "このぐらいの値段なら買えない（　　）が、今は買う気にならない。",
+          "options": [
+            "だけましだ",
+            "わけがない",
+            "おそれがある",
+            "わけではない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わけではない」＝〜というわけではない（部分否定）。お金がなくて買えないわけではないが、今は買いたくない。",
+          "explanation_vi": "「〜わけではない」 = Không hẳn là, không phải là ~. Nếu là tầm giá cỡ này thì không phải là tôi không có khả năng mua, chỉ là bây giờ tôi đang không có hứng mua thôi.",
+          "sentence_furigana": "このぐらいの値段(ねだん)なら買え(かえ)ない（　　）が、今(いま)は買う(かう)気(き)にならない。",
+          "sentence_vi": "Tầm giá cỡ này thì không phải là không thể mua nổi, nhưng hiện tại tôi không có hứng mua."
+        },
+        {
+          "id": 5,
+          "text": "すぐに謝ればいい（　　）、いろいろ言い訳するからよけい怒られるんだ。",
+          "options": [
+            "ものを",
+            "ものなら",
+            "ものだから",
+            "ものであれ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものを」＝〜のに（不満・後悔）。すぐに謝ればよかったのに、言い訳するから怒られるのだ。",
+          "explanation_vi": "「〜ものを」 = ...vậy mà, ...thế mà (thể hiện sự tiếc nuối, bất mãn). Cứ xin lỗi ngay từ đầu thì có phải xong không, thế mà cứ viện hết lý do nọ đến cớ kia nên mới càng bị mắng thêm đấy.",
+          "sentence_furigana": "すぐに謝れ(あやまれ)ばいい（　　）、いろいろ言い訳(いいわけ)するからよけい怒ら(おこら)れるんだ。",
+          "sentence_vi": "Giá mà xin lỗi ngay thì có phải tốt không, đằng này lại cứ ngụy biện nên mới càng bị mắng thêm đấy."
+        },
+        {
+          "id": 6,
+          "text": "政府はワクチンを準備する（　　）、同時に感染の予防も国民に呼びかけている。",
+          "options": [
+            "一方で",
+            "どころか",
+            "代わりに",
+            "ものなら"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜一方で」＝〜であると同時に、別の一面では〜。準備すると同時に、予防も呼びかけている（２つの事を並行している）。",
+          "explanation_vi": "「〜一方で」 = Một mặt thì ~, mặt khác lại ~. Chính phủ một mặt tiến hành chuẩn bị vắc xin, đồng thời mặt khác cũng đang kêu gọi người dân nâng cao phòng chống lây nhiễm.",
+          "sentence_furigana": "政府(せいふ)はワクチン(わくちん)を準備(じゅんび)する（　　）、同時(どうじ)に感染(かんせん)の予防(よぼう)も国民(こくみん)に呼びかけ(よびかけ)ている。",
+          "sentence_vi": "Chính phủ một mặt chuẩn bị vắc xin, mặt khác cũng đồng thời kêu gọi nhân dân thực hiện các biện pháp phòng lây nhiễm."
+        },
+        {
+          "id": 7,
+          "text": "専門家によると、この火山は数年以内に噴火（　　）そうだ。",
+          "options": [
+            "しがちである",
+            "せねばならない",
+            "しようとしている",
+            "するおそれがある"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜おそれがある」＝〜する悪い可能性がある（客観的な危険性）。数年以内に噴火するという危険な可能性がある。",
+          "explanation_vi": "「〜おそれがある」 = Có nguy cơ, có e ngại là sẽ ~. Theo như nhận định của các chuyên gia thì ngọn núi lửa này có nguy cơ sẽ phun trào trong một vài năm tới.",
+          "sentence_furigana": "専門(せんもん)家(か)によると、この火山(かざん)は数(すう)年(ねん)以内(いない)に噴火(ふんか)（　　）そうだ。",
+          "sentence_vi": "Theo như các chuyên gia, ngọn núi lửa này có nguy cơ sẽ phun trào trong một vài năm tới."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "みんなの前で意見を ＿＿＿ ＿＿＿ ★ ＿＿＿ はいかなくなった。",
+          "options": [
+            "わけに",
+            "ばかりに",
+            "言った",
+            "やらない"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "みんなの前で意見を 言った ばかりに やらない わけに はいかなくなった。",
+          "explanation": "正しい語順は「言った(3) ばかりに(2) やらない(4) わけに(1)」。★は3番目なので「やらない」。\n「〜ばかりに」＝〜したせいで。「〜ないわけにはいかない」＝〜しなければならない。",
+          "explanation_vi": "Thứ tự đúng là: 言った(3) ばかりに(2) やらない(4) わけに(1). Vị trí ngôi sao là 4 (やらない).\n「〜ばかりに」 = Chỉ vì ~ (mà nhận lấy hậu quả tồi tệ). 「〜ないわけにはいかない」 = Không thể không ~. Chỉ vì lỡ phát biểu ý kiến trước mặt mọi người, nên bây giờ tôi lâm vào thế không thể không làm được.",
+          "sentence_furigana": "みんなの前(まえ)で意見(いけん)を 言っ(いっ)た ばかりに やらない わけに はいかなくなった。",
+          "sentence_vi": "Chỉ vì lỡ nói ra ý kiến trước mặt mọi người mà bây giờ tôi rơi vào thế không thể không thực hiện."
+        },
+        {
+          "id": 9,
+          "text": "去年までの仲間がライバルチームに入ったのは、我々 ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "ほか",
+            "挑戦に",
+            "ならない",
+            "に対する"
+          ],
+          "correct_order": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "去年までの仲間がライバルチームに入ったのは、我々 に対する 挑戦に ほか ならない 。",
+          "explanation": "正しい語順は「に対する(4) 挑戦に(2) ほか(1) ならない(3)」。★は3番目なので「ほか」。\n「〜にほかならない」＝まさに〜だ、それ以外の何ものでもない（断定）。我々への挑戦だ。",
+          "explanation_vi": "Thứ tự đúng là: に対する(4) 挑戦に(2) ほか(1) ならない(3). Vị trí ngôi sao là 1 (ほか).\n「〜にほかならない」 = Không gì khác ngoài ~, chính là ~. Việc những người đồng đội cho đến năm ngoái lại gia nhập vào đội đối thủ, không gì khác ngoài một lời thách thức trực diện đối với chúng ta.",
+          "sentence_furigana": "去年(きょねん)までの仲間(なかま)がライバルチーム(らいばるちーむ)に入っ(はいっ)たのは、我々(われわれ) に対する(にたいする) 挑戦(ちょうせん)に ほか ならない 。",
+          "sentence_vi": "Việc người đồng đội cho đến năm ngoái lại đi gia nhập vào đội đối thủ thì không gì khác ngoài một lời khiêu chiến với chúng ta."
+        },
+        {
+          "id": 10,
+          "text": "彼女は子どもの頃から、絶対に歌手に ＿＿＿ ＿＿＿ ★ ＿＿＿ いた。",
+          "options": [
+            "続けて",
+            "と言い",
+            "みせる",
+            "なって"
+          ],
+          "correct_order": [
+            4,
+            3,
+            2,
+            1
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "彼女は子どもの頃から、絶対に歌手に なって みせる と言い 続けて いた。",
+          "explanation": "正しい語順は「なって(4) みせる(3) と言い(2) 続けて(1)」。★は3番目なので「と言い」。\n「〜てみせる」＝強い決意（絶対に〜する）。「絶対に歌手になってやる」と言い続けていた。",
+          "explanation_vi": "Thứ tự đúng là: なって(4) みせる(3) と言い(2) 続けて(1). Vị trí ngôi sao là 2 (と言い).\n「〜てみせる」 = Sẽ ~ cho mà xem (thể hiện quyết tâm mạnh mẽ). Từ khi còn nhỏ, cô ấy đã luôn miệng nói rằng nhất định sẽ trở thành một ca sĩ cho mà xem.",
+          "sentence_furigana": "彼女(かのじょ)は子ども(こども)の頃(ころ)から、絶対(ぜったい)に歌手(かしゅ)に なっ(なっ)て みせる と言い(といい) 続け(つづけ)て いた。",
+          "sentence_vi": "Từ hồi còn nhỏ cô ấy đã không ngừng nói rằng nhất định sẽ trở thành ca sĩ cho mà xem."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　さて、次は「今日の占い」のコーナーです。生まれた月によって、今日の運勢をランキング形式で発表します。\n　それでは、今日の１位の発表です。今日一番ラッキーなのは、11月生まれの方です。\n　11月生まれのあなた、今日は人間関係がとてもうまくいく日です。性別や年齢【１】、いろいろな人と親しくなれるでしょう。ラッキーカラーは黄色です。黄色のものを身につけていると、すてきな出会いがあるかもしれません。【２】、誘われたことを何でもOKしていると、あとで都合がつかなくなって困ったことになりかねないので、気をつけてくださいね。\n　今日、一番運勢が悪いのは……、残念、3月生まれの方です。\n　3月生まれのあなたは、今日は慎重な行動を心がけましょう。思ったことをすぐに口に出して人を傷つけたり、よく考えずに行動して失敗するかもしれません。何か思いついた【３】、それをすぐに行動に移すのではなく、少し時間をおいてゆっくり考えることをおすすめします。そうすれば、つまらない失敗を【４】でしょう。今日のラッキーカラーは赤です。順位が低い【５】がっかりしないで、トマトやいちごなど赤いものを食べて、今日一日を元気に乗り切りましょう！",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "も同然",
+            "も兼ねて",
+            "を問わず",
+            "を通して"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜を問わず」＝〜に関係なく。性別や年齢に関係なく、いろいろな人と親しくなれる。",
+          "explanation_vi": "「〜を問わず」 = Bất kể, không kể ~. Bạn sẽ có thể trở nên thân thiết với rất nhiều người, bất kể là giới tính hay độ tuổi nào."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "さらに",
+            "ただし",
+            "つまり",
+            "および"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ただし」＝前文の条件や例外、注意をつけ加える接続詞。「いい出会いがあるかもしれないが、ただし（注意点として）何でもOKするのはよくない」という文脈。",
+          "explanation_vi": "「ただし」 = Tuy nhiên, thế nhưng (dùng để bổ sung thêm điều kiện, ngoại lệ hoặc cảnh báo cho câu trước). Có thể bạn sẽ có những cuộc gặp gỡ tuyệt vời, tuy nhiên, nếu được rủ gì cũng gật đầu đồng ý thì..."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "からには",
+            "ついでに",
+            "としても",
+            "かと思うと"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜としても」＝仮に〜だとしても。何かを思いついたとしても（仮定）、すぐに行動しないほうがいい。",
+          "explanation_vi": "「〜としても」 = Dẫu cho có ~ đi chăng nữa. Cho dù bạn có nghĩ ra ý tưởng gì đi chăng nữa, thì cũng không nên hành động ngay lập tức."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "しなくてすむ",
+            "していられない",
+            "するおそれがある",
+            "しないことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ずにすむ（〜なくてすむ）」＝〜しないで終わる（悪いことを避けられる）。ゆっくり考えれば、失敗をしないですむ（失敗を避けられる）。",
+          "explanation_vi": "「〜なくてすむ」 = Khỏi phải ~, tránh được việc ~. Nếu bạn dành thời gian suy nghĩ kỹ càng thì bạn sẽ tránh được việc mắc phải những sai lầm ngớ ngẩn."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "からこそ",
+            "からといって",
+            "かと思ったら",
+            "かのように"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜からといって」＝〜という理由だけで（〜してはいけない、〜とは限らない）。順位が低いからという理由だけで、がっかりしてはいけない。",
+          "explanation_vi": "「〜からといって」 = Chỉ vì ~ (mà đã vội...). Đừng vội nản lòng hay thất vọng chỉ vì hôm nay chòm sao của bạn có thứ hạng thấp."
+        }
+      ]
+    }
+  ]
+}

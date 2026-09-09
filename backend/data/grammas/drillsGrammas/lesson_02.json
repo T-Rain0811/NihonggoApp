@@ -1,0 +1,307 @@
+{
+  "lesson": 2,
+  "title": "第２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "運動しないで食べて（　　）と、体に悪いですよ。",
+          "options": [
+            "ばかりでない",
+            "ばかりする",
+            "ばかりしている",
+            "ばかりいる"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てばかりいる」＝〜だけを続けている。運動せずに食べてばかりいると体に悪い。",
+          "explanation_vi": "「〜てばかりいる」 = Chỉ toàn làm gì đó suốt. Không vận động mà chỉ toàn ăn suốt thì sẽ có hại cho cơ thể.",
+          "sentence_furigana": "運動(うんどう)しないで食べて(たべて)（　　）と、体(からだ)に悪い(わるい)ですよ。",
+          "sentence_vi": "Nếu không vận động mà chỉ toàn ăn suốt thì sẽ có hại cho cơ thể đấy."
+        },
+        {
+          "id": 2,
+          "text": "やると決めた（　　）、最後まであきらめずにやるべきだ。",
+          "options": [
+            "からして",
+            "からには",
+            "ことから",
+            "ものだから"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜からには」＝〜のだから当然（義務・決意）。決めた以上は当然最後までやるべきだ。",
+          "explanation_vi": "「〜からには」 = Một khi đã ~ thì đương nhiên (nghĩa vụ, quyết tâm). Một khi đã quyết định làm thì đương nhiên phải làm đến cùng mà không bỏ cuộc.",
+          "sentence_furigana": "やると決めた(きめた)（　　）、最後(さいご)まであきらめずにやるべきだ。",
+          "sentence_vi": "Một khi đã quyết định làm thì phải làm đến cùng mà không bỏ cuộc."
+        },
+        {
+          "id": 3,
+          "text": "山に登るときは、自分の体力に（　　）計画を立てましょう。",
+          "options": [
+            "つれた",
+            "応じた",
+            "とっての",
+            "ともなった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜に応じた」＝〜に合った、〜にふさわしい。体力に合った計画を立てる。",
+          "explanation_vi": "「〜に応じた」 = Phù hợp với ~, tương ứng với ~. Lập kế hoạch phù hợp với thể lực của bản thân.",
+          "sentence_furigana": "山(やま)に登る(のぼる)ときは、自分(じぶん)の体力(たいりょく)に（　　）計画(けいかく)を立て(たて)ましょう。",
+          "sentence_vi": "Khi leo núi, hãy lập kế hoạch phù hợp với thể lực của bản thân."
+        },
+        {
+          "id": 4,
+          "text": "その新入社員は注意されると怒り出し、（　　）は泣き出した。",
+          "options": [
+            "そのうえ",
+            "それ以上",
+            "あげくのはてに",
+            "あまりに"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜あげくのはてに」＝いろいろ〜した結果、最後には（悪い結果）。怒り出した結果、最後には泣き出した。",
+          "explanation_vi": "「〜あげくのはてに」 = Sau một hồi ~ thì cuối cùng (dẫn đến kết quả xấu). Sau một hồi tức giận thì cuối cùng đã bật khóc.",
+          "sentence_furigana": "その新入(しんにゅう)社員(しゃいん)は注意(ちゅうい)されると怒り(いかり)出し(だし)、（　　）は泣き(なき)出した(だした)。",
+          "sentence_vi": "Nhân viên mới đó khi bị nhắc nhở thì tỏ ra tức giận, sau một hồi thì bật khóc."
+        },
+        {
+          "id": 5,
+          "text": "雨が降らない（　　）、毎日走るようにしています。",
+          "options": [
+            "限り",
+            "うちに",
+            "限りに",
+            "ことには"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜限り」＝〜する間はずっと、〜の状態が続く間は（条件）。雨が降らないという条件が続く間は走る。（注：解答は「限り」が適切）",
+          "explanation_vi": "「〜限り」 = Chừng nào mà ~ (điều kiện). Chừng nào trời còn không mưa thì tôi vẫn cố gắng chạy bộ mỗi ngày.",
+          "sentence_furigana": "雨(あめ)が降ら(ふら)ない（　　）、毎日(まいにち)走る(はしる)ようにしています。",
+          "sentence_vi": "Chừng nào trời không mưa, tôi cố gắng chạy bộ mỗi ngày."
+        },
+        {
+          "id": 6,
+          "text": "事情があった（　　）、遅れるなら連絡ぐらいしてほしい。",
+          "options": [
+            "にせよ",
+            "につき",
+            "につけ",
+            "せいで"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜にせよ」＝〜だとしても（譲歩）。事情があったとしても、連絡はすべきだ。",
+          "explanation_vi": "「〜にせよ」 = Cho dù là ~ đi chăng nữa. Cho dù là có lý do đi chăng nữa thì nếu đến trễ cũng nên liên lạc một tiếng.",
+          "sentence_furigana": "事情(じじょう)があった（　　）、遅れる(おくれる)なら連絡(れんらく)ぐらいしてほしい。",
+          "sentence_vi": "Cho dù là có lý do gì đi nữa, nếu đến trễ thì tôi muốn bạn ít nhất hãy liên lạc báo một tiếng."
+        },
+        {
+          "id": 7,
+          "text": "選手たちは雨の中、泥（　　）になって戦った。",
+          "options": [
+            "がち",
+            "ぎみ",
+            "だらけ",
+            "みたい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜だらけ」＝〜がいっぱいある（汚いもの・嫌なもの）。泥がいっぱいついた状態。",
+          "explanation_vi": "「〜だらけ」 = Đầy ~ (những thứ bẩn thỉu, khó chịu). Tình trạng dính đầy bùn đất.",
+          "sentence_furigana": "選手(せんしゅ)たちは雨(あめ)の中(なか)、泥(どろ)（　　）になって戦っ(たたかっ)た。",
+          "sentence_vi": "Các cầu thủ đã chiến đấu trong cơn mưa, người đầy bùn đất."
+        },
+        {
+          "id": 8,
+          "text": "工事の開始（　　）、付近の住民に向けて説明会が開かれた。",
+          "options": [
+            "に先立ち",
+            "に沿って",
+            "もかまわず",
+            "をかねて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に先立ち」＝〜の前に（準備として）。工事を始める前に説明会を開いた。",
+          "explanation_vi": "「〜に先立ち」 = Trước khi ~ (nhằm chuẩn bị). Trước khi bắt đầu thi công, một buổi giải thích đã được tổ chức cho người dân khu vực lân cận.",
+          "sentence_furigana": "工事(こうじ)の開始(かいし)（　　）、付近(ふきん)の住民(じゅうみん)に向け(むけ)て説明会(せつめいかい)が開か(ひらか)れた。",
+          "sentence_vi": "Trước khi bắt đầu thi công, một buổi họp giải thích đã được tổ chức cho người dân khu vực lân cận."
+        },
+        {
+          "id": 9,
+          "text": "このような難病が手術で治るとは、医学の進歩に感謝（　　）。",
+          "options": [
+            "しかねない",
+            "してならない",
+            "するわけにはいかない",
+            "せずにはいられない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ずにはいられない」＝どうしても〜してしまう（自然に湧き起こる感情）。感謝しないではいられない（感謝してしまう）。",
+          "explanation_vi": "「〜ずにはいられない」 = Không thể không ~, chắc chắn sẽ ~ (cảm xúc trào dâng tự nhiên). Không thể không biết ơn sự tiến bộ của y học.",
+          "sentence_furigana": "このような難病(なんびょう)が手術(しゅじゅつ)で治る(なおる)とは、医学(いがく)の進歩(しんぽ)に感謝(かんしゃ)（　　）。",
+          "sentence_vi": "Việc một căn bệnh nan y như thế này có thể chữa khỏi bằng phẫu thuật, thật không thể không biết ơn sự tiến bộ của y học."
+        },
+        {
+          "id": 10,
+          "text": "ちょうど食事ができあがった（　　）父が帰ってきた。",
+          "options": [
+            "ところが",
+            "ところに",
+            "にあたり",
+            "最中に"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ところに」＝ちょうど〜しているタイミングに。食事ができた、そのタイミングに帰ってきた。",
+          "explanation_vi": "「〜ところに」 = Đúng vào lúc, đúng thời điểm ~. Đúng lúc bữa ăn vừa chuẩn bị xong thì bố về.",
+          "sentence_furigana": "ちょうど食事(しょくじ)ができあがった（　　）父(ちち)が帰って(かえって)きた。",
+          "sentence_vi": "Bố về đúng lúc bữa ăn vừa được chuẩn bị xong."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この乗馬クラブは ＿＿＿ ＿＿＿ ★ ＿＿＿ 気軽にご参加いただけます。",
+          "options": [
+            "有無を",
+            "経験の",
+            "どなたでも",
+            "問わず"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "この乗馬クラブは 経験の 有無を 問わず どなたでも 気軽にご参加いただけます。",
+          "explanation": "正しい語順は「経験の(2) 有無を(1) 問わず(4) どなたでも(3)」。★は3番目なので「問わず」。",
+          "explanation_vi": "Thứ tự đúng là: 経験の(2) 有無を(1) 問わず(4) どなたでも(3). Vị trí ngôi sao là 4 (問わず). Câu này nghĩa là: Bất kể có kinh nghiệm hay không, bất cứ ai cũng có thể thoải mái tham gia.",
+          "sentence_furigana": "この乗馬(じょうば)クラブ(くらぶ)は 経験(けいけん)の 有無(うむ)を 問わ(とわ)ず どなたでも 気軽(きがる)にご参加(さんか)いただけます。",
+          "sentence_vi": "Câu lạc bộ cưỡi ngựa này hoan nghênh bất cứ ai tham gia, bất kể có kinh nghiệm hay không."
+        },
+        {
+          "id": 12,
+          "text": "歯の痛みは、時間が ＿＿＿ ＿＿＿ ★ ＿＿＿ なってきた。",
+          "options": [
+            "ものに",
+            "につれて",
+            "たえがたい",
+            "経つ"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "歯の痛みは、時間が 経つ につれて たえがたい ものに なってきた。",
+          "explanation": "正しい語順は「経つ(4) につれて(2) たえがたい(3) ものに(1)」。★は3番目なので「たえがたい」。",
+          "explanation_vi": "Thứ tự đúng là: 経つ(4) につれて(2) たえがたい(3) ものに(1). Vị trí ngôi sao là 3 (たえがたい). Cơn đau răng càng lúc càng trở nên không thể chịu nổi khi thời gian trôi qua.",
+          "sentence_furigana": "歯(は)の痛み(いたみ)は、時間(じかん)が 経つ(たつ) につれて たえがたい ものに なってきた。",
+          "sentence_vi": "Cơn đau răng trở nên ngày càng không thể chịu đựng được khi thời gian trôi qua."
+        },
+        {
+          "id": 13,
+          "text": "昨日のコンサートは客が8人 ＿＿＿ ＿＿＿ ★ ＿＿＿ ものだった。",
+          "options": [
+            "いない",
+            "しか",
+            "だけ",
+            "寂しい"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "昨日のコンサートは客が8人 だけ しか いない 寂しい ものだった。",
+          "explanation": "正しい語順は「だけ(3) しか(2) いない(1) 寂しい(4)」。★は3番目なので「いない」。",
+          "explanation_vi": "Thứ tự đúng là: だけ(3) しか(2) いない(1) 寂しい(4). Vị trí ngôi sao là 1 (いない). Buổi hòa nhạc hôm qua thật vắng vẻ khi chỉ có đúng 8 vị khách.",
+          "sentence_furigana": "昨日(きのう)のコンサート(こんさーと)は客(きゃく)が8人(にん) だけ しか いない 寂しい(さびしい) ものだった。",
+          "sentence_vi": "Buổi hòa nhạc hôm qua thật vắng vẻ, chỉ có vỏn vẹn 8 khán giả."
+        },
+        {
+          "id": 14,
+          "text": "こちらに ＿＿＿ ＿＿＿ ★ ＿＿＿ が書かれておりますのでご覧ください。",
+          "options": [
+            "の",
+            "注意事項",
+            "ご利用",
+            "に際して"
+          ],
+          "correct_order": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "こちらに ご利用 に際して の 注意事項 が書かれておりますのでご覧ください。",
+          "explanation": "正しい語順は「ご利用(3) に際して(4) の(1) 注意事項(2)」。★は3番目なので「の」。",
+          "explanation_vi": "Thứ tự đúng là: ご利用(3) に際して(4) の(1) 注意事項(2). Vị trí ngôi sao là 1 (の). Xin hãy xem các lưu ý khi sử dụng được viết ở đây.",
+          "sentence_furigana": "こちらに ご利用(りよう) に際して(さいして) の 注意(ちゅうい)事項(じこう) が書か(かか)れておりますのでご覧(ごらん)ください。",
+          "sentence_vi": "Xin vui lòng xem các lưu ý khi sử dụng được ghi ở đây."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私は旅を趣味として、様々な場所へ出かけていく。\n　当然、その国、その地方で常識（じょうしき）が違う。ごはんをはしで食べる国も【１】、フォークとナイフで食べる国もある。日本は列車やバスが時間どおり来るが、そうでない国だってある。\n　しかし、私は、常識の違いに驚くことはあっても、それに対する不満を感じることはない。違っていて当然、違う【２】、旅のおもしろさがあるのだ。\n　私が旅に出るのは、自分の常識が絶対でないことを確かめるためでもある。「こうしなければいけない」と【３】、知らず知らずのうちに自分をしばりつけているものから解放されたいと思っているのかもしれない。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "あれば",
+            "あると",
+            "あるやら",
+            "あるわりに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜もあれば、〜もある」という並立の表現。箸で食べる国もあれば、フォークで食べる国もある。",
+          "explanation_vi": "「〜もあれば、〜もある」 là cấu trúc liệt kê \"có cái này thì cũng có cái kia\". Có nước ăn bằng đũa thì cũng có nước ăn bằng nĩa."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "うえで",
+            "につけ",
+            "からこそ",
+            "ことから"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜からこそ」＝〜だから（理由の強調）。違うからこそ（違っているからという理由で）おもしろい。",
+          "explanation_vi": "「〜からこそ」 = Chính vì ~ (nhấn mạnh lý do). Chính vì khác biệt nên chuyến đi mới có điểm thú vị."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "かと思うと",
+            "思うあまり",
+            "思うとしても",
+            "思うも同然で"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜あまり」＝〜すぎる結果（極端な状態）。「こうしなければ」と思いすぎる結果、自分を縛り付けている。",
+          "explanation_vi": "「〜あまり」 = Vì quá ~ nên dẫn đến kết quả. Vì quá suy nghĩ rằng \"phải làm thế này\" nên vô tình đã tự trói buộc bản thân."
+        }
+      ]
+    }
+  ]
+}

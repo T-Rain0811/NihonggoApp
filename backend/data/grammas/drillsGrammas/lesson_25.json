@@ -1,0 +1,265 @@
+{
+  "lesson": 25,
+  "title": "第２５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "父は「ちょっと行ってくる」と言って出かけた（　　）、まだ帰ってこない。",
+          "options": [
+            "あまり",
+            "うえに",
+            "たびに",
+            "きり"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜きり」＝〜したのが最後で、その後ずっと期待される変化が起きない。出かけたのが最後で、まだ帰ってこない。",
+          "explanation_vi": "「〜きり」 = Kể từ khi ~ thì (mãi không thấy có sự thay đổi nào khác). Bố tôi đi ra ngoài và bảo \"Bố đi một lát rồi về\", thế mà kể từ lúc đi đến giờ vẫn chưa thấy về.",
+          "sentence_furigana": "父(ちち)は「ちょっと行っ(いっ)てくる」と言っ(いっ)て出かけ(でかけ)た（　　）、まだ帰っ(かえっ)てこない。",
+          "sentence_vi": "Bố tôi đi ra ngoài và bảo \"Bố đi một lát\", thế mà từ lúc đi tới giờ vẫn chưa thấy về."
+        },
+        {
+          "id": 2,
+          "text": "何も知らない（　　）、余計なことを言うな。",
+          "options": [
+            "くせに",
+            "ままに",
+            "からこそ",
+            "ながらも"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜くせに」＝〜のに（相手を非難したりバカにしたりする強い表現）。何も知らないのに、口出しするな。",
+          "explanation_vi": "「〜くせに」 = Dù là ~ vậy mà (thể hiện sự khinh thường, trách móc). Bản thân thì chả biết cái thá gì, thế mà cứ thích nói mấy lời thừa thãi.",
+          "sentence_furigana": "何(なに)も知らない(しらない)（　　）、余計(よけい)なことを言う(いう)な。",
+          "sentence_vi": "Cái gì cũng không biết thế mà cứ hay nói lời thừa thãi."
+        },
+        {
+          "id": 3,
+          "text": "会社をやめて独立する（　　）、後悔しないようにがんばりたい。",
+          "options": [
+            "上",
+            "上で",
+            "上に",
+            "上は"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜上（え）は」＝〜のだから、当然（決意や義務）。独立すると決めたのだから、当然がんばりたい。",
+          "explanation_vi": "「〜上（え）は」 = Một khi đã ~ thì (kéo theo sau là nghĩa vụ, quyết tâm). Một khi đã quyết định nghỉ việc ở công ty để tự mình kinh doanh riêng thì tôi muốn cố gắng hết sức để không phải hối hận.",
+          "sentence_furigana": "会社(かいしゃ)をやめて独立(どくりつ)する（　　）、後悔(こうかい)しないようにがんばりたい。",
+          "sentence_vi": "Một khi đã nghỉ việc công ty để ra làm riêng thì tôi muốn cố gắng hết sức để không bao giờ phải hối hận."
+        },
+        {
+          "id": 4,
+          "text": "資金が足りない（　　）計画は延期になった。",
+          "options": [
+            "からこそ",
+            "からには",
+            "ことから",
+            "ことには"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ことから」＝〜という理由や事実から（客観的な原因）。資金不足という理由で、計画が延期になった。",
+          "explanation_vi": "「〜ことから」 = Bắt nguồn từ việc ~, do ~ (dùng để nêu lý do khách quan). Do tình trạng thiếu hụt vốn nên kế hoạch đã bị hoãn lại.",
+          "sentence_furigana": "資金(しきん)が足り(たり)ない（　　）計画(けいかく)は延期(えんき)になった。",
+          "sentence_vi": "Xuất phát từ nguyên nhân thiếu hụt ngân sách nên kế hoạch đã bị hoãn lại."
+        },
+        {
+          "id": 5,
+          "text": "免許は持っている（　　）、車がないからほとんど運転したことがない。",
+          "options": [
+            "につき",
+            "のみか",
+            "ものの",
+            "からには"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ものの」＝〜だけれども、〜とはいうものの（逆接）。免許は持っているけれども、運転したことがない。",
+          "explanation_vi": "「〜ものの」 = Dù là ~ nhưng mà. Giấy phép lái xe thì tôi cũng có đấy, nhưng mà vì không có ô tô nên hầu như tôi chưa từng lái xe bao giờ.",
+          "sentence_furigana": "免許(めんきょ)は持っ(もっ)ている（　　）、車(くるま)がないからほとんど運転(うんてん)したことがない。",
+          "sentence_vi": "Tuy là cũng có bằng lái xe đấy nhưng vì không có ô tô nên hầu như tôi chưa bao giờ cầm lái cả."
+        },
+        {
+          "id": 6,
+          "text": "困った（　　）、3日前になってもセミナーの申し込みが一人もない。",
+          "options": [
+            "ことに",
+            "ものに",
+            "わけで",
+            "だけあって"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことに」＝〜なことには（感情や評価を強調して文頭に置く）。非常に困ったことだが、申し込みがない。",
+          "explanation_vi": "「〜ことに」 = Thật là ~ (đưa cảm xúc lên đầu câu để nhấn mạnh). Thật là rắc rối, đã sát đến trước ngày tổ chức hội thảo 3 ngày rồi mà vẫn chưa có lấy một người nào đăng ký.",
+          "sentence_furigana": "困っ(こまっ)た（　　）、3日(みっか)前(まえ)になってもセミナー(せみなー)の申し込み(もうしこみ)が一人(ひとり)もない。",
+          "sentence_vi": "Thật là đau đầu, đã sát 3 ngày trước sự kiện rồi mà vẫn chưa có lấy một ai đăng ký hội thảo cả."
+        },
+        {
+          "id": 7,
+          "text": "これだけ調べても見つからないなら、あきらめ（　　）だろう。",
+          "options": [
+            "がいがない",
+            "てならない",
+            "ざるを得ない",
+            "て仕方がない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ざるを得ない」＝どうしても〜しなければならない。これだけ調べてもダメなら、あきらめるしか方法がない。",
+          "explanation_vi": "「〜ざるを得ない」 = Không thể không ~, đành phải, buộc phải ~. Nếu đã cất công tìm kiếm đến mức này rồi mà vẫn không thấy thì chắc là đành phải bỏ cuộc thôi.",
+          "sentence_furigana": "これだけ調べ(しらべ)ても見つから(みつから)ないなら、あきらめ（　　）だろう。",
+          "sentence_vi": "Nếu đã cất công tìm kiếm đến thế này rồi mà vẫn không thấy, thì có lẽ đành phải bỏ cuộc thôi."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "ただの ＿＿＿ ＿＿＿ ★ ＿＿＿ 大事なことは決められません。",
+          "options": [
+            "私には",
+            "そんな",
+            "秘書に",
+            "すぎない"
+          ],
+          "correct_order": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "ただの 秘書に すぎない 私には そんな 大事なことは決められません。",
+          "explanation": "正しい語順は「秘書に(3) すぎない(4) 私には(1) そんな(2)」。★は3番目なので「私には」。\n「ただの〜にすぎない」＝ただの〜でしかない（軽く見る表現）。単なる秘書である私には、そんなに重要なことは決められない。",
+          "explanation_vi": "Thứ tự đúng là: 秘書に(3) すぎない(4) 私には(1) そんな(2). Vị trí ngôi sao là 1 (私には).\n「〜にすぎない」 = Chẳng qua cũng chỉ là ~. Những chuyện quan trọng như thế này, một người chẳng qua cũng chỉ là thư ký quèn như tôi thì không có tư cách quyết định.",
+          "sentence_furigana": "ただの 秘書(ひしょ)に すぎない 私(わたし)には そんな 大事(だいじ)なことは決め(きめ)られません。",
+          "sentence_vi": "Một người chỉ đơn thuần là cô thư ký như tôi thì không có quyền hạn quyết định những việc hệ trọng đến thế đâu."
+        },
+        {
+          "id": 9,
+          "text": "運動する ＿＿＿ ＿＿＿ ★ ＿＿＿ 友人と会うためにジムに通っている。",
+          "options": [
+            "という",
+            "ため",
+            "むしろ",
+            "より"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "運動する ため という より むしろ 友人と会うためにジムに通っている。",
+          "explanation": "正しい語順は「ため(2) という(1) より(4) むしろ(3)」。★は3番目なので「より」。\n「AというよりむしろB」＝Aという理由も少しはあるが、それよりもBという理由の方が合っている。",
+          "explanation_vi": "Thứ tự đúng là: ため(2) という(1) より(4) むしろ(3). Vị trí ngôi sao là 4 (より).\n「AというよりむしろB」 = Nói là A thì đúng hơn là B. Việc tôi tới phòng tập gym, nói là để vận động thì đúng hơn là vì mục đích để đi gặp bạn bè.",
+          "sentence_furigana": "運動(うんどう)する ため という より むしろ 友人(ゆうじん)と会う(あう)ためにジム(じむ)に通っ(かよっ)ている。",
+          "sentence_vi": "Tôi hay tới phòng tập gym nói là vì mục đích đi gặp bạn bè thì đúng hơn là đi tập thể dục."
+        },
+        {
+          "id": 10,
+          "text": "どの車を買おうかさんざん ＿＿＿ ＿＿＿ ★ ＿＿＿ 買うのをやめた。",
+          "options": [
+            "合わなくて",
+            "あげく",
+            "予算が",
+            "悩んだ"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "どの車を買おうかさんざん 悩んだ あげく 予算が 合わなくて 買うのをやめた。",
+          "explanation": "正しい語順は「悩んだ(4) あげく(2) 予算が(3) 合わなくて(1)」。★は3番目なので「予算が」。\n「さんざん〜したあげく」＝長い間色々〜した結果、最後には（マイナスの結果）。散々悩んだが、結局予算が合わず買わなかった。",
+          "explanation_vi": "Thứ tự đúng là: 悩んだ(4) あげく(2) 予算が(3) 合わなくて(1). Vị trí ngôi sao là 3 (予算が).\n「〜あげく」 = Sau một khoảng thời gian dài ~ thì cuối cùng lại (dẫn đến kết quả không tốt). Sau một hồi đau đầu vắt óc suy nghĩ không biết nên mua chiếc xe nào, thì rốt cục do không phù hợp với ngân sách nên tôi đã quyết định không mua nữa.",
+          "sentence_furigana": "どの車(くるま)を買おう(かおう)かさんざん 悩ん(なやん)だ あげく 予算(よさん)が 合わ(あわ)なくて 買う(かう)のをやめた。",
+          "sentence_vi": "Đắn đo suy nghĩ mãi xem nên mua chiếc xe nào, rốt cục thì do không hợp túi tiền nên tôi lại thôi không mua nữa."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　リビングに行くと、母と姉がお茶を飲みながら話していた。\n　姉は怒ったような顔をして、母に言った。\n　「それでね、６時に会う約束をしていたのに彼が来たのは７時。５分や10分【１】、１時間も遅れて来たのよ。あり得ないでしょ？　しかも、絶対に『ごめんなさい』って言わないの。謝る【２】、言い訳ばっかりしているの」\n　「それはひどいわね」\n　母は、あきれたように言った。\n　「でしょ？　そのくせ、レストランで注文した料理がなかなか運ばれてこないからって、人目もかまわず、大声で店員さんに文句言うのよ。それに……」\n　姉の話が【3-a】か【3-b】かのうちに、私は思わず姉に向かって言った。\n　「お姉ちゃん！　そんな男とはもう別れたら？」\n　姉と母は、私の顔を見てびっくりしたような表情をしていたが、次の瞬間、二人とも大声で笑い出した。そして、私に向かってこう言った。\n　「何を勘違いしてるの？　私がそんな男とつき合う【４】でしょ。ドラマの話よ。お母さんが先週見るのを忘れたって言うから、話してあげてたのよ。もう、あんたって本当にそそっかしい【５】」",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "のみならず",
+            "ならまだしも",
+            "はもとより",
+            "にもかかわらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ならまだしも」＝〜ならまだ許せるが（実際はもっとひどい）。5分や10分の遅刻なら許せるかもしれないが、1時間も遅れてきたから許せない。",
+          "explanation_vi": "「〜ならまだしも」 = Nếu là ~ thì còn tạm chấp nhận được (chứ đằng này thực tế lại tồi tệ hơn thế). \"Đi muộn 5 hay 10 phút thì còn tạm chấp nhận được, chứ đằng này anh ta bắt chị chờ đến tận 1 tiếng đồng hồ đấy.\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "一方で",
+            "も同然",
+            "どころか",
+            "からといって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜どころか」＝〜という期待される程度からはほど遠く、全く逆だ。謝るという期待とは全く逆に、言い訳ばかりしている。",
+          "explanation_vi": "「〜どころか」 = Chẳng những không ~ mà trái lại còn. \"Anh ta tuyệt đối không mở miệng nói lời xin lỗi. Chẳng những không xin lỗi mà lại còn toàn tìm cách viện cớ ngụy biện cơ.\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "a 始まる／b 始まらない",
+            "a 始まらない／b 始まる",
+            "a 終わる／b 終わらない",
+            "a 終わらない／b 終わる"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜か〜ないかのうちに」＝〜すると同時くらいに。「姉の話が終わるか終わらないかのタイミングで、私は思わず口を挟んだ」という文脈。",
+          "explanation_vi": "「〜か〜ないかのうちに」 = Ngay khi vừa mới ~ (gần như đồng thời). Câu chuyện của chị gái vừa mới dứt xong (thậm chí chưa biết đã dứt hẳn hay chưa) thì tôi đã bất giác quay sang nói xen vào."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "わけがない",
+            "わけではない",
+            "わけでもない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜わけがない」＝絶対に〜ない。私がそんな（ひどい）男とつきあうはずがないでしょう、と強く否定している。",
+          "explanation_vi": "「〜わけがない」 = Tuyệt đối không ~, làm gì có chuyện ~. \"Mày đang hiểu nhầm cái gì đấy? Làm gì có chuyện chị lại đi hẹn hò với một gã tồi như thế cơ chứ. Đấy là nội dung trong phim truyền hình đấy.\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "んだから",
+            "んだって",
+            "んだっけ",
+            "んじゃない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜んだから」＝相手の性格や状態を理由にして、あきれたり念を押したりする表現。「あんたは本当にそそっかしい性格なのだから（勘違いして困るわね）」とあきれている。",
+          "explanation_vi": "「〜んだから」 = Vì ~ cơ mà (thường dùng ở cuối câu để giải thích lý do, mang âm điệu cằn nhằn, bó tay). \"Thiệt tình, con bé này, tính tình mày đúng là hấp tấp vội vàng quá cơ!\""
+        }
+      ]
+    }
+  ]
+}

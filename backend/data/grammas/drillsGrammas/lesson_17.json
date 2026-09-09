@@ -1,0 +1,265 @@
+{
+  "lesson": 17,
+  "title": "第１７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "もう間に合わないかと思ったが、なんとか電車に乗り遅れ（　　）。",
+          "options": [
+            "ずにすんだ",
+            "かねなかった",
+            "ようがなかった",
+            "ざるを得なかった"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ずにすむ」＝〜しないで解決する、〜しなくても大丈夫だった（安心）。なんとか乗り遅れないで済んだ（間に合った）。",
+          "explanation_vi": "「〜ずにすむ」 = May mà không bị ~, không phải ~ (thể hiện sự nhẹ nhõm vì tránh được một chuyện không hay). Tưởng đâu là không kịp nữa rồi nhưng mà may sao tôi không bị lỡ chuyến tàu.",
+          "sentence_furigana": "もう間(ま)に合わ(あわ)ないかと思っ(おもっ)たが、なんとか電車(でんしゃ)に乗り遅れ(のりおくれ)（　　）。",
+          "sentence_vi": "Cứ tưởng là không kịp nữa rồi, nhưng mà may sao tôi vẫn không bị lỡ tàu."
+        },
+        {
+          "id": 2,
+          "text": "今日中にやらなければならない仕事がたくさんあるから、まだ私は（　　）。",
+          "options": [
+            "帰れそうもない",
+            "帰ろうとしない",
+            "帰るはずがない",
+            "帰れないこともない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜そうもない」＝〜する可能性が低い（推量）。仕事がたくさんあるから、帰れそうにない。",
+          "explanation_vi": "「〜そうもない」 = Có vẻ như không thể ~ (phủ định của 〜そうだ). Còn rất nhiều việc phải làm cho xong trong ngày hôm nay nên có lẽ tôi vẫn chưa thể nào về được.",
+          "sentence_furigana": "今日(きょう)中(じゅう)にやらなければならない仕事(しごと)がたくさんあるから、まだ私(わたし)は（　　）。",
+          "sentence_vi": "Vì vẫn còn rất nhiều việc phải giải quyết xong trong hôm nay nên tôi có vẻ chưa thể về được."
+        },
+        {
+          "id": 3,
+          "text": "その研究をするなら、一度は斎藤先生に会っておく（　　）。",
+          "options": [
+            "までだ",
+            "ものだ",
+            "わけだ",
+            "べきだ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜べきだ」＝〜するのが当然だ、〜したほうがいい（強いアドバイス）。研究するなら会っておくのが当然だ（会うべきだ）。",
+          "explanation_vi": "「〜べきだ」 = Nên ~, phải ~ (khuyên nhủ mạnh mẽ, hoặc coi đó là điều hiển nhiên phải làm). Nếu làm nghiên cứu đó thì ít nhất cũng nên gặp thầy Saito một lần đi.",
+          "sentence_furigana": "その研究(けんきゅう)をするなら、一度(いちど)は斎藤(さいとう)先生(せんせい)に会っ(あっ)ておく（　　）。",
+          "sentence_vi": "Nếu định tiến hành nghiên cứu đó thì anh nên đến gặp thầy Saito một lần đi."
+        },
+        {
+          "id": 4,
+          "text": "手術が決まった今は、ただ成功を祈る（　　）です。",
+          "options": [
+            "以上",
+            "限り",
+            "最中",
+            "ばかり"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ただ〜ばかりだ」＝ただ〜するだけだ（他の選択肢はない）。今は祈るしかない。",
+          "explanation_vi": "「ただ〜ばかりだ/ばかりです」 = Chỉ còn biết ~, chỉ có cách ~ (ngoài ra không còn cách nào khác). Bây giờ đã quyết định phẫu thuật rồi thì chỉ còn biết cầu nguyện cho ca phẫu thuật thành công thôi.",
+          "sentence_furigana": "手術(しゅじゅつ)が決まっ(きまっ)た今(いま)は、ただ成功(せいこう)を祈る(いのる)（　　）です。",
+          "sentence_vi": "Một khi đã quyết định phẫu thuật thì giờ đây chúng ta chỉ còn biết cầu nguyện cho thành công thôi."
+        },
+        {
+          "id": 5,
+          "text": "代表に選ばれた（　　）、全力をつくしてがんばります。",
+          "options": [
+            "上",
+            "上で",
+            "上に",
+            "上は"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜上（え）は」＝〜のだから、当然（決意や義務）。代表に選ばれたのだから、当然がんばる。",
+          "explanation_vi": "「〜上（うえ）は」 = Một khi đã ~ thì (phía sau đi với nghĩa vụ, quyết tâm). Một khi đã được chọn làm đại biểu thì tôi sẽ dốc hết toàn lực để cố gắng.",
+          "sentence_furigana": "代表(だいひょう)に選ば(えらば)れた（　　）、全力(ぜんりょく)をつくしてがんばります。",
+          "sentence_vi": "Một khi đã được chọn làm người đại diện thì tôi sẽ dốc hết sức mình để cố gắng."
+        },
+        {
+          "id": 6,
+          "text": "教育は国民の権利である（　　）義務でもある。",
+          "options": [
+            "限りは",
+            "のみならず",
+            "からといって",
+            "にかかわらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜のみならず」＝〜だけでなく、さらに〜も。権利であるだけでなく、義務でもある。",
+          "explanation_vi": "「〜のみならず」 = Không chỉ ~ mà còn. Giáo dục không chỉ là quyền lợi của công dân mà còn là nghĩa vụ.",
+          "sentence_furigana": "教育(きょういく)は国民(こくみん)の権利(けんり)である（　　）義務(ぎむ)でもある。",
+          "sentence_vi": "Giáo dục không chỉ là quyền lợi mà còn là nghĩa vụ của nhân dân."
+        },
+        {
+          "id": 7,
+          "text": "自分でやって（　　）難しさはわからない。",
+          "options": [
+            "みてこそ",
+            "みない限り",
+            "みるからには",
+            "みたうえで"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ない限り（は）」＝〜しない状態が続く間は（ずっと）、〜できない。やってみない状態のままだと、難しさはわからない。",
+          "explanation_vi": "「〜ない限り」 = Chừng nào mà chưa ~, thì không thể ~. Chừng nào mà chưa tự mình làm thử thì sẽ không thể nào hiểu được độ khó của nó đâu.",
+          "sentence_furigana": "自分(じぶん)でやっ(やっ)て（　　）難し(むずかし)さはわからない。",
+          "sentence_vi": "Chừng nào chưa tự tay mình làm thử thì sẽ không thể hiểu được độ khó của nó."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "たばこの価格が ＿＿＿ ＿＿＿ ★ ＿＿＿ 禁煙する人が増えている。",
+          "options": [
+            "きっかけ",
+            "上がった",
+            "として",
+            "のを"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "たばこの価格が 上がった のを きっかけ として 禁煙する人が増えている。",
+          "explanation": "正しい語順は「上がった(2) のを(4) きっかけ(1) として(3)」。★は3番目なので「きっかけ」。\n「〜をきっかけとして」＝〜を始まりの機会として。",
+          "explanation_vi": "Thứ tự đúng là: 上がった(2) のを(4) きっかけ(1) として(3). Vị trí ngôi sao là 1 (きっかけ).\nNhân cơ hội giá thuốc lá tăng, số lượng người cai thuốc lá đang ngày càng tăng lên.",
+          "sentence_furigana": "たばこの価格(かかく)が 上がっ(あがっ)た のを きっかけ として 禁煙(きんえん)する人(ひと)が増え(ふえ)ている。",
+          "sentence_vi": "Bắt nguồn từ việc giá thuốc lá tăng cao mà số lượng người cai thuốc lá cũng đang ngày càng tăng lên."
+        },
+        {
+          "id": 12,
+          "text": "もう9月に入ったのだから、この暑さも ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "そう",
+            "まい",
+            "続く",
+            "長くは"
+          ],
+          "correct_order": [
+            1,
+            4,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "もう9月に入ったのだから、この暑さも そう 長くは 続く まい 。",
+          "explanation": "正しい語順は「そう(1) 長くは(4) 続く(3) まい(2)」。★は3番目なので「続く」。\n「〜まい」＝〜ないだろう。「そう〜ない」＝そんなに〜ない。",
+          "explanation_vi": "Thứ tự đúng là: そう(1) 長くは(4) 続く(3) まい(2). Vị trí ngôi sao là 3 (続く).\nĐã bước sang tháng 9 rồi nên cái nóng này có lẽ sẽ không còn kéo dài lâu nữa đâu.",
+          "sentence_furigana": "もう9月(くがつ)に入っ(はいっ)たのだから、この暑(あつ)さも そう 長く(ながく)は 続く(つづく) まい 。",
+          "sentence_vi": "Vì đã bước sang tháng 9 rồi nên cái nóng này có lẽ cũng chẳng kéo dài lâu nữa đâu."
+        },
+        {
+          "id": 13,
+          "text": "複数の関係者に調査を行った ＿＿＿ ＿＿＿ ★ ＿＿＿ がわかった。",
+          "options": [
+            "べき",
+            "ところ",
+            "驚く",
+            "事実"
+          ],
+          "correct_order": [
+            2,
+            3,
+            1,
+            4
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "複数の関係者に調査を行った ところ 驚く べき 事実 がわかった。",
+          "explanation": "正しい語順は「ところ(2) 驚く(3) べき(1) 事実(4)」。★は3番目なので「べき」。\n「〜したところ」＝〜してみたら、〜した結果。「驚くべき〜」＝驚くのが当然な（ほどの）〜。",
+          "explanation_vi": "Thứ tự đúng là: ところ(2) 驚く(3) べき(1) 事実(4). Vị trí ngôi sao là 1 (べき).\n「〜したところ」 = Sau khi ~ thì (nhận được kết quả). Sau khi tiến hành điều tra nhiều người có liên quan, tôi đã phát hiện ra một sự thật đáng kinh ngạc.",
+          "sentence_furigana": "複数(ふくすう)の関係(かんけい)者(しゃ)に調査(ちょうさ)を行っ(おこなっ)た ところ 驚く(おどろく) べき 事実(じじつ) がわかった。",
+          "sentence_vi": "Sau khi tiến hành điều tra nhiều người có liên quan, một sự thật đáng kinh ngạc đã được phơi bày."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　私は、小さい頃からずっとペットのいる生活にあこがれていた。仲の良い友達はみんな犬や猫を飼っているのに、うちは母が動物が嫌いな【１】、私は高校生になるまで一度もペットを飼ったことがなかった。\n　私は何度も母に、友達の犬の写真を見せたり、感動的な動物映画を見せたりして、「いいなあ、うちにもこんなかわいいペットがいたらなあ」と、わざとらしく大きな声で言ったりしていたのだが、そのたびに母からは、「見てるだけならいいけど、花の世話もできないあんたに動物の世話なんて【２】」と、冷たい返事が返ってくるばかりだった。\n　ところが、そんなわが家に子犬がやってくることになった。母の長年の友人である田中さんの家に子犬が３匹生まれたので、１匹【３】というのだ。\n　もちろん母はすぐに断った。しかし田中さんはあきらめず、何度も電話をかけてきて、「うちの狭い部屋じゃ、【4-a】３匹全部は育てられ【4-b】のよ。捨てるなんて絶対にできないし、他の友達はみんなペット禁止のマンションだし……。とにかく、今度の日曜、１匹連れていくから！」\n　そういうわけで、田中さんは日曜日、強引に子犬を連れてわが家にやってきた。それが、私とシロとのはじめての出会いだった。\n　あれから十年。あんなに反対していた母も、今ではシロ【5-a】生活【5-b】考えられないと言っている。",
+      "questions": [
+        {
+          "id": 14,
+          "blank_id": 1,
+          "options": [
+            "せいで",
+            "ところ",
+            "わけで",
+            "からに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜せいで」＝〜が原因で（悪い結果）。母が動物嫌いだったせいで、ペットが飼えなかった。",
+          "explanation_vi": "「〜せいで」 = Tại vì, do ~ (dẫn đến kết quả xấu). Tại vì mẹ tôi rất ghét động vật, nên cho đến tận lúc lên cấp 3 tôi chưa từng được nuôi thú cưng lần nào."
+        },
+        {
+          "id": 15,
+          "blank_id": 2,
+          "options": [
+            "できかねない",
+            "できっこない",
+            "できますように",
+            "できるものなら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜っこない」＝絶対に〜できない（強い否定）。花の世話もできないあなたに、動物の世話など絶対にできない。",
+          "explanation_vi": "「〜っこない」 = Tuyệt đối không thể nào ~. Hoa mà mày còn chẳng biết chăm sóc thì chăm sóc làm sao được động vật."
+        },
+        {
+          "id": 16,
+          "blank_id": 3,
+          "options": [
+            "くれないか",
+            "あげてくれ",
+            "もらってほしい",
+            "もらってあげたい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てもらってほしい」＝〜してほしい（田中さんからの依頼）。田中さんが「もらってほしい（＝受け取って飼ってほしい）」と言ってきた。",
+          "explanation_vi": "「〜てもらってほしい」 = Muốn nhận được hành động ~ từ phía người khác. Cô Tanaka muốn nhờ gia đình tôi nhận nuôi (もらってほしい) một con."
+        },
+        {
+          "id": 17,
+          "blank_id": 4,
+          "options": [
+            "a とても／b そうな",
+            "a とても／b そうにない",
+            "a なんとか／b そうな",
+            "a なんとか／b そうにない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「とても〜ない」＝どんなにしても〜できない。「〜そうにない」＝〜する可能性が低い。「とても３匹全部は育てられそうにない（＝絶対に育てられない）」という意味。",
+          "explanation_vi": "「とても〜ない」 = Hoàn toàn không thể ~. 「〜そうにない」 = Có vẻ không thể ~. \"Cái phòng chật hẹp nhà tôi thì hoàn toàn không thể nào nuôi nổi cả 3 con đâu\"."
+        },
+        {
+          "id": 18,
+          "blank_id": 5,
+          "options": [
+            "a だけの／b しか",
+            "a だけの／b ほど",
+            "a なしの／b さえ",
+            "a なしの／b など"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜なしの〜など（考えられない）」＝「シロがいない生活なんて考えられない」という意味。シロのいない生活などありえない。",
+          "explanation_vi": "「〜なしの〜など（〜ない）」 = Không thể ~ khi không có ~. Câu này mang nghĩa: Người mẹ vốn phản đối dữ dội như thế, vậy mà bây giờ lại bảo \"Chẳng thể nào tưởng tượng nổi cuộc sống mà không có con Shiro (con chó)\"."
+        }
+      ]
+    }
+  ]
+}

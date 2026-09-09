@@ -1,0 +1,265 @@
+{
+  "lesson": 21,
+  "title": "第２１回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "あいさつ（　　）、さっそく乾杯しましょう。",
+          "options": [
+            "は抜きで",
+            "もなく",
+            "を問わず",
+            "にかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜抜きで／抜きにして」＝〜なしで、〜を除外して。あいさつはなしにして、すぐに乾杯しよう。",
+          "explanation_vi": "「〜抜きで／抜きにして」 = Bỏ qua ~, không cần ~ nữa. Thôi bỏ qua mấy lời chào hỏi đi, chúng ta mau cạn ly luôn thôi nào.",
+          "sentence_furigana": "あいさつ（　　）、さっそく乾杯(かんぱい)しましょう。",
+          "sentence_vi": "Thôi bỏ qua mấy lời chào hỏi đi, chúng ta cạn ly luôn thôi nào."
+        },
+        {
+          "id": 2,
+          "text": "計算（　　）可能ですが、実際にやってみないとわかりません。",
+          "options": [
+            "次第では",
+            "の上では",
+            "にとっては",
+            "にかけては"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜上（じょう）は／上では」＝〜の面では、〜の観点からは。計算の面では可能だが、実際はわからない。",
+          "explanation_vi": "「〜上（じょう）では」 = Xét trên phương diện ~, về mặt ~. Về mặt tính toán thì có thể đấy, nhưng nếu không bắt tay vào làm thực tế thì không biết được đâu.",
+          "sentence_furigana": "計算(けいさん)（　　）可能(かのう)ですが、実際(じっさい)にやってみないとわかりません。",
+          "sentence_vi": "Về mặt tính toán thì là khả thi đấy, nhưng chưa làm thực tế thì chưa biết được đâu."
+        },
+        {
+          "id": 3,
+          "text": "花粉症になると鼻水やせき（　　）、熱まで出る場合もある。",
+          "options": [
+            "からして",
+            "にわたり",
+            "ばかりか",
+            "もとより"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜ばかりか」＝〜だけでなく、さらに（程度が重いもの）。鼻水やせきだけでなく、熱まで出る。",
+          "explanation_vi": "「〜ばかりか」 = Không chỉ ~ mà còn (đi kèm với những thứ có mức độ cao hơn). Bị dị ứng phấn hoa thì không chỉ sổ mũi hay ho, mà có trường hợp còn bị sốt nữa.",
+          "sentence_furigana": "花粉(かふん)症(しょう)になると鼻水(はなみず)やせき（　　）、熱(ねつ)まで出る(でる)場合(ばあい)もある。",
+          "sentence_vi": "Khi bị dị ứng phấn hoa thì không chỉ bị sổ mũi hay ho, mà có trường hợp còn bị sốt nữa."
+        },
+        {
+          "id": 4,
+          "text": "欧米の人（　　）、日本の水田の風景はめずらしいのだろう。",
+          "options": [
+            "にしたら",
+            "によれば",
+            "につき",
+            "にかけては"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜にしたら／にすれば」＝〜の立場からすると。欧米の人の立場から見れば、めずらしいだろう。",
+          "explanation_vi": "「〜にしたら／にすれば」 = Đứng trên lập trường của ~ mà nói thì. Đứng trên góc nhìn của người Âu Mỹ mà nói, thì phong cảnh ruộng lúa nước của Nhật Bản chắc hẳn là rất mới lạ.",
+          "sentence_furigana": "欧米(おうべい)の人(ひと)（　　）、日本(にほん)の水田(すいでん)の風景(ふうけい)はめずらしいのだろう。",
+          "sentence_vi": "Đối với người Âu Mỹ mà nói, thì phong cảnh ruộng lúa nước của Nhật Bản chắc là hiếm lạ lắm."
+        },
+        {
+          "id": 5,
+          "text": "台風で飛行機が飛ばないのであれば、新幹線で帰る（　　）。",
+          "options": [
+            "ほかない",
+            "かいがない",
+            "にすぎない",
+            "にほかならない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ほか（は）ない／よりほか（は）ない」＝〜するしか方法がない。新幹線で帰るしか方法がない。",
+          "explanation_vi": "「〜ほか（は）ない」 = Không còn cách nào khác ngoài việc ~. Nếu máy bay không cất cánh được vì bão, thì chỉ còn cách đi Shinkansen về thôi.",
+          "sentence_furigana": "台風(たいふう)で飛行機(ひこうき)が飛ば(とば)ないのであれば、新幹線(しんかんせん)で帰る(かえる)（　　）。",
+          "sentence_vi": "Nếu máy bay không bay được do bão thì chỉ còn cách về bằng tàu Shinkansen thôi."
+        },
+        {
+          "id": 6,
+          "text": "新しい本社ビルは、場所も（　　）建物も立派だ。",
+          "options": [
+            "いいなら",
+            "いいなり",
+            "いいやら",
+            "よければ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜も〜ば、〜も〜」＝〜も〜し、さらに〜も〜だ（並列・追加）。場所もいいし、建物も立派だ。",
+          "explanation_vi": "「〜も〜ば〜も〜」 = A cũng... mà B cũng... Toà nhà trụ sở chính mới vừa có vị trí đẹp mà kiến trúc cũng rất hoành tráng.",
+          "sentence_furigana": "新しい(あたらしい)本社(ほんしゃ)ビル(びる)は、場所(ばしょ)も（　　）建物(たてもの)も立派(りっぱ)だ。",
+          "sentence_vi": "Toà nhà trụ sở chính mới có vị trí cũng đẹp mà toà nhà cũng hoành tráng."
+        },
+        {
+          "id": 7,
+          "text": "テスト前なのに、推理小説の続きが読みたくて（　　）。",
+          "options": [
+            "いられない",
+            "かまわない",
+            "しょうがない",
+            "ほかはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てしょうがない／てしかたがない」＝我慢できないくらい〜だ（感情・欲求の強調）。読みたくて我慢できない。",
+          "explanation_vi": "「〜てしょうがない」 = Rất ~, vô cùng ~ (đến mức không kiềm chế nổi). Dù sắp thi đến nơi rồi mà tôi cứ muốn đọc phần tiếp theo của cuốn tiểu thuyết trinh thám đến mức không chịu nổi.",
+          "sentence_furigana": "テスト(てすと)前(まえ)なのに、推理(すいり)小説(しょうせつ)の続き(つづき)が読み(よみ)たくて（　　）。",
+          "sentence_vi": "Sắp thi rồi mà tôi cứ muốn đọc tiếp cuốn tiểu thuyết trinh thám quá đi mất."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "途中でトラブルが起こったおかげで、この旅行は ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "ものに",
+            "かえって",
+            "なった",
+            "忘れがたい"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "途中でトラブルが起こったおかげで、この旅行は かえって 忘れがたい ものに なった 。",
+          "explanation": "正しい語順は「かえって(2) 忘れがたい(4) ものに(1) なった(3)」。★は3番目なので「ものに」。\n「かえって」＝予想に反して逆に。「忘れがたい」＝忘れるのが難しい（忘れられない）。",
+          "explanation_vi": "Thứ tự đúng là: かえって(2) 忘れがたい(4) ものに(1) なった(3). Vị trí ngôi sao là 1 (ものに).\n「かえって」 = Ai dè, ngược lại (chỉ kết quả trái với suy nghĩ thông thường). Nhờ gặp sự cố giữa đường mà chuyến du lịch này ngược lại đã trở thành một kỷ niệm khó quên.",
+          "sentence_furigana": "途中(とちゅう)でトラブル(とらぶる)が起こっ(おこっ)たおかげで、この旅行(りょこう)は かえって 忘れがたい(わすれがたい) ものに なっ(なっ)た 。",
+          "sentence_vi": "Nhờ có sự cố xảy ra giữa chừng mà chuyến đi này trái lại đã trở thành một kỷ niệm khó quên."
+        },
+        {
+          "id": 9,
+          "text": "その子猫は ＿＿＿ ＿＿＿ ★ ＿＿＿ 「ゆき」と名付けられた。",
+          "options": [
+            "ことから",
+            "全身が",
+            "だった",
+            "真っ白"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "その子猫は 全身が 真っ白 だった ことから 「ゆき」と名付けられた。",
+          "explanation": "正しい語順は「全身が(2) 真っ白(4) だった(3) ことから(1)」。★は3番目なので「だった」。\n「〜ことから」＝〜という事実・理由から（名前の由来や判断の根拠）。",
+          "explanation_vi": "Thứ tự đúng là: 全身が(2) 真っ白(4) だった(3) ことから(1). Vị trí ngôi sao là 3 (だった).\n「〜ことから」 = Bắt nguồn từ thực tế là ~, vì ~ (dùng để giải thích nguồn gốc, lý do). Vì con mèo con đó có toàn thân trắng toát nên đã được đặt tên là Yuki (Tuyết).",
+          "sentence_furigana": "その子猫(こねこ)は 全身(ぜんしん)が 真っ白(まっしろ) だった ことから 「ゆき」と名付け(なづけ)られた。",
+          "sentence_vi": "Chú mèo con đó có toàn thân trắng muốt nên đã được đặt tên là Yuki (Tuyết)."
+        },
+        {
+          "id": 10,
+          "text": "景気が ＿＿＿ ＿＿＿ ★ ＿＿＿ ているが、私にはそうは思えない。",
+          "options": [
+            "言われ",
+            "回復し",
+            "かのように",
+            "つつある"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "景気が 回復し つつある かのように 言われ ているが、私にはそうは思えない。",
+          "explanation": "正しい語順は「回復し(2) つつある(4) かのように(3) 言われ(1)」。★は3番目なので「かのように」。\n「〜つつある」＝〜という変化が進行中だ。「〜かのように」＝まるで〜みたいに。",
+          "explanation_vi": "Thứ tự đúng là: 回復し(2) つつある(4) かのように(3) 言われ(1). Vị trí ngôi sao là 3 (かのように).\nNgười ta nói cứ như thể là tình hình kinh tế đang dần phục hồi, nhưng tôi thì lại không nghĩ vậy.",
+          "sentence_furigana": "景気(けいき)が 回復(かいふく)し つつある かのように 言われ(いわれ) ているが、私(わたし)にはそうは思え(おもえ)ない。",
+          "sentence_vi": "Người ta cứ truyền tai nhau như thể kinh tế đang dần hồi phục, nhưng tôi thì chẳng thấy vậy."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　もし、子どもに「自動車はどうやって動いているの？」と聞かれたら、あなたはどのように答えますか。\n　かりに、あなたが自動車が動く仕組みを正確に知っていた【１】。あなたは、「それはね……」と自信を持って説明を始めるでしょう。ところが、子どもからは、「エンジンって何？」「シャフトって何？」と次々と質問が返ってきます。あなたは「あれ？変だな。どうしてうまく説明できないんだろう？」とあわてるかもしれません。そして自分の知識を子どもがわかるように説明することが、決して簡単ではないと気づくことに【２】。\n　実はこのように、どんなことでも、【3-a】言葉を使って説明するよりも【3-b】言葉で説明するほうが、はるかに【3-c】のです。\n　では、次に、あなたが自動車の仕組みを知らない場合のことを考えてください。その場合はどうするでしょうか。子どもの質問に答えられないのは大人として恥ずかしいからと、知っているふりをして適当に答えておきますか。\n　「知らない」ということは決して恥ずかしいことではありません。すべてのことを知っている【４】のですから。それよりも、知らないことを隠そうとするほうが、もっと恥ずかしいことだと言えます。\n　ですから、自分があまりよく知らないことについて子どもに質問されたら、「私もよくわからないから、一緒に調べてみよう」と【５】。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "のです",
+            "とします",
+            "わけです",
+            "ということです"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜とします／〜と仮定します」＝仮に〜だとします。「かりに（＝仮に）、〜知っていたとします」という仮定の話。",
+          "explanation_vi": "「〜とします」 = Giả sử là ~. Đi cùng với phó từ かりに. \"Giả sử là bạn nắm rất rõ về cơ chế hoạt động của ô tô đi chăng nữa.\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "なるでしょう",
+            "なりました",
+            "なっています",
+            "なったのです"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことになるでしょう」＝〜という結果になるだろう（推量）。「決して簡単ではないと気づく結果になるでしょう」という意味。",
+          "explanation_vi": "「〜ことになるでしょう」 = Có lẽ sẽ đi đến kết cục là ~. \"Và có lẽ rồi bạn sẽ nhận ra một điều rằng, việc dùng kiến thức của mình để giải thích cho một đứa trẻ hiểu không hề đơn giản chút nào.\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "a 易しい／b 易しい／c 難しい",
+            "a 易しい／b 難しい／c 難しい",
+            "a 難しい／b 易しい／c 易しい",
+            "a 難しい／b 易しい／c 難しい"
+          ],
+          "correct_answer": 4,
+          "explanation": "「難しい言葉を使って説明するよりも、易しい（簡単な）言葉で説明するほうが、はるかに難しい」という文脈。子どもにわかるように説明するのは難易度が高い。",
+          "explanation_vi": "Dịch nghĩa: \"Dùng những từ ngữ phức tạp để giải thích còn dễ hơn nhiều so với việc dùng những từ ngữ đơn giản để giải thích\". Vậy nên thứ tự đúng là a: Khó / b: Dễ / c: Khó."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "人ばかりな",
+            "人しかいない",
+            "人などいない",
+            "人こそすばらしい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜などいない」＝〜（のような存在）はいない。「すべてのことを知っている人などいない（＝誰でも知らないことはある）」だから、恥ずかしくない。",
+          "explanation_vi": "「〜などいない」 = Chẳng có ai (như thế). Việc không biết không có gì đáng xấu hổ, bởi vì \"làm gì có ai trên đời có thể biết tuốt được mọi thứ cơ chứ\"."
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "答えたらいいでしょうか",
+            "答えてもいいでしょうか",
+            "答えてはどうでしょうか",
+            "答えるのでしょうか"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てはどうでしょうか」＝〜してはいかがですか（提案や勧め）。わからない時は「一緒に調べよう」と答えることを勧めている。",
+          "explanation_vi": "「〜てはどうでしょうか」 = Thử ~ xem sao, nên ~ thì sao (lời đề nghị, khuyên nhủ). \"Vì vậy, nếu bị trẻ em hỏi mà bạn không biết rõ, thì bạn hãy thử trả lời là 'Mẹ cũng không biết, hai mẹ con mình cùng thử tìm hiểu xem sao nhé' xem sao\"."
+        }
+      ]
+    }
+  ]
+}

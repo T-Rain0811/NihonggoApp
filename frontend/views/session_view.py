@@ -82,3 +82,103 @@ class SessionWidget(QWidget):
                 card.show()
             else:
                 card.hide()
+
+
+class VocabOnlyWidget(QWidget):
+    """Chỉ hiển thị thẻ từ vựng (không có tab, không có ngữ pháp)."""
+    def __init__(self, vocab_data, parent=None):
+        super().__init__(parent)
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(12, 12, 12, 12)
+        layout.setSpacing(8)
+
+        self.search_bar = QLineEdit()
+        self.search_bar.setPlaceholderText("🔍 Tìm kiếm từ vựng ...")
+        self.search_bar.setStyleSheet("""
+            QLineEdit {
+                padding: 10px 15px;
+                border: 1px solid #D1D5DB;
+                border-radius: 8px;
+                font-size: 14px;
+                background-color: white;
+            }
+            QLineEdit:focus { border: 1px solid #4F46E5; }
+        """)
+        self.search_bar.textChanged.connect(self._filter_vocab)
+        layout.addWidget(self.search_bar)
+
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        content = QWidget()
+        inner = QVBoxLayout(content)
+        inner.setSpacing(6)
+
+        self.vocab_cards = []
+        for item in vocab_data:
+            from frontend.components.cards import VocabCard
+            card = VocabCard(item)
+            card.clicked.connect(self._open_mazii)
+            inner.addWidget(card)
+            self.vocab_cards.append((card, item))
+
+        inner.addStretch()
+        scroll.setWidget(content)
+        layout.addWidget(scroll)
+
+    def _open_mazii(self, word: str):
+        dialog = MaziiWebDialog(word, parent=self)
+        dialog.setAttribute(Qt.WidgetAttribute.WA_DeleteOnClose)
+        dialog.exec()
+
+    def _filter_vocab(self, text):
+        query = text.lower()
+        for card, item in self.vocab_cards:
+            searchable = f"{item.get('word','')} {item.get('reading','')} {item.get('meaning','')} {item.get('kanji_meaning','')}".lower()
+            card.setVisible(query in searchable)
+
+    def reload(self, vocab_data):
+        """Tải lại nội dung từ vựng mới."""
+        # Xóa cards cũ
+        for card, _ in self.vocab_cards:
+            card.setParent(None)
+            card.deleteLater()
+        self.vocab_cards = []
+        # Tìm inner layout
+        scroll = self.findChild(QScrollArea)
+        if scroll:
+            content = scroll.widget()
+            inner = content.layout()
+            # Xóa stretch
+            while inner.count():
+                item = inner.takeAt(0)
+                w = item.widget()
+                if w:
+                    w.setParent(None)
+            from frontend.components.cards import VocabCard
+            for item in vocab_data:
+                card = VocabCard(item)
+                card.clicked.connect(self._open_mazii)
+                inner.addWidget(card)
+                self.vocab_cards.append((card, item))
+            inner.addStretch()
+
+
+class GrammarOnlyWidget(QWidget):
+    """Chỉ hiển thị thẻ ngữ pháp (không có tab, không có từ vựng)."""
+    def __init__(self, grammar_data, parent=None):
+        super().__init__(parent)
+        layout = QVBoxLayout(self)
+        layout.setContentsMargins(12, 12, 12, 12)
+
+        scroll = QScrollArea()
+        scroll.setWidgetResizable(True)
+        content = QWidget()
+        inner = QVBoxLayout(content)
+        inner.setSpacing(6)
+
+        from frontend.components.cards import GrammarCard
+        for item in grammar_data:
+            inner.addWidget(GrammarCard(item))
+        inner.addStretch()
+        scroll.setWidget(content)
+        layout.addWidget(scroll)

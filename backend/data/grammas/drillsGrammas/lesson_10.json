@@ -1,0 +1,307 @@
+{
+  "lesson": 10,
+  "title": "第１０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "引っ越しの日は、雨が降る（　　）道が混む（　　）で大変だった。",
+          "options": [
+            "やら／やら",
+            "につけ／につけ",
+            "にせよ／にせよ",
+            "にしても／にしても"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜やら〜やら」＝〜や〜など（いろいろあって整理できない様子・主に大変な時）。雨が降ったり道が混んだりして大変だった。",
+          "explanation_vi": "「〜やら〜やら」 = Nào là... nào là... (liệt kê những việc rắc rối, lộn xộn). Ngày chuyển nhà thật là vất vả vì nào là trời mưa, nào là tắc đường.",
+          "sentence_furigana": "引っ越し(ひっこし)の日(ひ)は、雨(あめ)が降る(ふる)（　　）道(みち)が混む(こむ)（　　）で大変(たいへん)だった。",
+          "sentence_vi": "Ngày chuyển nhà thật là vất vả, nào là trời thì mưa, nào là đường thì tắc."
+        },
+        {
+          "id": 2,
+          "text": "商店街の再開発（　　）意見が対立している。",
+          "options": [
+            "に応じて",
+            "にこたえて",
+            "に反して",
+            "をめぐって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜をめぐって」＝〜に関して（議論や争いの中心となる話題）。再開発という問題をめぐって意見が対立している。",
+          "explanation_vi": "「〜をめぐって」 = Xoay quanh vấn đề ~, liên quan đến ~. Có sự đối lập ý kiến xoay quanh vấn đề quy hoạch lại khu phố thương mại.",
+          "sentence_furigana": "商店(しょうてん)街(がい)の再(さい)開発(かいはつ)（　　）意見(いけん)が対立(たいりつ)している。",
+          "sentence_vi": "Đang có sự đối lập ý kiến xoay quanh vấn đề quy hoạch lại khu phố mua sắm."
+        },
+        {
+          "id": 3,
+          "text": "電車の中で昔の友達に会い、感激の（　　）大声を出してしまった。",
+          "options": [
+            "あまり",
+            "ばかり",
+            "最中に",
+            "ほどに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜のあまり」＝〜すぎる結果（感情の極端な状態）。感激しすぎた結果、大声を出した。",
+          "explanation_vi": "「〜のあまり」 = Vì quá ~ nên dẫn đến kết quả (thường dùng với cảm xúc). Gặp lại người bạn cũ trên tàu điện, vì quá xúc động nên tôi đã vô tình hét lớn lên.",
+          "sentence_furigana": "電車(でんしゃ)の中(なか)で昔(むかし)の友達(ともだち)に会い(あい)、感激(かんげき)の（　　）大声(おおごえ)を出して(だして)しまった。",
+          "sentence_vi": "Gặp lại người bạn cũ trên tàu điện, vì quá xúc động nên tôi đã lỡ kêu lớn tiếng."
+        },
+        {
+          "id": 4,
+          "text": "悪天候（　　）大勢の客がパンダを見ようと来園した。",
+          "options": [
+            "に反して",
+            "を問わず",
+            "のみならず",
+            "にもかかわらず"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜にもかかわらず」＝〜なのに（逆接）。悪天候なのに大勢の客が来た。",
+          "explanation_vi": "「〜にもかかわらず」 = Mặc dù... nhưng (thể hiện sự đối lập). Mặc dù thời tiết xấu nhưng vẫn có rất đông khách đến công viên để xem gấu trúc.",
+          "sentence_furigana": "悪天候(あくてんこう)（　　）大勢(おおぜい)の客(きゃく)がパンダ(ぱんだ)を見よう(みよう)と来園(らいえん)した。",
+          "sentence_vi": "Mặc cho thời tiết xấu, rất đông khách tham quan vẫn đổ về công viên để xem gấu trúc."
+        },
+        {
+          "id": 5,
+          "text": "先ほどの説明（　　）質問がある方は、手を挙げてください。",
+          "options": [
+            "において",
+            "に対して",
+            "にあたって",
+            "にわたって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜に対して」＝〜に向かって、〜について。先ほど行われた説明について質問がある人。",
+          "explanation_vi": "「〜に対して」 = Đối với ~, về vấn đề ~. Những ai có câu hỏi đối với phần giải thích vừa rồi, xin vui lòng giơ tay.",
+          "sentence_furigana": "先ほど(さきほど)の説明(せつめい)（　　）質問(しつもん)がある方(かた)は、手(て)を挙げ(あげ)てください。",
+          "sentence_vi": "Quý vị nào có câu hỏi về phần giải thích vừa rồi, xin vui lòng giơ tay."
+        },
+        {
+          "id": 6,
+          "text": "この近くには、コンビニ（　　）自動販売機さえもない。",
+          "options": [
+            "にしろ",
+            "よりほか",
+            "というより",
+            "はもとより"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜はもとより」＝〜はもちろん。コンビニがないのはもちろんのこと、自動販売機さえない。",
+          "explanation_vi": "「〜はもとより」 = ~ thì đã đành, ~ thì là tất nhiên rồi (nhưng ngay cả...). Ở gần đây, cửa hàng tiện lợi thì đã đành không có rồi, mà ngay cả máy bán hàng tự động cũng chẳng có nốt.",
+          "sentence_furigana": "この近く(ちかく)には、コンビニ(こんびに)（　　）自動(じどう)販売機(はんばいき)さえもない。",
+          "sentence_vi": "Ở gần đây cửa hàng tiện lợi đã đành không có, mà ngay cả đến máy bán hàng tự động cũng không có nốt."
+        },
+        {
+          "id": 7,
+          "text": "いくつも賞をとった（　　）、ストーリーも映像もすばらしい映画だった。",
+          "options": [
+            "ばかりか",
+            "ばかりに",
+            "からして",
+            "だけあって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜だけあって」＝〜だから、当然〜だ（高い評価）。賞をいくつもとっただけのことはあり、当然すばらしい。",
+          "explanation_vi": "「〜だけあって」 = Quả đúng là ~ có khác (phù hợp với sự đánh giá cao). Quả đúng là bộ phim đã giành được bao nhiêu giải thưởng có khác, cả cốt truyện lẫn hình ảnh đều rất tuyệt vời.",
+          "sentence_furigana": "いくつも賞(しょう)をとった（　　）、ストーリー(すとーりー)も映像(えいぞう)もすばらしい映画(えいが)だった。",
+          "sentence_vi": "Quả đúng là bộ phim đã giành được nhiều giải thưởng, từ cốt truyện cho đến hình ảnh đều vô cùng xuất sắc."
+        },
+        {
+          "id": 8,
+          "text": "人間が200歳まで生きるなんて（　　）よ。",
+          "options": [
+            "ありえない",
+            "ありがたい",
+            "ありかねる",
+            "ありようがない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜（得）えない」＝〜する可能性が全くない。200歳まで生きる可能性はゼロだ。",
+          "explanation_vi": "「〜えない」 = Không thể nào ~, không có khả năng ~. Chuyện con người sống đến 200 tuổi là điều không thể nào xảy ra đâu.",
+          "sentence_furigana": "人間(にんげん)が200歳(さい)まで生きる(いきる)なんて（　　）よ。",
+          "sentence_vi": "Chuyện con người có thể sống đến 200 tuổi là điều không thể nào xảy ra đâu."
+        },
+        {
+          "id": 9,
+          "text": "このセーターは、千円（　　）品質がとてもいい。",
+          "options": [
+            "としては",
+            "にしては",
+            "にかけては",
+            "については"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜にしては」＝〜という事実から当然予想される基準とは違って（驚き）。千円という安い値段から予想されるのと違って品質がいい。",
+          "explanation_vi": "「〜にしては」 = Vậy mà ~ (trái với dự đoán dựa trên tiêu chuẩn thông thường). Cái áo len này giá có một nghìn yên, vậy mà chất lượng lại rất tốt.",
+          "sentence_furigana": "このセーター(せーたー)は、千円(せんえん)（　　）品質(ひんしつ)がとてもいい。",
+          "sentence_vi": "Cái áo len này có giá 1000 yên vậy mà chất lượng rất tốt."
+        },
+        {
+          "id": 10,
+          "text": "子どもたちは服が汚れる（　　）夢中で遊んでいる。",
+          "options": [
+            "ついでに",
+            "どころか",
+            "のはおろか",
+            "のもかまわず"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜のもかまわず」＝〜を気にしないで。服が汚れることも気にせず遊んでいる。",
+          "explanation_vi": "「〜のもかまわず」 = Bất chấp ~, không thèm bận tâm đến ~. Lũ trẻ đang mải mê chơi đùa mà chẳng thèm bận tâm đến việc quần áo sẽ bị lấm bẩn.",
+          "sentence_furigana": "子ども(こども)たちは服(ふく)が汚れる(よごれる)（　　）夢中(むちゅう)で遊ん(あそん)でいる。",
+          "sentence_vi": "Lũ trẻ đang mải miết chơi đùa bất chấp cả việc quần áo bị lấm bẩn."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "鈴木さんのピアノの演奏は ＿＿＿ ＿＿＿ ★ ＿＿＿ のようですよ。",
+          "options": [
+            "下手",
+            "まるで",
+            "プロ",
+            "どころか"
+          ],
+          "correct_order": [
+            1,
+            4,
+            2,
+            3
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "鈴木さんのピアノの演奏は 下手 どころか まるで プロ のようですよ。",
+          "explanation": "正しい語順は「下手(1) どころか(4) まるで(2) プロ(3)」。★は3番目なので「まるで」。",
+          "explanation_vi": "Thứ tự đúng là: 下手(1) どころか(4) まるで(2) プロ(3). Vị trí ngôi sao là 2 (まるで). Kỹ năng chơi piano của anh Suzuki chẳng những không tệ mà còn giỏi hệt như dân chuyên nghiệp vậy.",
+          "sentence_furigana": "鈴木(すずき)さんのピアノ(ぴあの)の演奏(えんそう)は 下手(へた) どころか まるで プロ(ぷろ) のようですよ。",
+          "sentence_vi": "Kỹ năng đánh piano của anh Suzuki chẳng hề kém chút nào, ngược lại nghe cứ y như dân chuyên nghiệp vậy."
+        },
+        {
+          "id": 12,
+          "text": "今から家を出た ＿＿＿ ＿＿＿ ★ ＿＿＿ ない。",
+          "options": [
+            "とても",
+            "のでは",
+            "そうに",
+            "間に合い"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "今から家を出た のでは とても 間に合い そうに ない。",
+          "explanation": "正しい語順は「のでは(2) とても(1) 間に合い(4) そうに(3)」。★は3番目なので「間に合い」。",
+          "explanation_vi": "Thứ tự đúng là: のでは(2) とても(1) 間に合い(4) そうに(3). Vị trí ngôi sao là 4 (間に合い). Nếu bây giờ mới bắt đầu ra khỏi nhà thì chắc chắn là không thể nào kịp được đâu.",
+          "sentence_furigana": "今(いま)から家(いえ)を出(で)た のでは とても 間に合い(まにあい) そうに ない。",
+          "sentence_vi": "Giờ này mới ra khỏi nhà thì chắc chắn không thể nào kịp được rồi."
+        },
+        {
+          "id": 13,
+          "text": "彼は親に心配をかけたくない ＿＿＿ ＿＿＿ ★ ＿＿＿ ふりをしていた。",
+          "options": [
+            "さびしい",
+            "のに",
+            "平気な",
+            "ばかりに"
+          ],
+          "correct_order": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "彼は親に心配をかけたくない ばかりに さびしい のに 平気な ふりをしていた。",
+          "explanation": "正しい語順は「ばかりに(4) さびしい(1) のに(2) 平気な(3)」。★は3番目なので「のに」。",
+          "explanation_vi": "Thứ tự đúng là: ばかりに(4) さびしい(1) のに(2) 平気な(3). Vị trí ngôi sao là 2 (のに). Chỉ vì không muốn để bố mẹ phải lo lắng, mà dù rất cô đơn cậu ấy vẫn cố tỏ ra là mình ổn.",
+          "sentence_furigana": "彼(かれ)は親(おや)に心配(しんぱい)をかけたくない ばかりに さびしい のに 平気(へいき)な ふりをしていた。",
+          "sentence_vi": "Chỉ vì không muốn làm cho bố mẹ lo lắng, mà dù trong lòng cô đơn anh ấy vẫn làm ra vẻ không sao cả."
+        },
+        {
+          "id": 14,
+          "text": "あの自分勝手な彼が ＿＿＿ ＿＿＿ ★ ＿＿＿ ですよ。",
+          "options": [
+            "なんか",
+            "っこない",
+            "手伝い",
+            "他人の仕事"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "あの自分勝手な彼が 他人の仕事 なんか 手伝い っこない ですよ。",
+          "explanation": "正しい語順は「他人の仕事(4) なんか(1) 手伝い(3) っこない(2)」。★は3番目なので「手伝い」。",
+          "explanation_vi": "Thứ tự đúng là: 他人の仕事(4) なんか(1) 手伝い(3) っこない(2). Vị trí ngôi sao là 3 (手伝い). Cái người ích kỷ như hắn ta thì tuyệt đối không có chuyện đi giúp đỡ công việc của người khác đâu.",
+          "sentence_furigana": "あの自分勝手(じぶんかって)な彼(かれ)が 他人(たにん)の仕事(しごと) なんか 手伝い(てつだい) っこない ですよ。",
+          "sentence_vi": "Cái người ích kỷ như anh ta thì làm gì có chuyện đi giúp đỡ công việc của người khác cơ chứ."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　あなたは、いま判断できるレベルよりも、ずっとたくさんの情報を得ています。その結果、逆に行動しなくなっています。情報から結果を予測してしまうからです。（中略）\n　やってみないのに「やっても無理だよ」と答え、【１】のです。（中略）声を出したり、他人に声をかけることも、同じように思っているのではないかと心配になります。\n　「あなたは、この二日間、何も食べていません。お金ももっていません。【２】、どうすればいいでしょうか」。あなたにこのように尋ねたらどうしますか。「ネットで検索して調べます」と答えるかもしれません。しかし、何十時間ネットで調べても、おなかはふくれないでしょう。メールで食べものを送ってもらいますか？\n　そんなものは投げだし、すぐに外に出て、通りがかりの人に片っぱしから事情を話してみたらどうでしょう。たぶん一時間以内に、あなたは一食分、食べられているでしょう。【3-a】声をかけたからです。【3-b】、あなたのすべきことなのです。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "動きかねる",
+            "動きがたい",
+            "動くことはない",
+            "動こうとしない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ようとしない」＝〜する意志が全くない。「行動しなくなっている」という前の文から、自ら「動こうとしない」が適切。",
+          "explanation_vi": "「〜ようとしない」 = Không hề có ý định ~. Từ câu trước là \"không còn hành động nữa\", có thể suy ra ở đây là tự bản thân \"không hề có ý định nhúc nhích/hành động\"."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "さて",
+            "一方",
+            "つまり",
+            "おまけに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「さて」は話題を転換したり、新たな質問を投げかけたりするときに使う接続詞。ここで具体的な仮定の質問を投げかけている。",
+          "explanation_vi": "「さて」 (Nào, vậy thì) là liên từ dùng để chuyển chủ đề hoặc đưa ra một câu hỏi mới. Ở đây tác giả dùng để chuyển sang một câu hỏi tình huống giả định."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "aそれが／bそれは",
+            "aそれは／bそれが",
+            "aそれに／bそれで",
+            "aそれで／bそれに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「a それ（＝一食分食べられたこと）は声をかけたからです」。「b それ（＝声をかけること）が、あなたのすべきことなのです」。",
+          "explanation_vi": "a それは... (Điều đó có được là do...). b それが... (Đó chính là...). Điều đó (việc bạn có đồ ăn) là do bạn đã cất tiếng nhờ vả. Và đó chính là việc mà bạn nên làm."
+        }
+      ]
+    }
+  ]
+}

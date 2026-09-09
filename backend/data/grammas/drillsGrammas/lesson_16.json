@@ -1,0 +1,265 @@
+{
+  "lesson": 16,
+  "title": "第１６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "胃の検査の（　　）他も調べてもらった。",
+          "options": [
+            "ついでに",
+            "かわりに",
+            "わりに",
+            "きっかけに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ついでに」＝ある事をする機会を利用して他の事もする。胃の検査をする機会に、他も調べてもらった。",
+          "explanation_vi": "「〜ついでに」 = Nhân tiện ~, tiện thể ~. Nhân tiện đi nội soi dạ dày, tôi đã nhờ khám luôn mấy chỗ khác.",
+          "sentence_furigana": "胃(い)の検査(けんさ)の（　　）他(ほか)も調べ(しらべ)てもらった。",
+          "sentence_vi": "Nhân tiện đi kiểm tra dạ dày thì tôi đã khám luôn những chỗ khác."
+        },
+        {
+          "id": 2,
+          "text": "今日もまた電池を買い忘れちゃった。明日（　　）買わなきゃ。",
+          "options": [
+            "限り",
+            "きり",
+            "こそ",
+            "しか"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜こそ」＝（他の時ではなく）まさに〜（強調）。今日こそダメだったが、明日こそは絶対に買うぞ、という決意。",
+          "explanation_vi": "「〜こそ」 = Nhất định là ~ (nhấn mạnh). Hôm nay lại quên mua pin mất rồi. Ngày mai nhất định phải mua mới được.",
+          "sentence_furigana": "今日(きょう)もまた電池(でんち)を買い忘れ(かいわすれ)ちゃった。明日(あした)（　　）買わなきゃ。",
+          "sentence_vi": "Hôm nay tôi lại quên mua pin mất rồi. Ngày mai nhất định phải nhớ mua mới được."
+        },
+        {
+          "id": 3,
+          "text": "携帯電話の料金はもう少し安く（　　）。",
+          "options": [
+            "なりようがないか",
+            "なるものだろうか",
+            "なろうではないか",
+            "ならないものだろうか"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ないもの（だろう）か」＝（実現は難しいが）何とか〜なってほしい（強い願望）。安くならないかなあ、という強い願い。",
+          "explanation_vi": "「〜ないもの（だろう）か」 = Không thể ~ được hay sao, liệu có thể ~ không nhỉ (thể hiện nguyện vọng mạnh mẽ về một việc gì đó khó xảy ra). Cước điện thoại không thể rẻ hơn chút nữa được hay sao.",
+          "sentence_furigana": "携帯(けいたい)電話(でんわ)の料金(りょうきん)はもう少し(もうすこし)安く(やすく)（　　）。",
+          "sentence_vi": "Cước phí điện thoại liệu có thể rẻ hơn chút nữa không nhỉ."
+        },
+        {
+          "id": 4,
+          "text": "診察を受ける際は、保険証を忘れる（　　）ようにご注意ください。",
+          "options": [
+            "ことのない",
+            "はずがない",
+            "わけがない",
+            "おそれがない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことのないように」＝〜しないように（注意や指示）。忘れることがないように注意してください。",
+          "explanation_vi": "「〜ことのないように」 = Để không bị ~, hãy chú ý đừng ~. Khi đi khám bệnh xin hãy chú ý đừng để quên thẻ bảo hiểm y tế.",
+          "sentence_furigana": "診察(しんさつ)を受ける(うける)際(さい)は、保険証(ほけんしょう)を忘れる(わすれる)（　　）ようにご注意(ちゅうい)ください。",
+          "sentence_vi": "Khi đi khám bệnh, xin quý vị hãy lưu ý để không quên thẻ bảo hiểm y tế."
+        },
+        {
+          "id": 5,
+          "text": "彼女に（　　）、教えてもらえるかどうかはわからないよ。",
+          "options": [
+            "聞くことは聞くけれど",
+            "聞くにしろ聞かないにしろ",
+            "聞くことさえできないが",
+            "聞くにつけ聞かないにつけ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことは〜が」＝一応〜するが、しかし（期待する結果とは限らない）。聞くことは一応聞くけれど、教えてもらえるかは不明だ。",
+          "explanation_vi": "「〜ことは〜が／けれど」 = Tuy có ~ thật đấy nhưng mà. Hỏi thì tôi cũng sẽ hỏi đấy, nhưng việc cô ấy có chỉ cho hay không thì tôi không biết đâu nhé.",
+          "sentence_furigana": "彼女(かのじょ)に（　　）、教え(おしえ)てもらえるかどうかはわからないよ。",
+          "sentence_vi": "Hỏi thì hỏi thôi chứ cô ấy có chỉ cho hay không thì tôi chịu đấy."
+        },
+        {
+          "id": 6,
+          "text": "このドキュメンタリーは（　　）事実を伝える貴重なものである。",
+          "options": [
+            "知らず",
+            "知るまい",
+            "知られざる",
+            "知られかねる"
+          ],
+          "correct_answer": 3,
+          "explanation": "「知られざる」＝（世間に）知られていない。一般に知られていない事実を伝える貴重な作品。「〜ざる＋名詞」の形。",
+          "explanation_vi": "「〜ざる」 = Không ~ (hình thức cổ của ない, dùng để bổ nghĩa cho danh từ). 知られざる事実 = sự thật chưa được ai biết đến. Bộ phim tài liệu này là một thước phim quý giá truyền tải những sự thật chưa từng được công bố.",
+          "sentence_furigana": "このドキュメンタリー(どきゅめんたりー)は（　　）事実(じじつ)を伝える(つたえる)貴重(きちょう)なものである。",
+          "sentence_vi": "Bộ phim tài liệu này là một thước phim quý giá truyền tải những sự thật vốn chưa từng được ai biết đến."
+        },
+        {
+          "id": 7,
+          "text": "このマンガは暴力的な場面が多く、教育（　　）問題がある。",
+          "options": [
+            "上",
+            "以上",
+            "次第",
+            "反面"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜上（じょう）」＝〜の観点から、〜の面で。教育の観点から見て問題がある。",
+          "explanation_vi": "「〜上（じょう）」 = Xét trên phương diện ~, về mặt ~. Cuốn manga này có nhiều cảnh bạo lực nên xét trên phương diện giáo dục là có vấn đề.",
+          "sentence_furigana": "このマンガ(まんが)は暴力的(ぼうりょくてき)な場面(ばめん)が多く(おおく)、教育(きょういく)（　　）問題(もんだい)がある。",
+          "sentence_vi": "Bộ manga này có nhiều cảnh bạo lực nên nó có vấn đề nếu xét trên phương diện giáo dục."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "そんなずるいこと ＿＿＿ ＿＿＿ ★ ＿＿＿ 思わない。",
+          "options": [
+            "とは",
+            "まで",
+            "勝ちたい",
+            "をして"
+          ],
+          "correct_order": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "そんなずるいこと をして まで とは 勝ちたい 思わない。",
+          "explanation": "正しい語順は「をして(4) まで(2) 勝ちたい(3) とは(1)」。★は3番目なので「勝ちたい」。\n「〜してまで」＝そこまで極端なことをして。",
+          "explanation_vi": "Thứ tự đúng là: をして(4) まで(2) 勝ちたい(3) とは(1). Vị trí ngôi sao là 3 (勝ちたい).\n「〜してまで」 = Đến mức làm cả những việc ~. Tôi không thiết tha chuyện thắng lợi đến mức phải giở những thủ đoạn hèn hạ như vậy đâu.",
+          "sentence_furigana": "そんなずるいこと をして まで 勝ちたい とは 思わ(おもわ)ない。",
+          "sentence_vi": "Tôi không hề muốn chiến thắng đến mức phải làm ra những trò gian xảo như thế."
+        },
+        {
+          "id": 12,
+          "text": "よく考えた ＿＿＿ ＿＿＿ ★ ＿＿＿ そんなに簡単に返事をしないほうがいい。",
+          "options": [
+            "なら",
+            "ともかく",
+            "上で",
+            "決めるの"
+          ],
+          "correct_order": [
+            3,
+            4,
+            1,
+            2
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "よく考えた 上で 決めるの なら ともかく そんなに簡単に返事をしないほうがいい。",
+          "explanation": "正しい語順は「上で(3) 決めるの(4) なら(1) ともかく(2)」。★は3番目なので「なら」。\n「〜ならともかく」＝〜ならまだしも（今はそうではない）。",
+          "explanation_vi": "Thứ tự đúng là: 上で(3) 決めるの(4) なら(1) ともかく(2). Vị trí ngôi sao là 1 (なら).\n「〜ならともかく」 = Nếu là ~ thì còn tạm được (chứ đằng này...). Nếu là quyết định sau khi đã suy nghĩ kỹ lưỡng thì không nói làm gì, đằng này cậu không nên trả lời một cách dễ dãi như vậy.",
+          "sentence_furigana": "よく考え(かんがえ)た 上(うえ)で 決める(きめる)の なら ともかく そんなに簡単(かんたん)に返事(へんじ)をしないほうがいい。",
+          "sentence_vi": "Nếu cậu đã suy nghĩ kỹ rồi mới đưa ra quyết định thì không nói làm gì, chứ không thì đừng có dễ dàng đồng ý như vậy."
+        },
+        {
+          "id": 13,
+          "text": "最新のモデル ＿＿＿ ＿＿＿ ★ ＿＿＿ 今までの携帯とは比べものにならない。",
+          "options": [
+            "大きさ",
+            "して",
+            "だけに",
+            "から"
+          ],
+          "correct_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "最新のモデル だけに 大きさ から して 今までの携帯とは比べものにならない。",
+          "explanation": "正しい語順は「だけに(3) 大きさ(1) から(4) して(2)」。★は3番目なので「から」。\n「〜だけに」＝〜だからこそ、それにふさわしく。「〜からして」＝〜（という一例）をみても。",
+          "explanation_vi": "Thứ tự đúng là: だけに(3) 大きさ(1) から(4) して(2). Vị trí ngôi sao là 4 (から).\n「〜だけに」 = Quả đúng là ~. 「〜からして」 = Ngay từ ~ (đưa ra một ví dụ nhỏ nhất cũng đã thấy). Quả đúng là mẫu điện thoại mới nhất có khác, chỉ nguyên kích thước thôi cũng đã không thể đem ra so sánh với mấy cái điện thoại từ trước tới giờ được rồi.",
+          "sentence_furigana": "最新(さいしん)のモデル(もでる) だけに 大きさ(おおきさ) から して 今(いま)までの携帯(けいたい)とは比べもの(くらべもの)にならない。",
+          "sentence_vi": "Quả đúng là dòng máy đời mới nhất, chỉ xét từ kích cỡ thôi đã thấy không thể đem ra so sánh với mấy dòng điện thoại từ trước tới giờ được rồi."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　今年も桜の季節がやってきた。\n　桜といえば、花見だ。花見は7世紀頃、貴族によって始められたと言われている。はじめは野山の桜を見に出かけていたが、そのうち、庭に桜を植えて花を見ながら食事や酒を楽しむようになったそうだ。その後、この花見の習慣は多くの人に広がり、江戸時代には、身分の上下【１】、みんなが花見を楽しむようになった。\n　桜は、いつ咲くかわからないうえ、待っているとなかなか咲いて【２】。ところが、咲き始めると、あたり一面が桜の色に見えるほどみごとに咲く。しかし、花は長い間咲いている【３】。10日ほどで、あっという間に散ってしまう。\n　花の美しさ【４】、そんな桜の「生き方」も、日本人が桜を好む理由だろう。絵をはじめ、和歌や俳句など文学においても桜はくり返し現れる。\n　実は、桜と日本人のつきあいは古い。研究に【5-a】二千年以上前から人々は桜の咲き方に【5-b】米がどのくらいできるかを占っていたらしい。\n　昔から日本人にとって、桜は特別な存在であったようだ。",
+      "questions": [
+        {
+          "id": 14,
+          "blank_id": 1,
+          "options": [
+            "ばかりか",
+            "とともに",
+            "にともなって",
+            "にかかわらず"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜にかかわらず」＝〜に関係なく。身分の上下に関係なく、誰もが花見を楽しんだ。",
+          "explanation_vi": "「〜にかかわらず」 = Bất kể, không phân biệt ~. Ở thời Edo, bất kể là tầng lớp trên hay dưới thì tất cả mọi người đều đã bắt đầu có thú vui thưởng hoa ngắm cảnh."
+        },
+        {
+          "id": 15,
+          "blank_id": 2,
+          "options": [
+            "くれない",
+            "こない",
+            "いかない",
+            "あげない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜てくれない」＝〜してくれない（相手への不満）。待っていると、なかなか（自分たちのために）咲いてくれない。",
+          "explanation_vi": "「なかなか〜てくれない」 = Mãi mà chẳng chịu ~ cho mình. Lúc mình mong ngóng thì hoa mãi mà chẳng chịu nở."
+        },
+        {
+          "id": 16,
+          "blank_id": 3,
+          "options": [
+            "ものだ",
+            "ことか",
+            "わけではない",
+            "はずがない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜わけではない」＝〜というわけではない（部分否定）。花は長い間ずっと咲いているというわけではない。10日ほどで散る。",
+          "explanation_vi": "「〜わけではない」 = Không hẳn là, không phải là ~. Tuy nhiên, hoa không phải là thứ có thể nở được trong một thời gian dài. Tầm khoảng 10 ngày là hoa rụng tơi bời ngay."
+        },
+        {
+          "id": 17,
+          "blank_id": 4,
+          "options": [
+            "抜きで",
+            "どころか",
+            "はもちろん",
+            "よりずっと"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜はもちろん」＝〜は言うまでもなく、当然として。花の美しさは当然のこととして、桜の散り際の潔さ（生き方）も好まれる。",
+          "explanation_vi": "「〜はもちろん（〜も）」 = A là đương nhiên rồi, nhưng mà cả B cũng. Vẻ đẹp của hoa anh đào thì khỏi phải bàn rồi, nhưng ngoài ra thì chính cái \"cách sống\" (sự phù du, sớm nở tối tàn) của nó cũng là một lý do khiến người Nhật yêu thích loài hoa này."
+        },
+        {
+          "id": 18,
+          "blank_id": 5,
+          "options": [
+            "a によって／b によると",
+            "a によると／b によって",
+            "a によって／b によれば",
+            "a によると／b によらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "5-a：「〜によると」＝〜という情報源から判断すると。研究によると（伝聞の根拠）。\n5-b：「〜によって」＝〜を手段・根拠として。桜の咲き方を手段・基準として占っていた。",
+          "explanation_vi": "5-a: 「〜によると」 = Theo như ~ (nguồn thông tin). \"Theo như các nghiên cứu...\"\n5-b: 「〜によって」 = Bằng cách, dựa vào ~. \"Dựa vào cách hoa nở để bói xem năm nay thu hoạch được bao nhiêu lúa gạo\"."
+        }
+      ]
+    }
+  ]
+}

@@ -1,10 +1,13 @@
-/* styles.qss */
+/* ══════════════════════════════════════════════════════════════
+   styles.qss  –  JLPT N2 Mastery
+   ══════════════════════════════════════════════════════════════ */
+
 QMainWindow {
-    background-color: #F3F4F6;
-    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #F8FAFC;
+    font-family: "Segoe UI", "Yu Gothic UI", Arial, sans-serif;
 }
 
-/* Sidebar */
+/* ─── Sidebar (Grammar Hub) ───────────────────────────────────── */
 #Sidebar {
     background-color: #FFFFFF;
     border-right: 1px solid #E5E7EB;
@@ -15,49 +18,33 @@ QListWidget {
     border: none;
     outline: none;
 }
-
 QListWidget::item {
-    padding: 15px;
-    margin: 5px 10px;
-    border-radius: 10px;
+    padding: 12px 14px;
+    margin: 3px 8px;
+    border-radius: 8px;
     color: #4B5563;
     font-size: 14px;
     font-weight: bold;
 }
-
 QListWidget::indicator {
-    width: 18px;
-    height: 18px;
+    width: 18px; height: 18px;
     border-radius: 4px;
-    margin-right: 10px;
+    margin-right: 8px;
 }
-
 QListWidget::indicator:unchecked {
     border: 2px solid #9CA3AF;
     background-color: white;
 }
-
 QListWidget::indicator:checked {
     border: 2px solid #4338CA;
     background-color: #4338CA;
     image: url("frontend/assets/img/check.svg");
 }
+QListWidget::item:selected { background-color: #4338CA; color: #FFFFFF; }
+QListWidget::item:hover:!selected { background-color: #F3F4F6; }
 
-QListWidget::item:selected {
-    background-color: #4338CA;
-    color: #FFFFFF;
-}
-
-QListWidget::item:hover:!selected {
-    background-color: #F3F4F6;
-}
-
-/* Tabs */
-QTabWidget::pane {
-    border: none;
-    background: transparent;
-}
-
+/* ─── Tabs ────────────────────────────────────────────────────── */
+QTabWidget::pane { border: none; background: transparent; }
 QTabBar::tab {
     background: transparent;
     color: #6B7280;
@@ -66,133 +53,280 @@ QTabBar::tab {
     font-weight: bold;
     border-bottom: 2px solid transparent;
 }
+QTabBar::tab:selected { color: #4338CA; border-bottom: 2px solid #4338CA; }
+QTabBar::tab:hover { color: #3730A3; }
 
-QTabBar::tab:selected {
-    color: #4338CA;
-    border-bottom: 2px solid #4338CA;
-}
-
-QTabBar::tab:hover {
-    color: #3730A3;
-}
-
-/* Cards */
+/* ─── Cards (Vocab / Grammar cards in session view) ────────────── */
 #CardWidget {
     background-color: #FFFFFF;
     border-radius: 12px;
-    margin: 10px;
-    padding: 20px;
+    margin: 8px;
+    padding: 18px;
 }
-
-#CardTitle {
-    font-size: 24px;
-    font-weight: bold;
-    color: #111827;
-}
-
-#CardSubtitle {
-    font-size: 14px;
-    color: #4338CA;
-    font-weight: bold;
-}
-
-#CardMeaning {
-    font-size: 16px;
-    color: #374151;
-    margin-top: 5px;
-}
-
-#CardFormula {
+#CardTitle    { font-size: 22px; font-weight: bold; color: #111827; }
+#CardSubtitle { font-size: 13px; color: #4338CA; font-weight: bold; }
+#CardMeaning  { font-size: 15px; color: #374151; margin-top: 4px; }
+#CardFormula  {
     background-color: #EEF2FF;
     border: 1px solid #C7D2FE;
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 4px 10px;
     color: #3730A3;
     font-weight: bold;
     font-size: 14px;
 }
 
-#FlashcardWidget {
-    background-color: #FFFFFF;
-    border-radius: 16px;
-}
+#FlashcardWidget { background-color: #FFFFFF; border-radius: 16px; }
+#FlashcardText   { font-size: 30px; font-weight: bold; color: #111827; }
 
-#FlashcardText {
-    font-size: 32px;
-    font-weight: bold;
-    color: #111827;
-}
-
-/* Buttons */
+/* ─── Buttons (base) ─────────────────────────────────────────── */
 QPushButton {
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
     border: none;
     color: white;
 }
-
-#BtnStart {
-    background-color: #4338CA;
-}
+#BtnStart   { background-color: #4338CA; }
 #BtnStart:hover { background-color: #3730A3; }
 
-#BtnForget { background-color: #EF4444; }
+#BtnForget  { background-color: #EF4444; }
 #BtnForget:hover { background-color: #DC2626; }
 
-#BtnHard { background-color: #F59E0B; color: white; }
+#BtnHard    { background-color: #F59E0B; color: white; }
 #BtnHard:hover { background-color: #D97706; }
 
-#BtnEasy { background-color: #10B981; }
+#BtnEasy    { background-color: #10B981; }
 #BtnEasy:hover { background-color: #059669; }
 
-/* QMessageBox Buttons */
-QMessageBox QPushButton {
-    background-color: #4338CA;
-    color: white;
-    min-width: 80px;
-}
-QMessageBox QPushButton:hover {
-    background-color: #3730A3;
-}
-
-/* ScrollArea */
-QScrollArea {
-    border: none;
+#BtnBack {
     background-color: transparent;
+    color: #6B7280;
+    border: 1px solid #D1D5DB;
+    padding: 6px 14px;
+    border-radius: 8px;
+    font-size: 13px;
 }
-QScrollArea > QWidget > QWidget {
-    background-color: transparent;
-}
+#BtnBack:hover { background-color: #F3F4F6; color: #374151; }
 
-/* Quiz Styles */
+#BtnHubPlaceholder {
+    background-color: #E5E7EB;
+    color: #6B7280;
+    border: 1px dashed #9CA3AF;
+}
+#BtnHubPlaceholder:hover { background-color: #D1D5DB; color: #374151; }
+
+QMessageBox QPushButton { background-color: #4338CA; color: white; min-width: 80px; }
+QMessageBox QPushButton:hover { background-color: #3730A3; }
+
+/* ─── ScrollArea ─────────────────────────────────────────────── */
+QScrollArea { border: none; background-color: transparent; }
+QScrollArea > QWidget > QWidget { background-color: transparent; }
+
+/* ─── Quiz Styles ────────────────────────────────────────────── */
 #QuizQuestion {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     color: #111827;
     background-color: #FFFFFF;
     border-radius: 12px;
-    padding: 20px;
-    margin: 10px;
+    padding: 18px;
+    margin: 8px;
 }
-
 #QuizOptionBtn {
     background-color: #FFFFFF;
-    color: #4B5563;
+    color: #374151;
     border: 2px solid #E5E7EB;
     border-radius: 12px;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
-    padding: 15px;
+    padding: 14px;
     text-align: left;
 }
+#QuizOptionBtn:hover { background-color: #F3F4F6; border-color: #D1D5DB; }
+#QuizOptionBtn:disabled { color: white; }
 
-#QuizOptionBtn:hover {
-    background-color: #F3F4F6;
-    border-color: #D1D5DB;
+/* ─── Home View ─────────────────────────────────────────────── */
+#HomeBanner {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #4338CA, stop:1 #0EA5E9);
 }
-
-#QuizOptionBtn:disabled {
+#HomeTitleMain {
+    font-size: 36px;
+    font-weight: bold;
     color: white;
 }
+#HomeSubtitle {
+    font-size: 16px;
+    color: rgba(255,255,255,0.85);
+    margin-top: 4px;
+}
+#HomeCard {
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    border: 1px solid #E5E7EB;
+}
+#HomeCardTitle {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E293B;
+}
+#HomeCardDesc {
+    font-size: 13px;
+    color: #6B7280;
+    line-height: 1.5;
+}
+
+/* ─── Hub Header ─────────────────────────────────────────────── */
+#HubHeader {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+}
+#HubHeaderTitle {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1E293B;
+}
+#HubHint {
+    font-size: 14px;
+    color: #6B7280;
+}
+
+/* ─── Drill View ─────────────────────────────────────────────── */
+#DrillHeader {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #E5E7EB;
+}
+#DrillTitle {
+    font-size: 17px;
+    font-weight: bold;
+    color: #1E293B;
+}
+#DrillTimer {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4338CA;
+    padding: 4px 10px;
+    border-radius: 8px;
+    background-color: #EEF2FF;
+}
+#DrillCombo {
+    font-size: 14px;
+    padding: 8px 14px;
+    border: 2px solid #C7D2FE;
+    border-radius: 10px;
+    background-color: #FFFFFF;
+    color: #1E293B;
+}
+#DrillCombo:focus { border-color: #4338CA; }
+
+#DrillProgressBar {
+    background-color: #E5E7EB;
+    border-radius: 4px;
+}
+#DrillProgressBar::chunk {
+    background-color: #4338CA;
+    border-radius: 4px;
+}
+
+#DrillInstruction {
+    font-size: 13px;
+    color: #6B7280;
+    font-style: italic;
+    padding: 4px 0;
+}
+#DrillQuestion {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E293B;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 4px;
+    border: 1px solid #E5E7EB;
+}
+#DrillExplanation {
+    font-size: 13px;
+    color: #4338CA;
+    background-color: #EEF2FF;
+    border-left: 4px solid #4338CA;
+    padding: 10px 14px;
+    border-radius: 0 8px 8px 0;
+    margin: 4px 0;
+}
+
+/* Star slot buttons */
+#StarSlot {
+    background-color: #F8FAFC;
+    color: #374151;
+    border: 2px dashed #CBD5E1;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+#StarSlot:hover { background-color: #F1F5F9; border-color: #94A3B8; }
+
+#StarSlotStar {
+    background-color: #FEF3C7;
+    color: #D97706;
+    border: 2px dashed #F59E0B;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+
+#StarWordBtn {
+    background-color: #FFFFFF;
+    color: #1E293B;
+    border: 2px solid #E5E7EB;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'Yu Gothic', Meiryo, sans-serif;
+    font-weight: bold;
+    padding: 6px 14px;
+}
+#StarWordBtn:hover { background-color: #F3F4F6; border-color: #D1D5DB; }
+#StarWordBtn:disabled { background-color: #F8FAFC; color: #9CA3AF; border-color: #E2E8F0; }
+
+/* Passage box (reading questions) */
+#PassageBox {
+    background-color: #F8FAFC;
+    border: 1px solid #E2E8F0;
+    border-radius: 12px;
+    margin: 4px;
+}
+#PassageText {
+    font-family: "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+    font-size: 18px;
+    color: #1E293B;
+    line-height: 1.8;
+}
+
+/* Wrong answer review card */
+#WrongCard {
+    background-color: #FFF7ED;
+    border: 1px solid #FED7AA;
+    border-radius: 10px;
+    margin: 4px;
+}
+
+/* ComboBox drop-down */
+QComboBox QAbstractItemView {
+    border: 1px solid #C7D2FE;
+    border-radius: 8px;
+    background: white;
+    selection-background-color: #4338CA;
+    selection-color: white;
+    font-size: 14px;
+}
+
+/* ─── Grammar Specific Overrides ────────────── */
+#GrammarSidebarList::item:selected { background-color: #059669; color: #FFFFFF; }
+#GrammarSidebarList::indicator:checked { border: 2px solid #059669; background-color: #059669; image: url("frontend/assets/img/check.svg"); }
+#GrammarCardFormula { background-color: #D1FAE5; border: 1px solid #6EE7B7; color: #065F46; border-radius: 6px; padding: 4px 10px; font-weight: bold; font-size: 14px; }
+
+#BtnAction { background-color: #F43F5E; color: white; font-weight: bold; font-size: 16px; }
+#BtnAction:hover { background-color: #E11D48; }

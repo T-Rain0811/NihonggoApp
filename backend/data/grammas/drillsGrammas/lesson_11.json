@@ -1,0 +1,307 @@
+{
+  "lesson": 11,
+  "title": "第１１回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "このカードは、一年間の利用金額（　　）買い物の割引率が上がる。",
+          "options": [
+            "に応じて",
+            "にこたえて",
+            "に関わって",
+            "を頼りに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に応じて」＝〜に合わせ変化して。利用金額の変化に合わせて割引率が変わる（上がる）。",
+          "explanation_vi": "「〜に応じて」 = Tùy theo ~, ứng với ~. Thẻ này có tỷ lệ giảm giá khi mua sắm tăng lên tùy theo tổng số tiền sử dụng trong một năm.",
+          "sentence_furigana": "このカード(かーど)は、一年間(いちねんかん)の利用(りよう)金額(きんがく)（　　）買い物(かいもの)の割引(わりびき)率(りつ)が上がる(あがる)。",
+          "sentence_vi": "Chiếc thẻ này sẽ có mức chiết khấu khi mua sắm tăng lên tùy theo số tiền sử dụng trong một năm."
+        },
+        {
+          "id": 2,
+          "text": "弟は、足の速さ（　　）学校の誰にも負けない。",
+          "options": [
+            "にしては",
+            "だけあって",
+            "にかけては",
+            "につけては"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にかけては」＝〜の点・分野においては（一番だ・自信がある）。足の速さという点では誰にも負けない。",
+          "explanation_vi": "「〜にかけては」 = Riêng về mặt ~, nếu nói về khoản ~ (thì không thua kém ai/là giỏi nhất). Em trai tôi riêng khoản chạy nhanh thì không thua bất cứ ai trong trường.",
+          "sentence_furigana": "弟(おとうと)は、足(あし)の速さ(はやさ)（　　）学校(がっこう)の誰(だれ)にも負け(まけ)ない。",
+          "sentence_vi": "Riêng về khoản chạy nhanh, em trai tôi không chịu thua bất kỳ ai trong trường."
+        },
+        {
+          "id": 3,
+          "text": "水1リットル（　　）塩10グラムを入れてください。",
+          "options": [
+            "にかけて",
+            "に限って",
+            "に対して",
+            "にしたって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜に対して」＝〜を基準とした割合で。水1Lという割合に対して塩10gを入れる。",
+          "explanation_vi": "「〜に対して」 = Dành cho, đối với (chỉ tỷ lệ). Hãy cho 10 gam muối đối với/tương ứng với 1 lít nước.",
+          "sentence_furigana": "水(みず)1リットル(りっとる)（　　）塩(しお)10グラム(ぐらむ)を入れて(いれて)ください。",
+          "sentence_vi": "Hãy cho 10 gam muối vào 1 lít nước."
+        },
+        {
+          "id": 4,
+          "text": "残念（　　）その商品はもう売り切れてしまいました。",
+          "options": [
+            "なら",
+            "ながら",
+            "がてら",
+            "次第"
+          ],
+          "correct_answer": 2,
+          "explanation": "「残念ながら」＝残念だが（慣用的な表現）。残念なことだが、売り切れてしまった。",
+          "explanation_vi": "「残念ながら」 = Rất tiếc nhưng..., thật đáng tiếc là... (cụm từ cố định). Thật đáng tiếc nhưng sản phẩm đó đã bán hết mất rồi.",
+          "sentence_furigana": "残念(ざんねん)（　　）その商品(しょうひん)はもう売り切れ(うりきれ)てしまいました。",
+          "sentence_vi": "Rất tiếc nhưng sản phẩm đó đã được bán hết."
+        },
+        {
+          "id": 5,
+          "text": "子どもの頃は、サンタクロースが本当にいると信じ（　　）いました。",
+          "options": [
+            "かねて",
+            "切って",
+            "出して",
+            "抜いて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜切る」＝すっかり〜する、限界まで〜する（強い確信）。全く疑わずに完全に信じていた。",
+          "explanation_vi": "「〜切る」 = Làm gì đó một cách trọn vẹn, chắc chắn, không chút nghi ngờ. Hồi nhỏ, tôi đã tin sái cổ (tin hoàn toàn) rằng ông già Noel là có thật.",
+          "sentence_furigana": "子ども(こども)の頃(ころ)は、サンタクロース(さんたくろーす)が本当(ほんとう)にいると信じ(しんじ)（　　）いました。",
+          "sentence_vi": "Hồi còn nhỏ, tôi đã tin sái cổ rằng ông già Noel thực sự tồn tại."
+        },
+        {
+          "id": 6,
+          "text": "就職して（　　）社会の厳しさを知った。",
+          "options": [
+            "ほど",
+            "さえ",
+            "ばかり",
+            "はじめて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てはじめて」＝〜した後にようやく〜になった。就職した後でようやく社会の厳しさがわかった。",
+          "explanation_vi": "「〜てはじめて」 = Mãi cho đến khi ~ thì mới (nhận ra). Mãi cho đến khi đi làm, tôi mới thấu hiểu được sự khắc nghiệt của xã hội.",
+          "sentence_furigana": "就職(しゅうしょく)して（　　）社会(しゃかい)の厳しさ(きびしさ)を知っ(しっ)た。",
+          "sentence_vi": "Đến khi đi làm rồi tôi mới thấm thía sự khắc nghiệt của xã hội."
+        },
+        {
+          "id": 7,
+          "text": "田中さんは飽き（　　）から、きっと3日で練習をやめてしまうだろう。",
+          "options": [
+            "がちだ",
+            "気味だ",
+            "っぽい",
+            "すぎる"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜っぽい」＝〜しやすい、〜という性質がある（性格や傾向）。すぐに飽きてしまう性格だ。",
+          "explanation_vi": "「〜っぽい」 = Hay ~, có tính ~. (Thường dùng cho tính cách). Vì anh Tanaka có tính hay cả thèm chóng chán nên chắc chắn tập được 3 ngày là sẽ bỏ cho xem.",
+          "sentence_furigana": "田中(たなか)さんは飽き(あき)（　　）から、きっと3日(みっか)で練習(れんしゅう)をやめてしまうだろう。",
+          "sentence_vi": "Anh Tanaka vốn tính hay cả thèm chóng chán nên chắc chỉ tập được 3 ngày là sẽ bỏ thôi."
+        },
+        {
+          "id": 8,
+          "text": "娘が交通事故にあったという知らせを受け、ショック（　　）倒れてしまった。",
+          "options": [
+            "の上で",
+            "にあたり",
+            "につれて",
+            "のあまり"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜のあまり」＝〜すぎる結果（名詞＋のあまり）。ショックを受けすぎた結果、倒れた。",
+          "explanation_vi": "「〜のあまり」 = Vì quá ~ nên dẫn đến kết quả (đi với Danh từ + の). Nhận được tin con gái bị tai nạn giao thông, vì quá sốc nên tôi đã ngất xỉu.",
+          "sentence_furigana": "娘(むすめ)が交通(こうつう)事故(じこ)にあったという知らせ(しらせ)を受け(うけ)、ショック(しょっく)（　　）倒れ(たおれ)てしまった。",
+          "sentence_vi": "Nhận được tin con gái gặp tai nạn giao thông, vì quá sốc nên tôi đã ngất lịm đi."
+        },
+        {
+          "id": 9,
+          "text": "気がついたら外は暗くなっていた。5時間もゲームをやっていた（　　）。",
+          "options": [
+            "とか",
+            "とは",
+            "だけだ",
+            "ものだ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜とは」＝〜なんて（驚きやあきれた気持ち）。5時間もやっていたなんて、と驚いている。",
+          "explanation_vi": "「〜とは」 = Thật không ngờ là ~, cái việc ~ thật là (thể hiện sự ngạc nhiên, sốc). Nhận ra thì bên ngoài trời đã tối. Không ngờ là mình đã chơi game suốt 5 tiếng đồng hồ.",
+          "sentence_furigana": "気(き)がついたら外(そと)は暗く(くらく)なっていた。5時間(じかん)もゲーム(げーむ)をやっていた（　　）。",
+          "sentence_vi": "Lúc nhận ra thì ngoài trời đã tối. Không ngờ tôi đã ngồi chơi game suốt 5 tiếng đồng hồ."
+        },
+        {
+          "id": 10,
+          "text": "予想（　　）最悪の事態に備えて、今から準備をしておこう。",
+          "options": [
+            "し得る",
+            "しかねる",
+            "しかねない",
+            "しつつある"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜得る（うる／える）」＝〜できる、〜する可能性がある。予想できる最悪の事態。",
+          "explanation_vi": "「〜得る（うる／える）」 = Có thể ~, có khả năng ~. Hãy chuẩn bị ngay từ bây giờ để đề phòng tình huống tồi tệ nhất có thể dự đoán được.",
+          "sentence_furigana": "予想(よそう)（　　）最悪(さいあく)の事態(じたい)に備え(そなえ)て、今(いま)から準備(じゅんび)をしておこう。",
+          "sentence_vi": "Hãy chuẩn bị ngay từ bây giờ để đề phòng cho tình huống tồi tệ nhất có thể dự tính được."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この部品を国内で生産 ＿＿＿ ＿＿＿ ★ ＿＿＿ だろう。",
+          "options": [
+            "しかない",
+            "となると",
+            "輸入する",
+            "できない"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "この部品を国内で生産 できない となると 輸入する しかない だろう。",
+          "explanation": "正しい語順は「できない(4) となると(2) 輸入する(3) しかない(1)」。★は3番目なので「輸入する」。",
+          "explanation_vi": "Thứ tự đúng là: できない(4) となると(2) 輸入する(3) しかない(1). Vị trí ngôi sao là 3 (輸入する). Một khi không thể sản xuất linh kiện này ở trong nước thì chắc chỉ còn cách là nhập khẩu thôi.",
+          "sentence_furigana": "この部品(ぶひん)を国内(こくない)で生産(せいさん) できない となると 輸入(ゆにゅう)する しかない だろう。",
+          "sentence_vi": "Nếu không thể sản xuất linh kiện này trong nước thì có lẽ chỉ còn cách nhập khẩu mà thôi."
+        },
+        {
+          "id": 12,
+          "text": "申しわけありませんが、 ＿＿＿ ＿＿＿ ★ ＿＿＿ かねます。",
+          "options": [
+            "答え",
+            "については",
+            "そういった",
+            "こと"
+          ],
+          "correct_order": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "申しわけありませんが、 そういった こと については 答え かねます。",
+          "explanation": "正しい語順は「そういった(3) こと(4) については(2) 答え(1)」。★は3番目なので「については」。",
+          "explanation_vi": "Thứ tự đúng là: そういった(3) こと(4) については(2) 答え(1). Vị trí ngôi sao là 2 (については). Thật vô cùng xin lỗi nhưng những việc như thế thì chúng tôi rất khó để đưa ra câu trả lời.",
+          "sentence_furigana": "申し(もうし)わけありませんが、 そういった こと については 答え(こたえ) かねます。",
+          "sentence_vi": "Thật vô cùng xin lỗi nhưng về những việc như vậy thì chúng tôi không thể đưa ra câu trả lời."
+        },
+        {
+          "id": 13,
+          "text": "おいしいラーメン屋があると聞いたら、どんなに ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "行かず",
+            "いられない",
+            "には",
+            "遠くても"
+          ],
+          "correct_order": [
+            4,
+            1,
+            3,
+            2
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "おいしいラーメン屋があると聞いたら、どんなに 遠くても 行かず には いられない 。",
+          "explanation": "正しい語順は「遠くても(4) 行かず(1) には(3) いられない(2)」。★は3番目なので「には」。",
+          "explanation_vi": "Thứ tự đúng là: 遠くても(4) 行かず(1) には(3) いられない(2). Vị trí ngôi sao là 3 (には). Cứ hễ nghe nói có quán mì ramen ngon thì dù có xa đến mấy tôi cũng không thể nào không đi cho được.",
+          "sentence_furigana": "おいしいラーメン屋(らーめんや)があると聞い(きい)たら、どんなに 遠く(とおく)ても 行か(いか)ず には いられない 。",
+          "sentence_vi": "Hễ nghe nói có quán ramen ngon là dù xa mấy tôi cũng không thể nào kìm được mà phải đi ăn thử."
+        },
+        {
+          "id": 14,
+          "text": "一番後ろの席でほとんど見えなかったが、 ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "コンサートに",
+            "だけ",
+            "行けた",
+            "ましだ"
+          ],
+          "correct_order": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "一番後ろの席でほとんど見えなかったが、 コンサートに 行けた だけ ましだ 。",
+          "explanation": "正しい語順は「コンサートに(1) 行けた(3) だけ(2) ましだ(4)」。★は3番目なので「だけ」。",
+          "explanation_vi": "Thứ tự đúng là: コンサートに(1) 行けた(3) だけ(2) ましだ(4). Vị trí ngôi sao là 2 (だけ). Dù ngồi ở hàng ghế cuối cùng và hầu như chẳng nhìn thấy gì, nhưng chỉ riêng việc đi được xem hòa nhạc cũng đã là may mắn lắm rồi.",
+          "sentence_furigana": "一番(いちばん)後ろ(うしろ)の席(せき)でほとんど見え(みえ)なかったが、 コンサート(こんさーと)に 行け(いけ)た だけ ましだ 。",
+          "sentence_vi": "Dù ngồi tít hàng ghế cuối cùng chẳng nhìn thấy gì mấy, nhưng chỉ việc được đi xem hòa nhạc thôi cũng đã tốt lắm rồi."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　人が暮らしのなかで何かを選ぶという機会は、私が生きたこの六十年で、ずいぶんと増えたように思います。衣類一つをとっても、今は家の中に溢れかえっていて、いかに処分するかが問題となる状況です。【１】デパートやスーパーに行って、商品の山にさらされると、ついついまた何かを選んで買ってしまう。そういう生活になっています。\n　あるいは子どものおもちゃ【２】、私が子どもだった頃には、買ってもらえるものが本当に限られていました。子ども向けの商品は、【3-a】に比べてずいぶん貧弱でした。\n　ところが、いまは子どもをターゲットとした商品市場が、親を巻き込んだかたちで、圧倒的な広がりを持つようになっていて、子どもが小学校に上がる頃には、ダンボール数箱分のおもちゃのガラクタがたまっていたりします。【3-b】の子どもたちが持っているおもちゃの量は、【3-c】に比べて、おそらく100倍以上に達しているのではないかと思います。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "つまり",
+            "それでも",
+            "ですから",
+            "このように"
+          ],
+          "correct_answer": 2,
+          "explanation": "前の文で「いかに処分するかが問題だ（物が多くて困っている）」と言っているのに、後の文では「ついついまた買ってしまう」と述べているため、逆接の「それでも（＝それなのに）」が適切。",
+          "explanation_vi": "「それでも」 = Ấy thế mà. Câu trước đang nói \"quần áo nhiều tới mức việc vứt bớt đi là cả một vấn đề\", câu sau lại nói \"đi siêu thị vẫn lỡ mua thêm\", thể hiện sự đối lập, nên dùng \"Ấy thế mà\" là phù hợp nhất."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "にして",
+            "にしたら",
+            "にしても",
+            "にしては"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にしても」＝〜を例にとっても。衣類について述べた後、今度は「子どものおもちゃを例にとっても」と話題を挙げている。",
+          "explanation_vi": "「〜にしても」 = Cho dù là, lấy ~ làm ví dụ. Sau khi lấy ví dụ về quần áo ở đoạn trước, tác giả chuyển sang \"Dù có lấy đồ chơi của trẻ em làm ví dụ đi chăng nữa\"."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "aいま／bいま／c昔",
+            "aいま／b昔／cいま",
+            "a昔／bいま／c昔",
+            "a昔／b昔／cいま"
+          ],
+          "correct_answer": 1,
+          "explanation": "「私が子どもだった頃の商品（昔）」は「aいま」に比べて貧弱だった。「bいま」の子どもが持っている量は「c昔（私が子どもだった頃）」に比べて100倍だ。",
+          "explanation_vi": "a là いま (Hiện tại): Đồ trẻ em ngày xưa nghèo nàn hơn nhiều so với \"hiện tại\". b là いま (Hiện tại), c là 昔 (Ngày xưa): Lượng đồ chơi mà trẻ em \"hiện tại\" đang sở hữu chắc phải gấp 100 lần so với \"ngày xưa\"."
+        }
+      ]
+    }
+  ]
+}

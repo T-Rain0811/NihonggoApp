@@ -1,0 +1,265 @@
+{
+  "lesson": 24,
+  "title": "第２４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "あの人の服装（　　）、ここで働いている人ではないだろう。",
+          "options": [
+            "からして",
+            "からには",
+            "によると",
+            "からといって"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜からして」＝〜（という一つの例）から見ても（全体が推測できる）。服装から判断して、ここで働いている人ではないだろう。",
+          "explanation_vi": "「〜からして」 = Ngay từ, nhìn từ (một khía cạnh nào đó là đã thấy...). Nhìn từ trang phục của người kia thì có lẽ không phải là người làm việc ở đây đâu.",
+          "sentence_furigana": "あの人(ひと)の服装(ふくそう)（　　）、ここで働い(はたらい)ている人(ひと)ではないだろう。",
+          "sentence_vi": "Nhìn từ cách ăn mặc của người kia thì có lẽ không phải là nhân viên làm việc ở đây đâu."
+        },
+        {
+          "id": 2,
+          "text": "そんな甘いことを考えている（　　）、就職なんてできないよ。",
+          "options": [
+            "あまり",
+            "うちに",
+            "限り",
+            "ものなら"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜限り（は）」＝〜という状態が続いている間は（ずっと）。甘いことを考えている状態のままでは、就職できない。",
+          "explanation_vi": "「〜限り（は）」 = Chừng nào mà vẫn còn ~, thì... Chừng nào mà mày còn giữ cái suy nghĩ ngây thơ như thế thì không thể nào xin được việc đâu.",
+          "sentence_furigana": "そんな甘い(あまい)ことを考え(かんがえ)ている（　　）、就職(しゅうしょく)なんてできないよ。",
+          "sentence_vi": "Chừng nào mà còn giữ cái suy nghĩ ngây thơ đó thì cậu không thể nào xin được việc đâu."
+        },
+        {
+          "id": 3,
+          "text": "この施設では、季節（　　）スキーやスノーボードが楽しめます。",
+          "options": [
+            "を問わず",
+            "のみならず",
+            "もかまわず",
+            "にもかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜を問わず」＝〜に関係なく。季節に関係なくいつでも楽しめる。",
+          "explanation_vi": "「〜を問わず」 = Bất kể là ~, không quan tâm đến ~. Tại khu giải trí này, bạn có thể tận hưởng trượt tuyết và trượt ván bất kể là mùa nào.",
+          "sentence_furigana": "この施設(しせつ)では、季節(きせつ)（　　）スキー(すきー)やスノーボード(すのーぼーど)が楽しめ(たのしめ)ます。",
+          "sentence_vi": "Tại khu nghỉ dưỡng này, bạn có thể tận hưởng trượt tuyết và trượt ván bất kể là vào mùa nào."
+        },
+        {
+          "id": 4,
+          "text": "何事もなく毎日を過ごしていると、平和のありがたさを忘れてしまい（　　）。",
+          "options": [
+            "がちだ",
+            "すぎた",
+            "そうもない",
+            "ようがない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜がちだ」＝〜しやすい、〜することが多い（マイナスの傾向）。平和のありがたさを忘れやすい。",
+          "explanation_vi": "「〜がちだ」 = Thường hay ~, dễ bị ~ (chỉ một xu hướng tiêu cực, dễ xảy ra). Nếu cứ trải qua mỗi ngày bình yên vô sự thì chúng ta thường hay quên mất giá trị của sự hòa bình.",
+          "sentence_furigana": "何事(なにごと)もなく毎日(まいにち)を過ごし(すごし)ていると、平和(へいわ)のありがたさを忘れ(わすれ)てしまい（　　）。",
+          "sentence_vi": "Cứ trải qua mỗi ngày một cách êm đềm thì chúng ta thường dễ lãng quên mất sự đáng quý của hòa bình."
+        },
+        {
+          "id": 5,
+          "text": "このホテルでは、まるで南国にいる（　　）気分が味わえる。",
+          "options": [
+            "とみえる",
+            "かのような",
+            "ともいえる",
+            "かもしれない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜かのような／かのように」＝まるで〜みたいに（比喩）。実際に南国にいるわけではないが、そんな気分になる。",
+          "explanation_vi": "「〜かのような／かのように」 = Cứ như thể là ~, giống hệt như ~. Ở khách sạn này, bạn có thể trải nghiệm cảm giác cứ như thể là mình đang ở một đất nước nhiệt đới vậy.",
+          "sentence_furigana": "このホテル(ほてる)では、まるで南国(なんごく)にいる（　　）気分(きぶん)が味わえる(あじわえる)。",
+          "sentence_vi": "Tại khách sạn này, bạn có thể tận hưởng cảm giác cứ như thể là đang ở vùng nhiệt đới vậy."
+        },
+        {
+          "id": 6,
+          "text": "申しわけありませんが、その質問には答え（　　）。",
+          "options": [
+            "かねます",
+            "ずにすみます",
+            "ねばなりません",
+            "なくもありません"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かねる」＝〜できない（ビジネスなどで丁寧に断る表現）。答えることができません。",
+          "explanation_vi": "「〜かねる」 = Không thể ~ (dùng để từ chối một cách khéo léo, lịch sự). Chúng tôi vô cùng xin lỗi nhưng chúng tôi không thể trả lời câu hỏi đó được.",
+          "sentence_furigana": "申しわけ(もうしわけ)ありませんが、その質問(しつもん)には答え(こたえ)（　　）。",
+          "sentence_vi": "Chúng tôi vô cùng xin lỗi nhưng xin phép không thể trả lời câu hỏi đó."
+        },
+        {
+          "id": 7,
+          "text": "病気が治ったのは、夫が（　　）で看病してくれたおかげだ。",
+          "options": [
+            "ついただげ",
+            "つきっきり",
+            "つきながら",
+            "ついてばかり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜っきり（〜きり）」＝〜したままずっと（他のことをしない）。「つきっきり」は、そばにずっと付き添っていること。",
+          "explanation_vi": "「〜っきり／きり」 = Cứ mãi ~, suốt ~ (chỉ làm một việc mà không làm gì khác). 「つきっきり」 nghĩa là túc trực bên cạnh suốt ngày đêm. Việc tôi khỏi bệnh là nhờ có chồng túc trực chăm sóc suốt không rời nửa bước.",
+          "sentence_furigana": "病気(びょうき)が治っ(なおっ)たのは、夫(おっと)が（　　）で看病(かんびょう)してくれたおかげだ。",
+          "sentence_vi": "Việc tôi khỏi bệnh hoàn toàn là nhờ công chồng tôi đã túc trực chăm sóc suốt không rời nửa bước."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "この曲を聴くたびに、学生時代に ＿＿＿ ＿＿＿ ★ ＿＿＿ ならない。",
+          "options": [
+            "思い出されて",
+            "きりの",
+            "別れた",
+            "友人のことが"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "この曲を聴くたびに、学生時代に 別れた きりの 友人のことが 思い出されて ならない。",
+          "explanation": "正しい語順は「別れた(3) きりの(2) 友人のことが(4) 思い出されて(1)」。★は3番目なので「友人のことが」。\n「〜きり」＝〜したのが最後でそのまま。「〜てならない」＝〜で仕方がない、非常に〜だ。",
+          "explanation_vi": "Thứ tự đúng là: 別れた(3) きりの(2) 友人のことが(4) 思い出されて(1). Vị trí ngôi sao là 4 (友人のことが).\n「〜てならない」 = Vô cùng ~, rất ~ (không kiềm chế được cảm xúc). Cứ mỗi lần nghe khúc nhạc này, tôi lại nhớ khôn nguôi về người bạn mà kể từ hồi sinh viên chia tay nhau đến giờ không còn gặp lại nữa.",
+          "sentence_furigana": "この曲(きょく)を聴く(きく)たびに、学生(がくせい)時代(じだい)に 別れ(わかれ)た きりの 友人(ゆうじん)のことが 思い出さ(おもいださ)れて ならない。",
+          "sentence_vi": "Cứ mỗi lần nghe bản nhạc này, tôi lại nhớ da diết người bạn mà tôi đã không còn gặp lại kể từ lúc chia tay thời đại học."
+        },
+        {
+          "id": 9,
+          "text": "1時間も ＿＿＿ ＿＿＿ ★ ＿＿＿ 思うとすぐに終わってしまった。",
+          "options": [
+            "かと",
+            "のに",
+            "始まった",
+            "並んだ"
+          ],
+          "correct_order": [
+            4,
+            2,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "1時間も 並んだ のに 始まった かと 思うとすぐに終わってしまった。",
+          "explanation": "正しい語順は「並んだ(4) のに(2) 始まった(3) かと(1)」。★は3番目なので「始まった」。\n「〜かと思うと」＝〜するとすぐに。「並んだのに、始まったと思ったらすぐに終わった」。",
+          "explanation_vi": "Thứ tự đúng là: 並んだ(4) のに(2) 始まった(3) かと(1). Vị trí ngôi sao là 3 (始まった).\n「〜かと思うと」 = Vừa mới ~ thì ngay lập tức. Mất công xếp hàng chờ đến tận 1 tiếng đồng hồ, thế mà vừa mới thấy bắt đầu một cái là đã chớp mắt kết thúc mất tiêu rồi.",
+          "sentence_furigana": "1時間(いちじかん)も 並ん(ならん)だ のに 始まっ(はじまっ)た かと 思う(おもう)とすぐに終わっ(おわっ)てしまった。",
+          "sentence_vi": "Cất công xếp hàng mất cả tiếng đồng hồ, thế mà vừa mới tưởng là bắt đầu thì loáng cái đã kết thúc luôn rồi."
+        },
+        {
+          "id": 10,
+          "text": "この絵は、風景画が有名な ＿＿＿ ＿＿＿ ★ ＿＿＿ ものだ。",
+          "options": [
+            "作品",
+            "としては",
+            "めずらしい",
+            "彼の"
+          ],
+          "correct_order": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "この絵は、風景画が有名な 彼の 作品 としては めずらしい ものだ。",
+          "explanation": "正しい語順は「彼の(4) 作品(1) としては(2) めずらしい(3)」。★は3番目なので「としては」。\n「〜にしては／〜としては」＝〜の立場・基準から考えると（意外に）。風景画が有名な彼の作品からすると、めずらしい部類に入る。",
+          "explanation_vi": "Thứ tự đúng là: 彼の(4) 作品(1) としては(2) めずらしい(3). Vị trí ngôi sao là 2 (としては).\n「〜としては」 = Đối với, xét về tiêu chuẩn của ~ thì (diễn tả sự khác biệt so với ấn tượng thông thường). Bức tranh này là một tác phẩm khá lạ lẫm so với những tác phẩm thông thường của anh ấy - một người vốn nổi danh với dòng tranh phong cảnh.",
+          "sentence_furigana": "この絵(え)は、風景画(ふうけいが)が有名(ゆうめい)な 彼(かれ)の 作品(さくひん) としては めずらしい ものだ。",
+          "sentence_vi": "Bức họa này là một tác phẩm khá hiếm lạ so với những tác phẩm thông thường của ông ấy - người vốn dĩ nổi danh về tranh phong cảnh."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　会議室で打ち合わせをしている【１】、地震があった。\n　思いがけず大きな揺れに驚く私たちを見て、部長が、「みなさん、落ち着いて行動してください」と言った。私は、「そうだ、こういうときは【２】。落ち着かなければ」と思った。\n　しかし、思っていたより揺れは長く続き、私たちはどうしていいのかわからずに、会議室の机がガタガタ音を立てて動いているのを見ている【３】だった。「落ち着いて！」ともう一度部長の声が聞こえてきたが、落ち着こうと思えば思うほど、体は動かないのだ。\n　その時、別の声が聞こえた。\n　「窓ガラスから離れて、机の下にもぐれ！」\n　はっと気がついて、私は急いで窓ガラスから離れ、大きな机の下にもぐった。地震の際は窓ガラスから離れないと、ガラスが割れたとき危ない、という話を机の下で思い出していた。その後しばらくして揺れはおさまり、幸い、けが人は一人も出なかった。\n　考えてみると、災害や事故のような緊急の場合は、冷静な行動が必要だと【4-a】実際には何をしたらいいのか【4-b】、動きが止まってしまうものだ。そういうときに必要なのは、「落ち着け」という言葉より、「窓から離れろ」や「机の下にもぐれ」などという具体的な指示ではないだろうか。緊急時には、具体的な指示こそが人を動かし、安全確保へとつながると言えるだろう。\n　今回の一件【５】、私は具体的な指示の大切さというものを改めて考えさせられた。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "最中に",
+            "ままに",
+            "かのうちに",
+            "にともなって"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜最中に」＝ちょうど〜している時に（邪魔が入る）。打ち合わせをしているまさにその時に、地震があった。",
+          "explanation_vi": "「〜最中（さいちゅう）に」 = Đúng lúc đang ~ thì (thường mang nghĩa bị cản trở). Ngay giữa lúc chúng tôi đang họp trong phòng thì có động đất xảy ra."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "あわてっこない",
+            "あわてたんじゃない",
+            "あわてちゃいけない",
+            "あわてなきゃいけない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てはいけない（〜ちゃいけない）」＝〜してはダメだ。こういう緊急の時は、慌ててはいけない、落ち着かなければならない。",
+          "explanation_vi": "「〜ちゃいけない」 = Là cách nói ngắn gọn của てはいけない (Không được phép). \"Tôi tự nhủ, đúng vậy, vào những lúc thế này thì không được phép hoảng hốt, phải thật bình tĩnh mới được.\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "ところ",
+            "まで",
+            "くらい",
+            "ばかり"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ているばかり」＝ただ〜しているだけで、他のことができない。どうしていいかわからず、ただ見ているだけだった。",
+          "explanation_vi": "「〜ばかりだ」 = Chỉ còn biết ~, chỉ có thể ~ (không làm được gì khác). \"Không biết phải làm sao nên chúng tôi chỉ còn biết trân trân đứng nhìn mấy cái bàn trong phòng họp va đập lập cập vào nhau.\""
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "a わからないから／b わかって",
+            "a わからないまま／b わかって",
+            "a わかっていたら／b わからなくなり",
+            "a わかっていても／b わからなくなり"
+          ],
+          "correct_answer": 4,
+          "explanation": "冷静な行動が必要だと頭では理解していても（＝わかっていても）、実際にどうすればいいのかパニックになってわからなくなり（＝わからなくなり）、動けなくなる。",
+          "explanation_vi": "「〜ていても」 = Cho dù là có ~ đi chăng nữa. \"Trong trường hợp khẩn cấp, cho dù đầu óc có nhận thức được (わかっていても) là phải hành động thật bình tĩnh đi chăng nữa, thì thực tế lại chẳng biết (わからなくなり) nên làm gì...\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "に応じて",
+            "を通して",
+            "に基づいて",
+            "をめぐって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜を通して」＝〜という経験を媒介にして。今回の地震という一件（経験）を通して、考えさせられた。",
+          "explanation_vi": "「〜を通して」 = Thông qua ~ (kinh nghiệm, sự việc nào đó). \"Thông qua sự việc lần này, tôi đã có cơ hội được suy ngẫm lại một lần nữa về tầm quan trọng của những chỉ thị mang tính cụ thể.\""
+        }
+      ]
+    }
+  ]
+}

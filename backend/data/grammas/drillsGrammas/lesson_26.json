@@ -1,0 +1,265 @@
+{
+  "lesson": 26,
+  "title": "第２６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "現地に到着（　　）、ご連絡します。",
+          "options": [
+            "以上",
+            "上で",
+            "次第",
+            "ついでに"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜次第（しだい）」＝〜したらすぐに。現地に到着したらすぐにご連絡します。",
+          "explanation_vi": "「〜次第」 = Ngay sau khi ~ thì sẽ. Ngay sau khi đặt chân tới nơi, tôi sẽ liên lạc lại cho anh.",
+          "sentence_furigana": "現地(げんち)に到着(とうちゃく)（　　）、ご連絡(れんらく)します。",
+          "sentence_vi": "Ngay khi tới nơi, tôi sẽ liên lạc ngay cho anh."
+        },
+        {
+          "id": 2,
+          "text": "子どもの頃は、よくけんかをして兄に泣かされた（　　）。",
+          "options": [
+            "ことだ",
+            "だけだ",
+            "はずだ",
+            "ものだ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ものだ」＝よく〜した（過去の習慣の回想）。昔はよく兄に泣かされたと懐かしく思い出している。",
+          "explanation_vi": "「〜ものだ」 = Hay, thường (hồi tưởng lại một thói quen trong quá khứ). Hồi còn nhỏ, tôi rất hay cãi nhau với anh trai và thường bị anh ấy trêu cho khóc nhè.",
+          "sentence_furigana": "子ども(こども)の頃(ころ)は、よくけんかをして兄(あに)に泣かさ(なかさ)れた（　　）。",
+          "sentence_vi": "Hồi còn bé, tôi thường hay cãi nhau với anh trai và bị anh ấy bắt nạt cho phát khóc."
+        },
+        {
+          "id": 3,
+          "text": "真夏の暑さの中、選手たちは汗（　　）で練習している。",
+          "options": [
+            "がち",
+            "のまま",
+            "ばかり",
+            "まみれ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜まみれ」＝表面全体に汚いもの（汗、泥、血など）がついている状態。汗でびっしょりになって練習している。",
+          "explanation_vi": "「〜まみれ」 = Đầy ~, dính toàn là ~ (những thứ bẩn như bùn, máu, mồ hôi). Dưới cái nóng của mùa hè oi ả, các cầu thủ đang luyện tập với cơ thể ướt đẫm mồ hôi.",
+          "sentence_furigana": "真夏(まなつ)の暑(あつ)さの中(なか)、選手(せんしゅ)たちは汗(あせ)（　　）で練習(れんしゅう)している。",
+          "sentence_vi": "Giữa cái nóng của mùa hè oi bức, các tuyển thủ đang luyện tập với cơ thể ướt sũng mồ hôi."
+        },
+        {
+          "id": 4,
+          "text": "友達とはいえ、毎日泊まりに来られては（　　）。",
+          "options": [
+            "いられない",
+            "限らない",
+            "かなわない",
+            "かまわない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜てはかなわない」＝〜されては迷惑だ、我慢できない。毎日泊まりに来られるのは迷惑で耐えられない。",
+          "explanation_vi": "「〜てはかなわない」 = ...thì không thể chịu nổi, ...thì quá sức chịu đựng. Dù nói là bạn bè đi chăng nữa, nhưng nếu ngày nào cũng tới ngủ nhờ thì tôi thật sự không thể chịu đựng nổi.",
+          "sentence_furigana": "友達(ともだち)とはいえ、毎日(まいにち)泊まり(とまり)に来(こ)られては（　　）。",
+          "sentence_vi": "Dù mang tiếng là bạn bè thật đấy, nhưng nếu ngày nào cậu ta cũng qua ngủ chực thế này thì tôi không thể chịu đựng được mất."
+        },
+        {
+          "id": 5,
+          "text": "サラさんの送別会を（　　）、クラスで懇親会を開いた。",
+          "options": [
+            "かねて",
+            "込めて",
+            "ともに",
+            "ついでに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜をかねて」＝〜という目的も兼ねて（二つの目的を同時に果たす）。送別会という目的も兼ねて懇親会を開いた。",
+          "explanation_vi": "「〜をかねて」 = Kiêm luôn ~, đồng thời với mục đích là ~. Lớp chúng tôi đã tổ chức một buổi tiệc liên hoan giao lưu, kiêm luôn mục đích làm tiệc chia tay bạn Sarah.",
+          "sentence_furigana": "サラさん(さらさん)の送別(そうべつ)会(かい)を（　　）、クラス(くらす)で懇親(こんしん)会(かい)を開い(ひらい)た。",
+          "sentence_vi": "Lớp chúng tôi đã tổ chức buổi tiệc thân mật kiêm luôn tiệc chia tay Sarah."
+        },
+        {
+          "id": 6,
+          "text": "ベジタリアン（　　）、肉だけでなく、魚や卵も食べないんですね。",
+          "options": [
+            "かと思うと",
+            "ことだから",
+            "にあたって",
+            "ということは"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ということは」＝〜という事実から判断すると。ベジタリアンであるという事実から判断して、「つまり肉も魚も食べないんですね」と確認している。",
+          "explanation_vi": "「〜ということは」 = Điều đó có nghĩa là ~ (rút ra kết luận từ một sự việc). Anh là người ăn chay, điều đó có nghĩa là không chỉ thịt, mà anh cũng không ăn cả cá hay trứng luôn nhỉ.",
+          "sentence_furigana": "ベジタリアン(べじたりあん)（　　）、肉(にく)だけでなく、魚(さかな)や卵(たまご)も食べ(たべ)ないんですね。",
+          "sentence_vi": "Anh là người ăn chay, vậy có nghĩa là ngoài thịt ra, anh cũng không ăn cả cá và trứng nữa nhỉ."
+        },
+        {
+          "id": 7,
+          "text": "日本人だ（　　）米ばかり食べているわけではない。",
+          "options": [
+            "からこそ",
+            "からして",
+            "からには",
+            "からといって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜からといって」＝〜という理由だけで（必ずしも〜とは限らない）。日本人だからという理由だけで、米ばかり食べているわけではない。",
+          "explanation_vi": "「〜からといって（〜わけではない）」 = Chỉ vì ~ (mà cho rằng... thì không hẳn là đúng). Không phải cứ mang tiếng là người Nhật thì có nghĩa là chỉ ăn toàn cơm gạo đâu.",
+          "sentence_furigana": "日本(にほん)人(じん)だ（　　）米(こめ)ばかり食べ(たべ)ているわけではない。",
+          "sentence_vi": "Không phải chỉ vì là người Nhật mà ngày nào cũng chỉ ăn toàn cơm đâu."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "結果発表を見る ＿＿＿ ＿＿＿ ★ ＿＿＿ どころじゃなかった。",
+          "options": [
+            "食事する",
+            "あまり",
+            "までは",
+            "緊張の"
+          ],
+          "correct_order": [
+            3,
+            4,
+            2,
+            1
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "結果発表を見る までは 緊張の あまり 食事する どころじゃなかった。",
+          "explanation": "正しい語順は「までは(3) 緊張の(4) あまり(2) 食事する(1)」。★は3番目なので「あまり」。\n「緊張のあまり」＝緊張しすぎた結果。「〜どころではない」＝〜できる状況ではない。",
+          "explanation_vi": "Thứ tự đúng là: までは(3) 緊張の(4) あまり(2) 食事する(1). Vị trí ngôi sao là 2 (あまり).\n「〜のあまり」 = Vì quá ~ (kéo theo kết quả không tốt). Cho đến tận lúc xem thông báo kết quả, vì quá mức căng thẳng nên tôi hoàn toàn không còn tâm trí đâu mà ăn với uống nữa.",
+          "sentence_furigana": "結果(けっか)発表(はっぴょう)を見る(みる) までは 緊張(きんちょう)の あまり 食事(しょくじ)する どころじゃなかった。",
+          "sentence_vi": "Cho đến trước lúc xem công bố kết quả, vì quá hồi hộp nên tôi chẳng còn tâm trí đâu mà ăn uống."
+        },
+        {
+          "id": 9,
+          "text": "連絡の取れない友人が心配で、ハガキの ＿＿＿ ＿＿＿ ★ ＿＿＿ 行った。",
+          "options": [
+            "家を",
+            "頼りに",
+            "探しに",
+            "住所を"
+          ],
+          "correct_order": [
+            4,
+            2,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "連絡の取れない友人が心配で、ハガキの 住所を 頼りに 家を 探しに 行った。",
+          "explanation": "正しい語順は「住所を(4) 頼りに(2) 家を(1) 探しに(3)」。★は3番目なので「家を」。\n「〜を頼りに」＝〜を助け・手がかりとして。ハガキの住所を手がかりにして家を探しに行った。",
+          "explanation_vi": "Thứ tự đúng là: 住所を(4) 頼りに(2) 家を(1) 探しに(3). Vị trí ngôi sao là 1 (家を).\n「〜を頼りに」 = Dựa vào ~, lấy ~ làm manh mối. Vì lo lắng cho người bạn mãi không liên lạc được, nên tôi đã dựa vào manh mối là địa chỉ ghi trên tấm thiệp để đi tìm nhà cậu ấy.",
+          "sentence_furigana": "連絡(れんらく)の取れ(とれ)ない友人(ゆうじん)が心配(しんぱい)で、ハガキ(はがき)の 住所(じゅうしょ)を 頼り(たより)に 家(いえ)を 探し(さがし)に 行っ(いっ)た。",
+          "sentence_vi": "Vì lo cho người bạn mãi không liên lạc được nên tôi đã dựa vào địa chỉ trên tấm thiệp để đi tìm nhà cậu ấy."
+        },
+        {
+          "id": 10,
+          "text": "妹は、やせたいと言い ＿＿＿ ＿＿＿ ★ ＿＿＿ よく甘い物を食べている。",
+          "options": [
+            "一方で",
+            "食事を",
+            "ながらも",
+            "減らす"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "妹は、やせたいと言い ながらも 食事を 減らす 一方で よく甘い物を食べている。",
+          "explanation": "正しい語順は「ながらも(3) 食事を(2) 減らす(4) 一方で(1)」。★は3番目なので「減らす」。\n「言いながらも（逆接）」、「食事を減らす一方で（その反面で）」。やせたいと言いつつ、食事は減らしているが、他方で甘いものを食べている。",
+          "explanation_vi": "Thứ tự đúng là: ながらも(3) 食事を(2) 減らす(4) 一方で(1). Vị trí ngôi sao là 4 (減らす).\nEm gái tôi, dù miệng thì luôn kêu ca là muốn giảm cân, nhưng mà một mặt thì giảm bớt khẩu phần ăn, mặt khác lại thường xuyên ăn rất nhiều đồ ngọt.",
+          "sentence_furigana": "妹(いもうと)は、やせたいと言い(いい) ながらも 食事(しょくじ)を 減らす(へらす) 一方(いっぽう)で よく甘い物(あまいもの)を食べ(たべ)ている。",
+          "sentence_vi": "Em gái tôi miệng thì kêu muốn giảm cân, một mặt cũng chịu giảm bớt khẩu phần ăn đấy, nhưng mặt khác lại suốt ngày ăn đồ ngọt."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　５月５日の「こどもの日」を前に、政府が出生率の調査結果を発表した。それによると、日本の人口全体における子どもの割合は、30年間減少し続けており、今年はついに14％を下回ったそうだ。日本の少子化問題は、ますます深刻化していると【１】。\n　少子化の大きな原因として、女性の社会進出が進んだことや、育児費用が高いことなどが挙げられている。\n　たしかに、今の日本社会では、子どもが生まれた【２】、女性が長い間会社を休みにくい雰囲気がある。そのうえ、小さい子どもを預ける施設の数も十分ではないため、女性にとって、子どもを産むことは仕事を失うことにも【３】のだ。\n　また、経済的な問題で子どもを産むことをためらう人もいる。「職を失ううえに育児費用がかかるのでは、とても育てられ【４】」とあきらめたり、夫婦二人でゆとりある生活を送ることを選択したりするケースも増えている。\n　このままでは将来の労働力が不足するおそれがあるとして、国による早急な対応を望む声があがっている。しかしその一方で、少子化は必ずしも【５】という意見もある。むしろ少子化の現状に対応した社会システムを作るべきだ、という声も少なくない。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "言い切れない",
+            "言わないではいられない",
+            "言わざるを得ない",
+            "言いようがない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜と言わざるを得ない」＝どうしても〜と言わなければならない、そう評価するしかない。「深刻化している」と客観的に判断せざるを得ない。",
+          "explanation_vi": "「〜と言わざるを得ない」 = Không thể không thừa nhận rằng, buộc phải nói rằng. Quả thực không thể không nói rằng vấn đề tỷ lệ sinh giảm tại Nhật Bản đang ngày càng trở nên nghiêm trọng."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "とすると",
+            "にしては",
+            "ところが",
+            "からといって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜からといって」＝〜という理由があっても。子どもが生まれたからといって（生まれたという理由があっても）、会社を休みにくい雰囲気がある。",
+          "explanation_vi": "「〜からといって」 = Chỉ vì, dẫu cho là có lý do ~ đi chăng nữa. Trong xã hội Nhật Bản hiện nay, có một bầu không khí khá là khó xin nghỉ làm trong thời gian dài, dẫu cho là có sinh con đi chăng nữa."
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "つながるほかはない",
+            "つながりかねない",
+            "つながるに決まっている",
+            "つながろうとする"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜かねない」＝〜する可能性がある（マイナスの結果）。仕事を失うことにつながるという悪い可能性がある。",
+          "explanation_vi": "「〜かねない」 = Có nguy cơ, có khả năng (dẫn đến kết quả xấu). Đối với phụ nữ, việc sinh con có nguy cơ sẽ dẫn tới việc đánh mất cả công việc."
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "わけがない",
+            "ようがない",
+            "てならない",
+            "そうにない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜そうにない」＝〜できる可能性が低い。とても育てられそうにない（＝育てるのは無理だ）とあきらめる。",
+          "explanation_vi": "「とても〜そうにない」 = Dù thế nào cũng có vẻ như không thể ~. \"Lại còn vừa mất việc, vừa phải gánh chi phí nuôi con nữa thì dẫu thế nào cũng không kham nuôi cho nổi.\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "悪いとも言えない",
+            "いいとも言えない",
+            "悪いとは言いかねる",
+            "いいとは言いかねない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「必ずしも悪いとも言えない」＝全体的に見て、完全に悪いというわけではない。「必ずしも〜ない（部分否定）」と呼応する。",
+          "explanation_vi": "「必ずしも〜とも言えない」 = Không nhất thiết có thể nói là ~. Cụm từ 必ずしも thường đi với thể phủ định. \"Mặt khác, cũng có ý kiến cho rằng tình trạng giảm tỷ lệ sinh không nhất thiết phải nói là một điều tồi tệ.\""
+        }
+      ]
+    }
+  ]
+}

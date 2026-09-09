@@ -1,0 +1,307 @@
+{
+  "lesson": 15,
+  "title": "第１５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "やると言って引き受けた（　　）、今さら断れない。",
+          "options": [
+            "以上",
+            "以来",
+            "一方",
+            "最中"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜以上（は）」＝〜したのだから、当然（義務や決意）。やると引き受けたのだから、断れない。",
+          "explanation_vi": "「〜以上」 = Một khi đã ~ thì (kéo theo sau là nghĩa vụ, quyết tâm, lẽ đương nhiên). Một khi đã nói là sẽ làm và nhận lời rồi thì đến nước này không thể từ chối được nữa.",
+          "sentence_furigana": "やる と 言っ(いっ)て 引き受け(ひきうけ)た （　　）、今(いま)さら 断れ(ことわれ)ない。",
+          "sentence_vi": "Một khi đã mở miệng nói là làm và nhận việc rồi, thì đến lúc này không thể từ chối được nữa."
+        },
+        {
+          "id": 2,
+          "text": "A：待ってたんだから、ちゃんと連絡してよ。\nB：僕だって待ってたよ。そっち（　　）、なんで連絡くれなかったんだ。",
+          "options": [
+            "こそ",
+            "さえ",
+            "まで",
+            "より"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜こそ」＝（他のものではなく）まさに〜（強調）。そっちこそ（＝あなたの方こそ）連絡するべきだ。",
+          "explanation_vi": "「〜こそ」 = Chính là ~ (nhấn mạnh). A: Đã bắt người ta chờ thì phải liên lạc đàng hoàng chứ. B: Tôi cũng chờ đấy nhé. Phía cậu (chính cậu) ấy, sao lại không liên lạc gì cho tôi hả.",
+          "sentence_furigana": "A：待っ(まっ)てたんだから、ちゃんと 連絡(れんらく)してよ。\nB：僕(ぼく)だって待っ(まっ)てたよ。そっち（　　）、なんで連絡(れんらく)くれなかったんだ。",
+          "sentence_vi": "A: Đã bắt người ta chờ thì phải liên lạc đàng hoàng chứ.\nB: Tôi cũng chờ đấy. Đằng ấy (chính cậu) mới đúng, sao lại không liên lạc gì cho tôi hả."
+        },
+        {
+          "id": 3,
+          "text": "夜中に電話をもらった（　　）目が覚めて、そのまま眠れなくなってしまった。",
+          "options": [
+            "末に",
+            "あげく",
+            "おかげで",
+            "ばかりで"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ばかりに」＝〜したせいで（悪い結果）。「ばかりで」はここでの文脈に合わないが、選択肢から文脈を考えると「〜ばかりに」の誤植または関連表現。ただし、PDFの正解は「ばかりに」の意図と思われる。",
+          "explanation_vi": "「〜ばかりに/ばかりで」 = Chỉ vì ~ mà (dẫn đến kết quả xấu). Chỉ vì nhận được cuộc điện thoại lúc nửa đêm mà tôi bị tỉnh giấc, rồi cứ thế không ngủ lại được nữa.",
+          "sentence_furigana": "夜中(よなか)に 電話(でんわ)をもらった（　　）目(め)が覚め(さめ)て、そのまま 眠れ(ねむれ)なくなってしまった。",
+          "sentence_vi": "Chỉ vì nhận được điện thoại lúc nửa đêm mà tôi bị tỉnh giấc, và rồi cứ thế mất ngủ luôn."
+        },
+        {
+          "id": 4,
+          "text": "これは帰国した（　　）、国で買ったものです。よかったら、どうぞ。",
+          "options": [
+            "折に",
+            "たびに",
+            "場合",
+            "ところ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜折に」＝〜の機会に、〜の時に（硬い表現）。帰国した機会に買ったものです。",
+          "explanation_vi": "「〜折（おり）に」 = Nhân dịp, vào lúc, khi. Đây là món đồ tôi đã mua ở quê nhà nhân dịp về nước. Nếu anh không chê thì xin mời anh nhận cho.",
+          "sentence_furigana": "これは 帰国(きこく)した（　　）、国(くに)で買っ(かっ)たものです。よかったら、どうぞ。",
+          "sentence_vi": "Đây là món đồ tôi mua ở trong nước nhân dịp về nước. Nếu anh không chê thì xin biếu anh."
+        },
+        {
+          "id": 5,
+          "text": "彼は電話を（　　）、あわてて飛び出していった。",
+          "options": [
+            "切れば切るほどに",
+            "切るにしろ切らないにしろ",
+            "切るにつけ切らないにつけ",
+            "切るか切らないかのうちに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜か〜ないかのうちに」＝〜が終わると同時くらいに、すぐに。電話を切るか切らないか（ほとんど同時）のタイミングで飛び出した。",
+          "explanation_vi": "「〜か〜ないかのうちに」 = Vừa mới ~ thì ngay lập tức, ngay khi vừa mới. Anh ta vừa mới cúp điện thoại (chưa biết đã cúp hẳn hay chưa) thì đã vội vàng phóng ra ngoài.",
+          "sentence_furigana": "彼(かれ)は電話(でんわ)を（　　）、あわてて飛び出し(とびだし)ていった。",
+          "sentence_vi": "Anh ta ngay khi vừa cúp điện thoại thì đã cuống cuồng lao ra ngoài."
+        },
+        {
+          "id": 6,
+          "text": "必死で勉強した（　　）、いい点がとれた。",
+          "options": [
+            "からには",
+            "ばかりに",
+            "かいがあって",
+            "からといって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜かいがあって」＝〜の努力の効果が現れて（良い結果）。必死で勉強した努力の効果があって、いい点が取れた。",
+          "explanation_vi": "「〜かいがあって」 = Thật bõ công ~, nhờ nỗ lực ~ mà có kết quả tốt. Thật bõ công tôi đã học hành liều mạng, cuối cùng cũng lấy được điểm cao.",
+          "sentence_furigana": "必死(ひっし)で勉強(べんきょう)した（　　）、いい点(てん)がとれた。",
+          "sentence_vi": "Thật bõ công học hành liều mạng, tôi đã đạt được điểm số cao."
+        },
+        {
+          "id": 7,
+          "text": "こちらのキャンペーンは、今月（　　）終了となります。",
+          "options": [
+            "限りで",
+            "に限り",
+            "として",
+            "にして"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜限りで」＝〜を最後に（期間の終わり）。今月を最後に終了する。",
+          "explanation_vi": "「〜限りで」 = Đến hết ~ (chỉ giới hạn thời gian kết thúc). Chương trình khuyến mãi này sẽ kết thúc khi hết tháng này.",
+          "sentence_furigana": "こちらのキャンペーン(きゃんぺーん)は、今月(こんげつ)（　　）終了(しゅうりょう)となります。",
+          "sentence_vi": "Chương trình khuyến mãi của chúng tôi sẽ kết thúc vào hết tháng này."
+        },
+        {
+          "id": 8,
+          "text": "兄は夕食を食べ終わった（　　）たちまち眠ってしまった。",
+          "options": [
+            "かと思うと",
+            "あまり",
+            "次第",
+            "ものなら"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かと思うと」＝〜するとすぐに（予想外の変化）。食べ終わったと思ったら、すぐに眠ってしまった。",
+          "explanation_vi": "「〜かと思うと」 = Vừa mới ~ thì ngay lập tức (mang cảm giác bất ngờ). Anh trai tôi vừa mới ăn tối xong một cái là thoắt cái đã ngủ thiếp đi rồi.",
+          "sentence_furigana": "兄(あに)は夕食(ゆうしょく)を食べ終わっ(たべおわっ)た（　　）たちまち眠っ(ねむっ)てしまった。",
+          "sentence_vi": "Anh trai tôi vừa mới ăn tối xong một cái thì loáng cái đã ngủ thiếp đi rồi."
+        },
+        {
+          "id": 9,
+          "text": "有名なレストランが、必ずしもおいしい（　　）。",
+          "options": [
+            "にすぎない",
+            "とは限らない",
+            "に違いない",
+            "わけがない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜とは限らない」＝必ず〜だとは言えない（部分否定）。有名だからといって、必ずしもおいしいとは限らない。",
+          "explanation_vi": "「必ずしも〜とは限らない」 = Không hẳn là, chưa chắc là. Không phải cứ là nhà hàng nổi tiếng thì chắc chắn sẽ ngon.",
+          "sentence_furigana": "有名(ゆうめい)なレストラン(れすとらん)が、必ずしも(かならずしも)おいしい（　　）。",
+          "sentence_vi": "Nhà hàng nổi tiếng thì chưa chắc là đã ngon."
+        },
+        {
+          "id": 10,
+          "text": "この辺りは秋になると、紅葉で山が燃えている（　　）真っ赤になる。",
+          "options": [
+            "とみえて",
+            "かのように",
+            "と思いきや",
+            "とばかりに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜かのように」＝まるで〜みたいに（比喩）。実際に燃えているわけではないが、まるで燃えているみたいに赤くなる。",
+          "explanation_vi": "「〜かのように」 = Cứ như thể là ~ (so sánh ví von). Khu vực này cứ đến mùa thu là lại đỏ rực lên, cứ như thể cả ngọn núi đang bốc cháy vì lá đỏ vậy.",
+          "sentence_furigana": "この辺り(あたり)は秋(あき)になると、紅葉(こうよう)で山(やま)が燃え(もえ)ている（　　）真っ赤(まっか)になる。",
+          "sentence_vi": "Ở vùng này cứ đến mùa thu là cảnh sắc lại đỏ rực rỡ cứ như thể ngọn núi đang bốc cháy vì lá đỏ vậy."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "こんなひどいサービスには、どうしても一言 ＿＿＿ ＿＿＿ ★ ＿＿＿ 。",
+          "options": [
+            "には",
+            "文句を",
+            "いられない",
+            "言わず"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "こんなひどいサービスには、どうしても一言 文句を 言わず には いられない 。",
+          "explanation": "正しい語順は「文句を(2) 言わず(4) には(1) いられない(3)」。★は3番目なので「には」。\n「〜ずにはいられない」＝〜しないではいられない、どうしても〜してしまう。",
+          "explanation_vi": "Thứ tự đúng là: 文句を(2) 言わず(4) には(1) いられない(3). Vị trí ngôi sao là 1 (には). \n「〜ずにはいられない」 = Không thể không ~, kiểu gì cũng phải ~. Với cái kiểu dịch vụ tồi tệ như thế này, kiểu gì tôi cũng phải phàn nàn một câu mới được.",
+          "sentence_furigana": "こんなひどいサービス(さーびす)には、どうしても一言(ひとこと) 文句(もんく)を 言わ(いわ)ず には いられない 。",
+          "sentence_vi": "Với chất lượng phục vụ tồi tệ thế này thì tôi không thể nào không phàn nàn một câu cho được."
+        },
+        {
+          "id": 12,
+          "text": "その質問に答えられる ＿＿＿ ＿＿＿ ★ ＿＿＿ いなかった。",
+          "options": [
+            "として",
+            "者は",
+            "一人",
+            "誰"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "その質問に答えられる 者は として 誰 一人 いなかった。",
+          "explanation": "正しい語順は「者は(2) として(1) 誰(4) 一人(3)」。★は3番目なので「誰」。\n「誰一人として〜ない」＝誰も〜ない（全否定の強調）。",
+          "explanation_vi": "Thứ tự đúng là: 者は(2) として(1) 誰(4) 一人(3). Vị trí ngôi sao là 4 (誰). \n「誰一人として〜ない」 = Không một ai (nhấn mạnh phủ định hoàn toàn). Những người có thể trả lời được câu hỏi đó, không có lấy một ai.",
+          "sentence_furigana": "その質問(しつもん)に答え(こたえ)られる 者(もの)は として 誰(だれ) 一人(ひとり) いなかった。",
+          "sentence_vi": "Người mà có thể trả lời được câu hỏi đó, tuyệt nhiên không có lấy một ai."
+        },
+        {
+          "id": 13,
+          "text": "連絡先がわからない ＿＿＿ ＿＿＿ ★ ＿＿＿ のだから待つしかない。",
+          "options": [
+            "が",
+            "以上",
+            "ない",
+            "知らせよう"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "連絡先がわからない 以上 知らせよう が ない のだから待つしかない。",
+          "explanation": "正しい語順は「以上(2) 知らせよう(4) が(1) ない(3)」。★は3番目なので「が」。\n「〜以上」＝〜なのだから当然。「〜ようがない」＝〜する方法がない。",
+          "explanation_vi": "Thứ tự đúng là: 以上(2) 知らせよう(4) が(1) ない(3). Vị trí ngôi sao là 1 (が).\nMột khi đã không biết địa chỉ liên lạc thì chẳng có cách nào để thông báo cả, nên đành phải chờ thôi.",
+          "sentence_furigana": "連絡(れんらく)先(さき)がわからない 以上(いじょう) 知らせよう(しらせよう) が ない のだから待つ(まつ)しかない。",
+          "sentence_vi": "Một khi đã không biết thông tin liên lạc thì cũng vô phương báo tin, nên chỉ còn cách chờ đợi thôi."
+        },
+        {
+          "id": 14,
+          "text": "小説 ＿＿＿ ＿＿＿ ★ ＿＿＿ さまざまなジャンルがある。",
+          "options": [
+            "テーマや",
+            "時代背景",
+            "といっても",
+            "によって"
+          ],
+          "correct_order": [
+            3,
+            1,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "小説 といっても テーマや 時代背景 によって さまざまなジャンルがある。",
+          "explanation": "正しい語順は「といっても(3) テーマや(1) 時代背景(2) によって(4)」。★は3番目なので「時代背景」。\n「〜といっても」＝〜というが、実際は。「〜によって」＝〜に応じて。",
+          "explanation_vi": "Thứ tự đúng là: といっても(3) テーマや(1) 時代背景(2) によって(4). Vị trí ngôi sao là 2 (時代背景).\nDù nói là tiểu thuyết nhưng tùy theo chủ đề và bối cảnh thời đại mà nó cũng được chia thành rất nhiều thể loại khác nhau.",
+          "sentence_furigana": "小説(しょうせつ) といっても テーマ(てーま)や 時代(じだい)背景(はいけい) によって さまざまなジャンル(じゃんる)がある。",
+          "sentence_vi": "Dù nói chung là tiểu thuyết nhưng tùy vào đề tài hay bối cảnh thời đại mà có rất nhiều thể loại khác nhau."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　人はなぜおしゃれをするのか？　ファッションの目的はいったい何か？\n　ファッションについて、根源的なところからこうたずねてみたら、答えるのは【１】やさしくない。答えが単純ではないからである。\n　他人によく【2-a】から。自分をよく【2-b】から。とっさにそんな答えがうかんでくる。だが、その《他人》とは、つきつめてみれば、いったい誰なのか？\n　たしかに、問いの答えはシンプルではない。他人ではなく、自己満足のためというのも一つの答えだろうし、他人を意識しているとしても、わたしが「より美しい《私》」を見せたい相手は、ひとりとは【３】、時と場所、状況によって変化しうるからである。わたしは不特定多数の目に自分の姿をさしだしているのであり、意識のどこかでいつもそのことを知っている。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "それほど",
+            "それまで",
+            "これほど",
+            "これまで"
+          ],
+          "correct_answer": 1,
+          "explanation": "「それほど〜ない」＝そんなに〜ない。答えるのはそれほど（＝思っているほど）簡単ではない、という意味。",
+          "explanation_vi": "「それほど〜ない」 = Không ~ đến mức như vậy. Trả lời những câu hỏi mang tính cội nguồn về thời trang \"không hề dễ dàng đến vậy\" (vì câu trả lời không đơn giản)."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "a 見せたい／b 見られたい",
+            "a 見られたい／b 見せたい",
+            "a 見せたい／b 見せられたい",
+            "a 見せられたい／b 見せたい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「他人によく見られたい」＝他人に自分を良く評価されたい。「自分をよく見せたい」＝自分を良いように相手にアピールしたい。この組み合わせが自然。",
+          "explanation_vi": "「他人によく見られたい」 = Muốn được người khác nhìn nhận tốt về mình (bị động). 「自分をよく見せたい」 = Muốn phô bày/thể hiện bản thân mình thật tốt (chủ động). Sự kết hợp này là tự nhiên nhất trong ngữ cảnh."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "問わず",
+            "かぎらず",
+            "かまわず",
+            "かかわらず"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜とは限らない」＝必ず〜だとは言えない。「相手は一人とは限らず（＝一人だけではなく）、状況によって変化する」という文脈。",
+          "explanation_vi": "「〜とは限らない/限らず」 = Không nhất thiết phải là, không chỉ giới hạn là. Đối tượng mà tôi muốn cho họ thấy \"một cái tôi đẹp hơn\" không chỉ giới hạn ở một người (không hẳn là một người), mà nó có thể thay đổi tùy thuộc vào thời gian, địa điểm và tình huống."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,265 @@
+{
+  "lesson": 19,
+  "title": "第１９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "知っている人に会わない（　　）から、ちゃんとお化粧をしてから出かけよう。",
+          "options": [
+            "ではいられない",
+            "とも限らない",
+            "どころではない",
+            "に違いない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ないとも限らない」＝（可能性は低いが）〜かもしれない。知っている人に会わないという保証はない（会うかもしれない）から。",
+          "explanation_vi": "「〜ないとも限らない」 = Không hẳn là không ~, chưa biết chừng lại ~ (vẫn có khả năng xảy ra). Biết đâu lại bắt gặp người quen cũng nên, nên cứ trang điểm đàng hoàng rồi hẵng ra ngoài.",
+          "sentence_furigana": "知っ(しっ)ている人(ひと)に会わ(あわ)ない（　　）から、ちゃんとお化粧(けしょう)をしてから出かけよう(でかけよう)。",
+          "sentence_vi": "Chưa biết chừng lại đụng mặt người quen cũng nên, vậy nên hãy trang điểm cẩn thận rồi hẵng ra ngoài nhé."
+        },
+        {
+          "id": 2,
+          "text": "地図で見ると近そうだが、行って（　　）何分かかるかわからない。",
+          "options": [
+            "みてまでは",
+            "みようとも",
+            "みるにしては",
+            "みないことには"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てみないことには」＝実際に〜してみないと（結果がわからない）。実際に行ってみないことには、何分かかるかわからない。",
+          "explanation_vi": "「〜てみないことには」 = Nếu không thử ~ thì (sẽ không biết được kết quả). Xem trên bản đồ thì có vẻ gần đấy, nhưng nếu không thử đi thực tế thì chẳng thể nào biết được sẽ mất bao nhiêu phút đâu.",
+          "sentence_furigana": "地図(ちず)で見(み)ると近(ちか)そうだが、行っ(いっ)て（　　）何分(なんぷん)かかるかわからない。",
+          "sentence_vi": "Nhìn trên bản đồ thì có vẻ gần, nhưng nếu chưa thử đi thực tế thì không thể biết được mất mấy phút đâu."
+        },
+        {
+          "id": 3,
+          "text": "もう大人なのだから、いつまでも周りの人に頼って（　　）はいられない。",
+          "options": [
+            "限り",
+            "こそ",
+            "のみ",
+            "ばかり"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てばかりはいられない」＝いつまでもずっと〜していることはできない。ずっと周りに頼り続けるわけにはいかない。",
+          "explanation_vi": "「〜てばかりはいられない」 = Không thể cứ mãi ~ được. Lớn rồi nên không thể cứ dựa dẫm vào những người xung quanh mãi được.",
+          "sentence_furigana": "もう大人(おとな)なのだから、いつまでも周り(まわり)の人(ひと)に頼っ(たよっ)て（　　）はいられない。",
+          "sentence_vi": "Đã lớn rồi nên không thể cứ dựa dẫm vào người xung quanh mãi được đâu."
+        },
+        {
+          "id": 4,
+          "text": "この会社では、社員は商品を4割引で購入できる（　　）。",
+          "options": [
+            "ものにされている",
+            "ものになっている",
+            "ことにされている",
+            "ことになっている"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ことになっている」＝（会社などの）規則や予定として決まっている。4割引で買えるという会社の規則がある。",
+          "explanation_vi": "「〜ことになっている」 = Đã có quy định là, đã có lịch trình là ~. Ở công ty này có quy định là nhân viên có thể mua sản phẩm với mức giá giảm 40%.",
+          "sentence_furigana": "この会社(かいしゃ)では、社員(しゃいん)は商品(しょうひん)を4割引(よんわりびき)で購入(こうにゅう)できる（　　）。",
+          "sentence_vi": "Ở công ty này có quy định nhân viên được mua sản phẩm với giá giảm 40%."
+        },
+        {
+          "id": 5,
+          "text": "社員を採用する（　　）特に重要視しているのは、コミュニケーション能力だ。",
+          "options": [
+            "上で",
+            "上に",
+            "あまり",
+            "あまりに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜する上で」＝〜する場合に、〜の過程で。採用活動をする過程で、特に重要視していること。",
+          "explanation_vi": "「〜する上で」 = Trong quá trình ~, khi ~. Trong quá trình tuyển dụng nhân viên, điều mà chúng tôi đặc biệt coi trọng chính là khả năng giao tiếp.",
+          "sentence_furigana": "社員(しゃいん)を採用(さいよう)する（　　）特(とく)に重要(じゅうよう)視(し)しているのは、コミュニケーション(こみゅにけーしょん)能力(のうりょく)だ。",
+          "sentence_vi": "Trong quá trình tuyển dụng nhân sự, điều được chú trọng đặc biệt chính là kỹ năng giao tiếp."
+        },
+        {
+          "id": 6,
+          "text": "会社はその製品の問題点について（　　）、事故が起きるまで公表しなかった。",
+          "options": [
+            "知ってまで",
+            "知りながら",
+            "知った上に",
+            "知ったあげく"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ながら（も）」＝〜にもかかわらず（逆接）。問題点を知っていたにもかかわらず、公表しなかった。",
+          "explanation_vi": "「〜ながら（も）」 = Tuy ~ nhưng (diễn tả sự đối lập). Dù đã biết về những vấn đề của sản phẩm đó, nhưng công ty vẫn không chịu công bố cho đến tận khi sự cố xảy ra.",
+          "sentence_furigana": "会社(かいしゃ)はその製品(せいひん)の問題点(もんだいてん)について（　　）、事故(じこ)が起きる(おきる)まで公表(こうひょう)しなかった。",
+          "sentence_vi": "Dù đã biết rõ về vấn đề của sản phẩm đó, vậy mà công ty vẫn không chịu công bố cho đến khi tai nạn xảy ra."
+        },
+        {
+          "id": 7,
+          "text": "皆様のご協力（　　）、ここまで来ることはできませんでした。",
+          "options": [
+            "なくして",
+            "にかかわらず",
+            "ないことで",
+            "のみならず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜なくして（は）〜ない」＝〜がなかったら絶対に〜できない。皆様の協力がなかったら、ここまで来ることはできなかった。",
+          "explanation_vi": "「〜なくして（は）〜ない」 = Nếu không có ~ thì tuyệt đối không thể ~. Nếu không có sự hợp tác của mọi người thì chúng tôi đã không thể tiến xa được đến bước này.",
+          "sentence_furigana": "皆様(みなさま)のご協力(きょうりょく)（　　）、ここまで来る(くる)ことはできませんでした。",
+          "sentence_vi": "Nếu không nhờ có sự chung tay của tất cả quý vị thì chúng tôi đã không thể đạt được thành quả như ngày hôm nay."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "何かひとつの分野に ＿＿＿ ＿＿＿ ★ ＿＿＿ ことは人生を豊かにするだろう。",
+          "options": [
+            "限らず",
+            "にわたって",
+            "多様な方面",
+            "興味を持つ"
+          ],
+          "correct_order": [
+            1,
+            3,
+            2,
+            4
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "何かひとつの分野に 限らず 多様な方面 にわたって 興味を持つ ことは人生を豊かにするだろう。",
+          "explanation": "正しい語順は「限らず(1) 多様な方面(3) にわたって(2) 興味を持つ(4)」。★は3番目なので「にわたって」。\n「〜に限らず」＝〜だけでなく。「〜にわたって」＝〜という広い範囲全体で。",
+          "explanation_vi": "Thứ tự đúng là: 限らず(1) 多様な方面(3) にわたって(2) 興味を持つ(4). Vị trí ngôi sao là 2 (にわたって).\nKhông chỉ giới hạn ở một lĩnh vực nào đó, mà việc có hứng thú trải rộng trên nhiều phương diện đa dạng sẽ làm cho cuộc sống trở nên phong phú hơn.",
+          "sentence_furigana": "何(なに)かひとつの分野(ぶんや)に 限ら(かぎら)ず 多様(たよう)な方面(ほうめん) にわたって 興味(きょうみ)を持つ(もつ) ことは人生(じんせい)を豊か(ゆたか)にするだろう。",
+          "sentence_vi": "Việc không chỉ giới hạn ở một lĩnh vực, mà có hứng thú với đa dạng nhiều phương diện khác nhau có lẽ sẽ làm cho cuộc đời thêm phần phong phú."
+        },
+        {
+          "id": 9,
+          "text": "その国会議員は、元モデル ＿＿＿ ＿＿＿ ★ ＿＿＿ 人とは違う。",
+          "options": [
+            "ほかの",
+            "という",
+            "からして",
+            "経歴"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "その国会議員は、元モデル という 経歴 からして ほかの 人とは違う。",
+          "explanation": "正しい語順は「という(2) 経歴(4) からして(3) ほかの(1)」。★は3番目なので「からして」。\n「〜からして」＝〜（という一例）からみても（他のことも当然そうだ）。",
+          "explanation_vi": "Thứ tự đúng là: という(2) 経歴(4) からして(3) ほかの(1). Vị trí ngôi sao là 3 (からして).\nVị nghị sĩ quốc hội đó, ngay từ cái lý lịch xuất thân là cựu người mẫu thôi đã thấy khác biệt hoàn toàn với những người khác rồi.",
+          "sentence_furigana": "その国会議員(こっかいぎいん)は、元モデル(もともでる) という 経歴(けいれき) からして ほかの 人(ひと)とは違う(ちがう)。",
+          "sentence_vi": "Nghị sĩ quốc hội đó, chỉ nguyên cái lý lịch từng là người mẫu thôi đã thấy khác bọt với người bình thường rồi."
+        },
+        {
+          "id": 10,
+          "text": "携帯にいたずらメールがたくさん届くのは ＿＿＿ ＿＿＿ ★ ＿＿＿ か。",
+          "options": [
+            "ならない",
+            "だろう",
+            "どうにか",
+            "もの"
+          ],
+          "correct_order": [
+            3,
+            1,
+            4,
+            2
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "携帯にいたずらメールがたくさん届くのは どうにか ならない もの だろう か。",
+          "explanation": "正しい語順は「どうにか(3) ならない(1) もの(4) だろう(2)」。★は3番目なので「もの」。\n「どうにかならないものだろうか」＝どうにかして解決してほしい（強い願望を表す決まり文句）。",
+          "explanation_vi": "Thứ tự đúng là: どうにか(3) ならない(1) もの(4) だろう(2). Vị trí ngôi sao là 4 (もの).\n「どうにかならないものだろうか」 = Không có cách nào xử lý được hay sao (thể hiện mong muốn có cách giải quyết). Việc có quá nhiều thư rác gửi đến điện thoại như thế này không có cách nào ngăn chặn được hay sao cơ chứ.",
+          "sentence_furigana": "携帯(けいたい)にいたずらメール(めーる)がたくさん届く(とどく)のは どうにか ならない もの だろう か。",
+          "sentence_vi": "Việc điện thoại bị nhận quá trời thư rác thế này, không có cách nào xử lý được hay sao ta."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　どうも元気が出ない、やる気がおきないという日が続くことはないだろうか。\n　大きな失敗をした【１】、勉強や仕事が思ったとおりには進んでいない。友人との関係はいつもどおりだが、友人の何気ない一言にひそかに傷ついたり、孤独を感じてしまったりする。また、約束の時間に遅れたとか、貸してほしいと頼まれていたものを忘れたなど、人と付き合う上で、小さなミスが続く自分にがっかりしてしまう。【２】そんな時にかぎって、何かをなくしたり、いつも使っているものがこわれてしまったりする。\n　なんとか元気を出さなければと、お酒を飲んだりおいしいものを食べたり、自分なりの方法で気分を変えようとする。しかし、お酒を飲み終わってしまうとまた元に戻って、むしろ疲れとむなしさだけが残る。そのうち気分を変えることさえ【３】。\n　こういうときは、静かに待つことだと思う。生きていく長い時間の中には、調子が【4-a】、調子が【4-b】。それは波のようにくり返しやってくる。今は調子の悪いときなのだと受け入れてしまうのも一つの方法なのだ。なんとかしようなどと思わなくていい。毎日【５】ことをきちんとやり、不調の波が引いて行くのを静かに待つ。今は調子が悪いときだということを受け入れることは、反対に、いつかいいときが来るという希望を持つことでもあるのだから。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "ものの",
+            "だけあって",
+            "からといって",
+            "わけではないが"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わけではないが」＝〜という理由ではないが（部分否定）。大きな失敗をしたというわけではないが、思った通りに進んでいない、という文脈。",
+          "explanation_vi": "「〜わけではないが」 = Không hẳn là, không phải là ~. \"Không phải là bị thất bại gì to tát, thế nhưng việc học và công việc lại không tiến triển như mong đợi.\""
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "おまけに",
+            "ついでに",
+            "やはり",
+            "ちなみに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「おまけに」＝そのうえ、さらに（悪いことが重なる）。ミスが続いてがっかりしているところに、さらに追い打ちをかけるように物が壊れたりする。",
+          "explanation_vi": "「おまけに」 = Thêm vào đó, đã thế lại còn (thường dùng khi có thêm một việc tồi tệ/tốt đẹp xảy ra chồng chất lên). \"Đã thế lại còn đúng vào những lúc như vậy thì lại hay đánh mất đồ...\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "したくならない",
+            "したくないのである",
+            "したくないものがある",
+            "したくなくなってくる"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てくる」＝変化が進行する。「したくなくなる」という気持ちの変化が起きて、それがだんだんと進んでくる様子を表す。",
+          "explanation_vi": "「〜てくる」 = Bắt đầu ~, dần trở nên ~ (chỉ sự biến đổi trạng thái). \"Dần dà rồi ngay cả việc cố gắng thay đổi tâm trạng mình cũng trở nên không còn muốn làm nữa.\""
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "a いいときもあれば／b 悪いときもある",
+            "a いいときもあるだけ／b 悪いときもある",
+            "a いいときはあっても／b 悪いときはない",
+            "a いいときはありつつ／b 悪いときはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜もあれば〜もある」＝〜なことも、〜なこともある（対比・並列）。調子がいいときもあれば、悪いときもある。",
+          "explanation_vi": "「〜もあれば〜もある」 = Cũng có lúc ~ mà cũng có lúc ~. \"Trong cuộc đời dài rộng, sẽ có những lúc bềnh bồng thuận lợi, mà cũng sẽ có những lúc trắc trở lao đao.\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "やりきる",
+            "やるべき",
+            "やるまい",
+            "やりかけの"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜べき」＝〜するのが当然だ。毎日「やるべきこと（＝やらなければならない当然のこと）」をきちんとやる。",
+          "explanation_vi": "「〜べき（こと）」 = Việc đáng lẽ phải làm, việc nên làm. \"Chỉ cần làm chỉn chu những việc cần làm mỗi ngày, và lặng lẽ chờ đợi làn sóng xui xẻo kia rút đi.\""
+        }
+      ]
+    }
+  ]
+}

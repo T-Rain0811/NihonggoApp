@@ -1,0 +1,265 @@
+{
+  "lesson": 28,
+  "title": "第２８回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "忙しかったり暑かったりすると、人はイライラ（　　）。",
+          "options": [
+            "げだ",
+            "気味だ",
+            "っぽい",
+            "しがちだ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜がちだ」＝〜しやすい、〜することが多い（マイナスの傾向）。人はイライラしやすい。",
+          "explanation_vi": "「〜がちだ」 = Thường hay ~, dễ bị ~ (chỉ một xu hướng không tốt). Khi bận rộn hay khi trời nóng bức, con người ta thường hay trở nên cáu bẳn.",
+          "sentence_furigana": "忙しかっ(いそがしかっ)たり暑かっ(あつかっ)たりすると、人(ひと)はイライラ(いらいら)（　　）。",
+          "sentence_vi": "Khi bận rộn hoặc khi trời nóng nực, con người ta thường dễ trở nên cáu kỉnh."
+        },
+        {
+          "id": 2,
+          "text": "名店と呼ばれるような店は、入り口（　　）清潔で美しいものだ。",
+          "options": [
+            "からこそ",
+            "からして",
+            "からまで",
+            "からには"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜からして」＝〜（という極端な一例）からして（全体が推測できる）。入り口からすでに清潔で美しいのだから、中ももちろんそうだ。",
+          "explanation_vi": "「〜からして」 = Ngay từ, nhìn từ (một khía cạnh nào đó là đã thấy...). Những cửa hàng được mệnh danh là danh tiếng thì ngay từ cái lối ra vào thôi trông đã thấy sạch sẽ và đẹp đẽ rồi.",
+          "sentence_furigana": "名店(めいてん)と呼ばれる(よばれる)ような店(みせ)は、入り口(いりぐち)（　　）清潔(せいけつ)で美しい(うつくしい)ものだ。",
+          "sentence_vi": "Những cửa tiệm được gọi là cửa tiệm danh tiếng thì ngay từ lối ra vào thôi trông đã vô cùng sạch sẽ và đẹp mắt rồi."
+        },
+        {
+          "id": 3,
+          "text": "子どもの（　　）ファーストクラスに乗るなんて、ぜいたくだ。",
+          "options": [
+            "くせに",
+            "ままに",
+            "うえに",
+            "だけに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜くせに」＝〜のに（非難・不満）。子どもなのにファーストクラスに乗るのはぜいたくだ。",
+          "explanation_vi": "「〜くせに」 = Dù là ~ vậy mà (dùng để chê trách, bất mãn). Mới chỉ là một đứa trẻ con vậy mà lại đòi đi ghế hạng nhất, thật là quá xa xỉ.",
+          "sentence_furigana": "子ども(こども)の（　　）ファーストクラス(ふぁーすとくらす)に乗る(のる)なんて、ぜいたくだ。",
+          "sentence_vi": "Chỉ là trẻ con thôi mà lại đi tận khoang hạng nhất, đúng là quá xa xỉ."
+        },
+        {
+          "id": 4,
+          "text": "遅れてすみません。道が渋滞していた（　　）で……。",
+          "options": [
+            "から",
+            "はず",
+            "もの",
+            "わけ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜もの（だから／で）」＝〜ので（個人的な理由や言い訳）。渋滞していたせいで遅れたという言い訳。",
+          "explanation_vi": "「〜もの／もんで」 = Vì ~ (thường dùng làm lý do ngụy biện). Xin lỗi vì đã đến muộn. Tại đường tắc quá nên...",
+          "sentence_furigana": "遅れ(おくれ)てすみません。道(みち)が渋滞(じゅうたい)していた（　　）で……。",
+          "sentence_vi": "Xin lỗi tớ tới trễ. Tại vì kẹt xe quá đâm ra..."
+        },
+        {
+          "id": 5,
+          "text": "次の世代のためにも、地球の環境問題について真剣に考え（　　）。",
+          "options": [
+            "そうでもありませんか",
+            "そうにもありませんか",
+            "ようがありませんか",
+            "ようではありませんか"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ようではないか」＝〜しましょうよ（強い呼びかけ）。真剣に考えましょうよ。",
+          "explanation_vi": "「〜ようではないか」 = Hãy cùng nhau ~ (đưa ra lời kêu gọi một cách mạnh mẽ). Vì thế hệ mai sau, chúng ta hãy cùng nhau nghiêm túc suy nghĩ về vấn đề môi trường trái đất nào.",
+          "sentence_furigana": "次(つぎ)の世代(せだい)のためにも、地球(ちきゅう)の環境(かんきょう)問題(もんだい)について真剣(しんけん)に考え(かんがえ)（　　）。",
+          "sentence_vi": "Vì thế hệ tương lai, chúng ta hãy cùng nhau suy nghĩ nghiêm túc về vấn đề môi trường của Trái Đất đi nào."
+        },
+        {
+          "id": 6,
+          "text": "古代の都が存在した場所（　　）論争が続いている。",
+          "options": [
+            "に沿って",
+            "につれて",
+            "をめぐって",
+            "にもとづいて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜をめぐって」＝〜を中心にして（議論や争いがある）。その場所をめぐって、論争がある。",
+          "explanation_vi": "「〜をめぐって」 = Xoay quanh ~ (thường đi với các từ chỉ sự tranh luận, bàn tán). Cuộc tranh luận xoay quanh vị trí tồn tại của kinh đô cổ đại vẫn đang tiếp tục diễn ra.",
+          "sentence_furigana": "古代(こだい)の都(みやこ)が存在(そんざい)した場所(ばしょ)（　　）論争(ろんそう)が続い(つづい)ている。",
+          "sentence_vi": "Những tranh luận xoay quanh vị trí từng tồn tại kinh đô cổ xưa vẫn đang được tiếp diễn."
+        },
+        {
+          "id": 7,
+          "text": "どんなに安全な自動車を開発したとしても、事故は（　　）。",
+          "options": [
+            "起こり得る",
+            "起こりかねる",
+            "起こる一方だ",
+            "起こらざるを得ない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜得る（うる／える）」＝〜できる、〜する可能性がある。事故は起こる可能性がある。",
+          "explanation_vi": "「〜得る（うる／える）」 = Có thể xảy ra, có khả năng ~. Cho dù có phát triển ra loại ô tô an toàn đến mức nào đi chăng nữa, thì tai nạn vẫn có khả năng xảy ra.",
+          "sentence_furigana": "どんなに安全(あんぜん)な自動車(じどうしゃ)を開発(かいはつ)したとしても、事故(じこ)は（　　）。",
+          "sentence_vi": "Dẫu có chế tạo ra loại ô tô an toàn đến cỡ nào đi chăng nữa thì sự cố vẫn có khả năng xảy ra."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 8,
+          "text": "いくら頭がよくても、全然勉強しないで合格する ＿＿＿ ＿＿＿ ★ ＿＿＿ ない。",
+          "options": [
+            "わけが",
+            "なんて",
+            "得る",
+            "あり"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "いくら頭がよくても、全然勉強しないで合格する なんて あり 得る わけが ない。",
+          "explanation": "正しい語順は「なんて(2) あり(4) 得る(3) わけが(1)」。★は3番目なので「得る」。\n「〜あり得る（ありうる）」＝存在する可能性がある。「〜わけがない」＝絶対にない。そんなこと（＝合格すること）は起こる可能性が絶対にない。",
+          "explanation_vi": "Thứ tự đúng là: なんて(2) あり(4) 得る(3) わけが(1). Vị trí ngôi sao là 3 (得る).\n「〜あり得る（ありうる）」 = Có khả năng tồn tại, có khả năng xảy ra. 「〜わけがない」 = Làm gì có chuyện ~, tuyệt đối không ~. Dẫu cho có thông minh đến mấy đi chăng nữa, thì chuyện hoàn toàn không học hành gì mà vẫn đỗ làm gì có khả năng xảy ra được chứ.",
+          "sentence_furigana": "いくら頭(あたま)がよくても、全然(ぜんぜん)勉強(べんきょう)しないで合格(ごうかく)する なんて あり 得る(うる) わけが ない。",
+          "sentence_vi": "Dù có thông minh đến mấy đi nữa thì cái việc chẳng học hành gì mà vẫn đỗ làm gì có cửa xảy ra cơ chứ."
+        },
+        {
+          "id": 9,
+          "text": "忙しくて気持ちに余裕がないとき ＿＿＿ ＿＿＿ ★ ＿＿＿ だ。",
+          "options": [
+            "もの",
+            "思いやりを",
+            "こそ",
+            "忘れたくない"
+          ],
+          "correct_order": [
+            3,
+            2,
+            4,
+            1
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "忙しくて気持ちに余裕がないとき こそ 思いやりを 忘れたくない もの だ。",
+          "explanation": "正しい語順は「こそ(3) 思いやりを(2) 忘れたくない(4) もの(1)」。★は3番目なので「忘れたくない」。\n「〜こそ」＝他ではないまさに〜だ。「〜たいものだ」＝心から〜したいと思う。",
+          "explanation_vi": "Thứ tự đúng là: こそ(3) 思いやりを(2) 忘れたくない(4) もの(1). Vị trí ngôi sao là 4 (忘れたくない).\n「〜ものだ」 = Nên, bản chất là ~ (nhấn mạnh cảm xúc, hoặc một chân lý). Chính vào những lúc bận rộn và không có thời gian tĩnh tâm thì con người ta lại càng không muốn đánh mất đi sự thấu hiểu và quan tâm dành cho người khác.",
+          "sentence_furigana": "忙しくて(いそがしくて)気持ち(きもち)に余裕(よゆう)がないとき こそ 思いやり(おもいやり)を 忘れ(わすれ)たくない もの だ。",
+          "sentence_vi": "Chính vào những lúc bận rộn thiếu thốn thời gian lại càng là lúc không được phép quên đi sự cảm thông, chu đáo."
+        },
+        {
+          "id": 10,
+          "text": "世界中どこを探しても、ここ ＿＿＿ ＿＿＿ ★ ＿＿＿ 場所などない。",
+          "options": [
+            "と言い",
+            "きれる",
+            "安全だ",
+            "なら"
+          ],
+          "correct_order": [
+            4,
+            3,
+            1,
+            2
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "世界中どこを探しても、ここ なら 安全だ と言い きれる 場所などない。",
+          "explanation": "正しい語順は「なら(4) 安全だ(3) と言い(1) きれる(2)」。★は3番目なので「と言い」。\n「言い切れる」＝自信を持って確実に言える。ここならば安全だと確実に言える場所はない。",
+          "explanation_vi": "Thứ tự đúng là: なら(4) 安全だ(3) と言い(1) きれる(2). Vị trí ngôi sao là 1 (と言い).\n「〜きれる」 = Có thể làm xong, có thể làm một cách dứt khoát. Dẫu có tìm kiếm khắp trên thế giới này, cũng chẳng có một nơi nào mà người ta có thể mạnh miệng nói chắc nịch rằng \"chỉ cần ở đây là an toàn cả\".",
+          "sentence_furigana": "世界中(せかいじゅう)どこを探し(さがし)ても、ここ なら 安全(あんぜん)だ と言い(といい) きれる 場所(ばしょ)などない。",
+          "sentence_vi": "Dẫu có tìm kiếm khắp thế giới đi chăng nữa thì cũng chẳng có nơi nào mà ta có thể mạnh miệng nói chắc chắn rằng 'chỗ này an toàn' đâu."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から５の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　インターネットは私たちの生活を大きく変えた。もはやインターネットがない生活【１】世の中になった。パソコンだけでなく、携帯電話でも気軽にインターネットを利用することができるようになり、知りたい情報をいつでもどこでも得ることができるようになった。そればかりか、買い物もできればホテルなどの予約もできる。\n　しかしながら、インターネットは使い方【２】、非常に危険なツールとなることを忘れてはならない。\n　今の学校教育では、パソコンの操作方法やインターネットを利用しての情報の集め方などを教えることに重点が置かれている。それらの知識や技術を教えることは【３】、子どもたちのモラルを高めていくことが求められている。\n　たとえば、個人情報の流出や、掲示板などでの発言が深刻なトラブルに【４】ということを、くわしく説明している。しかし、子どもたちの大半は、そのことをよく理解しないままインターネットを利用しているのが現状である。\n　パソコンの機能については驚くほど高度な知識や技術を持って【５】、自分が得た情報については、何が正しくて何が間違っているのかを判断できないことが多い。大人が、社会のルールや情報の活用方法をしっかりと教えていく必要があるのではないだろうか。",
+      "questions": [
+        {
+          "id": 11,
+          "blank_id": 1,
+          "options": [
+            "も考えられない",
+            "など考えられない",
+            "しか考えたくない",
+            "なら考えたくない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜など考えられない」＝〜のようなことは想像もできない。インターネットがない生活なんて、もはや考えられない世の中になった。",
+          "explanation_vi": "「〜など考えられない」 = Không thể nào tưởng tượng được là sẽ ~. Chúng ta đã bước vào một thời đại mà việc sống không có internet là điều không thể nào có thể tưởng tượng nổi."
+        },
+        {
+          "id": 12,
+          "blank_id": 2,
+          "options": [
+            "的には",
+            "次第では",
+            "を問わず",
+            "のわりには"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜次第では」＝〜の条件によっては。使い方によっては、危険な道具にもなる。",
+          "explanation_vi": "「〜次第では」 = Tùy thuộc vào ~ mà sẽ. \"Thế nhưng, chúng ta không được phép quên đi một điều rằng internet có thể trở thành một công cụ vô cùng nguy hiểm tùy thuộc vào cách sử dụng của mỗi người.\""
+        },
+        {
+          "id": 13,
+          "blank_id": 3,
+          "options": [
+            "ともかく",
+            "まだしも",
+            "もとより",
+            "いざしらず"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜はもとより」＝〜はもちろん。知識や技術を教えることはもちろん、モラルを高めることも必要だ。",
+          "explanation_vi": "「〜はもとより」 = ~ là đương nhiên rồi, nhưng ngoài ra còn. \"Việc trang bị cho học sinh những kiến thức hay kỹ năng đó thì là điều đương nhiên rồi, nhưng đi kèm với đó, nhà trường còn được đòi hỏi là phải nâng cao cả nhận thức đạo đức của các em học sinh nữa.\""
+        },
+        {
+          "id": 14,
+          "blank_id": 4,
+          "options": [
+            "つながりかねない",
+            "つながりそうもない",
+            "つながるとは限らない",
+            "つながることはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜かねない」＝〜する可能性がある（マイナスの結果）。深刻なトラブルになる危険な可能性がある。",
+          "explanation_vi": "「〜かねない」 = Có nguy cơ, có khả năng (dẫn đến kết quả xấu). \"Ví dụ như, họ có giải thích cặn kẽ rằng việc bị rò rỉ thông tin cá nhân hay những phát ngôn trên các diễn đàn có nguy cơ sẽ dẫn đến những rắc rối vô cùng nghiêm trọng.\""
+        },
+        {
+          "id": 15,
+          "blank_id": 5,
+          "options": [
+            "いるから",
+            "いながら",
+            "いなくでも",
+            "いないのて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ながら」＝〜けれども、〜のに（逆接）。高度な知識を持ちながら（持っているのに）、正しい判断ができないことが多い。",
+          "explanation_vi": "「〜ながら」 = Mặc dù là ~ (diễn tả sự đối lập). \"Mặc dù lũ trẻ nắm giữ những kiến thức và kỹ thuật cao cấp đến mức kinh ngạc về chức năng của máy tính, thế nhưng lại có rất nhiều trường hợp chúng không thể phân định được đâu là thông tin đúng, đâu là thông tin sai trong số những thông tin thu thập được.\""
+        }
+      ]
+    }
+  ]
+}

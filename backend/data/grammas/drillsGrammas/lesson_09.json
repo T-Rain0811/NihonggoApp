@@ -1,0 +1,307 @@
+{
+  "lesson": 9,
+  "title": "第９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "自分が悪かったと思ったのなら、さっさと謝る（　　）。",
+          "options": [
+            "ことだ",
+            "わけだ",
+            "ようだ",
+            "ふりだ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことだ」＝〜したほうがいい、〜すべきだ（忠告・助言）。悪いと思ったら謝るべきだ。",
+          "explanation_vi": "「〜ことだ」 = Nên ~, phải ~ (đưa ra lời khuyên, mệnh lệnh nhẹ nhàng). Nếu đã nghĩ là bản thân mình sai thì nên nhanh chóng xin lỗi đi.",
+          "sentence_furigana": "自分(じぶん)が悪かった(わるかった)と思っ(おもっ)たのなら、さっさと謝る(あやまる)（　　）。",
+          "sentence_vi": "Nếu tự thấy mình sai thì tốt nhất là nên nhanh chóng xin lỗi đi."
+        },
+        {
+          "id": 2,
+          "text": "値段は（　　）、デザインや性能はこの製品が一番いい。",
+          "options": [
+            "おろか",
+            "問わず",
+            "ともかく",
+            "なおさら"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜はともかく（として）」＝〜については今は問題にしないで（別のことを優先する）。値段のことはさておき、デザインや性能は一番だ。",
+          "explanation_vi": "「〜はともかく」 = Khoan bàn đến ~, tạm thời chưa nói đến ~. Khoan hãy bàn đến giá cả, về thiết kế và hiệu năng thì sản phẩm này là số một.",
+          "sentence_furigana": "値段(ねだん)は（　　）、デザイン(でざいん)や性能(せいのう)はこの製品(せいひん)が一番(いちばん)いい。",
+          "sentence_vi": "Chưa bàn đến giá cả, chứ thiết kế và hiệu năng thì sản phẩm này là tốt nhất."
+        },
+        {
+          "id": 3,
+          "text": "手伝いもしない人が、文句ばかり言う（　　）よ。",
+          "options": [
+            "ものじゃない",
+            "わけじゃない",
+            "よりほかない",
+            "というものだ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ものじゃない」＝〜すべきではない（一般的な道徳や常識からの忠告）。手伝わないなら文句を言うべきではない。",
+          "explanation_vi": "「〜ものじゃない」 = Không nên ~, không được ~ (lời khuyên, răn dạy dựa trên đạo lý thông thường). Cái người đã chẳng giúp được gì thì không nên chỉ toàn mở miệng ra phàn nàn như thế.",
+          "sentence_furigana": "手伝い(てつだい)もしない人(ひと)が、文句(もんく)ばかり言う(いう)（　　）よ。",
+          "sentence_vi": "Đã không giúp được gì thì không nên chỉ biết phàn nàn như vậy."
+        },
+        {
+          "id": 4,
+          "text": "外国人（　　）日本人だって書けない漢字はたくさんある。",
+          "options": [
+            "に限らず",
+            "にしたって",
+            "に反して",
+            "にもかかわらず"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に限らず」＝〜だけでなく（範囲の広がり）。外国人だけでなく、日本人も書けない漢字がある。",
+          "explanation_vi": "「〜に限らず」 = Không chỉ ~ (mà những người khác/cái khác cũng vậy). Không chỉ người nước ngoài, mà ngay cả người Nhật cũng có rất nhiều chữ Kanji không viết được.",
+          "sentence_furigana": "外国(がいこく)人(じん)（　　）日本(にほん)人(じん)だって書け(かけ)ない漢字(かんじ)はたくさんある。",
+          "sentence_vi": "Không chỉ người nước ngoài đâu, ngay cả người Nhật cũng có rất nhiều chữ Hán không viết được."
+        },
+        {
+          "id": 5,
+          "text": "ネットショップの開設により、国内（　　）海外からも注文が来た。",
+          "options": [
+            "だけ",
+            "のみならず",
+            "まで",
+            "限り"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜のみならず」＝〜だけでなく、その上（硬い表現）。国内だけでなく海外からも。",
+          "explanation_vi": "「〜のみならず」 = Không chỉ ~ mà còn (cách nói trang trọng của だけでなく). Nhờ việc mở cửa hàng trực tuyến, không chỉ trong nước mà đơn hàng còn đến từ cả nước ngoài.",
+          "sentence_furigana": "ネットショップ(ねっとしょっぷ)の開設(かいせつ)により、国内(こくない)（　　）海外(かいがい)からも注文(ちゅうもん)が来(き)た。",
+          "sentence_vi": "Nhờ mở cửa hàng bán trên mạng, đơn đặt hàng đã đến không chỉ từ trong nước mà còn từ nước ngoài."
+        },
+        {
+          "id": 6,
+          "text": "息子は、あんなに重い飛行機が空を飛べることが不思議（　　）ようだ。",
+          "options": [
+            "でならない",
+            "にすぎない",
+            "でかなわない",
+            "でいられない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜て／でならない」＝〜てしかたがない、非常に〜だ（感情が自然に強く湧き起こる）。不思議でしかたがない。",
+          "explanation_vi": "「〜て／でならない」 = Rất ~, vô cùng ~ (cảm xúc trào dâng đến mức không kìm nén được). Con trai tôi có vẻ cảm thấy vô cùng kỳ lạ và thắc mắc tại sao một chiếc máy bay nặng như thế lại có thể bay trên bầu trời.",
+          "sentence_furigana": "息子(むすこ)は、あんなに重い(おもい)飛行機(ひこうき)が空(そら)を飛べる(とべる)ことが不思議(ふしぎ)（　　）ようだ。",
+          "sentence_vi": "Con trai tôi có vẻ vô cùng thắc mắc về việc một chiếc máy bay nặng như thế lại có thể bay trên trời."
+        },
+        {
+          "id": 7,
+          "text": "さすが高級旅館（　　）、料理もサービスも満足のいくものだった。",
+          "options": [
+            "にしては",
+            "のわりに",
+            "ばかりに",
+            "だけあって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜だけあって」＝〜だから、当然〜だ（高い評価）。高級旅館だから当然、料理もサービスも良い。",
+          "explanation_vi": "「〜だけあって」 = Quả đúng là ~ có khác (đúng như kỳ vọng). Quả đúng là lữ quán cao cấp có khác, cả món ăn lẫn phong cách phục vụ đều rất đáng hài lòng.",
+          "sentence_furigana": "さすが高級(こうきゅう)旅館(りょかん)（　　）、料理(りょうり)もサービス(さーびす)も満足(まんぞく)のいくものだった。",
+          "sentence_vi": "Quả không hổ danh là lữ quán cao cấp, cả món ăn và dịch vụ đều rất đáng hài lòng."
+        },
+        {
+          "id": 8,
+          "text": "この数年、A国の物価は上がり続ける（　　）。",
+          "options": [
+            "一方だ",
+            "次第だ",
+            "ことか",
+            "ものか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜一方だ」＝ある傾向がどんどん進んでいく（主に悪い変化）。物価が上がり続けている。",
+          "explanation_vi": "「〜一方だ」 = Ngày càng ~, có xu hướng ~ (chỉ một xu hướng biến đổi liên tục, thường dùng với nghĩa xấu). Vài năm gần đây, vật giá ở nước A cứ ngày một tăng lên liên tục.",
+          "sentence_furigana": "この数年(すうねん)、A国(えーこく)の物価(ぶっか)は上がり(あがり)続ける(つづける)（　　）。",
+          "sentence_vi": "Vài năm gần đây, vật giá ở nước A ngày càng tăng liên tục."
+        },
+        {
+          "id": 9,
+          "text": "欲しかったギターがやっと手に入って、嬉しくて（　　）。",
+          "options": [
+            "ほかない",
+            "いられない",
+            "かなわない",
+            "たまらない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜てたまらない」＝〜てしかたがない、非常に〜だ（感情や感覚の強調）。嬉しくてしかたがない。",
+          "explanation_vi": "「〜てたまらない」 = Vô cùng ~, ~ không chịu nổi (nhấn mạnh cảm xúc mạnh mẽ). Cuối cùng cũng mua được cây đàn guitar hằng mong ước, tôi vui không chịu nổi.",
+          "sentence_furigana": "欲しかった(ほしかった)ギター(ぎたー)がやっと手(て)に入っ(はいっ)て、嬉しくて(うれしくて)（　　）。",
+          "sentence_vi": "Cuối cùng cũng có được cây đàn guitar hằng ao ước, tôi vui không chịu nổi."
+        },
+        {
+          "id": 10,
+          "text": "簡単そうに見えるけど難しいんだよ。やれる（　　）やってごらん。",
+          "options": [
+            "ことか",
+            "からには",
+            "どころか",
+            "ものなら"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜ものなら」＝（無理だと思うが）もし〜できるなら。できるものならやってみろ（相手を挑発する表現）。",
+          "explanation_vi": "「〜ものなら」 = Nếu có thể làm được thì ~ (hàm ý thực tế là rất khó hoặc không thể). Nhìn thì có vẻ đơn giản nhưng thực ra rất khó đấy. Giỏi thì làm thử xem nào.",
+          "sentence_furigana": "簡単(かんたん)そうに見える(みえる)けど難しい(むずかしい)んだよ。やれる（　　）やってごらん。",
+          "sentence_vi": "Trông có vẻ dễ nhưng khó lắm đấy. Nếu nhắm làm được thì cứ làm thử xem."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "難しい ＿＿＿ ＿＿＿ ★ ＿＿＿ ことに価値があるのだ。",
+          "options": [
+            "こそ",
+            "から",
+            "みる",
+            "やって"
+          ],
+          "correct_order": [
+            2,
+            1,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "難しい から こそ やって みる ことに価値があるのだ。",
+          "explanation": "正しい語順は「から(2) こそ(1) やって(4) みる(3)」。★は3番目なので「やって」。",
+          "explanation_vi": "Thứ tự đúng là: から(2) こそ(1) やって(4) みる(3). Vị trí ngôi sao là 4 (やって). Chính vì khó khăn nên việc làm thử mới có giá trị.",
+          "sentence_furigana": "難しい(むずかしい) から こそ やっ(やっ)て みる ことに価値(かち)があるのだ。",
+          "sentence_vi": "Chính vì khó khăn nên việc dấn thân làm thử mới đáng giá."
+        },
+        {
+          "id": 12,
+          "text": "たとえ行くのが面倒でも ＿＿＿ ＿＿＿ ★ ＿＿＿ にはいかない。",
+          "options": [
+            "行かない",
+            "約束した",
+            "わけ",
+            "以上"
+          ],
+          "correct_order": [
+            2,
+            4,
+            1,
+            3
+          ],
+          "star_position": 1,
+          "correct_answer": 1,
+          "full_sentence": "たとえ行くのが面倒でも 約束した 以上 行かない わけ にはいかない。",
+          "explanation": "正しい語順は「約束した(2) 以上(4) 行かない(1) わけ(3)」。★は3番目なので「行かない」。",
+          "explanation_vi": "Thứ tự đúng là: 約束した(2) 以上(4) 行かない(1) わけ(3). Vị trí ngôi sao là 1 (行かない). Dù cho việc đi lại có phiền phức đến đâu, nhưng một khi đã hứa thì không thể không đi được.",
+          "sentence_furigana": "たとえ行く(いく)のが面倒(めんどう)でも 約束(やくそく)した 以上(いじょう) 行か(いか)ない わけ にはいかない。",
+          "sentence_vi": "Cho dù việc đi lại có phiền phức đến mấy, một khi đã hứa rồi thì không thể không đi."
+        },
+        {
+          "id": 13,
+          "text": "寒い ＿＿＿ ＿＿＿ ★ ＿＿＿ いると、運動不足になってしまいますよ。",
+          "options": [
+            "といって",
+            "家に",
+            "ばかり",
+            "から"
+          ],
+          "correct_order": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "star_position": 2,
+          "correct_answer": 2,
+          "full_sentence": "寒い から といって 家に ばかり いると、運動不足になってしまいますよ。",
+          "explanation": "正しい語順は「から(4) といって(1) 家に(2) ばかり(3)」。★は3番目なので「家に」。",
+          "explanation_vi": "Thứ tự đúng là: から(4) といって(1) 家に(2) ばかり(3). Vị trí ngôi sao là 2 (家に). Lấy cớ là trời lạnh mà cứ ở lì trong nhà suốt thì sẽ bị thiếu vận động đấy.",
+          "sentence_furigana": "寒い(さむい) から といって 家(いえ)に ばかり いると、運動(うんどう)不足(ぶそく)になってしまいますよ。",
+          "sentence_vi": "Cứ lấy cớ trời lạnh mà ở rịt trong nhà suốt thì sẽ bị thiếu vận động đấy."
+        },
+        {
+          "id": 14,
+          "text": "発車の ＿＿＿ ＿＿＿ ★ ＿＿＿ ドアを閉めさせていただきます。",
+          "options": [
+            "ベルが",
+            "鳴り",
+            "次第",
+            "終わり"
+          ],
+          "correct_order": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "star_position": 4,
+          "correct_answer": 4,
+          "full_sentence": "発車の ベルが 鳴り 終わり 次第 ドアを閉めさせていただきます。",
+          "explanation": "正しい語順は「ベルが(1) 鳴り(2) 終わり(4) 次第(3)」。★は3番目なので「終わり」。",
+          "explanation_vi": "Thứ tự đúng là: ベルが(1) 鳴り(2) 終わり(4) 次第(3). Vị trí ngôi sao là 4 (終わり). Ngay sau khi chuông báo tàu chạy reo xong, chúng tôi sẽ đóng cửa lên tàu.",
+          "sentence_furigana": "発車(はっしゃ)の ベル(べる)が 鳴り(なり) 終わり(おわり) 次第(しだい) ドア(どあ)を閉め(しめ)させていただきます。",
+          "sentence_vi": "Ngay sau khi chuông báo tàu chạy reo xong, chúng tôi xin phép được đóng cửa."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　森林は私たちに木材というとても便利な材料を与えてくれる。軽い【１】とても丈夫で、加工も簡単だし、燃やすこともできる。\n　人類は地球上に誕生したときから木材を利用してきたに違いない。とくに日本人は、日用品や住宅資材など生活の中でありとあらゆるものに木材を利用し、「森と木の文化」を育んできた。これは、日本が豊かな森林に恵まれた風土にあって、最も身近なものとして木材があったということに【２】。そして、豊富な樹種に恵まれたことから木の特性を理解して上手に使い分け、無駄なく利用し、何度も再利用してきた。\n　こうした日本の森と木の文化は、木材を使うことで、それも日本で育った木材をできるだけ使うことで守っていくことができる。その結果、日本の森が元気になり、地球も元気にすることができる。何より、私たちも元気になることができる。\n　環境に対して負荷の小さい木材は、私たち人間【３】もやさしい資材だからだ。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "だけに",
+            "からこそ",
+            "どころか",
+            "わりに"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜わりに」＝〜という基準から予想される程度と違って。軽いという性質から予想されるのと違って、とても丈夫だ。",
+          "explanation_vi": "「〜わりに」 = Tuy ~ nhưng lại (diễn tả sự trái với dự đoán thông thường). Tuy nhẹ nhưng gỗ lại rất chắc chắn."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "すぎない",
+            "よらない",
+            "限らない",
+            "ほかならない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜にほかならない」＝まさに〜だ、それ以外ではない。日本に木材が身近にあったからこそ、森と木の文化が育まれたのだ。",
+          "explanation_vi": "「〜にほかならない」 = Không gì khác chính là do ~. Việc hình thành văn hóa đó không gì khác chính là do gỗ là thứ gần gũi nhất với người Nhật."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "にして",
+            "について",
+            "にとって",
+            "によって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にとって」＝〜の立場から見ると。私たち人間から見ても、やさしい（良い）資材である。",
+          "explanation_vi": "「〜にとって」 = Đối với ~. Gỗ là loại vật liệu ít gây gánh nặng cho môi trường, nên đối với con người chúng ta nó cũng là một vật liệu thân thiện."
+        }
+      ]
+    }
+  ]
+}

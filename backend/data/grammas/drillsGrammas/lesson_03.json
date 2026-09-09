@@ -1,0 +1,307 @@
+{
+  "lesson": 3,
+  "title": "第３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の文の（　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "キャンペーン期間中に（　　）、入会金が無料となります。",
+          "options": [
+            "限り",
+            "わたり",
+            "際して",
+            "ついて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜に限り」＝〜だけ特別に（限定）。キャンペーン期間中だけ特別に無料になる。",
+          "explanation_vi": "「〜に限り」 = Chỉ đặc biệt giới hạn trong ~. Chỉ giới hạn trong thời gian khuyến mãi mới được miễn phí phí hội viên.",
+          "sentence_furigana": "キャンペーン(きゃんぺーん)期間中(きかんちゅう)に（　　）、入会金(にゅうかいきん)が無料(むりょう)となります。",
+          "sentence_vi": "Chỉ giới hạn trong thời gian khuyến mãi, phí gia nhập sẽ được miễn phí."
+        },
+        {
+          "id": 2,
+          "text": "おもしろい（　　）、この魚はオスが子育てをするのだそうだ。",
+          "options": [
+            "ことに",
+            "とおり",
+            "ばかりに",
+            "ものの"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことに」＝〜なことには（感情の強調）。おもしろいことには、この魚はオスが子育てをする。",
+          "explanation_vi": "「〜ことに」 = Thật là ~ (nhấn mạnh cảm xúc). Thật thú vị là loài cá này con đực lại làm nhiệm vụ nuôi con.",
+          "sentence_furigana": "おもしろい（　　）、この魚(さかな)はオス(おす)が子育て(こそだて)をするのだそうだ。",
+          "sentence_vi": "Thật thú vị là loài cá này con đực lại là người chăm sóc con."
+        },
+        {
+          "id": 3,
+          "text": "このまま温暖化が進むと、その国は海中に沈む（　　）そうだ。",
+          "options": [
+            "かねない",
+            "も同然だ",
+            "はずがない",
+            "おそれがある"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜おそれがある」＝〜という悪いことが起こる可能性がある。沈む可能性がある。",
+          "explanation_vi": "「〜おそれがある」 = Có nguy cơ, có e ngại rằng (việc xấu sẽ xảy ra). Có nguy cơ đất nước đó sẽ bị chìm xuống biển.",
+          "sentence_furigana": "このまま温暖化(おんだんか)が進む(すすむ)と、その国(くに)は海中(かいちゅう)に沈む(しずむ)（　　）そうだ。",
+          "sentence_vi": "Nghe nói nếu sự nóng lên toàn cầu cứ tiếp diễn như thế này, đất nước đó có nguy cơ sẽ chìm xuống biển."
+        },
+        {
+          "id": 4,
+          "text": "このような賞がいただけたのは、これまでの皆様のご支援のおかげに（　　）。",
+          "options": [
+            "かまいません",
+            "かかわりません",
+            "ほかなりません",
+            "ほかはありません"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜にほかならない」＝まさに〜だ、それ以外ではない。皆様の支援のおかげ以外の何ものでもない。",
+          "explanation_vi": "「〜にほかならない」 = Chính là do ~, không gì khác ngoài ~. Việc tôi nhận được giải thưởng này không gì khác chính là nhờ sự ủng hộ của quý vị.",
+          "sentence_furigana": "このような賞(しょう)がいただけたのは、これまでの皆様(みなさま)のご支援(しえん)のおかげに（　　）。",
+          "sentence_vi": "Tôi nhận được giải thưởng như thế này không gì khác chính là nhờ sự ủng hộ của tất cả mọi người từ trước đến nay."
+        },
+        {
+          "id": 5,
+          "text": "地図がわかりにくかったが、電話で聞き（　　）なんとか店に行くことができた。",
+          "options": [
+            "つつ",
+            "かけて",
+            "がてら",
+            "ながらも"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜つつ」＝〜しながら。電話で聞きながら、店に行った。",
+          "explanation_vi": "「〜つつ」 = Vừa ~ vừa ~ (giống ながら nhưng trang trọng hơn). Vừa gọi điện hỏi đường vừa đi nên tôi đã đến được cửa hàng.",
+          "sentence_furigana": "地図(ちず)がわかりにくかったが、電話(でんわ)で聞き(きき)（　　）なんとか店(みせ)に行く(いく)ことができた。",
+          "sentence_vi": "Bản đồ khá khó hiểu, nhưng vừa đi vừa gọi điện hỏi đường nên tôi cũng đã tìm được đến cửa hàng."
+        },
+        {
+          "id": 6,
+          "text": "私有地（　　）、関係者以外立ち入り禁止。",
+          "options": [
+            "こそ",
+            "につき",
+            "につけ",
+            "のうえ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜につき」＝〜という理由で（掲示・お知らせなどで使う）。私有地であるため、立ち入り禁止。",
+          "explanation_vi": "「〜につき」 = Vì lý do ~ (thường dùng trong thông báo, biển báo). Vì là đất tư nhân nên cấm người không có phận sự vào.",
+          "sentence_furigana": "私有地(しゆうち)（　　）、関係者(かんけいしゃ)以外(いがい)立ち入り(たちいり)禁止(きんし)。",
+          "sentence_vi": "Vì là đất tư nhân nên cấm người không có phận sự vào."
+        },
+        {
+          "id": 7,
+          "text": "人はそれぞれ意見が違う（　　）よく話し合うことが必要なのだ。",
+          "options": [
+            "からこそ",
+            "からして",
+            "からいって",
+            "からといって"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜からこそ」＝〜という理由だから（理由の強調）。意見が違うからこそ話し合いが必要だ。",
+          "explanation_vi": "「〜からこそ」 = Chính vì ~ (nhấn mạnh lý do). Chính vì mỗi người có ý kiến khác nhau nên mới cần phải thảo luận kỹ càng.",
+          "sentence_furigana": "人(ひと)はそれぞれ意見(いけん)が違う(ちがう)（　　）よく話し合う(はなしあう)ことが必要(ひつよう)なのだ。",
+          "sentence_vi": "Chính vì mỗi người có ý kiến khác nhau nên chúng ta mới cần phải nói chuyện, thảo luận kỹ với nhau."
+        },
+        {
+          "id": 8,
+          "text": "お客様のご希望（　　）、デザインや色の変更も可能です。",
+          "options": [
+            "ままに",
+            "次第で",
+            "ばかりで",
+            "ものなら"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜次第で」＝〜によって（条件・事情によって決まる）。希望によって変更可能だ。",
+          "explanation_vi": "「〜次第で」 = Tùy thuộc vào ~. Tùy thuộc vào nguyện vọng của quý khách mà việc thay đổi thiết kế hay màu sắc cũng có thể thực hiện được.",
+          "sentence_furigana": "お客様(おきゃくさま)のご希望(きぼう)（　　）、デザイン(でざいん)や色(いろ)の変更(へんこう)も可能(かのう)です。",
+          "sentence_vi": "Tùy theo yêu cầu của quý khách mà chúng tôi cũng có thể thay đổi thiết kế hoặc màu sắc."
+        },
+        {
+          "id": 9,
+          "text": "工業が発展したおかげで、生活はどれほど便利になった（　　）。",
+          "options": [
+            "ことか",
+            "ことだ",
+            "ものだ",
+            "ものか"
+          ],
+          "correct_answer": 1,
+          "explanation": "「〜ことか」＝どんなに〜だろう（強い詠嘆）。どれほど便利になったことか（とても便利になった）。",
+          "explanation_vi": "「〜ことか」 = ~ biết bao, cực kỳ ~ (cảm thán). Nhờ sự phát triển của công nghiệp mà cuộc sống đã trở nên tiện lợi biết bao.",
+          "sentence_furigana": "工業(こうぎょう)が発展(はってん)したおかげで、生活(せいかつ)はどれほど便利(べんり)になった（　　）。",
+          "sentence_vi": "Nhờ công nghiệp phát triển mà cuộc sống đã trở nên tiện lợi biết nhường nào."
+        },
+        {
+          "id": 10,
+          "text": "今ある資料だけでは、この結果が絶対に正しいとは（　　）。",
+          "options": [
+            "言いかねない",
+            "言い切れない",
+            "言うに違いない",
+            "言わないことはない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜切れない」＝完全に〜することができない。絶対に正しいとははっきり言えない。",
+          "explanation_vi": "「〜切れない」 = Không thể làm hoàn toàn được ~. Chỉ với những tài liệu hiện có thì không thể khẳng định chắc chắn rằng kết quả này là tuyệt đối đúng.",
+          "sentence_furigana": "今(いま)ある資料(しりょう)だけでは、この結果(けっか)が絶対(ぜったい)に正しい(ただしい)とは（　　）。",
+          "sentence_vi": "Chỉ với tài liệu hiện tại thì không thể khẳng định chắc chắn 100% rằng kết quả này là đúng."
+        }
+      ]
+    },
+    {
+      "part_type": "star_ordering",
+      "instruction": "次の文の★に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "終電が出てしまったので、 ＿＿＿ ＿＿＿ ★ ＿＿＿ ない。",
+          "options": [
+            "ほか",
+            "タクシーで",
+            "より",
+            "帰る"
+          ],
+          "correct_order": [
+            2,
+            4,
+            3,
+            1
+          ],
+          "star_position": 3,
+          "correct_answer": 3,
+          "full_sentence": "終電が出てしまったので、 タクシーで 帰る より ほか ない。",
+          "explanation": "正しい語順は「タクシーで(2) 帰る(4) より(3) ほか(1) ない」。★は3番目なので「より」。",
+          "explanation_vi": "Thứ tự đúng là: タクシーで(2) 帰る(4) より(3) ほか(1) ない. Vị trí ngôi sao là 3 (より). Vì đã lỡ chuyến tàu cuối nên chẳng còn cách nào khác ngoài việc đi taxi về.",
+          "sentence_furigana": "終電(しゅうでん)が出(で)てしまったので、 タクシー(たくしー)で 帰る(かえる) より ほか ない。",
+          "sentence_vi": "Vì chuyến tàu cuối cùng đã rời đi, nên không còn cách nào khác ngoài việc đi taxi về."
+        },
+        {
+          "id": 12,
+          "text": "小中学校は政府 ＿＿＿ ＿＿＿ ★ ＿＿＿ 授業計画を立てる。",
+          "options": [
+            "によって",
+            "決められた",
+            "に沿って",
+            "方針"
+          ],
+          "correct_order": [
+            1,
+            2,
+            4,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 4,
+          "full_sentence": "小中学校は政府 によって 決められた 方針 に沿って 授業計画を立てる。",
+          "explanation": "正しい語順は「によって(1) 決められた(2) 方針(4) に沿って(3)」。★は3番目なので「方針」。",
+          "explanation_vi": "Thứ tự đúng là: によって(1) 決められた(2) 方針(4) に沿って(3). Vị trí ngôi sao là 4 (方針). Các trường tiểu học và trung học cơ sở lập kế hoạch giảng dạy dựa theo phương hướng đã được chính phủ quyết định.",
+          "sentence_furigana": "小中学校(しょうちゅうがっこう)は政府(せいふ) によって 決め(きめ)られた 方針(ほうしん) に沿って(そって) 授業(じゅぎょう)計画(けいかく)を立てる(たてる)。",
+          "sentence_vi": "Các trường tiểu học và trung học cơ sở lập kế hoạch giảng dạy tuân theo phương hướng do chính phủ quy định."
+        },
+        {
+          "id": 13,
+          "text": "私はあまり魚を食べないが、食べない ＿＿＿ ＿＿＿ ★ ＿＿＿ ではない。",
+          "options": [
+            "嫌いな",
+            "といって",
+            "から",
+            "わけ"
+          ],
+          "correct_order": [
+            3,
+            2,
+            1,
+            4
+          ],
+          "star_position": 3,
+          "correct_answer": 1,
+          "full_sentence": "私はあまり魚を食べないが、食べない から といって 嫌いな わけ ではない。",
+          "explanation": "正しい語順は「から(3) といって(2) 嫌いな(1) わけ(4)」。★は3番目なので「嫌いな」。",
+          "explanation_vi": "Thứ tự đúng là: から(3) といって(2) 嫌いな(1) わけ(4). Vị trí ngôi sao là 1 (嫌いな). Tôi không hay ăn cá lắm, nhưng không ăn không có nghĩa là tôi ghét nó.",
+          "sentence_furigana": "私(わたし)はあまり魚(さかな)を食べ(たべ)ないが、食べ(たべ)ない から といって 嫌い(きらい)な わけ ではない。",
+          "sentence_vi": "Tôi ít khi ăn cá, nhưng không ăn không có nghĩa là tôi ghét."
+        },
+        {
+          "id": 14,
+          "text": "集中しなければと ＿＿＿ ＿＿＿ ★ ＿＿＿ を考えてしまう。",
+          "options": [
+            "も",
+            "つい",
+            "余計なこと",
+            "思いつつ"
+          ],
+          "correct_order": [
+            4,
+            1,
+            2,
+            3
+          ],
+          "star_position": 3,
+          "correct_answer": 2,
+          "full_sentence": "集中しなければと 思いつつ も つい 余計なこと を考えてしまう。",
+          "explanation": "正しい語順は「思いつつ(4) も(1) つい(2) 余計なこと(3)」。★は3番目なので「つい」。",
+          "explanation_vi": "Thứ tự đúng là: 思いつつ(4) も(1) つい(2) 余計なこと(3). Vị trí ngôi sao là 2 (つい). Dù nghĩ trong đầu là phải tập trung nhưng tôi lại lỡ nghĩ về những thứ dư thừa linh tinh.",
+          "sentence_furigana": "集中(しゅうちゅう)しなければと 思い(おもい)つつ も つい 余計(よけい)なこと を考え(かんがえ)てしまう。",
+          "sentence_vi": "Dù nghĩ rằng mình phải tập trung, nhưng lại vô tình nghĩ đến những chuyện linh tinh."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "次の文章を読んで、１から３の中に入る最もよいものを、１・２・３・４から一つ選びなさい。",
+      "passage": "　「フリーター」という言葉は、1980年代中頃、あるアルバイト情報誌が使い始めた【１】世の中に広まっていったと言われています。「自由に始めたり辞めたりをくり返すアルバイトの人」を「フリーのアルバイター」と定義し、それを短くして「フリーター」という言葉ができたのです。\n　「職業は？」と聞かれたとき、学生ならアルバイトをしていても「学生です」と答えるでしょう。でも、彼らは学生とも違いました。「無業者」と呼ばれたりもしていましたが、「無職」といったい何が【２-a】、「失業者」【２-b】と、わかりにくい存在でした。しかし、カタカナで「フリーター」と名付けられたことで、何か特別な、新しい職業である【３】イメージがともなってきました。それによって、就職の面接などでも、「今はフリーターをやっています」と口にできるようになったのです。",
+      "questions": [
+        {
+          "id": 15,
+          "blank_id": 1,
+          "options": [
+            "からには",
+            "ことから",
+            "きっかけに",
+            "かいがあって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜ことから」＝〜という理由・原因から。情報誌が使い始めたという事実が原因で世の中に広まった。",
+          "explanation_vi": "「〜ことから」 = Từ sự việc ~ (chỉ nguyên nhân, lý do). Từ việc một tạp chí bắt đầu sử dụng từ này mà nó đã lan truyền ra xã hội."
+        },
+        {
+          "id": 16,
+          "blank_id": 2,
+          "options": [
+            "a違うのか／bではないのか",
+            "a違うのだ／bではないのだ",
+            "a違うので／bではないのか",
+            "a違うので／bではないのだ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「何が違うのか、失業者ではないのか」という疑問の並立。「〜のか、〜のか」の形が自然。",
+          "explanation_vi": "Dạng câu hỏi nghi vấn \"Không biết là khác nhau cái gì, không biết có phải là người thất nghiệp không\". Dùng đuôi 「〜のか」 là phù hợp nhất."
+        },
+        {
+          "id": 17,
+          "blank_id": 3,
+          "options": [
+            "上の",
+            "とおりの",
+            "のも当然な",
+            "かのような"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜かのような」＝まるで〜のような。実際には職業ではないが、まるで新しい職業であるかのようなイメージをもたらした。",
+          "explanation_vi": "「〜かのような」 = Cứ như thể là ~. Dù không hẳn là một nghề nghiệp nhưng cái tên đó mang lại cảm giác cứ như thể đó là một nghề nghiệp mới vậy."
+        }
+      ]
+    }
+  ]
+}
