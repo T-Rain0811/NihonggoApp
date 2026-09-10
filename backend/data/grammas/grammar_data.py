@@ -1,4 +1,4 @@
-# Dữ liệu ngữ pháp
+# Dữ liệu ngữ pháp - Tái cấu trúc theo bài video
 GRAMMAR = {
     "1": [
         {
@@ -8,6 +8,14 @@ GRAMMAR = {
                 {
                     "jp": "長い間悩んだあげく、彼は会社を辞めることにした。",
                     "vi": "Sau một thời gian dài trăn trở, cuối cùng anh ấy quyết định nghỉ việc."
+                },
+                {
+                    "jp": "れこれ質問に答えさせられたあげく、対応できないと言われた。",
+                    "vi": "Máy in gặp vấn đề nên tôi liên lạc cho công ty sản xuất, sau khi phải trả lời rất nhiều câu hỏi của người phụ trách ở bên đó thì cuối cùng họ nói với tôi là không thể xử lý được."
+                },
+                {
+                    "jp": "彼女はいろいろと悩んだあげく結婚をやめてしまった。",
+                    "vi": "Sau khi trăn trở rất nhiều, cuối cùng cô ấy quyết định không kết hôn nữa."
                 }
             ],
             "quizzes": [
@@ -236,7 +244,9 @@ GRAMMAR = {
                     "hiragana": "もんくをいいつづけたあげく、かれはぐるーぷからはずされた。",
                     "translation": "Sau khi tiếp tục khiếu nại, anh ta đã bị loại khỏi nhóm."
                 }
-            ]
+            ],
+            "usage": "V た・N の+あげく(に)",
+            "full_meaning": "Sau khi...A thì kết cục, cuối cùng... (Thường là những kết cục mang hướng tiêu cực)\nプリンターの調子が悪くなり、製造会社に電話で問い合わせたら、向こうの担当者に、あ"
         },
         {
             "pattern": "~あまり(に)",
@@ -245,6 +255,18 @@ GRAMMAR = {
                 {
                     "jp": "驚きのあまり、言葉が出なかった。",
                     "vi": "Vì quá ngạc nhiên nên tôi không nói nên lời."
+                },
+                {
+                    "jp": "何でも完全にやろうと思うあまりに、体を壊す人がいる。",
+                    "vi": "Có những người vì cái gì cũng quá mong muốn sẽ làm cho thật hoàn hảo nên dẫn đến làm ảnh hưởng đến sức khỏe của mình."
+                },
+                {
+                    "jp": "試験の結果を気にするあまり、夜眠れなくなってしまった。",
+                    "vi": "Vì quá lo lắng kết quả kỳ thi nên buổi tối không thể ngủ được."
+                },
+                {
+                    "jp": "彼女は一番行きたかった大学に合格し、うれしさのあまり、飛び上がった。",
+                    "vi": "Cô ấy đã đỗ vào trường mà cô ấy muốn học nhất, vì quá vui sướng nên nhảy cẫng lên. Thường kết hợp với các từ như : 忙しさ・驚き・うれしさ・悲しみ・感激・心配"
                 }
             ],
             "quizzes": [
@@ -473,7 +495,9 @@ GRAMMAR = {
                     "hiragana": "げーむにむちゅうになるあまり、しゅくだいをまったくやらなかった。",
                     "translation": "Tôi mải mê chơi game đến nỗi không làm bài tập về nhà."
                 }
-            ]
+            ],
+            "usage": "V る・ナ形語幹+な・N の+あまり(に)",
+            "full_meaning": "Vì quá...nên.."
         },
         {
             "pattern": "~以上(は)",
@@ -482,6 +506,18 @@ GRAMMAR = {
                 {
                     "jp": "約束した以上は、必ず守ります。",
                     "vi": "Một khi đã hứa thì tôi nhất định sẽ giữ lời."
+                },
+                {
+                    "jp": "てるべきだ。",
+                    "vi": "Vấn đề năng lượng một khi đã nghiêm trọng đến mức này rồi thì các nước trên thế giới cần phải hợp tác, và ngay lập tức đưa ra biện pháp."
+                },
+                {
+                    "jp": "留学する以上は、勉強だけでなく、その国の文化を学んだり交流をしたりしたいと思う。",
+                    "vi": "Một khi đã đi du học thì không chỉ có học thôi, tôi còn muốn giao lưu và học hỏi về văn hóa của đất nước đó."
+                },
+                {
+                    "jp": "もう酒は飲まないと決めた以上は、どんなに誘われても絶対にそれを守りたい。",
+                    "vi": "Một khi đã quyết định là sẽ không uống rượu nữa thì dù có được mời như thế nào đi nữa tôi cũng nhất định không uống."
                 }
             ],
             "quizzes": [
@@ -710,7 +746,9 @@ GRAMMAR = {
                     "hiragana": "りゅうがくするいじょう、しっかりごがくをますたーしてきたい。",
                     "translation": "Vì tôi sắp đi du học nên tôi muốn thành thạo ngôn ngữ này."
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形・ナ形語幹/N である+以上(は)",
+            "full_meaning": "Một khi đã A thì làm B là đương nhiên\nMột khi đã A thì muốn hoặc nhất định sẽ làm B\nエネルギーの問題がこれほど深刻になった以上、世界各国が協力して、ただちに対策をた"
         },
         {
             "pattern": "~上は",
@@ -719,6 +757,18 @@ GRAMMAR = {
                 {
                     "jp": "こうなった上は、最後までやるしかない。",
                     "vi": "Một khi đã ra nông nỗi này thì chỉ còn cách làm đến cùng."
+                },
+                {
+                    "jp": "事態がこうなった上は、もう彼一人に任せてはおけない。",
+                    "vi": "Một khi tình hình đã đến mức này rồi thì không thể giao cho một mình anh ấy nữa."
+                },
+                {
+                    "jp": "目標を決めた上は、それに向かって前向きに行動しなければならない。",
+                    "vi": "Một khi đã quyết định mục tiêu của mình thì phải tích cực hành động để hướng đến mục tiêu đó."
+                },
+                {
+                    "jp": "こうなった上は、覚悟を決めて最後まで頑張るしかない。",
+                    "vi": "Đã thế này rồi thì chỉ còn cách sẵn sàng tâm lý và cố gắng cho đến cùng thôi."
                 }
             ],
             "quizzes": [
@@ -947,7 +997,9 @@ GRAMMAR = {
                     "hiragana": "こうなったうえは、さいごまでたたかうしかない。",
                     "translation": "Bây giờ mọi chuyện đã như thế này, chúng tôi không còn cách nào khác ngoài việc chiến đấu đến cùng."
                 }
-            ]
+            ],
+            "usage": "V る/た+上は",
+            "full_meaning": "Một khi đã A thì làm B là đương nhiên\nMột khi đã A thì muốn hoặc nhất định sẽ làm B"
         },
         {
             "pattern": "~(よ)うではないか/(よ)うじゃないか",
@@ -956,6 +1008,18 @@ GRAMMAR = {
                 {
                     "jp": "皆で力を合わせて頑張ろうではないか。",
                     "vi": "Chúng ta hãy cùng nhau hợp sức cố gắng nào!"
+                },
+                {
+                    "jp": "食糧不足で困っている人たちに、できる限りの援助をしようではないか。",
+                    "vi": "Chúng ta hãy cùng cố gắng hết sức giúp đỡ những người đang gặp khó khăn do thiếu lương thực!"
+                },
+                {
+                    "jp": "この本に載っているレストランはとてもおいしそうだ。みんなで行ってみようじゃないか。",
+                    "vi": "Đồ ăn của nhà hàng được đăng trong quyển sách này có vẻ rất ngon. Mọi người cùng nhau đến đó đi!"
+                },
+                {
+                    "jp": "家にばかりいないで映画でも見に行こうじゃないか。",
+                    "vi": "Đừng chỉ cứ ở nhà mãi, chúng ta hãy đi xem phim hay gì đó đi!"
                 }
             ],
             "quizzes": [
@@ -1184,7 +1248,8 @@ GRAMMAR = {
                     "hiragana": "こまっているにんがいたら、たすけあおうじゃないか。",
                     "translation": "Nếu ai đó gặp khó khăn, hãy giúp đỡ lẫn nhau."
                 }
-            ]
+            ],
+            "full_meaning": "Hô hào người khác cùng làm việc gì đó. (Thường chủ yếu là nam giới khi sử dụng trong\nnhững bối cảnh kêu gọi, hô hào người khác cùng thực hiện như khi diễn thuyết ngoài đường\nphố...)\nChúng ta hãy, hãy cùng...\nV (ý chí)+ではないか/じゃないか"
         },
         {
             "pattern": "~得る/得ない",
@@ -1197,6 +1262,30 @@ GRAMMAR = {
                 {
                     "jp": "そんな話はあり得ない。",
                     "vi": "Chuyện như vậy không thể xảy ra."
+                },
+                {
+                    "jp": "このまま海面の上昇が続けば、これらの島々が海の中に沈んでしまうこともありうる。",
+                    "vi": "Nếu mực nước biển cứ tiếp tục dâng cao như thế này thì những hòn đảo này có khả năng sẽ bị chìm trong nước biển."
+                },
+                {
+                    "jp": "彼の取った態度は、私には十分理解しうるものであった。",
+                    "vi": "Thái độ của anh ta là cái mà tôi hoàn toàn có thể hiểu được."
+                },
+                {
+                    "jp": "今度のサッカーの決勝戦では、どんなことでも起こりうる。",
+                    "vi": "Điều gì cũng có thể xảy ra trong trận bóng chung kết sắp tới. (2)V ます+得ない Không thể xảy ra, không có khả năng xảy ra"
+                },
+                {
+                    "jp": "他人の夢の中に潜入して、アイディアを盗むなんてあり得ない話だ。",
+                    "vi": "Len lỏi vào trong giấc mơ của người khác và ăn cắp ý tưởng là chuyện không thể xảy ra."
+                },
+                {
+                    "jp": "根性がないと、この目標を達し得ないでしょう。",
+                    "vi": "Nếu không kiên trì thì không thể đạt được mục tiêu này."
+                },
+                {
+                    "jp": "株式相場がこれからどう動くか予測し得ない。",
+                    "vi": "Không thể dự đoán được từ giờ giá cổ phiếu sẽ thay đổi như thế nào ."
                 }
             ],
             "quizzes": [
@@ -1425,7 +1514,9 @@ GRAMMAR = {
                     "hiragana": "じこのげんいんとしては、うんてんしゅのかろうがかんがええる。",
                     "translation": "Nguyên nhân vụ tai nạn có thể do tài xế làm việc quá sức."
                 }
-            ]
+            ],
+            "usage": "(1)V ます+得る",
+            "full_meaning": "Có thể xảy ra, có khả năng xảy ra"
         },
         {
             "pattern": "~甲斐がある/ない/もなく",
@@ -1438,6 +1529,18 @@ GRAMMAR = {
                 {
                     "jp": "看病の甲斐もなく、彼は亡くなった。",
                     "vi": "Dù chăm sóc hết lòng nhưng ông ấy vẫn qua đời, thật uổng công."
+                },
+                {
+                    "jp": "3 時間待ったかいがあって、雨がやみ、美しい景色を見ることができた。",
+                    "vi": "Không uổng công đợi 3 tiếng đồng hồ, trời đã tạnh mưa, và tôi đã có thể nhìn thấy cảnh sắc tuyệt đẹp sau cơn mưa."
+                },
+                {
+                    "jp": "必死の練習の甲斐もなく、オリンピックの代表選手には選ばれなかった。",
+                    "vi": "Uổng công đã cố gắng hết sức tập luyện thế mà lại không được chọn làm cầu thủ đại diện tham dự Olympic."
+                },
+                {
+                    "jp": "希望を持って楽しく生きなければ、生まれた甲斐がない。",
+                    "vi": "Nếu sống không vui vẻ và cũng chẳng có hy vọng thì thật uổng công được sinh ra trên cõi đời này. Những từ vựng xuất phát từ mẫu này như : 生きがい/lẽ sống(tức là một điều gì đó khiến cho mình có động lực sống và cảm thấy cuộc đời này thật đáng sống) 働きがい/Có thể được dịch là “Động lực/niềm vui/giá trị trong công việc”. Tức là điều khiến mình cảm thấy công việc của mình có giá trị, hoặc mình nhận được giá trị xứng đáng, cũng như niềm vui nhận được qua công việc mình làm”"
                 }
             ],
             "quizzes": [
@@ -1666,7 +1769,9 @@ GRAMMAR = {
                     "hiragana": "ちゅうこくしたかいもなく、かれはおなじしっぱいをくりかえした。",
                     "translation": "Bất chấp lời khuyên của tôi, anh ấy vẫn lặp lại sai lầm tương tự."
                 }
-            ]
+            ],
+            "usage": "V た・N の+甲斐がある/甲斐がない/甲斐もなく",
+            "full_meaning": "Không uổng công, thật bõ công (Bỏ công sức ra và nhận được giá trị xứng đáng)\nThật uổng công (Bỏ công sức ra nhưng không nhận được giá trị tương xứng)"
         },
         {
             "pattern": "~がきっかけで/をきっかけに",
@@ -1675,6 +1780,14 @@ GRAMMAR = {
                 {
                     "jp": "友人の紹介がきっかけで、この仕事を始めた。",
                     "vi": "Nhờ bạn giới thiệu mà tôi bắt đầu công việc này."
+                },
+                {
+                    "jp": "中さんはその女性と交際を始めたそうだ。",
+                    "vi": "Tanaka được bạn giới thiệu cho một bạn nữ ở một bữa tiệc nào đó. Nghe nói cậu ấy đã bắt đầu hẹn hò với bạn nữ đó từ dịp ấy."
+                },
+                {
+                    "jp": "引っ越しをきっかけに、家具を買い換えた。",
+                    "vi": "Nhân dịp chuyển nhà, tôi đã mua đồ nội thất mới."
                 }
             ],
             "quizzes": [
@@ -1903,7 +2016,8 @@ GRAMMAR = {
                     "hiragana": "ちいさなごかいがきっかけで、ふたりはくちをきかなくなってしまった。",
                     "translation": "Do một sự hiểu lầm nhỏ nên cả hai đã ngừng nói chuyện."
                 }
-            ]
+            ],
+            "full_meaning": "Nhân dịp, nhân cơ hội, từ khi...\nSự việc A là cơ hội, nguyên cớ, lý do, động lực...dẫn đến sự thay đổi lớn hoặc quyết định quan\ntrọng ở vế sau.\nV (thể thường)+の・N+がきっかけで/がきっかけになって/をきっかけに(して)/をき\nĐộng lực khiến tôi bắt đầu hoạt động hỗ trợ này là kể từ khi tôi nhìn thấy hình ảnh những đứa trẻ\nkém may mắn.\n田中さんは、あるパーティーで友達から一人の女性を紹介された。それをきっかけに、田"
         },
         {
             "pattern": "~限り(は)/限りでは",
@@ -1920,6 +2034,42 @@ GRAMMAR = {
                 {
                     "jp": "私が調べた限りでは、問題はありません。",
                     "vi": "Theo những gì tôi điều tra được thì không có vấn đề."
+                },
+                {
+                    "jp": "思いつく限りのアイデアはすべて出したが、社長は認めてくれなかった。",
+                    "vi": "Tôi đã nêu hết tất cả các ý tưởng mà mình nghĩ ra rồi, nhưng giám đốc vẫn không đồng ý."
+                },
+                {
+                    "jp": "できる限りの努力はした。あとは結果を待つのみだ。",
+                    "vi": "Tôi đã nỗ lực hết sức rồi. Việc còn lại chỉ là đợi kết quả thôi."
+                },
+                {
+                    "jp": "山奥で道に迷い、声の限りに助けを求めた。",
+                    "vi": "Bị lạc ở sâu trong núi, tôi đã cố gắng kêu to hết sức để tìm sự trợ giúp. (1.2)V る/ている・イ形辞書形"
+                },
+                {
+                    "jp": "生きている限り、うれしいことも悲しいことも必ずある。",
+                    "vi": "Nếu vẫn còn sống thì chắc chắn sẽ có cả những lúc vui và những lúc buồn."
+                },
+                {
+                    "jp": "定年になっても元気な限り、働き続けたいと思っている人が増えている。",
+                    "vi": "Ngày càng có nhiều người có suy nghĩ dù đã đến tuổi về hưu nhưng nếu còn khỏe thì vẫn muốn tiếp tục làm việc."
+                },
+                {
+                    "jp": "医者である限り、患者を助けるために必死に頑張らなければならない。",
+                    "vi": "Chừng nào còn là bác sĩ thì phải cố gắng hết sức để cứu giúp bệnh nhân. (2)~限りでは Trong giới hạn nguồn thông tin nào đó thì có thể nói là..."
+                },
+                {
+                    "jp": "きのう私が調べた限りでは、工場の機械に問題はなかった。",
+                    "vi": "Theo như những gì tôi đã tìm hiểu ngày hôm qua thì máy móc của nhà máy không có vấn đề gì."
+                },
+                {
+                    "jp": "私の見る限りでは、彼は信頼できる人物だ。",
+                    "vi": "Theo như những gì tôi thấy thì anh ấy là người có thể tin tưởng được."
+                },
+                {
+                    "jp": "私が聞いた限りでは、双方はまだ合意に達していない。",
+                    "vi": "Theo như những gì tôi nghe được thì hai bên vẫn chưa đạt được thỏa thuận. Thường kết hợp với những động từ nắm bắt thông tin như:見る・知る・聞く・調査(調べ る)"
                 }
             ],
             "quizzes": [
@@ -2148,7 +2298,9 @@ GRAMMAR = {
                     "hiragana": "たいりょくがつづくかぎりは、このしごとをつづけたいとおもっている。",
                     "translation": "Tôi muốn tiếp tục công việc này chừng nào sức khỏe thể chất của tôi còn tồn tại."
                 }
-            ]
+            ],
+            "usage": "(1)~限り(は) / ナ形語幹+な/である +限り(は) / V る/た/ている+限りでは",
+            "full_meaning": "(1.1)V る/khả năng・N の+限り\nHết mức/hết sức trong phạm vi giới hạn có thể.\nN+の/である\nChỉ khi A thì mới B.\nNếu mà vẫn đang ở trạng thái A thì vẫn B."
         },
         {
             "pattern": "~が契機で/を契機に",
@@ -2157,6 +2309,14 @@ GRAMMAR = {
                 {
                     "jp": "病気を契機に、生活習慣を見直した。",
                     "vi": "Nhân dịp bị bệnh, tôi đã xem lại thói quen sinh hoạt của mình."
+                },
+                {
+                    "jp": "会社名が変わるのを契機に社員の制服も新しくすることが決められた。",
+                    "vi": "Nhân dịp thay đổi tên công ty, đồng phục của nhân viên cũng sẽ được làm mới."
+                },
+                {
+                    "jp": "今回の業務提携を契機に、今後さまざまな分野での交流が期待される。",
+                    "vi": "Nhân cơ hội hợp tác kinh doanh lần này, hy vọng trong tương lai sẽ giao lưu cùng nhau trong nhiều lĩnh vực khác nhau."
                 }
             ],
             "quizzes": [
@@ -2370,7 +2530,8 @@ GRAMMAR = {
                     "hiragana": "ほうかいせいをけいきに、あたらしいびじねすちゃんすがうまれた。",
                     "translation": "Những cơ hội kinh doanh mới đã xuất hiện nhờ những cải cách pháp lý."
                 }
-            ]
+            ],
+            "full_meaning": "Nhân dịp, nhân cơ hội, từ khi...\nSự việc A là cơ hội, nguyên cớ, lý do, động lực...dẫn đến sự thay đổi lớn hoặc quyết định quan\ntrọng ở vế sau.\nCách sử dụng cứng hơn của きっかけ\nV (thể thông thường)+の・N+が契機で/が契機になって/を契機に(して)/を契機とし\nて\n数週間の入院生活で、健康の大切さを実感した。これを契機に、もっと健康に気をつけて\nSống ở trong viện vài tuần tôi mới cảm nhận được sự quan trọng của sức khỏe. Từ đó tôi đã quyết\ntâm sống chú ý tới sức khỏe của mình hơn."
         },
         {
             "pattern": "~かけだ/かける",
@@ -2383,6 +2544,18 @@ GRAMMAR = {
                 {
                     "jp": "危うく事故を起こしかけた。",
                     "vi": "Suýt chút nữa thì tôi đã gây ra tai nạn."
+                },
+                {
+                    "jp": "テーブルの上に食べかけのケーキがおいてある。",
+                    "vi": "Có cái bánh kem đang ăn dở để ở trên bàn ."
+                },
+                {
+                    "jp": "テーブルの上においた読みかけの本を母がかたづけてしまった。",
+                    "vi": "Mẹ đã dọn mất quyển sách mà tôi đang đọc dở để trên bàn rồi."
+                },
+                {
+                    "jp": "家の前で死にかけていた野良猫を拾って動物病院に連れていった。",
+                    "vi": "Tôi nhặt được một chú mèo hoang gần như sắp chết ở trước nhà và đưa nó đến bệnh viện dành cho các con vật."
                 }
             ],
             "quizzes": [
@@ -2611,7 +2784,9 @@ GRAMMAR = {
                     "hiragana": "かきかけのてがみがつくえのひきだしからでてきた。",
                     "translation": "Một lá thư viết dở được lấy ra từ ngăn kéo bàn."
                 }
-            ]
+            ],
+            "usage": "V ます+かけだ/かける/かけの",
+            "full_meaning": "Đang làm dở, chưa hoàn thành\nSuýt, sắp sửa"
         },
         {
             "pattern": "~がちだ",
@@ -2620,6 +2795,18 @@ GRAMMAR = {
                 {
                     "jp": "最近、忙しくて外食しがちだ。",
                     "vi": "Dạo này bận rộn nên tôi hay ăn ngoài."
+                },
+                {
+                    "jp": "あの学生は体が弱くて、授業を休みがちだ。",
+                    "vi": "Sinh viên đó sức khỏe yếu nên hay nghỉ học."
+                },
+                {
+                    "jp": "通勤に車を使っていると、運動不足になりがちだ。",
+                    "vi": "Nếu đi làm bằng ô tô thì thường sẽ dễ bị thiếu vận động."
+                },
+                {
+                    "jp": "先日、病気がちのおばを見舞いに行った。",
+                    "vi": "Hôm trước tôi đã đi thăm một người bác hay bị bệnh/hay đau ốm."
                 }
             ],
             "quizzes": [
@@ -2848,7 +3035,9 @@ GRAMMAR = {
                     "hiragana": "このきせつは、てんきがかわりがちだ。",
                     "translation": "Thời tiết có xu hướng thay đổi trong mùa này."
                 }
-            ]
+            ],
+            "usage": "V ます・N+がちだ",
+            "notes": "Thường hay, hay (Thường hay có xu hướng,khuynh hướng theo chiều hướng tiêu cực)"
         },
         {
             "pattern": "~かと思えば",
@@ -2861,6 +3050,22 @@ GRAMMAR = {
                 {
                     "jp": "よく笑う人かと思えば、時々真剣な顔をする。",
                     "vi": "Vừa hay cười lại vừa thỉnh thoảng có vẻ mặt rất nghiêm túc."
+                },
+                {
+                    "jp": "9 月に入ってやっと涼しくなったかと思えば、また急に暑くなったりして残暑が厳しい。",
+                    "vi": "Bước vào tháng 9, cứ nghĩ là cuối cùng trời cũng đã trở nên mát mẻ, thế nhưng mà ngay sau đó trời lại đột nhiên nóng lại, cái nóng còn sót lại của mùa hè rất khắc nghiệt."
+                },
+                {
+                    "jp": "息子は学校から帰ってきたかと思えば、またすぐ遊びに出かけていった。",
+                    "vi": "Con tôi vừa mới thấy về đến nhà cái là lập tức chạy đi chơi luôn. (2)V る+かと思えば Liệt kê Thể hiện sự tồn tại đồng thời của hai sự việc/trạng thái khác nhau. A cũng có, mà B cũng có 老後を一人で生きることを選ぶ熟年夫婦がいるかと思えば、新しい旅立ちに向けて、退職"
+                },
+                {
+                    "jp": "後豪華な旅行に出る夫婦もいる。",
+                    "vi": "Cũng có những cặp vợ chồng lâu năm, sau khi về hưu họ chọn sống một mình, nhưng cũng có những cặp vợ chồng lựa chọn những chuyến du lịch thật hoành tráng sau khi nghỉ hưu và bắt đầu một hành trình mới. 百歳を越えて生きる人がいるかと思えば、一歳になることもなく、この世を去る赤ん坊も"
+                },
+                {
+                    "jp": "いる。",
+                    "vi": "Có những người sống đến hơn 100 tuổi, nhưng cũng có những em bé rời bỏ thế giới này mà chưa đầy một tuổi."
                 }
             ],
             "quizzes": [
@@ -3089,7 +3294,9 @@ GRAMMAR = {
                     "hiragana": "はれていたかとおもえば、きゅうにゆきがふってきた。",
                     "translation": "Tôi tưởng trời đang nắng nhưng đột nhiên tuyết bắt đầu rơi."
                 }
-            ]
+            ],
+            "usage": "(1)V る/た・N+かと思えば",
+            "full_meaning": "Vừa mới thấy... thì đã...\nCứ nghĩ A..nhưng thực tế lại khác\nMột hành động/trạng thái diễn ra gần như đồng thời thời với hành động/trạng thái khác\nCó những người rất thật thà, cất công mang đồ nhặt được đến tận đồn cảnh sát, nhưng cũng có\nnhững người ăn trộm đồ của người khác."
         },
         {
             "pattern": "かないかのうちに",
@@ -3098,6 +3305,18 @@ GRAMMAR = {
                 {
                     "jp": "ベルが鳴るか鳴らないかのうちに、生徒たちは教室を飛び出した。",
                     "vi": "Chuông vừa reo (chưa dứt hẳn) thì học sinh đã ùa ra khỏi lớp."
+                },
+                {
+                    "jp": "か終わらないかのうちに玄関を飛び出していった。",
+                    "vi": "Buổi sáng hôm đi picnic, con gái tôi có vẻ rất vui.Trong khi chưa nói dứt câu “Con đi đây” thì đã phi ra khỏi cửa rồi. 先生の講義が終わるか終わらないかのうちに、ノートや教科書を閉じて片付けはじめる学"
+                },
+                {
+                    "jp": "生もいる。",
+                    "vi": "Cũng có những em học sinh trong khi bài giảng của thầy còn chưa kết thúc đã gấp hết sách vở lại và bắt đầu dọn dẹp ra về rồi."
+                },
+                {
+                    "jp": "電車に乗るか乗らないかのうちに、ドアが閉まってしまった。",
+                    "vi": "Vừa mới lên tàu thì cửa đóng lại luôn."
                 }
             ],
             "quizzes": [
@@ -3326,7 +3545,9 @@ GRAMMAR = {
                     "hiragana": "べるがなるかならないかのうちに、がくせいたちはせきをたった。",
                     "translation": "Học sinh đứng dậy khỏi chỗ ngồi trước khi chuông reo hoặc không."
                 }
-            ]
+            ],
+            "usage": "V る+か+V ない+かのうちに",
+            "full_meaning": "Trong khi (A và B gần như xảy ra đồng thời, A chưa chắc đã xong thì ngay lập tức B xảy ra)\nピクニックの日の朝、娘はとてもうれしそうにしていた。「いってきます」と言い終わる"
         },
         {
             "pattern": "~かねる/かねない",
@@ -3339,6 +3560,26 @@ GRAMMAR = {
                 {
                     "jp": "無理を続けると、体を壊しかねない。",
                     "vi": "Nếu cứ tiếp tục làm quá sức thì có thể sẽ hại đến sức khỏe."
+                },
+                {
+                    "jp": "答えかねる。",
+                    "vi": "Tôi bị mọi người hỏi là trong buổi phỏng vấn sẽ xuất hiện những câu hỏi như thế nào, dù bị hỏi những câu như vậy nhưng tôi không thể trả lời được."
+                },
+                {
+                    "jp": "労働条件の変更について会社から説明を受けたが、私はどうも納得しかねる。",
+                    "vi": "Tôi được công ty giải thích về sự thay đổi trong điều kiện lao động, nhưng bản thân tôi không thể nào chấp nhận được điều đó."
+                },
+                {
+                    "jp": "同級生が先輩にいじめられているのを見るに見かねて、先生を呼んだ。",
+                    "vi": "Tôi không thể đứng nhìn cảnh bạn cùng khóa bị các anh chị bắt nạt, nên đã gọi giáo viên. (2)V ます+かねない Có thể (phỏng đoán kết quả và thường sử dụng với những sự việc mang tính tiêu cực) A「あんなに大きなけがをしたんだから、危険なことはもう二度とやらないでしょうね。」 Vì bị thương nặng như thế nên chắc là không dám làm những việc nguy hiểm lần thứ hai nữa đâu. B「いや、彼だったらまたやりかねないよ。」 Ôi không, nếu là anh ta thì có thể sẽ làm nữa đó."
+                },
+                {
+                    "jp": "適度なスポーツは健康にいいといわれるが、やりすぎると体をこわしかねない。",
+                    "vi": "Người ta nói rằng chơi môn thể thao phù hợp sẽ tốt cho sức khỏe, nhưng nếu chơi nhiều quá thì có thể ảnh hưởng xấu đến sức khỏe."
+                },
+                {
+                    "jp": "私は忘れっぽいほうなので、こんな所に傘を置いておくと、帰りにまた忘れかねない。",
+                    "vi": "Tôi là người hay quên lắm nên nếu để cái ô ở nơi như thế này thì lúc về khả năng cao là tôi sẽ lại quên thôi."
                 }
             ],
             "quizzes": [
@@ -3567,7 +3808,10 @@ GRAMMAR = {
                     "hiragana": "もうしわけありませんが、ごきぼうにはそいかねます。",
                     "translation": "Chúng tôi rất tiếc nhưng chúng tôi không thể đáp ứng yêu cầu của bạn."
                 }
-            ]
+            ],
+            "usage": "(1)V ます+かねる",
+            "full_meaning": "Không thể...\n面接試験ではどんな質問が出るのかと聞かれたが、そのようなことを聞かれてもちょっと\nChúng tôi không thể đáp ứng được yêu cầu của quý khách. Mong quý khách thông cảm.\n決めるに決めかねる:không thể quyết định được\n見るに見かねて:không thể cứ đứng ngoài nhìn được, phải hành động ngay",
+            "notes": "Thường được dùng trong môi trường business khi đưa ra lời từ chối.\nNhững cụm từ cố định được biến đổi từ mẫu này như:"
         },
         {
             "pattern": "~かのようだ",
@@ -3576,6 +3820,18 @@ GRAMMAR = {
                 {
                     "jp": "まるで夢を見ているかのようだ。",
                     "vi": "Cứ như thể đang mơ vậy."
+                },
+                {
+                    "jp": "かったらしい。",
+                    "vi": "Mặc dù đã sang mùa thu rồi mà cái nóng hôm nay cứ như là đã quay về giữa mùa hè vậy, nghe nói là rất nhiều nhà vẫn phải bật điều hòa."
+                },
+                {
+                    "jp": "賞をもらったのは弟だというのに、彼女の喜ぶようすは自分が賞をもらったかのようだ。",
+                    "vi": "Mặc dù là em trai nhận được giải thưởng nhưng nhìn cô ấy vui cứ như thể là bản thân cô ấy được nhận vậy."
+                },
+                {
+                    "jp": "この人形はとてもよく作られていて、生きているかのようだ。",
+                    "vi": "Con búp bê này đẹp cứ như là người thật vậy."
                 }
             ],
             "quizzes": [
@@ -3804,7 +4060,8 @@ GRAMMAR = {
                     "hiragana": "かれはまるでゆうれいでもみたかのようにかおいろをしてふるえていた。",
                     "translation": "Sắc mặt anh ta tái nhợt và run rẩy, như thể vừa nhìn thấy ma."
                 }
-            ]
+            ],
+            "full_meaning": "V (thể thường)+かのようだ\nCứ như thể là...\nもう秋になるのに、今日の暑さはまるで真夏に戻ったかのようでエアコンをつけた家も多"
         },
         {
             "pattern": "~からいいようなものの",
@@ -3813,6 +4070,18 @@ GRAMMAR = {
                 {
                     "jp": "雨が止んだからいいようなものの、傘を忘れるところだった。",
                     "vi": "May là mưa đã tạnh, chứ không thì suýt nữa tôi quên mang ô."
+                },
+                {
+                    "jp": "この大事な資料が見つかったからいいようなものの、万が一、紛失したらどうするんだ。",
+                    "vi": "May là lần này tìm thấy được tài liệu quan trọng này, chứ nếu lỡ mất thật thì cậu định làm thế nào?"
+                },
+                {
+                    "jp": "火事にならなかったからいいようなものの、これからたばこの火の始末に注意してください。",
+                    "vi": "May là chưa xảy ra hỏa hoạn, từ giờ phải chú ý tàn thuốc lá nhé. 今回は事故が起こらなかったからいいようなものの、これからよく注意しないといけない"
+                },
+                {
+                    "jp": "ですね。",
+                    "vi": "Lần này may là chưa xảy ra tai nạn, từ giờ trở đi phải chú ý cẩn thận đấy."
                 }
             ],
             "quizzes": [
@@ -4041,7 +4310,9 @@ GRAMMAR = {
                     "hiragana": "ひがいがちーさかったからいいようなものの、あわやおおかじになるところだった。",
                     "translation": "Mặc dù thiệt hại không đáng kể nhưng nó gần như đã gây ra một đám cháy lớn."
                 }
-            ]
+            ],
+            "usage": "文の普通形+からいいようなものの",
+            "full_meaning": "Vì .... nên vẫn còn là may (Nhưng nếu... thì có thể nguy hiểm hoặc từ sau phải chú ý..)"
         },
         {
             "pattern": "~からこそ",
@@ -4050,6 +4321,18 @@ GRAMMAR = {
                 {
                     "jp": "努力したからこそ、成功したのだ。",
                     "vi": "Chính vì đã nỗ lực nên mới thành công được."
+                },
+                {
+                    "jp": "田中監督が選手たちに厳しくするのは、一度は優勝を経験させたいと願うからこそだ。",
+                    "vi": "Huấn luyện viên Tanaka nghiêm khắc với các cầu thủ chính là vì ông ấy muốn cho các cầu thủ được một lần giành chiến thắng. 好きなことを職業にする人が多いが、私は映画が好きだからこそ、職業にはしないことに"
+                },
+                {
+                    "jp": "した。",
+                    "vi": "Có nhiều người biến cái họ thích thành công việc của họ, thế nhưng chính vì thích phim nên tôi mới quyết định không làm nghề liên quan đến phim ảnh."
+                },
+                {
+                    "jp": "するのですから。",
+                    "vi": "Đừng có ầm ĩ lên như thế. Chính vì tôi nghĩ cho cậu nên mới nhắc nhở cậu nhiều thứ như vậy."
                 }
             ],
             "quizzes": [
@@ -4278,7 +4561,9 @@ GRAMMAR = {
                     "hiragana": "けんこうであるからこそ、いろいろなことにちょうせんできる。",
                     "translation": "Khỏe mạnh cho phép bạn thử nhiều thứ khác nhau."
                 }
-            ]
+            ],
+            "usage": "文の普通形+からこそ",
+            "full_meaning": "Chính vì... (Nhấn mạnh lý do)\nそんなにうるさがってはいけません。あなたのことを思っているからこそいろいろと注意"
         },
         {
             "pattern": "~からして",
@@ -4287,6 +4572,18 @@ GRAMMAR = {
                 {
                     "jp": "あの態度からして、彼はやる気がないようだ。",
                     "vi": "Nhìn ngay từ thái độ đó thì có vẻ anh ta không có động lực."
+                },
+                {
+                    "jp": "私は彼のことが大嫌いだ。彼の話し方や服装からしてがまんならない。",
+                    "vi": "Tôi rất ghét anh ta. Từ cái cách nói chuyện rồi ăn mặc đã không thể chịu nổi rồi."
+                },
+                {
+                    "jp": "田中さんのプランは、その発想からして独特だ。",
+                    "vi": "Kế hoạch của Tanaka, từ cái ý tưởng thôi đã thấy độc đáo rồi."
+                },
+                {
+                    "jp": "このレストラン、雰囲気からして結構高そうだね。",
+                    "vi": "Cái nhà hàng này, từ cái không khí đã thấy có vẻ khá cao sang rồi."
                 }
             ],
             "quizzes": [
@@ -4515,7 +4812,8 @@ GRAMMAR = {
                     "hiragana": "そのたいどからしてはんせいしているとはおもえない。",
                     "translation": "Xét theo thái độ của anh ấy, tôi không nghĩ anh ấy đang hối hận."
                 }
-            ]
+            ],
+            "full_meaning": "N+からして\nTừ N (là một ví dụ nhỏ) mà đã như vậy... suy ra đánh giá tổng thể\n(Thường là những đánh giá mang tính tiêu cực)"
         },
         {
             "pattern": "~からといって",
@@ -4524,6 +4822,18 @@ GRAMMAR = {
                 {
                     "jp": "若いからといって、油断してはいけない。",
                     "vi": "Dẫu cho còn trẻ thì cũng không được chủ quan."
+                },
+                {
+                    "jp": "しばらく連絡がないからといって、そんなに心配することないよ。",
+                    "vi": "Cho dù lâu lâu rồi không có liên lạc thì cũng không cần thiết phải lo lắng như thế."
+                },
+                {
+                    "jp": "一度ぐらい断られたからといって、そんなに簡単にあきらめないでください。",
+                    "vi": "Dù là bị từ chối một lần đi chăng nữa thì cũng đừng dễ dàng từ bỏ như vậy."
+                },
+                {
+                    "jp": "いくらお金がたくさんあるからといって、使いすぎるのはよくない。",
+                    "vi": "Dẫu là có nhiều tiền thế nào đi nữa thì dùng phung phí quá cũng không tốt."
                 }
             ],
             "quizzes": [
@@ -4752,7 +5062,9 @@ GRAMMAR = {
                     "hiragana": "べんりだからといって、つかいすぎるとかんきょうによくない。",
                     "translation": "Chỉ vì nó tiện lợi mà lạm dụng nó có thể gây hại cho môi trường."
                 }
-            ]
+            ],
+            "usage": "文の普通形+からといって",
+            "full_meaning": "Dẫu/cho dù là A đi chăng nữa thì cũng không hẳn B"
         }
     ],
     "2": [
@@ -4763,6 +5075,18 @@ GRAMMAR = {
                 {
                     "jp": "引き受けたからには、最後まで責任を持つ。",
                     "vi": "Một khi đã nhận việc thì tôi sẽ chịu trách nhiệm đến cùng."
+                },
+                {
+                    "jp": "いったん引き受けたからには、納得できる仕事をしたい。",
+                    "vi": "Một khi mà đã tiếp nhận công việc rồi thì muốn làm đến khi hài lòng thì thôi."
+                },
+                {
+                    "jp": "何回も話し合ってみんなで決めたことだ。決めたからには成功するように頑張ろう。",
+                    "vi": "Đây là việc mà mọi người đã thảo luận rất nhiều lần và đưa ra quyết định. Một khi đã quyết định rồi thì sẽ cố gắng để thành công nhé!"
+                },
+                {
+                    "jp": "約束したからには、どんなことがあっても守らなければならない。",
+                    "vi": "Một khi đã hứa rồi thì cho dù cho việc gì xảy ra cũng phải giữ lời hứa."
                 }
             ],
             "quizzes": [
@@ -4916,7 +5240,9 @@ GRAMMAR = {
                     "translation": "Một khi đã quyết định ra tranh cử thì tôi định truyền đạt suy nghĩ của mình đến cử tri cho đến cuối cùng.",
                     "hiragana": "せんきょにりっこうほするときめたからには、さいごまでゆうけんしゃにじぶんのかんがえをつたえるつもりだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形 / ナ形語幹/N+である",
+            "full_meaning": "+からには/からは\nMột khi mà A thì đương nhiên B\nMột khi mà A thì (đương nhiên) rất muốn hoặc quyết tâm B"
         },
         {
             "pattern": "~代わりに",
@@ -4929,6 +5255,26 @@ GRAMMAR = {
                 {
                     "jp": "この部屋は駅から近い代わりに、家賃が高い。",
                     "vi": "Phòng này gần ga nhưng đổi lại tiền thuê khá cao."
+                },
+                {
+                    "jp": "スーツケースを貸す代わりに、食事をごちそうしてもらった。",
+                    "vi": "Mình cho người ta mượn vali, bù lại được họ mời mình một bữa."
+                },
+                {
+                    "jp": "ノートを貸してもらった代わりに、昼ごはんをごちそうしよう。",
+                    "vi": "Mình được bạn cho mượn vở để chép bài, thay vào đó mình sẽ mời bạn bữa trưa."
+                },
+                {
+                    "jp": "山田先生の授業は試験を受ける代わりに、レポートを出してもよいことになっている。",
+                    "vi": "Trong giờ học của thầy Yamada, thầy đã đưa ra quy định là thay vì thi thì nộp báo cáo cũng được. (2)"
+                },
+                {
+                    "jp": "が少なくなった。",
+                    "vi": "Ngày nay nhờ có sự phổ cập của Internet mà chúng ta có được rất nhiều thông tin, nhưng đổi lại giao tiếp với người khác ngày càng ít đi. 都市化が進んでいく中で、面倒くさい近所づきあいから解放された代わりに、子育ての援"
+                },
+                {
+                    "jp": "助者を失っていく。",
+                    "vi": "Trong bối cảnh đô thị hóa diễn ra, chúng ta được giải phóng khỏi những phiền phức trong mối quan hệ với hàng xóm nhưng bù lại chúng ta mất đi người hỗ trợ trong việc nuôi dạy con cái."
                 }
             ],
             "quizzes": [
@@ -5082,7 +5428,9 @@ GRAMMAR = {
                     "translation": "Sản phẩm này có giá rẻ, nhưng đổi lại độ bền kém hơn hàng cao cấp.",
                     "hiragana": "このせいひんはねだんがやすいかわりに、たいきゅうせいについてはこうきゅうひんにおとる。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナ/N の名詞修飾形+代わりに / (1) / インターネットの普及でさまざまな情報が手に入る代わりに、人とのコミュニケーション",
+            "full_meaning": "Bù lại, đổi lại, thay vào đó, thay cho, thay mặt (cho ai đó)\nCông việc này ổn định nhưng đổi lại lương không cao."
         },
         {
             "pattern": "~気味 (ぎみ)",
@@ -5091,9 +5439,23 @@ GRAMMAR = {
                 {
                     "jp": "最近、少し太り気味だ。",
                     "vi": "Dạo này tôi có vẻ hơi tăng cân."
+                },
+                {
+                    "jp": "このところ忙しくて少し疲れ気味だから、今日は早く帰ることにした。",
+                    "vi": "Tôi cảm thấy hơi mệt vì công việc bận rộn gần đây nên hôm nay tôi quyết định về sớm."
+                },
+                {
+                    "jp": "昨日から風邪気味で、だるくて何もする気になりません。",
+                    "vi": "Từ hôm qua tôi cảm thấy có vẻ hơi bị cảm cúm, người uể oải chẳng muốn làm gì."
+                },
+                {
+                    "jp": "最近食べ過ぎのせいか、太り気味だ。",
+                    "vi": "Có lẽ tại gần đây tôi ăn nhiều nên cảm thấy hơi béo."
                 }
             ],
-            "quizzes": []
+            "quizzes": [],
+            "usage": "V ます・N+気味",
+            "full_meaning": "Cảm thấy hơi /cảm giác có vẻ..."
         },
         {
             "pattern": "~きり/きりだ",
@@ -5106,6 +5468,30 @@ GRAMMAR = {
                 {
                     "jp": "彼とは去年会ったきりだ。",
                     "vi": "Tôi chỉ gặp anh ấy một lần vào năm ngoái, từ đó chưa gặp lại."
+                },
+                {
+                    "jp": "赤ちゃんが生まれてから、夫婦二人きりで旅行するなんて不可能だ。",
+                    "vi": "Kể từ sau khi em bé ra đời thì việc đi du lịch chỉ có 2 vợ chồng là điều không thể."
+                },
+                {
+                    "jp": "一回きりの人生だから、楽しく過したい。",
+                    "vi": "Cuộc đời chỉ có một lần nên tôi muốn sống vui vẻ."
+                },
+                {
+                    "jp": "今朝の新聞は見出しを読んだきりで、具体的な内容はまだ読んでいない。",
+                    "vi": "Báo sáng nay tôi chỉ đọc tiêu đề thôi, còn nội dung cụ thể tôi chưa đọc. (2)V た+きり/きりだ Lần cuối cùng... kể từ đấy đến giờ thì không... Tức là sau khi thực hiện thì đến bây giờ không làm lại nữa."
+                },
+                {
+                    "jp": "こんな難しい曲はひけませんよ。ギターは 20 年前に習ったきりですから。",
+                    "vi": "Tôi không thể chơi được bản nhạc khó như vậy đâu. Vì 20 năm trước tôi học gitar nhưng kể từ đó không có chơi lại."
+                },
+                {
+                    "jp": "本田さんとは 20 年前に一度会ったきりだ。",
+                    "vi": "Tôi gặp Honda một lần từ 20 năm trước rồi. 大学時代にいつもとなりの席に座っていた内田 うちだ さんは今ごろどうしているだろう。卒業し"
+                },
+                {
+                    "jp": "た翌年に一度会ったきりだ。",
+                    "vi": "Không biết là cậu bạn Uchida luôn ngồi kế bên tôi thời đại học giờ sao rồi. Tôi mới chỉ gặp lại cậu ấy một lần từ cái năm sau khi tốt nghiệp."
                 }
             ],
             "quizzes": [
@@ -5259,7 +5645,9 @@ GRAMMAR = {
                     "translation": "Tôi nhận được email từ cô ấy vào tháng trước rồi gần đây không có liên lạc gì nữa.",
                     "hiragana": "かのじょからはせんげつめーるをもらったきりで、さいきんはなんのれんらくもない。"
                 }
-            ]
+            ],
+            "usage": "(1)V る/た・N+きり",
+            "full_meaning": "Chỉ ... (Thường đi với những số lượng ít)"
         },
         {
             "pattern": "~げ",
@@ -5268,6 +5656,18 @@ GRAMMAR = {
                 {
                     "jp": "彼女は寂しげな顔をしていた。",
                     "vi": "Cô ấy có vẻ mặt trông rất cô đơn."
+                },
+                {
+                    "jp": "彼女は彼の告白に恥ずかしげに「いいよ」と答えた。",
+                    "vi": "Cô ấy đáp lại lời tỏ tình của anh ấy là “em đồng ý” với vẻ xấu hổ ngượng ngùng."
+                },
+                {
+                    "jp": "彼女は何か言いたげな顔をしてこちらを見ている。",
+                    "vi": "Vẻ mặt của cô ấy nhìn về phía tôi như thể muốn nói điều gì đó."
+                },
+                {
+                    "jp": "喫茶店に入ると、退屈げに雑誌のページをめくっている彼の姿が目に映った。",
+                    "vi": "Khi tôi bước vào quán café, bắt gặp hình ảnh anh ấy đang giở những trang tạp chí với vẻ ngán ngẩm."
                 }
             ],
             "quizzes": [
@@ -5421,7 +5821,9 @@ GRAMMAR = {
                     "translation": "Cô ấy kể về cuộc chia tay với gia đình bằng giọng buồn bã.",
                     "hiragana": "かのじょはかなしげなこえで、かぞくとのわかれをかたった。"
                 }
-            ]
+            ],
+            "usage": "V ます・イ形語幹・ナ形語幹+げ",
+            "full_meaning": "Trông có vẻ...(mô tả trạng thái của đối tượng khác)"
         },
         {
             "pattern": "~ことから",
@@ -5430,6 +5832,18 @@ GRAMMAR = {
                 {
                     "jp": "色が赤いことから、このバラは「情熱」と呼ばれる。",
                     "vi": "Vì có màu đỏ nên bông hồng này được gọi là \"đam mê\"."
+                },
+                {
+                    "jp": "彼は何でもよく知っていることから、友達に「博士」と呼ばれている。",
+                    "vi": "Vì sự thực là cái gì anh ta cũng biết nên mới được bạn bè gọi là tiến sĩ."
+                },
+                {
+                    "jp": "都心では、子どもが少なくなっていることから、学校の数も減りつつある。",
+                    "vi": "Ở thành phố, số lượng trẻ em ngày càng ít đi, nên số lượng trường học cũng giảm dần."
+                },
+                {
+                    "jp": "指紋が一致したことから、彼は犯人に特定された。",
+                    "vi": "Bởi vì dấu vân tay trùng khớp nên anh ta bị cảnh sát xác định là tội phạm."
                 }
             ],
             "quizzes": [
@@ -5583,7 +5997,9 @@ GRAMMAR = {
                     "translation": "Vì khu vực này có nhiều tuyết rơi nên cần đặc biệt chú ý đến giao thông vào mùa đông.",
                     "hiragana": "このちほうではゆきがおおくふることから、ふゆのこうつうにはとくべつなちゅういがひつようだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ形の名詞修飾形 / ナ形語幹+な/である +ことから",
+            "full_meaning": "N+である\nVì sự thực A nên B (Thường dùng khi giải thích nguồn gốc tên gọi...)\nLý do A là một sự thực khách quan, nên B"
         },
         {
             "pattern": "~ことだから",
@@ -5592,6 +6008,14 @@ GRAMMAR = {
                 {
                     "jp": "真面目な彼のことだから、遅刻はしないだろう。",
                     "vi": "Vì là người nghiêm túc như anh ấy nên chắc sẽ không đến muộn đâu."
+                },
+                {
+                    "jp": "スポーツなら何でもやる鈴木さんのことだから、きっとスキーも上手でしょう。",
+                    "vi": "Suzuki là người mà môn thể thao nào cũng chơi được nên chắc chắn anh ta cũng trượt tuyết giỏi. 山田さんはもともと世話好きで、誰に対しても親切だ。そんな彼女のことだから、困って"
+                },
+                {
+                    "jp": "いる友達をほうっておけなかったのだろう。",
+                    "vi": "Yamada vốn dĩ là người thích quan tâm giúp đỡ người khác, đối với ai cô ấy cũng rất tốt bụng nên chắc không thể nào có chuyện cô ấy bỏ mặc bạn bè đang gặp khó khăn. 「山本さんは遅いですね。」 Yamada đến muộn nhỉ."
                 }
             ],
             "quizzes": [
@@ -5745,7 +6169,8 @@ GRAMMAR = {
                     "translation": "Vì là người tốt bụng như chị Yamada nên nếu kể hoàn cảnh, chắc chắn chị ấy sẽ giúp đỡ.",
                     "hiragana": "しんせつなやまださんのことだから、じじょうをはなせばきっとちからになってくれることだろう。"
                 }
-            ]
+            ],
+            "full_meaning": "N+の+ことだから\nVì (người) N đó nên ...suy ra B\nHiểu rõ về tính cách, tính chất của đối tượng N\nUh, Thế nhưng vì anh ấy là người rất nghiêm túc nên nhất định anh ấy sẽ đến."
         },
         {
             "pattern": "~ことなく/こともなく",
@@ -5754,6 +6179,18 @@ GRAMMAR = {
                 {
                     "jp": "彼は諦めることなく、挑戦し続けた。",
                     "vi": "Anh ấy không hề từ bỏ mà tiếp tục thử thách."
+                },
+                {
+                    "jp": "失敗を恐れることなく、行動してほしい。",
+                    "vi": "Tôi muốn các bạn hành động mà không sợ thất bại. 日本人は、自分の意見をあまり主張しないと言われている。周りの雰囲気に流されること"
+                },
+                {
+                    "jp": "なく、言いにくいこともはっきり言うべきだ。",
+                    "vi": "Người Nhật thường bị nói là không nêu lên rõ ràng chính kiến của mình. Chúng ta cũng nên nói rõ những điều khó nói mà không bị cuốn theo/không bị chi phối bởi bầu không khí xung quanh."
+                },
+                {
+                    "jp": "彼は 1 日も休むことなく小説を書き続けている。",
+                    "vi": "Anh ta vẫn tiếp tục viết tiểu thuyết mà không nghỉ ngày nào."
                 }
             ],
             "quizzes": [
@@ -5907,7 +6344,9 @@ GRAMMAR = {
                     "translation": "Anh ấy hoàn thành báo cáo qua đêm mà không ngủ một chút nào.",
                     "hiragana": "かれはいっすいもすることなく、てつやでれぽーとをかきあげた。"
                 }
-            ]
+            ],
+            "usage": "V る+ことなく/こともなく",
+            "full_meaning": "Làm B mà không A"
         },
         {
             "pattern": "~ごとに",
@@ -5916,6 +6355,18 @@ GRAMMAR = {
                 {
                     "jp": "会うごとに、彼女は元気になっていく。",
                     "vi": "Mỗi lần gặp, cô ấy lại có vẻ khỏe khoắn hơn."
+                },
+                {
+                    "jp": "毎朝、配達員が家ごとに新聞を配る。",
+                    "vi": "Mỗi buổi sáng người phát báo sẽ đi phát cho mỗi nhà."
+                },
+                {
+                    "jp": "この目覚まし時計は 5 分ごとに鳴るように設定されている。",
+                    "vi": "Cái đồng hồ báo thức được cài đặt cứ mỗi 5 phút lại kêu 1 lần."
+                },
+                {
+                    "jp": "秋は一雨ごとに涼しくなるという季節だ。",
+                    "vi": "Mùa thu là mùa mà cứ sau mỗi trận mưa thì trời lại mát hơn."
                 }
             ],
             "quizzes": [
@@ -6069,7 +6520,9 @@ GRAMMAR = {
                     "translation": "Mỗi lần đi nước ngoài, sự hiểu biết của tôi về các nền văn hóa khác lại sâu sắc hơn.",
                     "hiragana": "かいがいへいくごとに、いぶんかへのりかいがふかまっていった。"
                 }
-            ]
+            ],
+            "usage": "V る/N+ごとに",
+            "full_meaning": "Mỗi ~"
         },
         {
             "pattern": "~ことにはならない",
@@ -6078,6 +6531,18 @@ GRAMMAR = {
                 {
                     "jp": "一度失敗したからといって、才能がないことにはならない。",
                     "vi": "Chỉ vì thất bại một lần thì chưa thể nói là không có tài năng."
+                },
+                {
+                    "jp": "本やインターネットの資料を写しただけではレポートを書いたことにはならない。",
+                    "vi": "Nếu như chỉ copy tài liệu trên mạng hoặc trong sách thì chưa thể nói là đã viết báo cáo được."
+                },
+                {
+                    "jp": "正式な手続きを踏まないと、入社したことにはならない。",
+                    "vi": "Nếu như chưa hoàn thành hết các thủ tục chính thức thì chưa thể nói là đã vào công ty được."
+                },
+                {
+                    "jp": "やり終わった作業の見直しまでしないと、仕事をやり遂げたことにはならない。",
+                    "vi": "Nếu chưa xem xét lại những công việc đã làm xong thì chưa thể xem là đã hoàn thành công việc được."
                 }
             ],
             "quizzes": [
@@ -6231,7 +6696,9 @@ GRAMMAR = {
                     "translation": "Chỉ nghe giải thích một lần thì chưa thể nói rằng đã hoàn toàn hiểu nội dung.",
                     "hiragana": "せつめいをいちどきいただけで、ないようをかんぜんにりかいしたことにはならない。"
                 }
-            ]
+            ],
+            "usage": "V た+ことにはならない",
+            "full_meaning": "Chưa đạt đến mức độ đấy/ chưa thể nói là như vậy được."
         },
         {
             "pattern": "~ことは~が",
@@ -6240,6 +6707,18 @@ GRAMMAR = {
                 {
                     "jp": "行くことは行きますが、少し遅れます。",
                     "vi": "Tôi cũng có đi đấy, nhưng sẽ hơi muộn một chút."
+                },
+                {
+                    "jp": "レポートは最後まで書いたことは書いたんですが、まだ足りない部分もあります。",
+                    "vi": "Báo cáo thì đã viết đến cuối rồi đấy thế nhưng mà vẫn còn những phần còn thiếu."
+                },
+                {
+                    "jp": "このレストランはおいしいことはおいしいが、値段が高すぎる。",
+                    "vi": "Nhà hàng đó ngon thì có ngon đấy nhưng giá lại quá đắt."
+                },
+                {
+                    "jp": "スペイン語はわかることはわかるが、話し方が早いとうまく理解できない。",
+                    "vi": "Tiếng Tây Ban Nha nói thì cũng hiểu đấy nhưng nếu nói nhanh quá thì tôi cũng không hiểu rõ lắm đâu."
                 }
             ],
             "quizzes": [
@@ -6393,7 +6872,9 @@ GRAMMAR = {
                     "translation": "Tôi cũng có thể hiểu, nhưng không có nghĩa là tôi hoàn toàn đồng tình.",
                     "hiragana": "りかいできることはりかいできるが、かんぜんになっとくしたわけではない。"
                 }
-            ]
+            ],
+            "usage": "V/イ形の名詞修飾形+ことは+V/イ形普通形+が / ナ形語幹-な+ことは+ナ形語幹-だ+が",
+            "full_meaning": "A thì có A đấy thế nhưng mà...(Công nhận vế A, nhưng bổ sung thêm thông tin B)"
         },
         {
             "pattern": "~際は/際に(は)",
@@ -6402,6 +6883,18 @@ GRAMMAR = {
                 {
                     "jp": "お困りの際は、いつでもご連絡ください。",
                     "vi": "Khi gặp khó khăn, xin hãy liên hệ với chúng tôi bất cứ lúc nào."
+                },
+                {
+                    "jp": "外出する際は、必ず鍵をかけるようにしてください。",
+                    "vi": "Khi đi ra ngoài thì hãy chắc chắn khóa cửa lại."
+                },
+                {
+                    "jp": "お近くにお越しの際には、ぜひわが家にお寄りください。",
+                    "vi": "Nếu đến gần đây thì nhất định hãy ghé nhà tôi chơi."
+                },
+                {
+                    "jp": "先月帰省した際に、高校の先生を訪ねた。",
+                    "vi": "Tháng trước, sau khi về nước tôi đã ghé thăm thầy giáo cấp 3."
                 }
             ],
             "quizzes": [
@@ -6555,7 +7048,9 @@ GRAMMAR = {
                     "translation": "Khi gặp khó khăn, vui lòng thông báo cho nhân viên phụ trách.",
                     "hiragana": "おこまりのきわは、かかりいんまでおもうしでください。"
                 }
-            ]
+            ],
+            "usage": "V る/た・N の+際は/際に(は)",
+            "full_meaning": "Khi làm A thì làm B (Là dạng cứng hơn của 時)"
         },
         {
             "pattern": "~ざるを得ない",
@@ -6564,6 +7059,18 @@ GRAMMAR = {
                 {
                     "jp": "会社の方針なので、従わざるを得ない。",
                     "vi": "Vì là chính sách của công ty nên tôi buộc phải tuân theo."
+                },
+                {
+                    "jp": "台風が近づいているので、明日からの旅行は、残念だが延期せざるを得ない。",
+                    "vi": "Vì bão đang tiến lại gần rồi nên chuyến du lịch từ ngày mai, mặc dù rất tiếc nhưng buộc phải hoãn lại."
+                },
+                {
+                    "jp": "2 回も同じ間違いをするとは、注意が足りなかったと言わざるを得ない。",
+                    "vi": "Nếu mắc phải cùng một sai lầm đến lần thứ hai thì tôi buộc phải nói là do anh không chú ý thôi."
+                },
+                {
+                    "jp": "日本で生活をするのなら、漢字を覚えざるを得ない。",
+                    "vi": "Nếu như sống ở Nhật thì buộc phải nhớ Kanji thôi."
                 }
             ],
             "quizzes": [
@@ -6717,7 +7224,9 @@ GRAMMAR = {
                     "translation": "Dù không đồng tình nhưng vì là quyết định của công ty nên buộc phải tuân theo.",
                     "hiragana": "なっとくはしていないが、かいしゃのけっていなのでしたがわざるをえない。"
                 }
-            ]
+            ],
+            "usage": "V ない+ざるを得ない(する→せざるを得ない)",
+            "full_meaning": "Buộc phải...(Mặc dù không muốn nhưng không còn sự lựa chọn nào khác)"
         },
         {
             "pattern": "~次第/次第だ/次第で",
@@ -6734,6 +7243,42 @@ GRAMMAR = {
                 {
                     "jp": "成功するかどうかは、努力次第だ。",
                     "vi": "Thành công hay không là tùy vào nỗ lực."
+                },
+                {
+                    "jp": "検査の結果がわかり次第、ご連絡いたします。",
+                    "vi": "Sau khi biết được kết quả kiểm tra, tôi sẽ liên lạc lại cho anh."
+                },
+                {
+                    "jp": "参加者の名前がわかり次第、教えていただけませんか。",
+                    "vi": "Sau khi biết tên của người tham gia thì anh có thể cho tôi biết được không."
+                },
+                {
+                    "jp": "田中は出かけておりますので、戻り次第ご連絡をさしあげます。",
+                    "vi": "Anh Tanaka ra ngoài rồi nên sau khi anh ấy trở về tôi sẽ liên lạc. (2)~次第だ/次第で"
+                },
+                {
+                    "jp": "先日お伝えした日程に誤りがありましたので、今回、改めてご連絡を差し上げた次第です。",
+                    "vi": "Trong lịch trình mà tôi truyền đạt lại với anh có sai sót nên lần này tôi liên lạc lại với anh."
+                },
+                {
+                    "jp": "以上のような次第で、来週の社員旅行は延期にさせていただきます。",
+                    "vi": "Bởi vì lý do như trên nên cho phép chúng tôi hoãn chuyến du dịch cho nhân viên vào tuần sau."
+                },
+                {
+                    "jp": "父が病気のため、実家の豆腐屋を引き継いだ次第だ。",
+                    "vi": "Vì bố bị bệnh nên tôi là người nối nghiệp cửa hàng đậu phụ của gia đình. (2.2)N+次第だ/次第で(は) Phụ thuộc/tùy thuộc vào N"
+                },
+                {
+                    "jp": "あしたハイキングに行くかどうかは、お天気次第だ。",
+                    "vi": "Ngày mai có đi dã ngoại được hay không thì phụ thuộc vào thời tiết."
+                },
+                {
+                    "jp": "この製品は、アイデア次第でいろいろな使い方ができます。",
+                    "vi": "Sản phẩm này có thể sử dụng da dạng tùy thuộc vào ý tưởng."
+                },
+                {
+                    "jp": "頼み方次第ではあの人もこの仕事を手伝ってくれるかもしれない。",
+                    "vi": "Tùy vào cách nhờ vả, biết đâu người đấy cũng giúp chúng ta thì sao?"
                 }
             ],
             "quizzes": [
@@ -6887,7 +7432,9 @@ GRAMMAR = {
                     "translation": "Ngay sau khi lịch trình cụ thể được quyết định, tôi sẽ thông báo cho mọi người.",
                     "hiragana": "くわしいにっていがきまりしだい、みなさんにおしらせします。"
                 }
-            ]
+            ],
+            "usage": "(1)~次第 / V ます+次第",
+            "full_meaning": "Sau khi....(Dùng cho hành động ở tương lai, Sau khi A thì sẽ làm B, thường dùng trong môi\ntrường Business)\n(2.1)V/イ/ナ形の名詞修飾形+次第だ/次第で\n(Dùng khi nêu lên diễn biến, sự tình, lý do)"
         },
         {
             "pattern": "~末(に)",
@@ -6896,9 +7443,19 @@ GRAMMAR = {
                 {
                     "jp": "長い議論の末に、結論が出た。",
                     "vi": "Sau một cuộc tranh luận dài, cuối cùng cũng có kết luận."
+                },
+                {
+                    "jp": "あれこれ悩んだ末に、ABC 大学を志望校に決めた。",
+                    "vi": "Sau khi trăn trở rất nhiều thì tôi quyết định đặt nguyện vọng vào trường đại học ABC."
+                },
+                {
+                    "jp": "この新しい薬は、何年にもわたる研究の末に作り出されるものだ。",
+                    "vi": "Thuốc mới này là sản phẩm được tạo ra sau một quá trình nghiên cứu nhiều năm."
                 }
             ],
-            "quizzes": []
+            "quizzes": [],
+            "usage": "V た・N の+末(に)",
+            "full_meaning": "Sau ...thì kết quả là...\nXin bạn đừng nói gì cả. Đây là kết luận mà tôi đưa ra sau khi đã cố gắng suy nghĩ rất kỹ rồi."
         },
         {
             "pattern": "~ずにすむ/ないですむ",
@@ -6907,6 +7464,18 @@ GRAMMAR = {
                 {
                     "jp": "早めに準備したので、慌てずにすんだ。",
                     "vi": "Nhờ chuẩn bị sớm nên tôi không phải vội vàng."
+                },
+                {
+                    "jp": "幸い友人が冷蔵庫をくれたので、新しいのを買わなくてすんだ。",
+                    "vi": "May mắn là được bạn cho mình cái tủ lạnh nên không cần phải mua cái mới nữa. 今朝乗っていた電車が一時運転見合わせになったけど、早めに家を出たので遅刻せずにす"
+                },
+                {
+                    "jp": "んだ。",
+                    "vi": "Mặc dù sáng nay tàu tạm thời bị chậm một lúc nhưng vì tôi ra khỏi nhà sớm nên may không bị muộn."
+                },
+                {
+                    "jp": "今回は風邪の症状が軽かったので、病院に行かずにすんだ。",
+                    "vi": "Lần này triệu chứng cảm cúm nhẹ nên chẳng cần đến bệnh viện."
                 }
             ],
             "quizzes": [
@@ -7060,7 +7629,9 @@ GRAMMAR = {
                     "translation": "Vì công việc kết thúc sớm hơn dự kiến nên tôi không phải làm thêm giờ.",
                     "hiragana": "よていよりはやくしごとがおわったので、ざんぎょうをせずにすんだ。"
                 }
-            ]
+            ],
+            "usage": "V ない+ずにすむ/ないですむ/なくてすむ(する→せずにすむ/しないですむ)",
+            "full_meaning": "Không cần A/không A cũng xong"
         },
         {
             "pattern": "~ずにはいられない/ないではいられない",
@@ -7069,6 +7640,18 @@ GRAMMAR = {
                 {
                     "jp": "その映画を見て、泣かずにはいられなかった。",
                     "vi": "Xem bộ phim đó xong tôi không thể không khóc."
+                },
+                {
+                    "jp": "書類のミスがあまり多かったので、担当者に文句を言わずににはいられなかった。",
+                    "vi": "Bởi vì tài liệu có quá nhiều lỗi sai nên tôi không thể không than phiền với người phụ trách. お世話になった先生が突然入院されたと聞いて、私は心配で病院に行かずにはいられなか"
+                },
+                {
+                    "jp": "った。",
+                    "vi": "Khi nghe tin người thầy đã giúp mình rất nhiều đột nhiên phải vào viện, tôi đã rất lo lắng và không thể không đến bệnh viện thăm."
+                },
+                {
+                    "jp": "台風の被害にあった人々のため、一日も早い生活環境の整備を願わずにはいられない。",
+                    "vi": "Mong sớm hoàn thiện môi trường sống cho những người bị thiệt hại trong trận bão."
                 }
             ],
             "quizzes": [
@@ -7222,7 +7805,9 @@ GRAMMAR = {
                     "translation": "Nhìn thấy đứa trẻ đó trưởng thành, tôi không thể không cổ vũ cho em ấy.",
                     "hiragana": "あのこのせいちょうをみると、おうえんせずにはいられない。"
                 }
-            ]
+            ],
+            "usage": "V ない+ずにはいられない/ないではいられない",
+            "full_meaning": "Không thể không (không thể kìm nén được nên phải thực hiện)"
         },
         {
             "pattern": "~たいばかりに/ほしいばかりに",
@@ -7231,6 +7816,18 @@ GRAMMAR = {
                 {
                     "jp": "合格したいばかりに、無理な勉強をしてしまった。",
                     "vi": "Chỉ vì quá muốn đỗ mà tôi đã học một cách quá sức."
+                },
+                {
+                    "jp": "ブランドバッグを手に入れたいばかりに、夏休みは一生懸命アルバイトをした。",
+                    "vi": "Chỉ vì muốn có cái túi hàng hiệu mà nghỉ hè đã đi làm thêm rất chăm chỉ."
+                },
+                {
+                    "jp": "好きな歌手のコンサートを見に行きたいばかりに、病気にかこつけて休みを取った。",
+                    "vi": "Chỉ vì muốn đi xem buổi biểu diễn của ca sỹ mình yêu thích nên mới viện cớ bị ốm để xin nghỉ."
+                },
+                {
+                    "jp": "仕事を早く終わらせたいばかりに、昼休みも取らずに頑張った。",
+                    "vi": "Chỉ vì muốn kết thúc sớm công việc mà mình đã cố gắng làm mà không nghỉ trưa."
                 }
             ],
             "quizzes": [
@@ -7384,7 +7981,9 @@ GRAMMAR = {
                     "translation": "Chỉ vì muốn bố mẹ vui nên tôi đã cố quá sức để mua một món quà đắt tiền.",
                     "hiragana": "おやによろこんでもらいたいばかりに、むりをしてこうかなぷれぜんとをかった。"
                 }
-            ]
+            ],
+            "usage": "V ます+たいばかりに",
+            "full_meaning": "N+が+ほしいばかりに\nChỉ vì muốn... nên mới..."
         },
         {
             "pattern": "~だけ/だけあって/だけに/だけのことはある",
@@ -7401,6 +8000,38 @@ GRAMMAR = {
                 {
                     "jp": "真面目な彼だけに、今回のミスは意外だった。",
                     "vi": "Chính vì anh ấy vốn nghiêm túc nên lần sai sót này thật bất ngờ."
+                },
+                {
+                    "jp": "多くの観光客が訪れるだけあって、確かに山からの眺めはすばらしかった。",
+                    "vi": "Quả không hổ danh là nơi có rất nhiều du khách đến, quả thật view nhìn từ trên núi rất tuyệt."
+                },
+                {
+                    "jp": "彼はチームのキャプテンだけあって、みんなに信頼されている。",
+                    "vi": "Anh ta là đội trưởng của cả đội có khác, được mọi người rất tin tưởng."
+                },
+                {
+                    "jp": "彼女は英語の発音がとてもきれいで、アメリカへ留学しただけのことはある。",
+                    "vi": "Phát âm tiếng anh của cô ấy rất hay, quả là đi du học Mỹ về có khác. (2)V/イ/ナの名詞修飾形・N+だけに Vì A nên B hơn so với bình thường Chính vì...nên lại càng...hơn"
+                },
+                {
+                    "jp": "山に登るのに苦労しただけに、頂上で見た風景は最高だった。",
+                    "vi": "Chính vì vất vả leo núi, nên phong cảnh nhìn thấy ở trên đỉnh núi thật là tuyệt vời."
+                },
+                {
+                    "jp": "こちらは壊れやすいものだけに、取り扱いには十分気をつけてください。",
+                    "vi": "Cái này rất dễ vỡ nên xin hãy thật sự chú ý! (3)V/イ/ナの名詞修飾形・N+だけに Chỉ vì/chính vì A nên ngược lại..."
+                },
+                {
+                    "jp": "体に自信があるだけに、かえって無理をして体を壊してしまった。",
+                    "vi": "Chỉ vì tự tin vào sức khỏe của mình nên ngược lại mới cố quá sức làm ảnh hưởng đến sức khỏe."
+                },
+                {
+                    "jp": "優勝することを期待していただけに、負けたときの失望は大きかった。",
+                    "vi": "Chính vì kỳ vọng sẽ giành chiến thắng nên mới thất vọng lớn khi bị thua."
+                },
+                {
+                    "jp": "鈴木課長は普段静かなだけに、怒り出すとすごく怖い。",
+                    "vi": "Trưởng phòng bình thường rất trầm tính, chính vì thế nên lúc nổi cáu mới đáng sợ."
                 }
             ],
             "quizzes": [
@@ -7554,7 +8185,9 @@ GRAMMAR = {
                     "translation": "Quả đúng là dân chuyên nghiệp. Tốc độ làm việc rất nhanh.",
                     "hiragana": "さすがぷろだけのことはある。しごとがとてもはやい。"
                 }
-            ]
+            ],
+            "usage": "(1)V/イ/ナの名詞修飾形・N+だけ/だけあって/だけに/だけのことはある",
+            "full_meaning": "Quả không hổ danh, quả đúng là,...có khác, thật tương xứng\n(Thường dùng khi khen ngợi, vì A nên B ở mức độ tương xứng)\nEm gái tôi vốn rất yếu nên chỉ cần bị cúm thôi đã rất lo."
         },
         {
             "pattern": "~たところ",
@@ -7563,6 +8196,18 @@ GRAMMAR = {
                 {
                     "jp": "先生に相談したところ、いいアドバイスをもらえた。",
                     "vi": "Sau khi thử hỏi ý kiến thầy, tôi đã nhận được lời khuyên hữu ích."
+                },
+                {
+                    "jp": "仕事の合間にときどき遠くを見るようにしたところ、目が疲れにくくなった。",
+                    "vi": "Tranh thủ lúc làm việc thỉnh thoảng ngước mắt ra xa thì mắt đỡ bị mỏi hơn."
+                },
+                {
+                    "jp": "山田さんの家へ遊びに行ったところ、ちょうど川本さんがきていた。",
+                    "vi": "Lúc đến nhà Yamada chơi thì đúng lúc ấy Kawamoto cũng đến."
+                },
+                {
+                    "jp": "会場の問い合わせをしたところ、地図を送ってくれた。",
+                    "vi": "Sau khi hỏi đường đến hội trường thì được gửi cho bản đồ."
                 }
             ],
             "quizzes": [
@@ -7716,7 +8361,9 @@ GRAMMAR = {
                     "translation": "Sau khi thử hỏi trực tiếp người đó thì được biết tin đồn ấy không phải sự thật.",
                     "hiragana": "ほんにんにちょくせつきいてみたところ、そのうわさはじじつではないそうだ。"
                 }
-            ]
+            ],
+            "usage": "V た+ところ",
+            "full_meaning": "Sau khi làm V1 thì nhận được kết quả là V2"
         }
     ],
     "3": [
@@ -7727,6 +8374,14 @@ GRAMMAR = {
                 {
                     "jp": "電話をかけたところが、誰も出なかった。",
                     "vi": "Tôi đã thử gọi điện nhưng không ngờ chẳng ai nghe máy."
+                },
+                {
+                    "jp": "今朝は早めに出かけたところが、交通事故に巻き込まれ遅刻してしまった。",
+                    "vi": "Sáng nay ra khỏi nhà sớm nhưng không ngờ lại vướng vào vụ tai nạn giao thông nên kết quả là bị muộn."
+                },
+                {
+                    "jp": "昔住んでいた町を訪ねたところが、様子がすっかり変わっていて迷ってしまった。",
+                    "vi": "Đến thăm nơi mà mình đã từng sống nhưng không ngờ khung cảnh hoàn toàn thay đổi và mình đã bị lạc."
                 }
             ],
             "quizzes": [
@@ -7880,7 +8535,9 @@ GRAMMAR = {
                     "translation": "Sau khi hỏi nhân viên về hàng tồn thì được biết vẫn còn lại một sản phẩm cuối cùng.",
                     "hiragana": "てんいんにしょうひんのざいこをきいたところが、さいごのひとつがのこっているとのことだった。"
                 }
-            ]
+            ],
+            "usage": "V た+ところが",
+            "full_meaning": "Làm A nhưng không ngờ B (B là điều bất ngờ)\nNghĩ chắc là anh Tanaka biết nên thử hỏi anh ấy nhưng không ngờ anh ấy cũng không biết gì cả."
         },
         {
             "pattern": "~たところで",
@@ -7889,6 +8546,18 @@ GRAMMAR = {
                 {
                     "jp": "今さら後悔したところで、どうにもならない。",
                     "vi": "Giờ có hối hận thì cũng chẳng giải quyết được gì."
+                },
+                {
+                    "jp": "どんなに一生懸命働いたところで、生活は楽にならないだろう。",
+                    "vi": "Dù cho cố gắng làm việc chăm chỉ đến đâu thì cuộc sống cũng không nhàn nhã được."
+                },
+                {
+                    "jp": "もともと勉強する気がないのなら、大学を受けてみたところで何の意味があるのか。",
+                    "vi": "Vốn dĩ là không thích học nên dù có đi thi đại học thì cũng không có ý nghĩa gì cả."
+                },
+                {
+                    "jp": "いくら話し合ったところで、この問題を解決することはできません。",
+                    "vi": "Dù có trao đổi thế nào đi nữa thì cũng không thể giải quyết vấn đề này."
                 }
             ],
             "quizzes": [
@@ -8042,7 +8711,9 @@ GRAMMAR = {
                     "translation": "Dù có nỗ lực đến đâu thì một mình cũng không thể hoàn thành công việc này.",
                     "hiragana": "どんなにどりょくしたところで、ひとりではこのしごとをかんせいさせられない。"
                 }
-            ]
+            ],
+            "usage": "V た+ところで",
+            "full_meaning": "Dẫu cho là có ... thì cũng...\n( B thường là những từ mang tính tiêu cực để thể hiện sự vô ích, lãng phí..)"
         },
         {
             "pattern": "~たとたん(に)",
@@ -8051,6 +8722,18 @@ GRAMMAR = {
                 {
                     "jp": "ドアを開けたとたんに、猫が飛び出した。",
                     "vi": "Vừa mở cửa ra thì con mèo lao vọt ra ngoài."
+                },
+                {
+                    "jp": "事務所のかぎをしめたとたんに、中で電話が鳴りはじめた。",
+                    "vi": "Vừa mới khóa cửa văn phòng xong thì có tiếng chuông điện thoại kêu bên trong."
+                },
+                {
+                    "jp": "国から来た手紙を見たとたん、彼女は泣き出してしまった。",
+                    "vi": "Vừa mới nhìn thấy lá thư gửi từ quê nhà sang cô ấy liền bật khóc."
+                },
+                {
+                    "jp": "暑くなったとたん、ビールの売れ行きがよくなった。",
+                    "vi": "Trời vừa nóng thì doanh số bán bia tăng vọt."
                 }
             ],
             "quizzes": [
@@ -8204,7 +8887,9 @@ GRAMMAR = {
                     "translation": "Vừa ngồi xuống ghế thì cơn buồn ngủ đột nhiên ập đến.",
                     "hiragana": "せきにすわったとたんに、ねむけがきゅうにおそってきた。"
                 }
-            ]
+            ],
+            "usage": "V た+とたん(に)",
+            "full_meaning": "Vừa mới A thì ngay lập tức B (B là sự việc mang tính bất ngờ,ngoài kiểm soát nên thường đi\nvới dạng động từ không có ý chí.)"
         },
         {
             "pattern": "~ついでに",
@@ -8213,6 +8898,18 @@ GRAMMAR = {
                 {
                     "jp": "買い物に行くついでに、郵便局にも寄った。",
                     "vi": "Nhân tiện đi mua sắm, tôi ghé qua bưu điện luôn."
+                },
+                {
+                    "jp": "展覧会に行ったついでに近くの公園をぶらぶら散歩してきた。",
+                    "vi": "Nhân tiện đi đến buổi triển lãm thì đi dạo lang thang quanh công viên gần đấy."
+                },
+                {
+                    "jp": "母は駅まで客を送っていったついでに買い物をしてきた。",
+                    "vi": "Nhân tiện tiễn khách ra ga thì mẹ đi mua đồ luôn."
+                },
+                {
+                    "jp": "札幌出張のついでに、雪祭りを見物した。",
+                    "vi": "Nhân tiện đi Sapporo công tác thì tôi đi xem lễ hội tuyết."
                 }
             ],
             "quizzes": [
@@ -8366,7 +9063,9 @@ GRAMMAR = {
                     "translation": "Nhân tiện đi đến tòa thị chính, tôi dự định ghé qua bưu điện gần đó.",
                     "hiragana": "しやくしょへいくついでに、ちかくのゆうびんきょくにもよるよていです。"
                 }
-            ]
+            ],
+            "usage": "V る/た・N の+ついでに",
+            "full_meaning": "Nhân tiện làm A thì làm luôn B"
         },
         {
             "pattern": "~っこない",
@@ -8375,6 +9074,18 @@ GRAMMAR = {
                 {
                     "jp": "こんな難しい問題、私にはできっこない。",
                     "vi": "Bài khó thế này thì tôi không thể nào làm được."
+                },
+                {
+                    "jp": "こんな弱い選手ばかりでは、次の試合に勝てっこない。",
+                    "vi": "Nếu chỉ toàn cầu thủ yếu như vậy thì không thể thắng trong trận đấu tiếp theo được. この話は、今初めてあなただけにしたんだから、あなたが言わなければ、ほかの人は知り"
+                },
+                {
+                    "jp": "っこないよ。",
+                    "vi": "Câu chuyện này lần đầu tiên tôi nói cho bạn nên nếu bạn không nói thì người khác không thể biết được."
+                },
+                {
+                    "jp": "1 日 10 時間も勉強するなんて、私にはできっこないよ。",
+                    "vi": "Một ngày học tận 10 tiếng thì tôi không thể làm được đâu."
                 }
             ],
             "quizzes": [
@@ -8528,7 +9239,9 @@ GRAMMAR = {
                     "translation": "Một kiện hành lý lớn như thế này thì hoàn toàn không thể nào một mình vận chuyển được.",
                     "hiragana": "こんなおおきなにもつをひとりではこべっこない。"
                 }
-            ]
+            ],
+            "usage": "V ます+っこない",
+            "full_meaning": "Hoàn toàn không...(Nhấn mạnh phủ định và thường đi với dạng động từ khả năng)"
         },
         {
             "pattern": "~つつ(も)",
@@ -8541,6 +9254,26 @@ GRAMMAR = {
                 {
                     "jp": "悪いと知りつつも、つい嘘をついてしまった。",
                     "vi": "Dù biết là không tốt nhưng tôi vẫn lỡ nói dối."
+                },
+                {
+                    "jp": "辞書を引きつつ英字新聞を読んでいる。",
+                    "vi": "Tôi vừa đọc báo tiếng anh vừa tra từ điển."
+                },
+                {
+                    "jp": "資金のことを考えつつ、工事を進めていく。",
+                    "vi": "Vừa tiến hành thi công vừa suy nghĩ cách xoay sở tiền vốn. (2)V ます+つつ(も) Mặc dù A nhưng B Vế A thường đi với động từ thuộc dạng suy nghĩ,lời nói như 思う、考える、知る、言う...để thể hiện sự trái ngược giữa hành động và suy nghĩ/lời nói."
+                },
+                {
+                    "jp": "もう起きなければと思いつつも、なかなか起きられない。",
+                    "vi": "Mặc dù nghĩ là mình phải dậy thôi nhưng mãi không dậy được."
+                },
+                {
+                    "jp": "タバコは体に悪いと知りつつも、つい吸ってしまう。",
+                    "vi": "Mặc dù biết là thuốc lá có hại cho sức khỏe nhưng vẫn lỡ hút."
+                },
+                {
+                    "jp": "口では「頑張る」と言いつつも、心の中では落ちてもいいと思っていた。",
+                    "vi": "Mặc dù miệng nói là sẽ cố gắng nhưng trong lòng lại nghĩ là “thôi trượt cũng chẳng sao”."
                 }
             ],
             "quizzes": [
@@ -8694,7 +9427,9 @@ GRAMMAR = {
                     "translation": "Dù cảm thấy không khỏe nhưng tôi vẫn đi chuyến du lịch đã dự định.",
                     "hiragana": "たいちょうがわるいとかんじつつも、よていしていたりょこうにでかけた。"
                 }
-            ]
+            ],
+            "usage": "(1)V ます+つつ",
+            "full_meaning": "Vừa A và đồng thời B"
         },
         {
             "pattern": "~つつある",
@@ -8703,6 +9438,14 @@ GRAMMAR = {
                 {
                     "jp": "環境問題は年々深刻化しつつある。",
                     "vi": "Vấn đề môi trường đang ngày càng trở nên nghiêm trọng."
+                },
+                {
+                    "jp": "環境問題への関心が高くなり、車ではなく電車を利用する人が増えつつある。",
+                    "vi": "Sự quan tâm đối với vấn đề môi trường ngày càng tăng cao nên ngày càng có nhiều người không dùng oto nữa mà đi tàu. 多くの国で公害が年々ひどくなっているが、一方では、それをなくすために、技術協力を"
+                },
+                {
+                    "jp": "政府は景気が緩やかに回復しつつあると発表した。",
+                    "vi": "Chính phủ đã công bố rằng kinh tế đang dần phục hồi nhẹ."
                 }
             ],
             "quizzes": [
@@ -8856,7 +9599,10 @@ GRAMMAR = {
                     "translation": "Nhờ những nỗ lực trong nhiều năm, thành tích kinh doanh của công ty đang dần được cải thiện.",
                     "hiragana": "ながねんのどりょくによって、かいしゃのぎょうせきはかいぜんしつつある。"
                 }
-            ]
+            ],
+            "usage": "V ます+つつある",
+            "full_meaning": "Ở nhiều quốc gia, vấn đề ô nhiễm công nghiệp ngày càng tệ hơn mỗi năm nhưng bên cạnh đó cũng\nngày càng có nhiều nước hợp tác kỹ thuật với nhau để đẩy lùi tình trạng đó.",
+            "notes": "Ngày càng/dần dần... (Thường kết hợp với những động từ thể hiện sự thay đổi)"
         },
         {
             "pattern": "~っぱなし",
@@ -8869,6 +9615,26 @@ GRAMMAR = {
                 {
                     "jp": "一日中立ちっぱなしで、足が痛い。",
                     "vi": "Đứng suốt cả ngày nên chân tôi đau nhức."
+                },
+                {
+                    "jp": "水を出しっぱなしにして、歯を磨くのはもったいないですよ。",
+                    "vi": "Đánh răng mà cứ để mặc nước chảy như thế thật là lãng phí."
+                },
+                {
+                    "jp": "ドアを開けっぱなしにして出かけました。",
+                    "vi": "Đi ra ngoài mà cứ để cửa mở như thế. (2)Diễn tả tình trạng kéo dài"
+                },
+                {
+                    "jp": "電車の中はあいにく空席がなくて、ずっと立ちっぱなしだった。",
+                    "vi": "Trên tàu, thật tiếc là không còn ghế trống nên phải đứng suốt."
+                },
+                {
+                    "jp": "この物件は値段が高すぎるせいか、借りる人がいなくて、半年ぐらい空きっぱなしだ。",
+                    "vi": "Căn nhà đó có lẽ vì giá quá cao nên không có ai thuê cả, suốt nửa năm trời bỏ trống."
+                },
+                {
+                    "jp": "母は働き者で、朝から晩まで動きっぱなしだ。",
+                    "vi": "Mẹ tôi là một người rất chăm chỉ, làm việc suốt từ sáng đến tối. Thường sử dụng những cách nói như : 立ちっぱなし、座りっぱなし、動きっぱなし、働き"
                 }
             ],
             "quizzes": [
@@ -9022,7 +9788,9 @@ GRAMMAR = {
                     "translation": "Vì ngồi suốt cả ngày nên vai tôi bị mỏi.",
                     "hiragana": "いちにちじゅうすわりっぱなしだったので、かたがこってしまった。"
                 }
-            ]
+            ],
+            "usage": "V ます+っぱなし",
+            "full_meaning": "(1)Để mặc... suốt (đáng ra là không nên như thế)\n妹「お兄ちゃん、部屋の電気、つけっぱなしだよ。」\nAnh cứ để điện trong phòng bật suốt.\n兄「あ、ごめん、ごめん。」\nÀ, anh xin lỗi."
         },
         {
             "pattern": "~っぽい",
@@ -9031,6 +9799,18 @@ GRAMMAR = {
                 {
                     "jp": "彼は子供っぽい性格だ。",
                     "vi": "Anh ấy có tính cách trẻ con."
+                },
+                {
+                    "jp": "大人のくせに、そんなつまらないことでけんかするのは子どもっぽい。",
+                    "vi": "Người lớn rồi mà vẫn cãi nhau vì chuyện vớ vẩn như trẻ con."
+                },
+                {
+                    "jp": "叔父の持ち込んだもうけ話は、どうもうそっぽいです。",
+                    "vi": "Ông chú nói chuyện rất ngon ăn, cảm giác giống như là nói dối."
+                },
+                {
+                    "jp": "私は忘れっぽいほうなので、こんな所に傘を置いておくと、帰りにまた忘れかねない。",
+                    "vi": "Tôi là một người hay quên nên nếu để ô ở chỗ như thế này thì kiểu gì lúc về tôi cũng lại quên."
                 }
             ],
             "quizzes": [
@@ -9184,7 +9964,9 @@ GRAMMAR = {
                     "translation": "Gần đây anh ấy có vẻ dễ nổi giận nên tốt hơn hết là nên cẩn thận khi nói chuyện với anh ấy.",
                     "hiragana": "さいきん、かれはいかりっぽいので、はなしかけるときはちゅういしたほうがいい。"
                 }
-            ]
+            ],
+            "usage": "V ます・イ形語幹・N+っぽい",
+            "full_meaning": "Như/ cảm giác giống..\nHay..(quên), dễ (nổi cáu), nhanh (chán)"
         },
         {
             "pattern": "~てからでないと/てからでなければ",
@@ -9193,6 +9975,18 @@ GRAMMAR = {
                 {
                     "jp": "許可を得てからでないと、始められません。",
                     "vi": "Nếu chưa được cho phép thì chưa thể bắt đầu được."
+                },
+                {
+                    "jp": "今日の宿題が終わってからでないと、遊びにいけない。",
+                    "vi": "Nếu chưa làm xong bài tập hôm nay thì chưa thể đi chơi được. となりの子どもはうちへ帰るとすぐ宿題を終わらせ、部屋を片付ける。となりのうちでは、"
+                },
+                {
+                    "jp": "そうしてからでないと、遊びに行かせてもらえないのだ。",
+                    "vi": "Con nhà bên, cứ hễ về đến nhà là nhanh chóng làm xong bài tập rồi dọn dẹp phòng. Nghe nói nhà đấy nếu chưa làm xong những việc đó thì chưa được cho đi chơi."
+                },
+                {
+                    "jp": "もう少し具体的な説明を聞いてからでないと、その計画には賛成できません。",
+                    "vi": "Nếu như chưa nghe được lời giải thích cụ thể hơn một chút thì tôi chưa thể đồng ý với kế hoạch đấy được."
                 }
             ],
             "quizzes": [
@@ -9346,7 +10140,9 @@ GRAMMAR = {
                     "translation": "Nếu chưa nghe ý kiến của chuyên gia thì khó có thể đưa ra phán đoán cuối cùng.",
                     "hiragana": "せんもんかのいけんをきいてからでないと、さいしゅうてきなはんだんをするのはむずかしい。"
                 }
-            ]
+            ],
+            "usage": "V て+からでないと/からでなければ",
+            "full_meaning": "Nếu chưa A thì chưa thể B"
         },
         {
             "pattern": "~てさえ",
@@ -9355,6 +10151,18 @@ GRAMMAR = {
                 {
                     "jp": "合格するためなら、徹夜してでも勉強する。",
                     "vi": "Nếu là để đỗ thì dù phải thức trắng đêm tôi cũng sẽ học."
+                },
+                {
+                    "jp": "大企業の社長という地位を捨ててでも、私にはやりたいことがある。",
+                    "vi": "Có việc tôi muốn làm đến mức cho dù có phải vứt bỏ vị trí giám đốc một công ty lớn cũng cam lòng."
+                },
+                {
+                    "jp": "今日の会合には、どんな手段を使ってでも時間通りに到着しなければならない。",
+                    "vi": "Cuộc họp ngày hôm nay tôi phải đến đúng giờ dù cho có dùng cách nào đi nữa."
+                },
+                {
+                    "jp": "家を売ってでも子どもの手術の費用を用意したい。",
+                    "vi": "Tôi muốn chuẩn bị chi phí phẫu thuật cho con dù cho có phải bán nhà đi nữa."
                 }
             ],
             "quizzes": [
@@ -9493,7 +10301,8 @@ GRAMMAR = {
                     "translation": "Anh ấy nghĩ rằng để bảo vệ công ty thì dù có mất vị trí của mình cũng không sao.",
                     "hiragana": "かれはかいしゃをまもるためなら、じぶんのたちばをうってさえかまわないとおもっている。"
                 }
-            ]
+            ],
+            "full_meaning": "V て+でも cho dù/ thậm chí phải làm ...\nĐể đạt được mục đích nào đó thì sẽ sẵn sàng làm...cho dù/thậm chí việc đó là việc bất lợi đi\nnữa."
         },
         {
             "pattern": "~(の)ではあるまいか",
@@ -9502,6 +10311,18 @@ GRAMMAR = {
                 {
                     "jp": "彼は本当のことを知っているのではあるまいか。",
                     "vi": "Chẳng phải là anh ấy biết sự thật hay sao?"
+                },
+                {
+                    "jp": "か。",
+                    "vi": "Số nước mà tôi đã từng ghé thăm từ trước đến nay vì mục đích công việc tôi nghĩ chắc phải hơn 50 nước rồi!"
+                },
+                {
+                    "jp": "彼は最初から何もかも全部わかっていたのではあるまいか。",
+                    "vi": "Chẳng phải là ngay từ đầu anh ta đã hiểu cả rồi hay sao."
+                },
+                {
+                    "jp": "今の若者たちは他人を思いやる心を失いつつあるのではあるまいか。",
+                    "vi": "Chẳng phải giới trẻ bây giờ đang dần mất đi sự quan tâm đến người khác hay sao?"
                 }
             ],
             "quizzes": [
@@ -9640,7 +10461,9 @@ GRAMMAR = {
                     "translation": "Xét theo kết quả này thì chẳng phải là bản thân kế hoạch đã có vấn đề hay sao?",
                     "hiragana": "このけっかをみるかぎり、けいかくそのものにもんだいがあったのではあるまいか。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形—の / ナ形語幹/N(なの)",
+            "full_meaning": "+ではあるまいか\nChẳng phải là....(Cách nói thể hiện suy nghĩ của bản thân)\n私がビジネスでこれまで訪ねたことのある国は、すでに 50 を超えているのではあるまい"
         },
         {
             "pattern": "~てはいられない",
@@ -9649,6 +10472,14 @@ GRAMMAR = {
                 {
                     "jp": "こんな時に笑ってはいられない。",
                     "vi": "Vào lúc thế này thì không thể cứ cười mãi được."
+                },
+                {
+                    "jp": "仕事が予定より遅れている。だから、今度の日曜日は、仕事を休んではいられない。",
+                    "vi": "Công việc chậm hơn so với kế hoạch nên chủ nhật này không thể nghỉ làm được."
+                },
+                {
+                    "jp": "来週は大事な期末試験なので、のんびりしてはいられない。",
+                    "vi": "Vì tuần sau là đến kỳ thi cuối kỳ quan trọng rồi nên giờ không thể cứ thong dong được."
                 }
             ],
             "quizzes": [
@@ -9787,7 +10618,9 @@ GRAMMAR = {
                     "translation": "Nếu cứ thế này thì sẽ không kịp thời hạn giao hàng. Không thể cứ nghỉ được.",
                     "hiragana": "このままではのうきにまにあわない。やすんでいられない。"
                 }
-            ]
+            ],
+            "usage": "V て+はいられない",
+            "full_meaning": "Không thể ...được\nKhông thể cứ...mãi được\nMột khi đã biết được chân tướng sự việc rồi thì tôi không thể im lặng được."
         },
         {
             "pattern": "~てばかりはいられない",
@@ -9796,6 +10629,18 @@ GRAMMAR = {
                 {
                     "jp": "いつまでも悲しんでばかりはいられない。",
                     "vi": "Không thể cứ mãi buồn bã như vậy được."
+                },
+                {
+                    "jp": "どんなに辛くても、泣いてばかりもいられない。もっと強く生きていかなければならない。",
+                    "vi": "Dù cho có đau khổ thế nào đi chăng nữa thì cũng không thể cứ khóc mãi được. Phải sống mạnh mẽ hơn nữa."
+                },
+                {
+                    "jp": "体の調子が悪いからといって、このまま会社を休んでばかりはいられない。",
+                    "vi": "Cho dù tình trạng sức khỏe không tốt thì cũng không thể cứ nghỉ mãi như thế này được."
+                },
+                {
+                    "jp": "今日の試合に勝ったからといって喜んでばかりはいられない。",
+                    "vi": "Cho dù chúng ta đã chiến thắng ngày hôm nay thì cũng không thể cứ vui mãi được."
                 }
             ],
             "quizzes": [
@@ -9934,7 +10779,9 @@ GRAMMAR = {
                     "translation": "Không thể cứ mãi đổ lỗi cho người khác. Cũng nên suy nghĩ xem bản thân mình có vấn đề gì không.",
                     "hiragana": "いつまでもにんのせいにしててばかりはいられない。じぶんにももんだいがなかったかかんがえるべきだ。"
                 }
-            ]
+            ],
+            "usage": "V て+ばかりはいられない/ばかりもいられない",
+            "full_meaning": "Không thể cứ mãi kéo dài một trạng thái được"
         },
         {
             "pattern": "~てはじめて",
@@ -9943,6 +10790,18 @@ GRAMMAR = {
                 {
                     "jp": "親になってはじめて、親の苦労がわかった。",
                     "vi": "Chỉ khi làm cha mẹ tôi mới hiểu được nỗi vất vả của cha mẹ."
+                },
+                {
+                    "jp": "国民の、政治に対する信頼があってはじめて政治家は指導力を発揮できるのだ。",
+                    "vi": "Chỉ khi nào có được sự tin tưởng của người dân đối với chính trị thì các chính trị gia mới có thể phát huy được năng lực lãnh đạo của mình."
+                },
+                {
+                    "jp": "外国で生活をしてはじめて自分の国の良さがわかった。",
+                    "vi": "Chỉ khi sống ở nước ngoài mới hiểu được những điều tốt đẹp của đât nước mình."
+                },
+                {
+                    "jp": "一人で暮らすようになってはじめて、家族がどんなにありがたいかがわかった。",
+                    "vi": "Chỉ khi sống một mình thì mới nhận ra gia đình đáng quý như thế nào."
                 }
             ],
             "quizzes": [
@@ -10081,7 +10940,9 @@ GRAMMAR = {
                     "translation": "Chỉ sau khi tự mình điều hành công ty tôi mới hiểu được trách nhiệm nặng nề của một người quản lý.",
                     "hiragana": "じぶんでかいしゃをけいえいしてはじめて、けいえいしゃのせきにんのおもさをしった。"
                 }
-            ]
+            ],
+            "usage": "V て+はじめて",
+            "full_meaning": "Chỉ khi ....thì mới...(nhận ra được điều mà mình chưa biết từ trước đến giờ, hoặc mới thực\nhiện được hành động nào đó)"
         },
         {
             "pattern": "~ではすまされない",
@@ -10090,6 +10951,14 @@ GRAMMAR = {
                 {
                     "jp": "知らなかったではすまされない。",
                     "vi": "Không thể lấy lý do \"không biết\" mà cho qua được."
+                },
+                {
+                    "jp": "課長である以上、そんな大事なことを知らなかったではすまされないだろう。",
+                    "vi": "Một khi đã là trưởng phòng mà không biết chuyện quan trọng như thế thì đúng là được."
+                },
+                {
+                    "jp": "管理層の人間として、マネジメントに関する基本の知識を知らないではすまされない。",
+                    "vi": "Là một người thuộc cấp lãnh đạo mà không biết những cái cơ bản liên quan đến quản trị thì thực sự là không thể chấp nhận được. この物語はただの笑い話ではすまされないと思うところがある Câu truyện này có những chỗ tôi nghĩ không đơn giản chỉ là chuyện cười. (Nghĩa là có những chỗ còn ẩn ý sâu xa hơn,chứ không đơn giản là câu chuyện cười)"
                 }
             ],
             "quizzes": [
@@ -10228,7 +11097,9 @@ GRAMMAR = {
                     "translation": "Vì đã gây hại cho người khác ở nơi công cộng nên không thể coi đó chỉ là trò nghịch ngợm.",
                     "hiragana": "こうきょうのばでたにんにきがいをくわえたのだから、たんなるいたずらではすまされない。"
                 }
-            ]
+            ],
+            "usage": "N・V 普通形(の)+ではすまされない",
+            "full_meaning": "Nếu mà...thì không xong, không được, không đơn giản chỉ.."
         },
         {
             "pattern": "~てまで",
@@ -10237,6 +11108,18 @@ GRAMMAR = {
                 {
                     "jp": "健康を犠牲にしてまで、働く必要はない。",
                     "vi": "Không cần thiết phải làm việc đến mức hy sinh cả sức khỏe."
+                },
+                {
+                    "jp": "借金してまで遊びに行ったと聞いて、あきれてしまった。",
+                    "vi": "Tôi sốc không nói nên lời khi nghe tin anh ta đi chơi, đến cái mức vay nợ."
+                },
+                {
+                    "jp": "最近の祭りは以前ほど活気がなくなってきた。仕事を休んでまで行く必要はないだろう。",
+                    "vi": "Những lễ hội gần đây không còn náo nhiệt như trước kia. Có lẽ vì không cần thiết phải tới mức nghỉ việc để đi xem lễ hội."
+                },
+                {
+                    "jp": "君はカンニングをしてまでいい点を取りたかったのか。",
+                    "vi": "Cậu muốn được điểm cao đến mức đi quay cóp bài cơ à. Thường dùng ở dạng câu thể hiện sự bất ngờ, nghi ngờ, hoặc trách mắng..."
                 }
             ],
             "quizzes": [
@@ -10375,7 +11258,10 @@ GRAMMAR = {
                     "translation": "Đó không phải là thứ đáng để đạt được đến mức phải phá hỏng mối quan hệ tin tưởng với gia đình.",
                     "hiragana": "かぞくとのしんらいかんけいをこわしてまで、えたいものではない。"
                 }
-            ]
+            ],
+            "usage": "V て+まで",
+            "full_meaning": "Đến cái mức, tới mức...\ntốt...",
+            "notes": "Thường dùng để chỉ mức độ thái quá, tiêu cực...đến mức phải có những hành động không"
         },
         {
             "pattern": "~ということだ",
@@ -10388,6 +11274,22 @@ GRAMMAR = {
                 {
                     "jp": "天気予報によると、明日は雪だということだ。",
                     "vi": "Theo dự báo thời tiết, nghe nói ngày mai sẽ có tuyết."
+                },
+                {
+                    "jp": "うことだ。",
+                    "vi": "Bố tôi đi công tác nước ngoài vẫn chưa về. Điều đó có nghĩa là hôm nay ông ấy không thể tham dự lễ tốt nghiệp của tôi."
+                },
+                {
+                    "jp": "こんな時間になっても橋本君は姿を現さない。今日も遅刻ということだね。",
+                    "vi": "Đến giờ này rồi mà Hashimoto vẫn chưa xuất hiện. Nghĩa là hôm nay cậu ấy đến muộn rồi. (2)Trích dẫn lại thông tin nghe được"
+                },
+                {
+                    "jp": "コーチの話では、彼が試合に出れば、優勝は間違いないということだ。",
+                    "vi": "Huấn luyện viên nói rằng “Nếu anh ấy tham gia thi đấu thì chắc chắn sẽ giành chiến thắng”."
+                },
+                {
+                    "jp": "田中さんは通勤途中で交通事故に巻き込まれたということだ。",
+                    "vi": "Nghe nói là Tanaka trên đường đi làm đã vướng vào một tai nạn giao thông."
                 }
             ],
             "quizzes": [
@@ -10526,7 +11428,9 @@ GRAMMAR = {
                     "translation": "Theo tin tức thì nghe nói chế độ mới sẽ bắt đầu từ năm sau.",
                     "hiragana": "にゅーすによると、あたらしいせいどはらいねんからはじまるということだ。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+ということだ",
+            "full_meaning": "(1)Suy ra, nói cách khác, có nghĩa là...(Theo suy luận logic)\n父はまだ海外出張から帰ってきていない。つまり今日の私の卒業式には参加できないとい"
         },
         {
             "pattern": "~というものだ",
@@ -10535,6 +11439,18 @@ GRAMMAR = {
                 {
                     "jp": "それは無理というものだ。",
                     "vi": "Điều đó thật là vô lý."
+                },
+                {
+                    "jp": "この新しい電池は、光と熱のエネルギーを利用しようというものだ。",
+                    "vi": "Loại pin mới này sẽ sử dụng năng lượng nhiệt và ánh sáng."
+                },
+                {
+                    "jp": "相手の話も聞かずに自分の主張だけ通そうとするなんて、それはわがままというものだ。",
+                    "vi": "Cứ khăng khăng làm theo ý mình mà không nghe người khác nói, như vậy thật là ích kỷ. 自分のことだけではなく、相手の立場に立って考えることのできる人、それが大人という"
+                },
+                {
+                    "jp": "ものだ。",
+                    "vi": "Người mà không chỉ nghĩ cho mình mà còn đứng trên lập trường đối phương để suy nghĩ thì đó gọi là người trưởng thành."
                 }
             ],
             "quizzes": [
@@ -10673,7 +11589,9 @@ GRAMMAR = {
                     "translation": "Không nỗ lực mà lại mong muốn thành công thì quả là quá ích kỷ/đòi hỏi quá đáng.",
                     "hiragana": "どりょくもせずにせいこうをのぞむなんて、むしがよすぎるというものだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ普通形・ナ形語幹・N+というものだ",
+            "full_meaning": "Giải thích về một thứ..\nThật là/gọi là...(đưa ra đánh giá, nhận xét...đối với sự việc)"
         },
         {
             "pattern": "~というものではない/もない",
@@ -10682,6 +11600,18 @@ GRAMMAR = {
                 {
                     "jp": "お金があれば幸せというものではない。",
                     "vi": "Không phải cứ có tiền là hạnh phúc."
+                },
+                {
+                    "jp": "勝負は勝てばよいというものではない。どんな勝ち方をしたのかが重要である。",
+                    "vi": "Không hẳn thắng là tốt đâu mà quan trọng là chúng ta thắng như thế nào."
+                },
+                {
+                    "jp": "物を売る時は、値段が安ければいいというものではなく、商品の質を第一に考えるべきだ。",
+                    "vi": "Khi bán hàng không phải giá rẻ là tốt mà việc đầu tiên chúng ta nên suy nghĩ đến là chất lượng sản phẩm."
+                },
+                {
+                    "jp": "医者の話によると、この病気はすぐによくなるというものではないらしい。",
+                    "vi": "Theo như bác sĩ nói thì bệnh này không phải ngay lập tức khỏi được luôn đâu."
                 }
             ],
             "quizzes": [
@@ -10820,7 +11750,9 @@ GRAMMAR = {
                     "translation": "Không phải cứ có nhiều kiến thức thì nhất định khả năng phán đoán sẽ tốt.",
                     "hiragana": "ちしきがおおければ、かならずしもはんだんりょくがまされているというものではない。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+というものではない/というものでもない",
+            "full_meaning": "Không hẳn là/ không phải/đâu phải...\nCách nói phủ định để diễn đạt ý “không thể nói cách suy nghĩ, quan niệm nào đó là hoàn toàn đúng”"
         }
     ],
     "4": [
@@ -10831,6 +11763,18 @@ GRAMMAR = {
                 {
                     "jp": "彼は先生というより友達のような存在だ。",
                     "vi": "Anh ấy giống như một người bạn hơn là một người thầy."
+                },
+                {
+                    "jp": "駅から家までバスに乗らずに歩くのは、節約というより健康のためだ。",
+                    "vi": "Việc mà tôi đi bộ từ ga về nhà không phải là để tiết kiệm đâu mà chính xác hơn là để tốt cho sức khỏe."
+                },
+                {
+                    "jp": "山田さんは書物が大好きで、技術者というより学者といったほうがいい。",
+                    "vi": "Yamada là người rất thích sách nên chúng ta gọi anh ấy là một học giả đúng hơn là một kỹ sư."
+                },
+                {
+                    "jp": "仕事ができないというより、仕事をしたくないといったほうが適当だと思う。",
+                    "vi": "Không phải là không làm được việc mà tôi nghĩ rằng đúng hơn là không muốn làm."
                 }
             ],
             "quizzes": [
@@ -10984,7 +11928,9 @@ GRAMMAR = {
                     "translation": "Tác phẩm này tạo cho tôi ấn tượng gần với thơ hơn là tiểu thuyết.",
                     "hiragana": "このさくひんはしょうせつというより、しにちかいいんしょうをうける。"
                 }
-            ]
+            ],
+            "usage": "文の普通形 / ナ形語幹・N",
+            "full_meaning": "+というより\nKhông phải nói là A mà chính xác hơn/đúng hơn là B"
         },
         {
             "pattern": "~といっても過言ではない",
@@ -10993,6 +11939,18 @@ GRAMMAR = {
                 {
                     "jp": "彼はこの分野の第一人者と言っても過言ではない。",
                     "vi": "Dù nói anh ấy là người đứng đầu trong lĩnh vực này cũng không quá lời."
+                },
+                {
+                    "jp": "ありません。",
+                    "vi": "Huấn luyện viên Yamada là ân nhân của tôi. Có tôi của ngày hôm nay cũng là nhờ có huấn luyện viên Yamada, nói như vậy cũng là không quá lời."
+                },
+                {
+                    "jp": "されているといっても言い過ぎではないだろう。",
+                    "vi": "Cùng với sự phổ cập của internet, các loại thông tin đang tràn ngập, có thể nói rằng con người ngày nay đang bị ném vào tình trạng ngập lụt thông tin. 野田 のだ"
+                },
+                {
+                    "jp": "教授は心臓外科の権威だといっても言い過ぎではないだろう。",
+                    "vi": "Có thể nói rằng giáo sư Noda là người rất có sức ảnh hưởng trong khoa phẫu thuật tim."
                 }
             ],
             "quizzes": [
@@ -11146,7 +12104,9 @@ GRAMMAR = {
                     "translation": "Nói cô ấy là người âm thầm hỗ trợ công ty này cũng không quá lời.",
                     "hiragana": "かのじょはこのかいしゃをいんでささえているそんざいだといってもかごんではない。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+といっても過言ではない/といっても言い過ぎではない / インターネットの普及とともに、あらゆる情報が溢れていて、人々は情報の洪水に投げ出",
+            "full_meaning": "Dù có gọi như vậy thì cũng không phải là quá lời/có thể nói là/có thể gọi là...\n山田監督は私の恩人です。今の私があるのも山田監督あってのことだといっても過言では"
         },
         {
             "pattern": "~(か)と思うと/(か)と思ったら",
@@ -11159,6 +12119,30 @@ GRAMMAR = {
                 {
                     "jp": "出かけたかと思ったら、もう戻ってきた。",
                     "vi": "Cứ tưởng nó đã đi ra ngoài rồi, ai ngờ đã quay về rồi."
+                },
+                {
+                    "jp": "とすぐ忘れ物を取りに帰ってくる。",
+                    "vi": "Con trai tôi buổi sáng đi học kiểu gì cũng quên đồ. Vừa ra khỏi nhà cái là ngay lập tức quay về để lấy đồ."
+                },
+                {
+                    "jp": "急に空が暗くなったかと思うと、激しく雨が降り始めた。",
+                    "vi": "Trời đột nhiên tối sầm lại, ngay lập tức sau đó trời bắt đầu mưa dữ dội."
+                },
+                {
+                    "jp": "赤ちゃんは、泣いていたかと思ったら、もう笑っている。",
+                    "vi": "Em bé vừa mới khóc thì đã lại cười ngay rồi. (2)V る/た+(か)と思うと/(か)と思ったら Cứ nghĩ là A nhưng không ngờ lại B"
+                },
+                {
+                    "jp": "妹は、今勉強を始めたかと思ったら、もう居間でテレビを見ている。",
+                    "vi": "Em gái vừa mới ngồi học đã lại thấy ngồi xem tivi ngay rồi."
+                },
+                {
+                    "jp": "ない。",
+                    "vi": "Gần đây tôi chuyển đến căn hộ mới, tôi nghĩ là gần ga thì nó sẽ tiện nhưng không phải là như thế."
+                },
+                {
+                    "jp": "やっと仕事が終わったと思ったら、また新しい仕事を頼まれた。",
+                    "vi": "Cứ nghĩ là cuối cùng cũng xong việc nhưng không ngờ lại bị nhờ làm công việc mới."
                 }
             ],
             "quizzes": [
@@ -11312,7 +12296,9 @@ GRAMMAR = {
                     "translation": "Cứ tưởng anh ấy đã nghỉ công ty, ai ngờ anh ấy lại bắt đầu làm việc ở một bộ phận khác.",
                     "hiragana": "かれはかいしゃをやめたかとおもったら、べつのぶしょではたらきはじめていた。"
                 }
-            ]
+            ],
+            "usage": "(1)V た+(か)と思うと/(か)と思ったら",
+            "full_meaning": "Vừa mới A thì sau đó ngay lập tức có B (B mang tính bất ngờ)\n息子は、朝学校に行く際に、必ずと言っていいほど忘れ物をしている。出かけたかと思う\n私は最近新しいアパートに引っ越したが、駅の近くだから便利だろうと思ったらそうでも"
         },
         {
             "pattern": "~とか",
@@ -11321,6 +12307,30 @@ GRAMMAR = {
                 {
                     "jp": "彼は来月結婚するとか聞きました。",
                     "vi": "Tôi nghe nói hình như tháng sau anh ấy kết hôn."
+                },
+                {
+                    "jp": "中村さんとかいう人から電話が入ってきた。",
+                    "vi": "Lúc nãy có điện thoại từ một người hình như tên là Nakamura."
+                },
+                {
+                    "jp": "鈴木さんは今日は病気で仕事を休むとか。",
+                    "vi": "Nghe nói Suzuki hôm nay nghỉ làm vì bị ốm. (2)~とかいうことだ/とかいう話だ 文の普通形+とかいうことだ/とかいう話だ Nghe nói hình như là....(độ xác thực thấp)"
+                },
+                {
+                    "jp": "ニュースによると今年の冬は例年より寒いとかいうことだ。",
+                    "vi": "Theo như trên bản tin thì nghe nói hình như mùa đông năm nay lạnh hơn mọi năm."
+                },
+                {
+                    "jp": "田中さんは結婚したら仕事をやめるとかいう話だ。",
+                    "vi": "Nghe nói Tanaka sau khi kết hôn thì sẽ nghỉ việc. (3)~とかで 文の普通形+とかで"
+                },
+                {
+                    "jp": "夜、パーティーに行くとかで、小川さんはすごくすてきな服を着てきました。",
+                    "vi": "Hình như buổi tối Ogawa đi tiệc hay sao ấy, thấy bạn ấy mặc bộ quần áo rất đẹp."
+                },
+                {
+                    "jp": "台風が近づいているとかで、飛行機が欠航になった。",
+                    "vi": "Hình như bão sắp đến nên là các chuyến bay đều bị hủy chuyến."
                 }
             ],
             "quizzes": [
@@ -11474,7 +12484,9 @@ GRAMMAR = {
                     "translation": "Tôi nghe nói hình như giám đốc phản đối kế hoạch đó.",
                     "hiragana": "しゃちょうはそのけいかくにはんたいしているとかきいた。"
                 }
-            ]
+            ],
+            "usage": "(1)~とか/とかいう / 文の普通形・N+とか/とかいう",
+            "full_meaning": "Hình như là...\nTrích dẫn lại thông tin nghe nói, hoặc một thông tin không xác định rõ ràng)\nHình như là... (Nằm ở vị trí giữa câu, nối với mệnh đề khác)"
         },
         {
             "pattern": "~どころか",
@@ -11483,6 +12495,18 @@ GRAMMAR = {
                 {
                     "jp": "感謝されるどころか、逆に怒られた。",
                     "vi": "Chẳng những không được cảm ơn mà ngược lại còn bị mắng."
+                },
+                {
+                    "jp": "ていなかった。",
+                    "vi": "Bộ trưởng khi bị truy cứu dồn dập bởi Đảng đối lập, không những không thể đưa ra câu trả lời hài lòng mà thậm chí ông ấy còn không hiểu nội dung câu hỏi."
+                },
+                {
+                    "jp": "最近は多忙で、旅行どころか、コンサートに行く暇もない。",
+                    "vi": "Dạo này bận nên không những không đi du lịch được mà thậm chí còn không có thời gian rảnh để đi xem hòa nhạc."
+                },
+                {
+                    "jp": "医者には二、三日で治ると言われたが、よくなるどころかますます悪くなってきた。",
+                    "vi": "Bác sĩ nói là 2, 3 ngày là sẽ khỏi thôi nhưng bệnh không những không tốt lên mà thậm chí còn ngày càng xấu đi."
                 }
             ],
             "quizzes": [
@@ -11636,7 +12660,9 @@ GRAMMAR = {
                     "translation": "Anh ấy chẳng những không giúp công việc mà ngược lại còn cản trở những người xung quanh.",
                     "hiragana": "かれはしごとをてつだうどころか、かえってしゅういのじゃまをしている。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナ形の名詞修飾形・N+どころか",
+            "full_meaning": "A không những không thực hiện được mà thậm chí còn B\nB mức độ thậm tệ hơn, hoặc ngược lại với A\n野党の追及に対し、大臣は満足な回答ができなかったどころか、質問の内容すら理解でき"
         },
         {
             "pattern": "~ところだった",
@@ -11645,6 +12671,18 @@ GRAMMAR = {
                 {
                     "jp": "もう少しで電車に乗り遅れるところだった。",
                     "vi": "Suýt chút nữa thì tôi bị lỡ chuyến tàu."
+                },
+                {
+                    "jp": "かったんだから。",
+                    "vi": "Cậu lái xe thì phải nhìn phía trước cho cẩn thẩn nhé! Lúc nãy suýt nữa thì tông vào cái xe bên cạnh rồi. Thật sự là rất nguy hiểm."
+                },
+                {
+                    "jp": "床が濡れていることに気づかず、もう少しで倒れるところだった。",
+                    "vi": "Vì không để ý sàn nhà bị ướt nên suýt chút nữa thì bị ngã."
+                },
+                {
+                    "jp": "気がつくのが遅かったら、あやうく火事になるところだったよ。",
+                    "vi": "Nếu phát hiện muộn thì suýt chút nữa thành hỏa hoạn rồi."
                 }
             ],
             "quizzes": [
@@ -11798,7 +12836,9 @@ GRAMMAR = {
                     "translation": "Tôi suýt nữa đã gặp rắc rối lớn vì gửi nhầm email cho người nhận.",
                     "hiragana": "めーるをおくるあいてをまちがえて、たいへんなことになるところだった。"
                 }
-            ]
+            ],
+            "usage": "V る/た/ていた+ところだった",
+            "full_meaning": "Suýt thì...\nちゃんと前を見て運転してよ。今、となりの車にぶつかるところだったよ。本当にあぶな"
         },
         {
             "pattern": "~どころではない",
@@ -11807,6 +12847,18 @@ GRAMMAR = {
                 {
                     "jp": "忙しくて、旅行どころではない。",
                     "vi": "Bận quá nên không phải là lúc để đi du lịch."
+                },
+                {
+                    "jp": "なく、仕事に追われる毎日だ。",
+                    "vi": "Trước kia có thời gian 1 tháng đi xem tranh mình thích ở bảo tàng mỹ thuật khoảng một lần. Bây giờ thì không thể đi được nữa, ngày nào cũng bị cuốn vào công việc. せっかく古い友達が訪ねてきたのに、仕事に追われていっしょに酒を飲むどころではなか"
+                },
+                {
+                    "jp": "った。",
+                    "vi": "Chẳng mấy khi được người bạn cũ đến thăm, thế mà giờ lại bận nên không thể uống rượu cùng được. 私は仕事でしばしば出張するので、あちこち旅行できていいとみんなに言われるが、いつ"
+                },
+                {
+                    "jp": "も忙しくて見物どころではない。",
+                    "vi": "Tôi rất hay phải đi công tác nên thường được mọi người nói là được đi du lịch khắp nơi sướng thật, nhưng lúc nào cũng bận nên chẳng thể đi tham quan ở đâu được."
                 }
             ],
             "quizzes": [
@@ -11960,7 +13012,9 @@ GRAMMAR = {
                     "translation": "Trong tình hình thế này thì không phải lúc để nói đùa.",
                     "hiragana": "こんなじょうきょうではじょうだんをいっているどころではない。"
                 }
-            ]
+            ],
+            "usage": "V る/ている・N+どころではない",
+            "full_meaning": "Không thể...\nKhông phải lúc để thực hiện cái việc đó/ không thể thực hiện việc đó\n以前は、月に 1 回ぐらい美術館に好きな絵を見に行く時間があった。今はそれどころでは"
         },
         {
             "pattern": "~ところに/ところへ",
@@ -11969,6 +13023,14 @@ GRAMMAR = {
                 {
                     "jp": "出かけようとしたところに、電話がかかってきた。",
                     "vi": "Đúng lúc định ra ngoài thì có điện thoại gọi đến."
+                },
+                {
+                    "jp": "お弁当を持って、ピクニックに出かけようとしたところに、雨が降ってきた。",
+                    "vi": "Đúng lúc định mang cơm hộp đi picnic thì trời đổ mưa."
+                },
+                {
+                    "jp": "ちょうど彼女のうわさをしているところへ、本人がやってきた。",
+                    "vi": "Đúng lúc đang nói xấu cô ấy thì cô ấy xuất hiện."
                 }
             ],
             "quizzes": [
@@ -12122,7 +13184,9 @@ GRAMMAR = {
                     "translation": "Đúng lúc tôi đang chuẩn bị về thì thầy giáo gọi tôi.",
                     "hiragana": "かえりかけたところへ、せんせいがこえをかけてきた。"
                 }
-            ]
+            ],
+            "usage": "V る/た/ている+ところに/ところへ",
+            "full_meaning": "Đúng lúc đang/định A thì B xảy ra (Thường đi đằng sau với động từ chỉ hướng di chuyển)\nĐúng lúc đang bị lạc đường ở thị trấn nước ngàoi thì có cảnh sát đi qua."
         },
         {
             "pattern": "~ところを",
@@ -12135,6 +13199,26 @@ GRAMMAR = {
                 {
                     "jp": "お忙しいところをすみません。",
                     "vi": "Xin lỗi vì đã làm phiền lúc anh đang bận."
+                },
+                {
+                    "jp": "授業中マンガを読んでいるところを先生に見つかった。",
+                    "vi": "Bị giáo viên phát hiện đúng cái lúc mà đang đọc truyện trong lớp học."
+                },
+                {
+                    "jp": "犯人は駅前で買い物をしているところを、警察に捕まった。",
+                    "vi": "Tên tội phạm bị bắt đúng cái lúc đang đi mua đồ ở trước ga. Thường đi đằng sau với những động từ như : 「見る」「見つかる」「目撃する」「発見する」「捕まる」「助ける」 (2)~ところを見ると"
+                },
+                {
+                    "jp": "朝からニコニコしているところを見ると、何かいいことがあったに違いない。",
+                    "vi": "Thấy cô ấy từ sáng đến giờ cứ tủm tỉm cười, chắc là có việc gì đó vui."
+                },
+                {
+                    "jp": "彼があんなに喜んでいるところを見ると、彼の成績はかなり上がったに違いない。",
+                    "vi": "Anh ấy vui như thế thì chắc chắn là thành tích của anh ấy tăng khá cao rồi."
+                },
+                {
+                    "jp": "店の前に長い行列ができているところを見ると、大変人気のラーメン屋のようだ。",
+                    "vi": "Thấy có rất nhiều người xếp hàng dài trước quán nên có vẻ như là quán ramen rất được yêu thích."
                 }
             ],
             "quizzes": [
@@ -12288,7 +13372,9 @@ GRAMMAR = {
                     "translation": "Tôi bị đánh thức đúng lúc đang ngủ nên hơi khó chịu.",
                     "hiragana": "ねていたところをおこされて、すこしきげんがわるい。"
                 }
-            ]
+            ],
+            "usage": "(1)~ところを / V る/た/ている+ところを / V た/ている+ところを見ると",
+            "full_meaning": "Vào đúng cái lúc đang...\nThấy...nên suy ra (phỏng đoán..)\nTừ cái điểm gì đó mà suy ra"
         },
         {
             "pattern": "~としか言いようがない",
@@ -12297,6 +13383,18 @@ GRAMMAR = {
                 {
                     "jp": "この結果は残念としか言いようがない。",
                     "vi": "Kết quả này chỉ có thể nói là đáng tiếc."
+                },
+                {
+                    "jp": "あんなに巨大な建物を大昔の人が造ったとは、不思議としか言いようがない。",
+                    "vi": "Khi nhìn thấy những công trình vĩ đại mà người ngày xưa đã tạo ra thì chỉ có thể nói thật là kỳ diệu."
+                },
+                {
+                    "jp": "大きな交通事故で軽い怪我で済んだのは幸運としか言いようがない。",
+                    "vi": "Bị tai nạn lớn như vậy mà chỉ thương nhẹ thì chỉ có thể nói là may mắn thôi."
+                },
+                {
+                    "jp": "この病気が治ったことは奇跡としか言いようがない。",
+                    "vi": "Căn bệnh này chữa khỏi được thì chỉ có thể gọi là kỳ tích."
                 }
             ],
             "quizzes": [
@@ -12450,7 +13548,9 @@ GRAMMAR = {
                     "translation": "Kế hoạch này chỉ có thể nói là không thực tế.",
                     "hiragana": "このけいかくはげんじつてきではないとしかいいようがない。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+としか言いようがない",
+            "full_meaning": "Chỉ có thể nói là/gọi là..."
         },
         {
             "pattern": "~としたら/とすれば",
@@ -12459,6 +13559,18 @@ GRAMMAR = {
                 {
                     "jp": "宝くじが当たったとしたら、何をしますか。",
                     "vi": "Nếu giả sử trúng xổ số thì bạn sẽ làm gì?"
+                },
+                {
+                    "jp": "1 年間の休暇がとれたとしたら、どんなことがしたいですか。",
+                    "vi": "Giả sử bạn xin được nghỉ phép 1 năm thì bạn sẽ làm gì?"
+                },
+                {
+                    "jp": "約束の日までに製品が完成しないとしたら、わが社の信用がなくなってしまう。",
+                    "vi": "Nếu sản phẩm này không thể hoàn thành trước thời gian đã hẹn thì uy tín của công ty sẽ bị mất."
+                },
+                {
+                    "jp": "今からバスで行くとすれば、どこで降りればいいですか。",
+                    "vi": "Nếu giờ mình đi xe bus thì đi xuống ở đâu được nhỉ?"
                 }
             ],
             "quizzes": [
@@ -12612,7 +13724,9 @@ GRAMMAR = {
                     "translation": "Nếu giả sử thông tin này là chính xác thì nguyên nhân vụ tai nạn phải nằm ở chỗ khác.",
                     "hiragana": "このじょうほうがただしいとすれば、じこのげんいんはべつにあることになる。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+としたら/とすれば",
+            "full_meaning": "Nếu giả sử/Nếu...thì"
         },
         {
             "pattern": "~とともに",
@@ -12621,6 +13735,18 @@ GRAMMAR = {
                 {
                     "jp": "科学技術の発展とともに、生活は便利になった。",
                     "vi": "Cùng với sự phát triển của khoa học kỹ thuật, cuộc sống đã trở nên tiện lợi hơn."
+                },
+                {
+                    "jp": "変化する。",
+                    "vi": "Người ta nói rằng ngôn ngữ là một sinh vật sống. Cùng với sự chuyển giao của thời đại thì ý nghĩa và hình thức của từ cũng dần dần thay đổi."
+                },
+                {
+                    "jp": "都市では、人口の増加とともに、住宅問題が深刻になってきた。",
+                    "vi": "Ở thành phố, cùng với sự gia tăng dân số thì các vấn đề về nhà ở cũng ngày càng trở nên nghiêm trọng."
+                },
+                {
+                    "jp": "自動車の普及とともに交通渋滞の問題も顕在化してきた。",
+                    "vi": "Xe ô tô ngày càng được sử dụng phổ biến thì các vấn đề về đường cũng ngày trở nên nổi cộm."
                 }
             ],
             "quizzes": [
@@ -12774,7 +13900,9 @@ GRAMMAR = {
                     "translation": "Ngay sau khi tốt nghiệp, tôi rời quê hương và bắt đầu làm việc ở Tokyo.",
                     "hiragana": "そつぎょうとともに、こきょうをはなれてとうきょうではたらきはじめた。"
                 }
-            ]
+            ],
+            "usage": "V る・イ・N / ナ形語幹/N+である",
+            "full_meaning": "+とともに\nCùng với...\nA thay đổi thì đồng thời B cũng thay đổi theo\nことばは生き物であると言われる。時代の移り変わりとともに、語の形や意味が少しずつ"
         },
         {
             "pattern": "~とは限らない",
@@ -12783,6 +13911,18 @@ GRAMMAR = {
                 {
                     "jp": "高いものが必ずしもいいとは限らない。",
                     "vi": "Đồ đắt tiền chưa chắc đã tốt."
+                },
+                {
+                    "jp": "実力のあるチームがいつも勝つとは限らない。試合はやってみなければわからないのだ。",
+                    "vi": "Không hẳn là đội có thực lực thì lúc nào cũng sẽ giành chiến thắng. Nếu chưa bước vào trận đấu thì chưa thể biết được điều gì."
+                },
+                {
+                    "jp": "しっかり鍵をかけないと、泥棒に入られないとも限らないから注意してください。",
+                    "vi": "Nếu như không khóa cửa cẩn thận thì có khả năng trộm sẽ vào nhà nên hãy chú ý. 習慣や考え方は人によって異なるので、自分にとっての常識は他人にとっての非常識でな"
+                },
+                {
+                    "jp": "いとも限らない。",
+                    "vi": "Cách suy nghĩ và thói quen tùy mỗi người sẽ khác nhau nên những điều thông thường với bản thân mình chưa chắc đã thông thường với người khác."
                 }
             ],
             "quizzes": [
@@ -12936,7 +14076,9 @@ GRAMMAR = {
                     "translation": "Không phải cứ có nhiều kinh nghiệm thì sẽ không mắc sai lầm khi phán đoán.",
                     "hiragana": "けいけんがほうふだからといって、はんだんをあやまらないとはかぎらない。"
                 }
-            ]
+            ],
+            "usage": "文の普通形+とは限らない",
+            "full_meaning": "Không hẳn là/không phải là...(Phủ định một phần)"
         },
         {
             "pattern": "~ない限り",
@@ -12945,6 +14087,18 @@ GRAMMAR = {
                 {
                     "jp": "努力しない限り、成功はありえない。",
                     "vi": "Nếu không nỗ lực thì không thể thành công được."
+                },
+                {
+                    "jp": "いだろう。",
+                    "vi": "Vùng này dân số ngày càng giảm, trừ khi có một biện phạm nào đó, nếu không thì trong tương lai dân số cũng không thể tăng được."
+                },
+                {
+                    "jp": "大都会は危険だと言われているが、ここは夜遅く一人で歩かない限り、安全である。",
+                    "vi": "Người ta nói rằng thành phố lớn nguy hiểm nhưng ở đây trừ khi bạn đi bộ vào đêm khuy một mình, còn lại đều an toàn hết."
+                },
+                {
+                    "jp": "資金の問題を解決しない限り、この工事を続けられない。",
+                    "vi": "Nếu không giải quyết vấn đề về tiền vốn thì không thể tiếp tục thi công được nữa."
                 }
             ],
             "quizzes": [
@@ -13098,7 +14252,9 @@ GRAMMAR = {
                     "translation": "Trừ khi có lý do đặc biệt, tất cả người tham gia đều phải có mặt.",
                     "hiragana": "とくべつなじじょうがないかぎり、さんかしゃぜんいんにしゅっせきしてもらいます。"
                 }
-            ]
+            ],
+            "usage": "V ない+限り",
+            "full_meaning": "Nếu không A thì không B / Trừ khi A..thì B\nChừng nào chưa A...thì chưa B\nこの地方は人口がだんだん減っていて、何か対策を立てない限り、今後も増えることはな"
         },
         {
             "pattern": "~ないことには",
@@ -13107,6 +14263,18 @@ GRAMMAR = {
                 {
                     "jp": "実際にやってみないことには、わからない。",
                     "vi": "Nếu không thử làm thực tế thì sẽ không biết được."
+                },
+                {
+                    "jp": "事実を確認しないことには、何とも申し上げられません。",
+                    "vi": "Nếu không xác nhận sự thực thì không thể nói được gì cả."
+                },
+                {
+                    "jp": "一度行ってみないことには、どんな所かわからないだろう。",
+                    "vi": "Nếu không thử đến đó một lần thì không biết đó là nơi thế nào. 文章を書くということは、何かを表現することであり、自分は何を表現したいのか、それ"
+                },
+                {
+                    "jp": "をはっきりさせないことには何も書けない。",
+                    "vi": "Viết văn là thể hiện một điều gì đó. Nếu không làm rõ xem bản thân mình muốn thể hiện điều gì thì không thể viết được gì cả."
                 }
             ],
             "quizzes": [
@@ -13260,7 +14428,9 @@ GRAMMAR = {
                     "translation": "Nếu không phân tích dữ liệu thì không thể đưa ra kết luận đúng.",
                     "hiragana": "でーたをぶんせきしないことには、ただしいけつろんはみちびけない。"
                 }
-            ]
+            ],
+            "usage": "V ない・イない形・ナ形語幹/N で+ないことには",
+            "full_meaning": "Nếu mà không A thì không B"
         },
         {
             "pattern": "~ないことはない/もない",
@@ -13269,6 +14439,14 @@ GRAMMAR = {
                 {
                     "jp": "時間があれば、行けないことはない。",
                     "vi": "Nếu có thời gian thì cũng không phải là không đi được."
+                },
+                {
+                    "jp": "私も留学していたことがありますから、あなたの苦労がわからないこともありません。",
+                    "vi": "Tôi đã từng đi du học nên không phải là tôi không hiểu khó khăn của bạn."
+                },
+                {
+                    "jp": "行きたくないことはないんですが、今日は、時間がないんです。",
+                    "vi": "Không hẳn là tôi không muốn đi nhưng mà hôm nay không có thời gian."
                 }
             ],
             "quizzes": [
@@ -13422,7 +14600,9 @@ GRAMMAR = {
                     "translation": "Tuy bận nhưng nếu được nhờ thì cũng không phải là tôi không giúp.",
                     "hiragana": "いそがしいが、たのまれればてつだわないこともない。"
                 }
-            ]
+            ],
+            "usage": "V ない・イない形・ナ形語幹/N で+ないことはない/ないこともない",
+            "full_meaning": "Không phải là không A nhưng ...\nKhông hẳn là không... (Khẳng định nhẹ)..nhưng...\n「山田さんのふるさとは雪がたくさん降るところだから、スキーはお得意でしょ。」\nQuê hương của Yamada là nơi có nhiều tuyết rơi nên cậu giỏi trượt tuyết lắm đúng không?\n「うーん、できないことはないけど、もう何年もやってないから...」\nCũng không phải là không biết nhưng lâu lắm rồi tôi không trượt nên là..."
         },
         {
             "pattern": "~ないではない/ないでもない",
@@ -13431,6 +14611,18 @@ GRAMMAR = {
                 {
                     "jp": "少し不安を感じないでもない。",
                     "vi": "Cũng không hẳn là không cảm thấy chút bất an."
+                },
+                {
+                    "jp": "なったと思う。",
+                    "vi": "Bài luận văn của anh ta không hẳn là tôi không cảm thấy vẫn còn chút vấn đề trong cấu trúc nhưng tôi thấy nội dung đã tốt hơn rất nhiều. 彼女の今までの苦労を知っているので、留学が決まった時あれほど喜んだ気持ちがわから"
+                },
+                {
+                    "jp": "ないでもない。",
+                    "vi": "Tôi biết những khó khăn của cô ấy từ trước đến nay, nên không hẳn là tôi không hiểu cô ấy vui đến mức nào khi được quyết định đi du học."
+                },
+                {
+                    "jp": "この方法は正しくないではないが、一番簡単な方法ではない。",
+                    "vi": "Phương pháp này không phải là không đúng nhưng nó không phải là cách làm đơn giản nhất."
                 }
             ],
             "quizzes": [
@@ -13584,7 +14776,9 @@ GRAMMAR = {
                     "translation": "Cũng không phải là tôi hoàn toàn không cảm thấy đề xuất này hấp dẫn.",
                     "hiragana": "このていあんにみりょくをかんじないでもない。"
                 }
-            ]
+            ],
+            "usage": "V ない・イない形・ナ形語幹+で・N が+ないではない/ないでもない",
+            "full_meaning": "Không hẳn là không...\n彼の論文は、構成にはまだ少し問題がある気がしないでもないが、内容自体はだいぶよく"
         },
         {
             "pattern": "~ながら(も)",
@@ -13593,6 +14787,14 @@ GRAMMAR = {
                 {
                     "jp": "狭いながらも、居心地のいい部屋だ。",
                     "vi": "Mặc dù nhỏ nhưng là căn phòng khiến người ta thấy dễ chịu."
+                },
+                {
+                    "jp": "あの経営者は、不良品と知りながら製品を販売していた。",
+                    "vi": "Giám đốc đó mặc dù biết là sản phẩm bị lỗi nhưng vẫn bán."
+                },
+                {
+                    "jp": "全力を出しましたが、残念ながら、優勝できませんでした。",
+                    "vi": "Mặc dù tôi đã cố gắng hết sức nhưng tiếc là tôi vẫn chưa thể giành được chiến thắng."
                 }
             ],
             "quizzes": [
@@ -13746,7 +14948,9 @@ GRAMMAR = {
                     "translation": "Mặc dù còn trẻ nhưng anh ấy được giao một vị trí có trách nhiệm.",
                     "hiragana": "わかいながらも、かれはせきにんあるたちばをまかされている。"
                 }
-            ]
+            ],
+            "usage": "V ます・イ・ナ形語幹・N+ながら(も)",
+            "full_meaning": "Mặc dù A nhưng B\n新作映画について中田一郎\n監督は、「現実的でありながらも、詩的な雰囲気を失わない\nĐạo diễn Tanaka Ichiro nói về tác phẩm điện ảnh mới là “Khi thực hiện tác phẩm điện ảnh này,\nchúng tôi luôn ý thức để nó mặc dù vừa có tính hiện thực nhưng đồng thời cũng không làm mất đi\nkhông khí thơ mộng lãng mạn”."
         },
         {
             "pattern": "~なくはない/なくもない",
@@ -13755,6 +14959,14 @@ GRAMMAR = {
                 {
                     "jp": "検討する余地はなくはない。",
                     "vi": "Cũng không hẳn là không có chỗ để xem xét thêm."
+                },
+                {
+                    "jp": "解できなくはない。",
+                    "vi": "Yamamoto đột nhiên nghỉ việc làm mọi người rất ngạc nhiên, nhưng với tính cách của anh ta thì hoàn toàn có thể hiểu được/ cũng không hẳn là không hiểu được."
+                },
+                {
+                    "jp": "結婚するつもりはなくもないが、仕事が安定してからのほうがいいだろう。",
+                    "vi": "Không phải là tôi không có ý định kết hôn mà tôi nghĩ là có lẽ nên kết hôn sau khi đã ổn định công việc sẽ tốt hơn."
                 }
             ],
             "quizzes": [
@@ -13908,7 +15120,9 @@ GRAMMAR = {
                     "translation": "Tùy tình hình thì cũng không phải là hoàn toàn không cần thay đổi kế hoạch.",
                     "hiragana": "じょうきょうによっては、けいかくをへんこうするひつようがなくもない。"
                 }
-            ]
+            ],
+            "usage": "V ない・ナ形語幹+で・イない形・N が/は+なくはない/なくもない",
+            "full_meaning": "Không hẳn là không/ có thể\n子供「自分のパソコンが欲しいよ。ねえ、だめ?」\nMẹ ơi con muốn có một cái máy tính của riêng con. Có được không ạ?\n母親「ゲームじゃなくて勉強に使うんなら、考えなくもないけど。」\nNếu như con dùng nó cho việc học mà không phải để chơi game thì mẹ sẽ có thể sẽ suy nghĩ đến\nchuyện đó.\n山本さんは、ある日突然会社をやめてまわりを驚かせたが、あの人の性格を考えると、理"
         },
         {
             "pattern": "~ならともかく",
@@ -13917,6 +15131,18 @@ GRAMMAR = {
                 {
                     "jp": "子供ならともかく、大人がそんなことを言うなんて。",
                     "vi": "Nếu là trẻ con thì còn được, chứ người lớn mà nói vậy thì..."
+                },
+                {
+                    "jp": "遅刻ならともかく、無断欠勤などもってのほかだ。",
+                    "vi": "Nếu là đi muộn thì còn có thể chấp nhận được nhưng đằng này lại tự ý nghỉ mà không xin phép thì thật là không thể chấp nhận được."
+                },
+                {
+                    "jp": "このレストラン、会社の接待ならともかく、自分のお金で行くには高すぎる。",
+                    "vi": "Nhà hàng đó nếu dùng đến để tiếp khách thì còn được chứ để tự bỏ tiền ăn thì đắt quá."
+                },
+                {
+                    "jp": "大勢で行くならともかく、一人であんな所に行くのは危険だ。",
+                    "vi": "Nếu nhiều người thì không sao chứ chỉ đi một mình đến đó thì thật nguy hiểm."
                 }
             ],
             "quizzes": [
@@ -14070,7 +15296,9 @@ GRAMMAR = {
                     "translation": "Nếu là học sinh thì còn được, chứ người đi làm mà không giữ đúng giờ hẹn thì thật khó chấp nhận.",
                     "hiragana": "がくせいならともかく、しゃかいじんがやくそくのじかんをまもらないのはこまる。"
                 }
-            ]
+            ],
+            "usage": "V る・イ・ナ形語幹・N+ならともかく",
+            "full_meaning": "Nếu mà A thì còn tạm chấp nhận được/tạm bỏ qua.. nhưng lại là B\nVế B thường mang tính chất tiêu cực, phê phán"
         }
     ],
     "5": [
@@ -14081,6 +15309,18 @@ GRAMMAR = {
                 {
                     "jp": "新しい事業を始めるにあたって、計画を立てた。",
                     "vi": "Trước khi bắt đầu công việc kinh doanh mới, tôi đã lập kế hoạch."
+                },
+                {
+                    "jp": "新年を迎えるにあたって、一年の計画を立てた。",
+                    "vi": "Lập kế hoạch cho một năm nhân dịp chào đón năm mới."
+                },
+                {
+                    "jp": "原子力発電所の建設にあたって、住民との話し合いが持たれた。",
+                    "vi": "Trước khi xây dựng nhà máy điện nguyên tử, đã tổ chức buổi trao đổi với người dân."
+                },
+                {
+                    "jp": "先輩は面接にあたっての注意事項を教えてくれた。",
+                    "vi": "Tiền bối đã chỉ cho tôi những điều cần lưu ý khi đi phỏng vấn."
                 }
             ],
             "quizzes": [
@@ -14234,7 +15474,9 @@ GRAMMAR = {
                     "translation": "Nhân dịp bước sang năm tài chính mới, chúng tôi đã đặt mục tiêu cho từng phòng ban.",
                     "hiragana": "しんねんどをむかえるにあたり、ぶしょごとのもくひょうをせっていした。"
                 }
-            ]
+            ],
+            "usage": "V る・N+にあたって/にあたり",
+            "full_meaning": "Khi, nhân dịp, trước khi A ...thì làm B"
         },
         {
             "pattern": "~に応じて",
@@ -14243,6 +15485,14 @@ GRAMMAR = {
                 {
                     "jp": "能力に応じて、仕事を任せる。",
                     "vi": "Giao việc tùy theo năng lực của mỗi người."
+                },
+                {
+                    "jp": "このレストランは、客の予算に応じていくつかのコースを用意してくれる。",
+                    "vi": "Nhà hàng này đã chuẩn bị một vài lựa chọn ứng với dự đoán kinh phí của khách hàng."
+                },
+                {
+                    "jp": "旅行のプランは、お客様のご希望に応じて変更できます。",
+                    "vi": "Những gói du lịch có thể thay đổi ứng với nguyện vọng của khách hàng."
                 }
             ],
             "quizzes": [
@@ -14396,7 +15646,8 @@ GRAMMAR = {
                     "translation": "Cần thay đổi phương thức ứng phó tùy theo mức độ quan trọng của vấn đề.",
                     "hiragana": "もんだいのじゅうようせいにおうじて、たいおうのほうほうをかえるひつようがある。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に応じて(は)/に応じ\nỨng với, tương ứng với...\nỞ công ty chúng tôi 1 năm đánh giá nhân viên 2 lần và việc thăng tiến được quyết định tương ứng\nvới đánh giá đó."
         },
         {
             "pattern": "~にかかわらず/なく",
@@ -14405,6 +15656,18 @@ GRAMMAR = {
                 {
                     "jp": "天気にかかわらず、試合は行われる。",
                     "vi": "Bất kể thời tiết thế nào, trận đấu vẫn sẽ diễn ra."
+                },
+                {
+                    "jp": "好きか嫌いかにかかわらず、この仕事は必ずしなければならない。",
+                    "vi": "Dù thích hay ghét thì cũng vẫn phải làm công việc này."
+                },
+                {
+                    "jp": "天候にかかわらず、あすの午後 2 時から試合を行います。",
+                    "vi": "Dù thời tiết có thế nào thì trận đấu vẫn được tổ chức từ 2 giờ chiều ngày mai."
+                },
+                {
+                    "jp": "出席するしないにかかわらず、お返事をお願いします。",
+                    "vi": "Dù có tham gia hay không thì cũng mong anh trả lời."
                 }
             ],
             "quizzes": [
@@ -14558,7 +15821,9 @@ GRAMMAR = {
                     "translation": "Bất kể giá cao hay thấp, tôi muốn lựa chọn sản phẩm coi trọng chất lượng.",
                     "hiragana": "りょうきんのたかいやすいにかかわらず、ひんしつをじゅうししてしょうひんをえらびたい。"
                 }
-            ]
+            ],
+            "usage": "V る/ない / イ形辞書形/ない形 +に(は)かかわらず/に(は)かかわりなく / ナ形語幹‐である・N",
+            "full_meaning": "Cho dù A có thế nào thì cũng không liên quan"
         },
         {
             "pattern": "~にかかわる",
@@ -14567,6 +15832,18 @@ GRAMMAR = {
                 {
                     "jp": "これは命にかかわる問題だ。",
                     "vi": "Đây là vấn đề liên quan đến tính mạng."
+                },
+                {
+                    "jp": "市役所では市民の生活にかかわるさまざまな相談に応じている。",
+                    "vi": "Ở văn phòng tòa thị chính, chúng tôi sẽ trao đổi tư vấn nhiều vấn đề khác nhau có liên quan đến cuộc sống của người dân."
+                },
+                {
+                    "jp": "進学は自分の未来にかかわることだから、真剣に考えなさい。",
+                    "vi": "Việc học lên cao rất quan trọng, nó liên quan đến tương lai của mình nên hãy suy nghĩ thật nghiêm túc."
+                },
+                {
+                    "jp": "今回のプロジェクトの成否はわが社の存続にかかわる。",
+                    "vi": "Việc thành hay bại của dự án lần này sẽ ảnh hưởng đến sự tồn vong của công ty."
                 }
             ],
             "quizzes": [
@@ -14720,7 +15997,8 @@ GRAMMAR = {
                     "translation": "Các cuộc thảo luận quốc tế về vấn đề liên quan đến nhân quyền vẫn đang tiếp diễn.",
                     "hiragana": "じんけんにかかわるもんだいについて、こくさいてきなぎろんがつづいている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+にかかわる\nẢnh hưởng/liên quan đến N (N thường là những danh từ quan trọng như sức khỏe, tương lai,\nsự tồn vong, tính mạng, danh dự...)"
         },
         {
             "pattern": "~に限って/に限り",
@@ -14733,6 +16011,30 @@ GRAMMAR = {
                 {
                     "jp": "急いでいる時に限って、電車が遅れる。",
                     "vi": "Đúng vào lúc đang vội thì tàu điện lại bị trễ."
+                },
+                {
+                    "jp": "たします。",
+                    "vi": "Chỉ 100 người trong số những quý khách đã gửi thư đến cho chúng tôi sẽ nhận được phần quà tuyệt vời."
+                },
+                {
+                    "jp": "毎週火曜日に限って、映画は半額になります。",
+                    "vi": "Chỉ duy nhất vào thứ ba hàng tuần,vé xem phim sẽ được giảm một nửa."
+                },
+                {
+                    "jp": "今回の応募作品は著作権を侵害しないものに限る。",
+                    "vi": "Tác phẩm tham gia lần này chỉ giới hạn những tác phẩm không vi phạm bản quyền. (2)~に限って N+に限って Đúng lúc nào đấy thì xảy ra chuyện không may, ngẫu nhiên.... ときどき家の中がものすごく散らかってしまうことがある。そんなときに限って、突然客"
+                },
+                {
+                    "jp": "が訪ねてきたりする。",
+                    "vi": "Nhà tôi thỉnh thoảng cũng hơi bừa bộn, nhưng đúng những lúc như thế lại đột nhiên có khách ghé thăm."
+                },
+                {
+                    "jp": "大切な用事があって遅刻してはいけない時に限って、寝坊してしまう。",
+                    "vi": "Cứ đúng cái lúc có chuyện quan trọng không được đến muộn thì lại ngủ quên."
+                },
+                {
+                    "jp": "予習していないときに限って、先生に当てられる。",
+                    "vi": "Cứ đúng lúc không học bài trước thì lại bị cô giáo gọi."
                 }
             ],
             "quizzes": [
@@ -14886,7 +16188,9 @@ GRAMMAR = {
                     "translation": "Cứ đúng vào những lúc như thế này thì tài liệu cần thiết lại không tìm thấy đâu.",
                     "hiragana": "こういうときにかぎって、ひつようなしりょうがみつからない。"
                 }
-            ]
+            ],
+            "usage": "(1)~に限って/に限り",
+            "full_meaning": "N+に限って/に限り\nChỉ riêng...\nGiới hạn với những đối tượng....mới có những đặc quyền/ưu đãi đặc biệt...\nおはがきをお送りくださった皆様の中から 100 名様に限り、すてきな商品をプレゼントい"
         },
         {
             "pattern": "~に限らず",
@@ -14895,6 +16199,18 @@ GRAMMAR = {
                 {
                     "jp": "子供に限らず、大人にもこの本は人気だ。",
                     "vi": "Cuốn sách này không chỉ trẻ em mà cả người lớn cũng ưa thích."
+                },
+                {
+                    "jp": "あの選手は子供のころ、サッカーに限らず、スポーツならなんでも得意だったそうだ。",
+                    "vi": "Cầu thủ đó nghe nói hồi nhỏ không chỉ bóng đá mà môn thể thao nào cũng giỏi."
+                },
+                {
+                    "jp": "東京ディズニーランドは子どもに限らず、大人にも大人気だ。",
+                    "vi": "Disney Land Tokyo không chỉ trẻ em mà cả người lớn cũng thích."
+                },
+                {
+                    "jp": "今日のセミナーは就職活動中の学生に限らず、新入生の私たちにも役に立った。",
+                    "vi": "Buổi seminar hôm nay không chỉ những sinh viên đang tìm kiếm việc làm mà với chúng tôi là những sinh viên năm nhất cũng rất có ích."
                 }
             ],
             "quizzes": [
@@ -15033,7 +16349,8 @@ GRAMMAR = {
                     "translation": "Mối quan tâm đối với vấn đề này đang lan rộng không chỉ ở người cao tuổi mà cả thế hệ trẻ.",
                     "hiragana": "こうれいしゃにかぎらず、わかいせだいにもこのもんだいへのかんしんがひろがっている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に限らず\nKhông chỉ... mà cả cái khác cũng vậy"
         },
         {
             "pattern": "~に限る",
@@ -15042,6 +16359,18 @@ GRAMMAR = {
                 {
                     "jp": "疲れた時は寝るに限る。",
                     "vi": "Khi mệt thì ngủ là nhất."
+                },
+                {
+                    "jp": "疲れたときは、寝るに限ります。",
+                    "vi": "Lúc mệt thì ngủ là nhất."
+                },
+                {
+                    "jp": "寒い日は、熱々の鍋に限る。",
+                    "vi": "Những ngày trời lạnh thì được ăn nồi lẩu nóng hôi hổi là nhất."
+                },
+                {
+                    "jp": "うまい!やはり夏は冷たいビールに限るね。",
+                    "vi": "Ngon quá! Quả nhiên là mùa hè được uống những lon bia lạnh thế này là nhất."
                 }
             ],
             "quizzes": [
@@ -15195,7 +16524,9 @@ GRAMMAR = {
                     "translation": "Vào những đêm lạnh thì ăn lẩu ở nhà là tuyệt nhất.",
                     "hiragana": "さむいよるには、いえでなべをたべるにかぎります。"
                 }
-            ]
+            ],
+            "usage": "V る/ない・N+に限る",
+            "full_meaning": "...Là nhất (theo đánh giá chủ quan của người nói)"
         },
         {
             "pattern": "~にかけては",
@@ -15204,6 +16535,18 @@ GRAMMAR = {
                 {
                     "jp": "料理の腕にかけては、彼女は誰にも負けない。",
                     "vi": "Nói về tay nghề nấu ăn thì không ai bằng cô ấy."
+                },
+                {
+                    "jp": "値段は別として、味の良さにかけては、このレストランが一番だ。",
+                    "vi": "Giá cả thì không nói nhưng để nói về độ ngon thì nhà hàng này là nhất."
+                },
+                {
+                    "jp": "弟は勉強はできないが、泳ぎにかけては誰にも負けない。",
+                    "vi": "Em trai tôi học kém nhưng nói đến bơi lội thì không thua bất kỳ ai cả."
+                },
+                {
+                    "jp": "川口さんは魚の料理にかけてはかなりの腕の持ち主らしい。",
+                    "vi": "Nếu xét về những món cá thì tay nghề của Kawaguchi cũng tương đối tốt."
                 }
             ],
             "quizzes": [
@@ -15357,7 +16700,8 @@ GRAMMAR = {
                     "translation": "Nói về những công việc tỉ mỉ thì kỹ thuật của cô ấy cực kỳ cao.",
                     "hiragana": "こまかいさぎょうにかけては、かのじょのぎじゅつはひじょうにたかい。"
                 }
-            ]
+            ],
+            "full_meaning": "N+にかけては/にかけても\nNói đến... thì đối tượng đó là nhất, không ai có thể sánh bằng..."
         },
         {
             "pattern": "~に決まっている",
@@ -15366,6 +16710,18 @@ GRAMMAR = {
                 {
                     "jp": "そんなことをしたら、怒られるに決まっている。",
                     "vi": "Làm chuyện như vậy thì chắc chắn sẽ bị mắng."
+                },
+                {
+                    "jp": "同じ値段なら、質がいいほうがたくさん売れるに決まっている。",
+                    "vi": "Nếu mà hai sản phẩm cùng giá với nhau thì chắc chắn là cái nào có chất lượng tốt hơn sẽ bán chạy hơn."
+                },
+                {
+                    "jp": "子どもが大人と相撲をしたって、負けるに決まっている。",
+                    "vi": "Trẻ con mà thi đấu vật với người lớn thì chắc chắn là thua rồi."
+                },
+                {
+                    "jp": "今度の選挙では、実力も人気もあるあの若い候補が勝つに決まっている。",
+                    "vi": "Trong cuộc bầu cử sắp tới, ứng cử viên trẻ ấy là người có thực lực và được rất nhiều người yêu quý nên chắc chắn sẽ là người giành chiến thắng."
                 }
             ],
             "quizzes": [
@@ -15519,7 +16875,9 @@ GRAMMAR = {
                     "translation": "Nếu cứ tiếp tục cuộc sống như thế này thì chắc chắn sẽ làm hỏng sức khỏe.",
                     "hiragana": "こんなせいかつをつづけていたら、からだをこわすにきまっている。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹・N+に決まっている",
+            "full_meaning": "Chắc chắn là..."
         },
         {
             "pattern": "~に加えて",
@@ -15528,6 +16886,18 @@ GRAMMAR = {
                 {
                     "jp": "英語に加えて、中国語も勉強している。",
                     "vi": "Không chỉ tiếng Anh, tôi còn học thêm cả tiếng Trung."
+                },
+                {
+                    "jp": "えられている。",
+                    "vi": "Nghe nói năm nay mất mùa. Người ta cho rằng là do nhiệt độ mùa hè giảm, hơn nữa lượng mưa ít."
+                },
+                {
+                    "jp": "のどの痛みに加えて、咳や熱も出てきたので会社を休むしかない。",
+                    "vi": "Không chỉ đau cổ họng mà còn bị ho sốt nữa nên phải nghỉ làm."
+                },
+                {
+                    "jp": "原油の高騰に加えて、農産物も値上がりした。",
+                    "vi": "Không chỉ giá dầu thô tăng vọt mà giá của các mặt hàng nông sản cũng tăng."
                 }
             ],
             "quizzes": [
@@ -15681,8 +17051,11 @@ GRAMMAR = {
                     "translation": "Ngoài kiến thức, việc tích lũy cả kinh nghiệm thực tế cũng rất quan trọng.",
                     "hiragana": "ちしきにくわえて、じっさいのけいけんもみにつけることがたいせつだ。"
                 }
-            ]
-        },
+            ],
+            "full_meaning": "N+に加えて/に加え\nKhông chỉ A mà thêm vào đó còn B nữa...(Bổ sung thêm thông tin)\n今年は作物の生育がよくないそうだ。夏の低温に加えて、雨が少なかったのが原因だと考"
+        }
+    ],
+    "6": [
         {
             "pattern": "~に応えて",
             "meaning": "Đáp ứng lại (yêu cầu, nguyện vọng)",
@@ -15690,6 +17063,18 @@ GRAMMAR = {
                 {
                     "jp": "ファンの期待に応えて、新曲を発表した。",
                     "vi": "Đáp lại kỳ vọng của người hâm mộ, ban nhạc đã ra mắt ca khúc mới."
+                },
+                {
+                    "jp": "この美術館では、利用者の声に応えて、夏期の開館時間を 1 時間延長することにします。",
+                    "vi": "Bảo tàng mỹ thuật này đã quyết định kéo dài thời gian mở cửa mùa hè thêm 1 tiếng , đáp ứng theo ý kiến nguyện vọng của người sử dụng."
+                },
+                {
+                    "jp": "消費者の要求に応えて、よい製品を作っていかなければならない。",
+                    "vi": "Chúng ta phải tạo ra những sản phẩm tốt đáp ứng theo yêu cầu của người tiêu dùng. コーチは、これまで選手を育てることにすべてのエネルギーを注いできた。選手たちはこ"
+                },
+                {
+                    "jp": "れに応えて、今年の大会で次々と新記録を出した。",
+                    "vi": "Huấn luyện viên từ trước đến nay đã dốc toàn bộ năng lượng cho việc đào tạo cầu thủ và đáp lại điều đó, trong mùa thi đấu năm nay các cầu thủ đã liên tiếp đạt được kỷ lục mới."
                 }
             ],
             "quizzes": [
@@ -15843,7 +17228,8 @@ GRAMMAR = {
                     "translation": "Chính phủ được yêu cầu phải đáp lại kỳ vọng của người dân.",
                     "hiragana": "こくみんのきたいにこたえることが、せいふにもとめられている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に応えて/に応え\nĐáp ứng lại yêu cầu, nguyện vọng, ý kiến...."
         },
         {
             "pattern": "~に際して",
@@ -15852,6 +17238,18 @@ GRAMMAR = {
                 {
                     "jp": "ご入会に際して、こちらの書類にご記入ください。",
                     "vi": "Khi đăng ký gia nhập, xin vui lòng điền vào giấy tờ này."
+                },
+                {
+                    "jp": "図書館のご利用に際しては、以下の点にご注意ください。",
+                    "vi": "Khi sử dụng thư viện, bạn hãy chú ý những điều sau đây."
+                },
+                {
+                    "jp": "契約に際して必要な書類をお知らせください。",
+                    "vi": "Khi kí hợp đồng, hãy thông báo những giấy tờ cần thiết."
+                },
+                {
+                    "jp": "先生から卒業に際してのお別れのことばをいただきました。",
+                    "vi": "Chúng ta đã nhận được lời chia tay khi tốt nghiệp từ giáo viên."
                 }
             ],
             "quizzes": [
@@ -16005,7 +17403,9 @@ GRAMMAR = {
                     "translation": "Nhân dịp tốt nghiệp, tôi đã nhận được những lời nói đầy ấm áp từ giáo viên.",
                     "hiragana": "そつぎょうにさいして、せんせいからこころあたたまることばをいただいた。"
                 }
-            ]
+            ],
+            "usage": "V る・N+に際して/に際し",
+            "full_meaning": "Khi....(Thường dùng trong hướng dẫn sử dụng, hợp đồng...)"
         },
         {
             "pattern": "~に先立って",
@@ -16014,6 +17414,14 @@ GRAMMAR = {
                 {
                     "jp": "開会に先立って、一言ご挨拶申し上げます。",
                     "vi": "Trước khi khai mạc, xin cho phép tôi có đôi lời chào hỏi."
+                },
+                {
+                    "jp": "今から野球大会を行います。試合開始に先立って、会長からごあいさつをいただきます。",
+                    "vi": "Sau đây, đại hội thi đấu bóng chày sẽ bắt đầu. Trước khi bắt đầu trận đấu, xin lắng nghe lời chào từ ngài chủ tịch."
+                },
+                {
+                    "jp": "映画の一般公開に先立ち、プレミア試写会を行う予定だ。",
+                    "vi": "Dự định sẽ tổ chức buổi chiếu thử dành cho khách vip trước khi bộ phim được công bố rộng rãi."
                 }
             ],
             "quizzes": [
@@ -16167,7 +17575,8 @@ GRAMMAR = {
                     "translation": "Trước khi giải đấu được tổ chức, phần hướng dẫn dành cho người tham gia đã được tiến hành.",
                     "hiragana": "たいかいかいさいにさきだって、さんかしゃへのせつめいがおこなわれた。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に先立って/に先立ち\nTrước khi A thì làm B (B là cái cần thiết, cần chuẩn bị trước)\nCác thành viên mới được giới thiệu trước khi bắt đầu cuộc họp."
         },
         {
             "pattern": "~に従って",
@@ -16180,6 +17589,30 @@ GRAMMAR = {
                 {
                     "jp": "年を取るに従って、体力が落ちてくる。",
                     "vi": "Cùng với việc lớn tuổi hơn thì thể lực cũng giảm sút dần."
+                },
+                {
+                    "jp": "会議での決定に従って、来月から新製品の生産を開始することになった。",
+                    "vi": "Theo quyết định tại cuộc họp, từ tháng sau sẽ bắt đầu sản xuất sản phẩm mới."
+                },
+                {
+                    "jp": "火災発生時は、係員の指示に従って冷静に行動してください。",
+                    "vi": "Khi xảy ra hỏa hoạn, hãy bình tĩnh làm theo hướng dẫn của người phụ trách,"
+                },
+                {
+                    "jp": "作業の手順はマニュアルに従って行わなければならない。",
+                    "vi": "Trình tự công việc phải thực hiện theo sách hướng dẫn. (2)Kéo theo đó (A thay đổi kéo theo B thay đổi)"
+                },
+                {
+                    "jp": "医学が進歩するに従って、平均寿命が延びた。",
+                    "vi": "Y học phát triển thì kéo theo đó tuổi thọ trung bình của người dân cũng được kéo dài."
+                },
+                {
+                    "jp": "国の経済が発展するに従って、人々の暮らしもよくなってきた。",
+                    "vi": "Kinh tế đất nước càng phát triển thì cuộc sống của mọi người cũng càng tốt lên."
+                },
+                {
+                    "jp": "インターネットの普及に従って、情報共有化も進んでいる。",
+                    "vi": "Internet ngày càng phổ biến thì việc chia sẻ thông tin cũng ngày càng phát triển."
                 }
             ],
             "quizzes": [
@@ -16333,7 +17766,8 @@ GRAMMAR = {
                     "translation": "Cùng với sự thay đổi của mùa, các sản phẩm trong cửa hàng cũng được thay đổi.",
                     "hiragana": "きせつのへんかにしたがって、みせのしょうひんもいれかわる。"
                 }
-            ]
+            ],
+            "usage": "V る・N+に従って/に従い / (1)Tuân theo, theo..."
         },
         {
             "pattern": "~にしたら/にすれば",
@@ -16342,6 +17776,18 @@ GRAMMAR = {
                 {
                     "jp": "親にしたら、子供の幸せが一番だ。",
                     "vi": "Đứng trên lập trường của cha mẹ thì hạnh phúc của con cái là quan trọng nhất."
+                },
+                {
+                    "jp": "いうプレッシャーは相当あったはずだ。",
+                    "vi": "Trước đó cầu thủ Yamanaka thi đấu không được tốt nhưng cuối cùng đã ghi được bàn. Chắc hẳn là đối với anh ấy áp lực “nếu như lần này mình mắc sai lầm nữa thì..” tương đối lớn. 留学は今すぐではなく、大学を卒業してからにします。両親にしても、そのほうが安心で"
+                },
+                {
+                    "jp": "しょう。",
+                    "vi": "Việc đi du học không phải là ngay bây giờ mà là sẽ thực hiện sau khi tốt nghiệp đại học. Đối với bố mẹ nếu làm vậy thì bố mẹ cũng sẽ yên tâm hơn."
+                },
+                {
+                    "jp": "突然父の病気を告げられて、彼女にしたらきっとショックだっただろう。",
+                    "vi": "Đột nhiên được báo bố bị bệnh, đối với cô ấy chắc hẳn là một cú sốc."
                 }
             ],
             "quizzes": [
@@ -16495,7 +17941,8 @@ GRAMMAR = {
                     "translation": "Đứng trên lập trường của khách du lịch nước ngoài thì bảng hướng dẫn này có thể khó hiểu.",
                     "hiragana": "がいこくじんかんこうきゃくにしたら、このあんないひょうじはわかりにくいかもしれない。"
                 }
-            ]
+            ],
+            "full_meaning": "N+にしたら/にすれば/にしても\nĐối với N/ đứng trên lập trường...\n(Đứng trên lập trường của N thì có đánh giá, quan điểm là...)\n不調だった山中選手がついにゴールを決めた。彼にしたら「もし、またミスをしたら」と"
         },
         {
             "pattern": "~にしては",
@@ -16504,6 +17951,18 @@ GRAMMAR = {
                 {
                     "jp": "初心者にしては、上手だ。",
                     "vi": "Là người mới học mà đã giỏi vậy rồi."
+                },
+                {
+                    "jp": "この子は小学生にしてはずいぶんしっかりしている。",
+                    "vi": "Đứa trẻ đó mặc dù là học sinh cấp một nhưng lại rất chỉn chu."
+                },
+                {
+                    "jp": "初めてケーキを作ったにしては、上手にできましたね。",
+                    "vi": "Mặc dù là lần đầu tiên làm bánh nhưng lại làm rất là tốt."
+                },
+                {
+                    "jp": "彼は、タクシー運転手にしては道を知らない。",
+                    "vi": "Anh ấy mặc dù là tài xế lái xe taxi nhưng lại không biết đường."
                 }
             ],
             "quizzes": [
@@ -16657,7 +18116,9 @@ GRAMMAR = {
                     "translation": "Đối với mùa đông thì hôm nay ấm hơn rất nhiều.",
                     "hiragana": "ふゆにしては、こんにちはずいぶんあたたかい。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹・N+にしては",
+            "full_meaning": "Mặc dù A nhưng B (A và B không tương xứng với nhau)"
         },
         {
             "pattern": "~にしろ/にせよ/にしても",
@@ -16670,6 +18131,30 @@ GRAMMAR = {
                 {
                     "jp": "賛成にせよ反対にせよ、理由を説明してください。",
                     "vi": "Dù tán thành hay phản đối thì cũng xin hãy giải thích lý do."
+                },
+                {
+                    "jp": "たった三日の旅行にせよ、準備は必要だ。",
+                    "vi": "Dù cho có đi du lịch chỉ 3 ngày thôi thì cũng phải chuẩn bị."
+                },
+                {
+                    "jp": "どんなに強そうに見える人にしても、心に弱いところがあるはずだ。",
+                    "vi": "Dù cho nhìn trông có vẻ là người mạnh mẽ thế nào đi nữa thì trong lòng cũng vẫn có lúc yếu đuối."
+                },
+                {
+                    "jp": "いくら好きにせよ、食べ過ぎると飽きてしまう。",
+                    "vi": "Dù có thích thế nào đi nữa thì ăn nhiều cũng sẽ bị chán. (2)"
+                },
+                {
+                    "jp": "出席するにしろ欠席するにしろ、招待状の返事は早く出したほうがいい。",
+                    "vi": "Cho dù tham gia hay không thì cũng nên nhanh chóng trả lời thư mời."
+                },
+                {
+                    "jp": "引き受けるにしろ引き受けないにしろ、なるべく早く決めたほうがいい。",
+                    "vi": "Dù có nhận hay không thì cũng nên nhanh chóng quyết định sớm."
+                },
+                {
+                    "jp": "卒業後就職するにせよ、進学するにせよ、早く決めないといけない。",
+                    "vi": "Sau khi tốt nghiệp dù là đi làm hay tiếp tục học lên cao thì cũng phải quyết định sớm."
                 }
             ],
             "quizzes": [
@@ -16823,7 +18308,9 @@ GRAMMAR = {
                     "translation": "Dù có phản đối đi nữa thì tôi vẫn muốn bạn đưa ra lý do cụ thể hơn.",
                     "hiragana": "はんたいするにしても、もうすこしぐたいてきなりゆうをしめしてほしい。"
                 }
-            ]
+            ],
+            "usage": "(1) / V/イ形普通形・ナ形語幹・N(である)+にしろ/にせよ/にしても / V/イ形普通形+にしろ/にせよ/にしても+V/イ形普通形+にしろ/にせよ/にしても / ナ形語幹・N(である)+にしろ/にせよ/にしても+ナ形語幹・N(である)+にしろ/に",
+            "full_meaning": "Cho dù...\nせよ/にしても\nCho dù A hay cho dù B thì vẫn có điểm chung gì đó."
         },
         {
             "pattern": "~に過ぎない",
@@ -16832,6 +18319,18 @@ GRAMMAR = {
                 {
                     "jp": "それはただの噂に過ぎない。",
                     "vi": "Đó chỉ là tin đồn mà thôi."
+                },
+                {
+                    "jp": "研究は着実に進んできた。",
+                    "vi": "Những vấn đề được làm sáng tỏ nhờ vào các nghiên cứu liên quan đến não bộ con người dù chỉ mới là một phần nhỏ thôi nhưng mặc dù vậy, hiện những nghiên cứu đó vẫn đang được phát triển một cách vững chắc."
+                },
+                {
+                    "jp": "これは、多くの不正の一つに過ぎない。まだたくさんの不正が隠されているはずだ。",
+                    "vi": "Đây chỉ là một trong số rất nhiều hành vi sai phạm bất chính. Chắc chắn là vẫn còn rất nhiều hành vi bất chính đang được che giấu."
+                },
+                {
+                    "jp": "この企画に反対するのではなく、ただ自分の意見を言ったに過ぎない。",
+                    "vi": "Không phải là tôi phản đối kế hoạch này, chỉ là tôi nói ra ý kiến của mình thôi."
                 }
             ],
             "quizzes": [
@@ -16985,7 +18484,9 @@ GRAMMAR = {
                     "translation": "Kết quả này chẳng qua chỉ là kết quả ở giữa quá trình.",
                     "hiragana": "このけっかはとちゅうけいかにすぎない。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹-である・N(である)+に過ぎない",
+            "full_meaning": "Chỉ ở mức đấy thôi/ Không hơn...\n人間の脳に関する研究で明らかになったことはまだほんの一部に過ぎないとはいえ、その"
         },
         {
             "pattern": "~に相違ない",
@@ -16994,6 +18495,18 @@ GRAMMAR = {
                 {
                     "jp": "この筆跡は彼のものに相違ない。",
                     "vi": "Nét chữ này chắc chắn là của anh ta không sai được."
+                },
+                {
+                    "jp": "服装はいつもとだいぶ違うが、やっぱりあれは田中さんに相違ない。",
+                    "vi": "Mặc dù trang phục khác hẳn với mọi khi nhưng quả nhiên chắc chắn là Tanaka rồi."
+                },
+                {
+                    "jp": "この地域の水汚染の問題を根本から解決するのは難しいに相違ない。",
+                    "vi": "Việc chúng ta giải quyết tận gốc vấn đề ô nhiễm nguồn nước của vùng này chắc chắn là rất khó."
+                },
+                {
+                    "jp": "以上、上に申し上げたことは、事実に相違ありません。",
+                    "vi": "Xin hết. Tôi xin cam đoan những điều nói ở trên chắc chắn là sự thật."
                 }
             ],
             "quizzes": [
@@ -17147,7 +18660,9 @@ GRAMMAR = {
                     "translation": "Vì bán chạy đến mức này nên chắc chắn nhu cầu rất cao.",
                     "hiragana": "これほどうれているのだから、じゅようはたかいにそういない。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹・N+に相違ない",
+            "full_meaning": "Chắc chắn..."
         },
         {
             "pattern": "~に沿って",
@@ -17156,6 +18671,18 @@ GRAMMAR = {
                 {
                     "jp": "計画に沿って、プロジェクトを進める。",
                     "vi": "Tiến hành dự án bám sát theo kế hoạch."
+                },
+                {
+                    "jp": "通りに沿って食べ物を売る店が並んでいる。",
+                    "vi": "Dọc theo con đường có rất nhiều quán bán đồ ăn."
+                },
+                {
+                    "jp": "会社の経営方針に沿って、来年度の計画を立てる。",
+                    "vi": "Lập kế hoạch cho năm tới theo phương châm kinh doanh của công ty."
+                },
+                {
+                    "jp": "この地域の実態に沿った対策を講じなければならない。",
+                    "vi": "Chúng ta phải đưa ra những đối sách bám theo tình hình thực tế của khu vực này."
                 }
             ],
             "quizzes": [
@@ -17309,10 +18836,9 @@ GRAMMAR = {
                     "translation": "Đôi khi cũng thay đổi quy trình làm việc sao cho phù hợp với tình hình thực tế tại hiện trường.",
                     "hiragana": "げんばのじょうきょうにそって、さぎょうてじゅんをへんこうすることもある。"
                 }
-            ]
-        }
-    ],
-    "6": [
+            ],
+            "full_meaning": "N+に沿って/に沿い\nDọc theo, bám theo, theo..."
+        },
         {
             "pattern": "~に違いない",
             "meaning": "Chắc chắn là...",
@@ -17320,6 +18846,18 @@ GRAMMAR = {
                 {
                     "jp": "この味は母の手作りに違いない。",
                     "vi": "Vị này chắc chắn là do mẹ tự tay làm rồi."
+                },
+                {
+                    "jp": "合計がこんなに大きい数字になるなんて、だれかが計算を間違えたに違いない。",
+                    "vi": "Thống kê thành con số lớn như thế này thì chắc chắn là ai đó đã tính toán nhầm rồi."
+                },
+                {
+                    "jp": "水の汚染をこのままにしておくと、地球環境はますます悪くなるに違いない。",
+                    "vi": "Nếu như cứ để vấn đề ô nhiễm nước diễn ra thế này thì chắc chắn vấn đề môi trường sẽ càng ngày càng tệ hơn."
+                },
+                {
+                    "jp": "彼は日本に 10 年以上住んでいたので、日本語のレベルが高いに違いない。",
+                    "vi": "Anh ấy đã sống ở Nhật hơn 10 năm rồi nên chắc chắn năng lực tiếng Nhật sẽ rất cao."
                 }
             ],
             "quizzes": [
@@ -17473,7 +19011,9 @@ GRAMMAR = {
                     "translation": "Anh ấy không nói gì nhưng trong lòng chắc chắn đã rất tiếc nuối.",
                     "hiragana": "かれはなにもいわなかったが、ないしんではかなりくやしかったにちがいない。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹・N+に違いない",
+            "full_meaning": "Chắc chắn..."
         },
         {
             "pattern": "~につき",
@@ -17486,6 +19026,26 @@ GRAMMAR = {
                 {
                     "jp": "本日は休業日につき、休ませていただきます。",
                     "vi": "Vì hôm nay là ngày nghỉ nên cửa hàng xin phép đóng cửa."
+                },
+                {
+                    "jp": "アルバイト料は、昼は 1 時間につき 800 円ですが、深夜は 1000 円です。",
+                    "vi": "Tiền lương làm thêm được tính là, ban ngày cứ 1 giờ là 800 yên nhưng buổi tối là 1000 yên."
+                },
+                {
+                    "jp": "水道代は 1 か月につき 3000 円かかります。",
+                    "vi": "Tiền nước cứ 1 tháng là 3000 yên."
+                },
+                {
+                    "jp": "この幼稚園は子ども 10 人につき一人の先生が配置されている。",
+                    "vi": "Ở trường mầm non này cứ 10 em học sinh thì được bố trí 1 giáo viên. (2)Vì A nên B (Thường dùng trong các văn bản trang trọng, thông báo)"
+                },
+                {
+                    "jp": "昼休みにつき、事務所は 1 時まで休みです。",
+                    "vi": "Vì đang giờ nghỉ trưa nên văn phòng sẽ nghỉ đến 1 giờ."
+                },
+                {
+                    "jp": "ただいま水道工事中につき、1 週間休ませていただきます。",
+                    "vi": "Hiện tại vì chúng tôi đang thi công đường ống nước nên cho phép chúng tôi nghỉ trong 1 tuần."
                 }
             ],
             "quizzes": [
@@ -17639,7 +19199,8 @@ GRAMMAR = {
                     "translation": "Mỗi người đăng ký chỉ được phép tham gia một lần.",
                     "hiragana": "もうしこみしゃひとりにつき、おうぼできるのはいっかいまでです。"
                 }
-            ]
+            ],
+            "full_meaning": "N+につき\n(1)Cứ mỗi, ứng với mỗi..."
         },
         {
             "pattern": "~につけ",
@@ -17652,6 +19213,26 @@ GRAMMAR = {
                 {
                     "jp": "何につけ、真面目に取り組むことが大切だ。",
                     "vi": "Dù là việc gì thì điều quan trọng cũng là làm một cách nghiêm túc."
+                },
+                {
+                    "jp": "けても時の流れのなんと早いことか。",
+                    "vi": "Bây giờ vùng này đã trở thành thành phố rồi nhưng cho đến vài năm trước kia nó vẫn chỉ là một vùng quê với toàn cánh đồng lúa. Mỗi lần nhìn thấy vậy mới thấy thời gian trôi qua thật nhanh."
+                },
+                {
+                    "jp": "この写真を見るにつけ、子どもの頃を思い出す。",
+                    "vi": "Cứ mỗi khi nhìn bức ảnh này thì lại nhớ đến hồi còn nhỏ. (2)V る・イ・N+につけ+V る・イ・N+につけ Cho dù A hay B 社長は常に会社の状況をつかんでおかなければならない。いいにつけ、悪いにつけ、現状"
+                },
+                {
+                    "jp": "を報告させる必要がある。",
+                    "vi": "Giám đốc phải thường xuyên nắm được tình hình công ty. Dù là tốt hay là xấu thì vẫn cần yêu cầu nhân viên báo cáo tình hình thực tại."
+                },
+                {
+                    "jp": "雨につけ、雪につけ、あの人は毎日 30 分のジョギングを続ける。",
+                    "vi": "Dù mưa hay tuyết thì người đó vẫn duy trì việc chạy bộ 30 phút mỗi ngày."
+                },
+                {
+                    "jp": "彼はうれしいにつけ、悲しいにつけ、よくお酒を飲む。",
+                    "vi": "Anh ấy lúc nào cũng uống rượu, dù vui hay buồn."
                 }
             ],
             "quizzes": [
@@ -17805,7 +19386,9 @@ GRAMMAR = {
                     "translation": "Dù là việc gì, tôi cũng cố gắng không nóng vội mà phán đoán một cách bình tĩnh.",
                     "hiragana": "なににつけても、あせらずれいせいにはんだんするようこころがけている。"
                 }
-            ]
+            ],
+            "usage": "(1)V る・N+につけ/につけては/につけても",
+            "full_meaning": "Cứ mỗi khi A thì lại B (cảm xúc)\n今は都会になってしまったが、数年前までこのあたりは畑ばかりの田舎だった。それにつ"
         },
         {
             "pattern": "~に伴って",
@@ -17814,6 +19397,14 @@ GRAMMAR = {
                 {
                     "jp": "人口増加に伴って、住宅問題が深刻になった。",
                     "vi": "Cùng với sự gia tăng dân số, vấn đề nhà ở trở nên nghiêm trọng hơn."
+                },
+                {
+                    "jp": "その島は、森林の減少に伴って、鳥や動物の数が減ってきている。",
+                    "vi": "Hòn đảo này diện tích rừng ngày càng giảm, cùng với đó số lượng động vật và chim cũng giảm theo."
+                },
+                {
+                    "jp": "都心の人口増加に伴う住宅問題は深刻化している。",
+                    "vi": "Vấn đề nhà ở đang ngày trở nên trầm trọng cùng với sự gia tăng của dân số thủ đô."
                 }
             ],
             "quizzes": [
@@ -17967,7 +19558,9 @@ GRAMMAR = {
                     "translation": "Cùng với việc giao lưu quốc tế trở nên sôi động, tầm quan trọng của giáo dục đa ngôn ngữ cũng tăng lên.",
                     "hiragana": "こくさいこうりゅうのかっぱつかにともなって、たげんごきょういくのじゅうようせいがましている。"
                 }
-            ]
+            ],
+            "usage": "V る・N+に伴って/に伴い",
+            "full_meaning": "A cùng với B (A và B cùng thay đổi đồng thời)\nY học ngày nay đang rất phát triển, cùng với đó tuổi thọ trung bình của con người ngày càng tăng."
         },
         {
             "pattern": "~に反して",
@@ -17976,6 +19569,18 @@ GRAMMAR = {
                 {
                     "jp": "予想に反して、試合は簡単に終わった。",
                     "vi": "Trái với dự đoán, trận đấu đã kết thúc một cách dễ dàng."
+                },
+                {
+                    "jp": "なった今も相変わらずよくなっていない。",
+                    "vi": "Chính phủ đã dự đoán là năm nay kinh tế sẽ tốt hơn nhưng trái với dự đoán này,mặc dù giờ đã bước sang tháng 12 rồi mà tình hình vẫn không thay đổi. けさの天気予報では午後から晴れると言っていた。ところが、予報に反して、雨が降り続"
+                },
+                {
+                    "jp": "いている。",
+                    "vi": "Dự báo thời tiết sáng nay nói từ buổi chiều trời sẽ nắng nhưng trái với dự báo, trời vẫn đang tiếp tục mưa."
+                },
+                {
+                    "jp": "ルールに反する行為は失格となります。",
+                    "vi": "Hành vi trái với quy định sẽ bị loại. (Tước quyền,tư cách thi đấu)"
                 }
             ],
             "quizzes": [
@@ -18129,7 +19734,8 @@ GRAMMAR = {
                     "translation": "Trái với dự đoán, cuộc đàm phán đã được giải quyết sớm hơn dự kiến.",
                     "hiragana": "よそうとははんして、こうしょうはよていよりはやくまとまった。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に反して/に反し\nNgược lại...(dự đoán, kỳ vọng..)\n政府は、今年こそ経済がよくなると予測していた。しかし、この予測に反して、12 月に"
         },
         {
             "pattern": "~にほかならない",
@@ -18138,6 +19744,26 @@ GRAMMAR = {
                 {
                     "jp": "彼の成功は努力の結果にほかならない。",
                     "vi": "Thành công của anh ấy không gì khác chính là kết quả của sự nỗ lực."
+                },
+                {
+                    "jp": "このイベントが成功したのは、周囲の支援とメンバー全員の努力の結果にほかならない。",
+                    "vi": "Sự kiện này thành công chính là kết quả sự nỗ lực của toàn bộ nhân viên và sự hỗ trợ cũng những người xung quanh."
+                },
+                {
+                    "jp": "今回の失敗の原因は、準備不足にほかならない。",
+                    "vi": "Nguyên nhân của thất bại lần này chính là do chúng ta thiếu sự chuẩn bị."
+                },
+                {
+                    "jp": "病気の時まっ先に見舞いに来てくれたのは、彼の友情の表れにほかならない。",
+                    "vi": "Hành động chạy đến thăm hỏi tôi đầu tiên khi tôi bị ốm chính là thể hiện tình bạn của anh ấy."
+                },
+                {
+                    "jp": "にほかならない。",
+                    "vi": "Có rất nhiều ý kiến khác nhau đối với vấn đề này nhưng điều đó chính là vì mọi người quan tâm đến nó."
+                },
+                {
+                    "jp": "途中で投げ出さず、最後までやりぬいたのは、家族の支えがあったからにほかならない。",
+                    "vi": "Chính vì có sự hậu thuẫn của gia đình nên tôi mới cố gắng đến cuối cùng mà không bỏ giữa chừng."
                 }
             ],
             "quizzes": [
@@ -18291,7 +19917,9 @@ GRAMMAR = {
                     "translation": "Thái độ của anh ấy không gì khác chính là biểu hiện của lòng trung thành đối với công ty.",
                     "hiragana": "かのたいどは、かいしゃにたいするちゅうせいしんのあらわれにほかならない。"
                 }
-            ]
+            ],
+            "usage": "(1)N+にほかならない / (2) V/イ形普通形+からにほかならない / ナ形語幹/N+だ/である+からにほかならない",
+            "full_meaning": "Chính là...\nChính là vì (nhấn mạnh lý do)\nその問題についていろいろな意見が出ているが、それは、みんなが関心を持っているから"
         },
         {
             "pattern": "~にもかかわらず",
@@ -18300,6 +19928,18 @@ GRAMMAR = {
                 {
                     "jp": "雨にもかかわらず、多くの人が集まった。",
                     "vi": "Mặc dù trời mưa nhưng rất nhiều người đã tập trung đến."
+                },
+                {
+                    "jp": "彼は、夏休み中にもかかわらず、毎日図書館で勉強している。",
+                    "vi": "Mặc dù đang nghỉ hè nhưng anh ta ngày nào cũng học ở thư viện."
+                },
+                {
+                    "jp": "野球大会の当日は、激しい雨が降っていた。それにもかかわらず大会は実施された。",
+                    "vi": "Hôm tổ chức thi bóng chày trời mưa rất to. Mặc dù vậy cuộc thi vẫn được tiến hành. 多くの人が不可能だと思っているにもかかわらず、あの人は新発明のための研究をあきら"
+                },
+                {
+                    "jp": "めようとしない。",
+                    "vi": "Mặc dù rất nhiều người nghĩ là không thể nhưng người đó vẫn không chịu từ bỏ nghiên cứu phát minh mới."
                 }
             ],
             "quizzes": [
@@ -18453,7 +20093,9 @@ GRAMMAR = {
                     "translation": "Mặc dù đã giải thích nhiều lần nhưng anh ấy vẫn chưa hiểu nội dung.",
                     "hiragana": "なんどせつめいしたにもかかわらず、かれはまだないようをりかいしていない。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹/N(である)+にもかかわらず",
+            "full_meaning": "Mặc dù ..."
         },
         {
             "pattern": "~に基づいて",
@@ -18462,6 +20104,18 @@ GRAMMAR = {
                 {
                     "jp": "事実に基づいて、報告書を書いた。",
                     "vi": "Tôi đã viết báo cáo dựa trên sự thật."
+                },
+                {
+                    "jp": "調査結果に基づいて、論文を書く。",
+                    "vi": "Viết luận văn dựa trên những kết quả điều tra."
+                },
+                {
+                    "jp": "これまでの研究に基づいてレポートをまとめた。",
+                    "vi": "Tổng hợp báo cáo dựa trên những nghiên cứu từ trước đến nay. この作品は、実際に起こった事件の記録に基づいて描かれており、その内容が非常に感動"
+                },
+                {
+                    "jp": "的だったので、多くの人たちに強い印象を与えた。",
+                    "vi": "Tác phẩm này được mô tả dựa trên ghi chép về một vụ việc đã xảy ra trong thực tế. Nội dung của nó rất cảm động nên đã tạo được ấn tượng mạnh với nhiều người."
                 }
             ],
             "quizzes": [
@@ -18600,7 +20254,8 @@ GRAMMAR = {
                     "translation": "Nên đưa ra kết luận dựa trên bằng chứng khách quan.",
                     "hiragana": "きゃっかんてきなしょうこにもとづいてけつろんをだすべきだ。"
                 }
-            ]
+            ],
+            "full_meaning": "N+に基づいて/に基づき\nCăn cứ vào, dựa trên..."
         },
         {
             "pattern": "~にわたって",
@@ -18609,6 +20264,18 @@ GRAMMAR = {
                 {
                     "jp": "会議は三時間にわたって行われた。",
                     "vi": "Cuộc họp đã diễn ra trong suốt ba tiếng đồng hồ."
+                },
+                {
+                    "jp": "踏切事故のために、2 時間にわたり、電車がストップしました。",
+                    "vi": "Bởi vì tai nạn xảy ra chỗ cắt giao giữa đường tàu với đường bộ nên tàu phải dừng lại 2 tiếng."
+                },
+                {
+                    "jp": "公園の整備を求める住民と役所の話し合いは、10 年長期にわたった。",
+                    "vi": "Cuộc đàm phán giữa người dân và cơ quan hành chính nhà nước xoay quanh việc người dân mong muốn xây dựng khu công viên đã kéo dài suốt 10 năm."
+                },
+                {
+                    "jp": "ここから 200 メートルにわたって桜の並木が続いている。",
+                    "vi": "Những hàng cây hoa anh đào mọc nối tiếp nhau từ đây đến 200m."
                 }
             ],
             "quizzes": [
@@ -18762,7 +20429,8 @@ GRAMMAR = {
                     "translation": "Nghiên cứu này đã được tiếp tục trong hơn mười năm.",
                     "hiragana": "このけんきゅうはじゅうねんいじょうにわたってつづけられている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+にわたって/にわたり\nTrải rộng trên một khoảng thời gian, không gian, số lần..."
         },
         {
             "pattern": "~抜きで/抜きにして",
@@ -18771,6 +20439,18 @@ GRAMMAR = {
                 {
                     "jp": "冗談抜きで、真剣に話しましょう。",
                     "vi": "Bỏ qua chuyện đùa đi, hãy nói chuyện nghiêm túc nào."
+                },
+                {
+                    "jp": "冗談ぬきでまじめに考えてください。",
+                    "vi": "Không đùa cợt nữa mà hãy suy nghĩ nghiêm túc đi!"
+                },
+                {
+                    "jp": "かたいあいさつはぬきにして、さっそく乾杯しましょう。",
+                    "vi": "Bỏ qua những câu chào hỏi cứng nhắc, trước mắt hãy cạn ly thôi."
+                },
+                {
+                    "jp": "今日は時間がありません。あいさつは抜きにしてさっそく会議を始めましょう。",
+                    "vi": "Hôm nay không có thời gian nên bỏ qua việc chào hỏi, chúng ta nhanh chóng bắt đầu cuộc họp thôi!"
                 }
             ],
             "quizzes": [
@@ -18909,7 +20589,8 @@ GRAMMAR = {
                     "translation": "Bỏ qua những lời xã giao, tôi muốn bạn cho biết cảm xúc thật của mình.",
                     "hiragana": "しゃこうじれいはぬきにして、ほんとうのきもちをおしえてほしい。"
                 }
-            ]
+            ],
+            "full_meaning": "N+抜きで/抜きに/を抜きにして/は抜きにして\nKhông N/ Bỏ qua N..."
         },
         {
             "pattern": "~抜きでは/抜きには",
@@ -18918,6 +20599,18 @@ GRAMMAR = {
                 {
                     "jp": "努力抜きには、成功はあり得ない。",
                     "vi": "Nếu không có nỗ lực thì không thể có thành công."
+                },
+                {
+                    "jp": "この論文は先生の指導抜きには完成できない。",
+                    "vi": "Bài luận văn này nếu không có sự hướng dẫn của giáo viên thì không thể hoàn thành được."
+                },
+                {
+                    "jp": "契約更新の件に関しては、部長抜きでは決められない。",
+                    "vi": "Về việc gia hạn hợp đồng, nếu không có trưởng phòng thì không thể quyết định được."
+                },
+                {
+                    "jp": "この町の発展は観光事業を抜きにしては語れない。",
+                    "vi": "Chúng ta không thể kể đến sự phát triển của thành phố này nếu không nói đến ngành kinh doanh du lịch. (Nhấn mạnh nghành du lịch đóng vai trò quan trọng trong sự phát triển của thành phố)"
                 }
             ],
             "quizzes": [
@@ -19071,8 +20764,11 @@ GRAMMAR = {
                     "translation": "Nếu không có giáo dục thích hợp thì việc truyền thừa kỹ thuật sẽ khó khăn.",
                     "hiragana": "てきせつなきょういくぬきでは、ぎじゅつのけいしょうはむずかしい。"
                 }
-            ]
-        },
+            ],
+            "full_meaning": "N+抜きでは/抜きには/を抜きにしては\nNếu như không A thì không có B"
+        }
+    ],
+    "7": [
         {
             "pattern": "~抜く",
             "meaning": "Làm đến cùng/Nỗ lực đến hết",
@@ -19080,6 +20776,18 @@ GRAMMAR = {
                 {
                     "jp": "最後まで走り抜いた。",
                     "vi": "Tôi đã chạy đến cùng cho tới cuối cùng."
+                },
+                {
+                    "jp": "あの人もずいぶん悩みぬいて、会社をやめることを決めたんでしょう。",
+                    "vi": "Người đó cũng đã rất trăn trở để đưa ra quyết định nghỉ việc ở công ty."
+                },
+                {
+                    "jp": "マラソン大会に出場するからには、よく練習をして 42,195km を走りぬきたい。",
+                    "vi": "Một khi tham gia chạy marathon thì phải luyện tập thật kỹ và cố gắng chạy hết quãng đường 42,195 km."
+                },
+                {
+                    "jp": "競争が激しい広告業界では新しい発想が生き抜くカギになる。",
+                    "vi": "Trong ngành quảng cáo cạnh tranh khốc liệt, ý tưởng mới là chìa khóa sống còn."
                 }
             ],
             "quizzes": [
@@ -19233,7 +20941,9 @@ GRAMMAR = {
                     "translation": "Anh ấy đã hoàn thành vai trò được giao với tinh thần trách nhiệm đến cùng.",
                     "hiragana": "かれはあたえられたやくわりをせきにんをもってつとめぬいた。"
                 }
-            ]
+            ],
+            "usage": "V ます+抜く",
+            "full_meaning": "Làm V đến cùng ..\nLàm tới cùng/ nỗ lực tới cùng để hoàn thành"
         },
         {
             "pattern": "~のみならず",
@@ -19242,6 +20952,14 @@ GRAMMAR = {
                 {
                     "jp": "彼は日本語のみならず、英語も話せる。",
                     "vi": "Anh ấy không chỉ nói được tiếng Nhật mà còn nói được cả tiếng Anh."
+                },
+                {
+                    "jp": "の国にもあるようだ。",
+                    "vi": "Gần đây, tỷ lệ sinh giảm đã gây ra rất nhiều vấn đề, nhưng vấn đề này không chỉ ở Nhật mà các nước khác cũng đang gặp phải."
+                },
+                {
+                    "jp": "このカメラは高性能であるのみならず、メモリーカードの容量も大きい。",
+                    "vi": "Cái máy ảnh này không chỉ tính năng cao mà dung lượng thẻ nhớ cũng rất lớn."
                 }
             ],
             "quizzes": [
@@ -19395,7 +21113,9 @@ GRAMMAR = {
                     "translation": "Tác phẩm của anh ấy không chỉ trong nước mà còn nhận được sự chú ý từ mọi người trên toàn thế giới.",
                     "hiragana": "かのさくひんはこくないのみならず、せかいじゅうのひとびとからちゅうもくされている。"
                 }
-            ]
+            ],
+            "usage": "V/イ形普通形・ナ形語幹/N(である)+のみならず",
+            "full_meaning": "Không chỉ...mã còn\nKhông chỉ người phụ trách mà cả công ty đều đang có hành vi buôn bán bất chính.\n最近、出生率の低下がいろいろ問題になっているが、この問題は、日本のみならず、ほか"
         },
         {
             "pattern": "~のもとで/のもとに",
@@ -19408,6 +21128,22 @@ GRAMMAR = {
                 {
                     "jp": "平和のもとに、協力し合う。",
                     "vi": "Cùng hợp tác với nhau dưới danh nghĩa hòa bình."
+                },
+                {
+                    "jp": "試合直前の打ち合わせをしようと、選手たちはコーチのもとに集まった。",
+                    "vi": "Các cầu thủ tập trung lại dưới sự hướng dẫn của huấn luyện viên để cùng thảo luận trước trận đấu. 坂本さんの論文は大変すばらしい。山田教授の指導のもとに修正を重ねた結果だというこ"
+                },
+                {
+                    "jp": "とだ。",
+                    "vi": "Luận văn của Sakamoto rất tuyệt vời. Đó là kết quả phải sửa đi sửa lại rất nhiều lần dưới sự hướng dẫn của thầy Yamada."
+                },
+                {
+                    "jp": "渡辺先生のもとで、日本の古典文学を研究している。",
+                    "vi": "Tôi nghiên cứu về văn học cổ điển Nhật bản dưới sự hướng dẫn của thầy Watanabe. (2)~の名のもとに N+の名のもとに Dưới danh nghĩa là...."
+                },
+                {
+                    "jp": "「開発」の名のもとに大規模な森林破壊が進んでいる。",
+                    "vi": "Tình trạng phá rừng đang tiếp diễn với quy mô lớn dưới danh nghĩa là “phát triển”."
                 }
             ],
             "quizzes": [
@@ -19561,7 +21297,9 @@ GRAMMAR = {
                     "translation": "Quyền lợi của nạn nhân được bảo vệ dưới sự bảo hộ của pháp luật.",
                     "hiragana": "ほうりつのほごのもとに、ひがいしゃのけんりがまもられている。"
                 }
-            ]
+            ],
+            "usage": "(1)~のもとで/のもとに",
+            "full_meaning": "N+のもとで/のもとに\nDưới sự hướng dẫn, chỉ đạo...(của ai đó)\nChiến tranh lặp đi lặp lại dưới danh nghĩa là tự do và chính nghĩa."
         },
         {
             "pattern": "~ばかりか",
@@ -19570,6 +21308,18 @@ GRAMMAR = {
                 {
                     "jp": "彼は歌が上手なばかりか、ダンスも得意だ。",
                     "vi": "Anh ấy không chỉ hát hay mà còn giỏi cả nhảy múa."
+                },
+                {
+                    "jp": "からも相当のお金を借りているらしい。",
+                    "vi": "Nghe nói anh ta nợ ngân hàng lên tới vài trăm man và vẫn chưa trả lại được. Không chỉ vậy anh ta còn mượn số tiền lớn từ bạn bè nữa. 若いころはお金がなくて、その日の食事にも困ることがあった。そんなとき下宿のおばさ んは、私に食事をごちそうしてくれたばかりか、しばらく暮らせるだけのお金まで貸して"
+                },
+                {
+                    "jp": "くれた。",
+                    "vi": "Hồi trẻ vì không có tiền nên rất khổ sở kiếm tiền ăn uống hồi đấy. Trong lúc như thế bác chủ nhà trọ không những cho mình ăn mà còn cho mượn tiền để trang trải cuộc sống trong thời gian ngắn."
+                },
+                {
+                    "jp": "薬を飲んでも、風邪は治らないばかりか、もっとひどくなってきた。",
+                    "vi": "Uống thuốc rồi nhưng bệnh cúm không những không khỏi mà còn nặng hơn."
                 }
             ],
             "quizzes": [
@@ -19723,7 +21473,9 @@ GRAMMAR = {
                     "translation": "Phương pháp này không chỉ tiết kiệm được thời gian mà còn giảm được chi phí.",
                     "hiragana": "このほうほうはじかんをせつやくできるばかりか、ひようもおさえられる。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形・N+ばかりか",
+            "full_meaning": "Không chỉ A mà còn B\n彼は、銀行からの借金が数百万円もあって、返せずにいるという。そればかりか友人たち"
         },
         {
             "pattern": "~ばかりに",
@@ -19732,6 +21484,18 @@ GRAMMAR = {
                 {
                     "jp": "一言余計なことを言ったばかりに、喧嘩になった。",
                     "vi": "Chỉ vì lỡ nói thêm một câu thừa mà dẫn đến cãi nhau."
+                },
+                {
+                    "jp": "にクラス会の案内状作りを頼まれてしまった。",
+                    "vi": "Lẽ ra không nên nói trước mặt mọi người là giỏi máy tính. Chỉ vì nói điều lẽ ra không nên nói nên mới bị nhờ làm thư mời cho buổi họp lớp."
+                },
+                {
+                    "jp": "パーティーの場所を聞いたばかりに、手伝いを頼まれてしまった。",
+                    "vi": "Chỉ vì hỏi nơi tổ chức tiệc nên mới bị nhờ đến làm giúp."
+                },
+                {
+                    "jp": "父は学歴がなかったばかりに、相当苦労したそうだ。",
+                    "vi": "Bố tôi chỉ vì không có bằng cấp/trình độ học vấn nên khá là vất vả."
                 }
             ],
             "quizzes": [
@@ -19885,7 +21649,9 @@ GRAMMAR = {
                     "translation": "Chỉ vì lơ là việc kiểm tra mà tôi đã gây ra một sai sót nghiêm trọng.",
                     "hiragana": "かくにんをおこたったばかりに、じゅうだいなみすをおこしてしまった。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形・N な/である+ばかりに",
+            "full_meaning": "Chỉ vì A mà ....(kết quả tiêu cực)\nみんなの前でパソコンが得意だなんて話すんじゃなかった。よけいなことを言ったばかり"
         },
         {
             "pattern": "~はともかく",
@@ -19894,6 +21660,18 @@ GRAMMAR = {
                 {
                     "jp": "味はともかく、見た目はきれいだ。",
                     "vi": "Hương vị thì để sau, chứ hình thức trông rất đẹp."
+                },
+                {
+                    "jp": "このレストラン、ちょっと高いんですけど、値段はともかく味はいいですね。",
+                    "vi": "Nhà hàng này hơi đắt một chút nhưng giá cả thì để sau, quan trọng là rất ngon."
+                },
+                {
+                    "jp": "この店の料理は、味はともかく量は多い。",
+                    "vi": "Đồ ăn của cửa hàng này vị thì tạm thời chưa nói đến nhưng lượng thức ăn nhiều."
+                },
+                {
+                    "jp": "結果はともかくとして、全員が精一杯力を出し切ったすばらしい試合だった。",
+                    "vi": "Kết quả thế nào không quan trọng, quan trọng là chúng ta đã có một trận đấu tuyệt vời, và tất cả các thành viên đã cố gắng hết sức."
                 }
             ],
             "quizzes": [
@@ -20047,7 +21825,8 @@ GRAMMAR = {
                     "translation": "Cách diễn đạt chi tiết thì tạm chưa xét, nhưng nội dung tổng thể của bài viết được sắp xếp rất tốt.",
                     "hiragana": "こまかいひょうげんはともかく、ぶんしょうぜんたいのないようはよくまとまっている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+はともかく(として)\nA thì để sau, tạm thời chưa tính tới.. cái quan trọng là B đằng sau.."
         },
         {
             "pattern": "~は別として",
@@ -20056,6 +21835,18 @@ GRAMMAR = {
                 {
                     "jp": "冗談は別として、真剣に考えてほしい。",
                     "vi": "Chuyện đùa thì không nói, mong bạn hãy suy nghĩ nghiêm túc."
+                },
+                {
+                    "jp": "ほかの科目は別として、数学はとても得意だ。",
+                    "vi": "Môn khác thì không nói đến chứ toán thì tôi rất giỏi."
+                },
+                {
+                    "jp": "おいしいかどうかは別として一度食べてみたいと思う。",
+                    "vi": "Ngon hay không thì chưa nói đến, nhưng cậu cứ thử ăn một lần xem sao."
+                },
+                {
+                    "jp": "得意かどうかは別として、サッカーが大好きだ。",
+                    "vi": "Giỏi hay không thì chưa nói đến nhưng tôi đặc biệt rất thích bóng đá."
                 }
             ],
             "quizzes": [
@@ -20209,7 +22000,8 @@ GRAMMAR = {
                     "translation": "Đúng hay không thì chưa bàn, nhưng đây quả là một câu chuyện thú vị.",
                     "hiragana": "ほんとうかどうかはわかとして、きょうみぶかいはなしではある。"
                 }
-            ]
+            ],
+            "full_meaning": "普通形+かどうか/か・N+は別として\nA thì không nói/chưa nói tới..."
         },
         {
             "pattern": "~はもちろん/はもとより",
@@ -20218,6 +22010,18 @@ GRAMMAR = {
                 {
                     "jp": "平日はもちろん、週末も忙しい。",
                     "vi": "Ngày thường đã bận, cuối tuần cũng bận không kém."
+                },
+                {
+                    "jp": "面接試験では、話し方はもちろん、服装などにも気をつける必要がある。",
+                    "vi": "Trong cuộc phỏng vấn phải chú ý đến cách nói chuyện là đương nhiên rồi nhưng cũng cần để ý đến cả trang phục."
+                },
+                {
+                    "jp": "最近、日本では大学生はもちろん、小学生までパソコンを使うようになった。",
+                    "vi": "Gần đây ở Nhật sinh viên đại học là đương nhiên rồi nhưng ngay cả học sinh tiểu học cũng dùng máy tính. まんがの種類が増えている。子どものためのものはもとより、大人が読むための歴史や経"
+                },
+                {
+                    "jp": "済のまんがもよく見かける。",
+                    "vi": "Các loại truyện tranh ngày càng nhiều. Truyện tranh cho trẻ em là đương nhiên rồi nhưng ngoài ra cũng hay bắt gặp cả những truyện tranh viết về chủ đề kinh tế, lịch sử dành cho người lớn nữa."
                 }
             ],
             "quizzes": [
@@ -20371,7 +22175,8 @@ GRAMMAR = {
                     "translation": "Chúng tôi cố gắng đưa ra lời giải thích dễ hiểu không chỉ đối với chuyên gia mà cả người bình thường.",
                     "hiragana": "せんもんかはもちろん、いっぱんのにんにもわかりやすいせつめいをこころがけている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+はもちろん/はもとより\nA đương nhiên rồi nhưng B cũng ~"
         },
         {
             "pattern": "~反面 (はんめん)",
@@ -20380,12 +22185,24 @@ GRAMMAR = {
                 {
                     "jp": "この薬は効果がある反面、副作用もある。",
                     "vi": "Loại thuốc này có hiệu quả nhưng mặt khác cũng có tác dụng phụ."
+                },
+                {
+                    "jp": "会が多い。その反面、実物を見たりさわったりする体験が不足している。",
+                    "vi": "Giới trẻ ngày nay từ khi còn nhỏ đã có nhiều cơ hội tiếp xúc với nhiều nguồn thông tin khác nhau thông qua internet hay tivi. Nhưng trái lại thiếu trải nghiệm để có thể trực tiếp nhìn và tiếp xúc với thực tế."
+                },
+                {
+                    "jp": "この車は、空気を汚さない反面、価格が高いという欠点がある。",
+                    "vi": "Xe oto này không gây ô nhiễm không khí nhưng trái lại giá thành cao."
+                },
+                {
+                    "jp": "この布は水に強い反面、熱には弱い。",
+                    "vi": "Vải này chống nước rất tốt nhưng mặt khác nó lại chịu nhiệt kém."
                 }
             ],
-            "quizzes": []
-        }
-    ],
-    "7": [
+            "quizzes": [],
+            "usage": "V/イ/ナの名詞修飾形・ナ形語幹/N である+反面/半面",
+            "full_meaning": "/半面\nĐược mặt này thì mặt kia lại ~\nHai mặt trái ngược nhau của một vấn đề/sự việc...\n現代の若者は、子どもの時からテレビやインターネットなどでさまざまな情報に接する機"
+        },
         {
             "pattern": "~ほかはない/よりほかはない",
             "meaning": "Không còn cách nào khác ngoài...",
@@ -20393,6 +22210,18 @@ GRAMMAR = {
                 {
                     "jp": "こうなったら、諦めるほかはない。",
                     "vi": "Đến nước này rồi thì không còn cách nào khác ngoài từ bỏ."
+                },
+                {
+                    "jp": "するよりほかはない。",
+                    "vi": "Việc thuê người đó hay không thì không thể quyết định chỉ dựa vào hồ sơ được nên rốt cuộc là chỉ còn một cách là gặp mặt trực tiếp người đó để quyết định."
+                },
+                {
+                    "jp": "夫も子どもも亡くなってしまって、たった一人の弟に頼るほかない。",
+                    "vi": "Chồng và con đều mất rồi nên giờ chỉ còn cách nhờ cậy vào đứa em trai duy nhất thôi."
+                },
+                {
+                    "jp": "終電がなくなったので、タクシーで帰るほかしかたがない。",
+                    "vi": "Hết chuyến tàu cuối cùng rồi nên chỉ còn cách đi taxi về thôi."
                 }
             ],
             "quizzes": [
@@ -20561,7 +22390,9 @@ GRAMMAR = {
                     "translation": "Vì cuộc đàm phán đã hoàn toàn đổ vỡ nên không còn cách nào khác ngoài việc khởi kiện.",
                     "hiragana": "こうしょうがかんぜんにけつれつしたいじょう、そしょうをおこすほかはない。"
                 }
-            ]
+            ],
+            "usage": "V る+ほか(は)ない/よりほか(は)ない/ほかしかたがない",
+            "full_meaning": "Không còn cách nào khác ngoài...\nその人を雇うかどうかは書類だけでは決められないから、結局は実際に本人に会って判断"
         },
         {
             "pattern": "~まい/まいか",
@@ -20574,6 +22405,26 @@ GRAMMAR = {
                 {
                     "jp": "彼は来ないのではあるまいか。",
                     "vi": "Có lẽ là anh ấy sẽ không đến đâu nhỉ."
+                },
+                {
+                    "jp": "ず、ついかけてしまった。",
+                    "vi": "Tôi đã nghĩ là sau khi đến Nhật, tạm thời sẽ không gọi điện về nhà một thời gian nhưng hôm nay thấy buồn quá không chịu nổi nên đã lỡ gọi."
+                },
+                {
+                    "jp": "あんなところは二度と行くまい。",
+                    "vi": "Tôi sẽ không bao giờ đến đó lần thứ hai."
+                },
+                {
+                    "jp": "あいつと大喧嘩をして、もう二度と会うまいと決心した。",
+                    "vi": "Tôi cãi nhau to với hắn và đã quyết tâm sẽ không gặp hắn lần thứ 2. (2)Có lẽ là không"
+                },
+                {
+                    "jp": "自分の目で確かめない限り、そんな恐ろしいことはだれも信じまい。",
+                    "vi": "Nếu như không tận mắt kiểm tra thì có lẽ là không ai có thể tin một điều kinh khủng như vậy."
+                },
+                {
+                    "jp": "この件についてお客様と相談する必要があるのではあるまいか。",
+                    "vi": "Về vấn đề này chẳng phải là chúng ta nên trao đổi với khách hàng hay sao."
                 }
             ],
             "quizzes": [
@@ -20742,7 +22593,9 @@ GRAMMAR = {
                     "translation": "Tôi quyết định sẽ không bao giờ chỉ tin vào lời nói của người khác nữa.",
                     "hiragana": "もうにどとにんのことばだけをしんじるまいときめた。"
                 }
-            ]
+            ],
+            "usage": "V る+まい/まいか",
+            "full_meaning": "V2 ない+まい/まいか\nする→するまい/すまい/するまいか/すまいか\nくる→くるまい/こまい/くるまいか/こまいか\n(1)Không ~\n日本へ来てしばらくは、国へ電話はかけるまいと思っていたが、今日はさびしくてたまら"
         },
         {
             "pattern": "~もかまわず",
@@ -20751,6 +22604,18 @@ GRAMMAR = {
                 {
                     "jp": "周りの目もかまわず、大声で泣いた。",
                     "vi": "Mặc kệ ánh mắt xung quanh, cô ấy khóc to lên."
+                },
+                {
+                    "jp": "彼は、けがをした足が痛むのもかまわず、工事現場を見てまわった。",
+                    "vi": "Anh ta mặc kệ chân đau do bị thương và vẫn đi xung quanh xem xét công trình xây dựng."
+                },
+                {
+                    "jp": "電車の中で人目もかまわず、化粧をする女性がいる。",
+                    "vi": "Có những cô gái khi ở trên tàu vẫn trang điểm mặc kệ những ánh nhìn của những người xung quanh."
+                },
+                {
+                    "jp": "びしょ濡れになるのもかまわず、家出した猫を探し回った。",
+                    "vi": "Mặc kệ người ướt sũng nhưng vẫn chạy đi tìm con mèo bỏ nhà đi."
                 }
             ],
             "quizzes": [
@@ -20919,7 +22784,9 @@ GRAMMAR = {
                     "translation": "Cô ấy mặc kệ sự phiền toái cho những người xung quanh và hát lớn tiếng vào giữa đêm.",
                     "hiragana": "かのじょはしゅういのめいわくもかまわず、よなかにおおごえでうたっていた。"
                 }
-            ]
+            ],
+            "usage": "V 普通形‐の・N+もかまわず",
+            "full_meaning": "Mặc kệ, không bận tâm đến..."
         },
         {
             "pattern": "~も当然だ",
@@ -20928,6 +22795,18 @@ GRAMMAR = {
                 {
                     "jp": "あれだけ努力すれば、成功するのも当然だ。",
                     "vi": "Nỗ lực đến mức đó thì thành công cũng là điều đương nhiên."
+                },
+                {
+                    "jp": "3 週間も水をやらなかったのだから、花が枯れてしまうのも当然だ。",
+                    "vi": "3 tuần rồi không tưới nước cho cây nên cây héo cũng là điều đương nhiên."
+                },
+                {
+                    "jp": "大事な書類をなくしたんだから、上司に叱られるのも当然だ。",
+                    "vi": "Vì làm mất tài liệu quan trọng nên bị sếp mắng cũng là đương nhiên."
+                },
+                {
+                    "jp": "あんなひどいことを言われては、彼が怒るのも当然だ。",
+                    "vi": "Nếu bị nói tệ như vậy thì anh ta tức giận cũng là đương nhiên."
                 }
             ],
             "quizzes": [
@@ -21096,7 +22975,9 @@ GRAMMAR = {
                     "translation": "Nếu thủ tục phức tạp đến mức này thì mất thời gian cũng là điều đương nhiên.",
                     "hiragana": "これだけふくざつなてつづきなら、じかんがかかるのもとうぜんだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形‐の・N+も当然だ",
+            "full_meaning": "Cũng là điều đương nhiên ~"
         },
         {
             "pattern": "~も~なら~も",
@@ -21105,6 +22986,14 @@ GRAMMAR = {
                 {
                     "jp": "親も親なら、子も子だ。",
                     "vi": "Cha mẹ cũng thế mà con cái cũng chẳng khác gì."
+                },
+                {
+                    "jp": "夢中になっている。まったく、父も父なら子も子だ。",
+                    "vi": "Ông bố của nhà đấy sáng nào cũng uống rượu rồi làm ầm ĩ lên. Cậu con trai cũng chẳng chịu đi làm gì mà chỉ mải mê vào cá cược. Thật đúng là cha nào con nấy."
+                },
+                {
+                    "jp": "夜中に夫婦喧嘩をして近所に迷惑をかけるなんて、夫も夫なら妻も妻だ。",
+                    "vi": "Nửa đêm rồi hai vợ chồng còn cãi nhau làm ảnh hưởng đến hàng xóm, đúng là vợ nào chồng nấy."
                 }
             ],
             "quizzes": [
@@ -21273,7 +23162,8 @@ GRAMMAR = {
                     "translation": "Hai anh em đó anh thì cũng thế mà em cũng vậy, cả hai đều cứng đầu.",
                     "hiragana": "あのきょうだいはあにもなら／もおとうとで、どちらもがんこだ。"
                 }
-            ]
+            ],
+            "full_meaning": "N+も+ナ形語幹・N+なら+N+も+N+だ\nA cũng ....B cũng .... (Thường dùng khi phê phán chỉ trích)\nあそこの家の父親は、毎日朝から酒を飲んで暴れている。息子は、仕事もせず賭けごとに"
         },
         {
             "pattern": "~ものか/もんか",
@@ -21282,6 +23172,18 @@ GRAMMAR = {
                 {
                     "jp": "あんな人に二度と会うものか。",
                     "vi": "Tôi nhất định sẽ không gặp lại người như thế lần nữa."
+                },
+                {
+                    "jp": "注文も計算も間違えるような、あんなレストランには、もう二度と行くものか。",
+                    "vi": "order nhầm rồi tính tiền cũng nhầm, tôi sẽ không đến nhà hàng như thế lần thứ 2 nữa."
+                },
+                {
+                    "jp": "私は歌が上手ですって。上手なもんですか。あなたのほうがずっと上手ですよ。",
+                    "vi": "Anh bảo tôi hát hay á. Tôi làm gì có hát hay đâu. Anh hát hay hơn tôi nhiều."
+                },
+                {
+                    "jp": "あんな高いレストランは二度と行くものか。",
+                    "vi": "Nhà hàng đắt thế tôi sẽ không đến lần thứ hai đâu."
                 }
             ],
             "quizzes": [
@@ -21450,7 +23352,9 @@ GRAMMAR = {
                     "translation": "Tôi nhất định sẽ không bỏ cuộc chỉ vì một chuyện đơn giản như thế này.",
                     "hiragana": "こんなかんたんなことであきらめてものか。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形+ものか/もんか",
+            "full_meaning": "Nhất định không...(Nhấn mạnh ý chí phủ định)"
         },
         {
             "pattern": "~ものがある",
@@ -21459,6 +23363,18 @@ GRAMMAR = {
                 {
                     "jp": "彼の演技には人を引きつけるものがある。",
                     "vi": "Diễn xuất của anh ấy có gì đó khiến người ta bị cuốn hút."
+                },
+                {
+                    "jp": "こんな単純な作業を 3 時間も続けるのは、つらいものがある。",
+                    "vi": "Làm công việc đơn giản như vậy trong suốt 3 tiếng thấy thật là nhàm chán."
+                },
+                {
+                    "jp": "彼女の演奏には、人の心を動かすものがある。",
+                    "vi": "Trong phần trình diễn của anh ấy tôi cảm thấy có sức mạnh làm lay động trái tim của người khác."
+                },
+                {
+                    "jp": "彼は、性格は別として、絵の才能には見るべきものがある。",
+                    "vi": "Tính cách thì không nói đến nhưng tôi cảm thấy chúng ta nên coi trọng tài năng của anh ấy."
                 }
             ],
             "quizzes": [
@@ -21627,7 +23543,9 @@ GRAMMAR = {
                     "translation": "Bài viết của anh ấy có điều gì đó để lại ấn tượng trong lòng người đọc.",
                     "hiragana": "かのぶんしょうには、どくしゃのこころにのこるものがある。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形+ものがある",
+            "full_meaning": "Cảm thấy là ~\nCảm giác, cảm nhận của người nói về sự việc đó."
         },
         {
             "pattern": "~ものだから",
@@ -21636,6 +23554,18 @@ GRAMMAR = {
                 {
                     "jp": "電車が遅れたものだから、遅刻してしまった。",
                     "vi": "Tại vì tàu điện bị chậm nên tôi đã đến muộn."
+                },
+                {
+                    "jp": "出せなかった。",
+                    "vi": "Bởi vì con gái quá háo hức nên tôi không thể nói ngay được là không thể đi đến khu vui chơi được nưuã. 以前から欲しかった本がやっと手に入ったものだから、早速徹夜しておわりまで読んでし"
+                },
+                {
+                    "jp": "まった。",
+                    "vi": "Bởi vì cuối cùng cũng có được trong tay cuốn sách mà mình mong muốn từ trước nên tôi đã thức suốt đêm để đọc đến hết."
+                },
+                {
+                    "jp": "言葉が通じないものだから、友達ができない。",
+                    "vi": "Bởi vì ngôn ngữ bất đồng nên không thể làm bạn được."
                 }
             ],
             "quizzes": [
@@ -21804,7 +23734,9 @@ GRAMMAR = {
                     "translation": "Vì lịch trình đột nhiên thay đổi nên không có thời gian liên lạc với mọi người.",
                     "hiragana": "きゅうによていがへんこうになったものだから、みなにれんらくするじかんがなかった。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形・N な+ものだから",
+            "full_meaning": "Vì A nên B\n娘があまりに楽しみにしていたものだから、遊園地に行けなくなったことをすぐには言い"
         },
         {
             "pattern": "~ものではない",
@@ -21813,6 +23745,18 @@ GRAMMAR = {
                 {
                     "jp": "人を見た目で判断するものではない。",
                     "vi": "Không nên đánh giá người khác qua vẻ bề ngoài."
+                },
+                {
+                    "jp": "常識のある大人なら、目上の人に対して失礼なことを言うものではない。",
+                    "vi": "Nếu là một người trưởng thành có hiểu biết thì không nên nói những lời bất lịch sự như thế với người bề trên."
+                },
+                {
+                    "jp": "希望する会社に就職できなかったくらいで、そんなにがっかりするものではない。",
+                    "vi": "Không nên thất vọng như vậy chỉ vì lý do không thể xin việc được vào công ty mình mong muốn."
+                },
+                {
+                    "jp": "消費者を騙すようなことをするものではない。",
+                    "vi": "Không nên làm cái chuyện lừa dối người tiêu dùng."
                 }
             ],
             "quizzes": [
@@ -21981,7 +23925,9 @@ GRAMMAR = {
                     "translation": "Không nên dễ dàng thất hứa với người quan trọng đối với mình.",
                     "hiragana": "たいせつなにんとのやくそくをかんたんにやぶるものではない。"
                 }
-            ]
+            ],
+            "usage": "V る+ものではない",
+            "full_meaning": "Không nên ~ (dựa trên lý lẽ thông thường)"
         },
         {
             "pattern": "~ものなら",
@@ -21994,6 +23940,26 @@ GRAMMAR = {
                 {
                     "jp": "遅刻しようものなら、大変なことになる。",
                     "vi": "Nếu mà đến muộn thì sẽ gặp rắc rối to đấy."
+                },
+                {
+                    "jp": "に行ってやりたいと思うだろう。",
+                    "vi": "Khi nghe tin đứa con đang ở nước ngoài bị bệnh thì không có bố mẹ nào không lo lắng cả. Nếu có thể thì muốn ngay lập tức đến chăm sóc cho con."
+                },
+                {
+                    "jp": "少年時代に戻れるものなら戻ってみたい。",
+                    "vi": "Nếu có thể quay trở lại khi còn nhỏ thì rất muốn quay trở lại. (2)V 意向形+ものなら Nếu là A thì sẽ ~ (kết quả, kết cục xấu)"
+                },
+                {
+                    "jp": "昔は親に反抗しようものなら、すぐに叩かれたものだ。",
+                    "vi": "Ngày xưa nếu không nghe lời cha mẹ thì sẽ bị đập ngay."
+                },
+                {
+                    "jp": "母の作った料理に文句をつけようものなら、次の日から食事を作ってもらえない。",
+                    "vi": "Nếu như chê món ăn mẹ nấu thì kể từ ngày hôm sau sẽ không được mẹ nấu cho ăn nữa."
+                },
+                {
+                    "jp": "本当のことを彼女に言おうものなら、きっとパニックになるだろう。",
+                    "vi": "Nếu như nói sự thật cho cô ấy thì chắc chắn cô ấy sẽ rất hoảng loạn."
                 }
             ],
             "quizzes": [
@@ -22162,8 +24128,12 @@ GRAMMAR = {
                     "translation": "Nếu mà công bố nhầm thông tin này thì sẽ khiến công ty mất uy tín.",
                     "hiragana": "このじょうほうをまちがってこうかいしようものなら、かいしゃのしんようをうしなうことになる。"
                 }
-            ]
-        },
+            ],
+            "usage": "(1)V 可能形+ものなら",
+            "full_meaning": "Nếu có thể làm được ~ thì tôi rất muốn làm.\n(Nhưng thực tế là điều khó có thể hoặc không thể thực hiện được, thường đi với dạng khả\nnăng)\nNếu có thể xóa đi ký ức ngày đó thì tôi muốn xóa quách đi cho xong.\n外国にいる子どもが病気だと聞いて心配しない親はいない。できるものなら、すぐに看病"
+        }
+    ],
+    "8": [
         {
             "pattern": "~ものの",
             "meaning": "Mặc dù là A nhưng thực tế lại là B",
@@ -22171,6 +24141,18 @@ GRAMMAR = {
                 {
                     "jp": "約束はしたものの、行けるかどうかわからない。",
                     "vi": "Mặc dù đã hứa nhưng tôi cũng không chắc có đi được hay không."
+                },
+                {
+                    "jp": "あの映画は一度見たものの、話の筋がまったくわからなかった。",
+                    "vi": "Bộ phim này mặc dù tôi đã xem một lần rồi nhưng tôi không hiểu cốt truyện."
+                },
+                {
+                    "jp": "若い人に人気のあるゲームだというのでやってはみたものの、私には無理だった。",
+                    "vi": "Game giới trẻ thích tôi đã thử chơi rồi nhưng với tôi là không thể."
+                },
+                {
+                    "jp": "3 日でレポートを書くとは言ったものの、3 日ではとても書けなかった。",
+                    "vi": "Mặc dù nói là viết báo cáo trong 3 ngày nhưng 3 ngày rồi vẫn chưa đâu với đâu cả."
                 }
             ],
             "quizzes": [
@@ -22339,7 +24321,9 @@ GRAMMAR = {
                     "translation": "Mặc dù đã lập kế hoạch nhưng vẫn chưa quyết định cụ thể khi nào bắt đầu.",
                     "hiragana": "けいかくをたてたものの、ぐたいてきにいつはじめるかはまだきまっていない。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナの名詞修飾形・N である+ものの",
+            "full_meaning": "Mặc dù A nhưng B.\nMặc dù thực tế là A nhưng B trái lại/khác với điều đó."
         },
         {
             "pattern": "~も~ば~も",
@@ -22348,6 +24332,14 @@ GRAMMAR = {
                 {
                     "jp": "彼は英語も話せば、フランス語も話せる。",
                     "vi": "Anh ấy vừa nói được tiếng Anh vừa nói được cả tiếng Pháp."
+                },
+                {
+                    "jp": "うちの子はまだ中学生だが、料理も作れば、洗濯もしてくれる。",
+                    "vi": "Con tôi mới học cấp hai thôi nhưng có thể nấu ăn được, cả giặt giũ cho tôi nữa."
+                },
+                {
+                    "jp": "このバッグは値段も手頃なら、デザインもかわいくてすぐ買ってしまった。",
+                    "vi": "Cái túi này giá cũng vừa tầm, thiết kế cũng dễ thương nên tôi mua ngay."
                 }
             ],
             "quizzes": [
@@ -22516,7 +24508,8 @@ GRAMMAR = {
                     "translation": "Khu vực này vừa nóng vào mùa hè, vừa lạnh vào mùa đông.",
                     "hiragana": "このちいきはなつば／もさむい。"
                 }
-            ]
+            ],
+            "full_meaning": "N+も+V ば・イば形+N+も\nN+も+ナ形語幹・N+なら+N+も\nA cũng mà B cũng..."
         },
         {
             "pattern": "~やら~やら",
@@ -22525,6 +24518,18 @@ GRAMMAR = {
                 {
                     "jp": "嬉しいやら恥ずかしいやら、複雑な気持ちだ。",
                     "vi": "Vừa vui vừa xấu hổ, cảm giác thật lẫn lộn."
+                },
+                {
+                    "jp": "ポケットにはハンカチやらやらが入っている。",
+                    "vi": "Trong túi nào là khăn tay..rồi linh tinh các thứ vv..."
+                },
+                {
+                    "jp": "彼に突然プロポーズされて、びっくりするやらうれしいやらでとても複雑な気持ちだ。",
+                    "vi": "Lúc đột nhiên được anh ấy cầu hôn, cảm xúc của tôi rất phức tạp, vừa thấy bất ngờ lại vừa thấy vui."
+                },
+                {
+                    "jp": "今日は財布を落とすやらレポートを忘れるやら、散々な一日だった。",
+                    "vi": "Hôm nay nào là đánh rơi ví, nào là quên báo cáo. Thật là một ngày tồi tệ."
                 }
             ],
             "quizzes": [
@@ -22693,7 +24698,9 @@ GRAMMAR = {
                     "translation": "Ở phòng ban mới, tôi không yên tâm vì nào là lo lắng về các mối quan hệ, nào là lo lắng về công việc.",
                     "hiragana": "あたらしいぶしょでは、にんげんかんけいのしんぱいやら／やらでおちつかない。"
                 }
-            ]
+            ],
+            "usage": "V る・イ・N+やら+V る・イ・N+やら",
+            "full_meaning": "Nào là...nào là...\nCó rất nhiều thứ ~ (rối rắm, lung tung) -> dùng cho đồ vật/ cảm xúc"
         },
         {
             "pattern": "~ようで",
@@ -22702,6 +24709,14 @@ GRAMMAR = {
                 {
                     "jp": "簡単なようで、実は難しい問題だ。",
                     "vi": "Trông có vẻ đơn giản nhưng thực ra là bài toán khó."
+                },
+                {
+                    "jp": "彼は冷静なようで、本当はあわてものなんです。",
+                    "vi": "Anh ấy nhìn có vẻ là người điềm tĩnh nhưng lại rất hấp tấp, vội vàng."
+                },
+                {
+                    "jp": "この料理は一見簡単なようで、実際作ってみると案外難しい。",
+                    "vi": "Món này nhìn qua thì có vẻ đơn giản nhưng thực tế nếu làm thử thì khó hơn chúng ta nghĩ."
                 }
             ],
             "quizzes": [
@@ -22870,7 +24885,9 @@ GRAMMAR = {
                     "translation": "Anh ấy trông có vẻ tự tin nhưng thực tế dường như đang khá căng thẳng.",
                     "hiragana": "かれはじしんがあるようで、じっさいにはかなりきんちょうしているようだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ普通形・ナ形語幹‐な・N の+ようで",
+            "full_meaning": "Nhìn có vẻ là A nhưng thực tế không phải (trái ngược)\nCách sử dụng của kính ngữ nhìn thì có vẻ hiểu rồi đấy nhưng thực tế có rất nhiều trường hợp dùng\nsai."
         },
         {
             "pattern": "~ようでは",
@@ -22879,6 +24896,18 @@ GRAMMAR = {
                 {
                     "jp": "そんなに簡単に諦めるようでは、成功できない。",
                     "vi": "Nếu cứ dễ dàng bỏ cuộc như thế thì không thể thành công được."
+                },
+                {
+                    "jp": "締めきり直前になってテーマを変えるようでは、いい論文は書けないだろう。",
+                    "vi": "Nếu ta thay đổi đề tài ngay trước hạn chót thì có lẽ sẽ không thể viết được một bài luận văn hay."
+                },
+                {
+                    "jp": "この程度の練習で文句を言うようでは次の試合に勝てないぞ。",
+                    "vi": "Nếu với cái mức độ luyện tập này mà còn kêu ca thì chúng ta không thể giành chiến thắng trong trận đấu sắp tới."
+                },
+                {
+                    "jp": "こんな簡単な問題が解決できないようでは、困る。",
+                    "vi": "Nếu vấn đề đơn giản như vậy mà không giải quyết được thì thật là gay go."
                 }
             ],
             "quizzes": [
@@ -23047,7 +25076,9 @@ GRAMMAR = {
                     "translation": "Nếu dù được nhắc nhở bao nhiêu lần mà vẫn không chịu cải thiện thì sẽ khó hướng dẫn thêm nữa.",
                     "hiragana": "なんどちゅういしてもかいぜんしようとしないようでは、これいじょうしどうするのはむずかしい。"
                 }
-            ]
+            ],
+            "usage": "V る/ない+ようでは",
+            "full_meaning": "Nếu là A thì sẽ B(Thường B hay đi với những từ như だめ・困る・~ない・難しい)"
         },
         {
             "pattern": "~ようなら",
@@ -23056,6 +25087,18 @@ GRAMMAR = {
                 {
                     "jp": "熱が下がらないようなら、病院に行ったほうがいい。",
                     "vi": "Nếu như sốt không hạ thì nên đi bệnh viện thì hơn."
+                },
+                {
+                    "jp": "明日もまた仕事を休むようなら、会社をやめてもらいます。",
+                    "vi": "Nếu ngày mai cậu cũng không đi làm thì cậu làm ơn nghỉ việc ở công ty luôn đi cho tôi nhờ."
+                },
+                {
+                    "jp": "体の具合が悪いようだったら病院に行ってください。",
+                    "vi": "Nếu như thấy tình hình sức khỏe không được tốt thì hãy đến bệnh viện."
+                },
+                {
+                    "jp": "さっきの説明がわからないようなら、先生に聞いてもかまわない。",
+                    "vi": "Nếu như bạn không hiểu phần giải thích lúc nãy thì hãy hỏi cô giáo."
                 }
             ],
             "quizzes": [
@@ -23224,7 +25267,9 @@ GRAMMAR = {
                     "translation": "Nếu đến ngày mai mà vẫn không có liên lạc thì hãy thử xác nhận từ phía chúng ta.",
                     "hiragana": "あしたになってもれんらくがないようなら、こちらからかくにんしてみましょう。"
                 }
-            ]
+            ],
+            "usage": "V/イ辞書形/ない形・ナ形語幹‐な+ようなら/ようだったら",
+            "full_meaning": "Nếu mà ~ (Thường được dùng khi đưa ra lời khuyên)"
         },
         {
             "pattern": "~わりに(は)",
@@ -23233,6 +25278,18 @@ GRAMMAR = {
                 {
                     "jp": "値段が高いわりには、味はいまいちだ。",
                     "vi": "Mặc dù giá cao nhưng hương vị lại không được như mong đợi."
+                },
+                {
+                    "jp": "そのアルバイトは、仕事が大変できついわりに給料が安いよ。",
+                    "vi": "Công việc làm thêm mặc dù vất vả nhưng lương lại rẻ mạt. 調査の結果、若者の言葉づかいにきびしいわりには、40 代、50 代の人の多くが言葉の正"
+                },
+                {
+                    "jp": "確な意味を理解していないことがわかった。",
+                    "vi": "Kết quả cuộc khảo sát cho thấy mặc dù khắt khe với cách dùng từ của giới trẻ, nhưng mà có rất nhiều người ở lứa tuổi 40, 50 không hiểu được chính xác nghĩa của từ."
+                },
+                {
+                    "jp": "このレストランは高いわりにはうまいとは言えない。",
+                    "vi": "Nhà hàng đó mặc dù đắt nhưng không thể nói là ngon được."
                 }
             ],
             "quizzes": [
@@ -23401,7 +25458,9 @@ GRAMMAR = {
                     "translation": "Món ăn này tuy đơn giản nhưng hương vị lại rất chuyên nghiệp.",
                     "hiragana": "このりょうりはかんたんなわりには、あじがほんかくてきだ。"
                 }
-            ]
+            ],
+            "usage": "V/イ/ナ/N の名詞修飾形+わりに(は)",
+            "full_meaning": "Mặc dù A nhưng B (Hai vế không tương xứng với nhau)"
         },
         {
             "pattern": "~をかねて",
@@ -23410,6 +25469,14 @@ GRAMMAR = {
                 {
                     "jp": "運動をかねて、毎朝散歩している。",
                     "vi": "Tôi đi bộ mỗi sáng, vừa để tập thể dục."
+                },
+                {
+                    "jp": "中小企業に関する情報収集をかねて、説明会に参加した。",
+                    "vi": "Tham gia vào buổi hướng dẫn vừa để thu thập thông tin liên quan đến các doanh nghiệp vừa và nhỏ."
+                },
+                {
+                    "jp": "飲食店の勉強をかねて、アルバイトとして働き始めた。",
+                    "vi": "Vừa làm thêm vừa kết hợp tìm hiểu về các cửa hàng ăn uống."
                 }
             ],
             "quizzes": [
@@ -23578,7 +25645,9 @@ GRAMMAR = {
                     "translation": "Tôi quyết định ra nơi có nhiều thiên nhiên vào cuối tuần, vừa để thay đổi tâm trạng.",
                     "hiragana": "きぶんてんかんをかねて、しゅうまつはしぜんのおおいばしょへでかけることにした。"
                 }
-            ]
+            ],
+            "full_meaning": "N+をかねて\nLàm một việc chính và kiêm thêm một việc phụ nào đó",
+            "notes": "Vừa ... vừa kết hợp .../ Vừa để ...vừa để ..."
         },
         {
             "pattern": "~を中心に",
@@ -23587,6 +25656,14 @@ GRAMMAR = {
                 {
                     "jp": "東京を中心に、新しい店が増えている。",
                     "vi": "Lấy Tokyo làm trung tâm, các cửa hàng mới đang ngày càng tăng lên."
+                },
+                {
+                    "jp": "この作者の作品は、若い女性を中心に読まれている。",
+                    "vi": "Tác phẩm của tác giả này được đọc chủ yếu là những phụ nữ trẻ."
+                },
+                {
+                    "jp": "午前中は文法を勉強する。午後は会話を中心に勉強することになっている。",
+                    "vi": "Trong buổi sáng chúng ta sẽ học ngữ pháp. Còn buổi chiều sẽ tập trung học về hội thoại."
                 }
             ],
             "quizzes": [
@@ -23755,7 +25832,8 @@ GRAMMAR = {
                     "translation": "Các nhà hàng và cơ sở thương mại tập trung quanh khu vực trước nhà ga.",
                     "hiragana": "えきまえををちゅうしんに、いんしょくてんやしょうぎょうしせつがあつまっている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+を中心に(して)/を中心として\nCoi N là trung tâm, trọng tâm, tập trung chủ yếu\nCông ty chúng tôi triển khai hoạt động kinh doanh tập trung ở vùng Kanto."
         },
         {
             "pattern": "~を通じて/を通して",
@@ -23768,6 +25846,26 @@ GRAMMAR = {
                 {
                     "jp": "友人を通して、彼女と知り合った。",
                     "vi": "Tôi quen cô ấy thông qua một người bạn."
+                },
+                {
+                    "jp": "この地域は一年を通じて暖かくて、とても過しやすい。",
+                    "vi": "Vùng này quang năm rất ấm áp,và dễ sống."
+                },
+                {
+                    "jp": "一生を通じて学び続けることが大事だ。",
+                    "vi": "Tiếp tục học tập suốt đời là điều quan trọng (2)Thông qua...đối tượng trung gian"
+                },
+                {
+                    "jp": "佐藤さんご夫妻とは、山口さんをを通じて知り合いました。",
+                    "vi": "Tôi quen biết vợ chồng ông Sato thông qua ông Yamaguchi."
+                },
+                {
+                    "jp": "先輩を通して、入学試験の案内をもらった。",
+                    "vi": "Tôi nhận được thông báo về kỳ thi nhập học thông qua tiền bối."
+                },
+                {
+                    "jp": "このレポートは実態調査を通して得た情報をまとめたものだ。",
+                    "vi": "Bản báo cáo này tổng hợp thông tin nhận được thông qua các cuộc điều tra thực tế."
                 }
             ],
             "quizzes": [
@@ -23936,10 +26034,9 @@ GRAMMAR = {
                     "translation": "Thông qua cuộc sống du học, tôi đã có thể học sâu về văn hóa Nhật Bản.",
                     "hiragana": "りゅうがくせいかつをとうして、にっぽんのぶんかについてふかくまなぶことができた。"
                 }
-            ]
-        }
-    ],
-    "8": [
+            ],
+            "full_meaning": "N+を通じて/を通して\n(1)Suốt cả quãng thời gian đó"
+        },
         {
             "pattern": "~を問わず",
             "meaning": "Bất kể/Dù là gì cũng không thành vấn đề",
@@ -23947,6 +26044,18 @@ GRAMMAR = {
                 {
                     "jp": "経験を問わず、誰でも応募できます。",
                     "vi": "Bất kể có kinh nghiệm hay không, ai cũng có thể ứng tuyển."
+                },
+                {
+                    "jp": "川西ピアノ教室では、初心者、経験者を問わず、どなたにでも丁寧に指導します。",
+                    "vi": "(Trên quảng cáo) Trong lớp học piano Kawanishi, bất kể người mới bắt đầu hay người có kinh nghiệm thì ai cũng được hướng dẫn kỹ lưỡng."
+                },
+                {
+                    "jp": "私たちのサークルは、ゴルフの経験の有無を問わず、だれでも入れます。",
+                    "vi": "Câu lạc bộ của chúng tôi ai cũng có thể tham gia bất kể là có kinh nghiệm chơi golf hay không."
+                },
+                {
+                    "jp": "この公園では、季節を問わず美しい花が見られます。",
+                    "vi": "Tại công viên này chúng ta có thể ngắm những bông hoa đẹp bất kể mùa nào trong năm."
                 }
             ],
             "quizzes": [
@@ -24100,7 +26209,8 @@ GRAMMAR = {
                     "translation": "Bất kể có kinh nghiệm hay không, trước hết hãy thử tham gia buổi giới thiệu.",
                     "hiragana": "けいけんのうむをとわず、まずはせつめいかいにさんかしてみてください。"
                 }
-            ]
+            ],
+            "full_meaning": "N+を問わず/は問わず\nBất kể/dù là... (cho dù N là gì đi nữa thì cũng không thành vấn đề)\n(広告で)"
         },
         {
             "pattern": "~を除いて",
@@ -24109,6 +26219,18 @@ GRAMMAR = {
                 {
                     "jp": "日曜日を除いて、毎日営業しています。",
                     "vi": "Ngoại trừ chủ nhật, cửa hàng mở cửa mỗi ngày."
+                },
+                {
+                    "jp": "この仕事は楽だし、給料もいいし、通勤時間が長いことを除いては文句ない。",
+                    "vi": "Công việc này rất nhàn, lương cũng tốt, ngoại trừ thời gian làm việc kéo dài ra thì không có gì than phiền cả."
+                },
+                {
+                    "jp": "商品の品質に問題がある場合を除いて、返品はお受けできません。",
+                    "vi": "Ngoại trừ những trường hợp có vấn đề về chất lượng sản phẩm, còn lại những trường hợp khác chúng tôi sẽ không nhận trả hàng."
+                },
+                {
+                    "jp": "日曜日を除いて、毎日働いている。",
+                    "vi": "Ngày nào cũng làm việc trừ chủ nhật."
                 }
             ],
             "quizzes": [
@@ -24262,7 +26384,8 @@ GRAMMAR = {
                     "translation": "Ngoại trừ người phụ trách, không có nhân viên nào biết rõ tình hình chi tiết.",
                     "hiragana": "たんとうしゃをのぞいて、くわしいじじょうをしっているしゃいんはいない。"
                 }
-            ]
+            ],
+            "full_meaning": "N+を除いて(は)/を除き\nNgoại trừ/loại trừ..."
         },
         {
             "pattern": "~をめぐって",
@@ -24271,6 +26394,18 @@ GRAMMAR = {
                 {
                     "jp": "その計画をめぐって、意見が分かれた。",
                     "vi": "Ý kiến đã bị chia rẽ xoay quanh kế hoạch đó."
+                },
+                {
+                    "jp": "その政治家がスピーチで言った一言をめぐって、さまざまな議論がわき起こっている。",
+                    "vi": "Dấy lên nhiều tranh luận xoay quanh lời nói của ông chính trị gia đó đã nói trong bài phát biểu."
+                },
+                {
+                    "jp": "外国人社員の労働条件をめぐって、会社側と労働者側が対立している。",
+                    "vi": "Phía công ty và người lao động đang đối lập nhau xoay quanh vấn đề về điều kiện lao động của nhân viên người nước ngoài."
+                },
+                {
+                    "jp": "医療制度の改革をめぐる議論が高まっている。",
+                    "vi": "Tranh luận lên đến cao trào xoay quanh cải cách chế độ y tế."
                 }
             ],
             "quizzes": [
@@ -24424,7 +26559,8 @@ GRAMMAR = {
                     "translation": "Các cuộc tranh luận giữa hai nước vẫn tiếp diễn xoay quanh sự khác biệt trong nhận thức lịch sử.",
                     "hiragana": "れきしにんしきのちがいをめぐって、りょうごくのかんでぎろんがつづいている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+をめぐって/をめぐり\nXoay quanh ~"
         },
         {
             "pattern": "~をもとに(して)",
@@ -24433,6 +26569,58 @@ GRAMMAR = {
                 {
                     "jp": "実際の事件をもとに、この映画は作られた。",
                     "vi": "Bộ phim này được làm dựa trên một vụ việc có thật."
+                },
+                {
+                    "jp": "昨日見たドラマは、実際にあった話をもとに作られたそうだ。",
+                    "vi": "Bộ phim hôm qua tôi xem nghe nói là được xây dựng dựa trên một câu chuyện có thật."
+                },
+                {
+                    "jp": "日本語のクラスは、テストの点数と今までの学習期間をもとに決定される。",
+                    "vi": "Lớp học tiếng Nhật sẽ được quyết định dựa trên điểm số bài kiểm tra và quãng thời gian học từ trước đến nay."
+                },
+                {
+                    "jp": "平仮名とカタカナは漢字をもとにして作られたものだ。",
+                    "vi": "Chữ Hiragana và Katakana được tạo ra dựa trên biến thể của Kanji. 145.お/ご~いただけませんか お+V1,2 ます形 +いただけませんか ご+V3 語幹 Nhờ vả người khác làm cho mình (kính ngữ)"
+                },
+                {
+                    "jp": "少々お待ちいただけませんか。",
+                    "vi": "Anh làm ơn đợi tôi một chút được không?"
+                },
+                {
+                    "jp": "すみませんが、約束の時間をご変更いただけませんか。",
+                    "vi": "Xin lỗi anh có thể thay đổi giờ hẹn giúp tôi được không?"
+                },
+                {
+                    "jp": "皆様にはご迷惑をおかけいたしますが、どうかご理解いただけないでしょうか。",
+                    "vi": "Rất xin lỗi vì làm phiền mọi người. Mong mọi người hiểu cho chúng tôi được không?"
+                },
+                {
+                    "jp": "146.お/ご~願えませんか。",
+                    "vi": "お+V1,2 ます形 +願えませんか ご+V3 語幹 Nhờ vả... Làm ơn/ rất mong..."
+                },
+                {
+                    "jp": "お忙しいところ申し訳ありませんが、何とかお引き受け願えませんでしょうか。",
+                    "vi": "Rất xin lỗi anh vì làm phiền trong lúc bận rộn như vậy nhưng mong anh hãy tiếp nhận công việc này giúp tôi."
+                },
+                {
+                    "jp": "この資料の翻訳にご協力願えませんか。",
+                    "vi": "Mong anh hợp tác để dịch tài liệu này giúp chúng tôi."
+                },
+                {
+                    "jp": "電話があったことをお伝え願えませんか。",
+                    "vi": "Mong anh hãy nhắn lại là có điện thoại từ tôi. 147.お/ご~申し上げる お+V1,2 ます形 +申し上げる ご+V3 語幹"
+                },
+                {
+                    "jp": "を深くお詫び申し上げます。申し訳ございませんでした。",
+                    "vi": "Xin gửi lời xin lỗi sâu sắc vì lần này đã làm phiền đến quý khách do sơ xuất gửi hàng của chúng tôi. Chúng tôi vô cũng xin lỗi."
+                },
+                {
+                    "jp": "お願い申し上げます。",
+                    "vi": "Làm ơn, mong anh/chị giúp đỡ."
+                },
+                {
+                    "jp": "大変ご迷惑をおかけしたことをお詫び申し上げます。",
+                    "vi": "Xin gửi lời xin lỗi vì đã gây phiền phức."
                 }
             ],
             "quizzes": [
@@ -24586,7 +26774,8 @@ GRAMMAR = {
                     "translation": "Tác phẩm này được xây dựng dựa trên một truyền thuyết cổ.",
                     "hiragana": "このさくひんはふるいでんせつをもとにえがかれている。"
                 }
-            ]
+            ],
+            "full_meaning": "N+をもとに(して)\nDựa trên...\nThể hiện sự khiêm nhường...\nGửi lời cảm ơn, lời xin lỗi...\n「このたびは、私どもの商品発送ミスにより、お客様に大変ご迷惑をおかけしましたこと"
         },
         {
             "pattern": "お/ご~いただけませんか",
@@ -25096,6 +27285,18 @@ GRAMMAR = {
                 {
                     "jp": "少し早めに帰らせていただけませんか。",
                     "vi": "Xin phép cho tôi về sớm một chút được không ạ?"
+                },
+                {
+                    "jp": "ていただけないでしょうか。",
+                    "vi": "Tôi là Tanaka. Về bài phát biểu mà hôm nọ có nói chuyện, nhất định hãy cho phép tôi làm được không ạ?"
+                },
+                {
+                    "jp": "申し訳ありませんが、来週の火曜日休ませていただけませんか。",
+                    "vi": "Rất xin lỗi. Cho phép tôi nghỉ vào thứ 3 tuần sau được không ạ?"
+                },
+                {
+                    "jp": "課長、今度のプロジェクトに参加させていただけないでしょうか。",
+                    "vi": "Giám đốc, cho phép tôi tham gia vào dự án lần tới được không?"
                 }
             ],
             "quizzes": [
@@ -25249,7 +27450,9 @@ GRAMMAR = {
                     "translation": "Để xác nhận tình hình, xin phép cho tôi được liên hệ với người phụ trách được không ạ?",
                     "hiragana": "じじょうをかくにんするため、たんとうしゃにれんらくさせていただけませんか。"
                 }
-            ]
+            ],
+            "usage": "V 使役形‐て形+いただけませんか",
+            "full_meaning": "Cho phép tôi làm gì đó...(xin phép cho mình thực hiện hành động)\n(メールで)田中です。先日お話があったスピーチの件なんですが、ぜひわたしにやらせ"
         },
         {
             "pattern": "~(さ)せてやっていただけないか",
@@ -25258,6 +27461,18 @@ GRAMMAR = {
                 {
                     "jp": "息子を貴社で研修させてやっていただけないでしょうか。",
                     "vi": "Xin nhờ quý công ty cho con trai tôi được thực tập tại đây."
+                },
+                {
+                    "jp": "この仕事はうちの弟に担当させてやっていただけませんか。",
+                    "vi": "Công việc này cho em trai của em phụ trách được không ạ?"
+                },
+                {
+                    "jp": "リフォームの件は竹下さんに企画させてやっていただけませんか。",
+                    "vi": "Làm ơn hãy giao cho Takeshita lên kế hoạch vụ cải tạo lại nhà được không ạ?"
+                },
+                {
+                    "jp": "今回のスピーチ大会は吉田君に出場させてやっていただけませんか。",
+                    "vi": "Cuộc thi hùng biện lần này cho Yoshida tham gia được không?"
                 }
             ],
             "quizzes": [
@@ -25411,7 +27626,9 @@ GRAMMAR = {
                     "translation": "Tôi mong quý vị có thể cho phép cháu trai tôi tham gia dự án này.",
                     "hiragana": "おいをこのぷろじぇくとにさんかさせてやっていただければとおもいます。"
                 }
-            ]
+            ],
+            "usage": "V 使役形‐て形+やっていただけませんか",
+            "full_meaning": "Cho người thuộc phe mình, gần gũi với mình, bề dưới làm gì đó."
         },
         {
             "pattern": "~ていただけるとありがたいんですが",
@@ -25420,6 +27637,10 @@ GRAMMAR = {
                 {
                     "jp": "資料を送っていただけるとありがたいんですが。",
                     "vi": "Nếu anh/chị có thể gửi tài liệu giúp tôi thì thật biết ơn."
+                },
+                {
+                    "jp": "ご都合がよろしければ、相談に乗っていただけるとありがたいんですが。",
+                    "vi": "Nếu mà được anh tư vấn cho tôi chuyện như thế này thì tôi rất lấy làm biết ơn anh."
                 }
             ],
             "quizzes": [
@@ -25558,7 +27779,9 @@ GRAMMAR = {
                     "translation": "Nếu thời gian của anh/chị thuận tiện, nếu anh/chị có thể liên lạc với tôi trước tuần sau thì tôi rất cảm kích.",
                     "hiragana": "ごつごうがよろしければ、らいしゅうまでにごれんらくしていただけるとありがたいんですが。"
                 }
-            ]
+            ],
+            "usage": "V て+いただけるとありがたいんですが",
+            "full_meaning": "(電話で)\nNhờ vả...\nRất lấy làm biết ơn nếu anh/chị có thể...\nA「すみません、来週の 2 時からの会議ですが、その時間、別の用件が入ってしまいまし\nて。もしそちらのご都合がよろしければ 4 時以降に変更していただけるとありがたいんで\nすが、いかがでしょうか。」\nXin lỗi. về cuộc họp từ lúc 2 giờ tuần sau, giờ ấy tôi lại có việc khác mất rồi. Nếu được thì anh có\nthể đổi cho tôi thành sau 4 giờ được không?\nB「こちらは大丈夫ですよ。」Vâng. Không sao.\nA「お手伝いしましょうか。」Để em giúp anh nhé?\n「そうしていただけるとありがたいんですが。今から学校へ行かなければならないのでは\nないでしょうか。」\nNếu em làm giúp thì tôi rất lấy làm biết ơn. Nhưng chẳng phải bây giờ em phải đến trường hay sao?"
         }
     ]
 }

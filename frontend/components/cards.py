@@ -156,42 +156,84 @@ class GrammarCard(ShadowWidget):
     def __init__(self, item, parent=None):
         super().__init__(parent)
         layout = QVBoxLayout(self)
-        
+        layout.setSpacing(6)
+
+        # ── Header: pattern + badge ──────────────────────────────────
         header_layout = QHBoxLayout()
         title = QLabel(item.get('pattern', ''))
         title.setObjectName("CardTitle")
-        
-        formula = QLabel("Cấu trúc ngữ pháp")
-        formula.setObjectName("GrammarCardFormula")
-        
+
         header_layout.addWidget(title)
-        header_layout.addWidget(formula)
         header_layout.addStretch()
-        
-        raw_meaning = item.get('meaning', '')
-        formatted_meaning = re.sub(r'\s*(\(\d+(?:\.\d+)?\))', r'\n\1', raw_meaning).strip()
-        
-        meaning = QLabel(f"[Ý nghĩa]\n{formatted_meaning}")
-        meaning.setObjectName("CardMeaning")
-        meaning.setWordWrap(True)
-        
         layout.addLayout(header_layout)
-        layout.addWidget(meaning)
-        
+
+        # ── Cấu trúc (usage) ────────────────────────────────────────
+        usage = item.get('usage', '')
+        if usage:
+            usage_lbl = QLabel(f"📐 {usage}")
+            usage_lbl.setStyleSheet(
+                "font-size: 13px; color: #4338CA; font-weight: bold; "
+                "background: #EEF2FF; border-radius: 6px; padding: 4px 8px; margin-top: 2px;"
+            )
+            usage_lbl.setWordWrap(True)
+            layout.addWidget(usage_lbl)
+
+        # ── Ý nghĩa ─────────────────────────────────────────────────
+        # Ưu tiên full_meaning từ txt, fallback về meaning ngắn
+        full_meaning = item.get('full_meaning', '') or item.get('meaning', '')
+        # Chỉ lấy phần ý nghĩa tiếng Việt (bỏ các dòng JP lẫn vào)
+        if full_meaning:
+            viet_lines = [
+                l for l in full_meaning.split('\n')
+                if l.strip() and not re.search(r'[ぁ-んァ-ヶ一-龥]', l)
+            ]
+            meaning_text = '\n'.join(viet_lines).strip() or item.get('meaning', '')
+            if meaning_text:
+                meaning_lbl = QLabel(f"💡 {meaning_text}")
+                meaning_lbl.setObjectName("CardMeaning")
+                meaning_lbl.setWordWrap(True)
+                layout.addWidget(meaning_lbl)
+
+        # ── Ghi chú (notes) ─────────────────────────────────────────
+        notes = item.get('notes', '')
+        if notes:
+            notes_lbl = QLabel(f"📝 {notes}")
+            notes_lbl.setStyleSheet(
+                "font-size: 13px; color: #92400E; background: #FFFBEB; "
+                "border-left: 3px solid #F59E0B; padding: 6px 8px; border-radius: 4px; margin-top: 4px;"
+            )
+            notes_lbl.setWordWrap(True)
+            layout.addWidget(notes_lbl)
+
+        # ── Ví dụ ───────────────────────────────────────────────────
         examples = item.get('examples', [])
         if examples:
-            ex_label = QLabel("Ví dụ:")
-            ex_label.setStyleSheet("font-weight: bold; color: #059669; margin-top: 15px; margin-bottom: 5px;")
+            sep = QFrame()
+            sep.setFrameShape(QFrame.Shape.HLine)
+            sep.setStyleSheet("color: #E5E7EB; margin-top: 6px; margin-bottom: 2px;")
+            layout.addWidget(sep)
+
+            ex_label = QLabel("✦ Ví dụ:")
+            ex_label.setStyleSheet(
+                "font-weight: bold; color: #059669; font-size: 13px; margin-bottom: 4px;"
+            )
             layout.addWidget(ex_label)
+
             for ex in examples:
-                jp = QLabel(f"• {ex.get('jp', '')}")
-                jp.setStyleSheet("color: #111827; font-size: 15px; margin-top: 5px;")
+                jp = QLabel(f"　{ex.get('jp', '')}")
+                jp.setStyleSheet(
+                    "color: #111827; font-size: 15px; margin-top: 4px; "
+                    "background: #F9FAFB; border-radius: 4px; padding: 4px 8px;"
+                )
                 jp.setWordWrap(True)
-                
-                vi = QLabel(f"  {ex.get('vi', '')}")
-                vi.setStyleSheet("color: #6B7280; font-size: 14px; font-style: italic; margin-bottom: 15px;")
+
+                vi = QLabel(f"　{ex.get('vi', '')}")
+                vi.setStyleSheet(
+                    "color: #6B7280; font-size: 13px; font-style: italic; "
+                    "margin-bottom: 8px; padding-left: 8px;"
+                )
                 vi.setWordWrap(True)
-                
+
                 layout.addWidget(jp)
                 layout.addWidget(vi)
 

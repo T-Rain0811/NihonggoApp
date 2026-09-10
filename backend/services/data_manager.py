@@ -5,6 +5,31 @@ from backend.data.vocabs.vocab_data import VOCABULARY
 from backend.data.grammas.grammar_data import GRAMMAR
 
 DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "grammas", "drillsGrammas")
+LOCAL_VIDEOS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "grammas", "videos")
+
+# Mapping bài học → URL video giảng dạy
+VIDEO_URLS = {
+    "1":  "https://videothaolejp.com/video-player/875d5de6-102f-4f8a-87a1-f46ac67d3ed8?theme=fantasy",
+    "2":  "https://videothaolejp.com/video-player/e6b9f907-27fc-4732-a897-2196e10f8e5c?theme=fantasy",
+    "3":  "https://videothaolejp.com/video-player/0e55d306-c98b-4a92-8ebc-0b942b3cd1aa?theme=fantasy",
+    "4":  "https://videothaolejp.com/video-player/76c3efed-de3d-4013-a5a3-14d80e082fc3?theme=fantasy",
+    "5":  "https://videothaolejp.com/video-player/bd8f6efc-e2c1-4ec0-a838-c71307a412a3?theme=fantasy",
+    "6":  "https://videothaolejp.com/video-player/139d1184-aecf-4170-baec-09de34de4d4c?theme=fantasy",
+    "7":  "https://videothaolejp.com/video-player/da3c1b84-9528-429f-9b62-fd86c21f063b?theme=fantasy",
+    "8":  "https://videothaolejp.com/video-player/caa06777-6682-47a3-9230-85055ea18313?theme=fantasy",
+}
+
+# Nhãn bài học cho sidebar
+LESSON_LABELS = {
+    "1": "Bài 1 (1–20)",
+    "2": "Bài 2 (21–40)",
+    "3": "Bài 3 (41–60)",
+    "4": "Bài 4 (61–80)",
+    "5": "Bài 5 (81–90)",
+    "6": "Bài 6 (91–111)",
+    "7": "Bài 7 (112–130)",
+    "8": "Bài 8 (131–150)",
+}
 
 class DataManager:
     @staticmethod
@@ -69,6 +94,24 @@ class DataManager:
         vocab = VOCABULARY.get(str(session_id), [])
         grammar = GRAMMAR.get(str(session_id), [])
         return vocab, grammar
+
+    @staticmethod
+    def get_video_url(session_id: str) -> str:
+        """Trả về URL video cho bài học."""
+        return VIDEO_URLS.get(str(session_id), "")
+
+    @staticmethod
+    def get_local_video_path(session_id: str) -> str:
+        """Trả về đường dẫn video cục bộ nếu có, ngược lại trả về None."""
+        path = os.path.join(LOCAL_VIDEOS_DIR, f"lesson_{session_id}.mp4")
+        if os.path.exists(path):
+            return os.path.abspath(path)
+        return None
+
+    @staticmethod
+    def get_lesson_label(session_id: str) -> str:
+        """Trả về nhãn hiển thị cho bài học."""
+        return LESSON_LABELS.get(str(session_id), f"Bài {session_id}")
 
     @staticmethod
     def get_drill_lesson_list():
