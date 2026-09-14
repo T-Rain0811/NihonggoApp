@@ -39,3 +39,5 @@
    ```bash
    python run.py
    ```
+
+*Lưu ý: Ứng dụng sẽ tự động tải luồng (stream) video trực tiếp từ Cloudinary nên cần có kết nối mạng để xem video giảng dạy.*

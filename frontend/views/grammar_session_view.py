@@ -369,13 +369,15 @@ class SimpleVideoPlayer(QWidget):
         
         self._initial_load = False
 
-    def load_video(self, local_path):
-        """Tải video từ file hệ thống."""
-        self.controls.slider.set_video_path(local_path)
-        self.player.setSource(QUrl.fromLocalFile(local_path))
+    def load_video(self, url):
+        """Tải video từ mạng."""
+        self.controls.slider.set_video_path(url)
+        self.player.setSource(QUrl(url))
         
-        # Hiện frame đầu tiên
+        # Chạy mồi 1 giây để lấy thumbnail
         self._initial_load = True
+        self._user_muted = self.audio_output.isMuted()
+        self.audio_output.setMuted(True) # Mute tạm thời để không bị rè tiếng
         self.player.play()
 
     def toggle_mute(self):
@@ -403,9 +405,6 @@ class SimpleVideoPlayer(QWidget):
     def update_state(self, state):
         if state == QMediaPlayer.PlaybackState.PlayingState:
             self.controls.btn_play.setIcon(self.controls.create_pause_icon())
-            if self._initial_load:
-                self._initial_load = False
-                QTimer.singleShot(50, self.player.pause)
         else:
             self.controls.btn_play.setIcon(self.controls.create_play_icon())
 
@@ -419,6 +418,13 @@ class SimpleVideoPlayer(QWidget):
         self.controls.slider.setValue(position)
         self.controls.slider.blockSignals(False)
         self._update_time_label()
+        
+        # Nếu đang chạy mồi, chờ tới 0.1s (100ms) thì dừng lại làm thumbnail
+        if hasattr(self, '_initial_load') and self._initial_load:
+            if position >= 100:
+                self._initial_load = False
+                self.player.pause()
+                self.audio_output.setMuted(self._user_muted) # Trả lại trạng thái âm thanh cũ
 
     def update_duration(self, duration):
         self.controls.slider.setRange(0, duration)
@@ -459,10 +465,9 @@ class LessonContentWidget(QWidget):
         vc_lay.setSpacing(8)
 
         # Video embed logic
-        local_path = DataManager.get_local_video_path(session_key)
         video_url = DataManager.get_video_url(session_key)
 
-        # Header video & Nút mở ngoài / tải video
+        # Header video
         v_header_layout = QHBoxLayout()
         video_header = QLabel(f"📹  Video bài giảng – Bài {session_key}")
         video_header.setStyleSheet(
@@ -471,43 +476,29 @@ class LessonContentWidget(QWidget):
         v_header_layout.addWidget(video_header)
         v_header_layout.addStretch()
 
-        if local_path:
-            # Video đã được tải
-            status_lbl = QLabel("✅ Local Video")
-            status_lbl.setStyleSheet("color: #059669; font-size: 12px; font-weight: bold;")
+        if video_url:
+            status_lbl = QLabel("☁️ Online Stream")
+            status_lbl.setStyleSheet("color: #2563EB; font-size: 12px; font-weight: bold;")
             v_header_layout.addWidget(status_lbl)
         else:
-            # Video chưa được tải
-            status_lbl = QLabel("⚠️ Video chưa được tải!")
+            status_lbl = QLabel("⚠️ Chưa có Video")
             status_lbl.setStyleSheet("color: #DC2626; font-size: 12px; font-weight: bold;")
             v_header_layout.addWidget(status_lbl)
-            
-            if video_url:
-                btn_browser = QPushButton("🌐 Mở web xem tạm")
-                btn_browser.setStyleSheet(
-                    "background-color: #3B82F6; color: white; padding: 4px 8px; "
-                    "border-radius: 4px; font-weight: bold; font-size: 11px;"
-                )
-                btn_browser.setCursor(QCursor(Qt.CursorShape.PointingHandCursor))
-                btn_browser.clicked.connect(lambda _, u=video_url: webbrowser.open(u))
-                v_header_layout.addWidget(btn_browser)
             
         vc_lay.addLayout(v_header_layout)
 
         # Nội dung Video Player
-        if local_path:
-            # Dùng QMediaPlayer phát video MP4
+        if video_url:
+            # Dùng QMediaPlayer phát video MP4 qua mạng
             self.player_widget = SimpleVideoPlayer()
-            self.player_widget.load_video(local_path)
+            self.player_widget.load_video(video_url)
             vc_lay.addWidget(self.player_widget, 1)
         else:
-            # Báo lỗi và hướng dẫn tải
+            # Báo lỗi
             fallback = QLabel()
             msg = (
-                "⚠️  Không tìm thấy file video cục bộ.\n\n"
-                "Video của bài học này chưa được tải về máy.\n"
-                "Hãy chạy lệnh tải video (hoặc script `download_videos.py`) "
-                "để có thể xem video mượt mà ngay trong app!"
+                "⚠️  Không tìm thấy video.\n\n"
+                "Vui lòng cập nhật link video trong code (backend/services/data_manager.py)."
             )
             fallback.setText(msg)
             fallback.setStyleSheet(
