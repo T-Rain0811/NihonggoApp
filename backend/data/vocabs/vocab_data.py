@@ -240,7 +240,9 @@ VOCABULARY = {
             "reading": "さく",
             "meaning": "Chia cắt, xé lẻ",
             "kanji_meaning": "LIỆT"
-        },
+        }
+    ],
+    "2": [
         {
             "word": "察する",
             "reading": "さっする",
@@ -480,7 +482,9 @@ VOCABULARY = {
             "reading": "なれなれしい",
             "meaning": "Cực kỳ thân thuộc, suồng sã quá mức",
             "kanji_meaning": ""
-        },
+        }
+    ],
+    "3": [
         {
             "word": "鈍い",
             "reading": "にぶい",
@@ -600,9 +604,7 @@ VOCABULARY = {
             "reading": "かって",
             "meaning": "Tự tiện, ích kỷ, tự ý",
             "kanji_meaning": "THẮNG THỦ"
-        }
-    ],
-    "2": [
+        },
         {
             "word": "感激",
             "reading": "かんげき",
@@ -722,7 +724,9 @@ VOCABULARY = {
             "reading": "あやまる",
             "meaning": "Xin lỗi",
             "kanji_meaning": "TẠ"
-        },
+        }
+    ],
+    "4": [
         {
             "word": "恨む",
             "reading": "うらむ",
@@ -962,7 +966,9 @@ VOCABULARY = {
             "reading": "しょうじき",
             "meaning": "Thành thật",
             "kanji_meaning": "CHÍNH TRỰC"
-        },
+        }
+    ],
+    "5": [
         {
             "word": "慎重",
             "reading": "しんちょう",
@@ -1202,7 +1208,9 @@ VOCABULARY = {
             "reading": "ぼんやり",
             "meaning": "Thơ thẩn, mờ ảo",
             "kanji_meaning": ""
-        },
+        }
+    ],
+    "6": [
         {
             "word": "大幅",
             "reading": "おおはば",
@@ -1232,9 +1240,7 @@ VOCABULARY = {
             "reading": "かっこう",
             "meaning": "Ngoại hình, phong cách, tư thế",
             "kanji_meaning": "CÁCH HẢO"
-        }
-    ],
-    "3": [
+        },
         {
             "word": "生地",
             "reading": "きじ",
@@ -1444,7 +1450,9 @@ VOCABULARY = {
             "reading": "きみょう",
             "meaning": "Lạ lùng, kỳ quặc",
             "kanji_meaning": "KỲ DIỆU"
-        },
+        }
+    ],
+    "7": [
         {
             "word": "地味",
             "reading": "じみ",
@@ -1684,7 +1692,9 @@ VOCABULARY = {
             "reading": "ふく",
             "meaning": "Lau chùi",
             "kanji_meaning": "THỨC"
-        },
+        }
+    ],
+    "8": [
         {
             "word": "含む",
             "reading": "ふくむ",
@@ -1840,9 +1850,7 @@ VOCABULARY = {
             "reading": "さしつかえ",
             "meaning": "Trở ngại, gây khó",
             "kanji_meaning": "SAI CHI"
-        }
-    ],
-    "4": [
+        },
         {
             "word": "芝生",
             "reading": "しばふ",
@@ -1926,7 +1934,9 @@ VOCABULARY = {
             "reading": "ばめん",
             "meaning": "Cảnh, tình huống",
             "kanji_meaning": "TRƯỜNG DIỆN"
-        },
+        }
+    ],
+    "9": [
         {
             "word": "小包",
             "reading": "こづつみ",
@@ -2166,7 +2176,9 @@ VOCABULARY = {
             "reading": "ていでん",
             "meaning": "Mất điện",
             "kanji_meaning": "ĐÌNH ĐIỆN"
-        },
+        }
+    ],
+    "10": [
         {
             "word": "封筒",
             "reading": "ふうとう",
@@ -2406,7 +2418,9 @@ VOCABULARY = {
             "reading": "かんさつ",
             "meaning": "Quan sát",
             "kanji_meaning": "QUAN SÁT"
-        },
+        }
+    ],
+    "11": [
         {
             "word": "機会",
             "reading": "きかい",
@@ -2442,9 +2456,7 @@ VOCABULARY = {
             "reading": "げんご",
             "meaning": "Ngôn ngữ",
             "kanji_meaning": "NGÔN NGỮ"
-        }
-    ],
-    "5": [
+        },
         {
             "word": "講堂",
             "reading": "こうどう",
@@ -2648,7 +2660,9 @@ VOCABULARY = {
             "reading": "みちびく",
             "meaning": "Dẫn dắt",
             "kanji_meaning": "ĐẠO"
-        },
+        }
+    ],
+    "12": [
         {
             "word": "目立つ",
             "reading": "めだつ",
@@ -2888,7 +2902,9 @@ VOCABULARY = {
             "reading": "こえる",
             "meaning": "Vượt quá",
             "kanji_meaning": "SIÊU"
-        },
+        }
+    ],
+    "13": [
         {
             "word": "定める",
             "reading": "さだめる",
@@ -3044,9 +3060,7 @@ VOCABULARY = {
             "reading": "しゅうしょく",
             "meaning": "Tìm việc",
             "kanji_meaning": "TỰU CHỨC"
-        }
-    ],
-    "6": [
+        },
         {
             "word": "承認",
             "reading": "しょうにん",
@@ -3130,7 +3144,9 @@ VOCABULARY = {
             "reading": "ふたん",
             "meaning": "Gánh nặng",
             "kanji_meaning": "TÀI ĐẢM"
-        },
+        }
+    ],
+    "14": [
         {
             "word": "貿易",
             "reading": "ぼうえき",
@@ -3370,7 +3386,9 @@ VOCABULARY = {
             "reading": "しゅさい",
             "meaning": "Đứng ra tổ chức",
             "kanji_meaning": "CHỦ THÔI"
-        },
+        }
+    ],
+    "15": [
         {
             "word": "出世",
             "reading": "しゅっせ",
@@ -3610,7 +3628,9 @@ VOCABULARY = {
             "reading": "けいこく",
             "meaning": "Cảnh cáo",
             "kanji_meaning": "CẢNH CÁO"
-        },
+        }
+    ],
+    "16": [
         {
             "word": "掲載",
             "reading": "けいさい",
@@ -3646,9 +3666,7 @@ VOCABULARY = {
             "reading": "こうきしん",
             "meaning": "Lòng hiếu kỳ",
             "kanji_meaning": "HẢO KỲ TÂM"
-        }
-    ],
-    "7": [
+        },
         {
             "word": "広告",
             "reading": "こうこく",
@@ -3852,7 +3870,9 @@ VOCABULARY = {
             "reading": "ほうじる",
             "meaning": "Thông báo, báo tin",
             "kanji_meaning": "BÁO"
-        },
+        }
+    ],
+    "17": [
         {
             "word": "基づく",
             "reading": "もとづく",
@@ -4092,7 +4112,9 @@ VOCABULARY = {
             "reading": "へんかん",
             "meaning": "Chuyển đổi",
             "kanji_meaning": "BIẾN HOÁN"
-        },
+        }
+    ],
+    "18": [
         {
             "word": "摩擦",
             "reading": "まさつ",
@@ -4248,9 +4270,7 @@ VOCABULARY = {
             "reading": "せきにん",
             "meaning": "Trách nhiệm",
             "kanji_meaning": "TRÁCH NHIỆM"
-        }
-    ],
-    "8": [
+        },
         {
             "word": "捜査",
             "reading": "そうさ",
@@ -4334,7 +4354,9 @@ VOCABULARY = {
             "reading": "ゆくえ",
             "meaning": "Tung tích",
             "kanji_meaning": "HÀNG PHƯƠNG"
-        },
+        }
+    ],
+    "19": [
         {
             "word": "要求",
             "reading": "ようきゅう",
@@ -4574,7 +4596,9 @@ VOCABULARY = {
             "reading": "じゅんちょう",
             "meaning": "Thuận lợi",
             "kanji_meaning": "THUẬN ĐIỀU"
-        },
+        }
+    ],
+    "20": [
         {
             "word": "証明",
             "reading": "しょうめい",
@@ -4814,7 +4838,9 @@ VOCABULARY = {
             "reading": "げんど",
             "meaning": "Hạn độ",
             "kanji_meaning": "HẠN ĐỘ"
-        },
+        }
+    ],
+    "21": [
         {
             "word": "口座",
             "reading": "こうざ",
@@ -4850,9 +4876,7 @@ VOCABULARY = {
             "reading": "しゃっきん",
             "meaning": "Tiền nợ",
             "kanji_meaning": "TÁ KIM"
-        }
-    ],
-    "9": [
+        },
         {
             "word": "充実",
             "reading": "じゅうじつ",
@@ -5056,7 +5080,9 @@ VOCABULARY = {
             "reading": "かいさい",
             "meaning": "Tổ chức",
             "kanji_meaning": "KHAI THÔI"
-        },
+        }
+    ],
+    "22": [
         {
             "word": "環境",
             "reading": "かんきょう",
@@ -5296,7 +5322,9 @@ VOCABULARY = {
             "reading": "かたよる",
             "meaning": "Nghiêng lệch",
             "kanji_meaning": "THIÊN"
-        },
+        }
+    ],
+    "23": [
         {
             "word": "襲う",
             "reading": "おそう",
@@ -5452,9 +5480,7 @@ VOCABULARY = {
             "reading": "しゅぎ",
             "meaning": "Chủ nghĩa",
             "kanji_meaning": "CHỦ NGHĨA"
-        }
-    ],
-    "10": [
+        },
         {
             "word": "主張",
             "reading": "しゅちょう",
@@ -5538,7 +5564,9 @@ VOCABULARY = {
             "reading": "ふくり",
             "meaning": "Phúc lợi",
             "kanji_meaning": "PHÚC LỢI"
-        },
+        }
+    ],
+    "24": [
         {
             "word": "便宜",
             "reading": "べんぎ",
@@ -5778,7 +5806,9 @@ VOCABULARY = {
             "reading": "りょうど",
             "meaning": "Lãnh thổ",
             "kanji_meaning": "LÃNH THỔ"
-        },
+        }
+    ],
+    "25": [
         {
             "word": "飢える",
             "reading": "うえる",
@@ -6018,7 +6048,9 @@ VOCABULARY = {
             "reading": "もほう",
             "meaning": "Mô phỏng",
             "kanji_meaning": "MÔ PHỎNG"
-        },
+        }
+    ],
+    "26": [
         {
             "word": "扱う",
             "reading": "あつかう",
@@ -6054,9 +6086,7 @@ VOCABULARY = {
             "reading": "ほこる",
             "meaning": "Tự hào",
             "kanji_meaning": "KHOA"
-        }
-    ],
-    "11": [
+        },
         {
             "word": "巻く",
             "reading": "まく",
@@ -6260,7 +6290,9 @@ VOCABULARY = {
             "reading": "たくみ",
             "meaning": "Khéo léo",
             "kanji_meaning": "XẢO"
-        },
+        }
+    ],
+    "27": [
         {
             "word": "中断",
             "reading": "ちゅうだん",
@@ -6500,7 +6532,9 @@ VOCABULARY = {
             "reading": "たいざい",
             "meaning": "Lưu lại",
             "kanji_meaning": "TRỆ TẠI"
-        },
+        }
+    ],
+    "28": [
         {
             "word": "釣り",
             "reading": "つり",
@@ -6656,9 +6690,7 @@ VOCABULARY = {
             "reading": "まげる",
             "meaning": "Bẻ cong",
             "kanji_meaning": "KHÚC"
-        }
-    ],
-    "12": [
+        },
         {
             "word": "見逃す",
             "reading": "みのがす",
@@ -6742,7 +6774,9 @@ VOCABULARY = {
             "reading": "きそく",
             "meaning": "Quy tắc",
             "kanji_meaning": "QUY TẮC"
-        },
+        }
+    ],
+    "29": [
         {
             "word": "警戒",
             "reading": "けいかい",
@@ -6982,7 +7016,9 @@ VOCABULARY = {
             "reading": "ゆるい",
             "meaning": "Lỏng lẻo",
             "kanji_meaning": "HOÃN"
-        },
+        }
+    ],
+    "30": [
         {
             "word": "勢い",
             "reading": "いきおい",
@@ -7222,7 +7258,9 @@ VOCABULARY = {
             "reading": "あさい",
             "meaning": "Nông",
             "kanji_meaning": "THIỂN"
-        },
+        }
+    ],
+    "31": [
         {
             "word": "暖かい",
             "reading": "あたたかい",
@@ -7258,9 +7296,7 @@ VOCABULARY = {
             "reading": "さわやか",
             "meaning": "Sảng khoái",
             "kanji_meaning": "SẢNG"
-        }
-    ],
-    "13": [
+        },
         {
             "word": "なだらか",
             "reading": "なだらか",
@@ -7464,7 +7500,9 @@ VOCABULARY = {
             "reading": "みまい",
             "meaning": "Thăm hỏi",
             "kanji_meaning": "KIẾN VŨ"
-        },
+        }
+    ],
+    "32": [
         {
             "word": "薬品",
             "reading": "やくひん",
@@ -7704,7 +7742,9 @@ VOCABULARY = {
             "reading": "ちりょう",
             "meaning": "Trị liệu",
             "kanji_meaning": "TRỊ LIỆU"
-        },
+        }
+    ],
+    "33": [
         {
             "word": "適宜",
             "reading": "てきぎ",
@@ -7860,9 +7900,7 @@ VOCABULARY = {
             "reading": "いっこうに",
             "meaning": "Hoàn toàn không",
             "kanji_meaning": "NHẤT HƯỚNG"
-        }
-    ],
-    "14": [
+        },
         {
             "word": "田舎",
             "reading": "いなか",
@@ -7946,7 +7984,9 @@ VOCABULARY = {
             "reading": "じょうじゅん",
             "meaning": "Thượng tuần",
             "kanji_meaning": "THƯỢNG TUẦN"
-        },
+        }
+    ],
+    "34": [
         {
             "word": "正面",
             "reading": "しょうめん",
@@ -8186,7 +8226,9 @@ VOCABULARY = {
             "reading": "いぜんとして",
             "meaning": "Vẫn như cũ",
             "kanji_meaning": "Ỷ NHIÊN"
-        },
+        }
+    ],
+    "35": [
         {
             "word": "一応",
             "reading": "いちおう",
@@ -8426,7 +8468,9 @@ VOCABULARY = {
             "reading": "まして",
             "meaning": "Huống chi",
             "kanji_meaning": ""
-        },
+        }
+    ],
+    "36": [
         {
             "word": "やや",
             "reading": "やや",
@@ -8462,9 +8506,7 @@ VOCABULARY = {
             "reading": "いかに",
             "meaning": "Như thế nào",
             "kanji_meaning": ""
-        }
-    ],
-    "15": [
+        },
         {
             "word": "いかにも",
             "reading": "いかにも",
@@ -8668,7 +8710,9 @@ VOCABULARY = {
             "reading": "なんとなく",
             "meaning": "Không hiểu sao",
             "kanji_meaning": ""
-        },
+        }
+    ],
+    "37": [
         {
             "word": "なんらか",
             "reading": "なんらか",
@@ -8908,7 +8952,9 @@ VOCABULARY = {
             "reading": "さずかる",
             "meaning": "Được ban cho",
             "kanji_meaning": "THỤ"
-        },
+        }
+    ],
+    "38": [
         {
             "word": "絶える",
             "reading": "たえる",
@@ -9064,9 +9110,7 @@ VOCABULARY = {
             "reading": "せいしつ",
             "meaning": "Tính chất",
             "kanji_meaning": "TÍNH CHẤT"
-        }
-    ],
-    "16": [
+        },
         {
             "word": "成熟",
             "reading": "せいじゅく",
@@ -9150,7 +9194,9 @@ VOCABULARY = {
             "reading": "もりあがる",
             "meaning": "Sôi nổi",
             "kanji_meaning": "THỊNH THƯỢNG"
-        },
+        }
+    ],
+    "39": [
         {
             "word": "容易い",
             "reading": "たやすい",
@@ -9390,7 +9436,9 @@ VOCABULARY = {
             "reading": "かまう",
             "meaning": "Để ý",
             "kanji_meaning": "CẤU"
-        },
+        }
+    ],
+    "40": [
         {
             "word": "極まる",
             "reading": "きわまる",
@@ -9630,7 +9678,9 @@ VOCABULARY = {
             "reading": "きずつく",
             "meaning": "Bị thương",
             "kanji_meaning": "THƯƠNG"
-        },
+        }
+    ],
+    "41": [
         {
             "word": "好かれる",
             "reading": "すかれる",
@@ -9666,9 +9716,7 @@ VOCABULARY = {
             "reading": "ふざける",
             "meaning": "Đùa giỡn",
             "kanji_meaning": ""
-        }
-    ],
-    "17": [
+        },
         {
             "word": "振舞う",
             "reading": "ふるまう",
@@ -9872,7 +9920,9 @@ VOCABULARY = {
             "reading": "かわぐつ",
             "meaning": "Giày da",
             "kanji_meaning": "CÁCH NGOA"
-        },
+        }
+    ],
+    "42": [
         {
             "word": "灰色",
             "reading": "はいいろ",
@@ -10112,7 +10162,9 @@ VOCABULARY = {
             "reading": "せっしゅ",
             "meaning": "Tiếp nhận",
             "kanji_meaning": "NHIẾP THỦ"
-        },
+        }
+    ],
+    "43": [
         {
             "word": "食べ放題",
             "reading": "たべほうだい",
@@ -10268,9 +10320,7 @@ VOCABULARY = {
             "reading": "しゃだん",
             "meaning": "Gián đoạn",
             "kanji_meaning": "GIÀ ĐOẠN"
-        }
-    ],
-    "18": [
+        },
         {
             "word": "順序",
             "reading": "じゅんじょ",
@@ -10354,7 +10404,9 @@ VOCABULARY = {
             "reading": "のうぎょう",
             "meaning": "Nông nghiệp",
             "kanji_meaning": "NÔNG NGHIỆP"
-        },
+        }
+    ],
+    "44": [
         {
             "word": "破棄",
             "reading": "はき",
@@ -10594,7 +10646,9 @@ VOCABULARY = {
             "reading": "のうこう",
             "meaning": "Canh tác",
             "kanji_meaning": "NÔNG CANH"
-        },
+        }
+    ],
+    "45": [
         {
             "word": "肌着",
             "reading": "はだぎ",
@@ -10834,7 +10888,9 @@ VOCABULARY = {
             "reading": "せっとく",
             "meaning": "Thuyết phục",
             "kanji_meaning": "THUYẾT PHỤC"
-        },
+        }
+    ],
+    "46": [
         {
             "word": "先輩",
             "reading": "せんぱい",
@@ -10870,9 +10926,7 @@ VOCABULARY = {
             "reading": "てつがく",
             "meaning": "Triết học",
             "kanji_meaning": "TRIẾT HỌC"
-        }
-    ],
-    "19": [
+        },
         {
             "word": "典型",
             "reading": "てんけい",
@@ -11076,7 +11130,9 @@ VOCABULARY = {
             "reading": "せんたくし",
             "meaning": "Lựa chọn",
             "kanji_meaning": "TUYỂN TRẠCH CHI"
-        },
+        }
+    ],
+    "47": [
         {
             "word": "選抜",
             "reading": "せんばつ",
@@ -11316,7 +11372,9 @@ VOCABULARY = {
             "reading": "しかく",
             "meaning": "Bằng cấp",
             "kanji_meaning": "TƯ CÁCH"
-        },
+        }
+    ],
+    "48": [
         {
             "word": "自覚",
             "reading": "じかく",
@@ -11472,9 +11530,7 @@ VOCABULARY = {
             "reading": "かんご",
             "meaning": "Chăm sóc",
             "kanji_meaning": "KHÁN HỘ"
-        }
-    ],
-    "20": [
+        },
         {
             "word": "企業",
             "reading": "きぎょう",
@@ -11558,7 +11614,9 @@ VOCABULARY = {
             "reading": "そうおう",
             "meaning": "Tương ứng",
             "kanji_meaning": "TƯƠNG ỨNG"
-        },
+        }
+    ],
+    "49": [
         {
             "word": "創造",
             "reading": "そうぞう",
@@ -11798,7 +11856,9 @@ VOCABULARY = {
             "reading": "しょもつ",
             "meaning": "Sách",
             "kanji_meaning": "THƯ VẬT"
-        },
+        }
+    ],
+    "50": [
         {
             "word": "衰退",
             "reading": "すいたい",
@@ -12038,7 +12098,9 @@ VOCABULARY = {
             "reading": "かんちがい",
             "meaning": "Hiểu nhầm",
             "kanji_meaning": "KHÁM VI"
-        },
+        }
+    ],
+    "51": [
         {
             "word": "危険",
             "reading": "きけん",
@@ -12074,9 +12136,7 @@ VOCABULARY = {
             "reading": "こんきょ",
             "meaning": "Căn cứ",
             "kanji_meaning": "CĂN CỨ"
-        }
-    ],
-    "21": [
+        },
         {
             "word": "災害",
             "reading": "さいがい",
@@ -12280,7 +12340,9 @@ VOCABULARY = {
             "reading": "うわむき",
             "meaning": "Tăng lên",
             "kanji_meaning": "THƯỢNG HƯỚNG"
-        },
+        }
+    ],
+    "52": [
         {
             "word": "お買い上げ",
             "reading": "おかいあげ",
@@ -12520,7 +12582,9 @@ VOCABULARY = {
             "reading": "いぞん",
             "meaning": "Phụ thuộc",
             "kanji_meaning": "Ỷ TỒN"
-        },
+        }
+    ],
+    "53": [
         {
             "word": "移民",
             "reading": "いみん",
@@ -12676,9 +12740,7 @@ VOCABULARY = {
             "reading": "ぞうか",
             "meaning": "Gia tăng",
             "kanji_meaning": "TĂNG GIA"
-        }
-    ],
-    "22": [
+        },
         {
             "word": "大衆",
             "reading": "たいしゅう",
@@ -12762,7 +12824,9 @@ VOCABULARY = {
             "reading": "いこう",
             "meaning": "Chuyển đổi",
             "kanji_meaning": "DI HÀNG"
-        },
+        }
+    ],
+    "54": [
         {
             "word": "一括",
             "reading": "いっかつ",
@@ -13002,7 +13066,9 @@ VOCABULARY = {
             "reading": "ひきわたす",
             "meaning": "Chuyển giao",
             "kanji_meaning": "DẪN ĐỘ"
-        },
+        }
+    ],
+    "55": [
         {
             "word": "呼びかける",
             "reading": "よびかける",
@@ -13242,7 +13308,9 @@ VOCABULARY = {
             "reading": "たいはん",
             "meaning": "Đa số",
             "kanji_meaning": "ĐẠI BÁN"
-        },
+        }
+    ],
+    "56": [
         {
             "word": "都合",
             "reading": "つごう",
@@ -13278,9 +13346,7 @@ VOCABULARY = {
             "reading": "はんだん",
             "meaning": "Phán đoán",
             "kanji_meaning": "PHÁN ĐOẠN"
-        }
-    ],
-    "23": [
+        },
         {
             "word": "袋",
             "reading": "ふくろ",
@@ -13484,7 +13550,9 @@ VOCABULARY = {
             "reading": "さいかい",
             "meaning": "Tái khởi động",
             "kanji_meaning": "TÁI KHAI"
-        },
+        }
+    ],
+    "57": [
         {
             "word": "最低限",
             "reading": "さいていげん",
@@ -13724,7 +13792,9 @@ VOCABULARY = {
             "reading": "しんりん",
             "meaning": "Rừng",
             "kanji_meaning": "SÂM LÂM"
-        },
+        }
+    ],
+    "58": [
         {
             "word": "水平線",
             "reading": "すいへいせん",
