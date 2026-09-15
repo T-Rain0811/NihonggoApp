@@ -35,8 +35,13 @@ class FlashcardPracticeWidget(QWidget):
         self.btn_shuffle.setObjectName("BtnStart")
         self.btn_shuffle.clicked.connect(self.shuffle_cards)
         
+        self.btn_search = QPushButton("🔍 Tra Mazii")
+        self.btn_search.setObjectName("BtnAction")
+        self.btn_search.clicked.connect(self.open_mazii)
+        
         toolbar.addLayout(status_layout)
         toolbar.addStretch()
+        toolbar.addWidget(self.btn_search)
         toolbar.addWidget(self.btn_shuffle)
         layout.addLayout(toolbar)
         
@@ -124,6 +129,18 @@ class FlashcardPracticeWidget(QWidget):
         random.shuffle(self.queue)
         self.update_ui()
 
+    def open_mazii(self):
+        if not self.queue:
+            return
+        item = self.queue[0]
+        word = item.get('word', '')
+        if not word:
+            word = item.get('pattern', '')
+        if word:
+            from frontend.views.mazii_view import MaziiWebDialog
+            dialog = MaziiWebDialog(word, parent=self)
+            dialog.exec()
+
     def update_feedback(self, distance):
         if distance == 0:
             self.lbl_feedback.setText("")
@@ -146,8 +163,12 @@ class FlashcardPracticeWidget(QWidget):
             self.card_area.show()
             self.card.set_item(self.queue[0])
             self.card.show()
+            self.btn_search.show()
+            self.btn_shuffle.show()
         else:
             self.card_area.hide()
+            self.btn_search.hide()
+            self.btn_shuffle.hide()
             self.show_results()
 
     def handle_unlearned(self):
