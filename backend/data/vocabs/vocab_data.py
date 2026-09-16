@@ -1055,7 +1055,7 @@ VOCABULARY = {
         },
         {
             "word": "担ぐ",
-            "reading": "かかつぐ",
+            "reading": "かつぐ",
             "meaning": "Khiêng, vác",
             "kanji_meaning": "ĐẢM"
         },
