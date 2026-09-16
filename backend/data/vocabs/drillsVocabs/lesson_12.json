@@ -1,0 +1,315 @@
+{
+  "lesson": 12,
+  "title": "第１２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "今日は1万円以上買うと、__割引__になるそうだ。",
+          "options": [
+            "わりびき",
+            "わりぴき",
+            "わりびいき",
+            "わりぴいき"
+          ],
+          "correct_answer": 1,
+          "explanation": "「割引」の正しい読み方は「わりびき」です。",
+          "explanation_vi": "Cách đọc đúng của 「割引」 là 「わりびき」 (giảm giá).",
+          "sentence_furigana": "今日(きょう)は1万円(いちまんえん)以上(いじょう)買う(かう)と、__割引(わりびき)__になるそうだ。",
+          "sentence_vi": "Hôm nay nếu mua hàng từ 1 vạn yên trở lên thì sẽ được giảm giá."
+        },
+        {
+          "id": 2,
+          "text": "彼の意見が正しいと__判断__した。",
+          "options": [
+            "はたん",
+            "はだん",
+            "はんたん",
+            "はんだん"
+          ],
+          "correct_answer": 4,
+          "explanation": "「判断」の正しい読み方は「はんだん」です。",
+          "explanation_vi": "Cách đọc đúng của 「判断」 là 「はんだん」 (phán đoán).",
+          "sentence_furigana": "彼(かれ)の意見(いけん)が正しい(ただしい)と__判断(はんだん)__した。",
+          "sentence_vi": "Tôi đã phán đoán rằng ý kiến của anh ấy là đúng."
+        },
+        {
+          "id": 3,
+          "text": "野菜はよく洗ってから、__薄く__切ってください。",
+          "options": [
+            "あつく",
+            "うすく",
+            "ふとく",
+            "ほそく"
+          ],
+          "correct_answer": 2,
+          "explanation": "「薄い」の正しい読み方は「うすい」です。",
+          "explanation_vi": "Cách đọc đúng của 「薄い」 là 「うすい」 (mỏng, nhạt).",
+          "sentence_furigana": "野菜(やさい)はよく洗っ(あらっ)てから、__薄く(うすく)__切っ(きっ)てください。",
+          "sentence_vi": "Rau sau khi rửa sạch xin hãy thái mỏng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "道路__ひょうしき__は国によって違う。",
+          "options": [
+            "表式",
+            "表識",
+            "標式",
+            "標識"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ひょうしき」の漢字は「標識」です。",
+          "explanation_vi": "Chữ Hán của 「ひょうしき」 là 「標識」 (biển báo).",
+          "sentence_furigana": "道路(どうろ)__標識(ひょうしき)__は国(くに)によって違う(ちがう)。",
+          "sentence_vi": "Biển báo giao thông trên đường sẽ khác nhau tùy theo từng quốc gia."
+        },
+        {
+          "id": 5,
+          "text": "友人の__てきせつ__なアドバイスのおかげでうまくいった。",
+          "options": [
+            "的切",
+            "的説",
+            "適切",
+            "適説"
+          ],
+          "correct_answer": 3,
+          "explanation": "「てきせつ」の漢字は「適切」です。",
+          "explanation_vi": "Chữ Hán của 「てきせつ」 là 「適切」 (thích hợp, xác đáng).",
+          "sentence_furigana": "友人(ゆうじん)の__適切(てきせつ)__なアドバイス(あどばいす)のおかげでうまくいった。",
+          "sentence_vi": "Nhờ những lời khuyên xác đáng của bạn bè mà mọi việc đã diễn ra suôn sẻ."
+        },
+        {
+          "id": 6,
+          "text": "質問に対する彼女の答えは__ようい__に想像できる。",
+          "options": [
+            "容意",
+            "容易",
+            "要意",
+            "要易"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ようい」の漢字は「容易」です。",
+          "explanation_vi": "Chữ Hán của 「ようい」 là 「容易」 (dễ dàng).",
+          "sentence_furigana": "質問(しつもん)に対する(たいする)彼女(かのじょ)の答え(こたえ)は__容易(ようい)__に想像(そうぞう)できる。",
+          "sentence_vi": "Tôi có thể dễ dàng tưởng tượng ra câu trả lời của cô ấy cho câu hỏi đó."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "今、仕事中で（　　）が離せないから、あとで電話するよ。",
+          "options": [
+            "顔",
+            "体",
+            "手",
+            "腕"
+          ],
+          "correct_answer": 3,
+          "explanation": "「手が離せない」は「他の用事をする余裕がないほど忙しい」という意味です。",
+          "explanation_vi": "Cụm từ 「手が離せない」 có nghĩa là 'bận rộn không dứt tay ra được'.",
+          "sentence_furigana": "今(いま)、仕事中(しごとちゅう)で（ 手(て) ）が離せ(はなせ)ないから、あとで電話(でんわ)するよ。",
+          "sentence_vi": "Bây giờ tôi đang làm việc bận không dứt tay ra được, tôi sẽ gọi lại sau nhé."
+        },
+        {
+          "id": 8,
+          "text": "（　　）こんなところで、別れた恋人に会うとは思わなかった。",
+          "options": [
+            "まさか",
+            "まさに",
+            "まるで",
+            "まもなく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「まさか」は「よもや〜ないだろう、そんなことはありえない」という予測や期待に反する強い驚きや疑念を表します。",
+          "explanation_vi": "「まさか」 có nghĩa là 'không thể ngờ, không ngờ lại (xảy ra chuyện đó)'.",
+          "sentence_furigana": "（ まさか ）こんなところで、別れ(わかれ)た恋人(こいびと)に会う(あう)とは思わ(おもわ)なかった。",
+          "sentence_vi": "Thật không ngờ là tôi lại gặp người yêu cũ ở một nơi như thế này."
+        },
+        {
+          "id": 9,
+          "text": "学校を選ぶときの大切な（　　）は何ですか。",
+          "options": [
+            "チェック",
+            "ポイント",
+            "レベル",
+            "チャンス"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ポイント（point）」は「要点、重要な部分」のことです。",
+          "explanation_vi": "「ポイント」 (point) có nghĩa là 'điểm mấu chốt, phần quan trọng'.",
+          "sentence_furigana": "学校(がっこう)を選ぶ(えらぶ)ときの大切(たいせつ)な（ ポイント(ぽいんと) ）は何(なに)ですか。",
+          "sentence_vi": "Điểm quan trọng nhất khi chọn trường học là gì vậy?"
+        },
+        {
+          "id": 10,
+          "text": "姉は（　　）、財布を持たずに買い物に行くことがよくある。",
+          "options": [
+            "たのもしくて",
+            "ずうずうしくて",
+            "そそっかしくて",
+            "しっかりしていて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「そそっかしい」は「あわてんぼうで、不注意な様子」を表します。",
+          "explanation_vi": "「そそっかしい」 có nghĩa là 'hấp tấp, vội vàng, hậu đậu'.",
+          "sentence_furigana": "姉(あね)は（ そそっかしく(そそっかしく)て ）、財布(さいふ)を持た(もた)ずに買い物(かいもの)に行く(いく)ことがよくある。",
+          "sentence_vi": "Chị gái tôi rất hấp tấp, thường xuyên đi mua đồ mà lại quên mang theo ví."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "彼女は笑顔が魅力（　　）だ。",
+          "options": [
+            "感",
+            "性",
+            "的",
+            "風"
+          ],
+          "correct_answer": 3,
+          "explanation": "「魅力的（みりょくてき）」で「人の心をひきつける力がある様子」を意味します。",
+          "explanation_vi": "「魅力的」 (miryokuteki) có nghĩa là 'có sức hút, hấp dẫn'.",
+          "sentence_furigana": "彼女(かのじょ)は笑顔(えがお)が魅力（ 的(てき) ）だ。",
+          "sentence_vi": "Cô ấy có một nụ cười thật cuốn hút."
+        },
+        {
+          "id": 12,
+          "text": "7時からの映画はもう（　　）席がなかった。",
+          "options": [
+            "可",
+            "活",
+            "空",
+            "無"
+          ],
+          "correct_answer": 3,
+          "explanation": "「空席（くうせき）」で「あいている座席」を意味します。",
+          "explanation_vi": "「空席」 (kuuseki) có nghĩa là 'ghế trống'.",
+          "sentence_furigana": "7時(しちじ)からの映画(えいが)はもう（ 空(くう) ）席(せき)がなかった。",
+          "sentence_vi": "Suất chiếu phim lúc 7 giờ đã không còn ghế trống nào nữa."
+        },
+        {
+          "id": 13,
+          "text": "もういいよ。言い訳は聞き（　　）。",
+          "options": [
+            "あいた",
+            "あきた",
+            "あきれた",
+            "あふれた"
+          ],
+          "correct_answer": 2,
+          "explanation": "「聞き飽きる（ききあきる）」で「同じことを何度も聞いて、もう聞きたくなくなる」という意味です。",
+          "explanation_vi": "「聞き飽きる」 (kikiakiru) có nghĩa là 'nghe đến phát ngán, nghe chán rồi'.",
+          "sentence_furigana": "もういいよ。言い訳(いいわけ)は聞き（ 飽き(あき)た ）。",
+          "sentence_vi": "Đủ rồi đấy. Tôi đã phát ngán với những lời bào chữa đó rồi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼女のピアノの演奏は__みごとだった__。",
+          "options": [
+            "丁寧だった",
+            "乱暴だった",
+            "すばらしかった",
+            "つまらなかった"
+          ],
+          "correct_answer": 3,
+          "explanation": "「見事（みごと）」は「立派で優れている様子」という意味で、「すばらしい」とほぼ同じです。",
+          "explanation_vi": "「見事」 có nghĩa là 'tuyệt vời, xuất sắc', tương đương với 「すばらしい」.",
+          "sentence_furigana": "彼女(かのじょ)のピアノ(ぴあの)の演奏(えんそう)は__みごとだった__。",
+          "sentence_vi": "Màn biểu diễn đàn piano của cô ấy thật sự xuất sắc."
+        },
+        {
+          "id": 15,
+          "text": "__要するに__、今日は参加できないということですね。",
+          "options": [
+            "つまり",
+            "むしろ",
+            "やはり",
+            "たとえば"
+          ],
+          "correct_answer": 1,
+          "explanation": "「要するに」は「要点を短くまとめると」という意味で、「つまり」とほぼ同じです。",
+          "explanation_vi": "「要するに」 có nghĩa là 'tóm lại, nói tóm lại', tương đương với 「つまり」.",
+          "sentence_furigana": "__要するに__、今日(きょう)は参加(さんか)できないということですね。",
+          "sentence_vi": "Nói tóm lại là hôm nay bạn không thể tham gia được đúng không."
+        },
+        {
+          "id": 16,
+          "text": "昨日から姉が何だか__そわそわしている__。",
+          "options": [
+            "落ち着いている",
+            "落ち着きがない",
+            "自信を持っている",
+            "自信を失っている"
+          ],
+          "correct_answer": 2,
+          "explanation": "「そわそわする」は「気になって落ち着かない様子」を表し、「落ち着きがない」とほぼ同じ意味です。",
+          "explanation_vi": "「そわそわする」 diễn tả trạng thái 'bồn chồn, đứng ngồi không yên', tương đương với 「落ち着きがない」.",
+          "sentence_furigana": "昨日(きのう)から姉(あね)が何だか__そわそわしている__。",
+          "sentence_vi": "Từ hôm qua đến nay không hiểu sao chị tôi cứ bồn chồn đứng ngồi không yên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "はなはだしい",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "その子は__はなはだしい__笑顔で私に話しかけてきた。",
+            "テストの点数がとても__はなはだしくて__がっかりした。",
+            "化粧をしてドレスを着た彼女は、__はなはだしい__美しさだった。",
+            "上司にあいさつもせずに会社を辞めるとは、失礼も__はなはだしい__。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「甚だしい（はなはだしい）」は「程度が普通ではない」という意味で、多くの場合「勘違いも甚だしい」「失礼も甚だしい」など悪い意味で使われます。1と3は「すばらしい」、2は「悪くて」などが適切です。",
+          "explanation_vi": "「甚だしい」 có nghĩa là 'cực kỳ, quá mức' (thường dùng trong những trường hợp tiêu cực như: vô lễ quá mức, hiểu lầm tai hại). Câu 1 và 3 dùng 'tuyệt vời' (すばらしい), câu 2 dùng 'tệ hại' (悪くて) mới đúng.",
+          "sentence_furigana": "上司(じょうし)にあいさつもせずに会社(かいしゃ)を辞める(やめる)とは、失礼(しつれい)も__はなはだしい__。",
+          "sentence_vi": "Nghỉ việc mà không chào hỏi sếp một tiếng, thật là vô lễ hết sức."
+        },
+        {
+          "id": 18,
+          "target_word": "いきなり",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "留学生活にも、__いきなり__慣れてきた。",
+            "10分ぐらい待っていれば、__いきなり__彼は来ますよ。",
+            "駅を出ると、__いきなり__前にタクシー乗り場があります。",
+            "後ろから走ってきた男に、__いきなり__かばんをとられた。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「いきなり」は「何の前触れもなく突然何かが起こる様子」を表します。1は「だんだん/次第に」、2は「そのうち/まもなく」、3は「すぐ」が適切です。",
+          "explanation_vi": "「いきなり」 có nghĩa là 'đột nhiên, bất ngờ'. Câu 1 dùng 'dần dần' (だんだん), câu 2 dùng 'chẳng mấy chốc' (まもなく), câu 3 dùng 'ngay' (すぐ) mới đúng.",
+          "sentence_furigana": "後ろ(うしろ)から走っ(はしっ)てきた男(おとこ)に、__いきなり__かばんをとられた。",
+          "sentence_vi": "Tôi bị một gã đàn ông chạy từ đằng sau tới bất ngờ giật mất túi xách."
+        }
+      ]
+    }
+  ]
+}

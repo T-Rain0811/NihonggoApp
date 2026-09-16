@@ -163,8 +163,9 @@ class StarOrderWidget(QWidget):
 class DrillPracticeWidget(QWidget):
     navigate_back = pyqtSignal()
 
-    def __init__(self, parent=None):
+    def __init__(self, drill_type="grammar", parent=None):
         super().__init__(parent)
+        self.drill_type = drill_type
         self.lesson_list = []
         self.current_data = None
         self.flat_questions = []   # danh sách câu hỏi phẳng kèm part_type
@@ -197,7 +198,8 @@ class DrillPracticeWidget(QWidget):
         btn_back.setObjectName("BtnBack")
         btn_back.clicked.connect(self._on_back_clicked)
 
-        self.lbl_title = QLabel("Bài Tập Drill Ngữ Pháp N2")
+        title_text = "Bài Tập Drill Ngữ Pháp N2" if self.drill_type == "grammar" else "Bài Tập Drill Từ Vựng N2"
+        self.lbl_title = QLabel(title_text)
         self.lbl_title.setObjectName("DrillTitle")
         self.lbl_title.setAlignment(Qt.AlignmentFlag.AlignCenter)
 
@@ -395,7 +397,7 @@ class DrillPracticeWidget(QWidget):
 
     # ─── Lesson list ────────────────────────────────────────────────────────
     def _load_lesson_list(self):
-        self.lesson_list = DataManager.get_drill_lesson_list()
+        self.lesson_list = DataManager.get_drill_lesson_list(self.drill_type)
         
         # Clear existing buttons
         while self.grid_layout.count():
@@ -429,7 +431,7 @@ class DrillPracticeWidget(QWidget):
 
     # ─── Start drill ────────────────────────────────────────────────────────
     def _start_drill_from_filename(self, filename):
-        self.current_data = DataManager.load_drill_lesson(filename)
+        self.current_data = DataManager.load_drill_lesson(filename, self.drill_type)
         if not self.current_data:
             return
 

@@ -1,7 +1,7 @@
 {
   "lesson": 1,
   "title": "第１回",
-  "time_limit_minutes": 20,
+  "time_limit_minutes": 10,
   "parts": [
     {
       "part_type": "multiple_choice",

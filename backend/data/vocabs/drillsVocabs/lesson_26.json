@@ -1,0 +1,315 @@
+{
+  "lesson": 26,
+  "title": "第２６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "社長は私を信用して仕事を__任せて__くれた。",
+          "options": [
+            "うたせて",
+            "まかせて",
+            "もたせて",
+            "やらせて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「任せる」の正しい読み方は「まかせる」です。",
+          "explanation_vi": "Cách đọc đúng của 「任せる」 là 「まかせる」 (giao phó, phó thác).",
+          "sentence_furigana": "社長(しゃちょう)は私(わたし)を信用(しんよう)して仕事(しごと)を__任せ(まかせ)て__くれた。",
+          "sentence_vi": "Giám đốc đã tin tưởng và giao phó công việc cho tôi."
+        },
+        {
+          "id": 2,
+          "text": "去年から行われていた工事が、昨日ですべて__完了__した。",
+          "options": [
+            "かんりゅう",
+            "かんりょう",
+            "がんりゅう",
+            "がんりょう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「完了」の正しい読み方は「かんりょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「完了」 là 「かんりょう」 (hoàn thành, xong xuôi).",
+          "sentence_furigana": "去年(きょねん)から行わ(おこなわ)れていた工事(こうじ)が、昨日(きのう)ですべて__完了(かんりょう)__した。",
+          "sentence_vi": "Công trình được tiến hành từ năm ngoái đã hoàn thành toàn bộ vào ngày hôm qua."
+        },
+        {
+          "id": 3,
+          "text": "大人に向かってあんなことを言うなんて、まったく__生意気__な子どもだ。",
+          "options": [
+            "せいいき",
+            "せいいぎ",
+            "なまいき",
+            "なまいぎ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「生意気」の正しい読み方は「なまいき」です。",
+          "explanation_vi": "Cách đọc đúng của 「生意気」 là 「なまいき」 (xấc xược, hỗn xược).",
+          "sentence_furigana": "大人(おとな)に向かっ(むかっ)てあんなことを言う(いう)なんて、まったく__生意気(なまいき)__な子ども(こども)だ。",
+          "sentence_vi": "Dám nói những lời như vậy với người lớn, đúng là một đứa trẻ xấc xược."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "__つうじょう__よりも安い値段で買うことができた。",
+          "options": [
+            "通上",
+            "通状",
+            "通常",
+            "通情"
+          ],
+          "correct_answer": 3,
+          "explanation": "「つうじょう」の漢字は「通常」です。",
+          "explanation_vi": "Chữ Hán của 「つうじょう」 là 「通常」 (thông thường).",
+          "sentence_furigana": "__通常(つうじょう)__よりも安い(やすい)値段(ねだん)で買う(かう)ことができた。",
+          "sentence_vi": "Tôi đã có thể mua với giá rẻ hơn thông thường."
+        },
+        {
+          "id": 5,
+          "text": "秋になると、米の__しゅうかく__が始まる。",
+          "options": [
+            "集獲",
+            "集穫",
+            "収獲",
+            "収穫"
+          ],
+          "correct_answer": 4,
+          "explanation": "「しゅうかく」の漢字は「収穫」です。",
+          "explanation_vi": "Chữ Hán của 「しゅうかく」 là 「収穫」 (thu hoạch).",
+          "sentence_furigana": "秋(あき)になると、米(こめ)の__収穫(しゅうかく)__が始まる(はじまる)。",
+          "sentence_vi": "Đến mùa thu là bắt đầu thu hoạch lúa."
+        },
+        {
+          "id": 6,
+          "text": "授業中はもっと__しせい__よく座ってください。",
+          "options": [
+            "姿努",
+            "姿勢",
+            "資努",
+            "資勢"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しせい」の漢字は「姿勢」です。",
+          "explanation_vi": "Chữ Hán của 「しせい」 là 「姿勢」 (tư thế).",
+          "sentence_furigana": "授業(じゅぎょう)中(ちゅう)はもっと__姿勢(しせい)__よく座っ(すわっ)てください。",
+          "sentence_vi": "Trong giờ học xin hãy ngồi với tư thế ngay ngắn hơn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "聞きたくない話だったので、耳を手で（　　）。",
+          "options": [
+            "おした",
+            "さわった",
+            "たたいた",
+            "ふさいだ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「耳をふさぐ」で「聞きたくないから耳を覆う」という意味の慣用表現です。",
+          "explanation_vi": "「ふさいだ」 (fusaida - bịt lại). Cụm từ 「耳をふさぐ」 có nghĩa là 'bịt tai lại'.",
+          "sentence_furigana": "聞き(きき)たくない話(はなし)だったので、耳(みみ)を手(て)で（ ふさいだ ）。",
+          "sentence_vi": "Vì đó là câu chuyện tôi không muốn nghe nên tôi đã lấy tay bịt tai lại."
+        },
+        {
+          "id": 8,
+          "text": "首脳会談のために、日程の（　　）を行っている。",
+          "options": [
+            "達成",
+            "調印",
+            "調整",
+            "調達"
+          ],
+          "correct_answer": 3,
+          "explanation": "「日程の調整（ちょうせい）」で「スケジュールの都合を合わせること」を意味します。",
+          "explanation_vi": "「調整」 (chousei) có nghĩa là 'điều chỉnh'. Cụm từ 「日程の調整」 là 'điều chỉnh lịch trình'.",
+          "sentence_furigana": "首脳(しゅのう)会談(かいだん)のために、日程(にってい)の（ 調整(ちょうせい) ）を行っ(おこなっ)ている。",
+          "sentence_vi": "Đang tiến hành điều chỉnh lịch trình để chuẩn bị cho hội nghị thượng đỉnh."
+        },
+        {
+          "id": 9,
+          "text": "よく行く近所のレストランが（　　）されてきれいになった。",
+          "options": [
+            "オープン",
+            "フレッシュ",
+            "リハーサル",
+            "リニューアル"
+          ],
+          "correct_answer": 4,
+          "explanation": "「リニューアル（renewal）」は「お店などを改装して新しくすること」を意味します。",
+          "explanation_vi": "「リニューアル」 (renewal) có nghĩa là 'làm mới, cải tạo lại, tân trang'.",
+          "sentence_furigana": "よく行く(いく)近所(きんじょ)のレストラン(れすとらん)が（ リニューアル(りにゅーある) ）されてきれいになった。",
+          "sentence_vi": "Nhà hàng ở gần nhà mà tôi hay đến đã được tân trang lại nên trông rất đẹp."
+        },
+        {
+          "id": 10,
+          "text": "彼女が何を考えているのか、（　　）わからない。",
+          "options": [
+            "あっさり",
+            "さっぱり",
+            "すっかり",
+            "すっきり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「さっぱり〜ない」の形で「全く〜ない」という意味になります。",
+          "explanation_vi": "「さっぱり」 đi với phủ định có nghĩa là 'hoàn toàn không'.",
+          "sentence_furigana": "彼女(かのじょ)が何(なに)を考え(かんがえ)ているのか、（ さっぱり ）わからない。",
+          "sentence_vi": "Tôi hoàn toàn không hiểu cô ấy đang nghĩ cái gì."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "疲れたので（　　）休みしましょう。",
+          "options": [
+            "こ",
+            "いち",
+            "はん",
+            "ひと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「一休み（ひとやすみ）」で「少しの間休むこと」を意味します。",
+          "explanation_vi": "「一休み」 (hitoyasumi) có nghĩa là 'nghỉ ngơi một lát'.",
+          "sentence_furigana": "疲れ(つかれ)たので（ ひと ）休み(やすみ)しましょう。",
+          "sentence_vi": "Mệt rồi nên chúng ta hãy nghỉ ngơi một lát đi."
+        },
+        {
+          "id": 12,
+          "text": "この書類のコピーを30（　　）とってください。",
+          "options": [
+            "回",
+            "台",
+            "部",
+            "本"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜部（ぶ）」は書類などのセットを数えるときの助数詞です。",
+          "explanation_vi": "「〜部」 (~bu) là đơn vị đếm tài liệu, bản sao. 「30部」 là 30 bản.",
+          "sentence_furigana": "この書類(しょるい)のコピー(こぴー)を30（ 部(ぶ) ）とってください。",
+          "sentence_vi": "Hãy photo tài liệu này ra 30 bản nhé."
+        },
+        {
+          "id": 13,
+          "text": "突然、新しいアイディアを思い（　　）。",
+          "options": [
+            "きった",
+            "こんだ",
+            "しった",
+            "ついた"
+          ],
+          "correct_answer": 4,
+          "explanation": "「思いつく（おもいつく）」で「考えがふと浮かぶ」という意味です。",
+          "explanation_vi": "「思いつく」 (omoitsuku) có nghĩa là 'nảy ra (ý tưởng)'.",
+          "sentence_furigana": "突然(とつぜん)、新しい(あたらしい)アイディア(あいでぃあ)を思い（ つい(つい)た ）。",
+          "sentence_vi": "Đột nhiên tôi nảy ra một ý tưởng mới."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "先輩に「仕事が__のろい__」と叱られた。",
+          "options": [
+            "遅い",
+            "丁寧でない",
+            "間違いが多い",
+            "やる気がない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「のろい」は「動きや進み方が遅い」という意味で、「遅い」とほぼ同じです。",
+          "explanation_vi": "「のろい」 có nghĩa là 'chậm chạp', tương đương với 「遅い」.",
+          "sentence_furigana": "先輩(せんぱい)に「仕事(しごと)が__のろい__」と叱ら(しから)れた。",
+          "sentence_vi": "Tôi bị tiền bối mắng là 'làm việc chậm chạp'."
+        },
+        {
+          "id": 15,
+          "text": "この辺りは__ひっそりしている__。",
+          "options": [
+            "きたない",
+            "きれいだ",
+            "しずかだ",
+            "にぎやかだ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ひっそりしている」は「物音がせず静かな様子」を表し、「静かだ」とほぼ同じ意味です。",
+          "explanation_vi": "「ひっそりしている」 diễn tả trạng thái 'tĩnh mịch, yên ắng', tương đương với 「しずかだ」.",
+          "sentence_furigana": "この辺り(あたり)は__ひっそりしている__。",
+          "sentence_vi": "Khu vực quanh đây rất yên ắng."
+        },
+        {
+          "id": 16,
+          "text": "かなり時間がかかるので、__覚悟__しておいてください。",
+          "options": [
+            "記録して",
+            "起きていて",
+            "心の準備をして",
+            "時間をはかって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「覚悟（かくご）」は「困難な事態を予想して心の準備をすること」という意味で、「心の準備をして」とほぼ同じです。",
+          "explanation_vi": "「覚悟」 có nghĩa là 'sẵn sàng, chuẩn bị tinh thần', tương đương với 「心の準備をして」.",
+          "sentence_furigana": "かなり時間(じかん)がかかるので、__覚悟(かくご)__しておいてください。",
+          "sentence_vi": "Sẽ tốn khá nhiều thời gian đấy nên hãy chuẩn bị tinh thần trước nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "大した",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "あの__大した__木の下で少し休みましょう。",
+            "いくらあったら__大した__家が建てられるのだろう。",
+            "ノーベル賞がもらえるような__大した__研究がしたい。",
+            "__大した__ものじゃありませんが、どうぞ召し上がってください。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「大した（たいした）」は「程度の甚だしい様子、立派な様子」を表し、4の「大したものじゃありませんが」は謙遜して贈り物を渡す際の決まり文句です。1や2は「大きな」、3は「素晴らしい」などが自然です。",
+          "explanation_vi": "「大した」 có nghĩa là 'to tát, đáng kể, vĩ đại'. Câu 4 「大したものじゃありませんが」 là câu nói cửa miệng khiêm tốn khi tặng quà (Tuy không có gì to tát/đáng giá nhưng xin mời anh chị nhận cho).",
+          "sentence_furigana": "__大した(たいした)__ものじゃありませんが、どうぞ召し上がっ(めしあがっ)てください。",
+          "sentence_vi": "Không có gì to tát đâu ạ, nhưng xin mời anh/chị thưởng thức."
+        },
+        {
+          "id": 18,
+          "target_word": "ごまかす",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "答えたくなかったので、笑って__ごまかした__。",
+            "簡単な問題を3問も__ごまかして__しまった。",
+            "泥棒は女の人のバッグから財布を__ごまかした__。",
+            "燃えるゴミと燃えないゴミの日を__ごまかして__しまって怒られた。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ごまかす」は「本当のことが知られないように取り繕う、はぐらかす」という意味です。2や4は「まちがえて」、3は「盗んだ/ひったくった」が適切です。",
+          "explanation_vi": "「ごまかす」 có nghĩa là 'lấp liếm, đánh trống lảng, lừa gạt'. Câu 1 dùng với nghĩa cười trừ để lấp liếm/đánh trống lảng. Câu 2 và 4 phải dùng 'nhầm' (まちがえて), câu 3 dùng 'ăn trộm' (盗んだ) mới đúng.",
+          "sentence_furigana": "答え(こたえ)たくなかったので、笑っ(わらっ)て__ごまかした__。",
+          "sentence_vi": "Vì không muốn trả lời nên tôi đã cười để đánh trống lảng."
+        }
+      ]
+    }
+  ]
+}

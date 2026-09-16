@@ -1,0 +1,315 @@
+{
+  "lesson": 28,
+  "title": "第２８回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "彼女は__紫色__の服がよく似合う。",
+          "options": [
+            "ちゃいろ",
+            "こんいろ",
+            "みどりいろ",
+            "むらさきいろ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「紫色」の正しい読み方は「むらさきいろ」です。",
+          "explanation_vi": "Cách đọc đúng của 「紫色」 là 「むらさきいろ」 (màu tím).",
+          "sentence_furigana": "彼女(かのじょ)は__紫色(むらさきいろ)__の服(ふく)がよく似合う(にあう)。",
+          "sentence_vi": "Cô ấy rất hợp với quần áo màu tím."
+        },
+        {
+          "id": 2,
+          "text": "この土地は__作物__を育てるのには向かない。",
+          "options": [
+            "さくぶつ",
+            "さくもつ",
+            "つくぶつ",
+            "つくもつ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「作物」の正しい読み方は「さくもつ」です。",
+          "explanation_vi": "Cách đọc đúng của 「作物」 là 「さくもつ」 (hoa màu, cây trồng).",
+          "sentence_furigana": "この土地(とち)は__作物(さくもつ)__を育てる(そだてる)のには向か(むか)ない。",
+          "sentence_vi": "Mảnh đất này không thích hợp để trồng hoa màu."
+        },
+        {
+          "id": 3,
+          "text": "この仕事の__担当者__は誰ですか。",
+          "options": [
+            "たんとうしゃ",
+            "たんとうじゃ",
+            "たんどうしゃ",
+            "たんどうじゃ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「担当者」の正しい読み方は「たんとうしゃ」です。",
+          "explanation_vi": "Cách đọc đúng của 「担当者」 là 「たんとうしゃ」 (người phụ trách).",
+          "sentence_furigana": "この仕事(しごと)の__担当(たんとう)者(しゃ)__は誰(だれ)ですか。",
+          "sentence_vi": "Người phụ trách công việc này là ai vậy?"
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "この本は何回も読んだので、__あんき__している。",
+          "options": [
+            "暗記",
+            "暗紀",
+            "案記",
+            "案紀"
+          ],
+          "correct_answer": 1,
+          "explanation": "「あんき」の漢字は「暗記」です。",
+          "explanation_vi": "Chữ Hán của 「あんき」 là 「暗記」 (học thuộc lòng, ghi nhớ).",
+          "sentence_furigana": "この本(ほん)は何回(なんかい)も読ん(よん)だので、__暗記(あんき)__している。",
+          "sentence_vi": "Cuốn sách này tôi đã đọc đi đọc lại nhiều lần nên đã thuộc lòng luôn rồi."
+        },
+        {
+          "id": 5,
+          "text": "玄関は__かいほう__禁止です。必ず閉めてください。",
+          "options": [
+            "開方",
+            "開法",
+            "開放",
+            "開封"
+          ],
+          "correct_answer": 3,
+          "explanation": "「かいほう」の漢字は「開放」です。",
+          "explanation_vi": "Chữ Hán của 「かいほう」 là 「開放」 (mở cửa, để ngỏ).",
+          "sentence_furigana": "玄関(げんかん)は__開放(かいほう)__禁止(きんし)です。必ず(かならず)閉め(しめ)てください。",
+          "sentence_vi": "Cửa chính cấm để mở ngỏ. Xin hãy nhớ đóng cửa lại."
+        },
+        {
+          "id": 6,
+          "text": "実験に成功する__かくりつ__はとても低い。",
+          "options": [
+            "格卒",
+            "格率",
+            "確卒",
+            "確率"
+          ],
+          "correct_answer": 4,
+          "explanation": "「かくりつ」の漢字は「確率」です。",
+          "explanation_vi": "Chữ Hán của 「かくりつ」 là 「確率」 (xác suất).",
+          "sentence_furigana": "実験(じっけん)に成功(せいこう)する__確率(かくりつ)__はとても低い(ひくい)。",
+          "sentence_vi": "Xác suất thành công của cuộc thử nghiệm này là rất thấp."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "この作家は亡くなってから高く（　　）されるようになった。",
+          "options": [
+            "好評",
+            "評価",
+            "評判",
+            "評論"
+          ],
+          "correct_answer": 2,
+          "explanation": "「評価（ひょうか）」は「事物の価値や価格を定めること」を意味します。「高く評価される」で「価値が認められる」という意味になります。",
+          "explanation_vi": "「評価」 (hyouka) có nghĩa là 'đánh giá'. Cụm từ 「高く評価される」 có nghĩa là 'được đánh giá cao'.",
+          "sentence_furigana": "この作家(さっか)は亡くなっ(なくなっ)てから高く(たかく)（ 評価(ひょうか) ）されるようになった。",
+          "sentence_vi": "Nhà văn này sau khi mất mới bắt đầu được đánh giá cao."
+        },
+        {
+          "id": 8,
+          "text": "話が（　　）しまいましたね。元に戻しましょう。",
+          "options": [
+            "ゆれて",
+            "まねて",
+            "にげて",
+            "それて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「それる」は「本来の目的や方向から外れる」という意味です。「話がそれる」で「本題から外れる」という意味になります。",
+          "explanation_vi": "「逸れる」 (soreru) có nghĩa là 'chệch hướng'. Cụm từ 「話がそれる」 có nghĩa là 'câu chuyện bị lạc đề'.",
+          "sentence_furigana": "話(はなし)が（ それて ）しまいましたね。元(もと)に戻し(もどし)ましょう。",
+          "sentence_vi": "Câu chuyện bị đi lạc đề mất rồi nhỉ. Chúng ta hãy quay trở lại chủ đề chính nào."
+        },
+        {
+          "id": 9,
+          "text": "娘の突然の結婚は、私にとって（　　）ことだった。",
+          "options": [
+            "思いがけない",
+            "思い出せない",
+            "思いつかない",
+            "思いやらない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「思いがけない」で「全く予想していなかった、意外な」という意味です。",
+          "explanation_vi": "「思いがけない」 (omoigakenai) có nghĩa là 'không ngờ tới, ngoài sức tưởng tượng'.",
+          "sentence_furigana": "娘(むすめ)の突然(とつぜん)の結婚(けっこん)は、私(わたし)にとって（ 思いがけない(おもいがけない) ）ことだった。",
+          "sentence_vi": "Việc con gái kết hôn đột ngột là chuyện hoàn toàn bất ngờ đối với tôi."
+        },
+        {
+          "id": 10,
+          "text": "彼は手紙を読み終えたとたん、それを（　　）と破って捨てた。",
+          "options": [
+            "ばりばり",
+            "びりびり",
+            "むかむか",
+            "ごちゃごちゃ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「びりびり」は「紙や布などを勢いよく引き裂く音や様子」を表します。",
+          "explanation_vi": "「びりびり」 diễn tả âm thanh hoặc trạng thái 'xé toạc (giấy)'.",
+          "sentence_furigana": "彼(かれ)は手紙(てがみ)を読み(よみ)終え(おえ)たとたん、それを（ びりびり ）と破っ(やぶっ)て捨て(すて)た。",
+          "sentence_vi": "Anh ta vừa đọc xong bức thư là xé toạc nó ra rồi vứt đi ngay lập tức."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "政治に（　　）関心な人が増えているようだ。",
+          "options": [
+            "否",
+            "非",
+            "不",
+            "無"
+          ],
+          "correct_answer": 4,
+          "explanation": "「無関心（むかんしん）」で「興味や関心を持たないこと」を意味します。",
+          "explanation_vi": "「無関心」 (mukanshin) có nghĩa là 'không quan tâm, thờ ơ'.",
+          "sentence_furigana": "政治(せいじ)に（ 無(む) ）関心(かんしん)な人(ひと)が増え(ふえ)ているようだ。",
+          "sentence_vi": "Có vẻ như những người không quan tâm đến chính trị đang tăng lên."
+        },
+        {
+          "id": 12,
+          "text": "次の旅行では、ホテルではなく和（　　）の旅館に泊まりたい。",
+          "options": [
+            "形",
+            "風",
+            "様",
+            "流"
+          ],
+          "correct_answer": 2,
+          "explanation": "「和風（わふう）」で「日本風、日本特有の様式」を意味します。",
+          "explanation_vi": "「和風」 (wafuu) có nghĩa là 'phong cách Nhật Bản, kiểu Nhật'.",
+          "sentence_furigana": "次(つぎ)の旅行(りょこう)では、ホテル(ほてる)ではなく和(わ)（ 風(ふう) ）の旅館(りょかん)に泊まり(とまり)たい。",
+          "sentence_vi": "Lần đi du lịch tới, tôi muốn trọ lại một lữ quán kiểu Nhật chứ không phải là khách sạn."
+        },
+        {
+          "id": 13,
+          "text": "私と前田さんは、出身（　　）が同じだ。",
+          "options": [
+            "所",
+            "場",
+            "地",
+            "土"
+          ],
+          "correct_answer": 3,
+          "explanation": "「出身地（しゅっしんち）」で「その人が生まれた土地」を意味します。",
+          "explanation_vi": "「出身地」 (shusshinchi) có nghĩa là 'nơi sinh, quê quán'.",
+          "sentence_furigana": "私(わたし)と前田(まえだ)さんは、出身(しゅっしん)（ 地(ち) ）が同じ(おなじ)だ。",
+          "sentence_vi": "Tôi và anh Maeda có chung quê quán."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "この会社では、__先端__技術を使った研究が進められている。",
+          "options": [
+            "進んだ",
+            "尖った",
+            "特別な",
+            "有名な"
+          ],
+          "correct_answer": 1,
+          "explanation": "「先端（せんたん）」は「物事の進んでいる先頭」を意味し、「先端技術」で「最も進んだ技術」という意味になります。",
+          "explanation_vi": "「先端」 có nghĩa là 'mũi nhọn, đi đầu, tiên tiến', tương đương với 「進んだ」.",
+          "sentence_furigana": "この会社(かいしゃ)では、__先端(せんたん)__技術(ぎじゅつ)を使っ(つかっ)た研究(けんきゅう)が進め(すすめ)られている。",
+          "sentence_vi": "Công ty này đang tiến hành các nghiên cứu sử dụng công nghệ tiên tiến."
+        },
+        {
+          "id": 15,
+          "text": "家族旅行にまでついてくるなんて、__ずうずうしい__人ですね。",
+          "options": [
+            "意欲がある",
+            "親しみやすい",
+            "することがない",
+            "迷惑を考えない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ずうずうしい」は「恥を知らない、図太く厚かましい」という意味で、「迷惑を考えない」とほぼ同じです。",
+          "explanation_vi": "「ずうずうしい」 có nghĩa là 'trơ trẽn, không biết ngượng, vô duyên', tương đương với 「迷惑を考えない」.",
+          "sentence_furigana": "家族(かぞく)旅行(りょこう)にまでついてくるなんて、__ずうずうしい__人(ひと)ですね。",
+          "sentence_vi": "Thậm chí đi du lịch gia đình cũng vác mặt đi theo, đúng là người vô duyên không biết nghĩ cho phiền phức của người khác."
+        },
+        {
+          "id": 16,
+          "text": "パーティーのためにたくさんごちそうを__こしらえた__。",
+          "options": [
+            "作った",
+            "並べた",
+            "準備した",
+            "注文した"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こしらえる」は「工夫して作る、用意する」という意味で、「作った」とほぼ同じです。",
+          "explanation_vi": "「こしらえる」 có nghĩa là 'làm, tạo ra, chế biến', tương đương với 「作った」.",
+          "sentence_furigana": "パーティー(ぱーてぃー)のためにたくさんごちそうを__こしらえた__。",
+          "sentence_vi": "Tôi đã làm rất nhiều món ngon cho bữa tiệc."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "口実",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "遅れた__口実__を説明してください。",
+            "__口実__もなく泣かれて、気分が悪い。",
+            "息子は勉強を__口実__にして、家の手伝いをまったくしない。",
+            "彼は英語が話せるという__口実__で、いつも通訳を頼まれる。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「口実（こうじつ）」は「言い逃れや隠れみのにするための理由、言い訳」という意味です。1、2、4は単純に「理由」を使うのが適切です。",
+          "explanation_vi": "「口実」 có nghĩa là 'viện cớ, lấy cớ'. Câu 1, 2, 4 chỉ cần dùng 'lý do' (理由) là phù hợp nhất.",
+          "sentence_furigana": "息子(むすこ)は勉強(べんきょう)を__口実(こうじつ)__にして、家(いえ)の手伝い(てつだい)をまったくしない。",
+          "sentence_vi": "Con trai tôi lấy cớ là phải học nên không thèm giúp việc nhà một chút nào."
+        },
+        {
+          "id": 18,
+          "target_word": "カバーする",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "私の失敗を先輩が__カバーして__くれた。",
+            "あと1万円__カバーすれば__、もっといい品物が買える。",
+            "お金が足りなかったので、兄に__カバーして__もらった。",
+            "もう少し__カバーして__詳しく説明していただけませんか。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「カバー（cover）する」は「補う、補って覆う」という意味で、人の失敗などを補う際によく使われます。2は「足せば」、3は「貸して/払って」、4は「補足して/加えて」が適切です。",
+          "explanation_vi": "「カバーする」 (cover) có nghĩa là 'che chở, gánh vác bù, bù đắp' (cho sai lầm, thiếu sót của người khác). Câu 2 dùng 'thêm vào' (足せば), câu 3 dùng 'cho mượn/trả thay' (貸して/払って), câu 4 dùng 'bổ sung thêm' (補足して) mới đúng.",
+          "sentence_furigana": "私(わたし)の失敗(しっぱい)を先輩(せんぱい)が__カバー(かばー)して__くれた。",
+          "sentence_vi": "Tiền bối đã đỡ đạn (gánh vác bù đắp) cho thất bại của tôi."
+        }
+      ]
+    }
+  ]
+}

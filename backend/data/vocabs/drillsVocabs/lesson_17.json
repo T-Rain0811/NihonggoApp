@@ -1,0 +1,315 @@
+{
+  "lesson": 17,
+  "title": "第１７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "検査の結果、心臓に__異常__が見つかった。",
+          "options": [
+            "いしょ",
+            "いじょ",
+            "いしょう",
+            "いじょう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「異常」の正しい読み方は「いじょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「異常」 là 「いじょう」 (bất thường).",
+          "sentence_furigana": "検査(けんさ)の結果(けっか)、心臓(しんぞう)に__異常(いじょう)__が見つかっ(みつかっ)た。",
+          "sentence_vi": "Kết quả kiểm tra cho thấy tim có dấu hiệu bất thường."
+        },
+        {
+          "id": 2,
+          "text": "今後のご__活躍__をお祈りします。",
+          "options": [
+            "かつやく",
+            "かつよう",
+            "がつやく",
+            "がつよう"
+          ],
+          "correct_answer": 1,
+          "explanation": "「活躍」の正しい読み方は「かつやく」です。",
+          "explanation_vi": "Cách đọc đúng của 「活躍」 là 「かつやく」 (hoạt động, cống hiến).",
+          "sentence_furigana": "今後(こんご)のご__活躍(かつやく)__をお祈り(おいのり)します。",
+          "sentence_vi": "Tôi xin chúc bạn sẽ gặt hái được nhiều thành công trong thời gian tới."
+        },
+        {
+          "id": 3,
+          "text": "私を正社員として__雇って__くれるところがあれば、どこでも働きたい。",
+          "options": [
+            "かえって",
+            "ひろって",
+            "やとって",
+            "やしなって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「雇う」の正しい読み方は「やとう」です。",
+          "explanation_vi": "Cách đọc đúng của 「雇う」 là 「やとう」 (thuê, mướn).",
+          "sentence_furigana": "私(わたし)を正社員(せいしゃいん)として__雇っ(やとっ)て__くれるところがあれば、どこでも働き(はたらき)たい。",
+          "sentence_vi": "Nếu có nơi nào chịu thuê tôi làm nhân viên chính thức thì ở đâu tôi cũng muốn làm."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "夜寝ているときに、突然__むね__が痛くなった。",
+          "options": [
+            "腹",
+            "腰",
+            "胸",
+            "腕"
+          ],
+          "correct_answer": 3,
+          "explanation": "「むね」の漢字は「胸」です。",
+          "explanation_vi": "Chữ Hán của 「むね」 là 「胸」 (ngực).",
+          "sentence_furigana": "夜(よる)寝(ね)ているときに、突然(とつぜん)__胸(むね)__が痛く(いたく)なった。",
+          "sentence_vi": "Lúc đang ngủ vào ban đêm, ngực tôi đột nhiên đau thắt lại."
+        },
+        {
+          "id": 5,
+          "text": "夏祭りなど、この町の__でんとう__の行事を守りたい。",
+          "options": [
+            "仏統",
+            "仏総",
+            "伝統",
+            "伝総"
+          ],
+          "correct_answer": 3,
+          "explanation": "「でんとう」の漢字は「伝統」です。",
+          "explanation_vi": "Chữ Hán của 「でんとう」 là 「伝統」 (truyền thống).",
+          "sentence_furigana": "夏祭り(なつまつり)など、この町(まち)の__伝統(でんとう)__の行事(ぎょうじ)を守り(まもり)たい。",
+          "sentence_vi": "Tôi muốn gìn giữ các sự kiện truyền thống của thị trấn này như lễ hội mùa hè."
+        },
+        {
+          "id": 6,
+          "text": "寒かったのでエアコンの温度を__ちょうせつ__した。",
+          "options": [
+            "調整",
+            "調節",
+            "調接",
+            "調折"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ちょうせつ」の漢字は「調節」です。",
+          "explanation_vi": "Chữ Hán của 「ちょうせつ」 là 「調節」 (điều tiết, điều chỉnh).",
+          "sentence_furigana": "寒かっ(さむかっ)たのでエアコン(えあこん)の温度(おんど)を__調節(ちょうせつ)__した。",
+          "sentence_vi": "Vì trời lạnh nên tôi đã điều chỉnh nhiệt độ điều hòa."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "暖かくなって、桜の（　　）がふくらんできた。",
+          "options": [
+            "くき",
+            "みき",
+            "つぼみ",
+            "はなびら"
+          ],
+          "correct_answer": 3,
+          "explanation": "「つぼみ」は「まだ咲いていない花のこと（蕾）」です。",
+          "explanation_vi": "「つぼみ」 có nghĩa là 'nụ hoa'.",
+          "sentence_furigana": "暖かく(あたたかく)なって、桜(さくら)の（ つぼみ ）がふくらんできた。",
+          "sentence_vi": "Trời trở nên ấm áp, những nụ hoa anh đào đã bắt đầu phồng lên."
+        },
+        {
+          "id": 8,
+          "text": "短時間で上達するには、練習方法に（　　）が必要だ。",
+          "options": [
+            "工夫",
+            "意欲",
+            "経験",
+            "作業"
+          ],
+          "correct_answer": 1,
+          "explanation": "「工夫（くふう）」は「よりよい方法などをいろいろ考えること」です。",
+          "explanation_vi": "「工夫」 (kufuu) có nghĩa là 'công phu, dày công tìm tòi, bỏ công suy nghĩ'.",
+          "sentence_furigana": "短(たん)時間(じかん)で上達(じょうたつ)するには、練習(れんしゅう)方法(ほうほう)に（ 工夫(くふう) ）が必要(ひつよう)だ。",
+          "sentence_vi": "Để tiến bộ trong thời gian ngắn thì cần phải đầu tư suy nghĩ về phương pháp luyện tập."
+        },
+        {
+          "id": 9,
+          "text": "こんなにたくさんある中から使える物を探すのは（　　）だ。",
+          "options": [
+            "せっかく",
+            "もっとも",
+            "やっかい",
+            "めんどうくさい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「厄介（やっかい）」は「手間がかかったり解決が難しかったりして面倒な様子」を表します。「めんどうくさいだ」とは言わないため「やっかいだ」が正解です。",
+          "explanation_vi": "「やっかい」 có nghĩa là 'phiền phức, rắc rối'. Do đằng sau có 「だ」 nên không thể chọn 「めんどうくさい」 (tính từ đuôi i).",
+          "sentence_furigana": "こんなにたくさんある中(なか)から使える(つかえる)物(もの)を探す(さがす)のは（ やっかい ）だ。",
+          "sentence_vi": "Việc tìm kiếm đồ dùng được từ trong một đống đồ nhiều như thế này thật là phiền phức."
+        },
+        {
+          "id": 10,
+          "text": "長く座っていたので、足が（　　）。",
+          "options": [
+            "こわれた",
+            "しびれた",
+            "ちぢんだ",
+            "とまった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「痺れる（しびれる）」は「長く正座した時などに感覚がなくなり、じりじりした痛みを感じる」という意味です。",
+          "explanation_vi": "「痺れる」 (shibireru) có nghĩa là 'bị tê (tay, chân)'.",
+          "sentence_furigana": "長く(ながく)座っ(すわっ)ていたので、足(あし)が（ しびれた ）。",
+          "sentence_vi": "Vì ngồi lâu quá nên chân tôi đã bị tê."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "A国では、ここ数年（　　）景気が続いている。",
+          "options": [
+            "高",
+            "好",
+            "良",
+            "優"
+          ],
+          "correct_answer": 2,
+          "explanation": "「好景気（こうけいき）」で「経済の状況が良いこと」を意味します。",
+          "explanation_vi": "「好景気」 (koukeiki) có nghĩa là 'nền kinh tế phát triển tốt, khởi sắc'.",
+          "sentence_furigana": "A国(えーこく)では、ここ数年(すうねん)（ 好(こう) ）景気(けいき)が続い(つづい)ている。",
+          "sentence_vi": "Ở nước A, tình hình kinh tế phát triển tốt đã kéo dài trong suốt mấy năm qua."
+        },
+        {
+          "id": 12,
+          "text": "あまり期待していなかったが、新製品は予想（　　）によく売れた。",
+          "options": [
+            "前",
+            "上",
+            "外",
+            "中"
+          ],
+          "correct_answer": 3,
+          "explanation": "「予想外（よそうがい）」で「前もって考えていたことと違うこと」を意味します。",
+          "explanation_vi": "「予想外」 (yosougai) có nghĩa là 'ngoài dự đoán, bất ngờ'.",
+          "sentence_furigana": "あまり期待(きたい)していなかったが、新(しん)製品(せいひん)は予想（ 外(がい) ）によく売れ(うれ)た。",
+          "sentence_vi": "Tuy tôi đã không kỳ vọng nhiều nhưng sản phẩm mới đã bán rất chạy, vượt ngoài dự đoán."
+        },
+        {
+          "id": 13,
+          "text": "友人から結婚式の招待（　　）が届いた。",
+          "options": [
+            "紙",
+            "状",
+            "書",
+            "証"
+          ],
+          "correct_answer": 2,
+          "explanation": "「招待状（しょうたいじょう）」で「招待のために出す手紙」を意味します。",
+          "explanation_vi": "「招待状」 (shoutaijou) có nghĩa là 'thiệp mời, giấy mời'.",
+          "sentence_furigana": "友人(ゆうじん)から結婚式(けっこんしき)の招待（ 状(じょう) ）が届い(とどい)た。",
+          "sentence_vi": "Tôi đã nhận được thiệp mời đám cưới từ người bạn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼の返事はいつも__あいまいだ__。",
+          "options": [
+            "反対だ",
+            "賛成だ",
+            "はっきりしない",
+            "はっきりしている"
+          ],
+          "correct_answer": 3,
+          "explanation": "「曖昧（あいまい）」は「物事がはっきりしない様子」という意味で、「はっきりしない」とほぼ同じです。",
+          "explanation_vi": "「あいまい」 có nghĩa là 'mơ hồ, không rõ ràng', tương đương với 「はっきりしない」.",
+          "sentence_furigana": "彼(かれ)の返事(へんじ)はいつも__あいまいだ__。",
+          "sentence_vi": "Câu trả lời của anh ấy lúc nào cũng mơ hồ."
+        },
+        {
+          "id": 15,
+          "text": "コンサートが始まる時間になり、__続々と__人が集まってきた。",
+          "options": [
+            "がんがん",
+            "ぐんぐん",
+            "ずんずん",
+            "どんどん"
+          ],
+          "correct_answer": 4,
+          "explanation": "「続々と（ぞくぞくと）」は「次から次へと絶え間なく続く様子」という意味で、「どんどん」に近いです。",
+          "explanation_vi": "「続々と」 có nghĩa là 'liên tục, dồn dập, nối đuôi nhau', tương đương với 「どんどん」.",
+          "sentence_furigana": "コンサート(こんさーと)が始まる(はじまる)時間(じかん)になり、__続々と(ぞくぞくと)__人(ひと)が集まっ(あつまっ)てきた。",
+          "sentence_vi": "Khi đến giờ bắt đầu buổi hòa nhạc, mọi người đã ùn ùn kéo đến."
+        },
+        {
+          "id": 16,
+          "text": "昨日のことはもういいですから、__気にしないでください__。",
+          "options": [
+            "怒らないで",
+            "心配しないで",
+            "何もしないで",
+            "何も言わないで"
+          ],
+          "correct_answer": 2,
+          "explanation": "「気にする」は「心にとめる、心配する」という意味で、「気にしない」は「心配しない」とほぼ同じです。",
+          "explanation_vi": "「気にする」 có nghĩa là bận tâm, lo lắng. Do đó 「気にしない」 tương đương với 「心配しないで」 (đừng lo, đừng bận tâm).",
+          "sentence_furigana": "昨日(きのう)のことはもういいですから、__気(き)にしないでください__。",
+          "sentence_vi": "Chuyện ngày hôm qua xong rồi, cậu đừng bận tâm nữa nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "案外",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "弟が医者になるとは__案外__だった。",
+            "__案外な__ことに、優勝候補の選手が負けてしまった。",
+            "午後の会議には全員出席すること。__案外__は認めません。",
+            "ここは古くて小さい店ですが、__案外__おいしいんですよ。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「案外（あんがい）」は「予想していたことと違う様子」を表します。1と2は「意外」、3は「例外」が適切です。",
+          "explanation_vi": "「案外」 có nghĩa là 'không ngờ đến, trái với dự đoán'. Câu 1 và 2 dùng 'ngoài dự tính/bất ngờ' (意外), câu 3 dùng 'ngoại lệ' (例外) mới đúng.",
+          "sentence_furigana": "ここは古く(ふるく)て小さい(ちいさい)店(みせ)ですが、__案外(あんがい)__おいしいんですよ。",
+          "sentence_vi": "Đây là một quán ăn nhỏ và cũ kỹ nhưng đồ ăn lại ngon không tưởng đấy."
+        },
+        {
+          "id": 18,
+          "target_word": "すらすら",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "高熱が出て、頭が__すらすら__する。",
+            "疲れて__すらすら__です。早く休みたい。",
+            "何度も練習したら、__すらすら__泳げるようになった。",
+            "日本語の勉強を始めて2年経ち、今では新聞も__すらすら__読める。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「すらすら」は「物事が止まらずなめらかに進む様子」を表し、話したり読んだりする場面でよく使われます。1は「くらくら」、2は「くたくた/へろへろ」、3は「すいすい」が適切です。",
+          "explanation_vi": "「すらすら」 có nghĩa là 'trôi chảy, lưu loát' (thường dùng cho việc đọc, viết, nói). Câu 1 dùng 'choáng váng' (くらくら), câu 2 dùng 'mệt lả' (くたくた), câu 3 dùng 'thoăn thoắt/băng băng' (すいすい) mới đúng.",
+          "sentence_furigana": "日本語(にほんご)の勉強(べんきょう)を始め(はじめ)て2年(にねん)経ち(たち)、今(いま)では新聞(しんぶん)も__すらすら__読める(よめる)。",
+          "sentence_vi": "Bắt đầu học tiếng Nhật được 2 năm, bây giờ tôi đã có thể đọc báo một cách trôi chảy."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "lesson": 2,
+  "title": "第２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "台風が関東地方に__接近__しているそうだ。",
+          "options": [
+            "せきん",
+            "せいきん",
+            "せつきん",
+            "せっきん"
+          ],
+          "correct_answer": 4,
+          "explanation": "「接近」の正しい読み方は「せっきん」です。",
+          "explanation_vi": "Cách đọc đúng của 「接近」 là 「せっきん」 (tiếp cận).",
+          "sentence_furigana": "台風(たいふう)が関東地方(かんとうちほう)に__接近(せっきん)__しているそうだ。",
+          "sentence_vi": "Nghe nói cơn bão đang tiến gần đến vùng Kanto."
+        },
+        {
+          "id": 2,
+          "text": "それでは、来月の__中旬__にまたご連絡します。",
+          "options": [
+            "なかば",
+            "なかごろ",
+            "ちゅうかん",
+            "ちゅうじゅん"
+          ],
+          "correct_answer": 4,
+          "explanation": "「中旬」の正しい読み方は「ちゅうじゅん」です。",
+          "explanation_vi": "Cách đọc đúng của 「中旬」 là 「ちゅうじゅん」 (trung tuần / giữa tháng).",
+          "sentence_furigana": "それでは、来月(らいげつ)の__中旬(ちゅうじゅん)__にまたご連絡(れんらく)します。",
+          "sentence_vi": "Vậy thì, tôi sẽ liên lạc lại vào giữa tháng sau."
+        },
+        {
+          "id": 3,
+          "text": "病気やけがに__備えて__、保険に入っておいたほうがいい。",
+          "options": [
+            "ささえて",
+            "そなえて",
+            "そろえて",
+            "ひかえて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「備える」の正しい読み方は「そなえる」です。",
+          "explanation_vi": "Cách đọc đúng của 「備える」 là 「そなえる」 (chuẩn bị, đề phòng).",
+          "sentence_furigana": "病気(びょうき)やけがに__備え(そなえ)て__、保険(ほけん)に入っ(はいっ)ておいたほうがいい。",
+          "sentence_vi": "Nên mua bảo hiểm để đề phòng bệnh tật và thương tích."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "すみません、この__あたり__に銀行はありませんか。",
+          "options": [
+            "当り",
+            "周り",
+            "辺り",
+            "返り"
+          ],
+          "correct_answer": 3,
+          "explanation": "「あたり」の漢字は「辺り」です。",
+          "explanation_vi": "Chữ Hán của 「あたり」 là 「辺り」 (vùng lân cận, quanh đây).",
+          "sentence_furigana": "すみません、この__辺り(あたり)__に銀行(ぎんこう)はありませんか。",
+          "sentence_vi": "Xin lỗi, quanh đây có ngân hàng nào không?"
+        },
+        {
+          "id": 5,
+          "text": "家族のため、父は__けんめい__に働いた。",
+          "options": [
+            "賢名",
+            "賢命",
+            "懸名",
+            "懸命"
+          ],
+          "correct_answer": 4,
+          "explanation": "「けんめい」の漢字は「懸命」です（一生懸命と同じ）。",
+          "explanation_vi": "Chữ Hán của 「けんめい」 là 「懸命」 (cố gắng hết sức).",
+          "sentence_furigana": "家族(かぞく)のため、父(ちち)は__懸命(けんめい)__に働い(はたらい)た。",
+          "sentence_vi": "Vì gia đình, bố tôi đã làm việc hết sức mình."
+        },
+        {
+          "id": 6,
+          "text": "その町のチームが勝って、観客はとても__よろこんで__いた。",
+          "options": [
+            "喜で",
+            "喜んで",
+            "喜こんで",
+            "喜ろこんで"
+          ],
+          "correct_answer": 2,
+          "explanation": "「よろこぶ」の漢字表記は「喜ぶ」となり、テ形は「喜んで」です。",
+          "explanation_vi": "Chữ Hán của 「よろこんで」 là 「喜んで」 (vui mừng).",
+          "sentence_furigana": "その町(まち)のチーム(ちーむ)が勝っ(かっ)て、観客(かんきゃく)はとても__喜ん(よろこん)で__いた。",
+          "sentence_vi": "Đội bóng của thị trấn đó đã chiến thắng, và khán giả đã rất vui mừng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "1時間も遅れてきたのに謝らない友達に（　　）が立った。",
+          "options": [
+            "足",
+            "心",
+            "腹",
+            "頭"
+          ],
+          "correct_answer": 3,
+          "explanation": "「腹が立つ」で「怒る」という意味になります。",
+          "explanation_vi": "Cụm từ 「腹が立つ」 (hara ga tatsu) có nghĩa là 'tức giận'.",
+          "sentence_furigana": "1時間(いちじかん)も遅れ(おくれ)てきたのに謝ら(あやまら)ない友達(ともだち)に（ 腹(はら) ）が立っ(たっ)た。",
+          "sentence_vi": "Tôi phát bực với người bạn đến muộn hẳn 1 tiếng mà không thèm xin lỗi."
+        },
+        {
+          "id": 8,
+          "text": "その話は本当だ。（　　）私はその事故を見たのだから。",
+          "options": [
+            "いまに",
+            "げんに",
+            "じつに",
+            "まさに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「現に（げんに）」は「実際に、事実として」という意味です。",
+          "explanation_vi": "「現に」 (gen ni) có nghĩa là 'thực tế là, thực sự là'.",
+          "sentence_furigana": "その話し(はなし)は本当(ほんとう)だ。（ 現に(げんに) ）私(わたし)はその事故(じこ)を見(み)たのだから。",
+          "sentence_vi": "Chuyện đó là thật. Thực tế là tôi đã nhìn thấy vụ tai nạn đó mà."
+        },
+        {
+          "id": 9,
+          "text": "（　　）を使ってみて、とてもよかったので、この洗剤を買うことにした。",
+          "options": [
+            "リスト",
+            "カタログ",
+            "サンプル",
+            "パンフレット"
+          ],
+          "correct_answer": 3,
+          "explanation": "「サンプル」は「見本、試供品」という意味です。",
+          "explanation_vi": "「サンプル」 (sample) có nghĩa là 'hàng mẫu, dùng thử'.",
+          "sentence_furigana": "（ サンプル(さんぷる) ）を使っ(つかっ)てみて、とてもよかったので、この洗剤(せんざい)を買う(かう)ことにした。",
+          "sentence_vi": "Dùng thử hàng mẫu thấy rất tốt nên tôi quyết định mua loại bột giặt này."
+        },
+        {
+          "id": 10,
+          "text": "A：明日から北海道へ行ってきます。\nB：いいですね。（　　）、森さんも行くと言っていましたよ。",
+          "options": [
+            "そういえば",
+            "そうすると",
+            "それにしても",
+            "それはそれは"
+          ],
+          "correct_answer": 1,
+          "explanation": "「そういえば」は、相手の話を聞いて何かを思い出したときに使います。",
+          "explanation_vi": "「そういえば」 có nghĩa là 'nhắc mới nhớ', dùng khi nghe người khác nói và chợt nhớ ra điều gì đó.",
+          "sentence_furigana": "A：明日(あした)から北海道(ほっかいどう)へ行っ(いっ)てきます。\nB：いいですね。（ そういえば ）、森(もり)さんも行く(いく)と言っ(いっ)ていましたよ。",
+          "sentence_vi": "A: Ngày mai tôi sẽ đi Hokkaido.\nB: Tuyệt quá nhỉ. Nhắc mới nhớ, anh Mori cũng bảo là sẽ đi đấy."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "コンピューターが突然、原因不明の（　　）作動を起こした。",
+          "options": [
+            "不",
+            "違",
+            "誤",
+            "失"
+          ],
+          "correct_answer": 3,
+          "explanation": "「誤作動（ごさどう）」で「機械などが間違った動きをすること」を意味します。",
+          "explanation_vi": "「誤作動」 (gosadou) có nghĩa là 'thao tác lỗi, hoạt động sai lệch' của máy móc.",
+          "sentence_furigana": "コンピューター(こんぴゅーたー)が突然(とつぜん)、原因(げんいん)不明(ふめい)の（ 誤(ご) ）作動(さどう)を起こし(おこし)た。",
+          "sentence_vi": "Máy tính đột nhiên hoạt động lỗi không rõ nguyên nhân."
+        },
+        {
+          "id": 12,
+          "text": "作曲（　　）になるため、音楽大学に進んだ。",
+          "options": [
+            "手",
+            "者",
+            "家",
+            "師"
+          ],
+          "correct_answer": 3,
+          "explanation": "「作曲家（さっきょくか）」で曲を作る専門の人のことです。",
+          "explanation_vi": "「作曲家」 (sakkyokuka) có nghĩa là 'nhà soạn nhạc'.",
+          "sentence_furigana": "作曲（ 家(か) ）になるため、音楽大学(おんがくだいがく)に進ん(すすん)だ。",
+          "sentence_vi": "Để trở thành nhà soạn nhạc, tôi đã học lên đại học âm nhạc."
+        },
+        {
+          "id": 13,
+          "text": "彼はまじめで責任（　　）が強い。",
+          "options": [
+            "観",
+            "感",
+            "心",
+            "性"
+          ],
+          "correct_answer": 2,
+          "explanation": "「責任感（せきにんかん）」で「自分の責任を果たそうとする気持ち」のことです。",
+          "explanation_vi": "「責任感」 (sekininkan) có nghĩa là 'tinh thần trách nhiệm'.",
+          "sentence_furigana": "彼(かれ)はまじめで責任(せきにん)（ 感(かん) ）が強い(つよい)。",
+          "sentence_vi": "Anh ấy nghiêm túc và có tinh thần trách nhiệm cao."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "そのニュースは__たちまち__世界中に広まった。",
+          "options": [
+            "すぐに",
+            "ついに",
+            "だんだん",
+            "ようやく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「たちまち」は「あっという間に、すぐに」という意味です。",
+          "explanation_vi": "「たちまち」 có nghĩa là 'ngay lập tức, thoáng chốc', tương đương với 「すぐに」.",
+          "sentence_furigana": "そのニュース(にゅーす)は__たちまち__世界中(せかいじゅう)に広まっ(ひろまっ)た。",
+          "sentence_vi": "Tin tức đó ngay lập tức lan truyền khắp thế giới."
+        },
+        {
+          "id": 15,
+          "text": "彼はノートに__せっせと__何かを書いていた。",
+          "options": [
+            "速く",
+            "熱心に",
+            "上手に",
+            "楽しそうに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「せっせと」は「休まず熱心に働き続ける様子」を表します。",
+          "explanation_vi": "「せっせと」 diễn tả dáng vẻ 'chăm chỉ, miệt mài', tương đương với 「熱心に」.",
+          "sentence_furigana": "彼(かれ)はノート(のーと)に__せっせと__何か(なにか)を書い(かい)ていた。",
+          "sentence_vi": "Anh ấy đang miệt mài viết gì đó vào vở."
+        },
+        {
+          "id": 16,
+          "text": "課長は今__ミーティング__中で、ここにはおりません。",
+          "options": [
+            "会議",
+            "出張",
+            "研修",
+            "休暇"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ミーティング（meeting）」は「会議、打ち合わせ」という意味です。",
+          "explanation_vi": "「ミーティング」 (meeting) có nghĩa là cuộc họp, tương đương với 「会議」.",
+          "sentence_furigana": "課長(かちょう)は今(いま)__ミーティング(みーてぃんぐ)__中(ちゅう)で、ここにはおりません。",
+          "sentence_vi": "Tổ trưởng hiện đang họp nên không có ở đây."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "わざと",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "その選手はお金のために、__わざと__試合に負けた。",
+            "お忙しいところ、__わざと__来てくださってありがとうございます。",
+            "この着物は、結婚式のために__わざと__作ってもらった特別なものだ。",
+            "母は、10円でも安かったら、遠くのスーパーまで__わざと__買いに行く。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「わざと」は「意図的に、故意に」という意味です。2, 3, 4は「わざわざ（労力をかけて）」を使うのが適切です。",
+          "explanation_vi": "「わざと」 có nghĩa là 'cố tình, cố ý'. Các câu 2, 3, 4 phải dùng từ 「わざわざ」 (mất công sức) mới đúng.",
+          "sentence_furigana": "その選手(せんしゅ)はお金(かね)のために、__わざと__試合(しあい)に負け(まけ)た。",
+          "sentence_vi": "Tuyển thủ đó vì tiền nên đã cố tình thua trận."
+        },
+        {
+          "id": 18,
+          "target_word": "引き返す",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "借りたCDを友達に__引き返した__。",
+            "肉が焼けてきたら、__引き返して__裏も焼いてください。",
+            "使った道具は、すぐに元の場所に__引き返して__ください。",
+            "忘れ物をしたので、急いで家に__引き返した__。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「引き返す（ひきかえす）」は「来た道を戻る」という意味です。1は「返した」、2は「裏返して」、3は「戻して」が適切です。",
+          "explanation_vi": "「引き返す」 có nghĩa là 'quay trở lại (đường cũ)'. Câu 1 dùng 'trả lại' (返す), câu 2 dùng 'lật lại' (裏返す), câu 3 dùng 'để lại chỗ cũ' (戻す) thì mới đúng.",
+          "sentence_furigana": "忘れ物(わすれもの)をしたので、急い(いそい)で家(いえ)に__引き返し(ひきかえし)た__。",
+          "sentence_vi": "Vì để quên đồ nên tôi đã vội vã quay trở lại nhà."
+        }
+      ]
+    }
+  ]
+}

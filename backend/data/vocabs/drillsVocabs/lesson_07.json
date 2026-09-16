@@ -1,0 +1,315 @@
+{
+  "lesson": 7,
+  "title": "第７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "今日は体調が悪いので、__激しい__運動はできない。",
+          "options": [
+            "あやしい",
+            "きびしい",
+            "くるしい",
+            "はげしい"
+          ],
+          "correct_answer": 4,
+          "explanation": "「激しい」の正しい読み方は「はげしい」です。",
+          "explanation_vi": "Cách đọc đúng của 「激しい」 là 「はげしい」 (mãnh liệt, dữ dội).",
+          "sentence_furigana": "今日(きょう)は体調(たいちょう)が悪い(わるい)ので、__激しい(はげしい)__運動(うんどう)はできない。",
+          "sentence_vi": "Hôm nay tôi thấy không khỏe nên không thể vận động mạnh được."
+        },
+        {
+          "id": 2,
+          "text": "この会社は現在、社員を__募集__している。",
+          "options": [
+            "ほしゅう",
+            "ほじゅう",
+            "ぼしゅう",
+            "ぼじゅう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「募集」の正しい読み方は「ぼしゅう」です。",
+          "explanation_vi": "Cách đọc đúng của 「募集」 là 「ぼしゅう」 (tuyển dụng, chiêu mộ).",
+          "sentence_furigana": "この会社(かいしゃ)は現在(げんざい)、社員(しゃいん)を__募集(ぼしゅう)__している。",
+          "sentence_vi": "Công ty này hiện đang tuyển dụng nhân viên."
+        },
+        {
+          "id": 3,
+          "text": "チケット売り場の前に長い__行列__ができていた。",
+          "options": [
+            "こうれい",
+            "こうれつ",
+            "ぎょうれい",
+            "ぎょうれつ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「行列」の正しい読み方は「ぎょうれつ」です。",
+          "explanation_vi": "Cách đọc đúng của 「行列」 là 「ぎょうれつ」 (hàng người xếp hàng).",
+          "sentence_furigana": "チケット(ちけっと)売り場(うりば)の前(まえ)に長い(ながい)__行列(ぎょうれつ)__ができていた。",
+          "sentence_vi": "Một hàng dài người đã xếp hàng trước quầy bán vé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "18歳になったら車の__めんきょ__が取りたい。",
+          "options": [
+            "免許",
+            "免証",
+            "面許",
+            "面証"
+          ],
+          "correct_answer": 1,
+          "explanation": "「めんきょ」の漢字は「免許」です。",
+          "explanation_vi": "Chữ Hán của 「めんきょ」 là 「免許」 (giấy phép).",
+          "sentence_furigana": "18歳(じゅうはっさい)になったら車(くるま)の__免許(めんきょ)__が取り(とり)たい。",
+          "sentence_vi": "Khi tròn 18 tuổi, tôi muốn lấy bằng lái xe."
+        },
+        {
+          "id": 5,
+          "text": "年をとっても__けんこう__でいられるように、今からよく運動しておこう。",
+          "options": [
+            "建好",
+            "建康",
+            "健好",
+            "健康"
+          ],
+          "correct_answer": 4,
+          "explanation": "「けんこう」の漢字は「健康」です。",
+          "explanation_vi": "Chữ Hán của 「けんこう」 là 「健康」 (sức khỏe, khỏe mạnh).",
+          "sentence_furigana": "年(とし)をとっても__健康(けんこう)__でいられるように、今(いま)からよく運動(うんどう)しておこう。",
+          "sentence_vi": "Để có thể khỏe mạnh ngay cả khi về già, từ bây giờ tôi sẽ thường xuyên vận động."
+        },
+        {
+          "id": 6,
+          "text": "今一番人気がある__はいゆう__は誰ですか。",
+          "options": [
+            "俳優",
+            "俳優",
+            "排憂",
+            "排優"
+          ],
+          "correct_answer": 1,
+          "explanation": "「はいゆう」の漢字は「俳優」です。",
+          "explanation_vi": "Chữ Hán của 「はいゆう」 là 「俳優」 (diễn viên).",
+          "sentence_furigana": "今(いま)一番(いちばん)人気(にんき)がある__俳優(はいゆう)__は誰(だれ)ですか。",
+          "sentence_vi": "Diễn viên nào đang được yêu thích nhất hiện nay?"
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "石に（　　）転んでしまった。",
+          "options": [
+            "さわって",
+            "つまずいて",
+            "ひっぱって",
+            "ぶつかって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「つまずく（躓く）」は「歩行中に足先が障害物に当たってよろける」ことを意味します。",
+          "explanation_vi": "「つまずく」 có nghĩa là 'vấp phải (chướng ngại vật)'.",
+          "sentence_furigana": "石(いし)に（ つまずい(つまずい)て ）転ん(ころん)でしまった。",
+          "sentence_vi": "Tôi bị vấp phải hòn đá và ngã."
+        },
+        {
+          "id": 8,
+          "text": "私のやることにいちいち（　　）を出さないでください。",
+          "options": [
+            "口",
+            "目",
+            "顔",
+            "指"
+          ],
+          "correct_answer": 1,
+          "explanation": "「口を出す（くちをだす）」で「他人のことに横から意見を言う、干渉する」という意味になります。",
+          "explanation_vi": "Cụm từ 「口を出す」 có nghĩa là 'xen vào, chõ mõm vào việc của người khác'.",
+          "sentence_furigana": "私(わたし)のやることにいちいち（ 口(くち) ）を出さ(ださ)ないでください。",
+          "sentence_vi": "Xin đừng cứ xen vào từng việc tôi làm như thế."
+        },
+        {
+          "id": 9,
+          "text": "この機械は、（　　）動かすと、しばらく止められない。",
+          "options": [
+            "いっさい",
+            "いっそう",
+            "いったん",
+            "いっぽう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「一旦（いったん）」は「一度〜すると（その後は〜）」という意味になります。",
+          "explanation_vi": "「一旦」 (ittan) có nghĩa là 'một khi đã (làm gì đó) thì...'.",
+          "sentence_furigana": "この機械(きかい)は、（ 一旦(いったん) ）動かす(うごかす)と、しばらく止め(とめ)られない。",
+          "sentence_vi": "Cái máy này, một khi đã khởi động thì sẽ không thể dừng lại trong chốc lát được."
+        },
+        {
+          "id": 10,
+          "text": "昨日あまり眠れなかったので、授業中に（　　）してしまった。",
+          "options": [
+            "うとうと",
+            "ぐっすり",
+            "ぐうぐう",
+            "すやすや"
+          ],
+          "correct_answer": 1,
+          "explanation": "「うとうと」は「浅く眠る様子、居眠りする様子」を表します。",
+          "explanation_vi": "「うとうと」 diễn tả trạng thái 'ngủ gật, thiu thiu ngủ'.",
+          "sentence_furigana": "昨日(きのう)あまり眠れ(ねむれ)なかったので、授業中(じゅぎょうちゅう)に（ うとうと ）してしまった。",
+          "sentence_vi": "Hôm qua không ngủ được mấy nên trong giờ học tôi đã lỡ ngủ gật."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "選挙の結果、A党の議員は（　　）半数に達しなかった。",
+          "options": [
+            "大",
+            "過",
+            "全",
+            "多"
+          ],
+          "correct_answer": 2,
+          "explanation": "「過半数（かはんすう）」で「全体の半数を超えること」を意味します。",
+          "explanation_vi": "「過半数」 (kahansuu) có nghĩa là 'quá bán, hơn một nửa'.",
+          "sentence_furigana": "選挙(せんきょ)の結果(けっか)、A党(とう)の議員(ぎいん)は（ 過(か) ）半数(はんすう)に達し(たっし)なかった。",
+          "sentence_vi": "Kết quả bầu cử, số nghị sĩ của đảng A đã không đạt đến quá bán."
+        },
+        {
+          "id": 12,
+          "text": "このカメラは充電（　　）なので、電池を買う必要はありません。",
+          "options": [
+            "系",
+            "式",
+            "的",
+            "法"
+          ],
+          "correct_answer": 2,
+          "explanation": "「充電式（じゅうでんしき）」で「充電して使う方式」を意味します。",
+          "explanation_vi": "「充電式」 (juudenshiki) có nghĩa là 'loại/kiểu sạc điện'.",
+          "sentence_furigana": "このカメラ(かめら)は充電（ 式(しき) ）なので、電池(でんち)を買う(かう)必要(ひつよう)はありません。",
+          "sentence_vi": "Chiếc máy ảnh này dùng sạc nên không cần phải mua pin."
+        },
+        {
+          "id": 13,
+          "text": "財布の落とし（　　）が見つかった。",
+          "options": [
+            "手",
+            "人",
+            "主",
+            "者"
+          ],
+          "correct_answer": 3,
+          "explanation": "「落とし主（おとしぬし）」で「落とした物の持ち主」を意味します。",
+          "explanation_vi": "「落とし主」 (otoshinushi) có nghĩa là 'chủ nhân của món đồ bị rơi'.",
+          "sentence_furigana": "財布(さいふ)の落とし（ 主(ぬし) ）が見つかっ(みつかっ)た。",
+          "sentence_vi": "Đã tìm thấy người đánh rơi chiếc ví."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "__明け方__、母から電話があった。",
+          "options": [
+            "夕方",
+            "朝早く",
+            "午前中",
+            "夜遅く"
+          ],
+          "correct_answer": 2,
+          "explanation": "「明け方（あけがた）」は「夜が明けて明るくなる頃」のことで、「朝早く」とほぼ同じ意味です。",
+          "explanation_vi": "「明け方」 có nghĩa là 'lúc rạng sáng', tương đương với 「朝早く」 (sáng sớm).",
+          "sentence_furigana": "__明け方(あけがた)__、母(はは)から電話(でんわ)があった。",
+          "sentence_vi": "Mẹ đã gọi điện thoại cho tôi vào lúc rạng sáng."
+        },
+        {
+          "id": 15,
+          "text": "パーティーにそんな服で行くのは__みっともない__よ。",
+          "options": [
+            "わるい",
+            "きたない",
+            "はずかしい",
+            "かわいそうだ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「みっともない」は「外見や様子が見苦しい、体裁が悪い」という意味で、「恥ずかしい」に近いです。",
+          "explanation_vi": "「みっともない」 có nghĩa là 'khó coi, đáng xấu hổ', gần nghĩa với 「恥ずかしい」.",
+          "sentence_furigana": "パーティー(ぱーてぃー)にそんな服(ふく)で行く(いく)のは__みっともない__よ。",
+          "sentence_vi": "Đến dự tiệc mà mặc bộ đồ như thế thì thật đáng xấu hổ."
+        },
+        {
+          "id": 16,
+          "text": "あの時のことは__水に流して__、これから一緒にがんばりましょう。",
+          "options": [
+            "忘れて",
+            "反省して",
+            "思い出にして",
+            "みんなに知らせて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「水に流す」は「過去のトラブルなどをなかったことにする」という慣用句で、「忘れる」とほぼ同じ意味です。",
+          "explanation_vi": "「水に流す」 là thành ngữ có nghĩa là 'cho trôi vào dĩ vãng, xem như chưa từng có', tương đương với 「忘れる」.",
+          "sentence_furigana": "あの時(とき)のことは__水(みず)に流し(ながし)て__、これから一緒(いっしょ)にがんばりましょう。",
+          "sentence_vi": "Chuyện lúc đó hãy xem như quên đi, từ giờ chúng ta hãy cùng nhau cố gắng nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "告白",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "あの人に自分の気持ちを__告白__した。",
+            "友達に明日試験があることを__告白__した。",
+            "この時計は鳥の鳴き声で時間を__告白__する。",
+            "先生に指名されたので、立って答えを__告白__した。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「告白（こくはく）」は「秘密や自分の気持ち（特に愛の言葉）を打ち明けること」という意味です。2は「教えた/伝えた」、3は「知らせる」、4は「答えた」が適切です。",
+          "explanation_vi": "「告白」 có nghĩa là 'tỏ tình, thú nhận'. Câu 2 dùng 'thông báo/nói' (伝えた), câu 3 dùng 'báo giờ' (知らせる), câu 4 dùng 'trả lời' (答えた) mới đúng.",
+          "sentence_furigana": "あの人(ひと)に自分(じぶん)の気持ち(きもち)を__告白(こくはく)__した。",
+          "sentence_vi": "Tôi đã thổ lộ tình cảm của mình với người ấy."
+        },
+        {
+          "id": 18,
+          "target_word": "おかまいなく",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "それでは、__おかまいなく__拝見します。",
+            "__おかまいなく__召し上がってください。",
+            "すぐに失礼しますので、どうぞ__おかまいなく__。",
+            "A:ありがとうございました。 B:いいえ、__おかまいなく__。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「おかまいなく」は「（もてなしに対して）気を遣わないでください」と相手の配慮を丁寧に辞退する言葉です。1と2は「遠慮なく」、4は「どういたしまして」が適切です。",
+          "explanation_vi": "「おかまいなく」 có nghĩa là 'xin đừng bận tâm, cứ để tôi tự nhiên' (dùng khi khách từ chối sự tiếp đãi của chủ nhà). Câu 1 và 2 dùng 'đừng khách sáo' (遠慮なく), câu 4 dùng 'không có chi' (どういたしまして) mới đúng.",
+          "sentence_furigana": "すぐに失礼(しつれい)しますので、どうぞ__おかまいなく__。",
+          "sentence_vi": "Tôi sẽ đi ngay bây giờ nên xin anh/chị đừng bận tâm (pha trà rót nước)."
+        }
+      ]
+    }
+  ]
+}

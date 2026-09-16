@@ -1,0 +1,315 @@
+{
+  "lesson": 30,
+  "title": "第３０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "見上げると、夜空には__無数__の星があった。",
+          "options": [
+            "むかず",
+            "むすう",
+            "ぶかず",
+            "ぶすう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「無数」の正しい読み方は「むすう」です。",
+          "explanation_vi": "Cách đọc đúng của 「無数」 là 「むすう」 (vô số).",
+          "sentence_furigana": "見上げる(みあげる)と、夜空(よぞら)には__無数(むすう)__の星(ほし)があった。",
+          "sentence_vi": "Ngước nhìn lên, trên bầu trời đêm có vô số những vì sao."
+        },
+        {
+          "id": 2,
+          "text": "この動物は__鋭い__爪を持っているので、気をつけてください。",
+          "options": [
+            "くどい",
+            "ずるい",
+            "あやうい",
+            "するどい"
+          ],
+          "correct_answer": 4,
+          "explanation": "「鋭い」の正しい読み方は「するどい」です。",
+          "explanation_vi": "Cách đọc đúng của 「鋭い」 là 「するどい」 (sắc bén).",
+          "sentence_furigana": "この動物(どうぶつ)は__鋭い(するどい)__爪(つめ)を持っ(もっ)ているので、気(き)をつけてください。",
+          "sentence_vi": "Động vật này có móng vuốt rất sắc nhọn nên hãy cẩn thận."
+        },
+        {
+          "id": 3,
+          "text": "ゴミはきちんと__分別__して捨てましょう。",
+          "options": [
+            "ふべつ",
+            "ぶべつ",
+            "ふんべつ",
+            "ぶんべつ"
+          ],
+          "correct_answer": 4,
+          "explanation": "ゴミなどの「分別」の正しい読み方は「ぶんべつ」です。",
+          "explanation_vi": "Cách đọc đúng của 「分別」 (khi nói về rác) là 「ぶんべつ」 (phân loại).",
+          "sentence_furigana": "ゴミ(ごみ)はきちんと__分別(ぶんべつ)__して捨て(すて)ましょう。",
+          "sentence_vi": "Chúng ta hãy phân loại rác cẩn thận rồi mới vứt nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "このお酒は__かおり__が強い。",
+          "options": [
+            "香り",
+            "臭り",
+            "匂り",
+            "芳り"
+          ],
+          "correct_answer": 1,
+          "explanation": "よいにおいを表す「かおり」の漢字は「香り」です。",
+          "explanation_vi": "Chữ Hán của 「かおり」 là 「香り」 (hương thơm).",
+          "sentence_furigana": "このお酒(さけ)は__香り(かおり)__が強い(つよい)。",
+          "sentence_vi": "Loại rượu này có hương thơm rất đậm."
+        },
+        {
+          "id": 5,
+          "text": "余った材料は、__れいとう__しておいてください。",
+          "options": [
+            "冷凍",
+            "冷棟",
+            "冷蔵",
+            "冷臓"
+          ],
+          "correct_answer": 1,
+          "explanation": "「れいとう」の漢字は「冷凍」です。",
+          "explanation_vi": "Chữ Hán của 「れいとう」 là 「冷凍」 (làm đông lạnh).",
+          "sentence_furigana": "余っ(あまっ)た材料(ざいりょう)は、__冷凍(れいとう)__しておいてください。",
+          "sentence_vi": "Những nguyên liệu còn thừa hãy mang đi đông lạnh nhé."
+        },
+        {
+          "id": 6,
+          "text": "毎週かならず、この__しゅうかんし__を買っています。",
+          "options": [
+            "週刊紙",
+            "週刊誌",
+            "週間紙",
+            "週間誌"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しゅうかんし」の漢字は「週刊誌」です。",
+          "explanation_vi": "Chữ Hán của 「しゅうかんし」 là 「週刊誌」 (tạp chí phát hành hàng tuần).",
+          "sentence_furigana": "毎週(まいしゅう)かならず、この__週刊誌(しゅうかんし)__を買っ(かっ)ています。",
+          "sentence_vi": "Tuần nào tôi cũng nhất định mua cuốn tạp chí này."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "靴のひもが（　　）しまった。",
+          "options": [
+            "はがれて",
+            "はずれて",
+            "ほどけて",
+            "みだれて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「解ける（ほどける）」は「結んであるものなどが緩んで離れる」という意味です。",
+          "explanation_vi": "「解ける」 (hodokeru) có nghĩa là 'bị tuột ra'.",
+          "sentence_furigana": "靴(くつ)のひもが（ ほどけ(ほどけ)て ）しまった。",
+          "sentence_vi": "Dây giày bị tuột mất rồi."
+        },
+        {
+          "id": 8,
+          "text": "このスーパーは24時間（　　）です。",
+          "options": [
+            "開店",
+            "営業",
+            "経営",
+            "業務"
+          ],
+          "correct_answer": 2,
+          "explanation": "「営業（えいぎょう）」は「お店などを開いて業務を行うこと」を意味します。",
+          "explanation_vi": "「営業」 (eigyou) có nghĩa là 'kinh doanh, mở cửa phục vụ'.",
+          "sentence_furigana": "このスーパー(すーぱー)は24時間(にじゅうよじかん)（ 営業(えいぎょう) ）です。",
+          "sentence_vi": "Siêu thị này mở cửa kinh doanh 24/24."
+        },
+        {
+          "id": 9,
+          "text": "（　　）は怖そうだが、話してみると優しい人だった。",
+          "options": [
+            "外見",
+            "見本",
+            "本物",
+            "人物"
+          ],
+          "correct_answer": 1,
+          "explanation": "「外見（がいけん）」は「外から見た様子、外観」を意味します。",
+          "explanation_vi": "「外見」 (gaiken) có nghĩa là 'vẻ bề ngoài'.",
+          "sentence_furigana": "（ 外見(がいけん) ）は怖そう(こわそう)だが、話し(はなし)てみると優しい(やさしい)人(ひと)だった。",
+          "sentence_vi": "Bề ngoài trông có vẻ đáng sợ nhưng khi nói chuyện thử thì lại là một người rất hiền lành."
+        },
+        {
+          "id": 10,
+          "text": "彼女はどんな相手に対しても、反対意見を（　　）と言う。",
+          "options": [
+            "すたすた",
+            "すぱすぱ",
+            "ずばずば",
+            "ずんずん"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ずばずば」は「遠慮せずに物を言う様子」を表します。",
+          "explanation_vi": "「ずばずば」 diễn tả việc 'nói thẳng thừng, toạc móng heo, không nể nang'.",
+          "sentence_furigana": "彼女(かのじょ)はどんな相手(あいて)に対し(たいし)ても、反対(はんたい)意見(いけん)を（ ずばずば ）と言う(いう)。",
+          "sentence_vi": "Dù đối phương là ai thì cô ấy cũng nói thẳng thừng ý kiến phản đối của mình ra."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "そんな（　　）科学的な説明では納得できない。",
+          "options": [
+            "非",
+            "不",
+            "無",
+            "否"
+          ],
+          "correct_answer": 1,
+          "explanation": "「非科学的（ひかがくてき）」で「科学的でないさま」を意味します。",
+          "explanation_vi": "「非科学的」 (hikagakuteki) có nghĩa là 'phi khoa học'.",
+          "sentence_furigana": "そんな（ 非(ひ) ）科学的(かがくてき)な説明(せつめい)では納得(なっとく)できない。",
+          "sentence_vi": "Những lời giải thích mang tính phi khoa học như vậy tôi không thể nào chấp nhận được."
+        },
+        {
+          "id": 12,
+          "text": "ここに書いてある値段は税（　　）ですか。",
+          "options": [
+            "入り",
+            "収め",
+            "込み",
+            "含み"
+          ],
+          "correct_answer": 3,
+          "explanation": "「税込み（ぜいこみ）」で「税金が含まれていること」を意味します。",
+          "explanation_vi": "「税込み」 (zeikomi) có nghĩa là 'đã bao gồm thuế'.",
+          "sentence_furigana": "ここに書い(かい)てある値段(ねだん)は税(ぜい)（ 込み(こみ) ）ですか。",
+          "sentence_vi": "Mức giá được ghi ở đây là đã có thuế chưa vậy?"
+        },
+        {
+          "id": 13,
+          "text": "田中さんとは2年前に旅行（　　）で知り合った。",
+          "options": [
+            "先",
+            "点",
+            "止",
+            "着"
+          ],
+          "correct_answer": 1,
+          "explanation": "「旅行先（りょこうさき）」で「旅行で行った目的地」を意味します。",
+          "explanation_vi": "「旅行先」 (ryokousaki) có nghĩa là 'điểm đến du lịch'.",
+          "sentence_furigana": "田中(たなか)さんとは2年前(にねんまえ)に旅行(りょこう)（ 先(さき) ）で知り合っ(しりあっ)た。",
+          "sentence_vi": "Tôi quen anh Tanaka ở địa điểm du lịch vào 2 năm trước."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "母は__しきりに__「寒い」と言っていた。",
+          "options": [
+            "つらそうに",
+            "何度も",
+            "こっそり",
+            "ときどき"
+          ],
+          "correct_answer": 2,
+          "explanation": "「頻りに（しきりに）」は「同じ物事が何度も繰り返される様子」という意味で、「何度も」とほぼ同じです。",
+          "explanation_vi": "「しきりに」 có nghĩa là 'liên tục, không ngừng, nhiều lần', tương đương với 「何度も」.",
+          "sentence_furigana": "母(はは)は__しきりに__「寒い(さむい)」と言っ(いっ)ていた。",
+          "sentence_vi": "Mẹ tôi cứ liên tục kêu 'lạnh'."
+        },
+        {
+          "id": 15,
+          "text": "ずっと外にいたので手足が__こごえて__しまった。",
+          "options": [
+            "荒れて",
+            "ぬれて",
+            "冷えて",
+            "汚れて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「凍える（こごえる）」は「寒さのために体がひどく冷え、感覚がなくなる」という意味で、「冷えて」とほぼ同じです。",
+          "explanation_vi": "「凍える」 có nghĩa là 'đông cứng, lạnh cóng', tương đương với 「冷えて」.",
+          "sentence_furigana": "ずっと外(そと)にいたので手足(てあし)が__こごえて__しまった。",
+          "sentence_vi": "Vì ở ngoài suốt nên tay chân tôi lạnh cóng hết cả lại."
+        },
+        {
+          "id": 16,
+          "text": "人が通るので、そこを__どいて__くれませんか。",
+          "options": [
+            "開けて",
+            "動いて",
+            "片付けて",
+            "しまって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「退く（どく）」は「いた場所から離れる、そこをあける」という意味で、「動いて」とほぼ同じです。",
+          "explanation_vi": "「どく」 có nghĩa là 'tránh ra, xê ra', tương đương với 「動いて」.",
+          "sentence_furigana": "人(ひと)が通る(とおる)ので、そこを__どいて__くれませんか。",
+          "sentence_vi": "Vì có người đi qua nên bạn xê ra một chút được không?"
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "見当",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "彼が断った理由が何なのか、__見当が__わからない。",
+            "犯人がどこにいるのか、まったく__見当が__つかない。",
+            "あの人が何を考えているのか、私には__見当が__ない。",
+            "今後の日本経済がどうなるか、__見当が__立てられない。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「見当（けんとう）」は「だいたいの方向、予想」という意味で、「見当がつく/つかない」という形でよく使われます。1や3は「見当がつかない」、4は「予想/予測」などが適切です。",
+          "explanation_vi": "「見当」 có nghĩa là 'phương hướng, sự dự đoán'. Thường đi với cụm 「見当がつく / 見当がつかない」 (có thể / không thể đoán được).",
+          "sentence_furigana": "犯人(はんにん)がどこにいるのか、まったく__見当(けんとう)が__つかない。",
+          "sentence_vi": "Hoàn toàn không thể đoán được hung thủ đang trốn ở đâu."
+        },
+        {
+          "id": 18,
+          "target_word": "いびき",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "昼食の後は眠くて、つい__いびきが__でてしまう。",
+            "目が乾いたときは何回か__いびきを__するといい。",
+            "「昨日大きな声で__いびきを__言っていたよ」と母に言われた。",
+            "隣の人の__いびきが__うるさくて、ゆっくり休むことができなかった。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「いびき」は「睡眠中に鼻や口から出す音」のことです。1は「あくび」、2は「まばたき」、3は「寝言」が適切です。",
+          "explanation_vi": "「いびき」 có nghĩa là 'tiếng ngáy'. Câu 1 dùng 'ngáp' (あくび), câu 2 dùng 'chớp mắt' (まばたき), câu 3 dùng 'nói mớ' (寝言) mới đúng.",
+          "sentence_furigana": "隣(となり)の人(ひと)の__いびきが__うるさくて、ゆっくり休む(やすむ)ことができなかった。",
+          "sentence_vi": "Người bên cạnh ngáy to quá khiến tôi không thể nào nghỉ ngơi được."
+        }
+      ]
+    }
+  ]
+}

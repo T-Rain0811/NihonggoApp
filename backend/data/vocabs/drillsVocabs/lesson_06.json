@@ -1,0 +1,315 @@
+{
+  "lesson": 6,
+  "title": "第６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "今日はデパートで新しい__靴__を買うつもりだ。",
+          "options": [
+            "かさ",
+            "くつ",
+            "ふく",
+            "かばん"
+          ],
+          "correct_answer": 2,
+          "explanation": "「靴」の正しい読み方は「くつ」です。",
+          "explanation_vi": "Cách đọc đúng của 「靴」 là 「くつ」 (giày).",
+          "sentence_furigana": "今日(きょう)はデパート(でぱーと)で新しい(あたらしい)__靴(くつ)__を買う(かう)つもりだ。",
+          "sentence_vi": "Hôm nay tôi dự định sẽ đi trung tâm thương mại để mua giày mới."
+        },
+        {
+          "id": 2,
+          "text": "彼が__登場__すると拍手が起きた。",
+          "options": [
+            "とば",
+            "とうば",
+            "とじょう",
+            "とうじょう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「登場」の正しい読み方は「とうじょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「登場」 là 「とうじょう」 (xuất hiện).",
+          "sentence_furigana": "彼(かれ)が__登場(とうじょう)__すると拍手(はくしゅ)が起き(おき)た。",
+          "sentence_vi": "Khi anh ấy xuất hiện, một tràng vỗ tay đã vang lên."
+        },
+        {
+          "id": 3,
+          "text": "新しい歯が__生えて__きた。",
+          "options": [
+            "いえて",
+            "うえて",
+            "はえて",
+            "なまえて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「生える」の正しい読み方は「はえる」です。",
+          "explanation_vi": "Cách đọc đúng của 「生える」 là 「はえる」 (mọc).",
+          "sentence_furigana": "新しい(あたらしい)歯(は)が__生え(はえ)て__きた。",
+          "sentence_vi": "Một chiếc răng mới đã mọc lên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "どちらを選んだらいいか、__なやんで__いる。",
+          "options": [
+            "個んで",
+            "悩んで",
+            "脳んで",
+            "胸んで"
+          ],
+          "correct_answer": 2,
+          "explanation": "「なやむ」の漢字は「悩む」です。",
+          "explanation_vi": "Chữ Hán của 「なやむ」 là 「悩む」 (phiền não, băn khoăn).",
+          "sentence_furigana": "どちらを選ん(えらん)だらいいか、__悩ん(なやん)で__いる。",
+          "sentence_vi": "Tôi đang băn khoăn không biết nên chọn cái nào."
+        },
+        {
+          "id": 5,
+          "text": "来月、首相がアジア4カ国を__ほうもん__するそうだ。",
+          "options": [
+            "訪門",
+            "訪問",
+            "報門",
+            "報問"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ほうもん」の漢字は「訪問」です。",
+          "explanation_vi": "Chữ Hán của 「ほうもん」 là 「訪問」 (đến thăm, viếng thăm).",
+          "sentence_furigana": "来月(らいげつ)、首相(しゅしょう)がアジア(あじあ)4カ国(かこく)を__訪問(ほうもん)__するそうだ。",
+          "sentence_vi": "Nghe nói tháng sau, thủ tướng sẽ đến thăm 4 nước châu Á."
+        },
+        {
+          "id": 6,
+          "text": "誕生日にたくさんの人からメールをもらって__うれしい__。",
+          "options": [
+            "快しい",
+            "喜しい",
+            "嬉しい",
+            "愉しい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「うれしい」の漢字は「嬉しい」です。",
+          "explanation_vi": "Chữ Hán của 「うれしい」 là 「嬉しい」 (vui mừng, hạnh phúc).",
+          "sentence_furigana": "誕生日(たんじょうび)にたくさんの人(ひと)からメール(めーる)をもらって__嬉しい(うれしい)__。",
+          "sentence_vi": "Tôi rất vui khi nhận được email chúc mừng từ nhiều người vào ngày sinh nhật."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "複数の会社が（　　）でこの製品を開発した。",
+          "options": [
+            "共通",
+            "共同",
+            "協力",
+            "協調"
+          ],
+          "correct_answer": 2,
+          "explanation": "「共同で」で「複数の人や組織が一緒に一つのことをする」という意味になります。",
+          "explanation_vi": "Cụm từ 「共同で」 (kyoudou de) có nghĩa là 'cùng nhau, hợp tác chung'.",
+          "sentence_furigana": "複数(ふくすう)の会社(かいしゃ)が（ 共同(きょうどう) ）でこの製品(せいひん)を開発(かいはつ)した。",
+          "sentence_vi": "Nhiều công ty đã hợp tác cùng nhau phát triển sản phẩm này."
+        },
+        {
+          "id": 8,
+          "text": "山田さんはこの会社に20年勤めている（　　）の社員だ。",
+          "options": [
+            "プロ",
+            "ベテラン",
+            "リーダー",
+            "アマチュア"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ベテラン（veteran）」は「経験が豊富で熟練している人」のことです。",
+          "explanation_vi": "「ベテラン」 (veteran) có nghĩa là 'người kỳ cựu, người giàu kinh nghiệm'.",
+          "sentence_furigana": "山田(やまだ)さんはこの会社(かいしゃ)に20年(にじゅうねん)勤め(つとめ)ている（ ベテラン(べてらん) ）の社員(しゃいん)だ。",
+          "sentence_vi": "Anh Yamada là một nhân viên kỳ cựu đã làm việc ở công ty này 20 năm."
+        },
+        {
+          "id": 9,
+          "text": "地震で家が（　　）と揺れた。",
+          "options": [
+            "ぐらぐら",
+            "すらすら",
+            "はらはら",
+            "ぶらぶら"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ぐらぐら」は「物が不安定に大きく揺れる様子」を表します。",
+          "explanation_vi": "「ぐらぐら」 diễn tả trạng thái 'rung lắc dữ dội, chao đảo'.",
+          "sentence_furigana": "地震(じしん)で家(いえ)が（ ぐらぐら ）と揺れ(ゆれ)た。",
+          "sentence_vi": "Ngôi nhà đã rung lắc dữ dội do trận động đất."
+        },
+        {
+          "id": 10,
+          "text": "みんなが使う部屋なので（　　）ください。",
+          "options": [
+            "散らないで",
+            "散らさないで",
+            "散らかさないで",
+            "散らからないで"
+          ],
+          "correct_answer": 3,
+          "explanation": "「散らかす（ちらかす）」で「物をあちこちに広げて乱雑にする」という意味です。",
+          "explanation_vi": "「散らかす」 (chirakasu) có nghĩa là 'làm bừa bộn, vứt lung tung'.",
+          "sentence_furigana": "みんなが使う(つかう)部屋(へや)なので（ 散らかさ(ちらかさ)ないで ）ください。",
+          "sentence_vi": "Vì là phòng dùng chung nên xin đừng làm bừa bộn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "最近の携帯電話は（　　）機能だ。",
+          "options": [
+            "上",
+            "多",
+            "良",
+            "優"
+          ],
+          "correct_answer": 2,
+          "explanation": "「多機能（たきのう）」で「機能がたくさんあること」を意味します。",
+          "explanation_vi": "「多機能」 (takinou) có nghĩa là 'đa chức năng'.",
+          "sentence_furigana": "最近(さいきん)の携帯電話(けいたいでんわ)は（ 多(た) ）機能(きのう)だ。",
+          "sentence_vi": "Điện thoại di động dạo gần đây rất đa chức năng."
+        },
+        {
+          "id": 12,
+          "text": "そのドラマは人気があったので（　　）放送されることになった。",
+          "options": [
+            "次",
+            "再",
+            "重",
+            "復"
+          ],
+          "correct_answer": 2,
+          "explanation": "「再放送（さいほうそう）」で「一度放送した番組を再び放送すること」を意味します。",
+          "explanation_vi": "「再放送」 (sai-housou) có nghĩa là 'phát sóng lại'.",
+          "sentence_furigana": "そのドラマ(どらま)は人気(にんき)があったので（ 再(さい) ）放送(ほうそう)されることになった。",
+          "sentence_vi": "Bộ phim truyền hình đó vì rất được yêu thích nên đã quyết định được phát sóng lại."
+        },
+        {
+          "id": 13,
+          "text": "彼女の将来の夢は看護（　　）だ。",
+          "options": [
+            "師",
+            "女",
+            "者",
+            "人"
+          ],
+          "correct_answer": 1,
+          "explanation": "「看護師（かんごし）」で「病院で患者の世話などをする人（ナース）」のことです。",
+          "explanation_vi": "「看護師」 (kangoshi) có nghĩa là 'y tá, điều dưỡng viên'.",
+          "sentence_furigana": "彼女(かのじょ)の将来(しょうらい)の夢(ゆめ)は看護（ 師(し) ）だ。",
+          "sentence_vi": "Ước mơ trong tương lai của cô ấy là trở thành y tá."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "今日は__なるべく__早く帰るよ。",
+          "options": [
+            "少し",
+            "いつもより",
+            "ぜったいに",
+            "できるだけ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「なるべく」は「可能な限り」という意味で、「できるだけ」とほぼ同じ意味です。",
+          "explanation_vi": "「なるべく」 có nghĩa là 'càng ... càng tốt, trong khả năng có thể', tương đương với 「できるだけ」.",
+          "sentence_furigana": "今日(きょう)は__なるべく__早く(はやく)帰る(かえる)よ。",
+          "sentence_vi": "Hôm nay tôi sẽ về sớm nhất có thể."
+        },
+        {
+          "id": 15,
+          "text": "先輩に昨晩のことを__おわびした__。",
+          "options": [
+            "感謝した",
+            "説明した",
+            "謝った",
+            "断った"
+          ],
+          "correct_answer": 3,
+          "explanation": "「お詫びする（おわびする）」は「謝罪する」ことで、「謝る（あやまる）」とほぼ同じ意味です。",
+          "explanation_vi": "「お詫びする」 có nghĩa là 'xin lỗi', tương đương với 「謝る」.",
+          "sentence_furigana": "先輩(せんぱい)に昨晩(さくばん)のことを__おわびした__。",
+          "sentence_vi": "Tôi đã xin lỗi tiền bối về chuyện tối qua."
+        },
+        {
+          "id": 16,
+          "text": "お客さんが多かったので、__はりきって__働いた。",
+          "options": [
+            "緊張して",
+            "疲れるほど",
+            "とても忙しく",
+            "やる気をもって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「張り切る（はりきる）」は「意気込んで、やる気を出して行動する」という意味です。",
+          "explanation_vi": "「張り切る」 có nghĩa là 'hăng hái, đầy nhiệt huyết', tương đương với 「やる気をもって」.",
+          "sentence_furigana": "お客さん(おきゃくさん)が多かっ(おおかっ)たので、__はりきって__働い(はたらい)た。",
+          "sentence_vi": "Vì có rất nhiều khách nên tôi đã làm việc rất hăng hái."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "無断",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "彼は会社を__無断__で休んだ。",
+            "部長の話は__無断__で30分以上続いた。",
+            "どうぞ__無断__で好きな料理をお取りください。",
+            "あの人は優しいから誰の頼みでも__無断__できいてくれる。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「無断（むだん）」は「事前に許しを得ないこと、勝手に」という意味です。2は「途切れず/無駄に」、3は「遠慮なく」、4は「快く/文句なく」が適切です。",
+          "explanation_vi": "「無断」 có nghĩa là 'tự ý, không xin phép'. Câu 2 dùng 'không ngừng' (途切れず), câu 3 dùng 'đừng khách sáo' (遠慮なく), câu 4 dùng 'vui vẻ/sẵn lòng' (快く) mới đúng.",
+          "sentence_furigana": "彼(かれ)は会社(かいしゃ)を__無断(むだん)__で休ん(やすん)だ。",
+          "sentence_vi": "Anh ấy đã tự ý nghỉ làm mà không xin phép."
+        },
+        {
+          "id": 18,
+          "target_word": "接する",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "この絵には手を__接しない__でください。",
+            "このパソコンはインターネットに__接して__いません。",
+            "先生に__接する__ことができて、本当によかったです。",
+            "鈴木さんのまじめな態度に__接して__、私もがんばろうと思った。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「接する（せっする）」は「触れる、対面する、対応する」などの意味があります。「態度に接する（触れる）」という使い方が適切です。1は「触れないで」、2は「接続して」、3は「お会いする」が自然です。",
+          "explanation_vi": "「接する」 có nghĩa là 'tiếp xúc, đối xử'. 'Tiếp xúc với thái độ...' là một cách dùng chính xác. Câu 1 dùng 'không chạm vào' (触れないで), câu 2 dùng 'kết nối' (接続して), câu 3 dùng 'gặp gỡ' (お会いする) mới tự nhiên.",
+          "sentence_furigana": "鈴木(すずき)さんのまじめな態度(たいど)に__接し(せっし)て__、私(わたし)もがんばろうと思っ(おもっ)た。",
+          "sentence_vi": "Tiếp xúc với thái độ nghiêm túc của anh Suzuki, tôi cũng tự nhủ bản thân phải cố gắng."
+        }
+      ]
+    }
+  ]
+}

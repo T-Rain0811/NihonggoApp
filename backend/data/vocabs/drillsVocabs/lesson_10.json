@@ -1,0 +1,315 @@
+{
+  "lesson": 10,
+  "title": "第１０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この携帯電話は__操作__しにくい。",
+          "options": [
+            "そうさ",
+            "そうさく",
+            "しょうさ",
+            "しょうさく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「操作」の正しい読み方は「そうさ」です。",
+          "explanation_vi": "Cách đọc đúng của 「操作」 là 「そうさ」 (thao tác).",
+          "sentence_furigana": "この携帯電話(けいたいでんわ)は__操作(そうさ)__しにくい。",
+          "sentence_vi": "Cái điện thoại di động này rất khó thao tác."
+        },
+        {
+          "id": 2,
+          "text": "この部屋は__湿気__が多い。",
+          "options": [
+            "しつき",
+            "しっき",
+            "しつけ",
+            "しっけ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「湿気」の正しい読み方は「しっけ」または「しっき」ですが、一般的には「しっけ」がよく使われます。",
+          "explanation_vi": "Cách đọc phổ biến của 「湿気」 là 「しっけ」 (độ ẩm, hơi ẩm).",
+          "sentence_furigana": "この部屋(へや)は__湿気(しっけ)__が多い(おおい)。",
+          "sentence_vi": "Căn phòng này có độ ẩm rất cao (rất ẩm thấp)."
+        },
+        {
+          "id": 3,
+          "text": "地震でビルが__傾いて__しまった。",
+          "options": [
+            "はぶいて",
+            "かたむいて",
+            "きずついて",
+            "ふりむいて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「傾く」の正しい読み方は「かたむく」です。",
+          "explanation_vi": "Cách đọc đúng của 「傾く」 là 「かたむく」 (nghiêng).",
+          "sentence_furigana": "地震(じしん)でビル(びる)が__傾い(かたむい)て__しまった。",
+          "sentence_vi": "Trận động đất đã làm tòa nhà bị nghiêng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "この薬は食後すぐに飲まなければ__こうか__がない。",
+          "options": [
+            "効果",
+            "効菓",
+            "郊果",
+            "郊菓"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こうか」の漢字は「効果」です。",
+          "explanation_vi": "Chữ Hán của 「こうか」 là 「効果」 (hiệu quả).",
+          "sentence_furigana": "この薬(くすり)は食後(しょくご)すぐに飲ま(のま)なければ__効果(こうか)__がない。",
+          "sentence_vi": "Loại thuốc này nếu không uống ngay sau bữa ăn thì sẽ không có hiệu quả."
+        },
+        {
+          "id": 5,
+          "text": "いつか自分の本を__しゅっぱん__したい。",
+          "options": [
+            "出板",
+            "出版",
+            "出阪",
+            "出販"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しゅっぱん」の漢字は「出版」です。",
+          "explanation_vi": "Chữ Hán của 「しゅっぱん」 là 「出版」 (xuất bản).",
+          "sentence_furigana": "いつか自分(じぶん)の本(ほん)を__出版(しゅっぱん)__したい。",
+          "sentence_vi": "Một ngày nào đó tôi muốn xuất bản quyển sách của riêng mình."
+        },
+        {
+          "id": 6,
+          "text": "昨年度の調査結果が__こうひょう__された。",
+          "options": [
+            "公表",
+            "広表",
+            "公票",
+            "広票"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こうひょう」の漢字は「公表」です。",
+          "explanation_vi": "Chữ Hán của 「こうひょう」 là 「公表」 (công bố).",
+          "sentence_furigana": "昨年度(さくねんど)の調査結果(ちょうさけっか)が__公表(こうひょう)__された。",
+          "sentence_vi": "Kết quả khảo sát của năm ngoái đã được công bố."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "あの歌手の生き方には、多くの女性が（　　）いる。",
+          "options": [
+            "憧れて",
+            "苦労して",
+            "注意して",
+            "批判して"
+          ],
+          "correct_answer": 1,
+          "explanation": "「憧れる（あこがれる）」は「理想として強く引かれる」という意味です。",
+          "explanation_vi": "「憧れる」 có nghĩa là 'ngưỡng mộ, ao ước'.",
+          "sentence_furigana": "あの歌手(かしゅ)の生き方(いきかた)には、多く(おおく)の女性(じょせい)が（ 憧れ(あこがれ)て ）いる。",
+          "sentence_vi": "Rất nhiều phụ nữ ngưỡng mộ lối sống của ca sĩ đó."
+        },
+        {
+          "id": 8,
+          "text": "その国に興味を持った（　　）は、1本の映画を見たことだった。",
+          "options": [
+            "機会",
+            "初心",
+            "はじめ",
+            "きっかけ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「きっかけ」は「物事を始める原因や動機」という意味です。",
+          "explanation_vi": "「きっかけ」 có nghĩa là 'nguyên cớ, cơ hội, động lực' để bắt đầu việc gì đó.",
+          "sentence_furigana": "その国(くに)に興味(きょうみ)を持っ(もっ)た（ きっかけ ）は、1本(いっぽん)の映画(えいが)を見(み)たことだった。",
+          "sentence_vi": "Cơ duyên khiến tôi có hứng thú với đất nước đó là sau khi xem một bộ phim."
+        },
+        {
+          "id": 9,
+          "text": "買い物に行くなら、（　　）牛乳を買ってきて。",
+          "options": [
+            "そのうち",
+            "ところで",
+            "ついでに",
+            "わざわざ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ついでに」は「ある事をする機会を利用して、他のこともする」という意味です。",
+          "explanation_vi": "「ついでに」 có nghĩa là 'nhân tiện, tiện thể'.",
+          "sentence_furigana": "買い物(かいもの)に行く(いく)なら、（ ついでに ）牛乳(ぎゅうにゅう)を買っ(かっ)てきて。",
+          "sentence_vi": "Nếu đi mua đồ thì nhân tiện mua cho tôi ít sữa luôn nhé."
+        },
+        {
+          "id": 10,
+          "text": "私の部屋は狭いので、ピアノを置く（　　）はない。",
+          "options": [
+            "コーナー",
+            "スペース",
+            "ベランダ",
+            "カウンター"
+          ],
+          "correct_answer": 2,
+          "explanation": "「スペース（space）」は「空間、場所」という意味です。",
+          "explanation_vi": "「スペース」 (space) có nghĩa là 'không gian, chỗ trống'.",
+          "sentence_furigana": "私(わたし)の部屋(へや)は狭い(せまい)ので、ピアノ(ぴあの)を置く(おく)（ スペース(すぺーす) ）はない。",
+          "sentence_vi": "Phòng của tôi hẹp nên không có không gian để đặt đàn piano."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "彼は有名な（　　）企業で働いている。",
+          "options": [
+            "高",
+            "強",
+            "大",
+            "良"
+          ],
+          "correct_answer": 3,
+          "explanation": "「大企業（だいきぎょう）」で「規模の大きい会社」を意味します。",
+          "explanation_vi": "「大企業」 (daikigyou) có nghĩa là 'doanh nghiệp lớn, tập đoàn lớn'.",
+          "sentence_furigana": "彼(かれ)は有名(ゆうめい)な（ 大(だい) ）企業(きぎょう)で働い(はたらい)ている。",
+          "sentence_vi": "Anh ấy đang làm việc cho một doanh nghiệp lớn nổi tiếng."
+        },
+        {
+          "id": 12,
+          "text": "私の家では新聞を2（　　）とっています。",
+          "options": [
+            "冊",
+            "部",
+            "本",
+            "枚"
+          ],
+          "correct_answer": 2,
+          "explanation": "新聞を数えるときの助数詞は「部（ぶ）」を使います。",
+          "explanation_vi": "Đơn vị để đếm báo chí là 「部」 (bu).",
+          "sentence_furigana": "私(わたし)の家(いえ)では新聞(しんぶん)を2（ 部(ぶ) ）とっています。",
+          "sentence_vi": "Nhà tôi đang đặt mua 2 tờ báo."
+        },
+        {
+          "id": 13,
+          "text": "交通事故の通報を受け、警察官が急いで現場にかけ（　　）。",
+          "options": [
+            "こんだ",
+            "つけた",
+            "ぬけた",
+            "まわった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「駆けつける（かけつける）」は「急いで目的地に行く」という意味です。",
+          "explanation_vi": "「駆けつける」 (kaketsukeru) có nghĩa là 'vội vàng chạy tới, tất tốc lao đến'.",
+          "sentence_furigana": "交通事故(こうつうじこ)の通報(つうほう)を受け(うけ)、警察官(けいさつかん)が急い(いそい)で現場(げんば)にかけ（ つけた ）。",
+          "sentence_vi": "Nhận được tin báo về vụ tai nạn giao thông, cảnh sát đã vội vàng chạy tới hiện trường."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "父は仕事で__年中__家を留守にしている。",
+          "options": [
+            "いつも",
+            "たまに",
+            "一年間",
+            "半年間"
+          ],
+          "correct_answer": 1,
+          "explanation": "「年中（ねんじゅう）」は「一年中、いつも」という意味です。",
+          "explanation_vi": "「年中」 có nghĩa là 'quanh năm, lúc nào cũng', tương đương với 「いつも」.",
+          "sentence_furigana": "父(ちち)は仕事(しごと)で__年中(ねんじゅう)__家(いえ)を留守(るす)にしている。",
+          "sentence_vi": "Bố tôi vì công việc nên lúc nào cũng vắng nhà."
+        },
+        {
+          "id": 15,
+          "text": "彼は何事にも__冷静に__対応する。",
+          "options": [
+            "冷たく",
+            "丁寧に",
+            "いじわるに",
+            "落ち着いて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「冷静に（れいせいに）」は「感情に流されず落ち着いている様子」を表します。",
+          "explanation_vi": "「冷静に」 có nghĩa là 'một cách bình tĩnh, điềm tĩnh', tương đương với 「落ち着いて」.",
+          "sentence_furigana": "彼(かれ)は何事(なにごと)にも__冷静(れいせい)に__対応(たいおう)する。",
+          "sentence_vi": "Anh ấy giải quyết bất cứ chuyện gì cũng rất bình tĩnh."
+        },
+        {
+          "id": 16,
+          "text": "約束の時間に遅れてしまって、本当に__すまない__と思っています。",
+          "options": [
+            "かなしい",
+            "くやしい",
+            "だらしない",
+            "申しわけない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「すまない（済まない）」は「謝罪する気持ち」を表し、「申し訳ない」と同じ意味です。",
+          "explanation_vi": "「すまない」 là cách nói thể hiện sự hối lỗi, xin lỗi, tương đương với 「申し訳ない」.",
+          "sentence_furigana": "約束(やくそく)の時間(じかん)に遅れ(おくれ)てしまって、本当に(ほんとうに)__すまない__と思っ(おもっ)ています。",
+          "sentence_vi": "Tôi cảm thấy rất có lỗi vì đã đến muộn giờ hẹn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "目指す",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "先生は山本さんの名前を呼んで、__目指した__。",
+            "チーム全員が、優勝を__目指して__毎日練習している。",
+            "お金持ちを__目指して__いつも宝くじを買っている。",
+            "財布を拾ってくれた人を__目指して__お礼を言った。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「目指す（めざす）」は「目標に向かって進む、目標にする」という意味です。1は「指した」、3は「夢見て/願って」、4は「見つけて/探して」が適切です。",
+          "explanation_vi": "「目指す」 có nghĩa là 'nhắm tới, hướng tới mục tiêu'. Câu 1 dùng 'chỉ định' (指した), câu 3 dùng 'mơ ước/mong muốn' (夢見て), câu 4 dùng 'tìm kiếm' (探して) mới đúng.",
+          "sentence_furigana": "チーム(ちーむ)全員(ぜんいん)が、優勝(ゆうしょう)を__目指し(めざし)て__毎日(まいにち)練習(れんしゅう)している。",
+          "sentence_vi": "Toàn đội đang luyện tập mỗi ngày để nhắm tới chức vô địch."
+        },
+        {
+          "id": 18,
+          "target_word": "せっかく",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__せっかく__15分は待ちましょう。",
+            "__せっかく__作ったら、ぜひ食べてください。",
+            "__せっかく__ですが、よろしくお願いします。",
+            "__せっかく__ここまで来たのだから、よく見ていこう。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「せっかく」は「苦労してわざわざ〜したのだから」という意味で使われます。1は「少なくとも」、2は「もし」、3は「せっかくですが、辞退させていただきます」のような断りの表現が一般的です。",
+          "explanation_vi": "「せっかく」 có nghĩa là 'đã cất công, bõ công'. Câu 1 dùng 'ít nhất' (少なくとも), câu 2 dùng 'nếu' (もし), câu 3 thường dùng khi từ chối (せっかくですが...辞退します) mới đúng.",
+          "sentence_furigana": "__せっかく__ここまで来(き)たのだから、よく見(み)ていこう。",
+          "sentence_vi": "Đã mất công đến tận đây rồi thì hãy ngắm nhìn kỹ một chút rồi hẵng đi."
+        }
+      ]
+    }
+  ]
+}

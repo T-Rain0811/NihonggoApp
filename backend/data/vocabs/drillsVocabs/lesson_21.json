@@ -1,0 +1,315 @@
+{
+  "lesson": 21,
+  "title": "第２１回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この飛行機は、大阪__経由__北京行きです。",
+          "options": [
+            "けいゆ",
+            "きょうゆ",
+            "けいゆう",
+            "きょうゆう"
+          ],
+          "correct_answer": 1,
+          "explanation": "「経由」の正しい読み方は「けいゆ」です。",
+          "explanation_vi": "Cách đọc đúng của 「経由」 là 「けいゆ」 (quá cảnh, thông qua).",
+          "sentence_furigana": "この飛行機(ひこうき)は、大阪(おおさか)__経由(けいゆ)__北京(ぺきん)行き(ゆき)です。",
+          "sentence_vi": "Chuyến bay này đi Bắc Kinh quá cảnh tại Osaka."
+        },
+        {
+          "id": 2,
+          "text": "留学生__同士__で、それぞれの国の言葉を教え合っている。",
+          "options": [
+            "とうし",
+            "とうじ",
+            "どうし",
+            "どうじ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「同士」の正しい読み方は「どうし」です。",
+          "explanation_vi": "Cách đọc đúng của 「同士」 là 「どうし」 (cùng là (du học sinh), giữa (những du học sinh) với nhau).",
+          "sentence_furigana": "留学生(りゅうがくせい)__同士(どうし)__で、それぞれの国(くに)の言葉(ことば)を教え合っ(おしえあっ)ている。",
+          "sentence_vi": "Giữa các du học sinh với nhau, họ đang dạy cho nhau ngôn ngữ của đất nước mình."
+        },
+        {
+          "id": 3,
+          "text": "その選手は、激しい__口調__で審判に抗議した。",
+          "options": [
+            "くちょう",
+            "こちょう",
+            "くちちょう",
+            "こうちょう"
+          ],
+          "correct_answer": 1,
+          "explanation": "「口調」の正しい読み方は「くちょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「口調」 là 「くちょう」 (giọng điệu).",
+          "sentence_furigana": "その選手(せんしゅ)は、激しい(はげしい)__口調(くちょう)__で審判(しんぱん)に抗議(こうぎ)した。",
+          "sentence_vi": "Cầu thủ đó đã phản đối trọng tài với giọng điệu rất gay gắt."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "別々の__ふくろ__に入れてください。",
+          "options": [
+            "装",
+            "袋",
+            "製",
+            "裏"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ふくろ」の漢字は「袋」です。",
+          "explanation_vi": "Chữ Hán của 「ふくろ」 là 「袋」 (cái túi).",
+          "sentence_furigana": "別々(べつべつ)の__袋(ふくろ)__に入れ(いれ)てください。",
+          "sentence_vi": "Xin hãy cho vào các túi riêng biệt."
+        },
+        {
+          "id": 5,
+          "text": "飛行機で荷物を__ゆそう__する。",
+          "options": [
+            "運送",
+            "愉送",
+            "輸送",
+            "輪送"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ゆそう」の漢字は「輸送」です。",
+          "explanation_vi": "Chữ Hán của 「ゆそう」 là 「輸送」 (vận chuyển).",
+          "sentence_furigana": "飛行機(ひこうき)で荷物(にもつ)を__輸送(ゆそう)__する。",
+          "sentence_vi": "Vận chuyển hành lý bằng máy bay."
+        },
+        {
+          "id": 6,
+          "text": "__りけい__のほうが就職に有利だと聞いた。",
+          "options": [
+            "理系",
+            "理係",
+            "野系",
+            "野係"
+          ],
+          "correct_answer": 1,
+          "explanation": "「りけい」の漢字は「理系」です。",
+          "explanation_vi": "Chữ Hán của 「りけい」 là 「理系」 (khối tự nhiên).",
+          "sentence_furigana": "__理系(りけい)__のほうが就職(しゅうしょく)に有利(ゆうり)だと聞い(きい)た。",
+          "sentence_vi": "Tôi nghe nói học khối tự nhiên sẽ có lợi hơn khi xin việc."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "今日は（　　）のついた靴をはいていこう。",
+          "options": [
+            "いと",
+            "なわ",
+            "ひも",
+            "ぬの"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ひも」は靴紐（くつひも）などの「結んだり縛ったりするための細長いもの」です。",
+          "explanation_vi": "「ひも」 có nghĩa là 'sợi dây' (dây giày).",
+          "sentence_furigana": "今日(きょう)は（ ひも ）のついた靴(くつ)をはいていこう。",
+          "sentence_vi": "Hôm nay hãy mang đôi giày có dây buộc đi."
+        },
+        {
+          "id": 8,
+          "text": "ベランダに洗濯物がたくさん（　　）ある。",
+          "options": [
+            "さして",
+            "しいて",
+            "はって",
+            "ほして"
+          ],
+          "correct_answer": 4,
+          "explanation": "「干す（ほす）」で「日光や風にあてて乾かす」という意味です。",
+          "explanation_vi": "「干す」 (hosu) có nghĩa là 'phơi'.",
+          "sentence_furigana": "ベランダ(べらんだ)に洗濯物(せんたくもの)がたくさん（ 干し(ほし)て ）ある。",
+          "sentence_vi": "Trên ban công có phơi rất nhiều quần áo."
+        },
+        {
+          "id": 9,
+          "text": "いつまでもそんな（　　）テレビばかり見ていないで、早く寝なさい。",
+          "options": [
+            "ばかばかしい",
+            "はなはだしい",
+            "はなばなしい",
+            "わかわかしい"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ばかばかしい」は「くだらなくて意味がない、無意味だ」という意味です。",
+          "explanation_vi": "「ばかばかしい」 có nghĩa là 'vớ vẩn, nhảm nhí'.",
+          "sentence_furigana": "いつまでもそんな（ ばかばかしい ）テレビ(てれび)ばかり見(み)ていないで、早く(はやく)寝なさい(ねなさい)。",
+          "sentence_vi": "Đừng có xem mãi mấy chương trình tivi nhảm nhí đó nữa, mau đi ngủ đi."
+        },
+        {
+          "id": 10,
+          "text": "親と子の間に、考え方の（　　）があるのは当然だ。",
+          "options": [
+            "キャップ",
+            "ギャップ",
+            "ステージ",
+            "ステップ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ギャップ（gap）」は「考え方や価値観などの隔たり、ズレ」という意味です。",
+          "explanation_vi": "「ギャップ」 (gap) có nghĩa là 'khoảng cách, sự khác biệt'.",
+          "sentence_furigana": "親(おや)と子(こ)の間(あいだ)に、考え方(かんがえかた)の（ ギャップ(ぎゃっぷ) ）があるのは当然(とうぜん)だ。",
+          "sentence_vi": "Giữa cha mẹ và con cái có khoảng cách về cách suy nghĩ là chuyện đương nhiên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この地域には（　　）国籍の人が住んでいる。",
+          "options": [
+            "大",
+            "多",
+            "超",
+            "複"
+          ],
+          "correct_answer": 2,
+          "explanation": "「多国籍（たこくせき）」で「様々な国籍があること」を意味します。",
+          "explanation_vi": "「多国籍」 (takokuseki) có nghĩa là 'đa quốc tịch'.",
+          "sentence_furigana": "この地域(ちいき)には（ 多(た) ）国籍(こくせき)の人(ひと)が住ん(すん)でいる。",
+          "sentence_vi": "Khu vực này có những người mang nhiều quốc tịch khác nhau sinh sống."
+        },
+        {
+          "id": 12,
+          "text": "伊藤さんは日本（　　）の古い車に乗っていた。",
+          "options": [
+            "式",
+            "性",
+            "製",
+            "造"
+          ],
+          "correct_answer": 3,
+          "explanation": "「日本製（にほんせい）」で「日本で作られたもの」を意味します。",
+          "explanation_vi": "「日本製」 (nihonsei) có nghĩa là 'sản xuất tại Nhật Bản'.",
+          "sentence_furigana": "伊藤(いとう)さんは日本(にほん)（ 製(せい) ）の古い(ふるい)車(くるま)に乗っ(のっ)ていた。",
+          "sentence_vi": "Anh Ito đã lái một chiếc ô tô cũ do Nhật Bản sản xuất."
+        },
+        {
+          "id": 13,
+          "text": "もうすぐ夏休みが終わるのに、まだ宿題に取り（　　）いない。",
+          "options": [
+            "けして",
+            "だして",
+            "かかって",
+            "はじめて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「取りかかる（とりかかる）」で「物事に手をつける、始める」という意味です。",
+          "explanation_vi": "「取りかかる」 (torikakaru) có nghĩa là 'bắt tay vào làm'.",
+          "sentence_furigana": "もうすぐ夏休み(なつやすみ)が終わる(おわる)のに、まだ宿題(しゅくだい)に取り（ かかっ(かかっ)て ）いない。",
+          "sentence_vi": "Sắp hết kỳ nghỉ hè rồi mà tôi vẫn chưa bắt tay vào làm bài tập về nhà."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "レポートに必要な本を図書館で__検索した__。",
+          "options": [
+            "読んだ",
+            "借りた",
+            "探した",
+            "見つけた"
+          ],
+          "correct_answer": 3,
+          "explanation": "「検索する（けんさくする）」は「データや情報などを探し出すこと」という意味で、「探す」とほぼ同じです。",
+          "explanation_vi": "「検索する」 có nghĩa là 'tìm kiếm', tương đương với 「探した」.",
+          "sentence_furigana": "レポート(れぽーと)に必要な(ひつような)本(ほん)を図書館(としょかん)で__検索(けんさく)した__。",
+          "sentence_vi": "Tôi đã tìm kiếm cuốn sách cần thiết cho bài báo cáo ở thư viện."
+        },
+        {
+          "id": 15,
+          "text": "彼はコンピューターの知識が__とぼしい__。",
+          "options": [
+            "必要だ",
+            "増えた",
+            "少しある",
+            "ほとんどない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「乏しい（とぼしい）」は「足りない、少ない」という意味で、「ほとんどない」とほぼ同じです。",
+          "explanation_vi": "「乏しい」 có nghĩa là 'nghèo nàn, thiếu thốn', tương đương với 「ほとんどない」.",
+          "sentence_furigana": "彼(かれ)はコンピューター(こんぴゅーたー)の知識(ちしき)が__とぼしい__。",
+          "sentence_vi": "Kiến thức về máy tính của anh ấy rất nghèo nàn."
+        },
+        {
+          "id": 16,
+          "text": "この実験では多くの薬物を__用いる__。",
+          "options": [
+            "買う",
+            "試す",
+            "使う",
+            "取る"
+          ],
+          "correct_answer": 3,
+          "explanation": "「用いる（もちいる）」は「使う、利用する」という意味で、「使う」と同じ意味です。",
+          "explanation_vi": "「用いる」 có nghĩa là 'sử dụng', tương đương với 「使う」.",
+          "sentence_furigana": "この実験(じっけん)では多く(おおく)の薬物(やくぶつ)を__用いる(もちいる)__。",
+          "sentence_vi": "Trong cuộc thử nghiệm này sẽ sử dụng rất nhiều loại dược phẩm."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "使い道",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "この学校の卒業生の__使い道__はさまざまだ。",
+            "初めての給料の__使い道__はまだ決めていない。",
+            "いくら説明書を読んでも、この電話の__使い道__がわからない。",
+            "駅から会場までの__使い道__は、バスとタクシーがあります。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「使い道（つかいみち）」は「お金や物の使う目的、用途」を意味します。1は「進路」、3は「使い方」、4は「交通手段」が適切です。",
+          "explanation_vi": "「使い道」 có nghĩa là 'cách sử dụng, mục đích sử dụng' (thường dùng cho tiền bạc hoặc đồ vật). Câu 1 dùng 'con đường tiến thân' (進路), câu 3 dùng 'cách dùng/cách thao tác' (使い方), câu 4 dùng 'phương tiện giao thông' (交通手段) mới đúng.",
+          "sentence_furigana": "初めて(はじめて)の給料(きゅうりょう)の__使い道(つかいみち)__はまだ決め(きめ)ていない。",
+          "sentence_vi": "Tôi vẫn chưa quyết định sẽ dùng tháng lương đầu tiên vào việc gì."
+        },
+        {
+          "id": 18,
+          "target_word": "はらはら",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "午後、雨が__はらはら__降ったが、すぐに晴れた。",
+            "窓を開けたら、風で書類が__はらはら__になってしまった。",
+            "昼ご飯を食べていないので、おなかが__はらはら__だ。",
+            "この映画は危険な場面が多く、見ていて__はらはら__した。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「はらはら」は「事の成り行きを心配して気をもむ様子」を表します。1は「ぱらぱら」、2は「ばらばら」、3は「ぺこぺこ」が適切です。",
+          "explanation_vi": "「はらはら」 có nghĩa là 'hồi hộp, thót tim, lo lắng'. Câu 1 dùng 'lất phất' (ぱらぱら), câu 2 dùng 'tung tóe/rời rạc' (ばらばら), câu 3 dùng 'đói meo' (ぺこぺこ) mới đúng.",
+          "sentence_furigana": "この映画(えいが)は危険な(きけんな)場面(ばめん)が多く(おおく)、見(み)ていて__はらはら__した。",
+          "sentence_vi": "Bộ phim này có rất nhiều cảnh nguy hiểm, xem mà cứ thấy thót tim."
+        }
+      ]
+    }
+  ]
+}

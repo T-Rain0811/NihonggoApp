@@ -1,0 +1,315 @@
+{
+  "lesson": 4,
+  "title": "第４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "入学試験の日程は学部によって__異なる__。",
+          "options": [
+            "いなる",
+            "しなる",
+            "かたなる",
+            "ことなる"
+          ],
+          "correct_answer": 4,
+          "explanation": "「異なる」の正しい読み方は「ことなる」です。",
+          "explanation_vi": "Cách đọc đúng của 「異なる」 là 「ことなる」 (khác nhau).",
+          "sentence_furigana": "入学試験(にゅうがくしけん)の日程(にってい)は学部(がくぶ)によって__異(こと)なる__。",
+          "sentence_vi": "Lịch thi đầu vào sẽ khác nhau tùy theo từng khoa."
+        },
+        {
+          "id": 2,
+          "text": "先輩に__願書__の書き方を教えてもらった。",
+          "options": [
+            "がんしょ",
+            "げんしょ",
+            "がんしょう",
+            "げんしょう"
+          ],
+          "correct_answer": 1,
+          "explanation": "「願書」の正しい読み方は「がんしょ」です。",
+          "explanation_vi": "Cách đọc đúng của 「願書」 là 「がんしょ」 (đơn xin, hồ sơ).",
+          "sentence_furigana": "先輩(せんぱい)に__願書(がんしょ)__の書き方(かきかた)を教え(おしえ)てもらった。",
+          "sentence_vi": "Tôi đã được tiền bối chỉ cho cách viết đơn xin."
+        },
+        {
+          "id": 3,
+          "text": "その国際会議には日本の__首相__も出席するそうだ。",
+          "options": [
+            "しゅそう",
+            "しゅしょう",
+            "しゅうそう",
+            "しゅうしょう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「首相」の正しい読み方は「しゅしょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「首相」 là 「しゅしょう」 (thủ tướng).",
+          "sentence_furigana": "その国際会議(こくさいかいぎ)には日本(にっぽん)の__首相(しゅしょう)__も出席(しゅっせき)するそうだ。",
+          "sentence_vi": "Nghe nói thủ tướng Nhật Bản cũng sẽ tham dự hội nghị quốc tế đó."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "日曜日、社長の__おたく__に伺うことになった。",
+          "options": [
+            "お宅",
+            "お字",
+            "お居",
+            "お屋"
+          ],
+          "correct_answer": 1,
+          "explanation": "「おたく」の漢字は「お宅」です。",
+          "explanation_vi": "Chữ Hán của 「おたく」 là 「お宅」 (nhà của người khác - cách nói lịch sự).",
+          "sentence_furigana": "日曜日(にちようび)、社長(しゃちょう)の__お宅(たく)__に伺う(うかがう)ことになった。",
+          "sentence_vi": "Vào Chủ nhật, tôi sẽ đến thăm nhà của giám đốc."
+        },
+        {
+          "id": 5,
+          "text": "アルバイトの__めんせつ__を受けた。",
+          "options": [
+            "面切",
+            "面接",
+            "面設",
+            "面説"
+          ],
+          "correct_answer": 2,
+          "explanation": "「めんせつ」の漢字は「面接」です。",
+          "explanation_vi": "Chữ Hán của 「めんせつ」 là 「面接」 (phỏng vấn).",
+          "sentence_furigana": "アルバイト(あるばいと)の__面接(めんせつ)__を受け(うけ)た。",
+          "sentence_vi": "Tôi đã đi phỏng vấn xin việc làm thêm."
+        },
+        {
+          "id": 6,
+          "text": "この事業の予算は昨年の1.5__ばい__だ。",
+          "options": [
+            "倍",
+            "培",
+            "部",
+            "剖"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ばい」の漢字は「倍」です。",
+          "explanation_vi": "Chữ Hán của 「ばい」 là 「倍」 (gấp bội, lần).",
+          "sentence_furigana": "この事業(じぎょう)の予算(よさん)は昨年(さくねん)の1.5__倍(ばい)__だ。",
+          "sentence_vi": "Ngân sách cho dự án này gấp 1.5 lần so với năm ngoái."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "雨でサッカーの試合が来週に（　　）になった。",
+          "options": [
+            "中止",
+            "禁止",
+            "延期",
+            "延長"
+          ],
+          "correct_answer": 3,
+          "explanation": "「延期（えんき）」は「予定されていた日時を遅らせること」を意味します。",
+          "explanation_vi": "「延期」 (enki) có nghĩa là 'hoãn lại, dời lịch'.",
+          "sentence_furigana": "雨(あめ)でサッカー(さっかー)の試合(しあい)が来週(らいしゅう)に（ 延期(えんき) ）になった。",
+          "sentence_vi": "Do trời mưa nên trận đấu bóng đá đã bị hoãn sang tuần sau."
+        },
+        {
+          "id": 8,
+          "text": "月曜日は定休日です。（　　）、祝日の場合は営業します。",
+          "options": [
+            "さらに",
+            "ただし",
+            "それでも",
+            "ところが"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ただし（但し）」は「条件や例外などを付け加える」ときに使います。",
+          "explanation_vi": "「ただし」 (tadashi) có nghĩa là 'tuy nhiên, nhưng (đưa ra ngoại lệ)'.",
+          "sentence_furigana": "月曜日(げつようび)は定休日(ていきゅうび)です。（ ただし ）、祝日(しゅくじつ)の場合(ばあい)は営業(えいぎょう)します。",
+          "sentence_vi": "Thứ Hai là ngày nghỉ định kỳ. Tuy nhiên, nếu là ngày lễ thì chúng tôi vẫn mở cửa."
+        },
+        {
+          "id": 9,
+          "text": "大雨の中、飛行機が無事に着陸できて、（　　）した。",
+          "options": [
+            "きっと",
+            "すっと",
+            "ほっと",
+            "もっと"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ほっとする」で「安心する」という意味になります。",
+          "explanation_vi": "Cụm từ 「ほっとする」 (hotto suru) có nghĩa là 'thở phào nhẹ nhõm, an tâm'.",
+          "sentence_furigana": "大雨(おおあめ)の中(なか)、飛行機(ひこうき)が無事(ぶじ)に着陸(ちゃくりく)できて、（ ほっと ）した。",
+          "sentence_vi": "Giữa cơn mưa lớn, máy bay đã hạ cánh an toàn nên tôi thở phào nhẹ nhõm."
+        },
+        {
+          "id": 10,
+          "text": "話し合いはとても（　　）に進み、予定時間より早く終わった。",
+          "options": [
+            "ポーズ",
+            "ルーズ",
+            "シリーズ",
+            "スムーズ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「スムーズ（smooth）」は「物事がなめらかに進むこと」を意味します。",
+          "explanation_vi": "「スムーズ」 (smooth) có nghĩa là 'trơn tru, suôn sẻ'.",
+          "sentence_furigana": "話し合い(はなしあい)はとても（ スムーズ(すむーず) ）に進み(すすみ)、予定時間(よていじかん)より早く(はやく)終わっ(おわっ)た。",
+          "sentence_vi": "Cuộc thảo luận diễn ra rất suôn sẻ và kết thúc sớm hơn thời gian dự kiến."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "こんな夜中に電話をかけてくるなんて（　　）常識だ。",
+          "options": [
+            "無",
+            "非",
+            "否",
+            "不"
+          ],
+          "correct_answer": 2,
+          "explanation": "「非常識（ひじょうしき）」で「常識がないこと」を意味します。",
+          "explanation_vi": "「非常識」 (hijoushiki) có nghĩa là 'thiếu ý thức, thiếu thường thức, vô duyên'.",
+          "sentence_furigana": "こんな夜中(よなか)に電話(でんわ)をかけてくるなんて（ 非(ひ) ）常識(じょうしき)だ。",
+          "sentence_vi": "Gọi điện thoại vào lúc nửa đêm thế này đúng là đồ thiếu ý thức."
+        },
+        {
+          "id": 12,
+          "text": "私は大学で文（　　）の学部に進むことにした。",
+          "options": [
+            "課",
+            "系",
+            "制",
+            "類"
+          ],
+          "correct_answer": 2,
+          "explanation": "「文系（ぶんけい）」で文学や歴史などの「文科系の分野」のことです。",
+          "explanation_vi": "「文系」 (bunkei) có nghĩa là 'khối khoa học xã hội'.",
+          "sentence_furigana": "私(わたし)は大学(だいがく)で文（ 系(けい) ）の学部(がくぶ)に進む(すすむ)ことにした。",
+          "sentence_vi": "Tôi quyết định sẽ học một khoa thuộc khối xã hội ở đại học."
+        },
+        {
+          "id": 13,
+          "text": "使用（　　）の注意をよく読んでからご使用ください。",
+          "options": [
+            "上",
+            "中",
+            "内",
+            "前"
+          ],
+          "correct_answer": 1,
+          "explanation": "「使用上（しようじょう）」で「使用するにあたっての（注意）」という意味です。",
+          "explanation_vi": "「使用上」 (shiyou-jou) có nghĩa là 'về mặt sử dụng, khi sử dụng'.",
+          "sentence_furigana": "使用（ 上(じょう) ）の注意(ちゅうい)をよく読ん(よん)でからご使用(しよう)ください。",
+          "sentence_vi": "Vui lòng đọc kỹ các lưu ý khi sử dụng trước khi dùng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼はあの会社に入ることを__ためらっている__ようだ。",
+          "options": [
+            "決めて",
+            "喜んで",
+            "迷って",
+            "不満に思って"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ためらう」は「あれこれ考えて決心がつかない状態」で、「迷う（まよう）」とほぼ同じ意味です。",
+          "explanation_vi": "「ためらう」 có nghĩa là 'lưỡng lự, do dự', tương đương với 「迷う」.",
+          "sentence_furigana": "彼(かれ)はあの会社(かいしゃ)に入る(はいる)ことを__ためらっている__ようだ。",
+          "sentence_vi": "Có vẻ như anh ấy đang do dự về việc vào làm ở công ty đó."
+        },
+        {
+          "id": 15,
+          "text": "時計を見たら、__とっくに__約束の時間を過ぎていた。",
+          "options": [
+            "少し前に",
+            "たったいま",
+            "だいぶ前に",
+            "知らないうちに"
+          ],
+          "correct_answer": 3,
+          "explanation": "「とっくに」は「すでにずっと前に」という意味で、「だいぶ前に」とほぼ同じです。",
+          "explanation_vi": "「とっくに」 có nghĩa là 'từ lâu rồi, quá lâu rồi', tương đương với 「だいぶ前に」.",
+          "sentence_furigana": "時計(とけい)を見(み)たら、__とっくに__約束(やくそく)の時間(じかん)を過ぎ(すぎ)ていた。",
+          "sentence_vi": "Khi tôi nhìn đồng hồ thì đã quá thời gian hẹn từ lâu rồi."
+        },
+        {
+          "id": 16,
+          "text": "彼はこの仕事を__引き受ける__と言った。",
+          "options": [
+            "やる",
+            "あげる",
+            "やめる",
+            "たすける"
+          ],
+          "correct_answer": 1,
+          "explanation": "「引き受ける」は「頼まれた仕事などを自分がやると承知する」ことで、「やる」とほぼ同じ意味です。",
+          "explanation_vi": "「引き受ける」 có nghĩa là 'nhận, đảm nhận (việc gì đó)', tương đương với 「やる」 (làm).",
+          "sentence_furigana": "彼(かれ)はこの仕事(しごと)を__引き受ける(ひきうける)__と言っ(いっ)た。",
+          "sentence_vi": "Anh ấy nói rằng sẽ đảm nhận công việc này."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "増す",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "毎日勉強したので成績が__増した__。",
+            "世界の気温はだんだん__増している__。",
+            "給料を__増して__くれるよう、社長に頼んだ。",
+            "不景気が続き、国民の不安が__増している__。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「増す（ます）」は「程度がより大きくなる」ときに使います。不安が増す、魅力が増すなど。1は「上がる」、2は「上昇する」、3は「増やす（ふやす）」が適切です。",
+          "explanation_vi": "「増す」 có nghĩa là 'tăng lên' (dùng cho mức độ, cảm xúc như nỗi bất an, sức hút). Câu 1 dùng 'tăng điểm' (上がる), câu 2 dùng 'nhiệt độ tăng' (上昇する), câu 3 dùng 'tăng lương' (増やす) mới đúng.",
+          "sentence_furigana": "不景気(ふけいき)が続き(つづき)、国民(こくみん)の不安(ふあん)が__増し(まし)ている__。",
+          "sentence_vi": "Tình trạng kinh tế suy thoái kéo dài, nỗi bất an của người dân đang tăng lên."
+        },
+        {
+          "id": 18,
+          "target_word": "近々",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__近々__、よく雨が降る。",
+            "__近々__、久しぶりに友達に会った。",
+            "部長は__近々__家に帰ったばかりです。",
+            "__近々__、もう一度みんなで会いましょう。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「近々（ちかぢか）」は「近い将来、もうすぐ」という意味で、未来のことについて使います。",
+          "explanation_vi": "「近々」 (chikajika) có nghĩa là 'sắp tới, sớm thôi, trong một ngày gần nhất', dùng cho thì tương lai.",
+          "sentence_furigana": "__近々(ちかぢか)__、もう一度(もういちど)みんなで会い(あい)ましょう。",
+          "sentence_vi": "Sắp tới (một ngày gần nhất), chúng ta hãy cùng nhau gặp mặt lại nhé."
+        }
+      ]
+    }
+  ]
+}

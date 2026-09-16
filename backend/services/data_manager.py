@@ -5,6 +5,7 @@ from backend.data.vocabs.vocab_data import VOCABULARY
 from backend.data.grammas.grammar_data import GRAMMAR
 
 DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "grammas", "drillsGrammas")
+VOCAB_DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "vocabs", "drillsVocabs")
 
 # Mapping bài học → URL video giảng dạy
 VIDEO_URLS = {
@@ -105,14 +106,15 @@ class DataManager:
         return LESSON_LABELS.get(str(session_id), f"Bài {session_id}")
 
     @staticmethod
-    def get_drill_lesson_list():
+    def get_drill_lesson_list(drill_type="grammar"):
         """Liệt kê các bài Drill có sẵn từ thư mục drills/."""
         lessons = []
-        if not os.path.isdir(DRILLS_DIR):
+        target_dir = DRILLS_DIR if drill_type == "grammar" else VOCAB_DRILLS_DIR
+        if not os.path.isdir(target_dir):
             return lessons
-        for fname in sorted(os.listdir(DRILLS_DIR)):
+        for fname in sorted(os.listdir(target_dir)):
             if fname.endswith(".json"):
-                fpath = os.path.join(DRILLS_DIR, fname)
+                fpath = os.path.join(target_dir, fname)
                 try:
                     with open(fpath, "r", encoding="utf-8") as f:
                         data = json.load(f)
@@ -127,9 +129,10 @@ class DataManager:
         return lessons
 
     @staticmethod
-    def load_drill_lesson(filename):
+    def load_drill_lesson(filename, drill_type="grammar"):
         """Đọc nội dung bài Drill từ file JSON."""
-        fpath = os.path.join(DRILLS_DIR, filename)
+        target_dir = DRILLS_DIR if drill_type == "grammar" else VOCAB_DRILLS_DIR
+        fpath = os.path.join(target_dir, filename)
         try:
             with open(fpath, "r", encoding="utf-8") as f:
                 return json.load(f)

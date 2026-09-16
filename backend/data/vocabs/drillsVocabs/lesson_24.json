@@ -1,0 +1,315 @@
+{
+  "lesson": 24,
+  "title": "第２４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "彼は__本気__で宇宙旅行に行くつもりらしい。",
+          "options": [
+            "ほんき",
+            "ほんけ",
+            "もとき",
+            "もとけ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「本気」の正しい読み方は「ほんき」です。",
+          "explanation_vi": "Cách đọc đúng của 「本気」 là 「ほんき」 (nghiêm túc, thật lòng).",
+          "sentence_furigana": "彼(かれ)は__本気(ほんき)__で宇宙(うちゅう)旅行(りょこう)に行く(いく)つもりらしい。",
+          "sentence_vi": "Có vẻ anh ấy nghiêm túc với ý định đi du lịch vũ trụ thật."
+        },
+        {
+          "id": 2,
+          "text": "救急病院で__治療__を受けた。",
+          "options": [
+            "じびょう",
+            "じりょう",
+            "ちびょう",
+            "ちりょう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「治療」の正しい読み方は「ちりょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「治療」 là 「ちりょう」 (điều trị, chữa trị).",
+          "sentence_furigana": "救急(きゅうきゅう)病院(びょういん)で__治療(ちりょう)__を受け(うけ)た。",
+          "sentence_vi": "Tôi đã được điều trị ở bệnh viện cấp cứu."
+        },
+        {
+          "id": 3,
+          "text": "妹はいつも__地味__な服を着ている。",
+          "options": [
+            "じみ",
+            "ちみ",
+            "じあじ",
+            "ちあじ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「地味」の正しい読み方は「じみ」です。",
+          "explanation_vi": "Cách đọc đúng của 「地味」 là 「じみ」 (giản dị, không nổi bật).",
+          "sentence_furigana": "妹(いもうと)はいつも__地味(じみ)__な服(ふく)を着て(きて)いる。",
+          "sentence_vi": "Em gái tôi lúc nào cũng ăn mặc rất giản dị."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "保健室で傷の__てあて__をしてもらった。",
+          "options": [
+            "手合て",
+            "手当て",
+            "手直て",
+            "手治て"
+          ],
+          "correct_answer": 2,
+          "explanation": "「てあて」の漢字は「手当て」です。",
+          "explanation_vi": "Chữ Hán của 「てあて」 là 「手当て」 (sơ cứu, chữa trị).",
+          "sentence_furigana": "保健(ほけん)室(しつ)で傷(きず)の__手当て(てあて)__をしてもらった。",
+          "sentence_vi": "Tôi đã được sơ cứu vết thương ở phòng y tế."
+        },
+        {
+          "id": 5,
+          "text": "ホテルに__とうちゃく__したら電話してください。",
+          "options": [
+            "到着",
+            "到達",
+            "倒着",
+            "倒達"
+          ],
+          "correct_answer": 1,
+          "explanation": "「とうちゃく」の漢字は「到着」です。",
+          "explanation_vi": "Chữ Hán của 「とうちゃく」 là 「到着」 (đến nơi).",
+          "sentence_furigana": "ホテル(ほてる)に__到着(とうちゃく)__したら電話(でんわ)してください。",
+          "sentence_vi": "Khi nào đến khách sạn thì gọi điện cho tôi nhé."
+        },
+        {
+          "id": 6,
+          "text": "__れんじつ__の雨で、山が崩れた。",
+          "options": [
+            "棟日",
+            "連日",
+            "運日",
+            "練日"
+          ],
+          "correct_answer": 2,
+          "explanation": "「れんじつ」の漢字は「連日」です。",
+          "explanation_vi": "Chữ Hán của 「れんじつ」 là 「連日」 (nhiều ngày liên tiếp).",
+          "sentence_furigana": "__連日(れんじつ)__の雨(あめ)で、山(やま)が崩れ(くずれ)た。",
+          "sentence_vi": "Do trời mưa nhiều ngày liên tiếp nên núi đã bị sạt lở."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "会員から集めたお金は（　　）に使うべきだ。",
+          "options": [
+            "有効",
+            "有能",
+            "有利",
+            "有力"
+          ],
+          "correct_answer": 1,
+          "explanation": "「有効（ゆうこう）」は「効果があること、役立つように」という意味です。",
+          "explanation_vi": "「有効に使う」 (yuukou ni tsukau) có nghĩa là 'sử dụng một cách có hiệu quả'.",
+          "sentence_furigana": "会員(かいいん)から集め(あつめ)たお金(おかね)は（ 有効(ゆうこう) ）に使う(つかう)べきだ。",
+          "sentence_vi": "Tiền thu từ các hội viên nên được sử dụng một cách có hiệu quả."
+        },
+        {
+          "id": 8,
+          "text": "新聞の（　　）を読めば、今話題になっていることがだいたいわかる。",
+          "options": [
+            "見合い",
+            "見送り",
+            "見掛け",
+            "見出し"
+          ],
+          "correct_answer": 4,
+          "explanation": "「見出し（みだし）」は「新聞や雑誌などの記事のタイトル」のことです。",
+          "explanation_vi": "「見出し」 (midashi) có nghĩa là 'tiêu đề, tựa đề'.",
+          "sentence_furigana": "新聞(しんぶん)の（ 見出し(みだし) ）を読め(よめ)ば、今(いま)話題(わだい)になっていることがだいたいわかる。",
+          "sentence_vi": "Chỉ cần đọc tiêu đề của tờ báo là có thể đại khái biết được những vấn đề đang được quan tâm hiện nay."
+        },
+        {
+          "id": 9,
+          "text": "彼の助言が私の不安な気持ちを（　　）。",
+          "options": [
+            "打ち消した",
+            "つき返した",
+            "取り消した",
+            "引き返した"
+          ],
+          "correct_answer": 1,
+          "explanation": "「打ち消す（うちけす）」は「否定する、また、感情などをなくす、払拭する」という意味です。",
+          "explanation_vi": "「打ち消す」 (uchikesu) có nghĩa là 'xóa bỏ, bác bỏ'.",
+          "sentence_furigana": "彼(かれ)の助言(じょげん)が私(わたし)の不安な(ふあんな)気持ち(きもち)を（ 打ち消し(うちけし)た ）。",
+          "sentence_vi": "Lời khuyên của anh ấy đã xóa tan đi cảm giác bất an trong tôi."
+        },
+        {
+          "id": 10,
+          "text": "授業中、友達がおもしろいことを言ったので、必死に笑いを（　　）。",
+          "options": [
+            "おさめた",
+            "こらえた",
+            "しまった",
+            "もどした"
+          ],
+          "correct_answer": 2,
+          "explanation": "「堪える（こらえる）」は「感情などを抑える、がまんする」という意味で、「笑いを堪える」で「笑うのをがまんする」となります。",
+          "explanation_vi": "「堪える」 (koraeru) có nghĩa là 'kìm nén, chịu đựng'. Cụm từ 「笑いを堪える」 có nghĩa là 'nhịn cười'.",
+          "sentence_furigana": "授業(じゅぎょう)中(ちゅう)、友達(ともだち)がおもしろいことを言っ(いっ)たので、必死(ひっし)に笑い(わらい)を（ こらえた ）。",
+          "sentence_vi": "Trong giờ học, bạn tôi nói một chuyện rất buồn cười khiến tôi phải cố hết sức để nhịn cười."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "氏名の50音（　　）に、一列に並んでください。",
+          "options": [
+            "順",
+            "線",
+            "番",
+            "別"
+          ],
+          "correct_answer": 1,
+          "explanation": "「50音順（ごじゅうおんじゅん）」で「あいうえお順」を意味します。",
+          "explanation_vi": "「50音順」 (gojuuon jun) có nghĩa là 'theo thứ tự 50 âm tiết (bảng chữ cái tiếng Nhật)'.",
+          "sentence_furigana": "氏名(しめい)の50音(ごじゅうおん)（ 順(じゅん) ）に、一列(いちれつ)に並ん(ならん)でください。",
+          "sentence_vi": "Xin hãy xếp thành một hàng theo thứ tự bảng chữ cái của họ tên."
+        },
+        {
+          "id": 12,
+          "text": "10年前に比べると、携帯電話もずいぶん小型（　　）された。",
+          "options": [
+            "化",
+            "形",
+            "方",
+            "製"
+          ],
+          "correct_answer": 1,
+          "explanation": "「小型化（こがたか）」で「小さいサイズになること」を意味します。",
+          "explanation_vi": "「小型化」 (kogataka) có nghĩa là 'thu nhỏ lại, được thiết kế nhỏ gọn hơn'.",
+          "sentence_furigana": "10年前(じゅうねんまえ)に比べる(くらべる)と、携帯(けいたい)電話(でんわ)もずいぶん小型(こがた)（ 化(か) ）された。",
+          "sentence_vi": "So với 10 năm trước, điện thoại di động đã được thu nhỏ kích thước đi rất nhiều."
+        },
+        {
+          "id": 13,
+          "text": "この果物は、全体が赤くなったら食べ（　　）です。",
+          "options": [
+            "位",
+            "頃",
+            "際",
+            "中"
+          ],
+          "correct_answer": 2,
+          "explanation": "「食べ頃（たべごろ）」で「食べるのにちょうどよい時期」という意味です。",
+          "explanation_vi": "「食べ頃」 (tabegoro) có nghĩa là 'lúc ăn ngon nhất, độ chín tới'.",
+          "sentence_furigana": "この果物(くだもの)は、全体(ぜんたい)が赤く(あかく)なったら食べ(たべ)（ 頃(ごろ) ）です。",
+          "sentence_vi": "Loại quả này khi nào toàn bộ chuyển sang màu đỏ thì đó là lúc ăn ngon nhất."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "外の様子を見ると、どうも風が__おさまった__ようだ。",
+          "options": [
+            "吹いた",
+            "やんだ",
+            "出てきた",
+            "強くなった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「収まる（おさまる）」は「静まる、落ち着く」という意味で、「風がやむ」とほぼ同じです。",
+          "explanation_vi": "「おさまる」 có nghĩa là 'lắng xuống, dịu đi', tương đương với 「やんだ」 (ngừng).",
+          "sentence_furigana": "外(そと)の様子(ようす)を見る(みる)と、どうも風(かぜ)が__おさまった__ようだ。",
+          "sentence_vi": "Nhìn ra bên ngoài, có vẻ như gió đã lặng rồi thì phải."
+        },
+        {
+          "id": 15,
+          "text": "過去のことをいつまでも__くよくよ__するな。",
+          "options": [
+            "悩む",
+            "悲しむ",
+            "自慢する",
+            "懐かしがる"
+          ],
+          "correct_answer": 1,
+          "explanation": "「くよくよする」は「過ぎたことなどを気にして悩む様子」を表し、「悩む」とほぼ同じ意味です。",
+          "explanation_vi": "「くよくよする」 diễn tả trạng thái 'bồn chồn lo lắng, ủ rũ', tương đương với 「悩む」.",
+          "sentence_furigana": "過去(かこ)のことをいつまでも__くよくよ__するな。",
+          "sentence_vi": "Đừng có mãi ủ rũ vì những chuyện đã qua trong quá khứ nữa."
+        },
+        {
+          "id": 16,
+          "text": "この店も、今月はついに__黒字__になりそうだ。",
+          "options": [
+            "損をしそうだ",
+            "利益が出そうだ",
+            "借金をしそうだ",
+            "売り切れそうだ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「黒字（くろじ）」は「収入が支出を上回っていること」という意味で、「利益が出る」とほぼ同じです。",
+          "explanation_vi": "「黒字」 có nghĩa là 'lãi, thặng dư', tương đương với 「利益が出そうだ」.",
+          "sentence_furigana": "この店(みせ)も、今月(こんげつ)はついに__黒字(くろじ)__になりそうだ。",
+          "sentence_vi": "Tháng này có vẻ cuối cùng thì cửa hàng này cũng có lãi rồi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "しつこい",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "失敗しても、__しつこく__努力を続けた。",
+            "彼は何度断っても、__しつこく__食事に誘ってくる。",
+            "今度時間があるときに、__しつこく__話しましょう。",
+            "お忙しい中、__しつこく__説明してくださって、ありがとうございました。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しつこい」は「嫌がられても何度も繰り返して執拗な様子」を表し、通常悪い意味で使われます。1は「しぶとく/あきらめずに」、3は「じっくり/ゆっくり」、4は「くわしく」が適切です。",
+          "explanation_vi": "「しつこい」 có nghĩa là 'dai dẳng, lằng nhằng, cố chấp' (thường mang ý nghĩa tiêu cực). Câu 1 dùng 'không bỏ cuộc' (あきらめずに), câu 3 dùng 'thong thả' (ゆっくり), câu 4 dùng 'chi tiết' (くわしく) mới đúng.",
+          "sentence_furigana": "彼(かれ)は何度(なんど)断っ(ことわっ)ても、__しつこく__食事(しょくじ)に誘っ(さそっ)てくる。",
+          "sentence_vi": "Dù tôi đã từ chối nhiều lần nhưng anh ta vẫn cứ dai dẳng rủ tôi đi ăn."
+        },
+        {
+          "id": 18,
+          "target_word": "センス",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "彼女は服の__センス__がいい。",
+            "友達の__センス__で先生と話をする学生が多くなった。",
+            "お金の__センス__がなく、いつもアルバイト代をすぐに使ってしまう。",
+            "犬は鼻の__センス__があるから、においで遠くのものを探すことができる。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「センス（sense）」は「感覚、特に美的な感覚」を意味します。2は「（友達）感覚」、3は「（金銭）感覚」、4は「嗅覚」などが適切です。",
+          "explanation_vi": "「センス」 (sense) có nghĩa là 'gu thẩm mỹ, khiếu'. Câu 2 dùng 'cảm giác (bạn bè)' (感覚), câu 3 dùng 'cảm giác (về tiền bạc)' (感覚), câu 4 dùng 'khứu giác' (嗅覚) mới đúng.",
+          "sentence_furigana": "彼女(かのじょ)は服(ふく)の__センス(せんす)__がいい。",
+          "sentence_vi": "Cô ấy có gu ăn mặc rất đẹp."
+        }
+      ]
+    }
+  ]
+}

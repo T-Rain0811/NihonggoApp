@@ -1,0 +1,315 @@
+{
+  "lesson": 29,
+  "title": "第２９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "このクラスはみんな熱心で、__活気__がある。",
+          "options": [
+            "かつき",
+            "かっき",
+            "かつぎ",
+            "かっぎ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「活気」の正しい読み方は「かっき」です。",
+          "explanation_vi": "Cách đọc đúng của 「活気」 là 「かっき」 (sức sống, sự sôi nổi).",
+          "sentence_furigana": "このクラス(くらす)はみんな熱心(ねっしん)で、__活気(かっき)__がある。",
+          "sentence_vi": "Lớp học này mọi người đều rất nhiệt tình, đầy sức sống."
+        },
+        {
+          "id": 2,
+          "text": "では、私が__合図__をしたら、歌い始めてください。",
+          "options": [
+            "あいず",
+            "あいと",
+            "ごうず",
+            "ごうと"
+          ],
+          "correct_answer": 1,
+          "explanation": "「合図」の正しい読み方は「あいず」です。",
+          "explanation_vi": "Cách đọc đúng của 「合図」 là 「あいず」 (dấu hiệu, ra hiệu).",
+          "sentence_furigana": "では、私(わたし)が__合図(あいず)__をしたら、歌い(うたい)始め(はじめ)てください。",
+          "sentence_vi": "Vậy thì, khi nào tôi ra hiệu thì hãy bắt đầu hát nhé."
+        },
+        {
+          "id": 3,
+          "text": "相手チームのほうが人数が多いのは__不公平__だ。",
+          "options": [
+            "ふこへい",
+            "ふこひょう",
+            "ふこうへい",
+            "ふこうひょう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「不公平」の正しい読み方は「ふこうへい」です。",
+          "explanation_vi": "Cách đọc đúng của 「不公平」 là 「ふこうへい」 (không công bằng).",
+          "sentence_furigana": "相手(あいて)チーム(ちーむ)のほうが人数(にんずう)が多い(おおい)のは__不公平(ふこうへい)__だ。",
+          "sentence_vi": "Việc đội đối thủ có đông người hơn thì thật là không công bằng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "大企業の社長が__はさん__したそうだ。",
+          "options": [
+            "破産",
+            "破算",
+            "被産",
+            "被算"
+          ],
+          "correct_answer": 1,
+          "explanation": "「はさん」の漢字は「破産」です。",
+          "explanation_vi": "Chữ Hán của 「はさん」 là 「破産」 (phá sản).",
+          "sentence_furigana": "大(だい)企業(きぎょう)の社長(しゃちょう)が__破産(はさん)__したそうだ。",
+          "sentence_vi": "Nghe nói giám đốc của một doanh nghiệp lớn đã phá sản rồi."
+        },
+        {
+          "id": 5,
+          "text": "その活動はとても__いぎ__のあることだと思います。",
+          "options": [
+            "委義",
+            "委議",
+            "意義",
+            "意識"
+          ],
+          "correct_answer": 3,
+          "explanation": "「いぎ」の漢字は「意義」です。",
+          "explanation_vi": "Chữ Hán của 「いぎ」 là 「意義」 (ý nghĩa).",
+          "sentence_furigana": "その活動(かつどう)はとても__意義(いぎ)__のあることだと思う(おもう)。",
+          "sentence_vi": "Tôi cho rằng hoạt động đó là một việc làm vô cùng có ý nghĩa."
+        },
+        {
+          "id": 6,
+          "text": "警察は隣の家の男が__あやしい__と考えた。",
+          "options": [
+            "疑しい",
+            "怪しい",
+            "危しい",
+            "変しい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「あやしい」の漢字は「怪しい」です。",
+          "explanation_vi": "Chữ Hán của 「あやしい」 là 「怪しい」 (đáng ngờ).",
+          "sentence_furigana": "警察(けいさつ)は隣(となり)の家(いえ)の男(おとこ)が__怪しい(あやしい)__と考え(かんがえ)た。",
+          "sentence_vi": "Cảnh sát cho rằng gã đàn ông ở nhà bên cạnh có nhiều biểu hiện đáng ngờ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "彼が犯人だなんて（　　）。絶対に違いますよ。",
+          "options": [
+            "しかたがない",
+            "そうでもない",
+            "とんでもない",
+            "なんでもない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「とんでもない」は「思いがけない、もってのほかだ」という意味で、強い否定を表します。",
+          "explanation_vi": "「とんでもない」 có nghĩa là 'không đời nào, thật vớ vẩn, không thể ngờ tới'.",
+          "sentence_furigana": "彼(かれ)が犯人(はんにん)だなんて（ とんでもない ）。絶対(ぜったい)に違い(ちがい)ますよ。",
+          "sentence_vi": "Cái việc cậu ấy là hung thủ thật là vớ vẩn (không đời nào xảy ra). Tuyệt đối không phải đâu."
+        },
+        {
+          "id": 8,
+          "text": "受験のために寝る時間を（　　）勉強した。",
+          "options": [
+            "削って",
+            "引いて",
+            "破って",
+            "割って"
+          ],
+          "correct_answer": 1,
+          "explanation": "「時間を削る（けずる）」で「他のことに充てる時間を減らす」という意味です。",
+          "explanation_vi": "「削る」 (kezuru) có nghĩa là 'cắt giảm'. Cụm từ 「時間を削る」 có nghĩa là 'cắt xén/giảm bớt thời gian'.",
+          "sentence_furigana": "受験(じゅけん)のために寝る(ねる)時間(じかん)を（ 削っ(けずっ)て ）勉強(べんきょう)した。",
+          "sentence_vi": "Để chuẩn bị cho kỳ thi, tôi đã cắt xén bớt cả thời gian ngủ để học."
+        },
+        {
+          "id": 9,
+          "text": "もし（　　）なければ、約束の時間を変更していただきたいんですが......。",
+          "options": [
+            "さしこみ",
+            "さしあたり",
+            "さしつかえ",
+            "さしもどし"
+          ],
+          "correct_answer": 3,
+          "explanation": "「差し支え（さしつかえ）」は「都合の悪いこと、支障」という意味です。「差し支えなければ」で「都合が悪くなければ」という丁寧な表現になります。",
+          "explanation_vi": "「差し支え」 (sashitsukae) có nghĩa là 'sự cản trở, sự bất tiện'. Cụm từ 「差し支えなければ」 có nghĩa là 'nếu không có gì bất tiện/nếu không phiền'.",
+          "sentence_furigana": "もし（ さしつかえ ）なければ、約束(やくそく)の時間(じかん)を変更(へんこう)していただきたいんですが......。",
+          "sentence_vi": "Nếu không có gì bất tiện, tôi muốn xin đổi lại thời gian hẹn được không ạ..."
+        },
+        {
+          "id": 10,
+          "text": "入社したばかりのときは、何をしたらいいかわからなくて（　　）していた。",
+          "options": [
+            "こそこそ",
+            "だらだら",
+            "てきぱき",
+            "まごまご"
+          ],
+          "correct_answer": 4,
+          "explanation": "「まごまご」は「どうしていいかわからず、戸惑う様子」を表します。",
+          "explanation_vi": "「まごまご」 diễn tả trạng thái 'lúng túng, bối rối, loay hoay không biết làm thế nào'.",
+          "sentence_furigana": "入社(にゅうしゃ)したばかりのときは、何(なに)をしたらいいかわからなくて（ まごまご ）していた。",
+          "sentence_vi": "Hồi mới vào công ty, tôi không biết nên làm gì nên cứ loay hoay lúng túng suốt."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この食品は健康への（　　）影響が心配されている。",
+          "options": [
+            "悪",
+            "暗",
+            "嫌",
+            "反"
+          ],
+          "correct_answer": 1,
+          "explanation": "「悪影響（あくえいきょう）」で「悪い影響」を意味します。",
+          "explanation_vi": "「悪影響」 (akueikyou) có nghĩa là 'ảnh hưởng xấu'.",
+          "sentence_furigana": "この食品(しょくひん)は健康(けんこう)への（ 悪(あく) ）影響(えいきょう)が心配(しんぱい)されている。",
+          "sentence_vi": "Thực phẩm này đang bị lo ngại là sẽ gây ảnh hưởng xấu tới sức khỏe."
+        },
+        {
+          "id": 12,
+          "text": "そこは豆腐料理の（　　）店として、古くから知られている。",
+          "options": [
+            "名",
+            "正",
+            "貴",
+            "真"
+          ],
+          "correct_answer": 1,
+          "explanation": "「名店（めいてん）」で「有名で立派な店」を意味します。",
+          "explanation_vi": "「名店」 (meiten) có nghĩa là 'cửa hàng nổi tiếng'.",
+          "sentence_furigana": "そこは豆腐(とうふ)料理(りょうり)の（ 名(めい) ）店(てん)として、古く(ふるく)から知ら(しら)れている。",
+          "sentence_vi": "Chỗ đó được biết đến từ lâu là một nhà hàng nổi tiếng với các món đậu phụ."
+        },
+        {
+          "id": 13,
+          "text": "10時15分（　　）の電車に乗るつもりだ。",
+          "options": [
+            "行",
+            "方",
+            "出",
+            "発"
+          ],
+          "correct_answer": 4,
+          "explanation": "「〜発（はつ）」は「〜に出発する」という意味で、交通機関の出発時刻を表すのに使われます。",
+          "explanation_vi": "「〜発」 (~hatsu) có nghĩa là 'xuất phát lúc ~'.",
+          "sentence_furigana": "10時(じ)15分(ふん)（ 発(はつ) ）の電車(でんしゃ)に乗る(のる)つもりだ。",
+          "sentence_vi": "Tôi định sẽ lên chuyến tàu xuất phát lúc 10 giờ 15 phút."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "時代とともに社会の__システム__が複雑になってきた。",
+          "options": [
+            "仕上げ",
+            "仕組み",
+            "組み立て",
+            "積み立て"
+          ],
+          "correct_answer": 2,
+          "explanation": "「システム（system）」は「制度、機構、仕組み」という意味で、「仕組み」とほぼ同じです。",
+          "explanation_vi": "「システム」 (system) có nghĩa là 'hệ thống, cơ cấu', tương đương với 「仕組み」.",
+          "sentence_furigana": "時代(じだい)とともに社会(しゃかい)の__システム(しすてむ)__が複雑(ふくざつ)になってきた。",
+          "sentence_vi": "Cùng với sự phát triển của thời đại, hệ thống xã hội ngày càng trở nên phức tạp."
+        },
+        {
+          "id": 15,
+          "text": "急用で行けなくなったので、友人に__ことづけ__を頼んだ。",
+          "options": [
+            "告白",
+            "申請",
+            "通話",
+            "伝言"
+          ],
+          "correct_answer": 4,
+          "explanation": "「言付け（ことづけ）」は「人に言葉を伝えてもらうこと」という意味で、「伝言」とほぼ同じです。",
+          "explanation_vi": "「ことづけ」 có nghĩa là 'nhắn nhủ, gửi lời nhắn', tương đương với 「伝言」.",
+          "sentence_furigana": "急用(きゅうよう)で行け(いけ)なくなったので、友人(ゆうじん)に__ことづけ__を頼ん(たのん)だ。",
+          "sentence_vi": "Vì có việc bận đột xuất không thể đi được nên tôi đã nhờ một người bạn gửi lời nhắn giúp."
+        },
+        {
+          "id": 16,
+          "text": "今日は__ゆかいな__一日だった。",
+          "options": [
+            "楽しい",
+            "疲れる",
+            "にぎやかな",
+            "のんびりした"
+          ],
+          "correct_answer": 1,
+          "explanation": "「愉快な（ゆかいな）」は「楽しくて気持ちがよい様子」という意味で、「楽しい」とほぼ同じです。",
+          "explanation_vi": "「愉快な」 có nghĩa là 'vui vẻ, sảng khoái', tương đương với 「楽しい」.",
+          "sentence_furigana": "今日(きょう)は__ゆかいな__一日(いちにち)だった。",
+          "sentence_vi": "Hôm nay là một ngày rất vui vẻ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "たまる",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "雨が続いて、洗濯物が__たまっている__。",
+            "人々の宇宙への関心が__たまっている__。",
+            "大雪で家の前に雪が高く__たまっている__。",
+            "会場にはすでに多くのファンが__たまっている__。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「溜まる（たまる）」は「物事が一ヶ所に集まる、処理すべきことが滞る」という意味です。2は「高まっている」、3は「積もっている」、4は「集まっている」が適切です。",
+          "explanation_vi": "「溜まる」 có nghĩa là 'tích tụ, dồn lại, ứ đọng'. Câu 2 dùng 'đang dâng cao' (高まっている), câu 3 dùng 'tích tụ/chất đống' (積もっている), câu 4 dùng 'tập trung' (集まっている) mới đúng.",
+          "sentence_furigana": "雨(あめ)が続い(つづい)て、洗濯物(せんたくもの)が__たまって(たまって)いる__。",
+          "sentence_vi": "Mưa kéo dài nên quần áo chưa giặt bị chất đống lại."
+        },
+        {
+          "id": 18,
+          "target_word": "抑制",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "この道路は、車の通行が警察によって__抑制されて__いる。",
+            "紙が風で飛ばないように、この石で__抑制して__ください。",
+            "年齢が__抑制されて__いたので、子どもは参加できなかった。",
+            "討論の際は、感情を__抑制して__論理的に話すべきだ。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「抑制（よくせい）」は「進行したり活動したりするのを抑えとどめること」で、感情やインフレなどによく使われます。1は「規制」、2は「おさえて」、3は「制限」が適切です。",
+          "explanation_vi": "「抑制」 có nghĩa là 'kìm nén, kiềm chế' (thường dùng cho cảm xúc, lạm phát). Câu 1 dùng 'kiểm soát' (規制), câu 2 dùng 'chặn lại' (おさえて), câu 3 dùng 'giới hạn' (制限) mới đúng.",
+          "sentence_furigana": "討論(とうろん)の際(さい)は、感情(かんじょう)を__抑制(よくせい)して__論理的(ろんりてき)に話す(はなす)べきだ。",
+          "sentence_vi": "Khi tranh luận, nên kiềm chế cảm xúc và nói chuyện một cách logic."
+        }
+      ]
+    }
+  ]
+}

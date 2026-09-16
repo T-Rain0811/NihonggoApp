@@ -1,0 +1,315 @@
+{
+  "lesson": 8,
+  "title": "第８回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "日本料理には__辛い__ものが少ないと思う。",
+          "options": [
+            "つらい",
+            "からい",
+            "しぶい",
+            "にがい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「辛い」の正しい読み方は「からい」（または「つらい」ですが文脈から「からい」）です。",
+          "explanation_vi": "Cách đọc đúng của 「辛い」 trong ngữ cảnh món ăn là 「からい」 (cay).",
+          "sentence_furigana": "日本料理(にほんりょうり)には__辛い(からい)__ものが少ない(すくない)と思う(おもう)。",
+          "sentence_vi": "Tôi nghĩ món ăn Nhật có rất ít đồ cay."
+        },
+        {
+          "id": 2,
+          "text": "ここの__名物__は魚を使った料理だ。",
+          "options": [
+            "なぶつ",
+            "なもの",
+            "めいぶつ",
+            "めいもの"
+          ],
+          "correct_answer": 3,
+          "explanation": "「名物」の正しい読み方は「めいぶつ」です。",
+          "explanation_vi": "Cách đọc đúng của 「名物」 là 「めいぶつ」 (đặc sản).",
+          "sentence_furigana": "ここの__名物(めいぶつ)__は魚(さかな)を使っ(つかっ)た料理(りょうり)だ。",
+          "sentence_vi": "Đặc sản ở đây là các món ăn làm từ cá."
+        },
+        {
+          "id": 3,
+          "text": "両親は、私も妹も__平等__に愛し、育ててくれた。",
+          "options": [
+            "へいとう",
+            "へいどう",
+            "びょうとう",
+            "びょうどう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「平等」の正しい読み方は「びょうどう」です。",
+          "explanation_vi": "Cách đọc đúng của 「平等」 là 「びょうどう」 (bình đẳng).",
+          "sentence_furigana": "両親(りょうしん)は、私(わたし)も妹(いもうと)も__平等(びょうどう)__に愛し(あいし)、育て(そだて)てくれた。",
+          "sentence_vi": "Bố mẹ đã yêu thương và nuôi nấng tôi và em gái một cách bình đẳng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "__けいき__が悪いと、仕事がなかなか見つからない。",
+          "options": [
+            "経気",
+            "経期",
+            "景気",
+            "景期"
+          ],
+          "correct_answer": 3,
+          "explanation": "「けいき」の漢字は「景気」です。",
+          "explanation_vi": "Chữ Hán của 「けいき」 là 「景気」 (tình hình kinh tế).",
+          "sentence_furigana": "__景気(けいき)__が悪い(わるい)と、仕事(しごと)がなかなか見つから(みつから)ない。",
+          "sentence_vi": "Khi tình hình kinh tế tồi tệ thì rất khó tìm được việc làm."
+        },
+        {
+          "id": 5,
+          "text": "初めて会ったとき、彼女の__いんしょう__はあまりよくなかった。",
+          "options": [
+            "印象",
+            "印像",
+            "即象",
+            "即像"
+          ],
+          "correct_answer": 1,
+          "explanation": "「いんしょう」の漢字は「印象」です。",
+          "explanation_vi": "Chữ Hán của 「いんしょう」 là 「印象」 (ấn tượng).",
+          "sentence_furigana": "初めて(はじめて)会っ(あっ)たとき、彼女(かのじょ)の__印象(いんしょう)__はあまりよくなかった。",
+          "sentence_vi": "Khi gặp lần đầu tiên, ấn tượng về cô ấy không được tốt lắm."
+        },
+        {
+          "id": 6,
+          "text": "その子は母親の手を__にぎって__離さなかった。",
+          "options": [
+            "扱って",
+            "接って",
+            "掘って",
+            "握って"
+          ],
+          "correct_answer": 4,
+          "explanation": "「にぎる」の漢字は「握る」です。",
+          "explanation_vi": "Chữ Hán của 「にぎる」 là 「握る」 (nắm).",
+          "sentence_furigana": "その子(こ)は母親(ははおや)の手(て)を__握っ(にぎっ)て__離さ(はなさ)なかった。",
+          "sentence_vi": "Đứa bé nắm chặt tay mẹ không buông."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "ここに6（　　）の数字を書いてください。",
+          "options": [
+            "行",
+            "桁",
+            "字",
+            "段"
+          ],
+          "correct_answer": 2,
+          "explanation": "「桁（けた）」は「数字の位」を表す言葉です。「6桁」で「6文字の数字」になります。",
+          "explanation_vi": "「桁」 (keta) dùng để đếm chữ số. 「6桁」 nghĩa là số có 6 chữ số.",
+          "sentence_furigana": "ここに6（ 桁(けた) ）の数字(すうじ)を書い(かい)てください。",
+          "sentence_vi": "Hãy viết số có 6 chữ số vào đây."
+        },
+        {
+          "id": 8,
+          "text": "そんな（　　）な話を信用してはいけない。",
+          "options": [
+            "あやまり",
+            "いたずら",
+            "けっさく",
+            "でたらめ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「でたらめ」は「いい加減な、根拠のない」という意味です。",
+          "explanation_vi": "「でたらめ」 (detarame) có nghĩa là 'vô căn cứ, nhảm nhí'.",
+          "sentence_furigana": "そんな（ でたらめ ）な話し(はなし)を信用(しんよう)してはいけない。",
+          "sentence_vi": "Không được tin những câu chuyện nhảm nhí như thế."
+        },
+        {
+          "id": 9,
+          "text": "時間がないのでくわしい説明は（　　）。",
+          "options": [
+            "余ります",
+            "補います",
+            "省きます",
+            "引きます"
+          ],
+          "correct_answer": 3,
+          "explanation": "「省く（はぶく）」は「不要な部分を取り除く、省略する」という意味です。",
+          "explanation_vi": "「省く」 (habuku) có nghĩa là 'lược bớt, bỏ qua'.",
+          "sentence_furigana": "時間(じかん)がないのでくわしい説明(せつめい)は（ 省き(はぶき)ます ）。",
+          "sentence_vi": "Vì không có thời gian nên tôi xin phép bỏ qua phần giải thích chi tiết."
+        },
+        {
+          "id": 10,
+          "text": "床が（　　）していて、転びそうになった。",
+          "options": [
+            "すいすい",
+            "つるつる",
+            "はらはら",
+            "ぽりぽり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「つるつる」は「物の表面がなめらかで滑りやすい様子」を表します。",
+          "explanation_vi": "「つるつる」 diễn tả bề mặt nhẵn bóng, trơn tuột.",
+          "sentence_furigana": "床(ゆか)が（ つるつる ）していて、転び(ころび)そうになった。",
+          "sentence_vi": "Sàn nhà rất trơn nên tôi suýt chút nữa thì bị ngã."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "仕事が忙しくて、（　　）規則な生活が続いている。",
+          "options": [
+            "不",
+            "無",
+            "非",
+            "反"
+          ],
+          "correct_answer": 1,
+          "explanation": "「不規則（ふきそく）」で「決まりや規則がない状態」を意味します。",
+          "explanation_vi": "「不規則」 (fukisoku) có nghĩa là 'không có quy tắc, thất thường'.",
+          "sentence_furigana": "仕事(しごと)が忙しく(いそがしく)て、（ 不(ふ) ）規則(きそく)な生活(せいかつ)が続い(つづい)ている。",
+          "sentence_vi": "Do công việc bận rộn nên cuộc sống sinh hoạt thất thường cứ kéo dài."
+        },
+        {
+          "id": 12,
+          "text": "首都（　　）にこの国の人口の4分の1が集中している。",
+          "options": [
+            "内",
+            "県",
+            "圏",
+            "環"
+          ],
+          "correct_answer": 3,
+          "explanation": "「首都圏（しゅとけん）」で「首都とその周辺の地域」を意味します。",
+          "explanation_vi": "「首都圏」 (shutoken) có nghĩa là 'khu vực thủ đô và vùng lân cận'.",
+          "sentence_furigana": "首都（ 圏(けん) ）にこの国(くに)の人口(じんこう)の4分(よんぶん)の1が集中(しゅうちゅう)している。",
+          "sentence_vi": "Có tới một phần tư dân số nước này tập trung ở khu vực thủ đô."
+        },
+        {
+          "id": 13,
+          "text": "10年ぶりに会った二人は、抱き（　　）喜んだ。",
+          "options": [
+            "合って",
+            "入れて",
+            "込んで",
+            "しめて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「抱き合う（だきあう）」で「お互いに抱きつく」ことを意味します。",
+          "explanation_vi": "「抱き合う」 (dakiau) có nghĩa là 'ôm chầm lấy nhau'.",
+          "sentence_furigana": "10年(じゅうねん)ぶりに会っ(あっ)た二人(ふたり)は、抱き（ 合っ(あっ)て ）喜ん(よろこん)だ。",
+          "sentence_vi": "Gặp lại sau 10 năm, hai người ôm chầm lấy nhau trong niềm vui sướng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "__やがて__人間が他の星に住む時代が来るだろう。",
+          "options": [
+            "たぶん",
+            "かならず",
+            "時間が経てば",
+            "場合によっては"
+          ],
+          "correct_answer": 3,
+          "explanation": "「やがて」は「まもなく、そのうちに」という意味で、「時間が経てば」とほぼ同じ意味です。",
+          "explanation_vi": "「やがて」 có nghĩa là 'chẳng mấy chốc, sớm muộn gì', tương đương với 「時間が経てば」 (một thời gian nữa).",
+          "sentence_furigana": "__やがて__人間(にんげん)が他(ほか)の星(ほし)に住む(すむ)時代(じだい)が来る(くる)だろう。",
+          "sentence_vi": "Một thời gian nữa, có lẽ sẽ đến thời đại mà con người sống trên những hành tinh khác."
+        },
+        {
+          "id": 15,
+          "text": "暗い道の先に__ぼんやりと__光が見えた。",
+          "options": [
+            "明るい",
+            "とても小さい",
+            "ぴかぴかした",
+            "はっきりしない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ぼんやりと」は「はっきり見えない様子」を表します。",
+          "explanation_vi": "「ぼんやりと」 diễn tả trạng thái 'mờ ảo, không rõ ràng', tương đương với 「はっきりしない」.",
+          "sentence_furigana": "暗い(くらい)道(みち)の先(さき)に__ぼんやりと__光(ひかり)が見え(みえ)た。",
+          "sentence_vi": "Phía cuối con đường tối tăm thấy có một luồng sáng mờ mờ."
+        },
+        {
+          "id": 16,
+          "text": "古いおもちゃを__コレクションしている__。",
+          "options": [
+            "集めて",
+            "飾って",
+            "捨てて",
+            "直して"
+          ],
+          "correct_answer": 1,
+          "explanation": "「コレクション（collection）」は「物を集めること」です。",
+          "explanation_vi": "「コレクション」 (collection) có nghĩa là bộ sưu tập, thu thập, tương đương với 「集める」.",
+          "sentence_furigana": "古い(ふるい)おもちゃを__コレクション(これくしょん)している__。",
+          "sentence_vi": "Tôi đang thu thập/sưu tầm những món đồ chơi cũ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "むしろ",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "注意されて、悲しいというより__むしろ__嬉しかった。",
+            "彼は以前から足が速かったが、練習して__むしろ__速くなった。",
+            "父からは反対されているが、__むしろ__私はこの大学に進みたい。",
+            "次回の会議は来週の水曜日です。__むしろ__、資料は持参してください。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「むしろ」は「AというよりBのほうが妥当だ、かえって」という意味です。2は「さらに」、3は「それでも」、4は「なお / その際」が適切です。",
+          "explanation_vi": "「むしろ」 có nghĩa là 'thà... còn hơn, trái lại... lại tốt hơn'. Câu 2 dùng 'hơn nữa' (さらに), câu 3 dùng 'dù vậy' (それでも), câu 4 dùng 'ngoài ra/khi đó' (なお/その際) mới đúng.",
+          "sentence_furigana": "注意(ちゅうい)されて、悲しい(かなしい)というより__むしろ__嬉しい(うれしい)かった。",
+          "sentence_vi": "Bị nhắc nhở, thay vì buồn thì trái lại tôi lại thấy vui."
+        },
+        {
+          "id": 18,
+          "target_word": "発生",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "隣の町に大きなデパートが__発生__した。",
+            "選挙の結果、新しい市長が__発生__した。",
+            "初めての孫が__発生__したときは、本当に嬉しかった。",
+            "火災が__発生__したときは、非常口から逃げてください。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「発生（はっせい）」は「事件や事故、問題などが起こること」を指します。1は「できた」、2は「誕生した/決まった」、3は「生まれた」が自然です。",
+          "explanation_vi": "「発生」 có nghĩa là 'phát sinh, xảy ra' (dùng cho sự cố, hỏa hoạn, động đất...). Câu 1 dùng 'được xây/được tạo ra' (できた), câu 2 dùng 'được sinh ra/quyết định' (誕生した/決まった), câu 3 dùng 'được sinh ra' (生まれた) mới đúng.",
+          "sentence_furigana": "火災(かさい)が__発生(はっせい)__したときは、非常口(ひじょうぐち)から逃げ(にげ)てください。",
+          "sentence_vi": "Khi có hỏa hoạn xảy ra, hãy chạy thoát bằng lối thoát hiểm."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "lesson": 20,
+  "title": "第２０回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "会議は予定時間を__大幅__に過ぎて終了した。",
+          "options": [
+            "おおはば",
+            "おおふく",
+            "だいはば",
+            "だいふく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「大幅」の正しい読み方は「おおはば」です。",
+          "explanation_vi": "Cách đọc đúng của 「大幅」 là 「おおはば」 (đáng kể, mức độ lớn).",
+          "sentence_furigana": "会議(かいぎ)は予定(よてい)時間(じかん)を__大幅(おおはば)__に過ぎ(すぎ)て終了(しゅうりょう)した。",
+          "sentence_vi": "Cuộc họp đã kết thúc trễ hơn rất nhiều so với thời gian dự kiến."
+        },
+        {
+          "id": 2,
+          "text": "日本の夏は__湿度__が高くて蒸し暑い。",
+          "options": [
+            "おんど",
+            "しつど",
+            "しんど",
+            "しゃくど"
+          ],
+          "correct_answer": 2,
+          "explanation": "「湿度」の正しい読み方は「しつど」です。",
+          "explanation_vi": "Cách đọc đúng của 「湿度」 là 「しつど」 (độ ẩm).",
+          "sentence_furigana": "日本(にっぽん)の夏(なつ)は__湿度(しつど)__が高く(たかく)て蒸し暑い(むしあつい)。",
+          "sentence_vi": "Mùa hè ở Nhật Bản độ ẩm rất cao và oi bức."
+        },
+        {
+          "id": 3,
+          "text": "まだ時間があるからといって__油断__してはいけない。",
+          "options": [
+            "ゆだん",
+            "よだん",
+            "ゆうだん",
+            "ようだん"
+          ],
+          "correct_answer": 1,
+          "explanation": "「油断」の正しい読み方は「ゆだん」です。",
+          "explanation_vi": "Cách đọc đúng của 「油断」 là 「ゆだん」 (chủ quan, lơ là).",
+          "sentence_furigana": "まだ時間(じかん)があるからといって__油断(ゆだん)__してはいけない。",
+          "sentence_vi": "Dù vẫn còn thời gian cũng không được chủ quan lơ là."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "私にはまだ__めいかく__な目標がない。",
+          "options": [
+            "名覚",
+            "名確",
+            "明覚",
+            "明確"
+          ],
+          "correct_answer": 4,
+          "explanation": "「めいかく」の漢字は「明確」です。",
+          "explanation_vi": "Chữ Hán của 「めいかく」 là 「明確」 (rõ ràng, xác thực).",
+          "sentence_furigana": "私(わたし)にはまだ__明確(めいかく)__な目標(もくひょう)がない。",
+          "sentence_vi": "Tôi vẫn chưa có một mục tiêu nào rõ ràng."
+        },
+        {
+          "id": 5,
+          "text": "景気が少しずつ__かいふく__に向かっている。",
+          "options": [
+            "回復",
+            "回複",
+            "改復",
+            "改複"
+          ],
+          "correct_answer": 1,
+          "explanation": "「かいふく」の漢字は「回復」です。",
+          "explanation_vi": "Chữ Hán của 「かいふく」 là 「回復」 (hồi phục).",
+          "sentence_furigana": "景気(けいき)が少し(すこし)ずつ__回復(かいふく)__に向かっ(むかっ)ている。",
+          "sentence_vi": "Nền kinh tế đang dần có xu hướng hồi phục."
+        },
+        {
+          "id": 6,
+          "text": "ここのところ__ふあんてい__な天気が続いている。",
+          "options": [
+            "不安定",
+            "不安低",
+            "不安停",
+            "不安体"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ふあんてい」の漢字は「不安定」です。",
+          "explanation_vi": "Chữ Hán của 「ふあんてい」 là 「不安定」 (bất ổn định).",
+          "sentence_furigana": "ここのところ__不安定(ふあんてい)__な天気(てんき)が続い(つづい)ている。",
+          "sentence_vi": "Gần đây thời tiết luôn trong tình trạng thất thường."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "A：どなたですか。\nB：隣に引っ越してきた（　　）ですが……。",
+          "options": [
+            "人",
+            "者",
+            "方",
+            "主"
+          ],
+          "correct_answer": 2,
+          "explanation": "「者（もの）」は自分のことをへりくだって（謙譲）言うときに使います。",
+          "explanation_vi": "「者」 (mono) dùng khi nói về bản thân một cách khiêm nhường.",
+          "sentence_furigana": "A：どなたですか。\nB：隣(となり)に引っ越し(ひっこし)てきた（ 者(もの) ）ですが……。",
+          "sentence_vi": "A: Ai đấy ạ?\nB: Dạ tôi là người mới chuyển đến sống ở phòng bên cạnh ạ..."
+        },
+        {
+          "id": 8,
+          "text": "（　　）希望の大学に合格することができた。",
+          "options": [
+            "うれしく",
+            "かしこく",
+            "ひとしく",
+            "めでたく"
+          ],
+          "correct_answer": 4,
+          "explanation": "「めでたく」は「喜ばしいことに、お祝いするべきことに」という意味です。",
+          "explanation_vi": "「めでたく」 có nghĩa là 'đáng mừng, may mắn thay'.",
+          "sentence_furigana": "（ めでたく ）希望(きぼう)の大学(だいがく)に合格(ごうかく)することができた。",
+          "sentence_vi": "Thật đáng mừng là tôi đã đỗ vào trường đại học đúng như nguyện vọng."
+        },
+        {
+          "id": 9,
+          "text": "私は言いたいことを全部言わないと気が（　　）性格だ。",
+          "options": [
+            "きえない",
+            "すまない",
+            "おわらない",
+            "なくならない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「気が済む（きがすむ）」で「満足する、納得する」という意味の慣用句です。",
+          "explanation_vi": "Cụm từ 「気が済む」 (ki ga sumu) có nghĩa là 'cảm thấy nhẹ nhõm, thỏa mãn'.",
+          "sentence_furigana": "私(わたし)は言い(いい)たいことを全部(ぜんぶ)言わ(いわ)ないと気(き)が（ 済まない(すまない) ）性格(せいかく)だ。",
+          "sentence_vi": "Tôi là kiểu người nếu không nói ra hết những điều muốn nói thì sẽ thấy khó chịu trong lòng."
+        },
+        {
+          "id": 10,
+          "text": "彼は私の手を（　　）握り、「ありがとう」と言った。",
+          "options": [
+            "ぐんと",
+            "ざっと",
+            "ぱっと",
+            "ぎゅっと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ぎゅっと」は「力を入れて強く握ったり締めたりする様子」を表します。",
+          "explanation_vi": "「ぎゅっと」 diễn tả hành động 'nắm chặt, siết chặt'.",
+          "sentence_furigana": "彼(かれ)は私(わたし)の手(て)を（ ぎゅっと ）握り(にぎり)、「ありがとう」と言っ(いっ)た。",
+          "sentence_vi": "Anh ấy nắm chặt lấy tay tôi và nói lời cảm ơn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この薬は（　　）期間服用すると体によくない。",
+          "options": [
+            "延",
+            "大",
+            "多",
+            "長"
+          ],
+          "correct_answer": 4,
+          "explanation": "「長期間（ちょうきかん）」で「長い時間」を意味します。",
+          "explanation_vi": "「長期間」 (choukikan) có nghĩa là 'thời gian dài'.",
+          "sentence_furigana": "この薬(くすり)は（ 長(ちょう) ）期間(きかん)服用(ふくよう)すると体(からだ)によくない。",
+          "sentence_vi": "Loại thuốc này nếu uống trong thời gian dài sẽ không tốt cho cơ thể."
+        },
+        {
+          "id": 12,
+          "text": "この会社では外国人の技術（　　）も大勢働いている。",
+          "options": [
+            "手",
+            "家",
+            "者",
+            "人"
+          ],
+          "correct_answer": 3,
+          "explanation": "「技術者（ぎじゅつしゃ）」で「専門の技術を持っている人」を意味します。",
+          "explanation_vi": "「技術者」 (gijutsusha) có nghĩa là 'kỹ sư, chuyên gia kỹ thuật'.",
+          "sentence_furigana": "この会社(かいしゃ)では外国人(がいこくじん)の技術（ 者(しゃ) ）も大勢(おおぜい)働い(はたらい)ている。",
+          "sentence_vi": "Ở công ty này cũng có rất đông các kỹ sư người nước ngoài làm việc."
+        },
+        {
+          "id": 13,
+          "text": "友達と喫茶店で3時間も話し（　　）しまった。",
+          "options": [
+            "いって",
+            "こんで",
+            "あがって",
+            "のぼって"
+          ],
+          "correct_answer": 2,
+          "explanation": "「話し込む（はなしこむ）」で「夢中になって長く話をする」という意味です。",
+          "explanation_vi": "「話し込む」 (hanashikomu) có nghĩa là 'mải mê nói chuyện, nói chuyện rất lâu'.",
+          "sentence_furigana": "友達(ともだち)と喫茶店(きっさてん)で3時間(さんじかん)も話し（ 込ん(こん)で ）しまった。",
+          "sentence_vi": "Tôi đã mải mê nói chuyện với bạn ở quán cà phê suốt 3 tiếng đồng hồ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "私は10年前、今とは違ってとても__まずしかった__。",
+          "options": [
+            "お金があった",
+            "お金がなかった",
+            "成績がよかった",
+            "成績が悪かった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「貧しい（まずしい）」は「お金や財産がなくて生活が苦しい」という意味で、「お金がなかった」とほぼ同じです。",
+          "explanation_vi": "「貧しい」 có nghĩa là 'nghèo khó, thiếu thốn', tương đương với 「お金がなかった」.",
+          "sentence_furigana": "私(わたし)は10年前(じゅうねんまえ)、今(いま)とは違っ(ちがっ)てとても__まずしかった__。",
+          "sentence_vi": "10 năm trước, khác với bây giờ, tôi đã từng rất nghèo khó."
+        },
+        {
+          "id": 15,
+          "text": "隣の部屋が__そうぞうしい__。何かあったのだろうか。",
+          "options": [
+            "くさい",
+            "うるさい",
+            "きたない",
+            "楽しそうだ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「騒々しい（そうぞうしい）」は「人の声や音が大きくてうるさい」という意味で、「うるさい」とほぼ同じです。",
+          "explanation_vi": "「騒々しい」 có nghĩa là 'ồn ào, ầm ĩ', tương đương với 「うるさい」.",
+          "sentence_furigana": "隣(となり)の部屋(へや)が__そうぞうしい__。何(なに)かあったのだろうか。",
+          "sentence_vi": "Phòng bên cạnh ồn ào quá. Không biết là có chuyện gì không nhỉ."
+        },
+        {
+          "id": 16,
+          "text": "6時までに商品を__オーダーして__ください。",
+          "options": [
+            "変えて",
+            "捨てて",
+            "説明して",
+            "注文して"
+          ],
+          "correct_answer": 4,
+          "explanation": "「オーダー（order）」は「注文」という意味で、「注文する」とほぼ同じです。",
+          "explanation_vi": "「オーダー」 (order) có nghĩa là 'đặt hàng, order', tương đương với 「注文して」.",
+          "sentence_furigana": "6時(ろくじ)までに商品(しょうひん)を__オーダー(おーだー)して__ください。",
+          "sentence_vi": "Vui lòng đặt hàng trước 6 giờ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "対立",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "私は渡辺さんの考えには__対立__します。",
+            "戦争に__対立する__人たちがデモ行進を行った。",
+            "二つのグループの意見が__対立し__、なかなか結論が出ない。",
+            "いくら親に__対立__されても、私は自分の好きなことをやりたい。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「対立（たいりつ）」は「二つのものが反対の立場に立って張り合うこと」を意味します。1、2、4はすべて「反対」が適切です。",
+          "explanation_vi": "「対立」 có nghĩa là 'đối lập, xung đột'. Câu 1, 2, 4 đều phải dùng từ 'phản đối/chống đối' (反対) mới đúng.",
+          "sentence_furigana": "二つ(ふたつ)のグループ(ぐるーぷ)の意見(いけん)が__対立(たいりつ)し__、なかなか結論(けつろん)が出(で)ない。",
+          "sentence_vi": "Ý kiến của hai nhóm đang đối lập nhau, nên mãi mà chưa đưa ra được kết luận."
+        },
+        {
+          "id": 18,
+          "target_word": "こっそり",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "誰にも言わず、__こっそり__出かけた。",
+            "祖母は足が悪いので、とても__こっそり__歩く。",
+            "彼の部屋は物が少なくて__こっそり__している。",
+            "子どもは__こっそり__寝ていて、起こそうとしても全然起きない。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こっそり」は「人に知られないようにひそかに行動する様子」を表します。2は「ゆっくり」、3は「すっきり」、4は「ぐっすり」が適切です。",
+          "explanation_vi": "「こっそり」 có nghĩa là 'lén lút, giấu giếm, bí mật'. Câu 2 dùng 'chậm rãi' (ゆっくり), câu 3 dùng 'gọn gàng' (すっきり), câu 4 dùng 'ngủ say' (ぐっすり) mới đúng.",
+          "sentence_furigana": "誰(だれ)にも言わ(いわ)ず、__こっそり__出かけ(でかけ)た。",
+          "sentence_vi": "Tôi đã lẻn ra ngoài mà không nói với ai tiếng nào."
+        }
+      ]
+    }
+  ]
+}

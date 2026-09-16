@@ -1,0 +1,315 @@
+{
+  "lesson": 11,
+  "title": "第１１回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "海外へ行って__貴重__な経験ができた。",
+          "options": [
+            "きおも",
+            "きじゅう",
+            "きじょう",
+            "きちょう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「貴重」の正しい読み方は「きちょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「貴重」 là 「きちょう」 (quý giá).",
+          "sentence_furigana": "海外(かいがい)へ行っ(いっ)て__貴重(きちょう)__な経験(けいけん)ができた。",
+          "sentence_vi": "Tôi đã có được những kinh nghiệm quý giá khi ra nước ngoài."
+        },
+        {
+          "id": 2,
+          "text": "両親にできるだけ__負担__をかけたくない。",
+          "options": [
+            "ふたん",
+            "ふだん",
+            "ぶだん",
+            "ぶだん"
+          ],
+          "correct_answer": 1,
+          "explanation": "「負担」の正しい読み方は「ふたん」です。",
+          "explanation_vi": "Cách đọc đúng của 「負担」 là 「ふたん」 (gánh nặng).",
+          "sentence_furigana": "両親(りょうしん)にできるだけ__負担(ふたん)__をかけたくない。",
+          "sentence_vi": "Tôi không muốn trở thành gánh nặng cho bố mẹ quá nhiều."
+        },
+        {
+          "id": 3,
+          "text": "足にけがをして、全力で__戦う__ことができなかった。",
+          "options": [
+            "さそう",
+            "あらそう",
+            "うたがう",
+            "たたかう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「戦う」の正しい読み方は「たたかう」です。",
+          "explanation_vi": "Cách đọc đúng của 「戦う」 là 「たたかう」 (chiến đấu).",
+          "sentence_furigana": "足(あし)にけがをして、全力(ぜんりょく)で__戦う(たたかう)__ことができなかった。",
+          "sentence_vi": "Vì bị thương ở chân nên tôi đã không thể chiến đấu hết mình."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "一人で__くらして__いる祖母が心配です。",
+          "options": [
+            "暮らして",
+            "慕らして",
+            "幕らして",
+            "基らして"
+          ],
+          "correct_answer": 1,
+          "explanation": "「くらして」の漢字は「暮らして」です。",
+          "explanation_vi": "Chữ Hán của 「くらして」 là 「暮らして」 (sống).",
+          "sentence_furigana": "一人(ひとり)で__暮らし(くらし)て__いる祖母(そぼ)が心配(しんぱい)です。",
+          "sentence_vi": "Tôi rất lo lắng cho người bà đang sống một mình."
+        },
+        {
+          "id": 5,
+          "text": "駅の売店で__ざっし__を買った。",
+          "options": [
+            "雑紙",
+            "雑誌",
+            "誰紙",
+            "誰誌"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ざっし」の漢字は「雑誌」です。",
+          "explanation_vi": "Chữ Hán của 「ざっし」 là 「雑誌」 (tạp chí).",
+          "sentence_furigana": "駅(えき)の売店(ばいてん)で__雑誌(ざっし)__を買っ(かっ)た。",
+          "sentence_vi": "Tôi đã mua một cuốn tạp chí ở quầy bán hàng trong nhà ga."
+        },
+        {
+          "id": 6,
+          "text": "部長の__だいり__で会議に出席した。",
+          "options": [
+            "替理",
+            "代理",
+            "替利",
+            "代利"
+          ],
+          "correct_answer": 2,
+          "explanation": "「だいり」の漢字は「代理」です。",
+          "explanation_vi": "Chữ Hán của 「だいり」 là 「代理」 (đại diện, thay mặt).",
+          "sentence_furigana": "部長(ぶちょう)の__代理(だいり)__で会議(かいぎ)に出席(しゅっせき)した。",
+          "sentence_vi": "Tôi đã tham dự cuộc họp với tư cách đại diện cho trưởng phòng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "明日のバス旅行は、（　　）昼ご飯を持参してください。",
+          "options": [
+            "各自",
+            "人々",
+            "おたがい",
+            "みずから"
+          ],
+          "correct_answer": 1,
+          "explanation": "「各自（かくじ）」で「めいめい、一人ひとり」という意味になり、「各自昼ご飯を持参する」で「自分で自分の昼ご飯を持ってくる」ことになります。",
+          "explanation_vi": "「各自」 (kakuji) có nghĩa là 'mỗi người tự túc, từng cá nhân'.",
+          "sentence_furigana": "明日(あした)のバス(ばす)旅行(りょこう)は、（ 各自(かくじ) ）昼ご飯(ひるごはん)を持参(じさん)してください。",
+          "sentence_vi": "Trong chuyến du lịch bằng xe buýt ngày mai, mỗi người vui lòng tự mang theo bữa trưa."
+        },
+        {
+          "id": 8,
+          "text": "南の国だから暑いだろうと思っていたが、行ってみたら（　　）涼しかった。",
+          "options": [
+            "そっと",
+            "もっと",
+            "わざと",
+            "わりと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「わりと（割と）」は「思ったよりも、比較的に」という意味です。",
+          "explanation_vi": "「わりと」 có nghĩa là 'khá là, tương đối (hơn so với tưởng tượng)'.",
+          "sentence_furigana": "南(みなみ)の国(くに)だから暑い(あつい)だろうと思っ(おもっ)ていたが、行っ(いっ)てみたら（ わりと ）涼しかっ(すずしかっ)た。",
+          "sentence_vi": "Tôi cứ nghĩ là các nước phương Nam sẽ nóng lắm, nhưng đi rồi mới thấy khá là mát mẻ."
+        },
+        {
+          "id": 9,
+          "text": "この歌手はとても人気があるが、私の（　　）ではない。",
+          "options": [
+            "思い",
+            "感じ",
+            "好み",
+            "望み"
+          ],
+          "correct_answer": 3,
+          "explanation": "「好み（このみ）」は「自分の好きな傾向」という意味で、「私の好みではない（＝私の好きなタイプではない）」として使います。",
+          "explanation_vi": "「好み」 (konomi) có nghĩa là 'sở thích, gu'.",
+          "sentence_furigana": "この歌手(かしゅ)はとても人気(にんき)があるが、私(わたし)の（ 好み(このみ) ）ではない。",
+          "sentence_vi": "Ca sĩ này rất nổi tiếng nhưng không phải là gu của tôi."
+        },
+        {
+          "id": 10,
+          "text": "開始時間が遅れるという（　　）が、試合会場に流れた。",
+          "options": [
+            "データ",
+            "アピール",
+            "コマーシャル",
+            "アナウンス"
+          ],
+          "correct_answer": 4,
+          "explanation": "「アナウンス（announce）」は「案内放送、お知らせ」のことです。",
+          "explanation_vi": "「アナウンス」 (announce) có nghĩa là 'thông báo, phát thanh'.",
+          "sentence_furigana": "開始(かいし)時間(じかん)が遅れる(おくれる)という（ アナウンス(あなうんす) ）が、試合(しあい)会場(かいじょう)に流れ(ながれ)た。",
+          "sentence_vi": "Một thông báo nói rằng thời gian bắt đầu sẽ bị lùi lại đã được phát trong hội trường thi đấu."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "（　　）決勝で負けたので、3位決定戦ではがんばりたい。",
+          "options": [
+            "次",
+            "準",
+            "前",
+            "副"
+          ],
+          "correct_answer": 2,
+          "explanation": "「準決勝（じゅんけっしょう）」で「決勝戦の前の試合（セミファイナル）」のことです。",
+          "explanation_vi": "「準決勝」 (junkesshou) có nghĩa là 'trận bán kết'.",
+          "sentence_furigana": "（ 準(じゅん) ）決勝(けっしょう)で負け(まけ)たので、3位(さんい)決定戦(けっていせん)ではがんばりたい。",
+          "sentence_vi": "Vì đã thua ở trận bán kết nên tôi muốn cố gắng hết sức ở trận tranh giải ba."
+        },
+        {
+          "id": 12,
+          "text": "土曜日はちょっと……。日曜日だったら（　　）都合だったのですが。",
+          "options": [
+            "好",
+            "最",
+            "満",
+            "良"
+          ],
+          "correct_answer": 1,
+          "explanation": "「好都合（こうつごう）」で「都合がいいこと、条件がいいこと」を意味します。",
+          "explanation_vi": "「好都合」 (koutsugou) có nghĩa là 'thuận lợi, tiện lợi'.",
+          "sentence_furigana": "土曜日(どようび)はちょっと……。日曜日(にちようび)だったら（ 好(こう) ）都合(つごう)だったのですが。",
+          "sentence_vi": "Thứ Bảy thì hơi khó... Giá mà là Chủ nhật thì thật tiện cho tôi."
+        },
+        {
+          "id": 13,
+          "text": "選挙の結果、吉田氏は15万（　　）で市長に当選した。",
+          "options": [
+            "件",
+            "頭",
+            "分",
+            "票"
+          ],
+          "correct_answer": 4,
+          "explanation": "「票（ひょう）」は選挙などで使われる数を数える単位（票数）です。",
+          "explanation_vi": "「票」 (hyou) là lượng từ dùng để đếm 'phiếu bầu'.",
+          "sentence_furigana": "選挙(せんきょ)の結果(けっか)、吉田(よしだ)氏(し)は15万(じゅうごまん)（ 票(ひょう) ）で市長(しちょう)に当選(とうせん)した。",
+          "sentence_vi": "Kết quả cuộc bầu cử, ông Yoshida đã trúng cử thị trưởng với 15 vạn phiếu."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "すみませんが、__至急__、書類を送ってください。",
+          "options": [
+            "急に",
+            "すぐに",
+            "今にも",
+            "もうすぐ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「至急（しきゅう）」は「非常に急ぐこと」という意味で、「すぐに」とほぼ同じです。",
+          "explanation_vi": "「至急」 có nghĩa là 'khẩn cấp, ngay lập tức', tương đương với 「すぐに」.",
+          "sentence_furigana": "すみませんが、__至急(しきゅう)__、書類(しょるい)を送っ(おくっ)てください。",
+          "sentence_vi": "Xin lỗi, hãy gửi tài liệu cho tôi ngay lập tức."
+        },
+        {
+          "id": 15,
+          "text": "医者の話によると、これは__ただの__風邪ではないようだ。",
+          "options": [
+            "普通の",
+            "流行の",
+            "治りやすい",
+            "一回だけの"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ただの」は「特別なものではない、普通の」という意味です。",
+          "explanation_vi": "「ただの」 có nghĩa là 'chỉ là, bình thường', tương đương với 「普通の」.",
+          "sentence_furigana": "医者(いしゃ)の話し(はなし)によると、これは__ただの__風邪(かぜ)ではないようだ。",
+          "sentence_vi": "Theo lời bác sĩ thì có vẻ đây không phải chỉ là cảm cúm thông thường."
+        },
+        {
+          "id": 16,
+          "text": "空が__ぱっと__明るくなった。",
+          "options": [
+            "急に",
+            "少し",
+            "だんだん",
+            "ゆっくり"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ぱっと」は「一瞬で急に変化する様子」を表し、「急に」とほぼ同じ意味です。",
+          "explanation_vi": "「ぱっと」 diễn tả sự thay đổi đột ngột trong nháy mắt, tương đương với 「急に」.",
+          "sentence_furigana": "空(そら)が__ぱっと__明るく(あかるく)なった。",
+          "sentence_vi": "Bầu trời đột nhiên sáng bừng lên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "つきる",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "明日出す宿題がまだ__つきない__。",
+            "昔の友達に会うと話が__つきない__。",
+            "今日の仕事が__つきない__ので、まだ家に帰れない。",
+            "朝礼のときの校長先生の話はいつも長くて、なかなか__つきない__。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「尽きる（つきる）」は「なくなる、果てる」という意味です。「話が尽きない」で「次から次へと話が出てきて終わらない」というよく使われる表現です。1、3、4は「終わらない」が適切です。",
+          "explanation_vi": "「尽きる」 có nghĩa là 'cạn kiệt, kết thúc'. Cụm từ '話が尽きない' (chuyện nói không hết) là một cách nói rất phổ biến. Các câu 1, 3, 4 phải dùng từ '終わらない' (không kết thúc) mới đúng.",
+          "sentence_furigana": "昔(むかし)の友達(ともだち)に会う(あう)と話し(はなし)が__つきない__。",
+          "sentence_vi": "Mỗi khi gặp lại những người bạn cũ là chúng tôi lại có chuyện nói không dứt."
+        },
+        {
+          "id": 18,
+          "target_word": "深刻",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "彼は何でも一生懸命にがんばる__深刻な__人だ。",
+            "息子は明日試験なので__深刻に__勉強している。",
+            "食料不足は現在__深刻な__問題になっている。",
+            "この棚は傷がつきやすいので、__深刻に__運んでください。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「深刻（しんこく）」は「事態が非常に重い、容易ならぬ状態」という意味です。1は「まじめな」、2は「真剣に」、4は「慎重に」が適切です。",
+          "explanation_vi": "「深刻」 có nghĩa là 'nghiêm trọng'. Câu 1 dùng 'nghiêm túc' (まじめな), câu 2 dùng 'chăm chỉ, nghiêm túc' (真剣に), câu 4 dùng 'cẩn thận' (慎重に) mới đúng.",
+          "sentence_furigana": "食料(しょくりょう)不足(ぶそく)は現在(げんざい)__深刻な(しんこくな)__問題(もんだい)になっている。",
+          "sentence_vi": "Tình trạng thiếu lương thực hiện nay đang trở thành một vấn đề nghiêm trọng."
+        }
+      ]
+    }
+  ]
+}

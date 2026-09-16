@@ -1,0 +1,315 @@
+{
+  "lesson": 5,
+  "title": "第５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この機械は壊れやすいので、__乱暴__に扱わないでください。",
+          "options": [
+            "らんばく",
+            "らんぼう",
+            "ろうばく",
+            "ろうぼう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「乱暴」の正しい読み方は「らんぼう」です。",
+          "explanation_vi": "Cách đọc đúng của 「乱暴」 là 「らんぼう」 (bạo lực, thô bạo).",
+          "sentence_furigana": "この機械(きかい)は壊れ(こわれ)やすいので、__乱暴(らんぼう)__に扱わ(あつかわ)ないでください。",
+          "sentence_vi": "Cái máy này rất dễ hỏng nên xin đừng đối xử thô bạo với nó."
+        },
+        {
+          "id": 2,
+          "text": "親友が海外へ留学してしまって__寂しい__。",
+          "options": [
+            "かなしい",
+            "くるしい",
+            "こいしい",
+            "さびしい"
+          ],
+          "correct_answer": 4,
+          "explanation": "「寂しい」の正しい読み方は「さびしい」（または「さみしい」）です。",
+          "explanation_vi": "Cách đọc đúng của 「寂しい」 là 「さびしい」 (buồn, cô đơn).",
+          "sentence_furigana": "親友(しんゆう)が海外(かいがい)へ留学(りゅうがく)してしまって__寂しい(さびしい)__。",
+          "sentence_vi": "Người bạn thân đi du học nước ngoài mất nên tôi thấy rất buồn/cô đơn."
+        },
+        {
+          "id": 3,
+          "text": "10年後に、__再び__ここで会いましょう。",
+          "options": [
+            "さいび",
+            "またび",
+            "たびたび",
+            "ふたたび"
+          ],
+          "correct_answer": 4,
+          "explanation": "「再び」の正しい読み方は「ふたたび」です。",
+          "explanation_vi": "Cách đọc đúng của 「再び」 là 「ふたたび」 (lần nữa, lại).",
+          "sentence_furigana": "10年(じゅうねん)後(ご)に、__再び(ふたたび)__ここで会い(あい)ましょう。",
+          "sentence_vi": "10 năm sau, chúng ta hãy gặp lại nhau ở đây nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "寒くて、手の__かんかく__がなくなってきた。",
+          "options": [
+            "感党",
+            "感常",
+            "感覚",
+            "感賞"
+          ],
+          "correct_answer": 3,
+          "explanation": "「かんかく」の漢字は「感覚」です。",
+          "explanation_vi": "Chữ Hán của 「かんかく」 là 「感覚」 (cảm giác).",
+          "sentence_furigana": "寒く(さむく)て、手(て)の__感覚(かんかく)__がなくなってきた。",
+          "sentence_vi": "Trời lạnh quá nên tay tôi đang mất dần cảm giác."
+        },
+        {
+          "id": 5,
+          "text": "この道は車が多くて__あぶない__。",
+          "options": [
+            "厄い",
+            "危い",
+            "厄ない",
+            "危ない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「あぶない」の漢字は「危ない」です。",
+          "explanation_vi": "Chữ Hán của 「あぶない」 là 「危ない」 (nguy hiểm).",
+          "sentence_furigana": "この道(みち)は車(くるま)が多く(おおく)て__危ない(あぶない)__。",
+          "sentence_vi": "Con đường này có nhiều ô tô qua lại nên rất nguy hiểm."
+        },
+        {
+          "id": 6,
+          "text": "今回の試験はとても__むずかしかった__。",
+          "options": [
+            "難かった",
+            "難しかった",
+            "難かしかっか",
+            "難ずかしかった"
+          ],
+          "correct_answer": 2,
+          "explanation": "「むずかしい」の漢字は「難しい」で、過去形は「難しかった」です。",
+          "explanation_vi": "Chữ Hán của 「むずかしい」 là 「難しい」, quá khứ là 「難しかった」 (khó).",
+          "sentence_furigana": "今回(こんかい)の試験(しけん)はとても__難しかっ(むずかしかっ)た__。",
+          "sentence_vi": "Kỳ thi lần này rất là khó."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "私がその町に住んでいたのは、（　　）昔のことです。",
+          "options": [
+            "重い",
+            "近い",
+            "遠い",
+            "長い"
+          ],
+          "correct_answer": 3,
+          "explanation": "「遠い昔（とおいむかし）」で「ずっと前の過去」という意味になります。",
+          "explanation_vi": "Cụm từ 「遠い昔」 (tooi mukashi) có nghĩa là 'khoảng thời gian quá khứ xa xăm'.",
+          "sentence_furigana": "私(わたし)がその町(まち)に住ん(すん)でいたのは、（ 遠い(とおい) ）昔(むかし)のことです。",
+          "sentence_vi": "Việc tôi sống ở thị trấn đó đã là câu chuyện của một quá khứ xa xôi rồi."
+        },
+        {
+          "id": 8,
+          "text": "一度の失敗であきらめず、経験を（　　）からまたやってみればいい。",
+          "options": [
+            "つんで",
+            "とって",
+            "もって",
+            "とおして"
+          ],
+          "correct_answer": 1,
+          "explanation": "「経験を積む（けいけんをつむ）」で「経験を重ねてスキルなどを身につける」という意味です。",
+          "explanation_vi": "Cụm từ 「経験を積む」 (keiken wo tsumu) có nghĩa là 'tích lũy kinh nghiệm'.",
+          "sentence_furigana": "一度(いちど)の失敗(しっぱい)であきらめず、経験(けいけん)を（ 積ん(つん)で ）からまたやってみればいい。",
+          "sentence_vi": "Đừng bỏ cuộc chỉ vì một lần thất bại, hãy tích lũy kinh nghiệm rồi thử làm lại xem sao."
+        },
+        {
+          "id": 9,
+          "text": "電車が遅れたので心配したが、（　　）約束の時間に間に合った。",
+          "options": [
+            "どうでも",
+            "どうにか",
+            "どうにも",
+            "どうしても"
+          ],
+          "correct_answer": 2,
+          "explanation": "「どうにか」は「なんとかして、やっとのことで」という意味です。",
+          "explanation_vi": "「どうにか」 (dou nika) có nghĩa là 'bằng cách nào đó, cuối cùng thì cũng (kịp)'.",
+          "sentence_furigana": "電車(でんしゃ)が遅れ(おくれ)たので心配(しんぱい)したが、（ どうにか ）約束(やくそく)の時間(じかん)に間に合っ(まにあっ)た。",
+          "sentence_vi": "Tàu bị trễ nên tôi đã rất lo, nhưng cuối cùng bằng cách nào đó tôi cũng đến kịp giờ hẹn."
+        },
+        {
+          "id": 10,
+          "text": "A：どうぞ召し上がってください。\nB：では、（　　）なくいただきます。",
+          "options": [
+            "遠慮",
+            "感謝",
+            "失礼",
+            "礼儀"
+          ],
+          "correct_answer": 1,
+          "explanation": "「遠慮なく（えんりょなく）」は「気をつかわずに」という意味で、勧められた時に使います。",
+          "explanation_vi": "「遠慮なく」 (enryo naku) có nghĩa là 'không khách sáo', dùng để đáp lại khi được người khác mời.",
+          "sentence_furigana": "A：どうぞ召し上がっ(めしあがっ)てください。\nB：では、（ 遠慮(えんりょ) ）なくいただきます。",
+          "sentence_vi": "A: Xin mời anh/chị dùng bữa.\nB: Vậy thì, tôi xin phép không khách sáo."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "彼の予想は（　　）当たりだった。",
+          "options": [
+            "大",
+            "高",
+            "多",
+            "超"
+          ],
+          "correct_answer": 1,
+          "explanation": "「大当たり（おおあたり）」で「見事に的中すること、大成功」を意味します。",
+          "explanation_vi": "「大当たり」 (ooatari) có nghĩa là 'trúng lớn, dự đoán hoàn toàn chính xác'.",
+          "sentence_furigana": "彼(かれ)の予想(よそう)は（ 大(おお) ）当たり(あたり)だった。",
+          "sentence_vi": "Dự đoán của anh ấy đã hoàn toàn chính xác."
+        },
+        {
+          "id": 12,
+          "text": "この店は（　　）成年者は入ることができない。",
+          "options": [
+            "少",
+            "非",
+            "不",
+            "未"
+          ],
+          "correct_answer": 4,
+          "explanation": "「未成年者（みせいねんしゃ）」で「まだ成年になっていない人（20歳未満）」を意味します。",
+          "explanation_vi": "「未成年者」 (miseinensha) có nghĩa là 'người vị thành niên'.",
+          "sentence_furigana": "この店(みせ)は（ 未(み) ）成年者(せいねんしゃ)は入る(はいる)ことができない。",
+          "sentence_vi": "Cửa hàng này, người vị thành niên không được phép vào."
+        },
+        {
+          "id": 13,
+          "text": "代表チームを応援する手紙が1,000（　　）以上届いた。",
+          "options": [
+            "件",
+            "通",
+            "部",
+            "枚"
+          ],
+          "correct_answer": 2,
+          "explanation": "手紙を数えるときの助数詞は「通（つう）」を使います。",
+          "explanation_vi": "Đơn vị để đếm thư từ là 「通」 (tsuu).",
+          "sentence_furigana": "代表(だいひょう)チーム(ちーむ)を応援(おうえん)する手紙(てがみ)が1,000（ 通(つう) ）以上(いじょう)届い(とどい)た。",
+          "sentence_vi": "Hơn 1.000 bức thư cổ vũ cho đội đại diện đã được gửi đến."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "__はたして__その考えは正しいのだろうか。",
+          "options": [
+            "本当に",
+            "やはり",
+            "どうして",
+            "もしかして"
+          ],
+          "correct_answer": 1,
+          "explanation": "疑問の文で使われる「はたして」は「本当に（〜だろうか）」という意味になります。",
+          "explanation_vi": "「はたして」 trong câu nghi vấn mang ý nghĩa 'thực sự là, quả thực là', tương đương với 「本当に」.",
+          "sentence_furigana": "__はたして__その考え(かんがえ)は正しい(ただしい)のだろうか。",
+          "sentence_vi": "Thực sự ý nghĩ đó có đúng hay không?"
+        },
+        {
+          "id": 15,
+          "text": "あの二人が__手を組めば__、新しい店は成功するだろう。",
+          "options": [
+            "競争すれば",
+            "協力すれば",
+            "工夫すれば",
+            "相談すれば"
+          ],
+          "correct_answer": 2,
+          "explanation": "「手を組む」は「互いに味方になる、協力して物事をする」という意味です。",
+          "explanation_vi": "「手を組む」 có nghĩa là 'hợp tác, bắt tay vào làm chung', tương đương với 「協力する」.",
+          "sentence_furigana": "あの二人(ふたり)が__手(て)を組め(くめ)ば__、新しい(あたらしい)店(みせ)は成功(せいこう)するだろう。",
+          "sentence_vi": "Nếu hai người đó mà hợp tác với nhau thì cửa hàng mới chắc chắn sẽ thành công."
+        },
+        {
+          "id": 16,
+          "text": "このパソコンは性能が__優れている__。",
+          "options": [
+            "他より上である",
+            "他と同じくらいだ",
+            "他と同じようにいい",
+            "他と同じように悪い"
+          ],
+          "correct_answer": 1,
+          "explanation": "「優れる（すぐれる）」は「他よりもレベルが上である、素晴らしい」という意味です。",
+          "explanation_vi": "「優れる」 có nghĩa là 'xuất sắc, vượt trội, tốt hơn những cái khác'.",
+          "sentence_furigana": "このパソコン(ぱそこん)は性能(せいのう)が__優れ(すぐれ)ている__。",
+          "sentence_vi": "Chiếc máy tính này có hiệu năng vượt trội hơn hẳn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "分野",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "大学での__分野__は経営学でした。",
+            "会議にはさまざまな__分野__の専門家が集まった。",
+            "自分の車を持ってから、行動の__分野__が広がった。",
+            "ここには300__分野__以上の植物が植えられている。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「分野（ぶんや）」は「学問や活動の領域」を指します。1は「専攻」、3は「範囲」、4は「種類」が適切です。",
+          "explanation_vi": "「分野」 có nghĩa là 'lĩnh vực'. Câu 1 dùng 'chuyên ngành' (専攻), câu 3 dùng 'phạm vi' (範囲), câu 4 dùng 'loại' (種類) mới đúng.",
+          "sentence_furigana": "会議(かいぎ)にはさまざまな__分野(ぶんや)__の専門家(せんもんか)が集まっ(あつまっ)た。",
+          "sentence_vi": "Các chuyên gia từ nhiều lĩnh vực khác nhau đã tập trung tại cuộc họp."
+        },
+        {
+          "id": 18,
+          "target_word": "じっと",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "その犬は、私を見て__じっと__動かなかった。",
+            "今日は面接なので、__じっと__したスーツを着よう。",
+            "時間がないので、デパートの中を__じっと__見て帰った。",
+            "寝ているかもしれないので、__じっと__ドアをノックした。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「じっと」は「動かずにいる様子、集中して見る様子」を表します。2は「きちんとした」、3は「ざっと」、4は「そっと」が適切です。",
+          "explanation_vi": "「じっと」 có nghĩa là 'đứng yên, nhìn chằm chằm'. Câu 2 dùng 'chỉn chu' (きちんとした), câu 3 dùng 'qua loa' (ざっと), câu 4 dùng 'nhẹ nhàng' (そっと) mới đúng.",
+          "sentence_furigana": "その犬(いぬ)は、私(わたし)を見(み)て__じっと__動か(うごか)なかった。",
+          "sentence_vi": "Chú chó đó nhìn tôi chằm chằm và không hề nhúc nhích."
+        }
+      ]
+    }
+  ]
+}

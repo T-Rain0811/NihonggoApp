@@ -1,0 +1,315 @@
+{
+  "lesson": 22,
+  "title": "第２２回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "それでは、また__改めて__伺います。",
+          "options": [
+            "あきらめて",
+            "あらためて",
+            "うけとめて",
+            "たしかめて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「改めて」の正しい読み方は「あらためて」です。",
+          "explanation_vi": "Cách đọc đúng của 「改めて」 là 「あらためて」 (một lúc khác, lại).",
+          "sentence_furigana": "それでは、また__改め(あらため)て__伺い(うかがい)ます。",
+          "sentence_vi": "Vậy thì tôi sẽ tới thăm vào một dịp khác ạ."
+        },
+        {
+          "id": 2,
+          "text": "人間の__寿命__はどんどん長くなっている。",
+          "options": [
+            "じゅめい",
+            "じゅうめい",
+            "じゅみょう",
+            "じゅうみょう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「寿命」の正しい読み方は「じゅみょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「寿命」 là 「じゅみょう」 (tuổi thọ).",
+          "sentence_furigana": "人間(にんげん)の__寿命(じゅみょう)__はどんどん長く(ながく)なっている。",
+          "sentence_vi": "Tuổi thọ của con người đang ngày càng tăng lên."
+        },
+        {
+          "id": 3,
+          "text": "薬の__副作用__で眠くなってきた。",
+          "options": [
+            "ふさよう",
+            "ふくさよう",
+            "ふさくよう",
+            "ふくさくよう"
+          ],
+          "correct_answer": 2,
+          "explanation": "「副作用」の正しい読み方は「ふくさよう」です。",
+          "explanation_vi": "Cách đọc đúng của 「副作用」 là 「ふくさよう」 (tác dụng phụ).",
+          "sentence_furigana": "薬(くすり)の__副作用(ふくさよう)__で眠く(ねむく)なってきた。",
+          "sentence_vi": "Vì tác dụng phụ của thuốc nên tôi bắt đầu thấy buồn ngủ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "グループごとに、__わ__になって座ってください。",
+          "options": [
+            "倫",
+            "輪",
+            "輸",
+            "愉"
+          ],
+          "correct_answer": 2,
+          "explanation": "「わ」の漢字は「輪」です。",
+          "explanation_vi": "Chữ Hán của 「わ」 là 「輪」 (vòng tròn).",
+          "sentence_furigana": "グループ(ぐるーぷ)ごとに、__輪(わ)__になって座っ(すわっ)てください。",
+          "sentence_vi": "Xin hãy ngồi thành từng vòng tròn theo nhóm."
+        },
+        {
+          "id": 5,
+          "text": "休みの日にクラスの__なかま__と遊びに出かけた。",
+          "options": [
+            "中間",
+            "中問",
+            "仲問",
+            "仲間"
+          ],
+          "correct_answer": 4,
+          "explanation": "「なかま」の漢字は「仲間」です。",
+          "explanation_vi": "Chữ Hán của 「なかま」 là 「仲間」 (bạn bè, đồng bọn).",
+          "sentence_furigana": "休み(やすみ)の日(ひ)にクラス(くらす)の__仲間(なかま)__と遊び(あそび)に出かけ(でかけ)た。",
+          "sentence_vi": "Vào ngày nghỉ tôi đã đi chơi cùng đám bạn cùng lớp."
+        },
+        {
+          "id": 6,
+          "text": "この書類は字が小さいので、__かくだい__コピーしてください。",
+          "options": [
+            "広大",
+            "拡大",
+            "各大",
+            "格大"
+          ],
+          "correct_answer": 2,
+          "explanation": "「かくだい」の漢字は「拡大」です。",
+          "explanation_vi": "Chữ Hán của 「かくだい」 là 「拡大」 (phóng to).",
+          "sentence_furigana": "この書類(しょるい)は字(じ)が小さい(ちいさい)ので、__拡大(かくだい)__コピー(こぴー)してください。",
+          "sentence_vi": "Tài liệu này chữ nhỏ nên hãy photo phóng to lên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "両親はいつも私の考えを（　　）してくれる。",
+          "options": [
+            "調和",
+            "尊重",
+            "対応",
+            "調節"
+          ],
+          "correct_answer": 2,
+          "explanation": "「尊重（そんちょう）」は「価値あるものとして大切に扱うこと」という意味です。",
+          "explanation_vi": "「尊重」 (sonchou) có nghĩa là 'tôn trọng'.",
+          "sentence_furigana": "両親(りょうしん)はいつも私(わたし)の考え(かんがえ)を（ 尊重(そんちょう) ）してくれる。",
+          "sentence_vi": "Bố mẹ luôn tôn trọng những suy nghĩ của tôi."
+        },
+        {
+          "id": 8,
+          "text": "この活動を（　　）いるのは多くのボランティアだ。",
+          "options": [
+            "くわえて",
+            "ささえて",
+            "たもって",
+            "つかえて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「支える（ささえる）」は「倒れないように保つ、また、援助して維持する」という意味です。",
+          "explanation_vi": "「支える」 (sasaeru) có nghĩa là 'hỗ trợ, nâng đỡ, ủng hộ'.",
+          "sentence_furigana": "この活動(かつどう)を（ 支え(ささえ)て ）いるのは多く(おおく)のボランティア(ぼらんてぃあ)だ。",
+          "sentence_vi": "Nhiều tình nguyện viên đang hỗ trợ cho hoạt động này."
+        },
+        {
+          "id": 9,
+          "text": "名前を呼んでも気づかなかったので、彼の服を（　　）。",
+          "options": [
+            "引きとった",
+            "引っこんだ",
+            "引っかけた",
+            "引っぱった"
+          ],
+          "correct_answer": 4,
+          "explanation": "「引っ張る（ひっぱる）」は「自分のほうへ引き寄せる」という意味です。",
+          "explanation_vi": "「引っ張る」 (hipparu) có nghĩa là 'kéo'.",
+          "sentence_furigana": "名前(なまえ)を呼ん(よん)でも気づか(きづか)なかったので、彼(かれ)の服(ふく)を（ 引っぱっ(ひっぱっ)た ）。",
+          "sentence_vi": "Gọi tên mãi mà anh ấy không nhận ra nên tôi đã kéo áo anh ấy."
+        },
+        {
+          "id": 10,
+          "text": "学校が終わったら、（　　）しないでまっすぐ帰ってきなさい。",
+          "options": [
+            "帰り道",
+            "通り道",
+            "寄り道",
+            "曲がり道"
+          ],
+          "correct_answer": 3,
+          "explanation": "「寄り道（よりみち）」は「目的地へ行く途中で、他の所に立ち寄ること」です。",
+          "explanation_vi": "「寄り道」 (yorimichi) có nghĩa là 'ghé ngang ghé dọc, tạt vào nơi khác trên đường đi'.",
+          "sentence_furigana": "学校(がっこう)が終わっ(おわっ)たら、（ 寄り道(よりみち) ）しないでまっすぐ帰っ(かえっ)てきなさい。",
+          "sentence_vi": "Tan học xong thì phải đi thẳng về nhà chứ không được la cà ghé chỗ này chỗ kia nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "（　　）性能で軽いカメラがほしい。",
+          "options": [
+            "高",
+            "最",
+            "上",
+            "優"
+          ],
+          "correct_answer": 1,
+          "explanation": "「高性能（こうせいのう）」で「機械などの性能が優れていること」を意味します。",
+          "explanation_vi": "「高性能」 (kouseinou) có nghĩa là 'tính năng cao'.",
+          "sentence_furigana": "（ 高(こう) ）性能(せいのう)で軽い(かるい)カメラ(かめら)がほしい。",
+          "sentence_vi": "Tôi muốn một chiếc máy ảnh tính năng cao mà lại nhẹ."
+        },
+        {
+          "id": 12,
+          "text": "20（　　）の男性100名にアンケート調査を行った。",
+          "options": [
+            "台",
+            "代",
+            "第",
+            "帯"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜代（だい）」は「その年代」という意味で、「20代」は「20歳〜29歳」を表します。",
+          "explanation_vi": "「〜代」 (~dai) đi với số đếm chỉ độ tuổi. 「20代」 có nghĩa là 'độ tuổi 20' (từ 20 đến 29 tuổi).",
+          "sentence_furigana": "20（ 代(だい) ）の男性(だんせい)100名(ひゃくめい)にアンケート(あんけーと)調査(ちょうさ)を行っ(おこなっ)た。",
+          "sentence_vi": "Chúng tôi đã tiến hành khảo sát bằng bảng hỏi đối với 100 nam giới trong độ tuổi 20."
+        },
+        {
+          "id": 13,
+          "text": "彼女は好奇（　　）が強く、何にでも興味を持つ。",
+          "options": [
+            "感",
+            "観",
+            "心",
+            "性"
+          ],
+          "correct_answer": 3,
+          "explanation": "「好奇心（こうきしん）」で「未知の物事に対する強い興味や関心」を意味します。",
+          "explanation_vi": "「好奇心」 (koukishin) có nghĩa là 'tính hiếu kỳ, sự tò mò'.",
+          "sentence_furigana": "彼女(かのじょ)は好奇（ 心(しん) ）が強く(つよく)、何(なに)にでも興味(きょうみ)を持つ(もつ)。",
+          "sentence_vi": "Cô ấy có tính hiếu kỳ cao nên cái gì cũng tò mò."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "その時、__たまたま__彼の隣に座っていたのが私でした。",
+          "options": [
+            "偶然",
+            "当然",
+            "つねに",
+            "たまに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「たまたま」は「思いがけず、偶然に」という意味で、「偶然」とほぼ同じです。",
+          "explanation_vi": "「たまたま」 có nghĩa là 'tình cờ, ngẫu nhiên', tương đương với 「偶然」.",
+          "sentence_furigana": "その時(とき)、__たまたま__彼(かれ)の隣(となり)に座っ(すわっ)ていたのが私(わたし)でした。",
+          "sentence_vi": "Lúc đó, người tình cờ ngồi cạnh anh ấy chính là tôi."
+        },
+        {
+          "id": 15,
+          "text": "今、若い女性の間で温泉旅行が__ブームだ__そうだ。",
+          "options": [
+            "必要だ",
+            "一般的だ",
+            "流行している",
+            "習慣化している"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ブーム（boom）」は「急に人気が出て流行すること」を意味し、「流行している」とほぼ同じです。",
+          "explanation_vi": "「ブーム」 (boom) có nghĩa là 'trào lưu, sự thịnh hành', tương đương với 「流行している」.",
+          "sentence_furigana": "今(いま)、若い(わかい)女性(じょせい)の間(あいだ)で温泉(おんせん)旅行(りょこう)が__ブーム(ぶーむ)だ__そうだ。",
+          "sentence_vi": "Nghe nói bây giờ du lịch suối nước nóng đang rất thịnh hành trong giới trẻ nữ."
+        },
+        {
+          "id": 16,
+          "text": "彼女は私の近くに来て、「静かにしてください」と__ささやいた__。",
+          "options": [
+            "怒って言った",
+            "はっきりと行った",
+            "悲しそうに言った",
+            "小さな声で言った"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ささやく」は「小さな声で話す」という意味で、「小さな声で言った」とほぼ同じです。",
+          "explanation_vi": "「ささやく」 có nghĩa là 'thì thầm, nói nhỏ', tương đương với 「小さな声で言った」.",
+          "sentence_furigana": "彼女(かのじょ)は私(わたし)の近く(ちかく)に来て(きて)、「静か(しずか)にしてください」と__ささやいた__。",
+          "sentence_vi": "Cô ấy tiến đến gần tôi và thì thầm: 'Xin hãy giữ trật tự'."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "ほぼ",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "私の息子は__ほぼ__3歳になります。",
+            "私と弟は似ているが、私のほうが__ほぼ__背が高い。",
+            "この夏は、エアコンが去年の__ほぼ__2倍売れているらしい。",
+            "あと__ほぼ__少し塩を入れると、もっとおいしくなりますよ。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ほぼ」は「だいたい、おおよそ」を意味し、数量などを表す言葉と一緒に使われます。1は「もうすぐ」、2は「やや」、4は「ほんの」が適切です。",
+          "explanation_vi": "「ほぼ」 có nghĩa là 'khoảng chừng, hầu như' (đi với số lượng). Câu 1 dùng 'sắp/chuẩn bị' (もうすぐ), câu 2 dùng 'hơi hơi' (やや), câu 4 dùng 'chỉ một chút xíu' (ほんの) mới đúng.",
+          "sentence_furigana": "この夏(なつ)は、エアコン(えあこん)が去年(きょねん)の__ほぼ__2倍(にばい)売れ(うれ)ているらしい。",
+          "sentence_vi": "Nghe nói mùa hè này điều hòa bán chạy gấp khoảng chừng 2 lần năm ngoái."
+        },
+        {
+          "id": 18,
+          "target_word": "根に持つ",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "選手たちは勝利を__根に持って__練習に励んだ。",
+            "基本的な知識を__根に持っていれば__、この問題も解けるはずです。",
+            "彼は田中さんにカメラを壊されたことを、ずっと__根に持っている__。",
+            "子どもの頃に行ったその場所のことは、今でもよく__根に持っています__。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「根に持つ」は「恨みなどをいつまでも忘れないでいる」という意味です。1は「信じて」、2は「持って」、4は「覚えて」などが適切です。",
+          "explanation_vi": "「根に持つ」 có nghĩa là 'để bụng, thù dai'. Câu 1 dùng 'tin tưởng' (信じて), câu 2 dùng 'nắm giữ/có' (持って), câu 4 dùng 'nhớ' (覚えて) mới đúng.",
+          "sentence_furigana": "彼(かれ)は田中(たなか)さんにカメラ(かめら)を壊さ(こわさ)れたことを、ずっと__根に持っている(ねにもっている)__。",
+          "sentence_vi": "Anh ấy vẫn luôn để bụng chuyện bị anh Tanaka làm hỏng cái máy ảnh."
+        }
+      ]
+    }
+  ]
+}

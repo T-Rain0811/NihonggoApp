@@ -1,0 +1,315 @@
+{
+  "lesson": 23,
+  "title": "第２３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "余った__布__で子どものために人形を作った。",
+          "options": [
+            "きじ",
+            "ぬの",
+            "めん",
+            "わた"
+          ],
+          "correct_answer": 2,
+          "explanation": "「布」の正しい読み方は「ぬの」です。",
+          "explanation_vi": "Cách đọc đúng của 「布」 là 「ぬの」 (vải).",
+          "sentence_furigana": "余っ(あまっ)た__布(ぬの)__で子ども(こども)のために人形(にんぎょう)を作っ(つくっ)た。",
+          "sentence_vi": "Tôi đã làm búp bê cho bọn trẻ bằng những mảnh vải thừa."
+        },
+        {
+          "id": 2,
+          "text": "まだ洗濯物が__湿って__いる。",
+          "options": [
+            "くもって",
+            "しぼって",
+            "しめって",
+            "たまって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「湿る」の正しい読み方は「しめる」です。",
+          "explanation_vi": "Cách đọc đúng của 「湿る」 là 「しめる」 (ẩm ướt).",
+          "sentence_furigana": "まだ洗濯物(せんたくもの)が__湿っ(しめっ)て__いる。",
+          "sentence_vi": "Quần áo vẫn còn đang ẩm."
+        },
+        {
+          "id": 3,
+          "text": "教育を受けられない子どもたちのために__寄付__をした。",
+          "options": [
+            "きふ",
+            "きぶ",
+            "ぎふ",
+            "ぎぶ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「寄付」の正しい読み方は「きふ」です。",
+          "explanation_vi": "Cách đọc đúng của 「寄付」 là 「きふ」 (quyên góp, ủng hộ).",
+          "sentence_furigana": "教育(きょういく)を受け(うけ)られない子ども(こども)たちのために__寄付(きふ)__をした。",
+          "sentence_vi": "Tôi đã quyên góp tiền vì những đứa trẻ không được đi học."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "少しでも__ぎもん__に思ったことは、すぐに調べる。",
+          "options": [
+            "疑問",
+            "疑間",
+            "議門",
+            "議間"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ぎもん」の漢字は「疑問」です。",
+          "explanation_vi": "Chữ Hán của 「ぎもん」 là 「疑問」 (nghi vấn, thắc mắc).",
+          "sentence_furigana": "少し(すこし)でも__疑問(ぎもん)__に思っ(おもっ)たことは、すぐに調べる(しらべる)。",
+          "sentence_vi": "Những chuyện dù chỉ có chút xíu thắc mắc tôi cũng sẽ tra cứu ngay lập tức."
+        },
+        {
+          "id": 5,
+          "text": "今度の休みに、京都に__いっぱく__二日で行くつもりだ。",
+          "options": [
+            "一伯",
+            "一拍",
+            "一泊",
+            "一柏"
+          ],
+          "correct_answer": 3,
+          "explanation": "「いっぱく」の漢字は「一泊」です。",
+          "explanation_vi": "Chữ Hán của 「いっぱく」 là 「一泊」 (một đêm, trọ lại một đêm).",
+          "sentence_furigana": "今度(こんど)の休み(やすみ)に、京都(きょうと)に__一泊(いっぱく)__二(ふつか)日(か)で行く(いく)つもりだ。",
+          "sentence_vi": "Kỳ nghỉ tới, tôi định đi Kyoto chơi 2 ngày 1 đêm."
+        },
+        {
+          "id": 6,
+          "text": "__じゅんび__ができたら、声をかけてください。",
+          "options": [
+            "順備",
+            "順催",
+            "準備",
+            "準催"
+          ],
+          "correct_answer": 3,
+          "explanation": "「じゅんび」の漢字は「準備」です。",
+          "explanation_vi": "Chữ Hán của 「じゅんび」 là 「準備」 (chuẩn bị).",
+          "sentence_furigana": "__準備(じゅんび)__ができたら、声(こえ)をかけてください。",
+          "sentence_vi": "Khi nào chuẩn bị xong thì hãy gọi tôi nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "この花は育てるのに（　　）がかからない。",
+          "options": [
+            "手品",
+            "手間",
+            "手段",
+            "手数"
+          ],
+          "correct_answer": 2,
+          "explanation": "「手間（てま）」は「物事をするのに費やされる労力と時間」という意味です。",
+          "explanation_vi": "「手間」 (tema) có nghĩa là 'công sức và thời gian'. Cụm từ 「手間がかからない」 có nghĩa là 'không tốn công'.",
+          "sentence_furigana": "この花(はな)は育てる(そだてる)のに（ 手間(てま) ）がかからない。",
+          "sentence_vi": "Loài hoa này trồng không tốn nhiều công sức."
+        },
+        {
+          "id": 8,
+          "text": "この計画については、社員の中でも意見が二つに（　　）いる。",
+          "options": [
+            "切れて",
+            "離れて",
+            "破れて",
+            "分かれて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「分かれる」は「分派する、意見が一致しなくなる」という意味です。",
+          "explanation_vi": "「分かれる」 (wakareru) có nghĩa là 'bị chia rẽ'.",
+          "sentence_furigana": "この計画(けいかく)については、社員(しゃいん)の中(なか)でも意見(いけん)が二つ(ふたつ)に（ 分かれ(わかれ)て ）いる。",
+          "sentence_vi": "Về kế hoạch này, ý kiến trong nội bộ nhân viên đang bị chia làm hai phe."
+        },
+        {
+          "id": 9,
+          "text": "やせて、ズボンが（　　）なった。",
+          "options": [
+            "あさく",
+            "せまく",
+            "つらく",
+            "ゆるく"
+          ],
+          "correct_answer": 4,
+          "explanation": "「緩い（ゆるい）」は「締まりがない、ゆったりしている様子」を表します。",
+          "explanation_vi": "「緩い」 (yurui) có nghĩa là 'rộng ra, lỏng ra'.",
+          "sentence_furigana": "やせて、ズボン(ずぼん)が（ ゆるく ）なった。",
+          "sentence_vi": "Tôi gầy đi nên quần bị rộng ra."
+        },
+        {
+          "id": 10,
+          "text": "先生が大きい声で注意したので、うるさかった教室が急に（　　）した。",
+          "options": [
+            "じっと",
+            "しんと",
+            "ほっと",
+            "ちゃんと"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しんと」は「物音がせず静まり返っている様子」を表します。",
+          "explanation_vi": "「しんと」 có nghĩa là 'im phăng phắc, yên ắng'.",
+          "sentence_furigana": "先生(せんせい)が大きい(おおきい)声(こえ)で注意(ちゅうい)したので、うるさかった教室(きょうしつ)が急に(きゅうに)（ しんと ）した。",
+          "sentence_vi": "Vì thầy giáo lớn tiếng nhắc nhở nên lớp học đang ồn ào bỗng trở nên im phăng phắc."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "パトカーは犯人の車を（　　）速力で追った。",
+          "options": [
+            "高",
+            "全",
+            "大",
+            "真"
+          ],
+          "correct_answer": 2,
+          "explanation": "「全速力（ぜんそくりょく）」で「出せる限りの速さ」を意味します。",
+          "explanation_vi": "「全速力」 (zensokuryoku) có nghĩa là 'toàn tốc lực, hết tốc độ'.",
+          "sentence_furigana": "パトカー(ぱとかー)は犯人(はんにん)の車(くるま)を（ 全(ぜん) ）速力(そくりょく)で追っ(おっ)た。",
+          "sentence_vi": "Xe cảnh sát đã đuổi theo chiếc xe của hung thủ với toàn tốc lực."
+        },
+        {
+          "id": 12,
+          "text": "先に出発した友達の車にやっと追い（　　）。",
+          "options": [
+            "こした",
+            "だした",
+            "ついた",
+            "つめた"
+          ],
+          "correct_answer": 3,
+          "explanation": "「追いつく（おいつく）」で「前に行くものに追って同じ所に達する」という意味です。",
+          "explanation_vi": "「追いつく」 (oitsuku) có nghĩa là 'đuổi kịp'.",
+          "sentence_furigana": "先(さき)に出発(しゅっぱつ)した友達(ともだち)の車(くるま)にやっと追い（ つい(つい)た ）。",
+          "sentence_vi": "Cuối cùng thì tôi cũng đuổi kịp chiếc xe của người bạn xuất phát trước đó."
+        },
+        {
+          "id": 13,
+          "text": "このグラフは、年齢（　　）の人口の変化を表している。",
+          "options": [
+            "各",
+            "型",
+            "分",
+            "別"
+          ],
+          "correct_answer": 4,
+          "explanation": "「年齢別（ねんれいべつ）」で「年齢による区別」を意味します。",
+          "explanation_vi": "「年齢別」 (nenreibetsu) có nghĩa là 'theo từng độ tuổi'.",
+          "sentence_furigana": "このグラフ(ぐらふ)は、年齢（ 別(べつ) ）の人口(じんこう)の変化(へんか)を表し(あらわし)ている。",
+          "sentence_vi": "Biểu đồ này thể hiện sự thay đổi dân số theo từng độ tuổi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "私は旅行が趣味で、海外にも__たびたび__出かけています。",
+          "options": [
+            "たまに",
+            "何度も",
+            "最近",
+            "近いうちに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「度々（たびたび）」は「何度も繰り返し行われる様子」という意味で、「何度も」とほぼ同じです。",
+          "explanation_vi": "「たびたび」 có nghĩa là 'thường xuyên, nhiều lần', tương đương với 「何度も」.",
+          "sentence_furigana": "私(わたし)は旅行(りょこう)が趣味(しゅみ)で、海外(かいがい)にも__たびたび__出かけ(でかけ)ています。",
+          "sentence_vi": "Sở thích của tôi là đi du lịch nên tôi cũng thường xuyên ra nước ngoài."
+        },
+        {
+          "id": 15,
+          "text": "年上の人は__うやまう__べきだ。",
+          "options": [
+            "感動する",
+            "尊敬する",
+            "保護する",
+            "世話をする"
+          ],
+          "correct_answer": 2,
+          "explanation": "「敬う（うやまう）」は「尊いものとして礼を尽くすこと」という意味で、「尊敬する」とほぼ同じです。",
+          "explanation_vi": "「敬う」 có nghĩa là 'kính trọng, tôn kính', tương đương với 「尊敬する」.",
+          "sentence_furigana": "年上(としうえ)の人(ひと)は__うやまう__べきだ。",
+          "sentence_vi": "Chúng ta phải kính trọng người lớn tuổi."
+        },
+        {
+          "id": 16,
+          "text": "両親の家を__リフォームする__ことにした。",
+          "options": [
+            "作り直す",
+            "取り壊す",
+            "買いかえる",
+            "取りかえる"
+          ],
+          "correct_answer": 1,
+          "explanation": "「リフォーム（reform）」は「古くなった建物を改築・改装すること」という意味で、「作り直す」に近いです。",
+          "explanation_vi": "「リフォームする」 (reform) có nghĩa là 'cải tạo, sửa chữa lại', tương đương với 「作り直す」.",
+          "sentence_furigana": "両親(りょうしん)の家(いえ)を__リフォーム(りふぉーむ)する__ことにした。",
+          "sentence_vi": "Tôi quyết định sẽ sửa sang lại nhà của bố mẹ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "いずれ",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__いずれ__また会えたらいいですね。",
+            "彼が来たら、__いずれ__出発しましょう。",
+            "娘と息子は__いずれ__外国で暮らしている。",
+            "噂をしていたら、__いずれ__その人が部屋に入ってきた。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「いずれ」は「今すぐではないが、そのうち、いつか」という近い将来を表します。2は「すぐに」、3は「いずれも（どちらも）」、4は「ちょうど」が適切です。",
+          "explanation_vi": "「いずれ」 có nghĩa là 'sớm muộn gì, một lúc nào đó (trong tương lai)'. Câu 2 dùng 'ngay lập tức' (すぐに), câu 3 dùng 'cả hai' (いずれも), câu 4 dùng 'vừa đúng lúc' (ちょうど) mới đúng.",
+          "sentence_furigana": "__いずれ__また会え(あえ)たらいいですね。",
+          "sentence_vi": "Hy vọng một lúc nào đó chúng ta có thể gặp lại nhau."
+        },
+        {
+          "id": 18,
+          "target_word": "出世",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "人気女優が重い病気にかかり、__出世__した。",
+            "彼は同じ年に入社した人の中で一番__出世__した。",
+            "好きな作家の新しい本がやっと__出世__されて嬉しい。",
+            "去年__出世__したこの歌手は、若い人の間でとても人気がある。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「出世（しゅっせ）」は「社会的に高い地位につくこと」を意味します。1は「他界/死亡」、3は「出版/発売」、4は「デビュー」が適切です。",
+          "explanation_vi": "「出世」 có nghĩa là 'thăng tiến, thành đạt'. Câu 1 dùng 'qua đời' (他界/亡くなった), câu 3 dùng 'xuất bản' (出版), câu 4 dùng 'ra mắt' (デビュー) mới đúng.",
+          "sentence_furigana": "彼(かれ)は同じ(おなじ)年(とし)に入社(にゅうしゃ)した人(ひと)の中(なか)で一番(いちばん)__出世(しゅっせ)__した。",
+          "sentence_vi": "Anh ấy là người thăng tiến nhanh nhất trong số những người vào công ty cùng năm."
+        }
+      ]
+    }
+  ]
+}

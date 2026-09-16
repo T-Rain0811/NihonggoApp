@@ -1,0 +1,315 @@
+{
+  "lesson": 9,
+  "title": "第９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この家は、__日中__誰もいないことが多い。",
+          "options": [
+            "ひなか",
+            "にちなか",
+            "ひちゅう",
+            "にっちゅう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「日中」の正しい読み方は「にっちゅう」です。",
+          "explanation_vi": "Cách đọc đúng của 「日中」 là 「にっちゅう」 (ban ngày).",
+          "sentence_furigana": "この家(いえ)は、__日中(にっちゅう)__誰(だれ)もいないことが多い(おおい)。",
+          "sentence_vi": "Ngôi nhà này vào ban ngày thường không có ai ở nhà."
+        },
+        {
+          "id": 2,
+          "text": "初級から上級まで、__各種__コースを揃えております。",
+          "options": [
+            "かくしゅ",
+            "かっしゅ",
+            "かくしゅう",
+            "かっしゅう"
+          ],
+          "correct_answer": 1,
+          "explanation": "「各種」の正しい読み方は「かくしゅ」です。",
+          "explanation_vi": "Cách đọc đúng của 「各種」 là 「かくしゅ」 (các loại).",
+          "sentence_furigana": "初級(しょきゅう)から上級(じょうきゅう)まで、__各種(かくしゅ)__コース(こーす)を揃え(そろえ)ております。",
+          "sentence_vi": "Chúng tôi có đầy đủ các loại khóa học từ sơ cấp đến cao cấp."
+        },
+        {
+          "id": 3,
+          "text": "彼女は悲しそうな__表情__をしていた。",
+          "options": [
+            "ひゅうじゅう",
+            "ひゅうじょう",
+            "ひょうじゅう",
+            "ひょうじょう"
+          ],
+          "correct_answer": 4,
+          "explanation": "「表情」の正しい読み方は「ひょうじょう」です。",
+          "explanation_vi": "Cách đọc đúng của 「表情」 là 「ひょうじょう」 (nét mặt, biểu cảm).",
+          "sentence_furigana": "彼女(かのじょ)は悲し(かなし)そうな__表情(ひょうじょう)__をしていた。",
+          "sentence_vi": "Cô ấy mang một biểu cảm trông rất buồn bã."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "日本の人口は減少の__けいこう__にある。",
+          "options": [
+            "系行",
+            "系向",
+            "傾行",
+            "傾向"
+          ],
+          "correct_answer": 4,
+          "explanation": "「けいこう」の漢字は「傾向」です。",
+          "explanation_vi": "Chữ Hán của 「けいこう」 là 「傾向」 (khuynh hướng, xu hướng).",
+          "sentence_furigana": "日本(にっぽん)の人口(じんこう)は減少(げんしょう)の__傾向(けいこう)__にある。",
+          "sentence_vi": "Dân số Nhật Bản đang có xu hướng giảm."
+        },
+        {
+          "id": 5,
+          "text": "建物の__しょうめん__から写真を撮った。",
+          "options": [
+            "生面",
+            "正面",
+            "性面",
+            "証面"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しょうめん」の漢字は「正面」です。",
+          "explanation_vi": "Chữ Hán của 「しょうめん」 là 「正面」 (chính diện, mặt trước).",
+          "sentence_furigana": "建物(たてもの)の__正面(しょうめん)__から写真(しゃしん)を撮っ(とっ)た。",
+          "sentence_vi": "Tôi đã chụp bức ảnh từ mặt trước của tòa nhà."
+        },
+        {
+          "id": 6,
+          "text": "入社後、1カ月間の__けんしゅう__を受けた。",
+          "options": [
+            "研習",
+            "研修",
+            "験習",
+            "験修"
+          ],
+          "correct_answer": 2,
+          "explanation": "「けんしゅう」の漢字は「研修」です。",
+          "explanation_vi": "Chữ Hán của 「けんしゅう」 là 「研修」 (đào tạo, thực tập).",
+          "sentence_furigana": "入社(にゅうしゃ)後(ご)、1(いっ)カ月間(かげつかん)の__研修(けんしゅう)__を受け(うけ)た。",
+          "sentence_vi": "Sau khi vào công ty, tôi đã được đào tạo trong 1 tháng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "あのサッカー選手は今年で（　　）してコーチになるそうだ。",
+          "options": [
+            "引退",
+            "早退",
+            "退場",
+            "退職"
+          ],
+          "correct_answer": 1,
+          "explanation": "「引退（いんたい）」は「スポーツ選手などが現役を退くこと」を意味します。",
+          "explanation_vi": "「引退」 (intai) có nghĩa là 'giải nghệ' (dành cho tuyển thủ, nghệ sĩ...).",
+          "sentence_furigana": "あのサッカー(さっかー)選手(せんしゅ)は今年(ことし)で（ 引退(いんたい) ）してコーチ(こーち)になるそうだ。",
+          "sentence_vi": "Nghe nói cầu thủ bóng đá đó sẽ giải nghệ vào năm nay và trở thành huấn luyện viên."
+        },
+        {
+          "id": 8,
+          "text": "どんなときでも、母だけは私の（　　）でいてくれる。",
+          "options": [
+            "仲間",
+            "助手",
+            "味方",
+            "身内"
+          ],
+          "correct_answer": 3,
+          "explanation": "「味方（みかた）」は「自分を支持し、助けてくれる人」のことです。",
+          "explanation_vi": "「味方」 (mikata) có nghĩa là 'đồng minh, người đứng về phía mình'.",
+          "sentence_furigana": "どんなときでも、母(はは)だけは私(わたし)の（ 味方(みかた) ）でいてくれる。",
+          "sentence_vi": "Dù trong hoàn cảnh nào thì chỉ có mẹ là luôn đứng về phía tôi."
+        },
+        {
+          "id": 9,
+          "text": "車の運転中、急に子どもが道に（　　）きた。",
+          "options": [
+            "飛び込んで",
+            "飛び出して",
+            "走り込んで",
+            "走り出して"
+          ],
+          "correct_answer": 2,
+          "explanation": "「飛び出す（とびだす）」は「突然外へ急に出ること」を意味します。",
+          "explanation_vi": "「飛び出す」 (tobidasu) có nghĩa là 'lao ra, nhảy bổ ra'.",
+          "sentence_furigana": "車(くるま)の運転中(うんてんちゅう)、急に(きゅうに)子ども(こども)が道(みち)に（ 飛び出し(とびだし)て ）きた。",
+          "sentence_vi": "Trong lúc đang lái xe ô tô, đột nhiên có một đứa trẻ lao ra đường."
+        },
+        {
+          "id": 10,
+          "text": "引き出しの中が（　　）していて、はさみが見つからない。",
+          "options": [
+            "かちゃかちゃ",
+            "くちゃくちゃ",
+            "ごちゃごちゃ",
+            "こちょこちょ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ごちゃごちゃ」は「整理されておらず乱雑になっている様子」を表します。",
+          "explanation_vi": "「ごちゃごちゃ」 diễn tả trạng thái 'lộn xộn, bừa bộn'.",
+          "sentence_furigana": "引き出し(ひきだし)の中(なか)が（ ごちゃごちゃ ）していて、はさみが見つから(みつから)ない。",
+          "sentence_vi": "Bên trong ngăn kéo quá lộn xộn nên tôi không tìm thấy cái kéo đâu."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "朝ご飯を食べないのは、ダイエットには（　　）効果だ。",
+          "options": [
+            "逆",
+            "半",
+            "反",
+            "不"
+          ],
+          "correct_answer": 1,
+          "explanation": "「逆効果（ぎゃくこうか）」で「期待していた結果と反対の結果になること」を意味します。",
+          "explanation_vi": "「逆効果」 (gyakukouka) có nghĩa là 'phản tác dụng'.",
+          "sentence_furigana": "朝ご飯(あさごはん)を食べ(たべ)ないのは、ダイエット(だいえっと)には（ 逆(ぎゃく) ）効果(こうか)だ。",
+          "sentence_vi": "Việc không ăn sáng sẽ gây phản tác dụng đối với việc ăn kiêng."
+        },
+        {
+          "id": 12,
+          "text": "この国際会議では、アジア社会の（　　）問題について話し合われた。",
+          "options": [
+            "広",
+            "諸",
+            "多",
+            "複"
+          ],
+          "correct_answer": 2,
+          "explanation": "「諸問題（しょもんだい）」で「様々な問題」を意味します。",
+          "explanation_vi": "「諸問題」 (shomondai) có nghĩa là 'nhiều vấn đề khác nhau, các vấn đề'.",
+          "sentence_furigana": "この国際会議(こくさいかいぎ)では、アジア(あじあ)社会(しゃかい)の（ 諸(しょ) ）問題(もんだい)について話し合わ(はなしあわ)れた。",
+          "sentence_vi": "Tại hội nghị quốc tế này, người ta đã thảo luận về các vấn đề của xã hội châu Á."
+        },
+        {
+          "id": 13,
+          "text": "すしを三人（　　）注文した。",
+          "options": [
+            "皿",
+            "食",
+            "前",
+            "中"
+          ],
+          "correct_answer": 3,
+          "explanation": "「〜人前（にんまえ）」で「料理の分量（〜人分）」を表します。",
+          "explanation_vi": "「〜人前」 (~ninmae) là lượng từ dùng để đếm 'suất ăn' cho mấy người.",
+          "sentence_furigana": "すしを三人（ 前(まえ) ）注文(ちゅうもん)した。",
+          "sentence_vi": "Tôi đã gọi 3 suất sushi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼女はいつも動きが__にぶい__。",
+          "options": [
+            "おそい",
+            "あやしい",
+            "すばやい",
+            "うつくしい"
+          ],
+          "correct_answer": 1,
+          "explanation": "「にぶい（鈍い）」は「行動や反応が遅い」という意味で、「おそい」とほぼ同じです。",
+          "explanation_vi": "「鈍い」 có nghĩa là 'chậm chạp, cùn', tương đương với 「遅い」.",
+          "sentence_furigana": "彼女(かのじょ)はいつも動き(うごき)が__にぶい__。",
+          "sentence_vi": "Cô ấy lúc nào cũng có những cử động rất chậm chạp."
+        },
+        {
+          "id": 15,
+          "text": "このレポートは今日中に__しあげて__しまおう。",
+          "options": [
+            "送って",
+            "確認して",
+            "印刷して",
+            "終わらせて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「仕上げる（しあげる）」は「作業を完成させる」という意味で、「終わらせる」とほぼ同じです。",
+          "explanation_vi": "「仕上げる」 có nghĩa là 'hoàn thành, làm xong', tương đương với 「終わらせる」.",
+          "sentence_furigana": "このレポート(れぽーと)は今日中(きょうじゅう)に__しあげて__しまおう。",
+          "sentence_vi": "Hãy hoàn thành xong bản báo cáo này trong ngày hôm nay thôi."
+        },
+        {
+          "id": 16,
+          "text": "彼は仕事中、__しょっちゅう__携帯電話を見ている。",
+          "options": [
+            "たまに",
+            "何度も",
+            "ときどき",
+            "いつまでも"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しょっちゅう」は「頻繁に、いつも」という意味で、「何度も」とほぼ同じです。",
+          "explanation_vi": "「しょっちゅう」 có nghĩa là 'thường xuyên, luôn luôn', tương đương với 「何度も」 (nhiều lần).",
+          "sentence_furigana": "彼(かれ)は仕事中(しごとちゅう)、__しょっちゅう__携帯電話(けいたいでんわ)を見(み)ている。",
+          "sentence_vi": "Trong lúc làm việc, anh ta thường xuyên lôi điện thoại ra xem."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "いまに",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__いまに__あやまりに来ても、もう遅いよ。",
+            "__いまに__、ちょうど駅に着いたところです。",
+            "こんな食生活を続けていたら、__いまに__病気になるよ。",
+            "明日彼女に会えるとわかっていても、__いまに__会いたい。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「いまに」は「そのうち、近い将来に（悪い結果になる）」と推測するときに使います。1は「今さら」、2は「たった今」、4は「今すぐ」が適切です。",
+          "explanation_vi": "「いまに」 có nghĩa là 'chẳng mấy chốc, sớm muộn gì cũng' (dùng cho tương lai). Câu 1 dùng 'đến lúc này thì' (今さら), câu 2 dùng 'vừa mới' (たった今), câu 4 dùng 'ngay bây giờ' (今すぐ) mới đúng.",
+          "sentence_furigana": "こんな食生活(しょくせいかつ)を続け(つづけ)ていたら、__いまに__病気(びょうき)になるよ。",
+          "sentence_vi": "Nếu cứ tiếp tục thói quen ăn uống thế này, sớm muộn gì bạn cũng sẽ bị bệnh đấy."
+        },
+        {
+          "id": 18,
+          "target_word": "わざとらしい",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "あの女優は演技が__わざとらしい__。",
+            "外は朝から工事でとても__わざとらしい__。",
+            "汚れた__わざとらしい__服を着た女性が歩いてきた。",
+            "この宝石はよく見ると、どうも__わざとらしい__。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「わざとらしい」は「いかにも不自然で、嘘くさい様子」を表します。2は「うるさい/騒がしい」、3は「みすぼらしい」、4は「偽物らしい」が適切です。",
+          "explanation_vi": "「わざとらしい」 có nghĩa là 'mất tự nhiên, giả tạo, gượng gạo'. Câu 2 dùng 'ồn ào' (うるさい), câu 3 dùng 'tồi tàn' (みすぼらしい), câu 4 dùng 'giả' (偽物らしい) mới đúng.",
+          "sentence_furigana": "あの女優(じょゆう)は演技(えんぎ)が__わざとらしい__。",
+          "sentence_vi": "Nữ diễn viên đó diễn xuất trông rất giả tạo (thiếu tự nhiên)."
+        }
+      ]
+    }
+  ]
+}

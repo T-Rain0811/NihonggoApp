@@ -1,0 +1,315 @@
+{
+  "lesson": 14,
+  "title": "第１４回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "日本の漫画は海外でも__販売__されている。",
+          "options": [
+            "はつばい",
+            "はんばい",
+            "ばいばい",
+            "しょうばい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「販売」の正しい読み方は「はんばい」です。",
+          "explanation_vi": "Cách đọc đúng của 「販売」 là 「はんばい」 (bán hàng).",
+          "sentence_furigana": "日本(にっぽん)の漫画(まんが)は海外(かいがい)でも__販売(はんばい)__されている。",
+          "sentence_vi": "Truyện tranh Nhật Bản được bày bán ở cả nước ngoài."
+        },
+        {
+          "id": 2,
+          "text": "一番__上等__な服を着て出かけた。",
+          "options": [
+            "じょうと",
+            "じょとう",
+            "じょうとう",
+            "じょうどう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「上等」の正しい読み方は「じょうとう」です。",
+          "explanation_vi": "Cách đọc đúng của 「上等」 là 「じょうとう」 (chất lượng cao, thượng đẳng).",
+          "sentence_furigana": "一番(いちばん)__上等(じょうとう)__な服(ふく)を着て(きて)出かけ(でかけ)た。",
+          "sentence_vi": "Tôi đã mặc bộ đồ xịn nhất để đi ra ngoài."
+        },
+        {
+          "id": 3,
+          "text": "母は毎日の出来事を__細かく__日記に書いている。",
+          "options": [
+            "こまかく",
+            "さいかく",
+            "ほそかく",
+            "みじかく"
+          ],
+          "correct_answer": 1,
+          "explanation": "「細かい」の正しい読み方は「こまかい」です。",
+          "explanation_vi": "Cách đọc đúng của 「細かい」 là 「こまかい」 (chi tiết, tỉ mỉ).",
+          "sentence_furigana": "母(はは)は毎日(まいにち)の出来事(できごと)を__細かく(こまかく)__日記(にっき)に書い(かい)ている。",
+          "sentence_vi": "Mẹ tôi viết những sự việc xảy ra mỗi ngày vào nhật ký một cách rất chi tiết."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "雨で運動会が1週間__のびた__。",
+          "options": [
+            "伸びた",
+            "延びた",
+            "述びた",
+            "建びた"
+          ],
+          "correct_answer": 2,
+          "explanation": "時間・期日が遅れる場合の「のびる」の漢字は「延びる」です。",
+          "explanation_vi": "Chữ Hán của 「のびる」 (về mặt thời gian) là 「延びる」 (bị lùi lại, kéo dài).",
+          "sentence_furigana": "雨(あめ)で運動会(うんどうかい)が1週間(いっしゅうかん)__延び(のび)た__。",
+          "sentence_vi": "Do trời mưa nên hội thao đã bị lùi lại 1 tuần."
+        },
+        {
+          "id": 5,
+          "text": "趣味は星の__かんそく__をすることです。",
+          "options": [
+            "勧則",
+            "勧測",
+            "観則",
+            "観測"
+          ],
+          "correct_answer": 4,
+          "explanation": "「かんそく」の漢字は「観測」です。",
+          "explanation_vi": "Chữ Hán của 「かんそく」 là 「観測」 (quan trắc, quan sát).",
+          "sentence_furigana": "趣味(しゅみ)は星(ほし)の__観測(かんそく)__をすることです。",
+          "sentence_vi": "Sở thích của tôi là ngắm sao."
+        },
+        {
+          "id": 6,
+          "text": "世界中にこの技術を__ふきゅう__させたい。",
+          "options": [
+            "普及",
+            "普扱",
+            "音級",
+            "音汲"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ふきゅう」の漢字は「普及」です。",
+          "explanation_vi": "Chữ Hán của 「ふきゅう」 là 「普及」 (phổ cập).",
+          "sentence_furigana": "世界中(せかいじゅう)にこの技術(ぎじゅつ)を__普及(ふきゅう)__させたい。",
+          "sentence_vi": "Tôi muốn phổ cập kỹ thuật này ra toàn thế giới."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "パーティーには、参加者がそれぞれ（　　）の料理を持って集まった。",
+          "options": [
+            "自信",
+            "自慢",
+            "自立",
+            "自己"
+          ],
+          "correct_answer": 2,
+          "explanation": "「自慢（じまん）」は「自分が優れていると思うこと」を意味し、「自慢の料理」で「得意な料理」という意味になります。",
+          "explanation_vi": "Cụm từ 「自慢の料理」 (jiman no ryouri) có nghĩa là 'món ăn tâm đắc/tự hào'.",
+          "sentence_furigana": "パーティー(ぱーてぃー)には、参加者(さんかしゃ)がそれぞれ（ 自慢(じまん) ）の料理(りょうり)を持っ(もっ)て集まっ(あつまっ)た。",
+          "sentence_vi": "Trong bữa tiệc, mỗi người tham gia đều mang đến một món ăn tủ của mình."
+        },
+        {
+          "id": 8,
+          "text": "遊んでばかりいた学生の頃の話をされると耳が（　　）。",
+          "options": [
+            "重い",
+            "痛い",
+            "かたい",
+            "きつい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「耳が痛い」は「他人の言葉が自分の弱点をついていて、聞くのがつらい」という意味の慣用句です。",
+          "explanation_vi": "Cụm từ 「耳が痛い」 (mimi ga itai) có nghĩa là 'chói tai, nhức tai vì bị nói trúng tim đen'.",
+          "sentence_furigana": "遊ん(あそん)でばかりいた学生(がくせい)の頃(ころ)の話し(はなし)をされると耳(みみ)が（ 痛い(いたい) ）。",
+          "sentence_vi": "Mỗi khi bị nhắc lại chuyện thời học sinh chỉ toàn chơi bời là tôi lại thấy chói tai."
+        },
+        {
+          "id": 9,
+          "text": "正社員の（　　）は、収入が安定していることだ。",
+          "options": [
+            "システム",
+            "ステップ",
+            "チャンス",
+            "メリット"
+          ],
+          "correct_answer": 4,
+          "explanation": "「メリット（merit）」は「利点、有利な点」という意味です。",
+          "explanation_vi": "「メリット」 (merit) có nghĩa là 'ưu điểm, lợi ích'.",
+          "sentence_furigana": "正社員(せいしゃいん)の（ メリット(めりっと) ）は、収入(しゅうにゅう)が安定(あんてい)していることだ。",
+          "sentence_vi": "Ưu điểm của việc làm nhân viên chính thức là có thu nhập ổn định."
+        },
+        {
+          "id": 10,
+          "text": "今日は時間が（　　）あるから、ゆっくり話そう。",
+          "options": [
+            "さっぱり",
+            "すっかり",
+            "たっぷり",
+            "とっぷり"
+          ],
+          "correct_answer": 3,
+          "explanation": "「たっぷり」は「時間や物が十分にある様子」を表します。",
+          "explanation_vi": "「たっぷり」 có nghĩa là 'đầy đủ, dư dả, nhiều'.",
+          "sentence_furigana": "今日(きょう)は時間(じかん)が（ たっぷり ）あるから、ゆっくり話そ(はなそ)う。",
+          "sentence_vi": "Hôm nay tôi có rất nhiều thời gian nên chúng ta cứ nói chuyện từ từ nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "彼は（　　）免許で車を運転して警察につかまった。",
+          "options": [
+            "非",
+            "不",
+            "未",
+            "無"
+          ],
+          "correct_answer": 4,
+          "explanation": "「無免許（むめんきょ）」で「免許を持っていないこと」を意味します。",
+          "explanation_vi": "「無免許」 (mumenkyo) có nghĩa là 'không có bằng lái'.",
+          "sentence_furigana": "彼(かれ)は（ 無(む) ）免許(めんきょ)で車(くるま)を運転(うんてん)して警察(けいさつ)につかまった。",
+          "sentence_vi": "Anh ta đã lái xe ô tô khi không có bằng lái và bị cảnh sát bắt."
+        },
+        {
+          "id": 12,
+          "text": "家を売りたいが、買い（　　）が見つからず困っている。",
+          "options": [
+            "手",
+            "先",
+            "方",
+            "人"
+          ],
+          "correct_answer": 1,
+          "explanation": "「買い手（かいて）」で「買う人」のことです。",
+          "explanation_vi": "「買い手」 (kaite) có nghĩa là 'người mua'.",
+          "sentence_furigana": "家(いえ)を売り(うり)たいが、買い（ 手(て) ）が見つから(みつから)ず困っ(こまっ)ている。",
+          "sentence_vi": "Tôi muốn bán nhà mà tìm mãi chưa có ai mua nên rất đau đầu."
+        },
+        {
+          "id": 13,
+          "text": "この試合で私は自分の力を100%出し（　　）。",
+          "options": [
+            "きった",
+            "こんだ",
+            "すぎた",
+            "つきた"
+          ],
+          "correct_answer": 1,
+          "explanation": "「出し切る（だしきる）」で「持っているものを全部出す」という意味です。",
+          "explanation_vi": "「出し切る」 (dashikiru) có nghĩa là 'dùng hết, phát huy hết'.",
+          "sentence_furigana": "この試合(しあい)で私(わたし)は自分(じぶん)の力(ちから)を100%(ひゃくぱーせんと)出し（ 切っ(きっ)た ）。",
+          "sentence_vi": "Trong trận đấu này tôi đã phát huy 100% sức lực của mình."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "夜になるとこの通りは__ぶっそうだ__。",
+          "options": [
+            "暗い",
+            "危ない",
+            "うるさい",
+            "歩きにくい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「物騒（ぶっそう）」は「事件などが起こりそうで危険な様子」という意味で、「危ない」とほぼ同じです。",
+          "explanation_vi": "「物騒」 có nghĩa là 'loạn lạc, nguy hiểm', tương đương với 「危ない」.",
+          "sentence_furigana": "夜(よる)になるとこの通り(とおり)は__ぶっそうだ__。",
+          "sentence_vi": "Khi màn đêm buông xuống, con đường này rất nguy hiểm."
+        },
+        {
+          "id": 15,
+          "text": "最近よく__奇妙な__夢を見る。",
+          "options": [
+            "こわい",
+            "ふしぎな",
+            "おもしろい",
+            "めずらしい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「奇妙（きみょう）」は「風変わりで不思議な様子」という意味で、「不思議な」とほぼ同じです。",
+          "explanation_vi": "「奇妙」 có nghĩa là 'kỳ lạ, dị thường', tương đương với 「不思議な」.",
+          "sentence_furigana": "最近(さいきん)よく__奇妙な(きみょうな)__夢(ゆめ)を見(み)る。",
+          "sentence_vi": "Dạo này tôi rất hay có những giấc mơ kỳ lạ."
+        },
+        {
+          "id": 16,
+          "text": "A：これでいかがでしょうか。\nB：__まずまず__ですね。",
+          "options": [
+            "とてもいい",
+            "とても悪い",
+            "まあまあいい",
+            "あまりよくない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「まずまず」は「最高とは言えないが、まあまあ満足できる様子」を表します。",
+          "explanation_vi": "「まずまず」 có nghĩa là 'tàm tạm, kha khá', tương đương với 「まあまあいい」.",
+          "sentence_furigana": "A：これでいかがでしょうか。\nB：__まずまず__ですね。",
+          "sentence_vi": "A: Thế này đã được chưa ạ?\nB: Cũng kha khá rồi đấy."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "生かす",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "家の庭にりんごの木を__生かしたい__。",
+            "娘を東京で一人で__生かす__のは心配だ。",
+            "彼女は英語力を__生かして__、通訳の仕事をしている。",
+            "この図書館には駐車場がないので、いつもバスを__生かしている__。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「生かす（いかす）」は「持っている長所や能力を有効に使う」という意味です。1は「植えたい」、2は「生活させる/住まわせる」、4は「利用している」が適切です。",
+          "explanation_vi": "「生かす」 có nghĩa là 'phát huy, tận dụng (khả năng, thế mạnh)'. Câu 1 dùng 'trồng' (植える), câu 2 dùng 'sống' (生活させる), câu 4 dùng 'sử dụng' (利用する) mới đúng.",
+          "sentence_furigana": "彼女(かのじょ)は英語力(えいごりょく)を__生かし(いかし)て__、通訳(つうやく)の仕事(しごと)をしている。",
+          "sentence_vi": "Cô ấy đang phát huy khả năng tiếng Anh của mình để làm công việc phiên dịch."
+        },
+        {
+          "id": 18,
+          "target_word": "うろうろ",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "映画の途中で眠くなって、__うろうろ__してしまった。",
+            "さっきから私の顔を__うろうろ__見ているけど、何かついてる？",
+            "初めて海外旅行に行くことになったので、__うろうろ__している。",
+            "入り口がわからずに__うろうろ__していたら、女性が親切に教えてくれた。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「うろうろ」は「道がわからなかったり、あやしい目的があったりして歩き回る様子」を表します。1は「うとうと」、2は「じろじろ」、3は「うきうき/わくわく」が適切です。",
+          "explanation_vi": "「うろうろ」 có nghĩa là 'lảng vảng, quanh quẩn, đi tha thẩn'. Câu 1 dùng 'ngủ gật' (うとうと), câu 2 dùng 'nhìn chằm chằm' (じろじろ), câu 3 dùng 'háo hức' (うきうき) mới đúng.",
+          "sentence_furigana": "入り口(いりぐち)がわからずに__うろうろ__していたら、女性(じょせい)が親切(しんせつ)に教え(おしえ)てくれた。",
+          "sentence_vi": "Tôi đang cứ lảng vảng không tìm thấy lối vào thì một người phụ nữ đã tốt bụng chỉ cho tôi."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "lesson": 16,
+  "title": "第１６回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "私の__誤解__が原因でけんかになってしまった。",
+          "options": [
+            "こがい",
+            "ごかい",
+            "こうがい",
+            "ごうかい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「誤解」の正しい読み方は「ごかい」です。",
+          "explanation_vi": "Cách đọc đúng của 「誤解」 là 「ごかい」 (hiểu lầm).",
+          "sentence_furigana": "私(わたし)の__誤解(ごかい)__が原因(げんいん)でけんかになってしまった。",
+          "sentence_vi": "Do sự hiểu lầm của tôi mà đã xảy ra cãi vã."
+        },
+        {
+          "id": 2,
+          "text": "この価格には消費税が__含まれて__います。",
+          "options": [
+            "かこまれて",
+            "たのまれて",
+            "つつまれて",
+            "ふくまれて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「含まれる」の正しい読み方は「ふくまれる」です。",
+          "explanation_vi": "Cách đọc đúng của 「含まれる」 là 「ふくまれる」 (được bao gồm).",
+          "sentence_furigana": "この価格(かかく)には消費(しょうひ)税(ぜい)が__含ま(ふくま)れて__います。",
+          "sentence_vi": "Mức giá này đã bao gồm thuế tiêu dùng."
+        },
+        {
+          "id": 3,
+          "text": "あの日のことは忘れ__難い__思い出だ。",
+          "options": [
+            "わすれかたい",
+            "わすれがたい",
+            "わすれつらい",
+            "わすれづらい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「〜難い（がたい）」で「〜するのが難しい」という意味です。連用形について濁るため「がたい」となります。",
+          "explanation_vi": "Cách đọc đúng của cụm 「忘れ難い」 là 「わすれがたい」 (khó quên).",
+          "sentence_furigana": "あの日(ひ)のことは忘れ__難い(がたい)__思い出(おもいで)だ。",
+          "sentence_vi": "Những chuyện ngày hôm đó là kỷ niệm khó quên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "世界から__えいきゅう__に戦争がなくなることを願っている。",
+          "options": [
+            "永久",
+            "永求",
+            "栄久",
+            "栄求"
+          ],
+          "correct_answer": 1,
+          "explanation": "「えいきゅう」の漢字は「永久」です。",
+          "explanation_vi": "Chữ Hán của 「えいきゅう」 là 「永久」 (vĩnh cửu, mãi mãi).",
+          "sentence_furigana": "世界(せかい)から__永久(えいきゅう)__に戦争(せんそう)がなくなることを願っ(ねがっ)ている。",
+          "sentence_vi": "Tôi luôn cầu mong chiến tranh sẽ biến mất vĩnh viễn khỏi thế giới này."
+        },
+        {
+          "id": 5,
+          "text": "彼はついに自分が犯人であることを__みとめた__。",
+          "options": [
+            "訪めた",
+            "諭めた",
+            "認めた",
+            "調めた"
+          ],
+          "correct_answer": 3,
+          "explanation": "「みとめる」の漢字は「認める」です。",
+          "explanation_vi": "Chữ Hán của 「みとめる」 là 「認める」 (thừa nhận).",
+          "sentence_furigana": "彼(かれ)はついに自分(じぶん)が犯人(はんにん)であることを__認め(みとめ)た__。",
+          "sentence_vi": "Cuối cùng anh ta cũng đã thừa nhận mình là hung thủ."
+        },
+        {
+          "id": 6,
+          "text": "母は手先が__きよう__で、何でも自分で作る。",
+          "options": [
+            "器容",
+            "器用",
+            "記容",
+            "記用"
+          ],
+          "correct_answer": 2,
+          "explanation": "「きよう」の漢字は「器用」です。",
+          "explanation_vi": "Chữ Hán của 「きよう」 là 「器用」 (khéo léo).",
+          "sentence_furigana": "母(はは)は手先(てさき)が__器用(きよう)__で、何(なん)でも自分(じぶん)で作る(つくる)。",
+          "sentence_vi": "Mẹ tôi có đôi tay rất khéo léo, cái gì cũng có thể tự làm được."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "この書類は（　　）コピーしてください。",
+          "options": [
+            "両立",
+            "両手",
+            "両面",
+            "両用"
+          ],
+          "correct_answer": 3,
+          "explanation": "「両面（りょうめん）」は「表と裏の二つの面」のことです。",
+          "explanation_vi": "「両面」 (ryoumen) có nghĩa là 'hai mặt'.",
+          "sentence_furigana": "この書類(しょるい)は（ 両面(りょうめん) ）コピー(こぴー)してください。",
+          "sentence_vi": "Tài liệu này xin hãy photo hai mặt."
+        },
+        {
+          "id": 8,
+          "text": "太陽が（　　）、目が開けられない。",
+          "options": [
+            "にぶくて",
+            "まぶしくて",
+            "はげしくて",
+            "なつかしくて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「まぶしい」は「光が強くて目が開けていられない様子」を表します。",
+          "explanation_vi": "「まぶしい」 có nghĩa là 'chói mắt'.",
+          "sentence_furigana": "太陽(たいよう)が（ まぶしく(まぶしく)て ）、目(め)が開け(あけ)られない。",
+          "sentence_vi": "Mặt trời chói quá nên tôi không thể mở mắt ra được."
+        },
+        {
+          "id": 9,
+          "text": "警察は（　　）犯人を追いかけたが、逃げられてしまった。",
+          "options": [
+            "急速に",
+            "絶対に",
+            "必死に",
+            "深刻に"
+          ],
+          "correct_answer": 3,
+          "explanation": "「必死（ひっし）」は「死ぬ覚悟で全力を尽くす様子」を表します。",
+          "explanation_vi": "「必死に」 (hisshini) có nghĩa là 'tuyệt vọng, liều mạng, hết sức'.",
+          "sentence_furigana": "警察(けいさつ)は（ 必死(ひっし)に ）犯人(はんにん)を追いかけ(おいかけ)たが、逃げ(にげ)られてしまった。",
+          "sentence_vi": "Cảnh sát đã liều mạng đuổi theo hung thủ nhưng vẫn bị hắn trốn thoát."
+        },
+        {
+          "id": 10,
+          "text": "（　　）によって、パソコンの中の情報が全部消されてしまった。",
+          "options": [
+            "アレルギー",
+            "ウイルス",
+            "エネルギー",
+            "ストレス"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ウイルス（virus）」はコンピューターウイルスのことです。",
+          "explanation_vi": "「ウイルス」 (virus) có nghĩa là 'vi-rút'.",
+          "sentence_furigana": "（ ウイルス(ういるす) ）によって、パソコン(ぱそこん)の中(なか)の情報(じょうほう)が全部(ぜんぶ)消さ(けさ)れてしまった。",
+          "sentence_vi": "Vì vi-rút mà toàn bộ dữ liệu trong máy tính đã bị xóa sạch."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "（　　）出場で、優勝できるなんて夢のようだ。",
+          "options": [
+            "一",
+            "始",
+            "初",
+            "発"
+          ],
+          "correct_answer": 3,
+          "explanation": "「初出場（はつしゅつじょう）」で「初めて出ること」を意味します。",
+          "explanation_vi": "「初出場」 (hatsu shutsujou) có nghĩa là 'lần đầu xuất hiện/tham dự'.",
+          "sentence_furigana": "（ 初(はつ) ）出場(しゅつじょう)で、優勝(ゆうしょう)できるなんて夢(ゆめ)のようだ。",
+          "sentence_vi": "Việc có thể giành chức vô địch ngay trong lần đầu tham dự đúng là như một giấc mơ vậy."
+        },
+        {
+          "id": 12,
+          "text": "円高で利益が上がって、社長は（　　）機嫌だ。",
+          "options": [
+            "高",
+            "好",
+            "上",
+            "良"
+          ],
+          "correct_answer": 3,
+          "explanation": "「上機嫌（じょうきげん）」で「とても機嫌が良い様子」を意味します。",
+          "explanation_vi": "「上機嫌」 (joukigen) có nghĩa là 'tâm trạng rất tốt'.",
+          "sentence_furigana": "円高(えんだか)で利益(りえき)が上がっ(あがっ)て、社長(しゃちょう)は（ 上(じょう) ）機嫌(きげん)だ。",
+          "sentence_vi": "Do đồng Yên tăng giá nên lợi nhuận cũng tăng theo, giám đốc đang rất vui vẻ."
+        },
+        {
+          "id": 13,
+          "text": "遅れてしまったので、急いでみんなを追い（　　）。",
+          "options": [
+            "かけた",
+            "こした",
+            "ついた",
+            "ぬいた"
+          ],
+          "correct_answer": 1,
+          "explanation": "「追いかける（おいかける）」で「前に行く人のあとを追う」という意味です。ただし、「追いついた」も文脈によっては入る可能性がありますが、ここでは単純に追う動作を示す「追いかけた」が最も自然です。",
+          "explanation_vi": "「追いかける」 (oikakeru) có nghĩa là 'đuổi theo'.",
+          "sentence_furigana": "遅れ(おくれ)てしまったので、急い(いそい)でみんなを追い（ かけた ）。",
+          "sentence_vi": "Vì đã đến trễ nên tôi vội vàng đuổi theo mọi người."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "この学校には、バイクで通学してはいけないという__きまり__がある。",
+          "options": [
+            "法則",
+            "法律",
+            "規則",
+            "形式"
+          ],
+          "correct_answer": 3,
+          "explanation": "「決まり（きまり）」は「決められていること、ルール」という意味で、「規則」とほぼ同じです。",
+          "explanation_vi": "「きまり」 có nghĩa là 'quy định, luật lệ', tương đương với 「規則」.",
+          "sentence_furigana": "この学校(がっこう)には、バイク(ばいく)で通学(つうがく)してはいけないという__きまり__がある。",
+          "sentence_vi": "Trường học này có quy định là không được đi học bằng xe máy."
+        },
+        {
+          "id": 15,
+          "text": "あの時、先生が学生たちを注意したのは__もっともだ__と思った。",
+          "options": [
+            "意外だ",
+            "当然だ",
+            "不思議だ",
+            "間違っている"
+          ],
+          "correct_answer": 2,
+          "explanation": "「尤もだ（もっともだ）」は「道理にかなっている、当然だ」という意味です。",
+          "explanation_vi": "「もっともだ」 có nghĩa là 'hợp lý, đương nhiên', tương đương với 「当然だ」.",
+          "sentence_furigana": "あの時(とき)、先生(せんせい)が学生(がくせい)たちを注意(ちゅうい)したのは__もっともだ__と思っ(おもっ)た。",
+          "sentence_vi": "Lúc đó, tôi nghĩ việc thầy giáo nhắc nhở học sinh là điều đương nhiên."
+        },
+        {
+          "id": 16,
+          "text": "花瓶の花が__しぼんで__しまった。",
+          "options": [
+            "われて",
+            "ふくらんで",
+            "なくなって",
+            "小さくなって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「しぼむ」は「草花などの元気がなくなり、縮んだり垂れたりする」という意味で、「小さくなる」とほぼ同じです。",
+          "explanation_vi": "「しぼむ」 có nghĩa là 'héo đi, teo lại, xẹp xuống', tương đương với 「小さくなって」.",
+          "sentence_furigana": "花瓶(かびん)の花(はな)が__しぼん(しぼん)で__しまった。",
+          "sentence_vi": "Những bông hoa trong bình đã héo đi mất rồi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "提供",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "ペンを忘れたので、友達から__提供して__もらった。",
+            "社長は今年一番成績のよかった社員に賞金を__提供した__。",
+            "A社は会員限定でさまざまなサービスを__提供している__。",
+            "娘は毎年クリスマスプレゼントが__提供される__のを楽しみにしている。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「提供（ていきょう）」は「物・金・情報やサービスなどを役立てるために差し出すこと」です。日常的な貸し借りやプレゼントには使いません。1は「貸して/借りて」、2は「与えた/贈った」、4は「もらえる/贈られる」が適切です。",
+          "explanation_vi": "「提供」 có nghĩa là 'cung cấp, tài trợ' (thường dùng cho dịch vụ, thông tin hoặc tổ chức quy mô). Câu 1 dùng 'mượn' (貸して/借りて), câu 2 dùng 'trao tặng' (与えた/贈った), câu 4 dùng 'nhận được' (もらえる) mới đúng.",
+          "sentence_furigana": "A社(えーしゃ)は会員(かいいん)限定(げんてい)でさまざまなサービス(さーびす)を__提供(ていきょう)して__いる。",
+          "sentence_vi": "Công ty A đang cung cấp nhiều dịch vụ đa dạng giới hạn chỉ dành cho hội viên."
+        },
+        {
+          "id": 18,
+          "target_word": "ぶかぶか",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "兄の靴は私には__ぶかぶか__だ。",
+            "青い空に白い雲が__ぶかぶか__浮かんでいる。",
+            "のどが渇いていたので、水を__ぶかぶか__飲んだ。",
+            "__ぶかぶか__の布団で気持ちよく眠ることができた。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ぶかぶか」は「服や靴のサイズが大きすぎて合わない様子」を表します。2は「ぽっかり/ぷかぷか」、3は「がぶがぶ」、4は「ふかふか」が適切です。",
+          "explanation_vi": "「ぶかぶか」 có nghĩa là 'rộng thùng thình' (chỉ quần áo, giày dép). Câu 2 dùng 'bồng bềnh' (ぽっかり/ぷかぷか), câu 3 dùng 'ực ực' (がぶがぶ), câu 4 dùng 'êm ái/mềm mại' (ふかふか) mới đúng.",
+          "sentence_furigana": "兄(あに)の靴(くつ)は私(わたし)には__ぶかぶか__だ。",
+          "sentence_vi": "Đôi giày của anh trai rộng thùng thình so với tôi."
+        }
+      ]
+    }
+  ]
+}

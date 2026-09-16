@@ -1,0 +1,315 @@
+{
+  "lesson": 19,
+  "title": "第１９回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "船が海の__底__に沈んでしまった。",
+          "options": [
+            "うち",
+            "おく",
+            "すみ",
+            "そこ"
+          ],
+          "correct_answer": 4,
+          "explanation": "「底」の正しい読み方は「そこ」です。",
+          "explanation_vi": "Cách đọc đúng của 「底」 là 「そこ」 (đáy).",
+          "sentence_furigana": "船(ふね)が海(うみ)の__底(そこ)__に沈ん(しずん)でしまった。",
+          "sentence_vi": "Con tàu đã chìm xuống đáy biển."
+        },
+        {
+          "id": 2,
+          "text": "お湯が__沸いたら__、お茶をいれましょう。",
+          "options": [
+            "さいたら",
+            "たいたら",
+            "まいたら",
+            "わいたら"
+          ],
+          "correct_answer": 4,
+          "explanation": "「沸く」の正しい読み方は「わく」です。",
+          "explanation_vi": "Cách đọc đúng của 「沸く」 là 「わく」 (sôi).",
+          "sentence_furigana": "お湯(おゆ)が__沸い(わい)たら__、お茶(おちゃ)をいれましょう。",
+          "sentence_vi": "Nước sôi rồi thì hãy pha trà đi."
+        },
+        {
+          "id": 3,
+          "text": "その女性はショックのあまり、一晩で__白髪__になってしまったという。",
+          "options": [
+            "しらが",
+            "しろが",
+            "しらがみ",
+            "しろがみ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「白髪」の正しい読み方は「しらが」または「はくはつ」ですが、ここでは「しらが」が正解です。",
+          "explanation_vi": "Cách đọc đúng của 「白髪」 là 「しらが」 (tóc bạc).",
+          "sentence_furigana": "その女性(じょせい)はショック(しょっく)のあまり、一晩(ひとばん)で__白髪(しらが)__になってしまったという。",
+          "sentence_vi": "Nghe nói người phụ nữ đó vì quá sốc nên chỉ sau một đêm tóc đã bạc trắng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "長さ80センチ、__はば__30センチくらいの棚がほしい。",
+          "options": [
+            "張",
+            "帳",
+            "副",
+            "幅"
+          ],
+          "correct_answer": 4,
+          "explanation": "「はば」の漢字は「幅」です。",
+          "explanation_vi": "Chữ Hán của 「はば」 là 「幅」 (chiều rộng).",
+          "sentence_furigana": "長さ(ながさ)80センチ(せんち)、__幅(はば)__30センチ(せんち)くらいの棚(たな)がほしい。",
+          "sentence_vi": "Tôi muốn một chiếc kệ dài khoảng 80cm và rộng khoảng 30cm."
+        },
+        {
+          "id": 5,
+          "text": "ここに来ると、__おさない__時のことを思い出す。",
+          "options": [
+            "幻い",
+            "幼い",
+            "功い",
+            "巧い"
+          ],
+          "correct_answer": 2,
+          "explanation": "「おさない」の漢字は「幼い」です。",
+          "explanation_vi": "Chữ Hán của 「おさない」 là 「幼い」 (thơ ấu, còn nhỏ).",
+          "sentence_furigana": "ここに来る(くる)と、__幼い(おさない)__時(とき)のことを思い出す(おもいだす)。",
+          "sentence_vi": "Cứ đến đây là tôi lại nhớ về thời thơ ấu của mình."
+        },
+        {
+          "id": 6,
+          "text": "姉はいつも__はで__な服を着ている。",
+          "options": [
+            "派手",
+            "派出",
+            "脈手",
+            "脈出"
+          ],
+          "correct_answer": 1,
+          "explanation": "「はで」の漢字は「派手」です。",
+          "explanation_vi": "Chữ Hán của 「はで」 là 「派手」 (lòe loẹt, sặc sỡ).",
+          "sentence_furigana": "姉(あね)はいつも__派手(はで)__な服(ふく)を着て(きて)いる。",
+          "sentence_vi": "Chị gái tôi lúc nào cũng mặc những bộ đồ rất sặc sỡ."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "みなさん歌ってください。次は誰の（　　）ですか。",
+          "options": [
+            "回",
+            "番",
+            "方",
+            "段"
+          ],
+          "correct_answer": 2,
+          "explanation": "「番（ばん）」は「順番、順序」を意味し、「誰の番」で「誰の順番か」という意味になります。",
+          "explanation_vi": "「番」 (ban) có nghĩa là 'lượt, thứ tự'.",
+          "sentence_furigana": "みなさん歌っ(うたっ)てください。次(つぎ)は誰(だれ)の（ 番(ばん) ）ですか。",
+          "sentence_vi": "Mọi người hát đi chứ. Tiếp theo là đến lượt của ai nhỉ?"
+        },
+        {
+          "id": 8,
+          "text": "（　　）は親切そうだが、心の中はわからない。",
+          "options": [
+            "見本",
+            "中身",
+            "見かけ",
+            "身のまわり"
+          ],
+          "correct_answer": 3,
+          "explanation": "「見かけ（みかけ）」は「外から見た様子、外見」のことです。",
+          "explanation_vi": "「見かけ」 (mikake) có nghĩa là 'vẻ bề ngoài'.",
+          "sentence_furigana": "（ 見かけ(みかけ) ）は親切(しんせつ)そうだが、心(こころ)の中(なか)はわからない。",
+          "sentence_vi": "Nhìn vẻ ngoài thì có vẻ tốt bụng đấy nhưng tâm tư bên trong thế nào thì không ai biết được."
+        },
+        {
+          "id": 9,
+          "text": "事故で新幹線が動かなかったので、切符代を（　　）もらった。",
+          "options": [
+            "取り入れて",
+            "取り消して",
+            "払い込んで",
+            "払い戻して"
+          ],
+          "correct_answer": 4,
+          "explanation": "「払い戻す（はらいもどす）」は「支払ったお金を返してもらうこと」です。",
+          "explanation_vi": "「払い戻す」 (haraimodosu) có nghĩa là 'hoàn tiền, trả lại tiền'.",
+          "sentence_furigana": "事故(じこ)で新幹線(しんかんせん)が動か(うごか)なかったので、切符(きっぷ)代(だい)を（ 払い戻し(はらいもどし)て ）もらった。",
+          "sentence_vi": "Do tai nạn nên tàu siêu tốc không chạy được, vì vậy tôi đã được hoàn lại tiền vé."
+        },
+        {
+          "id": 10,
+          "text": "思い切って25年（　　）で家を建てた。",
+          "options": [
+            "ターン",
+            "ローン",
+            "サラリー",
+            "ボーナス"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ローン（loan）」は「貸し付け、特に住宅ローンなどの分割払い」のことです。",
+          "explanation_vi": "「ローン」 (loan) có nghĩa là 'khoản vay (trả góp)'.",
+          "sentence_furigana": "思い切っ(おもいきっ)て25年(にじゅうごねん)（ ローン(ろーん) ）で家(いえ)を建て(たて)た。",
+          "sentence_vi": "Tôi đã quyết tâm xây nhà bằng khoản vay trả góp trong 25 năm."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "不在の部長に代わって、（　　）部長が会議に出席した。",
+          "options": [
+            "次",
+            "準",
+            "助",
+            "副"
+          ],
+          "correct_answer": 4,
+          "explanation": "「副部長（ふくぶちょう）」で「部長の次の地位で補佐する人」を意味します。",
+          "explanation_vi": "「副部長」 (fukubuchou) có nghĩa là 'phó phòng'.",
+          "sentence_furigana": "不在(ふざい)の部長(ぶちょう)に代わっ(かわっ)て、（ 副(ふく) ）部長(ぶちょう)が会議(かいぎ)に出席(しゅっせき)した。",
+          "sentence_vi": "Thay mặt cho trưởng phòng vắng mặt, phó phòng đã tham dự cuộc họp."
+        },
+        {
+          "id": 12,
+          "text": "この大学は自宅で勉強ができる通信（　　）の学校だ。",
+          "options": [
+            "形",
+            "制",
+            "法",
+            "用"
+          ],
+          "correct_answer": 2,
+          "explanation": "「通信制（つうしんせい）」で「通信によって教育を行う制度」を意味します。",
+          "explanation_vi": "「通信制」 (tsuushinsei) có nghĩa là 'hệ giáo dục từ xa'.",
+          "sentence_furigana": "この大学(だいがく)は自宅(じたく)で勉強(べんきょう)ができる通信(つうしん)（ 制(せい) ）の学校(がっこう)だ。",
+          "sentence_vi": "Trường đại học này là trường có hệ đào tạo từ xa, có thể tự học tại nhà."
+        },
+        {
+          "id": 13,
+          "text": "静かな住宅（　　）に、救急車のサイレンが鳴り響いた。",
+          "options": [
+            "町",
+            "街",
+            "道",
+            "通"
+          ],
+          "correct_answer": 2,
+          "explanation": "「住宅街（じゅうたくがい）」で「住宅が集まっている地域」を意味します。",
+          "explanation_vi": "「住宅街」 (juutakugai) có nghĩa là 'khu dân cư'.",
+          "sentence_furigana": "静か(しずか)な住宅(じゅうたく)（ 街(がい) ）に、救急車(きゅうきゅうしゃ)のサイレン(さいれん)が鳴り響い(なりひびい)た。",
+          "sentence_vi": "Tiếng còi xe cứu thương vang rền khắp khu dân cư yên tĩnh."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "教室の中が急に__さわがしく__なった。",
+          "options": [
+            "暗く",
+            "明るく",
+            "静かに",
+            "うるさく"
+          ],
+          "correct_answer": 4,
+          "explanation": "「騒がしい（さわがしい）」は「音や声が大きくてうるさい」という意味で、「うるさい」とほぼ同じです。",
+          "explanation_vi": "「騒がしい」 có nghĩa là 'ồn ào, huyên náo', tương đương với 「うるさい」.",
+          "sentence_furigana": "教室(きょうしつ)の中(なか)が急に(きゅうに)__さわがしく__なった。",
+          "sentence_vi": "Trong lớp học đột nhiên trở nên ồn ào."
+        },
+        {
+          "id": 15,
+          "text": "新しい家に住んで1カ月だが、まだ__これといった__問題はない。",
+          "options": [
+            "特に",
+            "まったく",
+            "少ししか",
+            "予想どおり"
+          ],
+          "correct_answer": 1,
+          "explanation": "「これといった」は否定を伴って「特別に取り上げるほどの〜がない」という意味になり、「特に」とほぼ同じ意味です。",
+          "explanation_vi": "「これといった」 đi với phủ định có nghĩa là 'không có ~ gì đặc biệt', tương đương với 「特に」.",
+          "sentence_furigana": "新しい(あたらしい)家(いえ)に住ん(すん)で1カ月(いっかげつ)だが、まだ__これといった__問題(もんだい)はない。",
+          "sentence_vi": "Sống trong ngôi nhà mới được 1 tháng rồi nhưng vẫn chưa thấy có vấn đề gì đặc biệt."
+        },
+        {
+          "id": 16,
+          "text": "祖父の人生はとても__平凡な__ものだった。",
+          "options": [
+            "幸せな",
+            "普通の",
+            "めずらしい",
+            "かわいそうな"
+          ],
+          "correct_answer": 2,
+          "explanation": "「平凡（へいぼん）」は「特にすぐれたところもなく、ありふれている様子」という意味で、「普通」とほぼ同じです。",
+          "explanation_vi": "「平凡」 có nghĩa là 'bình phàm, bình thường', tương đương với 「普通」.",
+          "sentence_furigana": "祖父(そふ)の人生(じんせい)はとても__平凡な(へいぼんな)__ものだった。",
+          "sentence_vi": "Cuộc đời của ông tôi là một cuộc đời rất bình dị."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "余計",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "貯金が少ないから、旅行をする__余計__はありません。",
+            "私は大丈夫ですから、__余計な__心配はしないでください。",
+            "後で食べるから、晩ご飯の__余計__があったらとっておいて。",
+            "アイスクリームを5個も食べるなんて、__余計__好きなんですね。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「余計（よけい）」は「必要以上であること、無駄なこと」を意味します。1は「余裕」、3は「余り」、4は「よほど」が適切です。",
+          "explanation_vi": "「余計」 có nghĩa là 'dư thừa, thừa thãi'. Câu 1 dùng 'dư dả' (余裕), câu 3 dùng 'phần thừa' (余り), câu 4 dùng 'rất/thực sự' (よほど) mới đúng.",
+          "sentence_furigana": "私(わたし)は大丈夫(だいじょうぶ)ですから、__余計な(よけいな)__心配(しんぱい)はしないでください。",
+          "sentence_vi": "Tôi không sao đâu, bạn đừng lo lắng thừa thãi nữa."
+        },
+        {
+          "id": 18,
+          "target_word": "若々しい",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "コンサート会場には__若々しい__高校生が大勢集まっている。",
+            "あの子どもは__若々しくて__かわいい。",
+            "山田さんのお母さんは、いつ見ても__若々しい__。",
+            "__若々しい__時から英語を勉強しておけばよかった。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「若々しい（わかわかしい）」は「実際の年齢よりも若く見える、生気に満ちている」という意味で、本当に若い人（高校生や子どもなど）には使いません。1、2、4は「若い」が適切です。",
+          "explanation_vi": "「若々しい」 có nghĩa là 'trẻ trung' (thường dùng khen người có tuổi nhìn trẻ hơn tuổi), KHÔNG dùng cho người thực sự trẻ tuổi. Câu 1, 2, 4 dùng 'trẻ' (若い) mới đúng.",
+          "sentence_furigana": "山田(やまだ)さんのお母(かあ)さんは、いつ見(み)ても__若々しい(わかわかしい)__。",
+          "sentence_vi": "Mẹ của chị Yamada lúc nào nhìn cũng thấy rất trẻ trung."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,315 @@
+{
+  "lesson": 3,
+  "title": "第３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "ズボンの前と後ろを__逆__にはいていた。",
+          "options": [
+            "きゃく",
+            "きゃぐ",
+            "ぎゃく",
+            "ぎゃぐ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「逆」の読み方は「ぎゃく」です。",
+          "explanation_vi": "Cách đọc đúng của 「逆」 là 「ぎゃく」 (ngược lại).",
+          "sentence_furigana": "ズボン(ずぼん)の前(まえ)と後ろ(うしろ)を__逆(ぎゃく)__にはいていた。",
+          "sentence_vi": "Tôi đã mặc quần bị ngược mặt trước và mặt sau."
+        },
+        {
+          "id": 2,
+          "text": "__先着__100名様に、記念品をプレゼントします。",
+          "options": [
+            "さっき",
+            "せんき",
+            "さきちゃく",
+            "せんちゃく"
+          ],
+          "correct_answer": 4,
+          "explanation": "「先着」の読み方は「せんちゃく」です。",
+          "explanation_vi": "Cách đọc đúng của 「先着」 là 「せんちゃく」 (đến trước).",
+          "sentence_furigana": "__先着(せんちゃく)__100名様(ひゃくめいさま)に、記念品(きねんひん)をプレゼント(ぷれぜんと)します。",
+          "sentence_vi": "Sẽ có quà tặng kỷ niệm cho 100 người đến sớm nhất."
+        },
+        {
+          "id": 3,
+          "text": "この国初めての宇宙飛行士にインタビューする機会が__得られた__。",
+          "options": [
+            "いられた",
+            "うられた",
+            "えられた",
+            "とられた"
+          ],
+          "correct_answer": 3,
+          "explanation": "「得られる」の読み方は「えられる」です。",
+          "explanation_vi": "Cách đọc đúng của 「得られる」 là 「えられる」 (thu được, có được).",
+          "sentence_furigana": "この国(くに)初めて(はじめて)の宇宙飛行士(うちゅうひこうし)にインタビュー(いんたびゅー)する機会(きかい)が__得られ(えられ)た__。",
+          "sentence_vi": "Tôi đã có cơ hội phỏng vấn nhà du hành vũ trụ đầu tiên của đất nước này."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "燃えないごみの__しゅうしゅう__日は、毎週火曜日です。",
+          "options": [
+            "収拾",
+            "収集",
+            "拾収",
+            "集収"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しゅうしゅう」の漢字は「収集」です。",
+          "explanation_vi": "Chữ Hán của 「しゅうしゅう」 là 「収集」 (thu gom).",
+          "sentence_furigana": "燃え(もえ)ないごみの__収集(しゅうしゅう)__日(ひ)は、毎週(まいしゅう)火曜日(かようび)です。",
+          "sentence_vi": "Ngày thu gom rác không cháy là vào thứ Ba hàng tuần."
+        },
+        {
+          "id": 5,
+          "text": "将来は、自分で会社を__けいえい__したいと思っている。",
+          "options": [
+            "径宮",
+            "径営",
+            "経宮",
+            "経営"
+          ],
+          "correct_answer": 4,
+          "explanation": "「けいえい」の漢字は「経営」です。",
+          "explanation_vi": "Chữ Hán của 「けいえい」 là 「経営」 (kinh doanh).",
+          "sentence_furigana": "将来(しょうらい)は、自分(じぶん)で会社(かいしゃ)を__経営(けいえい)__したいと思っ(おもっ)ている。",
+          "sentence_vi": "Tương lai, tôi muốn tự mình kinh doanh mở công ty."
+        },
+        {
+          "id": 6,
+          "text": "どうか私の__のぞみ__をかなえてください。",
+          "options": [
+            "祈み",
+            "希み",
+            "望み",
+            "顧み"
+          ],
+          "correct_answer": 3,
+          "explanation": "「のぞみ」の漢字は「望み」です。",
+          "explanation_vi": "Chữ Hán của 「のぞみ」 là 「望み」 (mong muốn, hy vọng).",
+          "sentence_furigana": "どうか私(わたし)の__望み(のぞみ)__をかなえてください。",
+          "sentence_vi": "Xin hãy thực hiện mong muốn của tôi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "グループ旅行のときに自分（　　）な行動をとるのは迷惑だ。",
+          "options": [
+            "勝手",
+            "次第",
+            "都合",
+            "放題"
+          ],
+          "correct_answer": 1,
+          "explanation": "「自分勝手」で「自分の都合だけを考えること」を意味します。",
+          "explanation_vi": "Cụm từ 「自分勝手」 (jibun katte) có nghĩa là 'tự tiện, ích kỷ'.",
+          "sentence_furigana": "グループ(ぐるーぷ)旅行(りょこう)のときに自分(じぶん)（ 勝手(かって) ）な行動(こうどう)をとるのは迷惑(めいわく)だ。",
+          "sentence_vi": "Đi du lịch theo nhóm mà hành động tự tiện là sẽ làm phiền người khác."
+        },
+        {
+          "id": 8,
+          "text": "バスの中でお年寄りに席を（　　）。",
+          "options": [
+            "あたえた",
+            "おくった",
+            "ゆずった",
+            "わたした"
+          ],
+          "correct_answer": 3,
+          "explanation": "「席を譲る（ゆずる）」で「他の人に座る場所を与える」という意味になります。",
+          "explanation_vi": "Cụm từ 「席を譲る」 có nghĩa là 'nhường ghế'.",
+          "sentence_furigana": "バス(ばす)の中(なか)でお年寄り(おとしより)に席(せき)を（ 譲っ(ゆずっ)た ）。",
+          "sentence_vi": "Tôi đã nhường ghế cho người già trên xe buýt."
+        },
+        {
+          "id": 9,
+          "text": "子どもが寝たので、起こさないように（　　）部屋を出た。",
+          "options": [
+            "ざっと",
+            "じっと",
+            "かっと",
+            "そっと"
+          ],
+          "correct_answer": 4,
+          "explanation": "「そっと」は「音を立てずに静かに行動する様子」を表します。",
+          "explanation_vi": "「そっと」 diễn tả hành động 'rón rén, lặng lẽ, nhẹ nhàng'.",
+          "sentence_furigana": "子ども(こども)が寝た(ねた)ので、起こさ(おこさ)ないように（ そっと ）部屋(へや)を出た(でた)。",
+          "sentence_vi": "Vì đứa bé đã ngủ nên tôi rón rén ra khỏi phòng để không đánh thức bé."
+        },
+        {
+          "id": 10,
+          "text": "何度か会社に行ったが、いつも（　　）が悪くて佐藤さんに会うことができない。",
+          "options": [
+            "チャンス",
+            "アナウンス",
+            "タイミング",
+            "スケジュール"
+          ],
+          "correct_answer": 3,
+          "explanation": "「タイミングが悪い」で「時間が合わない、ちょうど良い時ではない」という意味になります。",
+          "explanation_vi": "「タイミングが悪い」 (timing ga warui) có nghĩa là 'không đúng lúc, sai thời điểm'.",
+          "sentence_furigana": "何度(なんど)か会社(かいしゃ)に行っ(いっ)たが、いつも（ タイミング(たいみんぐ) ）が悪く(わるく)て佐藤(さとう)さんに会う(あう)ことができない。",
+          "sentence_vi": "Tôi đã đến công ty vài lần nhưng luôn không đúng lúc nên không thể gặp anh Sato."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この曲は、クラシック音楽の（　　）曲の一つとして知られている。",
+          "options": [
+            "正",
+            "名",
+            "好",
+            "高"
+          ],
+          "correct_answer": 2,
+          "explanation": "「名曲（めいきょく）」で「優れて有名な曲」のことです。",
+          "explanation_vi": "「名曲」 (meikyoku) có nghĩa là 'danh khúc, bản nhạc nổi tiếng'.",
+          "sentence_furigana": "この曲(きょく)は、クラシック(くらしっく)音楽(おんがく)の（ 名(めい) ）曲(きょく)の一つ(ひとつ)として知ら(しら)れている。",
+          "sentence_vi": "Bản nhạc này được biết đến như một trong những danh khúc của âm nhạc cổ điển."
+        },
+        {
+          "id": 12,
+          "text": "この試験の合格（　　）は約20％だった。",
+          "options": [
+            "位",
+            "数",
+            "率",
+            "割"
+          ],
+          "correct_answer": 3,
+          "explanation": "「合格率（ごうかくりつ）」で「合格した人の割合」のことです。",
+          "explanation_vi": "「合格率」 (goukakuritsu) có nghĩa là 'tỷ lệ đỗ'.",
+          "sentence_furigana": "この試験(しけん)の合格(ごうかく)（ 率(りつ) ）は約(やく)20％(ぱーせんと)だった。",
+          "sentence_vi": "Tỷ lệ đỗ của kỳ thi này là khoảng 20%."
+        },
+        {
+          "id": 13,
+          "text": "いつも外食なので食（　　）がかかる。",
+          "options": [
+            "金",
+            "代",
+            "費",
+            "料"
+          ],
+          "correct_answer": 3,
+          "explanation": "「食費（しょくひ）」で「食事にかかるお金」のことです。",
+          "explanation_vi": "「食費」 (shokuhi) có nghĩa là 'tiền ăn, chi phí ăn uống'.",
+          "sentence_furigana": "いつも外食(がいしょく)なので食(しょく)（ 費(ひ) ）がかかる。",
+          "sentence_vi": "Vì tôi luôn ăn ngoài nên tốn khá nhiều tiền ăn uống."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼の__ひきょうな__やり方にみんな驚いた。",
+          "options": [
+            "冷たい",
+            "真剣な",
+            "親切な",
+            "ずるい"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ひきょう（卑怯）」は「正々堂々としていない、ずるい」という意味です。",
+          "explanation_vi": "「ひきょう」 có nghĩa là 'hèn hạ, gian xảo', gần nghĩa với 「ずるい」.",
+          "sentence_furigana": "彼(かれ)の__ひきょうな__やり方(かた)にみんな驚い(おどろい)た。",
+          "sentence_vi": "Mọi người đều bất ngờ trước cách làm gian xảo của anh ta."
+        },
+        {
+          "id": 15,
+          "text": "3年ぶりに会った彼女は__一段と__きれいになっていた。",
+          "options": [
+            "やや",
+            "まあまあ",
+            "だんだん",
+            "ますます"
+          ],
+          "correct_answer": 4,
+          "explanation": "「一段と（いちだんと）」は「前よりもさらに程度が上がる様子」を表し、「ますます」とほぼ同じ意味です。",
+          "explanation_vi": "「一段と」 có nghĩa là 'hơn hẳn, ngày càng', gần nghĩa với 「ますます」.",
+          "sentence_furigana": "3年(さんねん)ぶりに会っ(あっ)た彼女(かのじょ)は__一段(いちだん)と__きれいになっていた。",
+          "sentence_vi": "Gặp lại cô ấy sau 3 năm, trông cô ấy ngày càng xinh đẹp hơn."
+        },
+        {
+          "id": 16,
+          "text": "今日はとても__あわただしい__一日だった。",
+          "options": [
+            "忙しい",
+            "ひまな",
+            "落ち着いた",
+            "思いどおりにならない"
+          ],
+          "correct_answer": 1,
+          "explanation": "「あわただしい（慌ただしい）」は「用事が多くて落ち着かない、忙しい」という意味です。",
+          "explanation_vi": "「あわただしい」 có nghĩa là 'vội vã, cuống cuồng, bận rộn', tương đương với 「忙しい」.",
+          "sentence_furigana": "今日(きょう)はとても__あわただしい__一日(いちにち)だった。",
+          "sentence_vi": "Hôm nay là một ngày vô cùng bận rộn."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "省略",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "社員を10人から5人に__省略__した。",
+            "この道を右に曲がると__省略__できるので早く着く。",
+            "全部話すと長くなるので、話の一部を__省略__した。",
+            "お金を__省略__するために、毎日お弁当を作っている。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「省略（しょうりゃく）」は「一部を省いて短く・簡単にすること」という意味です。1は「削減（さくげん）」、2は「近道（ちかみち）」、4は「節約（せつやく）」が適切です。",
+          "explanation_vi": "「省略」 (shouryaku) có nghĩa là 'lược bỏ, rút gọn'. Câu 1 dùng 削減 (cắt giảm), câu 2 dùng 近道 (đường tắt), câu 4 dùng 節約 (tiết kiệm) mới đúng.",
+          "sentence_furigana": "全部(ぜんぶ)話す(はなす)と長くなる(ながくなる)ので、話し(はなし)の一部(いちぶ)を__省略(しょうりゃく)__した。",
+          "sentence_vi": "Nếu kể hết thì sẽ rất dài nên tôi đã lược bỏ một phần câu chuyện."
+        },
+        {
+          "id": 18,
+          "target_word": "ご無沙汰",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "映画を見たのは__ご無沙汰__だった。",
+            "__ご無沙汰__の帰国に母はとても喜んだ。",
+            "__ご無沙汰__しておりますが、お元気ですか。",
+            "__ご無沙汰__にテニスをしたら、腕が痛くなった。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ご無沙汰（ごぶさた）」は「長い間連絡や訪問をしていないこと」を詫びる挨拶として使われます（ご無沙汰しております）。",
+          "explanation_vi": "「ご無沙汰」 (gobusata) là lời chào dùng khi đã lâu không liên lạc, thăm hỏi ai đó (Đã lâu không gặp).",
+          "sentence_furigana": "__ご無沙汰(ごぶさた)__しておりますが、お元気(げんき)ですか。",
+          "sentence_vi": "Đã lâu không gặp, bạn có khỏe không?"
+        }
+      ]
+    }
+  ]
+}

@@ -56,7 +56,7 @@ class MainWindow(QMainWindow):
         self.vocab_hub.go_prefix.connect(lambda: self.stack.setCurrentWidget(self.view_prefix))
         self.vocab_hub.go_mimetic.connect(lambda: self.stack.setCurrentWidget(self.view_mimetic))
         self.vocab_hub.go_synonym.connect(lambda: self.stack.setCurrentWidget(self.view_synonym))
-        self.vocab_hub.go_vocab_drill.connect(self._placeholder_msg)
+        self.vocab_hub.go_vocab_drill.connect(lambda: self.stack.setCurrentWidget(self.vocab_drill_view))
         self.stack.addWidget(self.vocab_hub)
 
         # ── 2: Grammar Hub (menu) ────────────────────────────────────────────
@@ -68,7 +68,7 @@ class MainWindow(QMainWindow):
             lambda: self.stack.setCurrentWidget(self.grammar_session)
         )
         self.grammar_hub.go_grammar_drill.connect(
-            lambda: self.stack.setCurrentWidget(self.drill_view)
+            lambda: self.stack.setCurrentWidget(self.grammar_drill_view)
         )
         self.stack.addWidget(self.grammar_hub)
 
@@ -87,11 +87,18 @@ class MainWindow(QMainWindow):
         self.stack.addWidget(self.grammar_session)
 
         # ── 5: Grammar Drill ─────────────────────────────────────────────────
-        self.drill_view = DrillPracticeWidget()
-        self.drill_view.navigate_back.connect(
+        self.grammar_drill_view = DrillPracticeWidget(drill_type="grammar")
+        self.grammar_drill_view.navigate_back.connect(
             lambda: self.stack.setCurrentWidget(self.grammar_hub)
         )
-        self.stack.addWidget(self.drill_view)
+        self.stack.addWidget(self.grammar_drill_view)
+
+        # ── 6: Vocab Drill ─────────────────────────────────────────────────
+        self.vocab_drill_view = DrillPracticeWidget(drill_type="vocab")
+        self.vocab_drill_view.navigate_back.connect(
+            lambda: self.stack.setCurrentWidget(self.vocab_hub)
+        )
+        self.stack.addWidget(self.vocab_drill_view)
 
         self.load_styles()
         self.stack.setCurrentWidget(self.home_view)

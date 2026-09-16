@@ -1,0 +1,315 @@
+{
+  "lesson": 25,
+  "title": "第２５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "この試験は70点が合格の__目安__だ。",
+          "options": [
+            "めあん",
+            "めやす",
+            "もくあん",
+            "もくやす"
+          ],
+          "correct_answer": 2,
+          "explanation": "「目安」の正しい読み方は「めやす」です。",
+          "explanation_vi": "Cách đọc đúng của 「目安」 là 「めやす」 (mục tiêu, tiêu chuẩn).",
+          "sentence_furigana": "この試験(しけん)は70点(ななじゅってん)が合格(ごうかく)の__目安(めやす)__だ。",
+          "sentence_vi": "Kỳ thi này lấy mốc 70 điểm làm tiêu chuẩn đỗ."
+        },
+        {
+          "id": 2,
+          "text": "この地域は山が多いので__電波__が届きません。",
+          "options": [
+            "でんは",
+            "でんば",
+            "でんぱ",
+            "でんなみ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「電波」の正しい読み方は「でんぱ」です。",
+          "explanation_vi": "Cách đọc đúng của 「電波」 là 「でんぱ」 (sóng vô tuyến, sóng điện thoại).",
+          "sentence_furigana": "この地域(ちいき)は山(やま)が多い(おおい)ので__電波(でんぱ)__が届き(とどき)ません。",
+          "sentence_vi": "Khu vực này có nhiều núi nên không có sóng."
+        },
+        {
+          "id": 3,
+          "text": "その政治家の家は、__厳重__に警備されている。",
+          "options": [
+            "がんじょう",
+            "がんちょう",
+            "げんじゅう",
+            "げんちょう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「厳重」の正しい読み方は「げんじゅう」です。",
+          "explanation_vi": "Cách đọc đúng của 「厳重」 là 「げんじゅう」 (nghiêm ngặt).",
+          "sentence_furigana": "その政治家(せいじか)の家(いえ)は、__厳重(げんじゅう)__に警備(けいび)されている。",
+          "sentence_vi": "Nhà của vị chính trị gia đó được bảo vệ rất nghiêm ngặt."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "予定が__へんこう__になったという連絡があった。",
+          "options": [
+            "変吏",
+            "変更",
+            "変使",
+            "変便"
+          ],
+          "correct_answer": 2,
+          "explanation": "「へんこう」の漢字は「変更」です。",
+          "explanation_vi": "Chữ Hán của 「へんこう」 là 「変更」 (thay đổi).",
+          "sentence_furigana": "予定(よてい)が__変更(へんこう)__になったという連絡(れんらく)があった。",
+          "sentence_vi": "Có thông báo nói rằng lịch trình đã bị thay đổi."
+        },
+        {
+          "id": 5,
+          "text": "私たちの会社は、どんな__いらい__でもお受けします。",
+          "options": [
+            "衣来",
+            "衣類",
+            "依来",
+            "依頼"
+          ],
+          "correct_answer": 4,
+          "explanation": "「いらい」の漢字は「依頼」です。",
+          "explanation_vi": "Chữ Hán của 「いらい」 là 「依頼」 (yêu cầu, nhờ vả).",
+          "sentence_furigana": "私たち(わたしたち)の会社(かいしゃ)は、どんな__依頼(いらい)__でもお受け(おうけ)します。",
+          "sentence_vi": "Công ty chúng tôi nhận xử lý bất kỳ yêu cầu nào."
+        },
+        {
+          "id": 6,
+          "text": "この学校は、勉強するのにとてもよい__かんきょう__にあると思う。",
+          "options": [
+            "還境",
+            "還鏡",
+            "環境",
+            "環鏡"
+          ],
+          "correct_answer": 3,
+          "explanation": "「かんきょう」の漢字は「環境」です。",
+          "explanation_vi": "Chữ Hán của 「かんきょう」 là 「環境」 (môi trường).",
+          "sentence_furigana": "この学校(がっこう)は、勉強(べんきょう)するのにとてもよい__環境(かんきょう)__にあると思う(おもう)。",
+          "sentence_vi": "Tôi nghĩ ngôi trường này có một môi trường rất tốt để học tập."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "携帯電話をどこでなくしたのか、まったく（　　）がない。",
+          "options": [
+            "心がけ",
+            "心あたり",
+            "心くばり",
+            "心のこり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「心当たり（こころあたり）」は「思い当たること、見当」という意味です。",
+          "explanation_vi": "「心当たり」 (kokoroatari) có nghĩa là 'manh mối, ý niệm, sự tình cờ biết được'. Cụm từ 「心当たりがない」 có nghĩa là 'không có chút mường tượng/manh mối nào'.",
+          "sentence_furigana": "携帯(けいたい)電話(でんわ)をどこでなくしたのか、まったく（ 心あたり(こころあたり) ）がない。",
+          "sentence_vi": "Tôi hoàn toàn không thể nhớ ra là mình đã làm mất điện thoại ở đâu."
+        },
+        {
+          "id": 8,
+          "text": "娘は歌の才能に（　　）いる。",
+          "options": [
+            "込んで",
+            "優れて",
+            "つまって",
+            "恵まれて"
+          ],
+          "correct_answer": 4,
+          "explanation": "「恵まれる（めぐまれる）」は「よい状態や才能などが与えられている」という意味です。",
+          "explanation_vi": "「恵まれる」 (megumareru) có nghĩa là 'được ban cho, được phú cho'.",
+          "sentence_furigana": "娘(むすめ)は歌(うた)の才能(さいのう)に（ 恵まれ(めぐまれ)て ）いる。",
+          "sentence_vi": "Con gái tôi được phú cho tài năng ca hát."
+        },
+        {
+          "id": 9,
+          "text": "パソコンを処分する前に、データをすべて（　　）してください。",
+          "options": [
+            "消費",
+            "消去",
+            "掃除",
+            "清掃"
+          ],
+          "correct_answer": 2,
+          "explanation": "「消去（しょうきょ）」は「消してなくすこと（特にデータなど）」を意味します。",
+          "explanation_vi": "「消去」 (shoukyo) có nghĩa là 'xóa bỏ (dữ liệu)'.",
+          "sentence_furigana": "パソコン(ぱそこん)を処分(しょぶん)する前(まえ)に、データ(でーた)をすべて（ 消去(しょうきょ) ）してください。",
+          "sentence_vi": "Trước khi vứt bỏ máy tính thì hãy xóa toàn bộ dữ liệu đi nhé."
+        },
+        {
+          "id": 10,
+          "text": "毎日仕事と家事で忙しく、息を（　　）暇もない。",
+          "options": [
+            "すう",
+            "だす",
+            "つく",
+            "はく"
+          ],
+          "correct_answer": 3,
+          "explanation": "「息をつく」は「ほっと一休みする」という意味の慣用句です。",
+          "explanation_vi": "Cụm từ 「息をつく」 (iki o tsuku) có nghĩa là 'thở phào, nghỉ xả hơi'.",
+          "sentence_furigana": "毎日(まいにち)仕事(しごと)と家事(かじ)で忙しく(いそがしく)、息(いき)を（ つく ）暇(ひま)もない。",
+          "sentence_vi": "Mỗi ngày tôi đều bận rộn với công việc và việc nhà, bận đến mức không có thời gian để thở."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "（　　）新しいシャツを着て、面接に出かけた。",
+          "options": [
+            "生",
+            "正",
+            "本",
+            "真"
+          ],
+          "correct_answer": 4,
+          "explanation": "「真新しい（まあたらしい）」で「まったく新しいこと、できたばかり」を意味します。",
+          "explanation_vi": "「真新しい」 (maatarashii) có nghĩa là 'mới tinh'.",
+          "sentence_furigana": "（ 真(ま) ）新しい(あたらしい)シャツ(しゃつ)を着て(きて)、面接(めんせつ)に出かけ(でかけ)た。",
+          "sentence_vi": "Tôi đã mặc một chiếc áo sơ mi mới tinh và đi phỏng vấn."
+        },
+        {
+          "id": 12,
+          "text": "10年前の殺人事件が今も（　　）解決のままだ。",
+          "options": [
+            "非",
+            "不",
+            "未",
+            "無"
+          ],
+          "correct_answer": 3,
+          "explanation": "「未解決（みかいけつ）」で「まだ解決していない状態」を意味します。",
+          "explanation_vi": "「未解決」 (mikaiketsu) có nghĩa là 'chưa được giải quyết'.",
+          "sentence_furigana": "10年前(じゅうねんまえ)の殺人(さつじん)事件(じけん)が今(いま)も（ 未(み) ）解決(かいけつ)のままだ。",
+          "sentence_vi": "Vụ án mạng 10 năm trước đến tận bây giờ vẫn chưa được giải quyết."
+        },
+        {
+          "id": 13,
+          "text": "当店は最高（　　）の品物を揃えております。",
+          "options": [
+            "級",
+            "状",
+            "性",
+            "的"
+          ],
+          "correct_answer": 1,
+          "explanation": "「最高級（さいこうきゅう）」で「一番高い階級・等級」を意味します。",
+          "explanation_vi": "「最高級」 (saikoukyuu) có nghĩa là 'cấp bậc/chất lượng cao nhất'.",
+          "sentence_furigana": "当店(とうてん)は最高（ 級(きゅう) ）の品物(しなもの)を揃え(そろえ)ております。",
+          "sentence_vi": "Cửa hàng chúng tôi tập hợp toàn những mặt hàng có chất lượng cao nhất."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "実力が__ぐんぐん__ついてきた。",
+          "options": [
+            "少しずつ",
+            "しっかりと",
+            "とても速く",
+            "時間をかけて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ぐんぐん」は「物事が勢いよく進む様子」という意味で、「とても速く」とほぼ同じです。",
+          "explanation_vi": "「ぐんぐん」 có nghĩa là 'nhanh chóng, vùn vụt, trông thấy', tương đương với 「とても速く」.",
+          "sentence_furigana": "実力(じつりょく)が__ぐんぐん__ついてきた。",
+          "sentence_vi": "Thực lực của tôi đã tăng lên một cách nhanh chóng."
+        },
+        {
+          "id": 15,
+          "text": "彼は自分の仕事を__こなして__、1時間前に会社を出た。",
+          "options": [
+            "終わらせて",
+            "途中でやめて",
+            "持って帰って",
+            "他の人に渡して"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こなす」は「与えられた仕事などをうまく処理する」という意味で、「終わらせて」とほぼ同じです。",
+          "explanation_vi": "「こなす」 có nghĩa là 'hoàn thành, xử lý xong, làm tốt', tương đương với 「終わらせて」.",
+          "sentence_furigana": "彼(かれ)は自分(じぶん)の仕事(しごと)を__こなし(こなし)て__、1時間前(いちじかんまえ)に会社(かいしゃ)を出(で)た。",
+          "sentence_vi": "Anh ấy đã hoàn thành xong công việc của mình và rời công ty từ 1 tiếng trước."
+        },
+        {
+          "id": 16,
+          "text": "インターネットで調べたデータを__プリントアウト__してください。",
+          "options": [
+            "印刷",
+            "複写",
+            "提出",
+            "保存"
+          ],
+          "correct_answer": 1,
+          "explanation": "「プリントアウト（print out）」は「印刷して出力すること」という意味で、「印刷」と同じです。",
+          "explanation_vi": "「プリントアウト」 (print out) có nghĩa là 'in ra', tương đương với 「印刷」.",
+          "sentence_furigana": "インターネット(いんたーねっと)で調べ(しらべ)たデータ(でーた)を__プリントアウト(ぷりんとあうと)__してください。",
+          "sentence_vi": "Hãy in những dữ liệu đã tra cứu trên mạng ra nhé."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "縮む",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "この国の労働人口は少しずつ__縮んでいる__。",
+            "最近のパソコンは以前と比べてずいぶん__縮んだ__。",
+            "セーターを洗濯機で洗ったら、__縮んで__しまった。",
+            "仕事の時間が__縮んで__、早く家に帰れるようになった。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「縮む（ちぢむ）」は「物の長さや大きさが小さくなる」という意味で、特に服などに使われます。1は「縮小して/減少して」、2は「小さくなった」、4は「短縮されて/短くなって」が適切です。",
+          "explanation_vi": "「縮む」 có nghĩa là 'co lại, rút ngắn lại' (thường dùng cho quần áo). Câu 1 dùng 'giảm đi' (減少して), câu 2 dùng 'nhỏ lại' (小さくなった), câu 4 dùng 'rút ngắn' (短縮されて) mới đúng.",
+          "sentence_furigana": "セーター(せーたー)を洗濯機(せんたくき)で洗っ(あらっ)たら、__縮ん(ちぢん)で__しまった。",
+          "sentence_vi": "Tôi giặt áo len bằng máy giặt xong thì nó bị co lại mất rồi."
+        },
+        {
+          "id": 18,
+          "target_word": "くれぐれも",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__くれぐれも__両親に連絡をしています。",
+            "__くれぐれも__皆さんのことを忘れません。",
+            "__くれぐれも__お体にはお気をつけください。",
+            "__くれぐれも__かならず遅れないで来てください。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「くれぐれも」は「どうか、切に」という意味で、相手に何かを頼んだり忠告したりする時に使います。1は「（よく）連絡」、2は「決して/絶対に」、4は「かならず」と一緒に使っている点が不自然です。",
+          "explanation_vi": "「くれぐれも」 có nghĩa là 'rất mong, lúc nào cũng' (thường dùng trong câu nhờ vả, dặn dò). Câu 1 dùng 'thường xuyên' (よく), câu 2 dùng 'tuyệt đối không' (決して), câu 4 việc lặp lại với 'nhất định' (かならず) là không tự nhiên.",
+          "sentence_furigana": "__くれぐれも__お体(からだ)にはお気(き)をつけください。",
+          "sentence_vi": "Rất mong anh/chị hãy giữ gìn sức khỏe."
+        }
+      ]
+    }
+  ]
+}

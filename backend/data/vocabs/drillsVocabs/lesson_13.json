@@ -1,0 +1,315 @@
+{
+  "lesson": 13,
+  "title": "第１３回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "日本に来て、__防災__意識が高まった。",
+          "options": [
+            "ほうさい",
+            "ほうざい",
+            "ぼうさい",
+            "ぼうざい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「防災」の正しい読み方は「ぼうさい」です。",
+          "explanation_vi": "Cách đọc đúng của 「防災」 là 「ぼうさい」 (phòng chống thiên tai).",
+          "sentence_furigana": "日本(にっぽん)に来て(きて)、__防災(ぼうさい)__意識(いしき)が高まっ(たかまっ)た。",
+          "sentence_vi": "Sau khi đến Nhật, ý thức phòng chống thiên tai của tôi đã được nâng cao."
+        },
+        {
+          "id": 2,
+          "text": "小さい頃は親の言うことをよく聞く__素直__な子どもでした。",
+          "options": [
+            "すてき",
+            "すなお",
+            "そぼく",
+            "そっちょく"
+          ],
+          "correct_answer": 2,
+          "explanation": "「素直」の正しい読み方は「すなお」です。",
+          "explanation_vi": "Cách đọc đúng của 「素直」 là 「すなお」 (ngoan ngoãn, vâng lời).",
+          "sentence_furigana": "小さい(ちいさい)頃(ころ)は親(おや)の言う(いう)ことをよく聞く(きく)__素直(すなお)__な子ども(こども)でした。",
+          "sentence_vi": "Hồi nhỏ tôi là một đứa trẻ ngoan ngoãn, luôn nghe lời bố mẹ."
+        },
+        {
+          "id": 3,
+          "text": "答えは__箇条書き__で書いてください。",
+          "options": [
+            "かじょがき",
+            "こじょがき",
+            "かじょうがき",
+            "こじょうがき"
+          ],
+          "correct_answer": 3,
+          "explanation": "「箇条書き」の正しい読み方は「かじょうがき」です。",
+          "explanation_vi": "Cách đọc đúng của 「箇条書き」 là 「かじょうがき」 (viết gạch đầu dòng).",
+          "sentence_furigana": "答え(こたえ)は__箇条書き(かじょうがき)__で書い(かい)てください。",
+          "sentence_vi": "Hãy viết câu trả lời bằng cách gạch đầu dòng."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "お互いの会社の__りがい__を考えて仕事をする。",
+          "options": [
+            "利外",
+            "利害",
+            "利慨",
+            "利該"
+          ],
+          "correct_answer": 2,
+          "explanation": "「りがい」の漢字は「利害」です。",
+          "explanation_vi": "Chữ Hán của 「りがい」 là 「利害」 (lợi ích và thiệt hại).",
+          "sentence_furigana": "お互い(おたがい)の会社(かいしゃ)の__利害(りがい)__を考え(かんがえ)て仕事(しごと)をする。",
+          "sentence_vi": "Chúng ta sẽ làm việc trên cơ sở cân nhắc lợi ích của cả hai công ty."
+        },
+        {
+          "id": 5,
+          "text": "このお菓子は、冷蔵庫で冷やして__かためて__食べてください。",
+          "options": [
+            "因めて",
+            "困めて",
+            "固めて",
+            "囲めて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「かためる」の漢字は「固める」です。",
+          "explanation_vi": "Chữ Hán của 「かためる」 là 「固める」 (làm cứng, đông lại).",
+          "sentence_furigana": "このお菓子(おかし)は、冷蔵庫(れいぞうこ)で冷やし(ひやし)て__固め(かため)て__食べ(たべ)てください。",
+          "sentence_vi": "Loại bánh kẹo này hãy cho vào tủ lạnh để nó cứng lại rồi hẵng ăn."
+        },
+        {
+          "id": 6,
+          "text": "このビルは__こうぞう__に問題があって、地震には弱い。",
+          "options": [
+            "構造",
+            "構象",
+            "講造",
+            "講象"
+          ],
+          "correct_answer": 1,
+          "explanation": "「こうぞう」の漢字は「構造」です。",
+          "explanation_vi": "Chữ Hán của 「こうぞう」 là 「構造」 (cấu trúc).",
+          "sentence_furigana": "このビル(びる)は__構造(こうぞう)__に問題(もんだい)があって、地震(じしん)には弱い(よわい)。",
+          "sentence_vi": "Tòa nhà này có vấn đề về cấu trúc nên khả năng chống động đất rất yếu."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "インフルエンザの（　　）のため、注射を打った。",
+          "options": [
+            "予測",
+            "予備",
+            "予知",
+            "予防"
+          ],
+          "correct_answer": 4,
+          "explanation": "「予防（よぼう）」は「悪い事態が起こらないように前もって防ぐこと」です。",
+          "explanation_vi": "「予防」 (yobou) có nghĩa là 'phòng ngừa, đề phòng'.",
+          "sentence_furigana": "インフルエンザ(いんふるえんざ)の（ 予防(よぼう) ）のため、注射(ちゅうしゃ)を打っ(うっ)た。",
+          "sentence_vi": "Tôi đã tiêm thuốc để phòng ngừa bệnh cúm."
+        },
+        {
+          "id": 8,
+          "text": "ノートに（　　）おいたメモがなくなってしまった。",
+          "options": [
+            "はいって",
+            "ささえて",
+            "はさんで",
+            "たくわえて"
+          ],
+          "correct_answer": 3,
+          "explanation": "「挟む（はさむ）」は「物の間に差し入れる」という意味です。",
+          "explanation_vi": "「挟む」 (hasamu) có nghĩa là 'kẹp vào giữa'.",
+          "sentence_furigana": "ノート(のーと)に（ 挟ん(はさん)で ）おいたメモ(めも)がなくなってしまった。",
+          "sentence_vi": "Tờ giấy nhớ tôi kẹp vào quyển vở đã bị mất rồi."
+        },
+        {
+          "id": 9,
+          "text": "その店は駅前にあります。赤い看板が（　　）ですよ。",
+          "options": [
+            "見出し",
+            "見本",
+            "目玉",
+            "目印"
+          ],
+          "correct_answer": 4,
+          "explanation": "「目印（めじるし）」は「場所などを覚えたり見つけたりするためのしるし」のことです。",
+          "explanation_vi": "「目印」 (mejirushi) có nghĩa là 'dấu hiệu nhận biết, cột mốc'.",
+          "sentence_furigana": "その店(みせ)は駅前(えきまえ)にあります。赤い(あかい)看板(かんばん)が（ 目印(めじるし) ）ですよ。",
+          "sentence_vi": "Cửa hàng đó nằm ở trước nhà ga. Biển hiệu màu đỏ chính là điểm nhận biết đấy."
+        },
+        {
+          "id": 10,
+          "text": "そんな（　　）質問に答えている時間はない。",
+          "options": [
+            "きたない",
+            "くだらない",
+            "だらしない",
+            "しかたがない"
+          ],
+          "correct_answer": 2,
+          "explanation": "「くだらない」は「取るに足りない、無意味な」という意味です。",
+          "explanation_vi": "「くだらない」 có nghĩa là 'vớ vẩn, nhảm nhí, vô vị'.",
+          "sentence_furigana": "そんな（ くだらない ）質問(しつもん)に答え(こたえ)ている時間(じかん)はない。",
+          "sentence_vi": "Tôi không có thời gian để trả lời những câu hỏi vớ vẩn như vậy đâu."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "この店のケーキを（　　）種類食べてみたい。",
+          "options": [
+            "完",
+            "全",
+            "総",
+            "満"
+          ],
+          "correct_answer": 2,
+          "explanation": "「全種類（ぜんしゅるい）」で「すべての種類」を意味します。",
+          "explanation_vi": "「全種類」 (zenshurui) có nghĩa là 'tất cả các loại'.",
+          "sentence_furigana": "この店(みせ)のケーキ(けーき)を（ 全(ぜん) ）種類(しゅるい)食べ(たべ)てみたい。",
+          "sentence_vi": "Tôi muốn ăn thử tất cả các loại bánh ngọt của cửa hàng này."
+        },
+        {
+          "id": 12,
+          "text": "この本を読んで人生（　　）が変わった。",
+          "options": [
+            "論",
+            "観",
+            "視",
+            "見"
+          ],
+          "correct_answer": 2,
+          "explanation": "「人生観（じんせいかん）」で「人生に対する見方や考え方」を意味します。",
+          "explanation_vi": "「人生観」 (jinseikan) có nghĩa là 'nhân sinh quan, quan điểm sống'.",
+          "sentence_furigana": "この本(ほん)を読ん(よん)で人生(じんせい)（ 観(かん) ）が変わっ(かわっ)た。",
+          "sentence_vi": "Sau khi đọc quyển sách này, quan điểm sống của tôi đã thay đổi."
+        },
+        {
+          "id": 13,
+          "text": "彼は海外出張が多く、世界中を飛び（　　）いる。",
+          "options": [
+            "いって",
+            "だして",
+            "ぬけて",
+            "まわって"
+          ],
+          "correct_answer": 4,
+          "explanation": "「飛び回る（とびまわる）」で「あちこち忙しく移動する」という意味です。",
+          "explanation_vi": "「飛び回る」 (tobimawaru) có nghĩa là 'bay vòng quanh, chạy ngược chạy xuôi, bận rộn di chuyển'.",
+          "sentence_furigana": "彼(かれ)は海外(かいがい)出張(しゅっちょう)が多く(おおく)、世界中(せかいじゅう)を飛び（ 回っ(まわっ)て ）いる。",
+          "sentence_vi": "Anh ấy hay phải đi công tác nước ngoài nên cứ bay ngược xuôi khắp thế giới."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "彼は遅刻が多いので__再三__注意をしたが、まだ直らない。",
+          "options": [
+            "毎日",
+            "いつも",
+            "何度も",
+            "何度か"
+          ],
+          "correct_answer": 3,
+          "explanation": "「再三（さいさん）」は「二度も三度も、繰り返して」という意味で、「何度も」とほぼ同じ意味です。",
+          "explanation_vi": "「再三」 có nghĩa là 'nhiều lần, dăm lần bảy lượt', tương đương với 「何度も」.",
+          "sentence_furigana": "彼(かれ)は遅刻(ちこく)が多い(おおい)ので__再三(さいさん)__注意(ちゅうい)をしたが、まだ直ら(なおら)ない。",
+          "sentence_vi": "Anh ấy hay đi muộn nên tôi đã nhắc nhở dăm lần bảy lượt rồi mà vẫn chưa sửa được."
+        },
+        {
+          "id": 15,
+          "text": "この夏の暑さは本当に__たまらない__。",
+          "options": [
+            "とても短い",
+            "とても長い",
+            "いつもと違う",
+            "がまんできない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「たまらない」は「我慢できないほどだ」という意味です。",
+          "explanation_vi": "「たまらない」 có nghĩa là 'không thể chịu nổi', tương đương với 「がまんできない」.",
+          "sentence_furigana": "この夏(なつ)の暑さ(あつさ)は本当に(ほんとうに)__たまらない__。",
+          "sentence_vi": "Cái nóng của mùa hè này thật sự không thể chịu nổi."
+        },
+        {
+          "id": 16,
+          "text": "その考えは、ちょっと__虫がいい__んじゃないかと思う。",
+          "options": [
+            "危険な",
+            "簡単な",
+            "自分勝手な",
+            "わかりにくい"
+          ],
+          "correct_answer": 3,
+          "explanation": "「虫がいい（むしがいい）」は「自分の都合ばかり考えている、あつかましい」という意味で、「自分勝手な」とほぼ同じです。",
+          "explanation_vi": "「虫がいい」 có nghĩa là 'đòi hỏi quá đáng, ích kỷ', tương đương với 「自分勝手な」.",
+          "sentence_furigana": "その考え(かんがえ)は、ちょっと__虫(むし)がいい__んじゃないかと思う(おもう)。",
+          "sentence_vi": "Tôi nghĩ suy nghĩ đó có hơi ích kỷ quá không."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "明らか",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "東の空が、だんだん__明らか__になってきた。",
+            "その交通事故の原因は、__明らかに__運転手の不注意にある。",
+            "先生は__明らかな__表情で、みんなに「おはよう」と言った。",
+            "彼女は誰に対しても__明らかに__話しかけるので、みんなに好かれている。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「明らか（あきらか）」は「はっきりしていて疑いがない様子」を意味します。1は「明るく」、3は「明るい」、4は「明るく」が適切です。",
+          "explanation_vi": "「明らか」 có nghĩa là 'rõ ràng, rành rành'. Câu 1 dùng 'sáng lên' (明るく), câu 3 dùng 'tươi tắn' (明るい), câu 4 dùng 'vui vẻ/tươi sáng' (明るく) mới đúng.",
+          "sentence_furigana": "その交通事故(こうつうじこ)の原因(げんいん)は、__明らかに(あきらかに)__運転手(うんてんしゅ)の不注意(ふちゅうい)にある。",
+          "sentence_vi": "Nguyên nhân của vụ tai nạn giao thông đó rõ ràng là do sự bất cẩn của tài xế."
+        },
+        {
+          "id": 18,
+          "target_word": "すっきり",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "あの人の話は難しくて、__すっきり__わかりません。",
+            "昨日は__すっきり__寝たので、今朝はとても気分がいい。",
+            "いらないものを全部捨てたら、家の中が__すっきり__した。",
+            "久しぶりに会った友達は、__すっきり__変わってしまって別人のようだった。"
+          ],
+          "correct_answer": 3,
+          "explanation": "「すっきり」は「不要なものがなくなって爽快な様子、整っている様子」を表します。1は「さっぱり/まったく」、2は「ぐっすり」、4は「すっかり」が適切です。",
+          "explanation_vi": "「すっきり」 có nghĩa là 'gọn gàng, sảng khoái'. Câu 1 dùng 'hoàn toàn (không)' (さっぱり), câu 2 dùng 'ngủ ngon' (ぐっすり), câu 4 dùng 'hoàn toàn' (すっかり) mới đúng.",
+          "sentence_furigana": "いらないものを全部(ぜんぶ)捨て(すて)たら、家(いえ)の中(なか)が__すっきり__した。",
+          "sentence_vi": "Sau khi vứt hết những đồ không cần thiết, trong nhà đã trở nên gọn gàng sạch sẽ."
+        }
+      ]
+    }
+  ]
+}

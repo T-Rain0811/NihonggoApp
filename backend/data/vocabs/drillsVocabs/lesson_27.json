@@ -1,0 +1,315 @@
+{
+  "lesson": 27,
+  "title": "第２７回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "庭の__隅__に母の好きな花を植えた。",
+          "options": [
+            "おく",
+            "かど",
+            "すみ",
+            "はし"
+          ],
+          "correct_answer": 3,
+          "explanation": "「隅」の正しい読み方は「すみ」です。",
+          "explanation_vi": "Cách đọc đúng của 「隅」 là 「すみ」 (góc).",
+          "sentence_furigana": "庭(にわ)の__隅(すみ)__に母(はは)の好き(すき)な花(はな)を植え(うえ)た。",
+          "sentence_vi": "Tôi đã trồng loài hoa mà mẹ thích ở góc vườn."
+        },
+        {
+          "id": 2,
+          "text": "賛成は全体の7割を__占めて__いる。",
+          "options": [
+            "うめて",
+            "しめて",
+            "つめて",
+            "とめて"
+          ],
+          "correct_answer": 2,
+          "explanation": "「占める」の正しい読み方は「しめる」です。",
+          "explanation_vi": "Cách đọc đúng của 「占める」 là 「しめる」 (chiếm).",
+          "sentence_furigana": "賛成(さんせい)は全体(ぜんたい)の7割(ななわり)を__占め(しめ)て__いる。",
+          "sentence_vi": "Số người tán thành đang chiếm 70% tổng số."
+        },
+        {
+          "id": 3,
+          "text": "誰もいないはずの二階で__物音__がした。",
+          "options": [
+            "ぶつおと",
+            "ぶつおん",
+            "ものおと",
+            "もつおん"
+          ],
+          "correct_answer": 3,
+          "explanation": "「物音」の正しい読み方は「ものおと」です。",
+          "explanation_vi": "Cách đọc đúng của 「物音」 là 「ものおと」 (tiếng động).",
+          "sentence_furigana": "誰(だれ)もいないはずの二階(にかい)で__物音(ものおと)__がした。",
+          "sentence_vi": "Có tiếng động ở trên tầng hai, nơi lẽ ra không có ai cả."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "すぐに仕事が見つかったのは__こううん__だった。",
+          "options": [
+            "行運",
+            "高運",
+            "好運",
+            "幸運"
+          ],
+          "correct_answer": 4,
+          "explanation": "「こううん」の漢字は「幸運」です。",
+          "explanation_vi": "Chữ Hán của 「こううん」 là 「幸運」 (may mắn).",
+          "sentence_furigana": "すぐに仕事(しごと)が見つかっ(みつかっ)たのは__幸運(こううん)__だった。",
+          "sentence_vi": "Việc nhanh chóng tìm được việc làm đúng là một sự may mắn."
+        },
+        {
+          "id": 5,
+          "text": "私は身長も体重も__ひょうじゅん__です。",
+          "options": [
+            "平準",
+            "評準",
+            "票準",
+            "標準"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ひょうじゅん」の漢字は「標準」です。",
+          "explanation_vi": "Chữ Hán của 「ひょうじゅん」 là 「標準」 (tiêu chuẩn).",
+          "sentence_furigana": "私(わたし)は身長(しんちょう)も体重(たいじゅう)も__標準(ひょうじゅん)__です。",
+          "sentence_vi": "Cả chiều cao và cân nặng của tôi đều ở mức tiêu chuẩn."
+        },
+        {
+          "id": 6,
+          "text": "誰もその作家の__ほんみょう__を知らない。",
+          "options": [
+            "本名",
+            "本命",
+            "本明",
+            "本姓"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ほんみょう」の漢字は「本名」です。",
+          "explanation_vi": "Chữ Hán của 「ほんみょう」 là 「本名」 (tên thật).",
+          "sentence_furigana": "誰(だれ)もその作家(さっか)の__本名(ほんみょう)__を知ら(しら)ない。",
+          "sentence_vi": "Không một ai biết tên thật của nhà văn đó."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "さっきまで（　　）動いていたパソコンが、急に動かなくなった。",
+          "options": [
+            "正式に",
+            "正常に",
+            "正確に",
+            "正直に"
+          ],
+          "correct_answer": 2,
+          "explanation": "「正常に（せいじょうに）」は「狂いや異常がなく、普通であること」を意味します。",
+          "explanation_vi": "「正常に」 (seijou ni) có nghĩa là 'một cách bình thường, không có gì bất thường'.",
+          "sentence_furigana": "さっきまで（ 正常(せいじょう)に ）動い(うごい)ていたパソコン(ぱそこん)が、急に(きゅうに)動か(うごか)なくなった。",
+          "sentence_vi": "Cái máy tính mới lúc nãy vẫn còn đang hoạt động bình thường bỗng nhiên không chạy nữa."
+        },
+        {
+          "id": 8,
+          "text": "一生懸命説明しても、（　　）私の話なんて誰も聞いてくれない。",
+          "options": [
+            "どうか",
+            "どうせ",
+            "どうも",
+            "どんなに"
+          ],
+          "correct_answer": 2,
+          "explanation": "「どうせ」は「結局は、所詮」という意味で、あきらめや投げやりな気持ちを表す時によく使われます。",
+          "explanation_vi": "「どうせ」 (douse) có nghĩa là 'đằng nào thì, dù sao đi nữa'.",
+          "sentence_furigana": "一生懸命(いっしょうけんめい)説明(せつめい)しても、（ どうせ ）私(わたし)の話(はなし)なんて誰(だれ)も聞い(きい)てくれない。",
+          "sentence_vi": "Dù tôi có cố gắng giải thích thế nào đi nữa thì đằng nào cũng chẳng ai chịu nghe tôi nói đâu."
+        },
+        {
+          "id": 9,
+          "text": "ホテルの予約を（　　）。",
+          "options": [
+            "取り上げた",
+            "取りかえた",
+            "取り消した",
+            "取り出した"
+          ],
+          "correct_answer": 3,
+          "explanation": "「取り消す（とりけす）」で「一度決めたこと（予約など）をなかったことにする（キャンセルする）」という意味です。",
+          "explanation_vi": "「取り消す」 (torikesu) có nghĩa là 'hủy bỏ, rút lại'. Cụm từ 「予約を取り消す」 có nghĩa là 'hủy đặt chỗ'.",
+          "sentence_furigana": "ホテル(ほてる)の予約(よやく)を（ 取り消し(とりけし)た ）。",
+          "sentence_vi": "Tôi đã hủy đặt phòng khách sạn."
+        },
+        {
+          "id": 10,
+          "text": "父は（　　）ひとりごとを言いながら、新聞を読んでいる。",
+          "options": [
+            "ふつふつ",
+            "ぶつぶつ",
+            "ぽつぽつ",
+            "ぽつぽつ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「ぶつぶつ」は「小さな声で小言や不平などを言う様子」を表します。選択肢3と4が同じですが、正解は2の「ぶつぶつ」です。",
+          "explanation_vi": "「ぶつぶつ」 có nghĩa là 'lầm bầm, càu nhàu'.",
+          "sentence_furigana": "父(ちち)は（ ぶつぶつ ）ひとりごとを言い(いい)ながら、新聞(しんぶん)を読ん(よん)でいる。",
+          "sentence_vi": "Bố tôi vừa đọc báo vừa lầm bầm nói lảm nhảm một mình."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "レポートの内容がよくない場合は、（　　）提出しなければならない。",
+          "options": [
+            "後",
+            "再",
+            "次",
+            "追"
+          ],
+          "correct_answer": 2,
+          "explanation": "「再提出（さいていしゅつ）」で「もう一度提出し直すこと」を意味します。",
+          "explanation_vi": "「再提出」 (saiteishutsu) có nghĩa là 'nộp lại'.",
+          "sentence_furigana": "レポート(れぽーと)の内容(ないよう)がよくない場合(ばあい)は、（ 再(さい) ）提出(ていしゅつ)しなければならない。",
+          "sentence_vi": "Trường hợp nội dung bài báo cáo không tốt thì sẽ phải nộp lại."
+        },
+        {
+          "id": 12,
+          "text": "これは私の個人（　　）な考えです。",
+          "options": [
+            "感",
+            "性",
+            "的",
+            "流"
+          ],
+          "correct_answer": 3,
+          "explanation": "「個人的（こじんてき）」で「個人に関係しているさま、個人の立場であるさま」を意味します。",
+          "explanation_vi": "「個人的」 (kojinteki) có nghĩa là 'mang tính cá nhân'.",
+          "sentence_furigana": "これは私(わたし)の個人(こじん)（ 的(てき) ）な考え(かんがえ)です。",
+          "sentence_vi": "Đây là suy nghĩ mang tính cá nhân của tôi."
+        },
+        {
+          "id": 13,
+          "text": "ピアノを習ったことはないが、自己（　　）でひいている。",
+          "options": [
+            "形",
+            "調",
+            "法",
+            "流"
+          ],
+          "correct_answer": 4,
+          "explanation": "「自己流（じこりゅう）」で「自分独自のやり方」を意味します。",
+          "explanation_vi": "「自己流」 (jikoryuu) có nghĩa là 'theo cách của riêng mình'.",
+          "sentence_furigana": "ピアノ(ぴあの)を習っ(ならっ)たことはないが、自己(じこ)（ 流(りゅう) ）でひいている。",
+          "sentence_vi": "Tôi chưa học piano bao giờ nhưng đang tự đánh theo cách của riêng mình."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "これは__素人__の意見だからあまり役に立たないだろう。",
+          "options": [
+            "興味がない人",
+            "知識がない人",
+            "やる気がない人",
+            "何も持っていない人"
+          ],
+          "correct_answer": 2,
+          "explanation": "「素人（しろうと）」は「その事について専門の知識や経験を持たない人」という意味で、「知識がない人」に最も近いです。",
+          "explanation_vi": "「素人」 có nghĩa là 'người nghiệp dư, người không có chuyên môn/kiến thức', tương đương với 「知識がない人」.",
+          "sentence_furigana": "これは__素人(しろうと)__の意見(いけん)だからあまり役(やく)に立た(たた)ないだろう。",
+          "sentence_vi": "Đây là ý kiến của người không có chuyên môn nên chắc cũng chẳng giúp ích được mấy đâu."
+        },
+        {
+          "id": 15,
+          "text": "この子はとても__かしこい__から、将来が楽しみだ。",
+          "options": [
+            "かわいい",
+            "頭がいい",
+            "おとなしい",
+            "性格がいい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「賢い（かしこい）」は「知恵があって頭の働きがよい」という意味で、「頭がいい」とほぼ同じです。",
+          "explanation_vi": "「かしこい」 có nghĩa là 'thông minh, khôn ngoan', tương đương với 「頭がいい」.",
+          "sentence_furigana": "この子(こ)はとても__かしこい__から、将来(しょうらい)が楽しみ(たのしみ)だ。",
+          "sentence_vi": "Đứa bé này rất thông minh nên tôi vô cùng kỳ vọng vào tương lai của nó."
+        },
+        {
+          "id": 16,
+          "text": "まず基本をよく練習してから、次の__ステップ__に進みましょう。",
+          "options": [
+            "階段",
+            "手段",
+            "段階",
+            "段落"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ステップ（step）」は「物事を進める段取り、段階」という意味で、「段階」とほぼ同じです。",
+          "explanation_vi": "「ステップ」 (step) có nghĩa là 'bước, giai đoạn', tương đương với 「段階」.",
+          "sentence_furigana": "まず基本(きほん)をよく練習(れんしゅう)してから、次(つぎ)の__ステップ(すてっぷ)__に進み(すすみ)ましょう。",
+          "sentence_vi": "Trước tiên hãy luyện tập thật tốt phần cơ bản rồi sau đó mới tiến lên giai đoạn tiếp theo."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "にごる",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "寒い日は部屋の窓ガラスが__にごる__。",
+            "大雨が降ったので川の水が__にごっている__。",
+            "その話を聞いたとたん、彼の顔が__にごった__。",
+            "さっきまで晴れていたのに、急に空が__にごってきた__。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「濁る（にごる）」は「水などの液体が澄まなくなる、不純物が混ざる」という意味です。1は「曇る」、3は「曇った」、4は「曇ってきた」が適切です。",
+          "explanation_vi": "「濁る」 có nghĩa là 'đục' (thường dùng cho nước, chất lỏng). Câu 1, 3, 4 đều phải dùng 「曇る」 (mờ đi, xầm xì, tối sầm) mới đúng.",
+          "sentence_furigana": "大雨(おおあめ)が降っ(ふっ)たので川(かわ)の水(みず)が__にごっている__。",
+          "sentence_vi": "Vì trời mưa lớn nên nước sông đang bị đục ngầu."
+        },
+        {
+          "id": 18,
+          "target_word": "続出",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "台風により、けが人が__続出した__。",
+            "このマンガの第2巻と第3巻は、来月__続出される__そうだ。",
+            "この高校は、10年間ずっと決勝戦に__続出している__。",
+            "このアルバイトは、土日もかならず__続出し__なければならない。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「続出（ぞくしゅつ）」は「同じようなことが次々と続いて起こること」を意味します。2は「出版される/発売される」、3は「出場している」、4は「出勤し」などが適切です。",
+          "explanation_vi": "「続出」 có nghĩa là 'xảy ra liên tiếp'. Câu 2 dùng 'xuất bản' (出版される), câu 3 dùng 'tham gia/xuất hiện' (出場している), câu 4 dùng 'đi làm' (出勤し) mới đúng.",
+          "sentence_furigana": "台風(たいふう)により、けが人(にん)が__続出(ぞくしゅつ)した__。",
+          "sentence_vi": "Do bão lớn nên liên tiếp có nhiều người bị thương."
+        }
+      ]
+    }
+  ]
+}

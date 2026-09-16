@@ -62,7 +62,7 @@ class VocabHubView(QWidget):
             ("📝  Ôn tiền tố JLPT N2",  "BtnHubPlaceholder", self.go_prefix),
             ("🎨  Tượng hình, tượng thanh", "BtnHubPlaceholder", self.go_mimetic),
             ("📖  Học Từ Đồng Nghĩa N2", "BtnHubPlaceholder", self.go_synonym),
-            ("📋  Làm bài tập Drills từ vựng", "BtnHubPlaceholder", self.go_vocab_drill),
+            ("📋  Làm bài tập Drills từ vựng", "BtnHard", self.go_vocab_drill),
         ]
         for text, obj, sig in buttons:
             btn = QPushButton(text)

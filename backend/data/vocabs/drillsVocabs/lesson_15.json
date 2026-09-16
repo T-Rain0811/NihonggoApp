@@ -1,0 +1,315 @@
+{
+  "lesson": 15,
+  "title": "第１５回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "写真の__裏__には日付と場所が書いてあった。",
+          "options": [
+            "うら",
+            "おく",
+            "うしろ",
+            "おもて"
+          ],
+          "correct_answer": 1,
+          "explanation": "「裏」の正しい読み方は「うら」です。",
+          "explanation_vi": "Cách đọc đúng của 「裏」 là 「うら」 (mặt sau).",
+          "sentence_furigana": "写真(しゃしん)の__裏(うら)__には日付(ひづけ)と場所(ばしょ)が書い(かい)てあった。",
+          "sentence_vi": "Mặt sau của bức ảnh có ghi ngày tháng và địa điểm."
+        },
+        {
+          "id": 2,
+          "text": "この小説には__主要__な人物が5人いる。",
+          "options": [
+            "しゅよ",
+            "しゅうよ",
+            "しゅよう",
+            "しゅうよう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「主要」の正しい読み方は「しゅよう」です。",
+          "explanation_vi": "Cách đọc đúng của 「主要」 là 「しゅよう」 (chủ yếu, chính).",
+          "sentence_furigana": "この小説(しょうせつ)には__主要(しゅよう)__な人物(じんぶつ)が5人(ごにん)いる。",
+          "sentence_vi": "Tiểu thuyết này có 5 nhân vật chính."
+        },
+        {
+          "id": 3,
+          "text": "彼はこの仕事の経験も長く、非常に__頼もしい__。",
+          "options": [
+            "たなもしい",
+            "たのもしい",
+            "たよもしい",
+            "たゆもしい"
+          ],
+          "correct_answer": 2,
+          "explanation": "「頼もしい」の正しい読み方は「たのもしい」です。",
+          "explanation_vi": "Cách đọc đúng của 「頼もしい」 là 「たのもしい」 (đáng tin cậy).",
+          "sentence_furigana": "彼(かれ)はこの仕事(しごと)の経験(けいけん)も長く(ながく)、非常(ひじょう)に__頼もしい(たのもしい)__。",
+          "sentence_vi": "Anh ấy có kinh nghiệm lâu năm trong công việc này nên rất đáng tin cậy."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "安全のために入り口に__ぼうはん__カメラをつけた。",
+          "options": [
+            "防反",
+            "防半",
+            "防判",
+            "防犯"
+          ],
+          "correct_answer": 4,
+          "explanation": "「ぼうはん」の漢字は「防犯」です。",
+          "explanation_vi": "Chữ Hán của 「ぼうはん」 là 「防犯」 (phòng chống tội phạm).",
+          "sentence_furigana": "安全(あんぜん)のために入り口(いりぐち)に__防犯(ぼうはん)__カメラ(かめら)をつけた。",
+          "sentence_vi": "Để đảm bảo an toàn nên chúng tôi đã lắp đặt camera an ninh ở lối vào."
+        },
+        {
+          "id": 5,
+          "text": "この映画は18歳__みまん__の人は見ることができない。",
+          "options": [
+            "未万",
+            "末万",
+            "未満",
+            "末満"
+          ],
+          "correct_answer": 3,
+          "explanation": "「みまん」の漢字は「未満」です。",
+          "explanation_vi": "Chữ Hán của 「みまん」 là 「未満」 (chưa đủ, dưới).",
+          "sentence_furigana": "この映画(えいが)は18歳(じゅうはっさい)__未満(みまん)__の人(ひと)は見(み)ることができない。",
+          "sentence_vi": "Bộ phim này cấm người dưới 18 tuổi xem."
+        },
+        {
+          "id": 6,
+          "text": "遠くのほうで誰かが__さけぶ__声が聞こえた。",
+          "options": [
+            "叱ぶ",
+            "叫ぶ",
+            "吸ぶ",
+            "呼ぶ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「さけぶ」の漢字は「叫ぶ」です。",
+          "explanation_vi": "Chữ Hán của 「さけぶ」 là 「叫ぶ」 (gào thét).",
+          "sentence_furigana": "遠く(とおく)のほうで誰(だれ)かが__叫ぶ(さけぶ)__声(こえ)が聞こえ(きこえ)た。",
+          "sentence_vi": "Tôi nghe thấy tiếng ai đó đang hét lên ở đằng xa."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "（　　）家はその映画をつまらないと言っていたが、私はおもしろいと思った。",
+          "options": [
+            "判断",
+            "非難",
+            "批判",
+            "評論"
+          ],
+          "correct_answer": 4,
+          "explanation": "「評論家（ひょうろんか）」で「ある物事について論じる専門家」のことです。",
+          "explanation_vi": "「評論家」 (hyouronka) có nghĩa là 'nhà phê bình'.",
+          "sentence_furigana": "（ 評論(ひょうろん) ）家(か)はその映画(えいが)をつまらないと言っ(いっ)ていたが、私(わたし)はおもしろいと思っ(おもっ)た。",
+          "sentence_vi": "Các nhà phê bình nói rằng bộ phim đó nhàm chán, nhưng tôi lại thấy hay."
+        },
+        {
+          "id": 8,
+          "text": "きちんと（　　）を立ててから実行しようと思う。",
+          "options": [
+            "プラン",
+            "レベル",
+            "ファイル",
+            "フォルダ"
+          ],
+          "correct_answer": 1,
+          "explanation": "「プラン（plan）」は「計画」という意味です。",
+          "explanation_vi": "「プラン」 (plan) có nghĩa là 'kế hoạch'.",
+          "sentence_furigana": "きちんと（ プラン(ぷらん) ）を立て(たて)てから実行(じっこう)しようと思う(おもう)。",
+          "sentence_vi": "Tôi định lập kế hoạch đàng hoàng xong rồi mới bắt đầu thực hiện."
+        },
+        {
+          "id": 9,
+          "text": "このビルは、地震が起きても倒れない（　　）とした造りだ。",
+          "options": [
+            "うっかり",
+            "しっかり",
+            "すっきり",
+            "はっきり"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しっかり」は「基礎や構造が堅固で安定している様子」を表します。",
+          "explanation_vi": "「しっかり」 diễn tả sự 'chắc chắn, vững chãi'.",
+          "sentence_furigana": "このビル(びる)は、地震(じしん)が起き(おき)ても倒れ(たおれ)ない（ しっかり ）とした造り(つくり)だ。",
+          "sentence_vi": "Tòa nhà này có cấu trúc rất vững chãi, dù có động đất thì cũng không bị sụp đổ."
+        },
+        {
+          "id": 10,
+          "text": "買いすぎた食べ物を捨ててしまった。（　　）ことをした。",
+          "options": [
+            "そそっかしい",
+            "みっともない",
+            "ばかばかしい",
+            "もったいない"
+          ],
+          "correct_answer": 4,
+          "explanation": "「もったいない」は「有用なものが無駄にされて惜しい様子」を表します。",
+          "explanation_vi": "「もったいない」 có nghĩa là 'lãng phí, đáng tiếc'.",
+          "sentence_furigana": "買い(かい)すぎた食べ物(たべもの)を捨て(すて)てしまった。（ もったいない ）ことをした。",
+          "sentence_vi": "Tôi đã vứt bỏ đống đồ ăn mua quá tay đi mất. Thật là lãng phí quá đi."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 11,
+          "text": "今日一日に降った雨は、先月の（　　）雨量を越えるほどだった。",
+          "options": [
+            "大",
+            "合",
+            "計",
+            "総"
+          ],
+          "correct_answer": 4,
+          "explanation": "「総雨量（そううりょう）」で「降った雨の全体量」を意味します。",
+          "explanation_vi": "「総雨量」 (sou uryou) có nghĩa là 'tổng lượng mưa'.",
+          "sentence_furigana": "今日(きょう)一日(いちにち)に降っ(ふっ)た雨(あめ)は、先月(せんげつ)の（ 総(そう) ）雨量(うりょう)を越える(こえる)ほどだった。",
+          "sentence_vi": "Lượng mưa trút xuống trong một ngày hôm nay nhiều tới mức vượt qua cả tổng lượng mưa của tháng trước."
+        },
+        {
+          "id": 12,
+          "text": "消費者は輸入品でなく国（　　）の肉を好むようだ。",
+          "options": [
+            "産",
+            "生",
+            "製",
+            "品"
+          ],
+          "correct_answer": 1,
+          "explanation": "「国産（こくさん）」で「自国内で生産されたもの」を意味します。",
+          "explanation_vi": "「国産」 (kokusan) có nghĩa là 'sản xuất trong nước'.",
+          "sentence_furigana": "消費者(しょうひしゃ)は輸入(ゆにゅう)品(ひん)でなく国（ 産(さん) ）の肉(にく)を好む(このむ)ようだ。",
+          "sentence_vi": "Có vẻ như người tiêu dùng thích thịt sản xuất trong nước hơn là hàng nhập khẩu."
+        },
+        {
+          "id": 13,
+          "text": "その子は私の顔を見ると、急に泣き（　　）。",
+          "options": [
+            "かけた",
+            "こんだ",
+            "だした",
+            "よった"
+          ],
+          "correct_answer": 3,
+          "explanation": "「泣き出す（なきだす）」で「急に泣き始める」という意味です。",
+          "explanation_vi": "「泣き出す」 (nakidasu) có nghĩa là 'òa khóc, đột nhiên khóc'.",
+          "sentence_furigana": "その子(こ)は私(わたし)の顔(かお)を見る(みる)と、急に(きゅうに)泣き（ 出し(だし)た ）。",
+          "sentence_vi": "Đứa bé đó vừa nhìn thấy mặt tôi là đột nhiên khóc òa lên."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "この薬は、__あらゆる__病気に効くと言われている。",
+          "options": [
+            "重い",
+            "新しい",
+            "難しい",
+            "すべての"
+          ],
+          "correct_answer": 4,
+          "explanation": "「あらゆる」は「あるだけすべての」という意味で、「すべての」と同じです。",
+          "explanation_vi": "「あらゆる」 có nghĩa là 'tất cả, mọi', tương đương với 「すべての」.",
+          "sentence_furigana": "この薬(くすり)は、__あらゆる__病気(びょうき)に効く(きく)と言わ(いわ)れている。",
+          "sentence_vi": "Nghe nói loại thuốc này có tác dụng với tất cả các loại bệnh."
+        },
+        {
+          "id": 15,
+          "text": "__ふと__外を見たら雪が降っていた。",
+          "options": [
+            "さっき",
+            "急いで",
+            "なんとなく",
+            "気になって"
+          ],
+          "correct_answer": 3,
+          "explanation": "「ふと」は「特に理由もなく、思いがけず」という意味で、「なんとなく」に近いです。",
+          "explanation_vi": "「ふと」 có nghĩa là 'đột nhiên, tình cờ, vô thức', mang sắc thái không có lý do gì rõ ràng nên gần nghĩa với 「なんとなく」.",
+          "sentence_furigana": "__ふと__外(そと)を見(み)たら雪(ゆき)が降っ(ふっ)ていた。",
+          "sentence_vi": "Tôi vô thức nhìn ra bên ngoài thì thấy tuyết đang rơi."
+        },
+        {
+          "id": 16,
+          "text": "病気でもないのに欠席が多い彼に、先生方は__手を焼いている__。",
+          "options": [
+            "心配している",
+            "困っている",
+            "無視している",
+            "注意をしている"
+          ],
+          "correct_answer": 2,
+          "explanation": "「手を焼く」は「どう扱っていいかわからず、もてあます」という意味で、「困る」とほぼ同じです。",
+          "explanation_vi": "「手を焼く」 là thành ngữ có nghĩa là 'bó tay, khốn đốn, không biết phải xử lý sao', tương đương với 「困っている」.",
+          "sentence_furigana": "病気(びょうき)でもないのに欠席(けっせき)が多い(おおい)彼(かれ)に、先生方(せんせいがた)は__手(て)を焼い(やい)ている__。",
+          "sentence_vi": "Dù không hề bị ốm nhưng anh ta lại hay trốn học, nên các thầy cô giáo hoàn toàn bó tay với anh ta."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "快適",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "彼女の性格はとても__快適__だから、何でも話せる。",
+            "祖母の家はとても__快適__なので、何時間でもいたくなる。",
+            "この塾は一人ひとりの生徒に__快適な__先生を選んで教える。",
+            "最初に話したとき、__快適__だったので、彼女と友達になりました。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「快適（かいてき）」は「場所や環境が心身に快く感じられること」を表します。1は「穏やか」、3は「最適/適した」、4は「印象がよかった/感じがよかった」が適切です。",
+          "explanation_vi": "「快適」 có nghĩa là 'thoải mái, dễ chịu' (thường dùng cho không gian, môi trường, cảm giác thể chất). Câu 1 dùng 'hiền hòa' (穏やか), câu 3 dùng 'thích hợp nhất' (最適), câu 4 dùng 'có ấn tượng tốt' (印象がよかった) mới đúng.",
+          "sentence_furigana": "祖母(そぼ)の家(いえ)はとても__快適(かいてき)__なので、何時間(なんじかん)でもいたくなる。",
+          "sentence_vi": "Ngôi nhà của bà ngoại rất dễ chịu nên tôi cứ muốn ở đó hàng giờ đồng hồ."
+        },
+        {
+          "id": 18,
+          "target_word": "突き当たり",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "狭い部屋の__突き当たり__にベッドを置いた。",
+            "兄弟で意見の__突き当たり__が起きて、けんかになった。",
+            "高速道路でトラックの__突き当たり__事故があった。",
+            "この道をまっすぐ行くと、__突き当たり__が鈴木さんの家です。"
+          ],
+          "correct_answer": 4,
+          "explanation": "「突き当たり（つきあたり）」は「道などの行き止まり」のことです。1は「奥」、2は「対立/衝突」、3は「追突/衝突」が適切です。",
+          "explanation_vi": "「突き当たり」 có nghĩa là 'cuối đường, ngõ cụt'. Câu 1 dùng 'góc trong cùng' (奥), câu 2 dùng 'mâu thuẫn/xung đột' (対立/衝突), câu 3 dùng 'va chạm/đâm nhau' (追突/衝突) mới đúng.",
+          "sentence_furigana": "この道(みち)をまっすぐ行く(いく)と、__突き当たり(つきあたり)__が鈴木(すずき)さんの家(いえ)です。",
+          "sentence_vi": "Cứ đi thẳng con đường này, nhà của anh Suzuki nằm ở phía cuối đường."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "lesson": 1,
+  "title": "第１回",
+  "time_limit_minutes": 10,
+  "parts": [
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉の読み方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "私は遠くから彼女が働く__姿__を見ていた。",
+          "options": [
+            "すかた",
+            "すがた",
+            "すはた",
+            "すはだ"
+          ],
+          "correct_answer": 2,
+          "explanation": "「姿」の正しい読み方は「すがた」です。",
+          "explanation_vi": "Cách đọc đúng của 「姿」 là 「すがた」 (tư thế, bóng dáng).",
+          "sentence_furigana": "私(わたし)は遠く(とおく)から彼女(かのじょ)が働く(はたらく)__姿(すがた)__を見(み)ていた。",
+          "sentence_vi": "Tôi đã nhìn bóng dáng làm việc của cô ấy từ xa."
+        },
+        {
+          "id": 2,
+          "text": "スポーツをする時は、ときどき水分を__補った__ほうがいい。",
+          "options": [
+            "とった",
+            "あたった",
+            "たもった",
+            "おぎなった"
+          ],
+          "correct_answer": 4,
+          "explanation": "「補う」の正しい読み方は「おぎなう」です。",
+          "explanation_vi": "Cách đọc đúng của 「補う」 là 「おぎなう」 (bổ sung).",
+          "sentence_furigana": "スポーツ(すぽーつ)をする時(とき)は、ときどき水分(すいぶん)を__補った(おぎなった)__ほうがいい。",
+          "sentence_vi": "Khi chơi thể thao, thỉnh thoảng nên bổ sung lượng nước."
+        },
+        {
+          "id": 3,
+          "text": "3人に1人の__割合__で、その試験に合格している。",
+          "options": [
+            "かつあい",
+            "かっごう",
+            "わりあい",
+            "わりごう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「割合」の正しい読み方は「わりあい」です。",
+          "explanation_vi": "Cách đọc đúng của 「割合」 là 「わりあい」 (tỷ lệ).",
+          "sentence_furigana": "3人(さんにん)に1人(ひとり)の__割合(わりあい)__で、その試験(しけん)に合格(ごうかく)している。",
+          "sentence_vi": "Tỷ lệ đỗ kỳ thi đó là 1/3 (cứ 3 người thì có 1 người đỗ)."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉を漢字で書くとき、最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "では、明日の3時にそちらに__うかがいます__。",
+          "options": [
+            "司います",
+            "何います",
+            "伺います",
+            "荷います"
+          ],
+          "correct_answer": 3,
+          "explanation": "「うかがう」の漢字は「伺う」です。",
+          "explanation_vi": "Chữ Hán của 「うかがう」 là 「伺う」 (khiêm nhường ngữ của đi, đến, hỏi).",
+          "sentence_furigana": "では、明日(あした)の3時(さんじ)にそちらに__伺(うかが)います__。",
+          "sentence_vi": "Vậy thì, 3 giờ ngày mai tôi sẽ đến chỗ bạn."
+        },
+        {
+          "id": 5,
+          "text": "最近は__れいぎ__を知らない人が多いように思う。",
+          "options": [
+            "礼義",
+            "礼儀",
+            "礼議",
+            "礼偽"
+          ],
+          "correct_answer": 2,
+          "explanation": "「れいぎ」の漢字は「礼儀」です。",
+          "explanation_vi": "Chữ Hán của 「れいぎ」 là 「礼儀」 (lễ nghi, phép lịch sự).",
+          "sentence_furigana": "最近(さいきん)は__礼儀(れいぎ)__を知ら(しら)ない人(ひと)が多い(おおい)ように思う(おもう)。",
+          "sentence_vi": "Dạo này tôi thấy có vẻ nhiều người không biết phép lịch sự."
+        },
+        {
+          "id": 6,
+          "text": "__しゅうい__に迷惑がかからないように、静かに話してください。",
+          "options": [
+            "周固",
+            "周囲",
+            "週固",
+            "週囲"
+          ],
+          "correct_answer": 2,
+          "explanation": "「しゅうい」の漢字は「周囲」です。",
+          "explanation_vi": "Chữ Hán của 「しゅうい」 là 「周囲」 (chu vi, xung quanh).",
+          "sentence_furigana": "__周囲(しゅうい)__に迷惑(めいわく)がかからないように、静か(しずか)に話し(はなし)てください。",
+          "sentence_vi": "Vui lòng nói chuyện nhỏ tiếng để không làm phiền đến những người xung quanh."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "（　　）に入れるのに最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 7,
+          "text": "この計画が失敗したのは、リーダーである私の（　　）です。",
+          "options": [
+            "義務",
+            "成果",
+            "責任",
+            "任務"
+          ],
+          "correct_answer": 3,
+          "explanation": "失敗の原因に対する「責任」が文脈に合います。",
+          "explanation_vi": "Từ 「責任」 (trách nhiệm) phù hợp với ngữ cảnh chỉ nguyên nhân thất bại.",
+          "sentence_furigana": "この計画(けいかく)が失敗(しっぱい)したのは、リーダー(りーだー)である私(わたし)の（ 責任(せきにん) ）です。",
+          "sentence_vi": "Kế hoạch này thất bại là lỗi (trách nhiệm) của tôi, người làm nhóm trưởng."
+        },
+        {
+          "id": 8,
+          "text": "いくら忙しくても、（　　）日曜日くらいは休みたい。",
+          "options": [
+            "せめて",
+            "やっと",
+            "けっこう",
+            "どうやら"
+          ],
+          "correct_answer": 1,
+          "explanation": "「せめて」は「少なくとも、十分ではないが最低限」という意味で文脈に合います。",
+          "explanation_vi": "「せめて」 mang nghĩa là 'ít nhất thì', 'tối thiểu là', phù hợp với ngữ cảnh.",
+          "sentence_furigana": "いくら忙しく(いそがしく)ても、（ せめて ）日曜日(にちようび)くらいは休み(やすみ)たい。",
+          "sentence_vi": "Dù bận đến đâu thì ít nhất tôi cũng muốn được nghỉ ngày Chủ Nhật."
+        },
+        {
+          "id": 9,
+          "text": "会議が始まるまで30分以上あるから、新聞でも読んで時間を（　　）。",
+          "options": [
+            "もとう",
+            "かけよう",
+            "つぶそう",
+            "とめよう"
+          ],
+          "correct_answer": 3,
+          "explanation": "「時間をつぶす」で「空いた時間を何もしないで過ごす、または暇つぶしをする」という意味になります。",
+          "explanation_vi": "Cụm từ 「時間をつぶす」 có nghĩa là 'giết thời gian', phù hợp với ngữ cảnh.",
+          "sentence_furigana": "会議(かいぎ)が始まる(はじまる)まで30分(さんじゅっぷん)以上(いじょう)あるから、新聞(しんぶん)でも読ん(よん)で時間(じかん)を（ つぶそう ）。",
+          "sentence_vi": "Còn hơn 30 phút nữa mới bắt đầu cuộc họp nên tôi sẽ đọc báo hay gì đó để giết thời gian."
+        },
+        {
+          "id": 10,
+          "text": "明日、来週の旅行の（　　）をしましょう。",
+          "options": [
+            "見合い",
+            "言い合い",
+            "打ち合わせ",
+            "待ち合わせ"
+          ],
+          "correct_answer": 3,
+          "explanation": "「打ち合わせ」は「前もって相談・準備をすること」という意味です。",
+          "explanation_vi": "「打ち合わせ」 có nghĩa là 'bàn bạc, thảo luận trước', phù hợp với ngữ cảnh chuẩn bị cho chuyến du lịch.",
+          "sentence_furigana": "明日(あした)、来週(らいしゅう)の旅行(りょこう)の（ 打ち合わせ(うちあわせ) ）をしましょう。",
+          "sentence_vi": "Ngày mai chúng ta hãy bàn bạc về chuyến du lịch tuần sau nhé."
+        },
+        {
+          "id": 11,
+          "text": "この問題を解くのに（　　）一日かかった。",
+          "options": [
+            "完",
+            "全",
+            "本",
+            "丸"
+          ],
+          "correct_answer": 4,
+          "explanation": "「丸一日（まるいちにち）」で「一日中、まるまる一日」という意味になります。",
+          "explanation_vi": "「丸一日」 (maru ichinichi) có nghĩa là 'trọn một ngày', 'cả một ngày'.",
+          "sentence_furigana": "この問題(もんだい)を解く(とく)のに（ 丸(まる) ）一日(いちにち)かかった。",
+          "sentence_vi": "Tôi đã mất trọn một ngày để giải bài toán này."
+        },
+        {
+          "id": 12,
+          "text": "履歴（　　）にはかならず写真を貼ってください。",
+          "options": [
+            "紙",
+            "書",
+            "証",
+            "状"
+          ],
+          "correct_answer": 2,
+          "explanation": "「履歴書（りれきしょ）」は個人の経歴を記した書類のことです。",
+          "explanation_vi": "「履歴書」 (rirekisho) có nghĩa là 'sơ yếu lý lịch'.",
+          "sentence_furigana": "履歴（ 書(しょ) ）にはかならず写真(しゃしん)を貼っ(はっ)てください。",
+          "sentence_vi": "Hãy nhớ dán ảnh vào sơ yếu lý lịch."
+        },
+        {
+          "id": 13,
+          "text": "ボランティア活動に積極（　　）に参加している。",
+          "options": [
+            "気",
+            "感",
+            "性",
+            "的"
+          ],
+          "correct_answer": 4,
+          "explanation": "「積極的に（せっきょくてきに）」で「自分から進んで行動するさま」という意味になります。",
+          "explanation_vi": "「積極的」 (sekkyokuteki) có nghĩa là 'một cách tích cực'.",
+          "sentence_furigana": "ボランティア(ぼらんてぃあ)活動(かつどう)に積極的(せっきょくてき)に参加(さんか)している。",
+          "sentence_vi": "Tôi đang tích cực tham gia vào các hoạt động tình nguyện."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "＿＿＿の言葉に意味が最も近いものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 14,
+          "text": "この寒さだと__おそらく__明日は雪が降るだろう。",
+          "options": [
+            "たぶん",
+            "絶対に",
+            "次第に",
+            "たしかに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「おそらく」は「たぶん（多分）」とほぼ同じ意味で、推測を表します。",
+          "explanation_vi": "「おそらく」 có nghĩa gần giống với 「たぶん」 (có lẽ), dùng để diễn tả sự phỏng đoán.",
+          "sentence_furigana": "この寒さ(さむさ)だと__おそらく__明日(あした)は雪(ゆき)が降る(ふる)だろう。",
+          "sentence_vi": "Trời lạnh thế này thì có lẽ ngày mai sẽ có tuyết."
+        },
+        {
+          "id": 15,
+          "text": "__やむをえない__事情で大学をやめることになった。",
+          "options": [
+            "くやしい",
+            "はずかしい",
+            "しかたがない",
+            "もったいない"
+          ],
+          "correct_answer": 3,
+          "explanation": "「やむをえない」は「しかたがない、どうしようもない」という意味です。",
+          "explanation_vi": "「やむをえない」 có nghĩa là 'không thể tránh khỏi, không còn cách nào khác', tương đương với 「しかたがない」.",
+          "sentence_furigana": "__やむをえない__事情(じじょう)で大学(だいがく)をやめることになった。",
+          "sentence_vi": "Vì hoàn cảnh bất đắc dĩ (không còn cách nào khác) nên tôi đành phải nghỉ học đại học."
+        },
+        {
+          "id": 16,
+          "text": "デパートで小学校の同級生に__ばったり__会った。",
+          "options": [
+            "偶然",
+            "自然に",
+            "都合よく",
+            "久しぶりに"
+          ],
+          "correct_answer": 1,
+          "explanation": "「ばったり」は思いがけなく人と出会う様子を表し、「偶然（ぐうぜん）」とほぼ同じ意味です。",
+          "explanation_vi": "「ばったり」 diễn tả tình huống gặp ai đó một cách bất ngờ, gần nghĩa với 「偶然」 (ngẫu nhiên, tình cờ).",
+          "sentence_furigana": "デパート(でぱーと)で小学校(しょうがっこう)の同級生(どうきゅうせい)に__ばったり__会っ(あっ)た。",
+          "sentence_vi": "Tôi đã tình cờ gặp lại bạn cùng lớp thời tiểu học ở trung tâm thương mại."
+        }
+      ]
+    },
+    {
+      "part_type": "multiple_choice",
+      "instruction": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+      "questions": [
+        {
+          "id": 17,
+          "target_word": "等しい",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "この二つの三角形の面積は__等しい__。",
+            "私は毎日__等しい__道を通って通勤している。",
+            "チーム全員が__等しい__気持ちで試合に挑んだ。",
+            "私と彼は、小学校から高校まで学校が__等しい__。"
+          ],
+          "correct_answer": 1,
+          "explanation": "「等しい（ひとしい）」は、数量や程度などが同じであることを表します。2は「同じ道」、3は「同じ気持ち/一つになって」、4は「同じ学校」が適切です。",
+          "explanation_vi": "「等しい」 (hitoshii) mang nghĩa là 'bằng nhau' về mặt số lượng, mức độ. Câu 2, 3, 4 phải dùng chữ 「同じ」 (onaji) mới đúng tự nhiên.",
+          "sentence_furigana": "この二つ(ふたつ)の三角形(さんかくけい)の面積(めんせき)は__等しい(ひとしい)__。",
+          "sentence_vi": "Diện tích của hai hình tam giác này là bằng nhau."
+        },
+        {
+          "id": 18,
+          "target_word": "あいにく",
+          "text": "次の言葉の使い方として最もよいものを、１・２・３・４から一つ選びなさい。",
+          "options": [
+            "__あいにく__なので、コーヒーでもいかがですか。",
+            "__あいにく__その日は予定があって参加できません。",
+            "__あいにく__の天気で、海に行くのにちょうどいいですね。",
+            "__あいにく__部長は席におりますので、少々お待ちください。"
+          ],
+          "correct_answer": 2,
+          "explanation": "「あいにく」は「残念ながら・都合悪く」という意味で使われます。1は意味不明、3は「いい天気」、4は「あいにく席を外しております」なら適切です。",
+          "explanation_vi": "「あいにく」 có nghĩa là 'thật không may, đáng tiếc là'. Câu 2 dùng để từ chối một cách lịch sự là chính xác nhất.",
+          "sentence_furigana": "__あいにく__その日(ひ)は予定(よてい)があって参加(さんか)できません。",
+          "sentence_vi": "Thật không may hôm đó tôi đã có kế hoạch nên không thể tham gia được."
+        }
+      ]
+    }
+  ]
+}
