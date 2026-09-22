@@ -264,7 +264,7 @@ VOCABULARY = {
         {
             "word": "ぶつける",
             "reading": "ぶつける",
-            "meaning": "Va chạm, ném, bày tỏ (ý kiến)",
+            "meaning": "Đập đánh mạnh; va chạm; tác động lên cái gì đấy\nTự động từ: ぶつかる - bị đâm, bị va",
             "kanji_meaning": ""
         },
         {
@@ -330,7 +330,7 @@ VOCABULARY = {
         {
             "word": "真剣",
             "reading": "しんけん",
-            "meaning": "Nghiêm túc",
+            "meaning": "Nghiêm trang, nghiêm chỉnh, nghiêm túc",
             "kanji_meaning": "CHÂN KIẾM"
         },
         {
@@ -802,7 +802,7 @@ VOCABULARY = {
         {
             "word": "うっとうしい",
             "reading": "うっとうしい",
-            "meaning": "U ám, phiền toái",
+            "meaning": "Tối tăm; u ám; xúi quẩy\nU sầu; chán nản; buồn rầu; ủ dột; ủ rũ\nVướng víu, khó chịu, phiền nhiễu",
             "kanji_meaning": ""
         },
         {
@@ -860,7 +860,7 @@ VOCABULARY = {
             "kanji_meaning": "TĂNG"
         },
         {
-            "word": "馬鹿らしい",
+            "word": "ばからしい",
             "reading": "ばからしい",
             "meaning": "Vô duyên; ngu ngốc, ngớ ngẩn\n=下らない",
             "kanji_meaning": "MÃ LỘC"
@@ -994,9 +994,9 @@ VOCABULARY = {
             "kanji_meaning": "DỤ QUẢI"
         },
         {
-            "word": "出鱈目",
+            "word": "でたらめ",
             "reading": "でたらめ",
-            "meaning": "Nhảm nhí, dối trá, bừa bãi",
+            "meaning": "Nhảm nhí, linh tinh, bừa bãi, lung tung",
             "kanji_meaning": "XUẤT TUYẾT MỤC"
         },
         {
@@ -1140,13 +1140,13 @@ VOCABULARY = {
         {
             "word": "とんでもない",
             "reading": "とんでもない",
-            "meaning": "Không thể nào, quá đáng",
+            "meaning": "Chẳng ra gì; vớ vẩn; không cần thiết\nQuá đáng; quá mức\nPhủ định mạnh mẽ",
             "kanji_meaning": ""
         },
         {
             "word": "苦い",
             "reading": "にがい",
-            "meaning": "Đắng (nghĩa đen/bóng)",
+            "meaning": "Đắng (nghĩa đen/bóng)\nCay đắng, đau đớn (cảm xúc, kỷ niệm)\nKhó xử, khó chịu (nét mặt)",
             "kanji_meaning": "KHỔ"
         },
         {
@@ -1164,7 +1164,7 @@ VOCABULARY = {
         {
             "word": "いいかげん",
             "reading": "いいかげん",
-            "meaning": "Qua loa, đại khái, vừa phải",
+            "meaning": "Một vừa hai phải, vừa phải\nSơ sài, qua loa, đại khái\nVô trách nhiệm, thiếu trách nhiệm",
             "kanji_meaning": ""
         },
         {
@@ -1188,7 +1188,7 @@ VOCABULARY = {
         {
             "word": "惨め",
             "reading": "みじめ",
-            "meaning": "Khốn khổ, thảm hại",
+            "meaning": "Đáng thương; đáng buồn\nKhốn khổ; khổ sở\nThê Thảm, thảm hại",
             "kanji_meaning": "THẢM"
         },
         {
@@ -1206,7 +1206,7 @@ VOCABULARY = {
         {
             "word": "ぼんやり",
             "reading": "ぼんやり",
-            "meaning": "Thơ thẩn, mờ ảo",
+            "meaning": "Thong thả, thong dong, nhàn nhã\nVô tâm\nVu vơ, ngu ngơ, mơ hồ, không rõ ràng",
             "kanji_meaning": ""
         }
     ],
@@ -1340,7 +1340,7 @@ VOCABULARY = {
         {
             "word": "映る",
             "reading": "うつる",
-            "meaning": "Chiếu, soi",
+            "meaning": "Chiếu, soi, phản chiếu",
             "kanji_meaning": "ẢNH"
         },
         {
@@ -2672,7 +2672,7 @@ VOCABULARY = {
         {
             "word": "危うい",
             "reading": "あやうい",
-            "meaning": "Nguy hiểm",
+            "meaning": "Nguy hiểm, suýt chết, nguy kịch",
             "kanji_meaning": "NGUY"
         },
         {
@@ -2804,13 +2804,13 @@ VOCABULARY = {
         {
             "word": "納得",
             "reading": "なっとく",
-            "meaning": "Thỏa mãn, đồng ý",
+            "meaning": "Thỏa mãn, đồng ý, chấp nhận\nTiếp thu, lĩnh hội, nắm bắt",
             "kanji_meaning": "NẠP THỎA"
         },
         {
             "word": "反省",
             "reading": "はんせい",
-            "meaning": "Kiểm điểm",
+            "meaning": "Kiểm điểm, xem lại, kiểm tra lại mình\nĂn năn, hối lỗi",
             "kanji_meaning": "PHẢN TỈNH"
         },
         {
@@ -2870,7 +2870,7 @@ VOCABULARY = {
         {
             "word": "生かす",
             "reading": "いかす",
-            "meaning": "Phát huy, tận dụng",
+            "meaning": "Phát huy, tận dụng\nKhôi phục lại, làm tỉnh lại, làm hồi sinh",
             "kanji_meaning": "SINH"
         },
         {

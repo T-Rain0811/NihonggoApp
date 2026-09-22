@@ -122,7 +122,7 @@ class DataManager:
                         "filename": fname,
                         "lesson": data.get("lesson", 0),
                         "title": data.get("title", fname),
-                        "time_limit_minutes": data.get("time_limit_minutes", 10),
+                        "time_limit_minutes": data.get("time_limit_minutes", 20),
                     })
                 except Exception as e:
                     print(f"Error loading drill {fname}: {e}")

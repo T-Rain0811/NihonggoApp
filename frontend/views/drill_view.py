@@ -14,6 +14,7 @@ from PyQt6.QtWidgets import (
 from PyQt6.QtCore import Qt, QTimer, pyqtSignal
 from PyQt6.QtGui import QFont
 from backend.services.data_manager import DataManager
+from backend.services.progress_manager import ProgressManager
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -407,10 +408,15 @@ class DrillPracticeWidget(QWidget):
                 
         for i, les in enumerate(self.lesson_list):
             btn = QPushButton(f"第{les['lesson']:02d}回")
-            btn.setObjectName("BtnStart")
+            filename = les["filename"]
+            
+            if ProgressManager.is_drill_completed(self.drill_type, filename):
+                btn.setObjectName("BtnEasy")
+            else:
+                btn.setObjectName("BtnStart")
+                
             btn.setFixedSize(120, 60)
             btn.setFont(QFont("Segoe UI", 12, QFont.Weight.Bold))
-            filename = les["filename"]
             btn.clicked.connect(lambda _, f=filename: self._start_drill_from_filename(f))
             self.grid_layout.addWidget(btn, i // 4, i % 4)
 
@@ -434,6 +440,7 @@ class DrillPracticeWidget(QWidget):
         self.current_data = DataManager.load_drill_lesson(filename, self.drill_type)
         if not self.current_data:
             return
+        self.current_filename = filename
 
         # Flatten questions with part metadata
         self.flat_questions = []
@@ -456,7 +463,7 @@ class DrillPracticeWidget(QWidget):
         total_q = len(self.flat_questions)
 
         # Timer
-        mins = self.current_data.get("time_limit_minutes", 10)
+        mins = self.current_data.get("time_limit_minutes", 20)
         self.timer_seconds = mins * 60
         self._timer.start(1000)
 
@@ -711,6 +718,11 @@ class DrillPracticeWidget(QWidget):
             grade = "👍 Khá tốt!"
         else:
             grade = "📚 Cần ôn luyện thêm!"
+            
+        if pct >= 60 and hasattr(self, 'current_filename') and self.current_filename:
+            ProgressManager.mark_drill_completed(self.drill_type, self.current_filename)
+            # Tải lại danh sách để cập nhật màu nút
+            self._load_lesson_list()
 
         self.lbl_result_title.setText(grade)
         self.lbl_result_score.setText(f"Kết quả: {score} / {total} câu đúng ({pct}%)")
@@ -797,7 +809,7 @@ class DrillPracticeWidget(QWidget):
         self.current_idx = 0
         self.correct_count = 0
         self.wrong_questions = []
-        mins = data.get("time_limit_minutes", 10)
+        mins = data.get("time_limit_minutes", 20)
         self.timer_seconds = mins * 60
         self.lbl_timer.setStyleSheet("")
         self._timer.start(1000)

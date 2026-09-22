@@ -253,10 +253,12 @@ class DraggableCard(QFrame):
         self.card_text = QLabel()
         self.card_text.setObjectName("FlashcardText")
         self.card_text.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.card_text.setWordWrap(True)
         
         self.card_subtext = QLabel()
         self.card_subtext.setObjectName("CardMeaning")
         self.card_subtext.setAlignment(Qt.AlignmentFlag.AlignCenter)
+        self.card_subtext.setWordWrap(True)
         self.card_subtext.hide()
         
         self.layout.addWidget(self.card_text)
