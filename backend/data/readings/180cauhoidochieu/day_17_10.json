@@ -1,0 +1,405 @@
+{
+  "lesson": 9,
+  "title": "Day 17/10",
+  "time_limit_minutes": 32,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (10 phút)",
+      "passage": "Test 1  (10 phút)   \n 人の心に響いたり、やる気を引き出すような言葉を生み出すために、①多くの\n人が大きく誤解していることがある。 \n それは、聞き心地がよく、文字の並びも美しい「美文」がよいとするものだ。 \n もちろん、美しい言葉や美しい文章に意味がないとは思わない。しかしながら、\n美文が珍重されるのは、文学や小説といった分野であり、実社会においてはこう\nした美し い文章や言葉が、必ずしも人の心を動かすわけではない。 \n そのため、私は、②言葉を「国語」としてではなく、「社会学」や「現代社会」\nの分野に属するものとして捉えている。国語として知らないといけないことも多\n分にあるのだが、自分と他者の関係や、自分と家庭や会社といったコミュニティ\nとの関係があるからこそ、言葉が重要になるからである。 \n では、美文が人の心を動かすことがないというならば、どんな言葉が、人の心\nを動かし得るのだろうか。 \n 私が考える唯一の方法は、思いをさらけ出すことに集約される。 \n 当然のことながら、思いをさらけ出すためには、さらけ出したいと思える思い\nがないと意味がない。さらに、思いの全体像を把握していなければ、何をさらけ\n出したらいいかも分からない。  \n そのために、思いを内なる言葉として捉えることで扱いやすい形に置き換え、\n内なる言葉を掘り下げたり、拡張させることで、解像度を上げることが重要とな\nる。 \n すると、思いはどんどん成長し、自分という枠に収まらないほど大きくなって\nいく。自分のやりたいことや、なりたいもの、なすべきことが明確になるだけで\nなく、常に考えや思考を整理できている状態になるので、何の準備をしていなく\nても途切れることなく話をしたり、書いたりすることができるようにもなる。今\n流行りの雑談力や会話力も自然と身についてくる。  \n あとは、思いの全てを出し切れるかどうか。話しきれるか、書ききれるかが勝\n負になってくる。 \n（梅田悟司『「言葉にできる」は武器になる』 日本経済新聞出版社による）",
+      "questions": [
+        {
+          "id": 17,
+          "text": "①多くの人が大きく誤解しているとあるが、筆者は何が誤解だと言っている\nか。",
+          "options": [
+            "言葉は社会学や現代社会の分野に属するということ",
+            "コミュニティとの関係をつくるためには言葉が大切だということ",
+            "文学や小説には論理的な言葉は不必要だということ",
+            "美しい言葉や文章が人の心を動かすということ"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"多くの人が大きく誤解していることがある。それは、聞き心地がよく、文字の並びも美しい「美文」がよいとするものだ...実社会においてはこうした美しい文章や言葉が、必ずしも人の心を動かすわけではない。\"\n\n1. Lời nói thuộc lĩnh vực xã hội học/xã hội hiện đại (Sai)\n2. Lời nói quan trọng để xây dựng quan hệ cộng đồng (Sai)\n3. Văn học/tiểu thuyết không cần lời nói logic (Sai)\n4. Lời nói/văn chương đẹp làm rung động lòng người (Đúng: đây chính là sự hiểu lầm)"
+        },
+        {
+          "id": 18,
+          "text": "②言葉を「国語」としてではなく、「社会学」や「現代社会」の分野に属す\nるものとして捉えているとあるが、その意味として正しいものはどれか。",
+          "options": [
+            "家庭や会社での人間関係がよければ、自分の気持ちがさらけ出せるというこ\nと",
+            "自分の気持ちをそのまま言葉に出すと、コミュニティで問題が起こるという\nこと",
+            "国語を知らなければ社会の中ではうまくやっていけないということ",
+            "他者との関係があるからこそ言葉が重要だということ"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"自分と他者の関係や、自分と家庭や会社といったコミュニティとの関係があるからこそ、言葉が重要になるからである。\"\n\n1. Nếu quan hệ gia đình/công ty tốt thì có thể bộc lộ cảm xúc bản thân (Sai)\n2. Nếu bộc lộ cảm xúc trực tiếp bằng lời sẽ gây vấn đề trong cộng đồng (Sai)\n3. Không biết quốc ngữ thì không thể sống tốt trong xã hội (Sai)\n4. Chính vì có quan hệ với người khác nên lời nói mới quan trọng (Đúng)"
+        },
+        {
+          "id": 19,
+          "text": "筆者がこの文章で言いたいことはどれか。",
+          "options": [
+            "思いが成長しすぎると、自分のやりたいことがわからなくなる。",
+            "言葉を生み出すために、自分と向き合うことはあまり意味がない。",
+            "人の心を動かすためには、自分の思いを整理し、さらけ出すことが必要だ。",
+            "雑談力や会話力を身につけるためには、しっかり準備することが重要だ。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"私が考える唯一の方法は、思いをさらけ出すことに集約される...思いを内なる言葉として捉えることで扱いやすい形に置き換え...解像度を上げることが重要となる。\"\n\n1. Nếu suy nghĩ phát triển quá mức, sẽ không biết mình muốn làm gì (Sai)\n2. Đối diện với bản thân không có nhiều ý nghĩa để tạo ra lời nói (Sai: ngược lại)\n3. Để làm rung động lòng người, cần sắp xếp và bộc lộ suy nghĩ (Đúng)\n4. Để có kỹ năng trò chuyện, cần chuẩn bị kỹ càng (Sai: ngược lại)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (12 phút)",
+      "passage": "Test 2  (12 phút)  \nA \n外国人観光客が増えることは、日本の経済にとって大変よいことだが、あまりの増\n加に京都などは大きな荷物やバスの混雑などで、地元の人が普通の生活をすることが\nできなくなるほどになってしまった。これは観光客が原因の災害で観光公害（注）と\n言われている。改善のためには観光客全体の数は減らしつつ、金持ちの観光客が増加\nするように工夫して、日本全体に入るお金が減らないようにしたらよい。2 人で1 泊\n100 万円で城に泊まるような魅力的なプランは、1 泊何百万もするホテルに泊まる海外\nの金持ちには安く感じられるだろう。また、金持ちはお土産などにもたくさんお金を\n使うだろうし、日本のよい物が紹介できれば、国に帰ってからも買ってくれるだけで\nなく、輸入してその品物を売ったりして、さらに大きなビジネスにつながる可能性も\nある。このチャンスを逃がさないようにでき（  ）。 \nB \n 観光客が増えすぎて観光公害が起きている。確かに有名な観光地を訪れる人が多く\nて、道が混雑したりゴミが増えたり、自然が破壊されたりしている。外国人観光客が\n増えたことが原因だから、あまりお金を使わない海外旅行客は減らしたいと考える人\nたちがいる。金持ちの観光客を少し増やしたら、日本で使うお金は今とそれほど違わ\nないと考えるからだ。しかし、使う金額が同じだとしてもお金を使う場所が違う。多\nくの人が来ればいろいろなところでお金を使ってくれる。 あまり立派ではない店やホ\nテルや旅館など、薄く広くたくさんの場所でお金を落としてくれる。また、外国人観\n光客は日本に来て日本を見て日本を体験して国に帰る。多くの人に日本を知ってもら\nうことは、日本の将来のためにもなるだろう。公害のことは解決しなければならない\nが、いろいろな人に来てもらうことはもっと大事なことだと思う。 \n（注）公害： 企業などの活動によって広い範囲に起きる水や空気、土地、音など生物\nに悪い影響を与える様々なこと\n4．（  ）の中に「ないではいられない、ないものだろうか、ないに決まっている、\nないわけにはいかない」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（  ）の中に一番よいものを入れなさい。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"このチャンスを逃がさないようにでき（ ）。\"\n→ できないものだろうか = \"liệu có thể làm được không nhỉ\" (mong muốn/đề xuất nhẹ nhàng).\n\n1. ないではいられない: không thể không... (Sai)\n2. ないものだろうか: liệu có thể...không nhỉ (Đúng)\n3. ないに決まっている: chắc chắn là không... (Sai)\n4. ないわけにはいかない: không thể không (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "A とB の意見が同じなのはどれか。",
+          "options": [
+            "日本における外国人観光客の重要性について",
+            "どんな外国人観光客に来てもらうかについて",
+            "観光公害の問題を解決するための方法について",
+            "どこで外国人観光客にお金を使ってもらうかについて"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"外国人観光客が増えることは、日本の経済にとって大変よいことだが...\"\nTrích dẫn B: \"いろいろな人に来てもらうことはもっと大事なことだと思う...多くの人に日本を知ってもらうことは、日本の将来のためにもなるだろう。\"\n\n1. Tầm quan trọng của khách du lịch nước ngoài với Nhật Bản (Đúng: Cả A và B đều đồng ý)\n2. Nên đón loại khách du lịch nào (Sai: Đây là điểm khác biệt)\n3. Phương pháp giải quyết vấn đề quá tải du lịch (Sai: Đây là điểm khác biệt)\n4. Nơi khách du lịch nước ngoài nên tiêu tiền (Sai: Đây là điểm khác biệt)"
+        },
+        {
+          "id": 3,
+          "text": "A とB の観光公害についての意見はどれか。",
+          "options": [
+            "A もB も観光公害問題を解決することが最も大事だと言っている。",
+            "A は外国人観光客を減らすのがよい、B はA の考えがよいと言っている。",
+            "A は金持ち中心の観光で改善、B はそれでは改善できないと言っている。",
+            "A は改善策を提案、B は解決すべきだが重要なことは別だと言っている。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"改善のためには観光客全体の数は減らしつつ、金持ちの観光客が増加するように工夫して...\" (đề xuất cụ thể)\nTrích dẫn B: \"公害のことは解決しなければならないが、いろいろな人に来てもらうことはもっと大事なことだと思う。\"\n\n1. Cả A và B đều nói giải quyết vấn đề du lịch quá tải là quan trọng nhất (Sai: B nói đón nhiều người quan trọng hơn)\n2. A nói nên giảm khách nước ngoài, B nói đồng ý với A (Sai: B không đồng ý việc giảm khách nghèo)\n3. A nói cải thiện bằng cách tập trung vào khách giàu, B nói cách đó không cải thiện được (Sai: B không phủ nhận cách A)\n4. A đề xuất biện pháp cải thiện, B nói cần giải quyết nhưng có điều quan trọng hơn (Đúng)"
+        },
+        {
+          "id": 1,
+          "text": "座ら（  ）ほど体がふらふらしている。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"このチャンスを逃がさないようにでき（ ）。\"\n→ できないものだろうか = \"liệu có thể làm được không nhỉ\" (mong muốn/đề xuất nhẹ nhàng).\n\n1. ないではいられない: không thể không... (Sai)\n2. ないものだろうか: liệu có thể...không nhỉ (Đúng)\n3. ないに決まっている: chắc chắn là không... (Sai)\n4. ないわけにはいかない: không thể không (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "今日の相手はとても弱いから負け（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"外国人観光客が増えることは、日本の経済にとって大変よいことだが...\"\nTrích dẫn B: \"いろいろな人に来てもらうことはもっと大事なことだと思う...多くの人に日本を知ってもらうことは、日本の将来のためにもなるだろう。\"\n\n1. Tầm quan trọng của khách du lịch nước ngoài với Nhật Bản (Đúng: Cả A và B đều đồng ý)\n2. Nên đón loại khách du lịch nào (Sai: Đây là điểm khác biệt)\n3. Phương pháp giải quyết vấn đề quá tải du lịch (Sai: Đây là điểm khác biệt)\n4. Nơi khách du lịch nước ngoài nên tiêu tiền (Sai: Đây là điểm khác biệt)"
+        },
+        {
+          "id": 3,
+          "text": "おいしそうなケーキを見ると手を出さ（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"改善のためには観光客全体の数は減らしつつ、金持ちの観光客が増加するように工夫して...\" (đề xuất cụ thể)\nTrích dẫn B: \"公害のことは解決しなければならないが、いろいろな人に来てもらうことはもっと大事なことだと思う。\"\n\n1. Cả A và B đều nói giải quyết vấn đề du lịch quá tải là quan trọng nhất (Sai: B nói đón nhiều người quan trọng hơn)\n2. A nói nên giảm khách nước ngoài, B nói đồng ý với A (Sai: B không đồng ý việc giảm khách nghèo)\n3. A nói cải thiện bằng cách tập trung vào khách giàu, B nói cách đó không cải thiện được (Sai: B không phủ nhận cách A)\n4. A đề xuất biện pháp cải thiện, B nói cần giải quyết nhưng có điều quan trọng hơn (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "何とかして子供の世話を誰かに頼め（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 5,
+          "text": "社長の命令でトイレも掃除し（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 6,
+          "text": "歩けるようになったので、もう車椅子は必要（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "父は仕事に失敗したから、誰にも会いたく（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "早く戦争が終わって平和になら（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "早く癌が治る薬ができ（  ）。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "子供の熱が高いから迎えに行か（  ）ので帰らせてください。",
+          "options": [
+            "ないではいられない",
+            "ないものだろうか",
+            "ないに決まっている",
+            "ないわけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (10 phút)",
+      "passage": "Test 3  (10 phút)   \nA \n 日本の合計特殊出生率（注1）は1.34 まで落ちている。人口減少は経済が悪くなった\nり、社会保障制度（注2）が維持できなくなったりして、生活にも影響がある。子供を\n増やさなければ日本の将来は暗い。結婚しない人もいるし、結婚年齡が高くなったの\nで、不妊（注3）の人も増えている。産まない一番の理由は、子育てや教育にお金がか\nかりすぎることで、60％を超えている。だから、国や地方がもっと支援すれば\n（  ）。子供がいたらとても得になる税金の制度や助成金（注4）をもっと増やす必\n要がある。また、少子化（注5）の理由に働く女性が増えたこともある。こちらも出産\nや育児のための休暇や保育所や学童保育など子供を預ける場所を増やして、仕事を辞\nめなくても済むようにしなければならない。 \nB \n 人口減少を止めなければならないと考える人は多い。確かに人口が減ると物も売れ\nなくなるし、国や地方に入る税金も減るから、今までのような社会保障制度は受けら\nれなくなる恐れがある。日本全体の経済が悪くなって、生活にもいろいろな影響が出\nるだろう。しかし、子供を産むかどうかは個人が決めることなので、国が増やそうと\nしてもなかなかうまくいかない。子供を増やす努力は続けるべきだが、今までのよう\nな経済の成長を求めることは、限界に近づきつつあることを認めよう。そして、経済\nを成長させることではなく、持続可能な（注6）豊かな社会を目指そう（注7）ではな\nいか。人口減少は環境や資源の面から考えると悪いことではない。ゴミも減るし自然\nを守ることもできるし、使う資源を減らすこともできる。前向きに考えようではない\nか。 \n（注1）合計特殊出生率： 女の人が死ぬまで（15 歳から49 歳まで）に産む子供の平均\nの人数 \n（注2）社会保障制度： 国や県などが国民の生活を守るための制度 \n（注3）不妊：子供ができない状態 \n（ 注4）助成金：国や地方公共団体（都道府県や市区町村）などから支給される金 \n（注5）少子化： 出生数が減少すること。人口に占める子どもの割合が下がること \n（注6）持続可能：ずっと続けていくことができること \n（注7）目指す：目的とする\n4．（  ）の中に「とみえる、ことはない、ところだった、どころではない」 を入れ\nなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（  ）の中に一番よいものを入れなさい。",
+          "options": [
+            "解決できないとみえる",
+            "解決できないこともない",
+            "解決できないところだった",
+            "解決できないどころではない"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"だから、国や地方がもっと支援すれば（ ）。\"\n→ 支援すれば解決できないこともない = \"nếu hỗ trợ thêm thì cũng không phải là không giải quyết được\" (khẳng định gián tiếp có khả năng giải quyết).\n\n1. 解決できないとみえる: có vẻ như không giải quyết được (Sai)\n2. 解決できないこともない: cũng không phải không giải quyết được (Đúng)\n3. 解決できないところだった: suýt nữa thì không giải quyết được (Sai)\n4. 解決できないどころではない: không phải là chuyện không giải quyết được (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "AB の両方が述べている内容はどれか。",
+          "options": [
+            "人口減少の対策",
+            "人口減少の長所",
+            "人口減少による影響",
+            "人口が減少している理由"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"人口減少は経済が悪くなったり、社会保障制度が維持できなくなったりして、生活にも影響がある。\"\nTrích dẫn B: \"人口が減ると物も売れなくなるし...今までのような社会保障制度は受けられなくなる恐れがある。日本全体の経済が悪くなって...\"\n\n1. Đối sách cho việc dân số giảm (Sai: Điểm khác biệt)\n2. Ưu điểm của việc dân số giảm (Sai: Chỉ B nhắc đến)\n3. Ảnh hưởng do dân số giảm (Đúng: Cả hai đều mô tả ảnh hưởng tiêu cực)\n4. Lý do dân số giảm (Sai: Chỉ A đi sâu vào lý do)"
+        },
+        {
+          "id": 3,
+          "text": "人口減少に対するA とB の考えはどれか。",
+          "options": [
+            "A は国には止められない、B も無理だと考えている。",
+            "A もB も対策をすれば止めることができると考えている。",
+            "A もB も人口減少で日本は経済成長ができなくなったと考えている。",
+            "A もB も何とかしようと考えているがB は減少も悪くないと考えている。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"子供を増やさなければ日本の将来は暗い...国や地方がもっと支援すれば解決できないこともない。\"\nTrích dẫn B: \"子供を増やす努力は続けるべきだが...人口減少は環境や資源の面から考えると悪いことではない。\"\n\n1. A nói nhà nước không thể ngăn được, B cũng nghĩ vô vọng (Sai: A tin có thể giải quyết)\n2. Cả A và B đều nghĩ có thể ngăn chặn được bằng đối sách (Sai: B nghĩ khó thành công)\n3. Cả A và B đều nghĩ Nhật Bản không thể tăng trưởng kinh tế vì dân số giảm (Sai: B đề xuất hướng đến bền vững)\n4. Cả A và B đều muốn tìm cách xử lý, nhưng B cũng nghĩ giảm dân số không hẳn xấu (Đúng)"
+        },
+        {
+          "id": 1,
+          "text": "近いならわざわざタクシーに乗る（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"だから、国や地方がもっと支援すれば（ ）。\"\n→ 支援すれば解決できないこともない = \"nếu hỗ trợ thêm thì cũng không phải là không giải quyết được\" (khẳng định gián tiếp có khả năng giải quyết).\n\n1. 解決できないとみえる: có vẻ như không giải quyết được (Sai)\n2. 解決できないこともない: cũng không phải không giải quyết được (Đúng)\n3. 解決できないところだった: suýt nữa thì không giải quyết được (Sai)\n4. 解決できないどころではない: không phải là chuyện không giải quyết được (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "ちょっとしたけが（  ）。手術しなければならないんだ。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"人口減少は経済が悪くなったり、社会保障制度が維持できなくなったりして、生活にも影響がある。\"\nTrích dẫn B: \"人口が減ると物も売れなくなるし...今までのような社会保障制度は受けられなくなる恐れがある。日本全体の経済が悪くなって...\"\n\n1. Đối sách cho việc dân số giảm (Sai: Điểm khác biệt)\n2. Ưu điểm của việc dân số giảm (Sai: Chỉ B nhắc đến)\n3. Ảnh hưởng do dân số giảm (Đúng: Cả hai đều mô tả ảnh hưởng tiêu cực)\n4. Lý do dân số giảm (Sai: Chỉ A đi sâu vào lý do)"
+        },
+        {
+          "id": 3,
+          "text": "教室から怒鳴り声がしている。けんかしている（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"子供を増やさなければ日本の将来は暗い...国や地方がもっと支援すれば解決できないこともない。\"\nTrích dẫn B: \"子供を増やす努力は続けるべきだが...人口減少は環境や資源の面から考えると悪いことではない。\"\n\n1. A nói nhà nước không thể ngăn được, B cũng nghĩ vô vọng (Sai: A tin có thể giải quyết)\n2. Cả A và B đều nghĩ có thể ngăn chặn được bằng đối sách (Sai: B nghĩ khó thành công)\n3. Cả A và B đều nghĩ Nhật Bản không thể tăng trưởng kinh tế vì dân số giảm (Sai: B đề xuất hướng đến bền vững)\n4. Cả A và B đều muốn tìm cách xử lý, nhưng B cũng nghĩ giảm dân số không hẳn xấu (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "欠席する（  ）が、お世話になった人に誘われたので出席した。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 5,
+          "text": "この薬は、熱が下がったら、飲む（  ）と医者に言われた。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 6,
+          "text": "どの家も布団を干しているから、今日は雨が降らない（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "会社が倒産しそうだから、労働条件の交渉（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "忙しいのだから、報告するだけの会議を開く（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "救急車の到着が遅かったら、命が助からない（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "子供達は仲よく遊んでいる。もう友達になった（  ）。",
+          "options": [
+            "とみえる",
+            "ことはない",
+            "ところだった",
+            "どころではない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    }
+  ]
+}

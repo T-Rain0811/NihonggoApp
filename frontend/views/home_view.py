@@ -7,6 +7,7 @@ from PyQt6.QtGui import QFont
 class HomeView(QWidget):
     go_vocab = pyqtSignal()
     go_grammar = pyqtSignal()
+    go_reading = pyqtSignal()
 
     def __init__(self, parent=None):
         super().__init__(parent)
@@ -63,8 +64,18 @@ class HomeView(QWidget):
             signal=self.go_grammar,
         )
 
+        card_reading = self._make_card(
+            icon="📖",
+            title="Đọc Hiểu",
+            desc="Luyện 180 câu hỏi đọc hiểu,\nđoạn văn và trắc nghiệm",
+            btn_text="Vào Đọc Hiểu",
+            btn_obj="BtnHard",
+            signal=self.go_reading,
+        )
+
         card_row.addWidget(card_vocab)
         card_row.addWidget(card_grammar)
+        card_row.addWidget(card_reading)
         root.addLayout(card_row)
         root.addStretch()
 

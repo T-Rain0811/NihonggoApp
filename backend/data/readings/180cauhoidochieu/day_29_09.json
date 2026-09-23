@@ -1,0 +1,419 @@
+{
+  "lesson": 1,
+  "title": "Day 29/09",
+  "time_limit_minutes": 25,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (8 phút) - Đoạn 1",
+      "passage": "言うまでもなく、深く思考した者は競争相手より有利な立場に立てる。しかし行動を\n止めてまでして考えるのは避けよう。行動があなたの思考を止めることはない。むし\nろ思考を加速させ、改善させる効果があることを知ってほしい。 \n 行動し、変化する状況の中で考えつづけることを実践するのはかなり勇気が要るだ\nろう。予期しないことが起こるかもしれない。リスクもある。しかし、そうすること\nで最速の思考が生み出されるのだ。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "筆者の考えに合うのはどれか。",
+          "options": [
+            "行動を止めずに考えつづけることで、思考はより加速する。",
+            "行動を止めて、深く思考することも必要だ。",
+            "変化する状況の中で、行動を加速することが大切だ。",
+            "考えつづけていれば、さらに勇気が持てるようになる。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果があることを知ってほしい。\"\n→ Hành động không làm dừng tư duy, mà ngược lại đẩy nhanh và cải thiện tư duy.\n\n1. Tiếp tục suy nghĩ mà không dừng hành động → tư duy nhanh hơn (Đúng: Khớp trực tiếp câu trích dẫn trên)\n2. Cần dừng hành động để suy nghĩ sâu (Sai: Ngược hẳn: bài nói \"行動を止めてまでして考えるのは避けよう\" (tránh dừng hành động để suy nghĩ))\n3. Trong tình huống thay đổi, cần đẩy nhanh hành động (Sai: Bài nói đẩy nhanh tư duy (思考), không phải hành động)\n4. Tiếp tục suy nghĩ sẽ giúp có thêm dũng khí (Sai: Bài nói cần dũng khí để thực hành việc vừa hành động vừa suy nghĩ, không phải suy nghĩ sinh ra dũng khí)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (8 phút) - Đoạn 2",
+      "passage": "成功例にできるだけ忠実（注1）に従って努力すれば、やみくもに（注2）努力するよりも、\n成功する確率はかなり高い。もちろん、人の成功を見て、それを全面的に「真似る」\nのは、アイデアを盗んだとか、猿真似をしたとかいわれて、非難されても仕方がない。 \n しかしながら、人のいいところを参考にして、自分なりの方法を工夫して努力して\nいくのは、まともな（注3）人のすることである。そこには、単に真似るのではなく、先\n達（注4）から「学ぶ」という姿勢がある。 \n（注1）忠実：にここでは、正確に \n（注2）やみくもに：ここでは、何も考えずに、ただ \n（注3）まともな：ここでは、常識のある \n（注4）先達：先輩",
+      "questions": [
+        {
+          "id": 2,
+          "text": "筆者の考えに合うのはどれか。",
+          "options": [
+            "成功を目指して何も考えずに努力することが大切だ。",
+            "人の成功例は参考にしないほうがいい。",
+            "人の真似を続けていけば、必ず成功できる。",
+            "人のいいところを見て工夫すれば、成功につながる。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"人のいいところを参考にして、自分なりの方法を工夫して努力していくのは、まともな人のすることである。そこには...「学ぶ」という姿勢がある。\"\n\n1. Cố gắng không suy nghĩ gì để hướng tới thành công (Sai: Ngược lại: bài phê phán việc nỗ lực \"やみくもに\" (mù quáng, không suy nghĩ))\n2. Không nên tham khảo ví dụ thành công của người khác (Sai: Ngược hẳn: câu đầu bài khẳng định tham khảo ví dụ thành công giúp tỉ lệ thành công cao hơn)\n3. Cứ tiếp tục bắt chước người khác thì chắc chắn thành công (Sai: Bài phân biệt rõ \"真似る\" (bắt chước hoàn toàn, bị phê phán) khác với \"学ぶ\" (học hỏi có chọn lọc))\n4. Nhìn điểm tốt người khác, tự sáng tạo cách làm → dẫn đến thành công (Đúng: Khớp đúng câu kết luận: đây là thái độ \"học hỏi\", được coi là hành vi của người có ý thức)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (8 phút) - Đoạn 3",
+      "passage": "試合に出してもらえない、監督やコーチと相性が悪い、他の選手のほうが贔屓され\nている…。自分がうまくできない、試合で活躍できないのは、環境が悪いからだ、監\n督のせいだ、他の選手とプレーがかみ合わない…。 \n 自分がある程度頑張っているつもりの選手は、つい、こう考えてしまうものです。 \n うまくなるために自分自身と向き合っているとすれば、そこに周りは一切関係あり\nません。人のせい、物のせいにするのはラク、私から言わせれば、人のせい、物のせ\nいにするのは、逃げていることと同じです。",
+      "questions": [
+        {
+          "id": 3,
+          "text": "筆者の考えに合うのはどれか。",
+          "options": [
+            "うまくなるためには、周りのせいにしてはいけない。",
+            "うまくなりたいなら、周りに合わせてはいけない。",
+            "周りから悪い評価を受けたら、認めなければならない。",
+            "頑張っていても、周りから認められないことがある。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"自分がうまくできない...のは、環境が悪いからだ、監督のせいだ...つい、こう考えてしまうものです...人のせい、物のせいにするのは...逃げていることと同じです。\"\n\n1. Để giỏi lên, không nên đổ lỗi cho xung quanh (Đúng: Khớp thông điệp chính: đổ lỗi = trốn tránh, cản trở việc tiến bộ)\n2. Muốn giỏi thì không nên hợp theo xung quanh (Sai: Không phải nội dung bài)\n3. Khi bị đánh giá xấu từ xung quanh, phải chấp nhận (Sai: Không được đề cập)\n4. Dù cố gắng vẫn có khi không được công nhận (Sai: Không phải luận điểm chính)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (15 phút)",
+      "passage": "Test 2 (15 phút) \n 農薬（注1）や大変な仕事を減らすことに成功した農家がある。今では多くの農家が\nやっていることだが、その農家では授粉（注2）を人の手から蜂（注3）を使うことに\n変えて、大変な仕事をしなくてもよくなった。農薬のほうは天敵（注4）を使うことで\n解決した。なすときゅうりを栽培しているビニールハウスにクレオメという花を植え\nた。すると、クレオメが好きな虫が集まってきて、なすやきゅうりにつく悪い虫を食\nべてくれたので、週に1 回は必要だった農薬をほとんど使わなくてもよくなった。農薬\nが減らせることは私達消費者にも農家にとってもよいことだ。農薬はまく時に人にも\nかかるし、吸い込んでしまう（ A ）からだ。また、農薬代を減らせる上に、農薬が\n少ない野菜として高く売ることもできる。一石二鳥（注5）ではなく一石三鳥である。\nしかし、天敵の虫が飛んできても、そこにその虫が生きるための花粉や蜜などの食べ\n物がなければ、虫は増えることができない。だから、悪い虫の天敵を知り、天敵が好\nきな植物を植え（ B ）作物を守ることができない。この研究がもっと進んで、農薬\nを使わないで作物が育てられるようになることを願っている。 \n（注1）晨榮： 野菜などについた悪い虫を殺す薬 \n（注2）授粉：実ができるように花粉というものをつけること \n（注3）蜂：虫の一種 \n（注4）天敵： ある生物をほぼ100％殺すことができる生物 \n（注5）一石二鳥： 石を一回投げて2 羽の鳥を得ること。1 つ何かをすることで2 つの\nよいことがあること\n6．（  ）の中に「気味、かねる、恐れがある、ざるを得ない」を入れなさい。\n7．（  ）の中に「このかた、まで、はじめて、からでないと」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（ A ）の中に一番よいものを入れなさい。",
+          "options": [
+            "気味",
+            "かねない",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果があることを知ってほしい。\"\n→ Hành động không làm dừng tư duy, mà ngược lại đẩy nhanh và cải thiện tư duy.\n\n1. Tiếp tục suy nghĩ mà không dừng hành động → tư duy nhanh hơn (Đúng: Khớp trực tiếp câu trích dẫn trên)\n2. Cần dừng hành động để suy nghĩ sâu (Sai: Ngược hẳn: bài nói \"行動を止めてまでして考えるのは避けよう\" (tránh dừng hành động để suy nghĩ))\n3. Trong tình huống thay đổi, cần đẩy nhanh hành động (Sai: Bài nói đẩy nhanh tư duy (思考), không phải hành động)\n4. Tiếp tục suy nghĩ sẽ giúp có thêm dũng khí (Sai: Bài nói cần dũng khí để thực hành việc vừa hành động vừa suy nghĩ, không phải suy nghĩ sinh ra dũng khí)"
+        },
+        {
+          "id": 2,
+          "text": "（ B ）の中に一番よいものを入れなさい。",
+          "options": [
+            "てまで",
+            "てこのかた",
+            "てはじめて",
+            "てからでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"人のいいところを参考にして、自分なりの方法を工夫して努力していくのは、まともな人のすることである。そこには...「学ぶ」という姿勢がある。\"\n\n1. Cố gắng không suy nghĩ gì để hướng tới thành công (Sai: Ngược lại: bài phê phán việc nỗ lực \"やみくもに\" (mù quáng, không suy nghĩ))\n2. Không nên tham khảo ví dụ thành công của người khác (Sai: Ngược hẳn: câu đầu bài khẳng định tham khảo ví dụ thành công giúp tỉ lệ thành công cao hơn)\n3. Cứ tiếp tục bắt chước người khác thì chắc chắn thành công (Sai: Bài phân biệt rõ \"真似る\" (bắt chước hoàn toàn, bị phê phán) khác với \"学ぶ\" (học hỏi có chọn lọc))\n4. Nhìn điểm tốt người khác, tự sáng tạo cách làm → dẫn đến thành công (Đúng: Khớp đúng câu kết luận: đây là thái độ \"học hỏi\", được coi là hành vi của người có ý thức)"
+        },
+        {
+          "id": 3,
+          "text": "この農家はどうして農薬や大変な仕事を減らすことに成功したのか。",
+          "options": [
+            "虫や植物を利用したから",
+            "授粉や農薬を止めたから",
+            "生物を利用する方法を考えたから",
+            "ビニールハウスで蜂を飼ったから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"自分がうまくできない...のは、環境が悪いからだ、監督のせいだ...つい、こう考えてしまうものです...人のせい、物のせいにするのは...逃げていることと同じです。\"\n\n1. Để giỏi lên, không nên đổ lỗi cho xung quanh (Đúng: Khớp thông điệp chính: đổ lỗi = trốn tránh, cản trở việc tiến bộ)\n2. Muốn giỏi thì không nên hợp theo xung quanh (Sai: Không phải nội dung bài)\n3. Khi bị đánh giá xấu từ xung quanh, phải chấp nhận (Sai: Không được đề cập)\n4. Dù cố gắng vẫn có khi không được công nhận (Sai: Không phải luận điểm chính)"
+        },
+        {
+          "id": 4,
+          "text": "なぜ一石三鳥なのか。",
+          "options": [
+            "農薬代が減るし、農薬を浴びる危険がなくなるから",
+            "農家だけでなく消費者の健康のためにもよいから",
+            "費用が減るし健康にもよいし農薬がない野菜ができるから",
+            "農薬代や農薬を浴びる危険性が減少し野菜が高く売れるから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"農薬はまく時に人にもかかるし、吸い込んでしまう（A）からだ。\"\n→ 吸い込んでしまう恐れがある = \"có nguy cơ/rủi ro bị hít phải\" thuốc trừ sâu.\n\n1. 気味: xu hướng, hơi... (Sai: diễn tả xu hướng nhẹ, không hợp văn cảnh)\n2. かねない: có thể (điều xấu) xảy ra (Sai: thường đi sau thể ます, không đi sau thể て/thường)\n3. 恐れがある: có nguy cơ, rủi ro (Đúng: Diễn đạt khách quan về rủi ro sức khỏe khi phun thuốc)\n4. ざるを得ない: không thể không... (bắt buộc) (Sai: không hợp nghĩa)"
+        },
+        {
+          "id": 5,
+          "text": "作者の考えはどれか。",
+          "options": [
+            "クレオメで農薬を減らして野菜を作る方法を研究してほしい。",
+            "悪い虫の天敵や天敵が好きな植物などの研究をもっとやってほしい。",
+            "天敵を増やす研究で野菜から虫を遠ざけることができるようになった。",
+            "天敵が好きな花がわかれば農薬は使わなくても済むので研究を進めてほしい。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"天敵が好きな植物を植え（B）作物を守ることができない。\"\n→ 植えてからでないと...守ることができない = \"Nếu không trồng trước cây mà thiên địch thích, thì không thể bảo vệ mùa màng.\"\n\n1. てまで: đến mức phải làm cả... (Sai)\n2. てこのかた: kể từ khi... (đến nay) (Sai)\n3. てはじめて: chỉ sau khi... mới (Sai: thường đi với câu khẳng định)\n4. てからでないと: nếu không...trước thì không thể... (Đúng: Khớp cấu trúc \"làm A trước, nếu không thì không thể B\")"
+        },
+        {
+          "id": 1,
+          "text": "子供にも離婚について話さ（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果があることを知ってほしい。\"\n→ Hành động không làm dừng tư duy, mà ngược lại đẩy nhanh và cải thiện tư duy.\n\n1. Tiếp tục suy nghĩ mà không dừng hành động → tư duy nhanh hơn (Đúng: Khớp trực tiếp câu trích dẫn trên)\n2. Cần dừng hành động để suy nghĩ sâu (Sai: Ngược hẳn: bài nói \"行動を止めてまでして考えるのは避けよう\" (tránh dừng hành động để suy nghĩ))\n3. Trong tình huống thay đổi, cần đẩy nhanh hành động (Sai: Bài nói đẩy nhanh tư duy (思考), không phải hành động)\n4. Tiếp tục suy nghĩ sẽ giúp có thêm dũng khí (Sai: Bài nói cần dũng khí để thực hành việc vừa hành động vừa suy nghĩ, không phải suy nghĩ sinh ra dũng khí)"
+        },
+        {
+          "id": 2,
+          "text": "郵便が明日中に届かない（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"人のいいところを参考にして、自分なりの方法を工夫して努力していくのは、まともな人のすることである。そこには...「学ぶ」という姿勢がある。\"\n\n1. Cố gắng không suy nghĩ gì để hướng tới thành công (Sai: Ngược lại: bài phê phán việc nỗ lực \"やみくもに\" (mù quáng, không suy nghĩ))\n2. Không nên tham khảo ví dụ thành công của người khác (Sai: Ngược hẳn: câu đầu bài khẳng định tham khảo ví dụ thành công giúp tỉ lệ thành công cao hơn)\n3. Cứ tiếp tục bắt chước người khác thì chắc chắn thành công (Sai: Bài phân biệt rõ \"真似る\" (bắt chước hoàn toàn, bị phê phán) khác với \"学ぶ\" (học hỏi có chọn lọc))\n4. Nhìn điểm tốt người khác, tự sáng tạo cách làm → dẫn đến thành công (Đúng: Khớp đúng câu kết luận: đây là thái độ \"học hỏi\", được coi là hành vi của người có ý thức)"
+        },
+        {
+          "id": 3,
+          "text": "授業が遅れ（  ）なので、今日からスピードを上げます。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"自分がうまくできない...のは、環境が悪いからだ、監督のせいだ...つい、こう考えてしまうものです...人のせい、物のせいにするのは...逃げていることと同じです。\"\n\n1. Để giỏi lên, không nên đổ lỗi cho xung quanh (Đúng: Khớp thông điệp chính: đổ lỗi = trốn tránh, cản trở việc tiến bộ)\n2. Muốn giỏi thì không nên hợp theo xung quanh (Sai: Không phải nội dung bài)\n3. Khi bị đánh giá xấu từ xung quanh, phải chấp nhận (Sai: Không được đề cập)\n4. Dù cố gắng vẫn có khi không được công nhận (Sai: Không phải luận điểm chính)"
+        },
+        {
+          "id": 4,
+          "text": "妹は運転が下手だから車に傷をつける（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"農薬はまく時に人にもかかるし、吸い込んでしまう（A）からだ。\"\n→ 吸い込んでしまう恐れがある = \"có nguy cơ/rủi ro bị hít phải\" thuốc trừ sâu.\n\n1. 気味: xu hướng, hơi... (Sai: diễn tả xu hướng nhẹ, không hợp văn cảnh)\n2. かねない: có thể (điều xấu) xảy ra (Sai: thường đi sau thể ます, không đi sau thể て/thường)\n3. 恐れがある: có nguy cơ, rủi ro (Đúng: Diễn đạt khách quan về rủi ro sức khỏe khi phun thuốc)\n4. ざるを得ない: không thể không... (bắt buộc) (Sai: không hợp nghĩa)"
+        },
+        {
+          "id": 5,
+          "text": "病気を治すために手術を受け（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"天敵が好きな植物を植え（B）作物を守ることができない。\"\n→ 植えてからでないと...守ることができない = \"Nếu không trồng trước cây mà thiên địch thích, thì không thể bảo vệ mùa màng.\"\n\n1. てまで: đến mức phải làm cả... (Sai)\n2. てこのかた: kể từ khi... (đến nay) (Sai)\n3. てはじめて: chỉ sau khi... mới (Sai: thường đi với câu khẳng định)\n4. てからでないと: nếu không...trước thì không thể... (Đúng: Khớp cấu trúc \"làm A trước, nếu không thì không thể B\")"
+        },
+        {
+          "id": 6,
+          "text": "両親も貧乏なのでお金を貸してとは言いだし（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"授粉を人の手から蜂を使うことに変えて...農薬のほうは天敵を使うことで解決した...クレオメという花を植えた。\"\n→ Dùng ong (虫) để thụ phấn, dùng thiên địch (虫) và hoa クレオメ (植物) để diệt sâu bệnh.\n\n1. Nhờ tận dụng côn trùng và thực vật (Đúng)\n2. Vì dừng hẳn thụ phấn và thuốc trừ sâu (Sai: chỉ đổi cách thụ phấn)\n3. Vì nghĩ ra phương pháp lợi dụng sinh vật (Sai: thiếu yếu tố thực vật クレオメ)\n4. Vì nuôi ong trong nhà kính (Sai: bỏ sót thiên địch + hoa)"
+        },
+        {
+          "id": 7,
+          "text": "景気が悪くなっているためか、最近株が下がり（  ）だ。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"農薬はまく時に人にもかかるし、吸い込んでしまう恐れがあるからだ。また、農薬代を減らせる上に、農薬が少ない野菜として高く売ることもできる。一石二鳥ではなく一石三鳥である。\"\n\n1. Giảm chi phí + giảm nguy hiểm (Sai: thiếu bán giá cao)\n2. Tốt cho sức khỏe cả nông dân và người tiêu dùng (Sai: quá chung chung)\n3. Giảm chi phí + tốt sức khỏe + có rau không thuốc (Sai)\n4. Giảm chi phí thuốc + giảm nguy cơ phơi nhiễm + bán giá cao (Đúng)"
+        },
+        {
+          "id": 8,
+          "text": "ずっと雨が降らないので水不足になる（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"だから、悪い虫の天敵を知り、天敵が好きな植物を植えてからでないと作物を守ることができない。この研究がもっと進んで、農薬を使わないで作物が育てられるようになることを願っている。\"\n\n1. Mong nghiên cứu phương pháp giảm thuốc bằng クレオメ (Sai: quá hẹp)\n2. Mong nghiên cứu thêm về thiên địch & cây thiên địch thích (Đúng: Khớp chính xác câu cuối bài)\n3. Nghiên cứu tăng thiên địch đã giúp đẩy sâu bọ ra xa rau (Sai: sai thì)\n4. Nếu biết hoa thiên địch thích thì không cần thuốc (Sai: quá khẳng định)"
+        },
+        {
+          "id": 9,
+          "text": "子供の遊び場がなくなるので、この計画には賛成し（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "子供にも離婚について話さ( ) \n→ ざるを得ない: \"buộc phải nói cho con biết\". Hoàn cảnh bắt buộc, dù không muốn vẫn phải nói."
+        },
+        {
+          "id": 10,
+          "text": "台風が接近しているので運動会は中止せ（  ）。",
+          "options": [
+            "気味",
+            "かねる",
+            "恐れがある",
+            "ざるを得ない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "郵便が明日中に届かない( ) \n→ 恐れがある: \"có nguy cơ không đến kịp trong ngày mai\". Diễn tả rủi ro khách quan, không chắc chắn."
+        },
+        {
+          "id": 1,
+          "text": "並んで（  ）この店に入りたいとは思わない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"行動があなたの思考を止めることはない。むしろ思考を加速させ、改善させる効果があることを知ってほしい。\"\n→ Hành động không làm dừng tư duy, mà ngược lại đẩy nhanh và cải thiện tư duy.\n\n1. Tiếp tục suy nghĩ mà không dừng hành động → tư duy nhanh hơn (Đúng: Khớp trực tiếp câu trích dẫn trên)\n2. Cần dừng hành động để suy nghĩ sâu (Sai: Ngược hẳn: bài nói \"行動を止めてまでして考えるのは避けよう\" (tránh dừng hành động để suy nghĩ))\n3. Trong tình huống thay đổi, cần đẩy nhanh hành động (Sai: Bài nói đẩy nhanh tư duy (思考), không phải hành động)\n4. Tiếp tục suy nghĩ sẽ giúp có thêm dũng khí (Sai: Bài nói cần dũng khí để thực hành việc vừa hành động vừa suy nghĩ, không phải suy nghĩ sinh ra dũng khí)"
+        },
+        {
+          "id": 2,
+          "text": "親になって（  ）親の子に対する愛の深さがわかった。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"人のいいところを参考にして、自分なりの方法を工夫して努力していくのは、まともな人のすることである。そこには...「学ぶ」という姿勢がある。\"\n\n1. Cố gắng không suy nghĩ gì để hướng tới thành công (Sai: Ngược lại: bài phê phán việc nỗ lực \"やみくもに\" (mù quáng, không suy nghĩ))\n2. Không nên tham khảo ví dụ thành công của người khác (Sai: Ngược hẳn: câu đầu bài khẳng định tham khảo ví dụ thành công giúp tỉ lệ thành công cao hơn)\n3. Cứ tiếp tục bắt chước người khác thì chắc chắn thành công (Sai: Bài phân biệt rõ \"真似る\" (bắt chước hoàn toàn, bị phê phán) khác với \"学ぶ\" (học hỏi có chọn lọc))\n4. Nhìn điểm tốt người khác, tự sáng tạo cách làm → dẫn đến thành công (Đúng: Khớp đúng câu kết luận: đây là thái độ \"học hỏi\", được coi là hành vi của người có ý thức)"
+        },
+        {
+          "id": 3,
+          "text": "引っ越して（  ）前に住んでいた辺りに行ったことはない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"自分がうまくできない...のは、環境が悪いからだ、監督のせいだ...つい、こう考えてしまうものです...人のせい、物のせいにするのは...逃げていることと同じです。\"\n\n1. Để giỏi lên, không nên đổ lỗi cho xung quanh (Đúng: Khớp thông điệp chính: đổ lỗi = trốn tránh, cản trở việc tiến bộ)\n2. Muốn giỏi thì không nên hợp theo xung quanh (Sai: Không phải nội dung bài)\n3. Khi bị đánh giá xấu từ xung quanh, phải chấp nhận (Sai: Không được đề cập)\n4. Dù cố gắng vẫn có khi không được công nhận (Sai: Không phải luận điểm chính)"
+        },
+        {
+          "id": 4,
+          "text": "家族と離れて（  ）して仕事をしたくない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"農薬はまく時に人にもかかるし、吸い込んでしまう（A）からだ。\"\n→ 吸い込んでしまう恐れがある = \"có nguy cơ/rủi ro bị hít phải\" thuốc trừ sâu.\n\n1. 気味: xu hướng, hơi... (Sai: diễn tả xu hướng nhẹ, không hợp văn cảnh)\n2. かねない: có thể (điều xấu) xảy ra (Sai: thường đi sau thể ます, không đi sau thể て/thường)\n3. 恐れがある: có nguy cơ, rủi ro (Đúng: Diễn đạt khách quan về rủi ro sức khỏe khi phun thuốc)\n4. ざるを得ない: không thể không... (bắt buộc) (Sai: không hợp nghĩa)"
+        },
+        {
+          "id": 5,
+          "text": "成功して（  ）国に帰ることができない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"天敵が好きな植物を植え（B）作物を守ることができない。\"\n→ 植えてからでないと...守ることができない = \"Nếu không trồng trước cây mà thiên địch thích, thì không thể bảo vệ mùa màng.\"\n\n1. てまで: đến mức phải làm cả... (Sai)\n2. てこのかた: kể từ khi... (đến nay) (Sai)\n3. てはじめて: chỉ sau khi... mới (Sai: thường đi với câu khẳng định)\n4. てからでないと: nếu không...trước thì không thể... (Đúng: Khớp cấu trúc \"làm A trước, nếu không thì không thể B\")"
+        },
+        {
+          "id": 6,
+          "text": "苦労して（  ）わかることも多い。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"授粉を人の手から蜂を使うことに変えて...農薬のほうは天敵を使うことで解決した...クレオメという花を植えた。\"\n→ Dùng ong (虫) để thụ phấn, dùng thiên địch (虫) và hoa クレオメ (植物) để diệt sâu bệnh.\n\n1. Nhờ tận dụng côn trùng và thực vật (Đúng)\n2. Vì dừng hẳn thụ phấn và thuốc trừ sâu (Sai: chỉ đổi cách thụ phấn)\n3. Vì nghĩ ra phương pháp lợi dụng sinh vật (Sai: thiếu yếu tố thực vật クレオメ)\n4. Vì nuôi ong trong nhà kính (Sai: bỏ sót thiên địch + hoa)"
+        },
+        {
+          "id": 7,
+          "text": "工場勤務を始めて（  ）長い休みが取れなくなった。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"農薬はまく時に人にもかかるし、吸い込んでしまう恐れがあるからだ。また、農薬代を減らせる上に、農薬が少ない野菜として高く売ることもできる。一石二鳥ではなく一石三鳥である。\"\n\n1. Giảm chi phí + giảm nguy hiểm (Sai: thiếu bán giá cao)\n2. Tốt cho sức khỏe cả nông dân và người tiêu dùng (Sai: quá chung chung)\n3. Giảm chi phí + tốt sức khỏe + có rau không thuốc (Sai)\n4. Giảm chi phí thuốc + giảm nguy cơ phơi nhiễm + bán giá cao (Đúng)"
+        },
+        {
+          "id": 8,
+          "text": "調査が終わって（  ）これからの方針は決められない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"だから、悪い虫の天敵を知り、天敵が好きな植物を植えてからでないと作物を守ることができない。この研究がもっと進んで、農薬を使わないで作物が育てられるようになることを願っている。\"\n\n1. Mong nghiên cứu phương pháp giảm thuốc bằng クレオメ (Sai: quá hẹp)\n2. Mong nghiên cứu thêm về thiên địch & cây thiên địch thích (Đúng: Khớp chính xác câu cuối bài)\n3. Nghiên cứu tăng thiên địch đã giúp đẩy sâu bọ ra xa rau (Sai: sai thì)\n4. Nếu biết hoa thiên địch thích thì không cần thuốc (Sai: quá khẳng định)"
+        },
+        {
+          "id": 9,
+          "text": "妹を泣かせて（  ）しておもちゃを取るなんて。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "子供にも離婚について話さ( ) \n→ ざるを得ない: \"buộc phải nói cho con biết\". Hoàn cảnh bắt buộc, dù không muốn vẫn phải nói."
+        },
+        {
+          "id": 10,
+          "text": "子供を産んで（  ）夜ゆっくり寝たことがない。",
+          "options": [
+            "このかた",
+            "まで",
+            "はじめて",
+            "からでないと"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "郵便が明日中に届かない( ) \n→ 恐れがある: \"có nguy cơ không đến kịp trong ngày mai\". Diễn tả rủi ro khách quan, không chắc chắn."
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (2 phút)",
+      "passage": "Test 3  (2 phút)  \n以下は、ある社員が出したメールの内容である。 \n営業3 課 \n山下課長 \n本日、札幌支社事業開発部にて業務を開始いたしました。 \n札幌支社は大通公園に面し、テレビ塔がよく見える素晴らしい環境にあります。オフ\nィスも新しく、気持ちよく働けそうな環境です。 \n在任中は公私ともに大変お世話になりました。これからは、斉藤支社長の下、支社の\nために全力を尽くして頑張りたいと思います。 \n今後とも、変わらぬご指導ご鞭撻のほど、よろしくお願いいたします。 \n大石 真",
+      "questions": [
+        {
+          "id": 5,
+          "text": "メールの要件は何か。",
+          "options": [
+            "今の上司への出張完了の報告。",
+            "今の上司への応援の依頼。",
+            "元の上司への異動後の挨拶。",
+            "元の上司への転職の相談。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"天敵が好きな植物を植え（B）作物を守ることができない。\"\n→ 植えてからでないと...守ることができない = \"Nếu không trồng trước cây mà thiên địch thích, thì không thể bảo vệ mùa màng.\"\n\n1. てまで: đến mức phải làm cả... (Sai)\n2. てこのかた: kể từ khi... (đến nay) (Sai)\n3. てはじめて: chỉ sau khi... mới (Sai: thường đi với câu khẳng định)\n4. てからでないと: nếu không...trước thì không thể... (Đúng: Khớp cấu trúc \"làm A trước, nếu không thì không thể B\")"
+        }
+      ]
+    }
+  ]
+}

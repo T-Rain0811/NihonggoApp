@@ -1,0 +1,198 @@
+{
+  "lesson": 2,
+  "title": "Day 01/10",
+  "time_limit_minutes": 30,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (3 phút)",
+      "passage": "Test 1 (3 phút) \n以下は、ある会社が製品を注文してきた相手に出した文書である。 \n20XX 年5 月25 日 \n株式会社 京日屋 \n販売部 井上幸二様 \n株式会社 落中フーズ \n営業部 山本京子 \nご注文の商品発送について \n拝啓 初夏の候、貴社ますますご発展のこととお慶び申し上げます。平素は、格別の\nお引き立てを賜りまして、厚く御礼申し上げます。 \n さて、5 月23 日付でご注文いただいた「100％ハニー・クッキー」の件でございます\nが、150 箱のうち100 箱は今週中の発送を予定しております。残り50 箱につきましては\n誠に申し訳ございませんが、ライン生産が注文に追い付かず、来月発送になる予定で\nす。ただいまできるだけ早い発送を目指しておりますが、もうしばらくお待ちいただ\nけますでしょうか。 \nご迷惑をおかけすることになり大変申し訳ございませんが、どうかご理解ください\nますようお願い申し上げます。  \n                             敬具",
+      "questions": [
+        {
+          "id": 2,
+          "text": "この文書で最も伝えたいことは何か",
+          "options": [
+            "一部の商品を送るのが遅れるので待ってほしい",
+            "一部の商品の生産が追いつかないので注文の数を変更してほしい",
+            "すべての商品を同時に送ることができるように努力している",
+            "すべての商品の生産が間に合わないので送るのは来月以降になる"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"150箱のうち100箱は今週中の発送を予定... 残り50箱につきましては... 来月発送になる予定です... もうしばらくお待ちいただけますでしょうか。\"\n→ 100/150 thùng gửi tuần này, 50 thùng còn lại gửi tháng sau, xin lỗi và mong được thông cảm chờ đợi.\n\nA: Một phần hàng gửi trễ, mong chờ đợi (Đúng: Khớp chính xác nội dung: chỉ 50/150 thùng trễ, xin thông cảm)\nB: Sản xuất không kịp, muốn đổi số lượng đặt hàng (Sai: Thư không hề đề nghị thay đổi số lượng đặt)\nC: Đang cố gắng gửi toàn bộ hàng cùng lúc (Sai: Ngược lại, thư nói rõ hàng sẽ chia làm 2 đợt)\nD: Tất cả hàng đều không kịp sản xuất, gửi từ tháng sau (Sai: Sai vì có 100/150 thùng vẫn gửi trong tuần này, không phải toàn bộ trễ)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (7 phút)",
+      "passage": "Test 2  (7 phút)  \n 小説家とは何か、と質問されたとき、僕はだいたいいつもこう答えることにしてい\nる。 \n「小説家とは、多くを観察し、わずかしか判断を下さないことを生業とする人間です」\nと。 \n なぜ小説家は多くを観察しなくてはならないのか？多くの正しい観察のないところ\nに多くの正しい描写はありえないからだ。（中略）なぜ小説家はわずかしか判断を下\nさないのか？最終的な判断を下すのは常に読者であって、作者ではないからだ。小説\n家の役割は、下すべき判断をもっとも魅惑的なかたちにして読者にそっと（べつに暴\n力的にでもいいのだけど）手渡すことにある。 \n おそらくご存じだとは思うけれど、小説家が（面倒がって、あるいは単に自己顕示\n（注1）のために）その権利を読者に委ねる（注2）ことなく、自分であれこれものご\nとの判断を下し始めると、小説はまずつまらなくなる。深みがなくなり、言葉が自然\nな輝きを失い、物語がうまく動かなくなる。 \n 良き物語を作るために小説家がなすべきことは、ごく簡単に言ってしまえば、結論\nを用意することではなく、仮説をただ丹念に（注3）積み重ねていくことだ。我々はそ\nれらの仮説を、まるで眠っている猫を手にとるときのように、そっと持ち上げて運び\n（僕は「仮設」という言葉を使うたびに、いつもぐっすり眠り込んでいる猫たちの姿\nを思い浮かべる。温かく柔らかく湿った、意識のない猫）、物語というささやかな広\n場の真ん中に、ひとつまたひとつと積み上げていく。どれくらい有効に正しく猫＝仮\n設を選びとり、どれくらい自然に巧みにそれを積み上げていけるか、それが小説家の\n力量になる。 \n（村上春樹「自己とは何か（あるいはおいしい牡蠣フライの食べ方）」『雑文集』新\n潮社による） \n（注1）自己顕示：自分を目立たせようとすること \n（注2）委ねる：まかせる \n（注3）丹念に：ていねいに",
+      "questions": [
+        {
+          "id": 6,
+          "text": "筆者は小説家の役割は何だと言っているか。",
+          "options": [
+            "目立つ描写をすること",
+            "結論を用意すること",
+            "最終的な判断を下すこと",
+            "判断を読者に委ねること"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"小説家の役割は、下すべき判断をもっとも魅惑的なかたちにして読者にそっと...手渡すことにある。\"\n→ Vai trò nhà văn là trao phán đoán cho độc giả dưới hình thức hấp dẫn nhất, không tự mình kết luận.\n\nA: Viết miêu tả nổi bật (Sai)\nB: Chuẩn bị kết luận (Sai: Bài nói rõ \"結論を用意することではなく\")\nC: Tự mình đưa ra phán đoán cuối cùng (Sai: Ngược hẳn nội dung – phán đoán cuối cùng luôn thuộc về độc giả)\nD: Giao việc phán đoán cho độc giả (Đúng)"
+        },
+        {
+          "id": 7,
+          "text": "眠っている猫を手にとるとは、何を例えているか。",
+          "options": [
+            "仮説を選びとること",
+            "言葉を輝かせること",
+            "よい物語を作ること",
+            "物語の真ん中に立つこと"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"我々はそれらの仮説を、まるで眠っている猫を手にとるときのように、そっと持ち上げて運び...積み上げていく。\"\n→ Hình ảnh \"bế con mèo đang ngủ\" ví von việc nhà văn nâng niu, xếp chồng các giả thuyết (仮説) một cách nhẹ nhàng, cẩn trọng.\n\nA: Chọn lựa giả thuyết (Đúng)\nB: Làm ngôn từ tỏa sáng (Sai)\nC: Tạo nên câu chuyện hay (Sai)\nD: Đứng giữa câu chuyện (Sai)"
+        },
+        {
+          "id": 8,
+          "text": "本文の内容に合っているものはどれか。",
+          "options": [
+            "よい読者というのは判断を下せる読者である。",
+            "自己顕示欲の強い小説家の物語は人を引きつけるおもしろさがある。",
+            "小説家は多くを観察し正しい描写をして読者に渡さなければならない。",
+            "力量のある小説家の仮説は読者に結論を見つけさせることができる。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Đoạn đầu bài: \"なぜ小説家は多くを観察しなくてはならないのか？多くの正しい観察のないところに多くの正しい描写はありえないからだ。\"\n→ Nhà văn phải quan sát nhiều, vì không quan sát đúng thì không thể miêu tả đúng.\n\"小説家の役割は、下すべき判断をもっとも魅惑的なかたちにして読者にそっと...手渡すことにある。\"\n→ Vai trò nhà văn là trao điều cần phán đoán cho độc giả dưới hình thức hấp dẫn nhất — và hình thức đó chính là những miêu tả (描写) được xây dựng từ quan sát chính xác.\n\nC: Nhà văn phải quan sát nhiều và miêu tả chính xác để trao cho độc giả (Đúng: Bài viết xây dựng một chuỗi logic: quan sát nhiều → miêu tả đúng → trao cho độc giả → độc giả tự phán đoán)\nA: Viết miêu tả nổi bật (Sai)\nB: Chuẩn bị kết luận (Sai)\nD: Giả thuyết của nhà văn giỏi giúp độc giả tự tìm kết luận (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (7 phút)",
+      "passage": "Test 3 (7 phút)  \n 先日こんな①意見を聞いた。子どもが残したご飯を「もったいない」といって\n代わりに食べる親をファミリーレストランなどで見かけるが、絶対にやめたほう\nがいい。その一口で太ってしまうし、中年にもなれば太るとなかなかやせないも\nのだ。健康に悪い、というのである。 \n 確かにその通りかもしれない。健康が失われるとすれば、子どもの残すご飯よ\nりも、そちらのほうがよほどもったいない。しかしそれでも、私は子どもが残し\nたご飯を食べずにはいられない。食べたら太る、太ったらやせない、ああ身体に\n悪いなあ、と頭ではわかっているにもかかわらず、だ。 \n これは、ある種の②「呪い」なのではないか。子どものころから「もったいな\nい」「残していはいけない」と、何度も親に言われて育ったものだから、ご飯を\n残すことに対して深く沁み込んだ罪悪感がある。食べ物を粗末にするなどという\nことは、もう犯罪と同じだと思い込んでいたりするのである。 \n しかし、考えてみるとわれわれの親世代は、戦後まもなくの食糧難の時代に子\n供時代を過ごしていたはずだ。それに対して、今は飽食の時代である。だから、\n食に対する考え方も違って当然なのだ。大切なことは、今の時代にふさわしい新\nしい価値観の下で、親も子も健やかで楽しい“食事”のありかたを柔軟に考えてい\nくことなのではないだろうか。",
+      "questions": [
+        {
+          "id": 9,
+          "text": "①意見とあるがどんな意見か。",
+          "options": [
+            "親は自分自身の健康のため、子どもが残したご飯を食べるべきではない。",
+            "教育のため、子どもにはご飯を残さないように指導するべきだ。",
+            "もったいないので、子どもの残したご飯は親が食べるべきだ。",
+            "みっともないので、残したご飯は親も子も食べるべきではない。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"その一口で太ってしまうし...健康に悪い\" — người được nhắc tới nói ăn phần thừa của con vì tiếc, nhưng khuyên \"絶対にやめたほうがいい\" vì hại sức khỏe.\n\nA: Cha mẹ không nên ăn phần cơm thừa của con vì sức khỏe bản thân (Đúng)\nB: Vì giáo dục, nên dạy con không để thừa cơm (Sai)\nC: Vì tiếc, cha mẹ nên ăn phần cơm con để thừa (Sai)\nD: Vì xấu hổ, cả cha mẹ và con đều không nên ăn (Sai)"
+        },
+        {
+          "id": 10,
+          "text": "ここでいう②「呪い」とは何か。",
+          "options": [
+            "料理をした人が料理を残した人を憎む気持ち",
+            "食べられないのに「食べろ」という親のことを嫌に思う気持ち",
+            "「もったいない」と教え込まれたせいでどうしても食べ物を捨てられない気持ち",
+            "ご飯を残したり捨てたりしてしまっては料理をした人に申し訳ないと思う気持ち"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"子どものころから「もったいない」「残してはいけない」と、何度も親に言われて育ったものだから、ご飯を残すことに対して深く沁み込んだ罪悪感がある。\"\n→ \"Lời nguyền\" (呪い) ở đây chính là cảm giác tội lỗi ăn sâu vì bị dạy \"mottainai\" từ nhỏ.\n\nA: Người nấu ăn ghét người để thừa đồ ăn (Sai)\nB: Ghét cha mẹ vì bắt ăn dù không ăn nổi (Sai)\nC: Cảm giác không thể vứt đồ ăn vì bị dạy \"mottainai\" (Đúng)\nD: Cảm thấy có lỗi với người nấu khi để thừa/vứt cơm (Sai)"
+        },
+        {
+          "id": 11,
+          "text": "本文の内容に合っているものはどれか。",
+          "options": [
+            "今は食糧難の時代ではないから、食べ物の大切さを教える必要は一切ない。",
+            "健康のために食べすぎてはいけないことをまず子供に教えるべきだ。",
+            "食事のあるべき形を考えるとき、時代の価値観を無視するべきではない。",
+            "食べ物が大切であることは、どんな時代にも変わらない事実である。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"われわれの親世代は...食糧難の時代...今は飽食の時代である。だから、食に対する考え方も違って当然...今の時代にふさわしい新しい価値観の下で...柔軟に考えていく...\"\n\nA: Vì không phải thời thiếu lương thực nên hoàn toàn không cần dạy về giá trị của đồ ăn (Sai)\nB: Nên dạy trẻ không ăn quá nhiều vì sức khỏe trước tiên (Sai)\nC: Khi nghĩ về cách ăn uống nên có, không nên bỏ qua giá trị quan của thời đại (Đúng)\nD: Tầm quan trọng của đồ ăn là sự thật không đổi ở mọi thời đại (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 4 (7 phút)",
+      "passage": "Test 4 (7 phút)  \n 百獣の王、ライオンは、子を産むと、はじめは母乳を飲ませます。そして次第\nに肉を食べさせるようになります。そのために母親がサバンナで狩りをして、獲\n物を捕らえ、肉を裂き、子に食べさせます。しかし、ある程度成長してくると、\n狩りをさせるようになります。肉を直接与えるのではなく、自分で食べ物を得る\nようにさせるのです。①そうしなければ、母ライオンが怪我をしたり、死んだり\nしたとき、子はエサを得ることができず、餓死してしまうからです。  \n 子ライオンは、エサを与えれば空腹を満たすことができるので、一時的には満\n足します。しかし、そのようなことを続けていると、長い目で見ると、全く成長\nしたないことになり、②不幸だと言えるでしょう。 \n 人間にも全く同じことが言えます。 \n 人を育てるということは、どういうことでしょうか。衣食住を与えれば、人は\n生きてゆくことができます。すべてを与えておけば、本人は満足します。生きて\nゆくこともできます。しかし、与える者（多くは親）に事故があったらどうなる\nのでしょうか。生きてゆく知識と知恵を得ておかなければ、やはり本人にとって\n不幸と言えるでしょう。「何もできない人間にするには、全てを与えればよい」\nという言葉があります。全てを与えられると、何もできない人間になってしまう\nのです。 \n（谷原誠『「いい質問」が人を動かす』文響社による）",
+      "questions": [
+        {
+          "id": 12,
+          "text": "①そうとあるが、どういうことか。",
+          "options": [
+            "母ライオンが子ライオンに母乳を飲ませること",
+            "母ライオンが子ライオンに狩りの仕方を教えること",
+            "子ライオンが母ライオンに肉を与えてもらうこと",
+            "子ライオンが母ライオンにエサを食べさせてもらうこと"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"肉を直接与えるのではなく、自分で食べ物を得るようにさせるのです。①そうしなければ...\" → \"そう\" chỉ hành động để con tự săn mồi, không cho thịt trực tiếp.\n\nA: Sư tử mẹ cho con bú sữa (Sai)\nB: Sư tử mẹ dạy con cách săn mồi (Đúng)\nC: Sư tử con được mẹ cho thịt (Sai)\nD: Sư tử con được mẹ cho ăn (Sai)"
+        },
+        {
+          "id": 13,
+          "text": "②不幸だとあるが、なぜか。",
+          "options": [
+            "自分で食べ物を得ることができないから",
+            "空腹は満たせても、満足できないから",
+            "母ライオンが死んで悲しいから",
+            "母ライオンは空腹のままだから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"エサを与えれば空腹を満たすことができるので、一時的には満足...しかし...長い目で見ると、全く成長したない...\"\n→ Bất hạnh vì về lâu dài không phát triển được khả năng tự kiếm ăn.\n\nA: Vì không thể tự kiếm ăn (Đúng)\nB: No bụng nhưng không thỏa mãn (Sai)\nC: Vì sư tử mẹ chết nên buồn (Sai)\nD: Vì sư tử mẹ vẫn đói (Sai)"
+        },
+        {
+          "id": 14,
+          "text": "この文章で筆者が言いたいことは何か。",
+          "options": [
+            "食べ物を与え続けることこそが親が子に対する愛情である。",
+            "自分の力で生きていけるように育てることが必要である。",
+            "食べ物を十分に与えられない人間は不幸である。",
+            "すべてを与えられて満足できる人間は幸せである。"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Toàn bài lấy ví dụ sư tử để nói về việc nuôi dạy con người: \"生きてゆく知識と知恵を得ておかなければ...不幸\" và câu \"何もできない人間にするには、全てを与えればよい\".\n\nA: Cho ăn liên tục chính là tình yêu của cha mẹ dành cho con (Sai)\nB: Cần nuôi dạy để con tự sống bằng sức mình (Đúng)\nC: Người không được cho đủ ăn là bất hạnh (Sai)\nD: Người được cho tất cả và thỏa mãn là hạnh phúc (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 5 (6 phút)",
+      "passage": "Test 5  (6 phút)  \nA \n 確かに、自動車は便利である。好きなときに、好きなところに出かけることが\nできる。日本では道路もよく整備されているから、ほとんどどこでも気持ちよく\n走ることができる。 \nしかし、マイナスの面も忘れてはならない。今の時代は、何より環境のことを\n考えなければならない。きれいな空気はいつまでもきれいなままではないのだ。\nこれからは、地球環境を守るために、場合によっては便利さ・快適さを我慢する\n必要があるのではないか。私たち一人ひとりがしっかり考えていかなければなら\nないように思う。  \nB \n 自動車は環境に悪い。特にトラックのような大きい車は悪だ。使うべきではな\nい、という人さえいる。しかし、これはむろん極端な意見である。例えば、私た\nちが毎日コンビニで便利に買い物ができるのも、商品をコンビニに運んできてく\nれるトラックのおかげだ。ネット通販だって、トラックがなければ成り立たない\nのだ。 \n 私たちは、現代の便利で快適な生活を捨てることができるだろうか。それはな\nかなか難しいのではないか。もう後には戻れないのではないかと私は考えてい\nる。",
+      "questions": [
+        {
+          "id": 15,
+          "text": "A とB が共通して主張していることは何か。",
+          "options": [
+            "自動車は便利なものであって、私たちの生活を豊かにしてくれている。",
+            "自動車は一概に環境に悪いとは言えない。",
+            "自動車は地球環境にとって悪なのであり、便利だからと言って今のように使\nい続けることはできない。",
+            "自動車にはマイナスの面もあるが、プラスの面の方が大きい。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"確かに、自動車は便利である。\" Trích dẫn B: ví dụ xe tải giúp cửa hàng tiện lợi, mua sắm online hoạt động được.\n→ Cả hai đoạn đều công nhận tính tiện lợi của ô tô, dù kết luận khác nhau.\n\nA: Ô tô tiện lợi, làm giàu cuộc sống (Đúng)\nB: Ô tô không thể nói chắc là có hại môi trường (Sai)\nC: Ô tô là cái ác với môi trường, không thể tiếp tục dùng như hiện tại (Sai)\nD: Ô tô có mặt hại nhưng mặt lợi lớn hơn (Sai)"
+        },
+        {
+          "id": 16,
+          "text": "自動車と環境についてA とB はどのように考えているか。",
+          "options": [
+            "A は自動車は環境に悪い影響を与えるが必要性が高いと考え、B は自動車は\n環境に悪い影響を与えるから今までのように使うことはやめたほうがいいと考え\nている。",
+            "A は自動車は環境に悪い影響を与えるから使わないようにするべきだと考え、\nB は自動車は今の生活になくてはならないものだから環境のことは考える必要はな\nいと考えている。",
+            "A は自動車は便利であるが環境への影響を与えると今のまま使い続けること\nはよくないと考え、B は自動車は環境には悪い影響を与えるが自動車の便利さを手\n放すことは難しいと考えている。",
+            "A は自動車は便利で快適な生活をもたらすから環境への影響は考える必要が\nないと考え、B は自動車は環境にとって悪であるからいくら便利であっても使うべ\nきではないと考えている。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"場合によっては便利さ・快適さを我慢する必要があるのではないか\" (cần chịu đựng bớt tiện nghi vì môi trường)\nTrích dẫn B: \"私たちは、現代の便利で快適な生活を捨てることができるだろうか。それはなかなか難しいのではないか\" (khó có thể từ bỏ cuộc sống tiện lợi)\n\nA: A: có hại nhưng cần thiết cao; B: có hại nên nên ngừng dùng như trước (Sai)\nB: A: phản đối hoàn toàn việc dùng; B: tiện lợi quan trọng hơn (Sai)\nC: A: tiện nhưng ảnh hưởng môi trường nên không nên dùng như cũ; B: có hại môi trường nhưng khó bỏ tiện lợi (Đúng)\nD: A: tiện lợi, không cần nghĩ môi trường; B: ô tô là cái ác, không nên dùng dù tiện (Sai)"
+        }
+      ]
+    }
+  ]
+}

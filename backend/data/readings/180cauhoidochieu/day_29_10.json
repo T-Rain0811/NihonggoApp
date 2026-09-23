@@ -1,0 +1,184 @@
+{
+  "lesson": 14,
+  "title": "Day 29/10",
+  "time_limit_minutes": 32,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (9 phút)",
+      "passage": "Test 1 (9 phút) \n 地図は、きわめて便利なものです。現地に行かなくても、その土地のだいたいのよ\nうすが、 地図をながめることによって、わかります。しかし、地図は、どんなにくわ\nしく現地のようすが描かれていても、それは地図であって、現地ではありません。あ\nくまでも、地図は、いろいろな記号や線、絵などで、現地を表している、一枚の紙切\nれです。 \n ことばも、地図と同じように、どんなに効果的に美しくことばを用いても、それは\nことばであって、ことばが表そうとしているもの、そのものではないのです。したが\nって、その人のことばの意味を理解することによって、その人の言おうとすることは、\nだいたいわかります。しかし、その人のことばはどこまでもことばであり、その人が\n言おうとしていることとまったく同一である、と考えることはできません。 \n 昔から、「百聞は一見にしかず」とか、「見るは聞くにまさる」とか、言われてき\nました。これらのことばの意味するところは、ことばで、どんなに現地 （実物）のよ\nうすを伝えようとしても、現地のすべてを代表することはできない、ということです。 \n 私は、ギリシャ神話に、子どものときから親しんできたせいか、アテネの（注1）ア\nクロポリスにあこがれ、アクロポリスの話を何度も聞いたり、読んだりしていました。\nそして、写真なども見ておりましたので、私の頭の中には、アテネのアクロポリスの\nイメージが、しっかりと刻み込まれていました。しかし、実際にアテネを訪ね、近し\nくアクロポリスを見たとき、それまで私が持っていたアクロポリスのイメージが、い\nかに部分的なものであったかを、痛感しました。厳然と高く、丘の頂上に立っている\nアクロポリスは、それまでことばで読んだり聞いたりしていたより、はるかにすばら\nしく、（注2）雄弁だったのです。 \n みなさんも、一度や二度は、①こんな体験をしたことがあるでしょう。 \n あるもの（こと）を、ことばで表現するというのは、ところどころ穴のあいたバケ\nツで水をすくおうとするのに似ています。自分では一生懸命に水をすくっているのに、\n知らない間に、 いくらかの水は、穴からこぼれ落ちてしまっているのです。つまり、\nことばで表現すると、そのもののすべてをことばで言い表そうとしているにもかかわ\nらず、必ず、言い表そうとしていることの一部が、口にされたことばからこぼれ落ち\nてしまう、ということです。私たちは、このことをしっかり②胸にとどめておかなく\nてはなりません。 \n （斎藤美津子「話しことばのひみつーことばのキャッチボールー」 創隆社による） \n（注1）アクロポリス： 古代ギリシャの中心だった場所。また、そこにある有名な建\n物 \n（注2）雄弁：人に感動を与えるような話し方や様子",
+      "questions": [
+        {
+          "id": 1,
+          "text": "筆者によると、ことばと地図の共通点は何か。",
+          "options": [
+            "地図やことばで表しても、その場所や人が言いたいことそのものと同じではない\n点",
+            "便利に使うことができるが、美しく効果的でないとそのものを理解するのが難し\nい点",
+            "多様な記号や線、さまざまな文字を使ってくわしく紙に何かを表現できる点",
+            "見たり読んだりすれば、その場所やものの本質を理解することができる点 \n2 ．①こんな体験とあるが、どのような体験か。 \n 1 アテネのアクロポリスのような雄大な建物を見て、その美しさに感動した体験 \n 2 写真や説明文からイメージしていたものの実物を見たら、思っていたとおりで感\n動し体験 \n 3 ことばで表現されてよく知っていたものを実際に見たら、予想以上にすばらしか\nった体験 \n 4 子どもの頃から話を聞いて親しみあこがれていた場所に、大人になって訪れるこ\nとができた体験"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Đoạn 1: \"Đó chỉ là bản đồ chứ không phải thực địa\" & Đoạn 2: \"Đó chỉ là ngôn ngữ... không thể coi là giống hoàn toàn với điều người đó muốn nói\".\n\n1. Dù thể hiện bằng bản đồ hay ngôn ngữ thì cũng không giống hoàn toàn với chính địa điểm hay điều người đó muốn nói (Đúng)\n2. Dù dùng tiện lợi nhưng nếu không đẹp và hiệu quả thì khó hiểu được bản chất (Sai)\n3. Có thể dùng nhiều ký hiệu, đường nét, chữ viết để thể hiện chi tiết lên giấy (Sai)\n4. Chỉ cần nhìn hoặc đọc là có thể hiểu được bản chất của địa điểm hay sự vật đó (Sai: Ngược hoàn toàn)"
+        },
+        {
+          "id": 3,
+          "text": "筆者は、何を②胸にとどめておかなくてはなりませんと言っているか。",
+          "options": [
+            "うまくことばで言い表そうとしても、必ずことばの間違いがあるということ",
+            "さまざまなことばを用いたとしても、すべてを表現することはできないというこ\nと",
+            "一生懸命ことばで伝えたとしても、その意味が伝わらない人がいるということ",
+            "いくらことばで表現しても、ことばが人々に与える感動には限界があるというこ\nと"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Tác giả kể việc đọc/nghe về Acropolis nhiều tưởng đã biết rõ, nhưng khi nhìn tận mắt mới thấy nó tuyệt vời và hùng vĩ hơn nhiều so với những gì mô tả qua ngôn ngữ.\n\n1. Trải nghiệm nhìn thấy kiến trúc hùng vĩ như Acropolis ở Athens và cảm động trước vẻ đẹp đó (Sai: Quá hẹp)\n2. Trải nghiệm nhìn thực tế thứ mình hình dung qua ảnh/bài viết và cảm động vì nó đúng như mình nghĩ (Sai: Thực tế tuyệt vời hơn rất nhiều)\n3. Trải nghiệm khi thực tế nhìn thấy thứ mình đã biết rõ qua ngôn ngữ thì phát hiện nó tuyệt vời ngoài dự đoán (Đúng)\n4. Trải nghiệm lúc nhỏ được nghe kể nên ao ước, đến khi trưởng thành mới được đặt chân tới (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (11 phút)",
+      "passage": "Test 2  (11 phút) \n問題1 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・ \n4 から一つ選びなさい。 \n ある男性と結婚の約束をしたA さんが、友だちのB さんから猛反対された。B さん\nはこう言ったらしい。 \n「何で相談しなかったの! 友達だったらなんでも話すべきよっ!」 \n ①A さんは怒り、二人は言い合いになった。 \n ところで言い合いの原因は婚約のことだと思いますか? A さんが怒ったのは婚約を反\n対されたことではなく、「友達なら何でも話すべき」の「べき」にあった。B さんは友\n達というものに対して勝手な理想を持っていて、それが「べき」という言葉に表れて\nいる。B さんの理想と、自分の結婚は自分で決めるというAさんの考えがぶつかり、言\nい合いになったんだ。B さんは「べき」に振り回されて怒っている。心の混乱を招く\n「べき」には注意したい。 \n             （小泉吉宏「プとタのあいだ」 KADOKAWA による）\n（注1） 及ばない： 達しない、できない \n（注2） 追体験： 他人の経験を見聞きすることで自分の経験のように感じること \n（注3） 臨場感： 実際にその場にいるかのような感じ",
+      "questions": [
+        {
+          "id": 1,
+          "text": "①A さんは怒りとあるが、A さんはどうして怒ったのか。",
+          "options": [
+            "B さんが、自分の結婚に反対したから",
+            "B さんが、自分の結婚について相談に乗ってくれなかったから",
+            "B さんが、自分の結婚についての価値観が当然であるように主張したから",
+            "B さんが、自分の友達についての価値観が当然であるように主張したから \n問題2 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・ \n4 から一つ選びなさい。 \n以下は、MAINICHI カンパニーの小林さんが、取引先の佐藤さんに送ったメールであ\nる。 \n株式会社 JLPT 商事 \n佐藤様 \n \nお世話になっております。 \nMAINICHI カンパニーの小林です。 \n \n\n \n\n 先日、ご提案いただいた新学習アプリ導入についてご連絡いたします。 \n現在、条件付きで貴社の案を採用することを検討しております。条件は、導入費用の\n3%削減ですが、まずはこの可否についてご回答いただけますでしょうか。 \n 可能であれば、後ほど（注）見積書をお送りいただき、アプリ導入に向けてのくわ\nしいスケジュールを検討していきたいと思っております。契約に関してあらためて打\nち合わせが必要でしたら、日程調整いたしますので、ご連絡ください。 \nよろしくお願いいたします。 \n \nMAINICHI カンパニー \n営業部  営業企画課  小林 優人 \n（注）見積書：必要な費用を予想してまとめた書類"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"A nổi giận là vì từ 'nên' (べき) trong câu 'Đã là bạn bè thì cái gì cũng nên nói chứ'. B mang lý tưởng ích kỷ về bạn bè và áp đặt từ 'nên' đó.\"\n\n1. Vì B phản đối việc kết hôn của A (Sai)\n2. Vì B không chịu lắng nghe/tư vấn chuyện kết hôn của A (Sai)\n3. Vì B khẳng định giá trị quan về \"kết hôn\" của mình là điều đương nhiên (Sai: Là giá trị quan về bạn bè)\n4. Vì B áp đặt giá trị quan của B về \"bạn bè\" như thể đó là điều hiển nhiên (Đúng)"
+        },
+        {
+          "id": 1,
+          "text": "佐藤さんはこのメールを読んだあと、まず何をしなければならないか。",
+          "options": [
+            "新しい見積書を送る。",
+            "費用を減らせるかどうか返事をする。",
+            "打ち合わせの日を決めるためのメールを送る。",
+            "今後のくわしいスケジュールを検討しておく。 \n問題 3 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・\n4 から一つ選びなさい。 \n 出会いとは、一つの越境です。人は、自分という境界を越えて他者と出会います。\nそこに対話が生まれ、私たちは表現やコミュニケーションについて思考を深めていき\nます。境界を越えること、つまり越境が学びにつながるのです。特に、新しい価値や\n意味を生み出すためには、同じコミュニティの中で技術を高めるだけでは不十分で、\n個人が価値観の異なるコミュニティに参入したり、コミュニティ全体が異なるコミュ\nニティとの協働に取り組むことが、これからの学習では必要になると言われています。\nそして、大学をはじめとした教育機関での学習と同様に、企業の研修や企業の開発の\n領域でも同様の越境の必要性が指摘されるようになっています。 \n（三代純平・米徳信一「産学連携でつくる多文化共生ーカシオとムサビがデザインす\nる日本語教育」くろしお出版による）"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trong email ghi rõ: \"Đầu tiên xin hãy trả lời cho chúng tôi biết điều kiện giảm 3% chi phí này có được hay không\" (まずはこの可否についてご回答いただけますでしょうか).\n\n1. Gửi một bản báo giá (mục toán) mới (Sai: Bước sau nếu đồng ý)\n2. Trả lời xem có thể giảm chi phí (giảm 3%) được hay không (Đúng)\n3. Gửi email để chốt ngày họp mặt/trao đổi (Sai)\n4. Lập và xem xét lịch trình chi tiết cho việc áp dụng app (Sai)"
+        },
+        {
+          "id": 1,
+          "text": "コミュニティについて、筆者はどのように述べているか。",
+          "options": [
+            "これからは、大学と企業がお互いに越境してコミュニティを作らなければならな\nい。",
+            "個人が境界を越えてコミュニティに参入していくことが最も重要だ。",
+            "同じコミュニティで技術を十分高めてからでないと、新しい価値観は生まれな\nい。",
+            "コミュニティを越えて、協働することがこれからの学びに必要だ。 \n問題 4 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・ \n4 から一つ選びなさい。 \n 人間、「人生は一度きり」で、当然ながら他の人の人生を生きることはできません。\n自分一人の経験には限りがあります。 \n 経験が少ないほど、「想像の（注1）及ばない」物事が多くなるもの。自分と環境が\nまったく違う他人の気持ちを想像するのも難しくなります。 \nしかし、本を通じて他人の人生を（注2）追体験することはできます。別の時代を生\nきた人、他の国を生きた人の人生も、（注3）臨場感を持って知ることができるのです。 \n これはとても重要なことです。他人の気持ちを想像して感情移入し、受け入れる経\n験となるからです。  \n   （齋藤孝「読書する人だけがたどり着ける場所」SB クリエイティブによる）"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"Cá nhân tham gia vào cộng đồng khác giá trị quan, hoặc toàn bộ cộng đồng hợp tác với cộng đồng khác là điều cần thiết cho việc học từ nay về sau.\"\n\n1. Từ nay về sau, đại học và doanh nghiệp phải vượt giới hạn để cùng tạo ra một cộng đồng (Sai: Không phải tạo ra cộng đồng chung, mà là hợp tác/học tập vượt ranh giới)\n2. Việc cá nhân vượt ranh giới để tham gia vào cộng đồng khác là quan trọng nhất (Sai: Không nói \"quan trọng nhất\")\n3. Phải nâng cao kỹ năng trong cùng một cộng đồng cho đủ tốt thì giá trị mới mới ra đời (Sai: Bài nói \"chỉ nâng cao kỹ năng trong cùng một cộng đồng là KHÔNG ĐỦ\")\n4. Việc vượt qua ranh giới cộng đồng để hợp tác là điều cần thiết cho việc học từ nay về sau (Đúng)"
+        },
+        {
+          "id": 1,
+          "text": "この文章の内容と合うものはどれか。",
+          "options": [
+            "本によって人間は多くの知識を得ることができる。",
+            "人生は短いので、経験できることには限界がある。",
+            "自分と全く異なる人生を、読書によって経験できる。",
+            "経験を積むと、他人の気持ちを想像し、受け入れられるようになる。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"Thông qua sách, chúng ta có thể trải nghiệm gián tiếp cuộc đời của người khác (追体験). Có thể biết được cuộc đời của người sống ở thời đại khác, đất nước khác...\"\n\n1. Nhờ sách vở, con người có thể tiếp thu được nhiều tri thức (Sai: Nhấn mạnh trải nghiệm/cảm xúc, không chỉ tri thức)\n2. Đời người ngắn ngủi nên những điều có thể trải nghiệm là có giới hạn (Sai: Câu làm nền, không phải thông điệp cốt lõi)\n3. Thông qua việc đọc sách, con người có thể trải nghiệm một cuộc đời hoàn toàn khác với bản thân (Đúng)\n4. Khi tích lũy nhiều trải nghiệm, con người sẽ tưởng tượng và chấp nhận được cảm xúc của người khác (Sai: Bài nói \"việc đọc sách\" giúp thấu hiểu cảm xúc)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (12 phút)",
+      "passage": "Test 3  (12 phút) \n問題1 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・ \n4 から一つ選びなさい。 \n 皆さんは、「（注1）量子コンピュータ」という言葉を聞いたことがありますか?\n「量子コンピュータ」と聞いて、どのようなイメージを思い浮かべるでしょうか? \n 検索エンジンで「量子コンピュータ」と検索すると、色々な記事が（注2）ヒットし\nます。その中では、「超並列計算を可能とする夢のコンピュータ」、「現代のスーパ\nーコンピュータよりも1 億倍高速」といった目を引くキャッチコピーをしばしば目にし\nます。一方で、量子コンピュータの仕組みについては、どの記事にもあまり詳しくは\n書いてありません。私の経験上、こういったネット記事を読んだ多くの方は、量子コ\nンピュータに次のようなイメージを持っているようでした。 \n「量子コンピュータは、仕組みはよくわからないけれど、どのような問題もあっとい\nう間に解いてくれるコンピュータなのだろう。（注3）ドラえもんの4 次元ポケットか\nら出てくるひみつ道具えたいのような、（注4）得体のしれない未来の道具に違いない」  \n しかし、現実の量子コンピュータはそんな「得体のしれない」ものではありません。\nあくまで現代のコンピュータの考え方をベースに、さらに発展させたコンピュータの\n一種です。コンピュータ自体は皆さんも馴染みがありますよね。スマートフォン、タ\nブレット端末、デスクトップパソコンなど、どれも全てコンピュータです。また、一\n部の企業や研究機関には、スーパーコンピュータと呼ばれる大型のコンピュータもあ\nります。これらのコンピュータは、外見は異なりますが、実は中身はほとんど同じで\nす。どれも同じ仕組みで情報を記憶し、計算を行っているのです。このような現代の\nコンピュータが情報を処理する仕組みをベースに、「量子」という新しい性質をプラ\nスアルファしてパワーアップさせたもの、それが量子コンピュータです。 \n（武田俊太郎「量子コンピュータが本当にわかる!一第一線開発者がやさしく明かすし\nくみと可能性」技術評論社による） \n（注1）量子：物質やエネルギーのとても小さな単位 \n（注2）ヒットする： ここでは、見つかる \n（注3）ドラえもんの4 次元ポケット： なんでも出てくる不思議なポケット \n（注4）得体のしれない どんなものかわからない、あやしいもの\n（注1）ルーツ：起源、はじまり \n（注2）たくましい：ここでは、強くて負けない \n（注3）恵み：ここでは、もらった大切なもの \n（注4）さしつかえない：問題ない \n（注5）弊害： 他に悪い影響を与えるものごと \n（注6）根源：ここでは、出発点",
+      "questions": [
+        {
+          "id": 1,
+          "text": "筆者によると、多くの人が持っている量子コンピュータのイメージはどのようなも\nのか。",
+          "options": [
+            "超並列計算が可能で、高性能である。",
+            "とても小さくて高価で、一般の人には使えない。",
+            "一般の人には知らされていない複雑な仕組みである。",
+            "何でも短時間で解決してくれる。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Đoạn 1 trích ấn tượng của số đông: \"Chẳng hiểu cơ chế thế nào nhưng chắc là loại máy tính giải quyết mọi vấn đề trong chớp mắt (あっという間に解いてくれる)\".\n\n1. Có thể tính toán siêu song song và có hiệu năng cực cao (Sai: Đây là khẩu hiệu quảng cáo)\n2. Rất nhỏ và đắt đỏ, người bình thường không thể dùng (Sai)\n3. Có cơ chế phức tạp không được công khai cho người thường biết (Sai)\n4. Cái gì cũng có thể giải quyết xong xuôi trong thời gian ngắn (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "スーパーコンピュータとスマートフォンの違いは何か。",
+          "options": [
+            "どのような見た目か",
+            "どうやって計算するか",
+            "どのように情報を記憶するか",
+            "どんな仕組みでデータを処理するか"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"Những máy tính này vẻ ngoài tuy khác nhau (外見は異なりますが), nhưng bên trong thực chất hầu như giống hệt nhau (中身はほとんど同じ).\"\n\n1. Vẻ bề ngoài (diện mạo) trông như thế nào (Đúng)\n2. Tính toán bằng cách nào (Sai)\n3. Lưu trữ thông tin bằng cách nào (Sai)\n4. Xử lý dữ liệu bằng cơ chế nào (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "筆者は、量子コンピュータについて、どのような特徴があると言っているか。",
+          "options": [
+            "研究所や企業などが、高度な計算をするために使う。",
+            "量子の性質は明らかでないが、高速で性能が優れている。",
+            "今までのコンピュータに、量子の性質を加えて作られている。",
+            "量子をプラスし、基本的な仕組みが大きく異なっている。 \n問題2 次の文章を読んで、後の問いに対する答えとして最もよいものを、1・2・3・ \n4 から一つ選びなさい。 \n 野菜とは読んで字のごとく「野なる菜」です。われわれ人間が創り出したものでは\nありません。私たちが食べている野菜の（注1） ルーツはすべて自然の野山から生まれ\nたものです。「野なるもの」をたまたま人間が自分たちの食糧にしたのが「野菜」で\nす。 \n それは天然の山菜と同じと考えていいでしょう。コシアブラ、コゴミ、ワラビなど\nの山菜は、毎年その季節になると私たちの前にその姿を現します。その山菜たちはも\nしかすると数千年にわたり、（注2）たくましく生き残ってきたものかもしれません。\n①野菜も同じことなのです。山菜が「山なるもの」であれば、野菜は「野なるもの」。\nあくまで大自然からの（注3）恵みであるという事実を忘れてはいけません。 \n ですから収穫量をもっと増やしたいとか、もっと甘い味にしたいといったことは②\n人間の都合のいい欲望にすぎません。その欲望を満たすために、化学肥料や農薬を使\nい、品種改良をしてきたと言っても（注4）さしつかえないでしょう。 \n 本来、自然のなかで育っていた野菜に、人間の手が過剰に加わったことによりさま\nざまな（注5）弊害が起きていると僕は思います。 \nつまり今の日本の農業の諸問題の（注6）根源は、人間の都合で野菜が育てられてい\nるという点に集約されるのです。 \n          （内田悟『間違いだらけの野菜選び」 KADOKAWA による）"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Câu cuối: \"Dựa trên cơ chế xử lý thông tin của máy tính hiện đại, cộng thêm (プラスアルファ) tính chất mới gọi là 'lượng tử' để nâng cấp lên.\"\n\n1. Được các viện nghiên cứu và doanh nghiệp dùng để tính toán cao cấp (Sai: Mô tả cho siêu máy tính)\n2. Tính chất lượng tử chưa rõ ràng nhưng tốc độ và hiệu năng rất vượt trội (Sai)\n3. Được tạo ra bằng cách cộng thêm tính chất lượng tử vào máy tính từ trước đến nay (Đúng)\n4. Được thêm lượng tử vào nên cơ chế cơ bản đã thay đổi hoàn toàn (Sai: Cơ chế nền tảng vẫn như cũ)"
+        },
+        {
+          "id": 1,
+          "text": "①野菜も同じことなのですとあるが、山菜と野菜は何が同じなのか。",
+          "options": [
+            "人間の食糧であること",
+            "春になると芽を出すこと",
+            "自然に生えていたこと",
+            "人間が創り出したこと"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Nguồn gốc rau củ \"đều sinh ra từ núi rừng tự nhiên\". Rau rừng là đồ của núi, rau củ là đồ của đồng ruộng, bản chất đều là \"ân huệ từ thiên nhiên đại ngàn\" (大自然からの恵み).\n\n1. Đều là lương thực của con người (Sai: Không phải điểm cốt lõi về tự nhiên)\n2. Đều đâm chồi vào mùa xuân (Sai)\n3. Mới đầu đều là những thứ mọc tự nhiên (Đúng)\n4. Đều là thứ do con người tạo ra (Sai: Phủ định ngay câu đầu)"
+        },
+        {
+          "id": 2,
+          "text": "筆者が言う②人間の都合のいい欲望にあてはまらないものはどれか。",
+          "options": [
+            "農薬や化学肥料をもっと減らしたい。",
+            "人々においしいと言われる味にしたい。",
+            "今よりも、さらにたくさん収穫したい。",
+            "病気などに負けない野菜を作りたい。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Việc dùng phân bón/thuốc trừ sâu mới là hành động thỏa mãn lòng tham (欲望を満たすために化学肥料や農薬を使い). Vậy \"muốn giảm bớt\" là hành động ngược lại, KHÔNG phải lòng tham.\n\n1. Muốn cắt giảm thêm phân bón hóa học và thuốc trừ sâu (Đúng: Không thuộc lòng tham)\n2. Muốn biến thành vị ngon được mọi người khen ngợi (Sai: Thuộc lòng tham)\n3. Muốn thu hoạch nhiều hơn nữa so với hiện tại (Sai: Thuộc lòng tham)\n4. Muốn tạo ra loại rau không chịu thua bệnh tật (Sai: Thuộc lòng tham cải tạo giống)"
+        },
+        {
+          "id": 3,
+          "text": "筆者が最も言いたいことは何か。",
+          "options": [
+            "人間が、野菜に手を加えたことで本来の野菜の味が変わってしまった。",
+            "人間が、自分たちの都合で野菜に手を加えて育てるのは問題だ。",
+            "人間は、自然の中で育った野菜を食べる生活に戻るべきだ。",
+            "人間は、野菜が自然の中で育っていたものだということを忘れてはいけない。"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Tác giả chốt lại ở đoạn cuối: Con người can thiệp quá đà gây ra nhiều tác hại (弊害), nguồn gốc mọi vấn đề nông nghiệp Nhật Bản hiện nay quy về việc \"rau củ đang được trồng dựa trên sự tiện lợi của con người\".\n\n1. Việc con người can thiệp vào rau củ đã làm thay đổi hương vị vốn có của rau (Sai)\n2. Việc con người can thiệp và nuôi trồng rau củ theo sự tiện lợi ích kỷ của bản thân là có vấn đề (Đúng)\n3. Con người nên quay lại lối sống chỉ ăn các loại rau mọc tự nhiên trong thiên nhiên (Sai: Quá cực đoan)\n4. Con người không được quên thực tế rằng rau củ vốn là thứ mọc trong thiên nhiên (Sai: Tiền đề, chưa phải cảnh báo)"
+        }
+      ]
+    }
+  ]
+}

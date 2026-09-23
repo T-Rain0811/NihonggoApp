@@ -1,0 +1,561 @@
+{
+  "lesson": 10,
+  "title": "Day 20/10",
+  "time_limit_minutes": 35,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (10 phút)",
+      "passage": "Test 1  (10 phút) \nA \n 在宅勤務（注1）の長所は第一に経費が減らせることだ。交通費、事務所の家賃 6 \nや、光熱費、書類の印刷や郵送の費用などが減らせる。また、社員は子供や高齢者の\n世話をすることができるし、病気になっても辞めなくて済む。だから、社員が雇いや\nすくなる。実際、在宅勤務ができるというだけで、中小企業にはめったに応募してこ\nないような優秀な人が雇えたという話もある。さらに、地震や台風などで会社に行け\nない時でも、仕事が進められる。短所は、情報が漏れる可能性があることだ。それ\nに、社員が何をしているのかがわかりにくい。しかし、情報に関する問題は適切なセ\nキュリティ対策を行うことで防げるし、社員の様子は、 管理システムや、作業報告を\n工夫することなどで防げるから、仕事の多くを在宅に変えたほうがよいと思う。 \nB \n 在宅勤務になったら助かるだろう。長所は、在宅勤務で通勤時間がないために、そ\nの時間を他のことに使えるから、仕事と生活のバランスがよくなることだ。家族や友\n人と過ごせるし、趣味や勉強などの時間もできることから人生が豊かになる。子供や\n高齢な親の世話もできるし、病気の場合も仕事を辞めなくて済む。それに、電話や客\nなども来ないので、集中して仕事ができる。短所は、他の社員と話す機会が減ること\nや、仕事とプライベートの分け方が難しいことだ。電話や客に邪魔される（注2）こと\nはないが、反対に家の中では家族がいて落ち着かなかったり、長時間働いてしまった\nりすることもある。他の社員とのコミュニケーションはweb 会議などで解決できる。\nしかし、在宅勤務になった（  ）月に何回かは会社に行って働いたり、実際に食事\nしたりしたほうがよい。  \n（注1）在宅勤務： 家で仕事をすること \n（注2）邪魔する： 何かをすることを妨げる\n4．（  ）の中に「以来、とたん、だけに、としても」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（  ）の中に一番よいものを入れなさい。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"在宅勤務になった（ ）月に何回かは会社に行って働いたり、実際に食事したりしたほうがよい。\"\n→ 在宅勤務になったとしても = \"dù có chuyển sang làm việc tại nhà đi nữa thì...\" vẫn nên đến công ty vài lần/tháng.\n\n1. 以来: từ khi...đến nay (Sai)\n2. とたん: ngay khi vừa... (Sai)\n3. だけに: chính vì (là)... (Sai)\n4. としても: dù có...đi nữa thì (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "在宅勤務についてA にもB にも記述があることは何か。",
+          "options": [
+            "会社にも社員にもよい点",
+            "長所もあれば短所もあること",
+            "それぞれの問題の解決の提案",
+            "会社を辞める人がいなくなること"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"在宅勤務の長所は第一に経費が減らせることだ...短所は、情報が漏れる可能性があることだ。\"\nTrích dẫn B: \"長所は、在宅勤務で通勤時間がないために...短所は、他の社員と話す機会が減ることや...\"\n→ Cả hai đoạn đều trình bày cấu trúc 長所 (ưu điểm) + 短所 (nhược điểm).\n\n1. Điểm tốt cho cả công ty lẫn nhân viên (Sai)\n2. Có cả ưu điểm lẫn nhược điểm (Đúng)\n3. Đề xuất giải pháp cho từng vấn đề (Sai: Chỉ A có)\n4. Không còn ai nghỉ việc (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "A とB の在宅勤務についての考えはどれか。",
+          "options": [
+            "A もB も全面的に在宅勤務に変えることに賛成している。",
+            "A は会社の立場、B は社員の立場から問題はあるが賛成している。",
+            "A は全面的に在宅勤務にしたい、B はどちらがいいか迷っている。",
+            "A は問題が解決できたら在宅がいい、B は会社のほうがいいと考えている。"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"仕事の多くを在宅に変えたほうがよいと思う\" (kết luận từ góc độ công ty: giảm chi phí, dễ tuyển người)\nTrích dẫn B: \"在宅勤務になったら助かるだろう...仕事と生活のバランスがよくなる\" (góc độ nhân viên: cân bằng cuộc sống, tập trung làm việc)\n\n1. Cả A và B đều tán thành hoàn toàn chuyển sang làm tại nhà (Sai: B không tán thành hoàn toàn)\n2. A từ góc độ công ty, B từ góc độ nhân viên, đều có vấn đề nhưng tán thành (Đúng)\n3. A muốn chuyển hoàn toàn, B thì phân vân chưa biết chọn cái nào (Sai: B không phân vân)\n4. A nói nếu giải quyết được vấn đề thì tốt, B nói làm ở công ty tốt hơn (Sai: B ủng hộ làm tại nhà)"
+        },
+        {
+          "id": 1,
+          "text": "庭に出た（  ）鳥が木から飛び立った。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"在宅勤務になった（ ）月に何回かは会社に行って働いたり、実際に食事したりしたほうがよい。\"\n→ 在宅勤務になったとしても = \"dù có chuyển sang làm việc tại nhà đi nữa thì...\" vẫn nên đến công ty vài lần/tháng.\n\n1. 以来: từ khi...đến nay (Sai)\n2. とたん: ngay khi vừa... (Sai)\n3. だけに: chính vì (là)... (Sai)\n4. としても: dù có...đi nữa thì (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "優秀な山田さんの提案（  ）すばらしい計画だった。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"在宅勤務の長所は第一に経費が減らせることだ...短所は、情報が漏れる可能性があることだ。\"\nTrích dẫn B: \"長所は、在宅勤務で通勤時間がないために...短所は、他の社員と話す機会が減ることや...\"\n→ Cả hai đoạn đều trình bày cấu trúc 長所 (ưu điểm) + 短所 (nhược điểm).\n\n1. Điểm tốt cho cả công ty lẫn nhân viên (Sai)\n2. Có cả ưu điểm lẫn nhược điểm (Đúng)\n3. Đề xuất giải pháp cho từng vấn đề (Sai: Chỉ A có)\n4. Không còn ai nghỉ việc (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "仲がいいからけんかした（  ）すぐにもとに戻るよ。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"仕事の多くを在宅に変えたほうがよいと思う\" (kết luận từ góc độ công ty: giảm chi phí, dễ tuyển người)\nTrích dẫn B: \"在宅勤務になったら助かるだろう...仕事と生活のバランスがよくなる\" (góc độ nhân viên: cân bằng cuộc sống, tập trung làm việc)\n\n1. Cả A và B đều tán thành hoàn toàn chuyển sang làm tại nhà (Sai: B không tán thành hoàn toàn)\n2. A từ góc độ công ty, B từ góc độ nhân viên, đều có vấn đề nhưng tán thành (Đúng)\n3. A muốn chuyển hoàn toàn, B thì phân vân chưa biết chọn cái nào (Sai: B không phân vân)\n4. A nói nếu giải quyết được vấn đề thì tốt, B nói làm ở công ty tốt hơn (Sai: B ủng hộ làm tại nhà)"
+        },
+        {
+          "id": 4,
+          "text": "火事にあって（  ）火を見るとパニックになってしまう。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 5,
+          "text": "道子さんに会った（  ）好きになったんです。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 6,
+          "text": "この会社は給料が高い（  ）仕事も厳しい。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "思い出の時計だから壊れた（  ）捨てることはできない。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "弟は会社を辞めて（  ）転職ばかりしている。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "食べた（  ）「おいしい」と叫んだ。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "彼女は金持ち（  ）服も鞄も高そうなものばかり持っている。",
+          "options": [
+            "以来",
+            "とたん",
+            "だけに",
+            "としても"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (10 phút)",
+      "passage": "Test 2  (10 phút)    \nA \n 入学しない学生から入学金を取ることの善し悪しが問われている。行かない大学に\n大金を払うことが受験生の負担になっている。20 万円以上を無駄にした学生も多い。\n中には100 万円以上払った学生もいるそうだ。行きたい大学だけ受験して合格するのが\n理想だが、実際は、第二、第三希望の大学も受験して、行ける大学を確保しておくの\nが一般的だ。しかし、家庭の経済状況によっては、複数の大学を受験することが難し\nい学生もいる。金持ちはさておき、普通の家の子供にとってお金のために機会が限ら\nれることは平等ではないと思う。入学金の問題だけでなく、教育費全体を家庭に頼っ\nている日本の状態では、ますます格差（注1）が広がり、結局は国の力も弱まるに違い\nない。子供たちのためであるとともに、国全体の将来のためにも、国がもっと教育費\nを出すべきだと思う。  \nB \n 大学は受け取った入学金を返さなくてもよいという最高裁判所の判決（注2）が出\nた。少子化もあって多くの大学は経営が苦しい。入学金を返したら潰れてしまう大学\nが出てくるだろう。3～5 万円の受験料や20 万円前後の入学金は大学にとって大事な収\n入だ。収入が減って経営が苦しくなれば、授業料も値上げしなければならないから学\n生も困るだろう。国からの補助金は、国立大学 86 校には約1 兆 1 千億円出ているが、\n私立大学には 615 校分が約3 千億円（  ）。だから、私立大学は入学金をもらわない\nわけにはいかない。問題を解決するためには、大学への援助金を増やすことが必要\nだ。世界では教育は大学の授業料も含めて無料という国さえある。国が教育にお金を\nもっと出すべきではなかろうか。 \n（注1）格差：程度やレベルなどに違いがあること \n（注2）判決：裁判所が示す判断のこと\n4．（  ）の中に「に関する、きり、とみえる、にすぎない」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（  ）の中に一番よいものを入れなさい。",
+          "options": [
+            "に関する",
+            "きりない",
+            "と見える",
+            "にすぎない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"私立大学には615校分が約3千億円（ ）。\"\n→ 約3千億円にすぎない = \"chỉ khoảng 300 tỷ yên mà thôi\" — nhấn mạnh sự ít ỏi so với 1100 tỷ yên cho 86 trường quốc lập.\n\n1. に関する: liên quan đến (Sai)\n2. きり: chỉ mãi từ đó (Sai)\n3. と見える: có vẻ như (Sai)\n4. にすぎない: chỉ là (mức độ ít, khiêm tốn hóa) (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "A とB が同じ認識を持っていることは何か。",
+          "options": [
+            "教育格差の問題",
+            "受験生と大学の立場",
+            "入学金が返せない理由",
+            "教育に対する国の援助"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"国がもっと教育費を出すべきだと思う。\"\nTrích dẫn B: \"国が教育にお金をもっと出すべきではなかろうか。\"\n\n1. Vấn đề chênh lệch giáo dục (Sai)\n2. Lập trường của thí sinh và trường đại học (Sai)\n3. Lý do đại học không thể hoàn trả học phí nhập học (Sai)\n4. Sự hỗ trợ của nhà nước đối với giáo dục (Đúng: Cả hai đều kết luận giống nhau)"
+        },
+        {
+          "id": 3,
+          "text": "A とB は教育問題を解決するために具体的な提案をしているか。",
+          "options": [
+            "A もB も提案している。",
+            "A もB も提案していない。",
+            "A は提案していないが、B は提案している。",
+            "A は提案しているが、B は提案していない。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: Chỉ nêu vấn đề và kết luận chung chung \"国がもっと教育費を出すべきだと思う\"\nTrích dẫn B: \"問題を解決するためには、大学への援助金を増やすことが必要だ\"\n\n1. Cả A và B đều đề xuất (Sai: A không đưa biện pháp cụ thể)\n2. Cả A và B đều không đề xuất (Sai)\n3. A không đề xuất, B có đề xuất (Đúng)\n4. A có đề xuất, B không đề xuất (Sai)"
+        },
+        {
+          "id": 1,
+          "text": "トイレに入った（  ）全然出てこない。また漫画を読んでいるとみえる。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"私立大学には615校分が約3千億円（ ）。\"\n→ 約3千億円にすぎない = \"chỉ khoảng 300 tỷ yên mà thôi\" — nhấn mạnh sự ít ỏi so với 1100 tỷ yên cho 86 trường quốc lập.\n\n1. に関する: liên quan đến (Sai)\n2. きり: chỉ mãi từ đó (Sai)\n3. と見える: có vẻ như (Sai)\n4. にすぎない: chỉ là (mức độ ít, khiêm tốn hóa) (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "この計画（  ）詳しいことは、スミスさんに聞いてください。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: \"国がもっと教育費を出すべきだと思う。\"\nTrích dẫn B: \"国が教育にお金をもっと出すべきではなかろうか。\"\n\n1. Vấn đề chênh lệch giáo dục (Sai)\n2. Lập trường của thí sinh và trường đại học (Sai)\n3. Lý do đại học không thể hoàn trả học phí nhập học (Sai)\n4. Sự hỗ trợ của nhà nước đối với giáo dục (Đúng: Cả hai đều kết luận giống nhau)"
+        },
+        {
+          "id": 3,
+          "text": "この店はよほどまずい（  ）。いつもがらがらだ。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn A: Chỉ nêu vấn đề và kết luận chung chung \"国がもっと教育費を出すべきだと思う\"\nTrích dẫn B: \"問題を解決するためには、大学への援助金を増やすことが必要だ\"\n\n1. Cả A và B đều đề xuất (Sai: A không đưa biện pháp cụ thể)\n2. Cả A và B đều không đề xuất (Sai)\n3. A không đề xuất, B có đề xuất (Đúng)\n4. A có đề xuất, B không đề xuất (Sai)"
+        },
+        {
+          "id": 4,
+          "text": "ボーナスが出たけれど、給料の1 か月分（  ）。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 5,
+          "text": "遺伝子（  ）研究が進んで、新しい薬が生まれると嬉しい。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 6,
+          "text": "祖母は90 歳ぐらいから寝た（  ）で、動けなくなってしまった。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "子供が公園から帰ろうとしない。まだ遊び足りない（  ）。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "子供が生まれた時に、休みを取った男性は13％（  ）。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "温暖化（  ）説明をしましたが、ご質問があればどうぞ。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "感激のあまり、ありがとうと言った（  ）、何も言えなかった。",
+          "options": [
+            "に関する",
+            "きり",
+            "とみえる",
+            "にすぎない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (15 phút)",
+      "passage": "Test 3  (15 phút) \n多くの人がSNS（注1）で発信する（注2）時代である。知っている人や、時には知\nらない多くの人に向かって発信する。それに対して「いいね」や意見などの多くの返\n信が集まる。時には悪口が書かれたコメントが多数届いて、発信者がショックを受け\nることもある。非難の言葉の（ A ）、自殺者さえ出ることもある。 それでも多く\nの人が止められないのは、発信することで人と繋がる楽しさを知ってしまったからか\nもしれない。  \nいつの時代も誰もが人生の中心は自分である。昔も今も人は他の人に知ってもらい\nたい、認められたいと思うのだろう。狭い地域から一生出ることなく人生が終わった\n時代は、地域の人は顔見知りで、ほとんどのことが自然に伝わったから、わざわざ自\n分からみんなに個人的なことを言う必要はなかった。もちろん、誤解もあっただろう\nが、言い訳するのはみっともないと考える人もいただろうし、家族とか友人とかが理\n解してくれればそれでよいと考える人も、たとえ誰も理解してくれなくても、「お天\n道様（注3）」だけはわかっているから十分だと考える人もいた。村の大事なことは別\nとして、個人的なことは言う必要がなかったし、かえって言わないほうがよい社会だ\nったともいえる。 \n 今は昔と違って隣に住んで（ B ）、何をしているのかわからない時代だ。SNS は\nそれを埋めることができる。発信することで繋がったら、すぐ近所の人だうれったと\nいうことさえある。だから、何も反応がないと誰にも認められていないようで寂しい\n気持ちになる。自分が書いた情報に「いいね」がたくさん付いて共感される（注4）と\n嬉しくなるのは当たり前だ。SNS は自分の世界も広がるから悪くはない。現実の世界\nでは否定されてばかりいても、SNS の世界では多くの友達を作ることができることも\nある。だから、人々は積極的に個人的な生活まで見せ、人との繋がりを求めるのでは\nないだろうか。 \n しかし、私たちはもっとSNS の使い方に注意しなければならない。もちろん、反対\n意見を書き込んでもよいが、それが発信者の人間性を否定するような内容だったり、\n悪口を広げることなどに使われたりすることは防がなければならない。特に、子供達\nには使い方を教える必要がある。心が豊かになるようによい繋がりが広がるように\nSNS が利用されればと思う。 \n（注1）SNS： Social Networking Service の略で代表的な物はツイッター、フェイスブッ\nク、ライン、インスタグラム \n（注2）発信する： 情報を出す \n（注3）お天道様： 「お天道様は見ている」という言葉は誰も見ていなくても、太陽つ\nまり神様は見ているから、悪いことはするなという言葉である。 \n（注4）共感する： 他の人の意見や感情を自分も同じだと感じる\n6．（  ）の中に「ながらも、て以来、うちに、ことから」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（ A ）の中に一番よいものを入れなさい。",
+          "options": [
+            "強さからには",
+            "強さを問わず",
+            "あまりの強さに",
+            "強いとはいうものの"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"非難の言葉の（A）、自殺者さえ出ることもある。\"\n→ 非難の言葉のあまりの強さに = \"vì lời chỉ trích quá mạnh mẽ mà...\"\n\n1. 強さからには: vì đã...(mạnh) rồi thì (Sai)\n2. 強さを問わず: bất kể mạnh hay yếu (Sai)\n3. あまりの強さに: vì quá mạnh mẽ mà (Đúng)\n4. 強いとはいうものの: dù nói là mạnh nhưng (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "（ B ）の中に一番よいものを入れなさい。",
+          "options": [
+            "いながらも",
+            "いて以来",
+            "いるうちに",
+            "いるところから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"今は昔と違って隣に住んで（B）、何をしているのかわからない時代だ。\"\n→ 隣に住んでいながらも = \"dù sống cạnh nhau nhưng...\"\n\n1. いながらも: dù đang...nhưng (Đúng)\n2. いて以来: từ khi...đến nay (Sai)\n3. いるうちに: trong khi đang... (Sai)\n4. いるところから: từ chỗ đang... (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "作者はSNS 利用者が増えていることについてどう考えているか。",
+          "options": [
+            "誰もが自分中心なので仕方がない。",
+            "止めたくても止めらないことだ。",
+            "知らない人に認められたいので当然だ。",
+            "繋がる楽しさがあるので自然なことだ。"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"それでも多くの人が止められないのは、発信することで人と繋がる楽しさを知ってしまったからかもしれない。\"\n\n1. Ai cũng tự coi mình là trung tâm nên không thể tránh khỏi (Sai)\n2. Là điều dù muốn dừng cũng không dừng được (Sai: Gần đúng nhưng thiếu lý do)\n3. Vì muốn được người lạ công nhận nên là đương nhiên (Sai)\n4. Vì có niềm vui kết nối nên là điều tự nhiên (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "作者は昔は今と何が違うと言っているか。",
+          "options": [
+            "昔はみんなに伝える方法がなかった。",
+            "昔はみんなに何も言う必要がなかった。",
+            "昔はみんなに知らせなくても自然に伝わった。",
+            "昔はみんなに個人的なことを言ってはいけなかった。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"地域の人は顔見知りで、ほとんどのことが自然に伝わったから、わざわざ自分からみんなに個人的なことを言う必要はなかった。\"\n\n1. Ngày xưa không có cách nào để thông báo cho mọi người (Sai)\n2. Ngày xưa không cần nói gì với mọi người (Sai: Thiếu lý do quan trọng)\n3. Ngày xưa dù không thông báo thì cũng tự nhiên được biết đến (Đúng)\n4. Ngày xưa không được phép nói chuyện cá nhân với mọi người (Sai)"
+        },
+        {
+          "id": 5,
+          "text": "SNS の使い方について作者の考えはどれか。",
+          "options": [
+            "SNS に否定的な内容を書くのはよくない。",
+            "SNS は人と繋がることができるのがよい。",
+            "SNS の使い方をみんなが教えたほうがよい。",
+            "SNS で個人的な生活を見せるのはよくない。"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"SNSは自分の世界も広がるから悪くはない...心が豊かになるようによい繋がりが広がるようにSNSが利用されればと思う。\"\n\n1. Viết nội dung phủ định trên SNS là không tốt (Sai)\n2. SNS tốt ở chỗ có thể kết nối với mọi người (Đúng)\n3. Mọi người nên dạy cách sử dụng SNS (Sai)\n4. Việc để lộ cuộc sống cá nhân trên SNS là không tốt (Sai)"
+        },
+        {
+          "id": 1,
+          "text": "晴れている（  ）洗濯物を干そう。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"非難の言葉の（A）、自殺者さえ出ることもある。\"\n→ 非難の言葉のあまりの強さに = \"vì lời chỉ trích quá mạnh mẽ mà...\"\n\n1. 強さからには: vì đã...(mạnh) rồi thì (Sai)\n2. 強さを問わず: bất kể mạnh hay yếu (Sai)\n3. あまりの強さに: vì quá mạnh mẽ mà (Đúng)\n4. 強いとはいうものの: dù nói là mạnh nhưng (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "貧しい（  ）幸せに暮らしている。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"今は昔と違って隣に住んで（B）、何をしているのかわからない時代だ。\"\n→ 隣に住んでいながらも = \"dù sống cạnh nhau nhưng...\"\n\n1. いながらも: dù đang...nhưng (Đúng)\n2. いて以来: từ khi...đến nay (Sai)\n3. いるうちに: trong khi đang... (Sai)\n4. いるところから: từ chỗ đang... (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "病気で倒れ（  ）初めて家から外に出た。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"それでも多くの人が止められないのは、発信することで人と繋がる楽しさを知ってしまったからかもしれない。\"\n\n1. Ai cũng tự coi mình là trung tâm nên không thể tránh khỏi (Sai)\n2. Là điều dù muốn dừng cũng không dừng được (Sai: Gần đúng nhưng thiếu lý do)\n3. Vì muốn được người lạ công nhận nên là đương nhiên (Sai)\n4. Vì có niềm vui kết nối nên là điều tự nhiên (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "父が元気な（  ）旅行に連れて行こう。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"地域の人は顔見知りで、ほとんどのことが自然に伝わったから、わざわざ自分からみんなに個人的なことを言う必要はなかった。\"\n\n1. Ngày xưa không có cách nào để thông báo cho mọi người (Sai)\n2. Ngày xưa không cần nói gì với mọi người (Sai: Thiếu lý do quan trọng)\n3. Ngày xưa dù không thông báo thì cũng tự nhiên được biết đến (Đúng)\n4. Ngày xưa không được phép nói chuyện cá nhân với mọi người (Sai)"
+        },
+        {
+          "id": 5,
+          "text": "ジョーとは同じクラブに入った（  ）よく話すようになった。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"SNSは自分の世界も広がるから悪くはない...心が豊かになるようによい繋がりが広がるようにSNSが利用されればと思う。\"\n\n1. Viết nội dung phủ định trên SNS là không tốt (Sai)\n2. SNS tốt ở chỗ có thể kết nối với mọi người (Đúng)\n3. Mọi người nên dạy cách sử dụng SNS (Sai)\n4. Việc để lộ cuộc sống cá nhân trên SNS là không tốt (Sai)"
+        },
+        {
+          "id": 6,
+          "text": "毎日顔を合わせてい（  ）彼の悩みに気が付かなかった。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "学生の（  ）一生懸命勉強しておかないと後で困るよ。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "10 歳だけどいろいろなことを知っている（  ）学者と呼ばれている。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "地震で家が壊れ（  ）ずっと町が用意してくれた家に住んでいる。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "アンは小学生（  ）5 か国語も話せるんだって。",
+          "options": [
+            "ながらも",
+            "て以来",
+            "うちに",
+            "ことから"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    }
+  ]
+}

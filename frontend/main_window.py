@@ -7,6 +7,7 @@ from frontend.views.grammar_hub_view import GrammarHubView
 from frontend.views.vocab_session_view import VocabSessionView
 from frontend.views.grammar_session_view import GrammarSessionView
 from frontend.views.drill_view import DrillPracticeWidget
+from frontend.views.reading_view import ReadingPracticeWidget
 from frontend.views.extra_vocab_view import ExtraVocabView
 
 
@@ -26,6 +27,9 @@ class MainWindow(QMainWindow):
         )
         self.home_view.go_grammar.connect(
             lambda: self.stack.setCurrentWidget(self.grammar_hub)
+        )
+        self.home_view.go_reading.connect(
+            lambda: self.stack.setCurrentWidget(self.reading_view)
         )
         self.stack.addWidget(self.home_view)
 
@@ -99,6 +103,13 @@ class MainWindow(QMainWindow):
             lambda: self.stack.setCurrentWidget(self.vocab_hub)
         )
         self.stack.addWidget(self.vocab_drill_view)
+
+        # ── 7: Reading View ─────────────────────────────────────────────────
+        self.reading_view = ReadingPracticeWidget()
+        self.reading_view.navigate_back.connect(
+            lambda: self.stack.setCurrentWidget(self.home_view)
+        )
+        self.stack.addWidget(self.reading_view)
 
         self.load_styles()
         self.stack.setCurrentWidget(self.home_view)

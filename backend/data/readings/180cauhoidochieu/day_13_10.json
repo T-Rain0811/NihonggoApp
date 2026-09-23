@@ -1,0 +1,439 @@
+{
+  "lesson": 7,
+  "title": "Day 13/10",
+  "time_limit_minutes": 30,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (3 phút)",
+      "passage": "Test 1  (3 phút)    \n 頭で知ったことというのは、しょせん（注）、それだけのものです。知識を詰め込\nむことはできても、知恵にはなりにくい。私も、長年にわたる幼児教育の研究からつ\nくづく感じるのですが、赤ん坊がまだ言葉を話せないうちから、くり返し体験したこ\nとは、その人が生まれつき持っていた“素質”のように、ほんとうに身についたものに\nなりますが、大きくなってから理屈で考えるようになって覚えたものだと、なかなか\n身につきにくいのです。 \n（井深大『わが友・本田宗一郎』ごま書房による） \n（注）しょせん：結局は",
+      "questions": [
+        {
+          "id": 1,
+          "text": "筆者の考えに合うのはどれか。",
+          "options": [
+            "知恵は、知識を詰め込むことによって身につく。",
+            "知恵が身につくかどうかは、“素質”があるかどうかによって決まる。",
+            "大人になってから考えて覚えたことは、身につきにくい。",
+            "大人になってから知恵を身につけることはできない。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"赤ん坊がまだ言葉を話せないうちから、くり返し体験したことは...ほんとうに身についたものになりますが、大きくなってから理屈で考えるようになって覚えたものだと、なかなか身につきにくいのです。\"\n\n1. Trí tuệ được hình thành bằng cách nhồi nhét kiến thức (Sai)\n2. Trí tuệ có hình thành hay không phụ thuộc vào việc có \"tố chất\" hay không (Sai)\n3. Điều học bằng suy nghĩ sau khi trưởng thành thì khó ngấm vào người (Đúng)\n4. Người trưởng thành không thể có được trí tuệ (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (3 phút)",
+      "passage": "Test 2  (3 phút)  \n 「みんなちがってみんないい」というのは、実は難しい。無責任にこのフレーズを\n口にすることはできない。 \n はたしてあなたは、人を悲しませることを喜びとするような者を、「みんなとちが\nう」者として受け入れることができるだろうか。みんなとちがうことって、本当にい\nいことなのだろうか。 \n そうかといって、「みんなおなじ」がいいかというと、それははっきり違う。人は\nそれぞれに違い、その違いが尊重されるべきことは、いうまでもないことだからだ。 \n このフレーズを口にするなら、どこまでが許されどこからが許されないか、そのあ\nたりを考えてからにしたい。",
+      "questions": [
+        {
+          "id": 2,
+          "text": "「そのあたりを考えてからにしたい」とあるが、なぜか。",
+          "options": [
+            "筆者は、悲しみや喜びは人によって異なると考えているから",
+            "筆者は、「みんなちがう」よりも「みんなおなじ」ほうが正しいと考えているか\nら",
+            "筆者は、「みんなちがう」ことはいいことばかりではないと考えているから",
+            "筆者は、人がそれぞれ違うことが尊重されなければならないと考えているから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"はたしてあなたは、人を悲しませることを喜びとするような者を、「みんなとちがう」者として受け入れることができるだろうか。みんなとちがうことって、本当にいいことなのだろうか。\"\n\n1. Tác giả nghĩ buồn và vui khác nhau tùy mỗi người (Sai)\n2. Tác giả nghĩ \"mọi người giống nhau\" đúng hơn \"mọi người khác nhau\" (Sai)\n3. Tác giả nghĩ \"mọi người khác nhau\" không phải lúc nào cũng tốt (Đúng)\n4. Tác giả nghĩ sự khác biệt của mỗi người cần được tôn trọng (Sai: không phải lý do chính ở đây)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (3 phút)",
+      "passage": "Test 3  (3 phút) \n 私たちはいつも、時間というものを意識しています。生活においては食事や出勤な\nど、何時にその行為を行うかが決まっている物事も多く、時間を気にせずに1 日を終え\nるようなことは、現代においては少ないのではないでしょうか。このような時間は、\n何かの「基準」にもとづく、物理量（注）としての時間といえます。 \n 一方で、楽しいときは、あっという間に過ぎるように感じ、苦しいときはなかなか\n終わらないように感じるなど、時間という感覚には主観もかかわっています。年齢を\n重ねるほど、時が経つのが早く感じる、ということも誰もが経験することでしょう。 \n（安田正美『1 秒って誰が決めるの？日時計から光格子時計まで』ちくまプリマ―新書\nによる） \n（注）物理量：決められた大きさや長さなどの量",
+      "questions": [
+        {
+          "id": 3,
+          "text": "筆者は時間をどのようにとらえているか。",
+          "options": [
+            "時間はある「基準」ではかることができるが、その基準は経験によってかわるこ\nともある。",
+            "時間はある「基準」ではかることができるが、状況や年齢によって感じ方が異な\nることもある。",
+            "時間を気にすれば時が経つのが速く感じ、気にしなければ遅く感じることがある。",
+            "人は時間を考えながら生活するのであり、考えないで生活することはできない。"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"このような時間は、何かの「基準」にもとづく、物理量としての時間といえます。一方で...時間という感覚には主観もかかわっています。年齢を重ねるほど、時が経つのが早く感じる...\"\n\n1. Thời gian có thể đo bằng \"chuẩn mực\", chuẩn mực đó cũng thay đổi theo kinh nghiệm (Sai)\n2. Thời gian có thể đo bằng \"chuẩn mực\", nhưng cách cảm nhận khác nhau tùy tình huống/tuổi tác (Đúng)\n3. Nếu để ý thời gian thì cảm thấy trôi nhanh, không để ý thì thấy chậm (Sai)\n4. Con người sống phải suy nghĩ về thời gian, không thể sống mà không nghĩ đến nó (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 4 (3 phút)",
+      "passage": "Test 4  (3 phút)  \n以下はある企業からユーザーに送られた文書の一部である。 \n 20XX 年2 月15 日 \nお客様各位 \n 洛中ガス株式会社 \n 総務部 \nアンケートのお願い \n 洛中ガスでは、使いやすくお手入れも簡単なガスレンジの開発に力を入れてまいり\nました。昨年度、「ミラクルガステーブル」を発売いたしましたところ、たくさんの\nお客様にお買い上げいただきました。現在、さらに高機能な「プレミアムガステーブ\nル」を開発中でございます。 \n そこで、お客様から「ミラクルガステーブル」についての使い心地や改善してほし\nい点などを広く伺い、新製品の開発に役立てたいと考えております。つきましては、\n別紙のアンケートにお答えいただき、同封の返信用封筒にて、期日までにご返送いた\nだきますようお願い申し上げます。ご返送いただいた方には、もれなく粗品を進呈い\nたします。",
+      "questions": [
+        {
+          "id": 4,
+          "text": "文書によると、この企業は何を知るためにアンケートをしようとしているか。",
+          "options": [
+            "ミラクルガステーブルを買った理由",
+            "ミラクルガステーブルを使った感想",
+            "プレミアムガステーブルを買わなかった理由",
+            "プレミアムガステーブルを買いたいかどうか"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"お客様から「ミラクルガステーブル」についての使い心地や改善してほしい点などを広く伺い、新製品の開発に役立てたいと考えております。\"\n\n1. Lý do mua \"Miracle Gas Table\" (Sai)\n2. Cảm nhận khi sử dụng \"Miracle Gas Table\" (Đúng)\n3. Lý do không mua \"Premium Gas Table\" (Sai)\n4. Có muốn mua \"Premium Gas Table\" hay không (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 5 (3 phút)",
+      "passage": "Test 5  (3 phút)  \n 街を歩けばたくさんの店が立ち並び、さまざまな商品が溢れて（注1）います。必要\nなものはインターネットで検索して、家にいながらにしていつでも購入できます。 \n しかし、最近、絶対にこれ、と思える「本当に欲しいもの」に出会ったことはある\nでしょうか？なんとなく流行りにつられて買ったもの、とりあえず安いから買ったも\nの。いつのまにか僕たちの周りは、そういったもので埋め尽くされて（注2）いないで\nしょうか。 \n（中略） \n これだけモノがありながら、いや、あるからこそ、何かを買いたいときに、何を選\nんだらいいのかわからない。そんな状況が、現代なのです。 \n（水野学ほか『デザインの誤解―いま求められている「定着」をつくる仕組み』祥伝\n社による） \n（注1）溢れる：いっぱいになって外に出る \n（注2）埋め尽くす：物や人でいっぱいになり、入るところがなくなる",
+      "questions": [
+        {
+          "id": 5,
+          "text": "筆者は現代の状況をどのようにとらえているか。",
+          "options": [
+            "人は「本当に欲しいもの」が分からない。",
+            "人は「本当に欲しいもの」がありすぎて選べない。",
+            "買いたいものは街の店にいっぱいあるのでインターネットは使われない。",
+            "買いたいものはインターネットで買うと安いことが多い。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"絶対にこれ、と思える「本当に欲しいもの」に出会ったことはあるでしょうか?...これだけモノがありながら、いや、あるからこそ、何かを買いたいときに、何を選んだらいいのかわからない。\"\n\n1. Con người không biết \"thứ mình thực sự muốn\" (Đúng)\n2. Con người có quá nhiều \"thứ mình thực sự muốn\" nên không chọn được (Sai)\n3. Đồ muốn mua có đầy trong cửa hàng nên không dùng internet (Sai)\n4. Đồ muốn mua thường rẻ hơn khi mua qua internet (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 6 (15 phút)",
+      "passage": "Test 6  (15 phút) \n 2021 年に開かれた東京オリンピックの選手村でおいしいと評判だった餃子が、 実は\nスーパーで売られているただの冷凍食品だったとわかって①驚いた。冷凍食品は味が\n向上して、世界中の選手が集まる選手村でも提供できる食品になったという（ A ）。 \n 実は、冷凍技術の進歩は消費者よりも生産者に、特に消費地から遠い生産者に恩恵\nをもたらす（注1）。冷凍しても味が変わらない食料品が届けられることで、②彼らの\n市場（注2）は拡大する。特に漁業には大きな可能性が生まれるだろう。魚などの生も\nのはすぐに悪くなってしまう。普通に冷凍した物は解凍する（注3）時に味が落ちてし\nまう。氷に詰めて運ぶのには限界がある。もし、冷凍は冷凍でも、解凍した後に味が\n変わらないように冷凍できれば、日本国内だけでなく海外にももっと売ることができ\nるだろう。 \n それが細胞（注4）を壊さないで急速冷凍できる機械の開発によって可能になった。\n生の食べ物は7～8 割が水分である。冷凍に時間がかかると、食べ物の中の水分が膨ら\nんで細胞を破壊する。それで味が落ちるわけだ。-30°の冷凍液（注5）により凍るまで\nの時間を短くすることができて、細胞を壊すことなく解凍しても冷凍前と同じ状態を\n維持できるようになった。漁業者たちはこの技術に感謝してもしきれないの（ B ）。 \n（注1）恩恵をもたらす 幸福や利益を持ってくる \n（注2）市場： ここでは食品を売るところ \n（注3）解凍する： 凍っている物を元の形に戻す \n（注4）細胞：生物の体を作っている基本。小さな部屋のような物 \n（注5）冷凍液：冷凍させるための液体（液体はとけている状態の物）\n6．（  ）の中に「わけだ、わけがない、わけではない、わけにはいかない」 を入れ\nなさい。\n7．（  ）の中に「てたまらない、にすぎない、ではあるまいか、に越したことはな\nい」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（ A ）の中に一番よいものを入れなさい。",
+          "options": [
+            "だけだ",
+            "ものだ",
+            "わけだ",
+            "ばかりだ"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"冷凍食品は味が向上して、世界中の選手が集まる選手村でも提供できる食品になったという（A）。\"\n→ ...というわけだ = \"tức là...\" (kết luận logic, giải thích lại điều đã nói).\n\n1. だけだ: chỉ là... (Sai)\n2. ものだ: vốn dĩ là... (Sai)\n3. わけだ: tức là, vậy là (Đúng)\n4. ばかりだ: chỉ toàn là... (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "（ B ）の中に一番よいものを入れなさい。",
+          "options": [
+            "てたまらない",
+            "てしょうがない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"漁業者たちはこの技術に感謝してもしきれないの（B）。\"\n→ 感謝してもしきれないのではあるまいか = \"chẳng phải là (biết ơn không hết) hay sao\"\n\n1. てたまらない: ...không chịu nổi (Sai: không hợp ngữ pháp với \"の\")\n2. てしょうがない: ...không chịu được (Sai: không hợp ngữ pháp)\n3. ではあるまいか: chẳng phải là...hay sao (Đúng)\n4. に越したことはない: không gì bằng (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "作者はどうして①驚いたのか。",
+          "options": [
+            "選手村で冷凍食品が使われていたから",
+            "おいしい餃子が無料で出されていたから",
+            "普通の冷凍餃子がおいしいと言われていたから",
+            "選手がスーパーの冷凍の餃子を食べていたから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"選手村でおいしいと評判だった餃子が、実はスーパーで売られているただの冷凍食品だったとわかって驚いた。\"\n\n1. Vì đồ đông lạnh được dùng ở làng vận động viên (Sai)\n2. Vì bánh gyoza ngon được phát miễn phí (Sai)\n3. Vì bánh gyoza đông lạnh bình thường (bán ở siêu thị) lại được khen ngon (Đúng)\n4. Vì vận động viên ăn bánh gyoza đông lạnh siêu thị (Sai)"
+        },
+        {
+          "id": 4,
+          "text": "どうして②彼らの市場が拡大するのか。",
+          "options": [
+            "魚なども運べるから",
+            "日本ではなく外国に売れるから",
+            "運ぶ時に氷の中に入れなくてもよいから",
+            "解凍で味が変わらないので遠くに売れるから"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍しても味が変わらない食料品が届けられることで、彼らの市場は拡大する...もし、冷凍は冷凍でも、解凍した後に味が変わらないように冷凍できれば、日本国内だけでなく海外にももっと売ることができるだろう。\"\n\n1. Vì có thể vận chuyển cả cá (Sai)\n2. Vì bán được ra nước ngoài chứ không phải Nhật Bản (Sai)\n3. Vì khi vận chuyển không cần cho vào đá (Sai)\n4. Vì vị không đổi khi rã đông nên có thể bán đi xa (cả trong và ngoài nước) (Đúng)"
+        },
+        {
+          "id": 5,
+          "text": "作者の意見はどれか。",
+          "options": [
+            "急速冷凍技術は消費者にも生産者にもよい技術だ。",
+            "急速冷凍でなければおいしい冷凍食品は作れない。",
+            "急速冷凍技術がなければ魚は海外には売ることができない。",
+            "冷凍餃子はおいしいと評判なので選手村で使われるようになった。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍技術の進歩は消費者よりも生産者に、特に消費地から遠い生産者に恩恵をもたらす\" (kết hợp đoạn đầu nói về lợi ích cho người tiêu dùng).\n\n1. Công nghệ đông lạnh nhanh tốt cho cả người tiêu dùng và nhà sản xuất (Đúng)\n2. Nếu không đông lạnh nhanh thì không thể làm đồ đông lạnh ngon (Sai)\n3. Nếu không có công nghệ đông lạnh nhanh thì cá không thể bán ra nước ngoài (Sai)\n4. Bánh gyoza đông lạnh được đồn ngon nên được dùng ở làng vận động viên (Sai)"
+        },
+        {
+          "id": 1,
+          "text": "うちの子に限って人の物を盗る（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"冷凍食品は味が向上して、世界中の選手が集まる選手村でも提供できる食品になったという（A）。\"\n→ ...というわけだ = \"tức là...\" (kết luận logic, giải thích lại điều đã nói).\n\n1. だけだ: chỉ là... (Sai)\n2. ものだ: vốn dĩ là... (Sai)\n3. わけだ: tức là, vậy là (Đúng)\n4. ばかりだ: chỉ toàn là... (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "怠けていたんだから試験に落ちる（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"漁業者たちはこの技術に感謝してもしきれないの（B）。\"\n→ 感謝してもしきれないのではあるまいか = \"chẳng phải là (biết ơn không hết) hay sao\"\n\n1. てたまらない: ...không chịu nổi (Sai: không hợp ngữ pháp với \"の\")\n2. てしょうがない: ...không chịu được (Sai: không hợp ngữ pháp)\n3. ではあるまいか: chẳng phải là...hay sao (Đúng)\n4. に越したことはない: không gì bằng (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "この商品は安い（  ）のによく売れる。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"選手村でおいしいと評判だった餃子が、実はスーパーで売られているただの冷凍食品だったとわかって驚いた。\"\n\n1. Vì đồ đông lạnh được dùng ở làng vận động viên (Sai)\n2. Vì bánh gyoza ngon được phát miễn phí (Sai)\n3. Vì bánh gyoza đông lạnh bình thường (bán ở siêu thị) lại được khen ngon (Đúng)\n4. Vì vận động viên ăn bánh gyoza đông lạnh siêu thị (Sai)"
+        },
+        {
+          "id": 4,
+          "text": "計画書は明日の会議で使うので今日中に作らない（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍しても味が変わらない食料品が届けられることで、彼らの市場は拡大する...もし、冷凍は冷凍でも、解凍した後に味が変わらないように冷凍できれば、日本国内だけでなく海外にももっと売ることができるだろう。\"\n\n1. Vì có thể vận chuyển cả cá (Sai)\n2. Vì bán được ra nước ngoài chứ không phải Nhật Bản (Sai)\n3. Vì khi vận chuyển không cần cho vào đá (Sai)\n4. Vì vị không đổi khi rã đông nên có thể bán đi xa (cả trong và ngoài nước) (Đúng)"
+        },
+        {
+          "id": 5,
+          "text": "地図も持たずに出かけたから、迷子になる（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍技術の進歩は消費者よりも生産者に、特に消費地から遠い生産者に恩恵をもたらす\" (kết hợp đoạn đầu nói về lợi ích cho người tiêu dùng).\n\n1. Công nghệ đông lạnh nhanh tốt cho cả người tiêu dùng và nhà sản xuất (Đúng)\n2. Nếu không đông lạnh nhanh thì không thể làm đồ đông lạnh ngon (Sai)\n3. Nếu không có công nghệ đông lạnh nhanh thì cá không thể bán ra nước ngoài (Sai)\n4. Bánh gyoza đông lạnh được đồn ngon nên được dùng ở làng vận động viên (Sai)"
+        },
+        {
+          "id": 6,
+          "text": "会いたくない（  ）が、今日は都合が悪いのでまた今度。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "仕事がないから借金が返せる（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "貧乏でも両親へお金を送ることは止める（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "明日、試験があるからみんな一生懸命勉強している（  ）。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "熱がある（  ）のに体がだるくて動けない。",
+          "options": [
+            "わけだ",
+            "わけがない",
+            "わけではない",
+            "わけにはいかない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 1,
+          "text": "体が重い。どこか悪いの（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"冷凍食品は味が向上して、世界中の選手が集まる選手村でも提供できる食品になったという（A）。\"\n→ ...というわけだ = \"tức là...\" (kết luận logic, giải thích lại điều đã nói).\n\n1. だけだ: chỉ là... (Sai)\n2. ものだ: vốn dĩ là... (Sai)\n3. わけだ: tức là, vậy là (Đúng)\n4. ばかりだ: chỉ toàn là... (Sai)"
+        },
+        {
+          "id": 2,
+          "text": "いくら押してもベルが鳴らない。壊れているの（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"漁業者たちはこの技術に感謝してもしきれないの（B）。\"\n→ 感謝してもしきれないのではあるまいか = \"chẳng phải là (biết ơn không hết) hay sao\"\n\n1. てたまらない: ...không chịu nổi (Sai: không hợp ngữ pháp với \"の\")\n2. てしょうがない: ...không chịu được (Sai: không hợp ngữ pháp)\n3. ではあるまいか: chẳng phải là...hay sao (Đúng)\n4. に越したことはない: không gì bằng (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "健康を維持するためには運動する（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"選手村でおいしいと評判だった餃子が、実はスーパーで売られているただの冷凍食品だったとわかって驚いた。\"\n\n1. Vì đồ đông lạnh được dùng ở làng vận động viên (Sai)\n2. Vì bánh gyoza ngon được phát miễn phí (Sai)\n3. Vì bánh gyoza đông lạnh bình thường (bán ở siêu thị) lại được khen ngon (Đúng)\n4. Vì vận động viên ăn bánh gyoza đông lạnh siêu thị (Sai)"
+        },
+        {
+          "id": 4,
+          "text": "私はアイディアを出した（  ）。製品にできたのは君の力だよ。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍しても味が変わらない食料品が届けられることで、彼らの市場は拡大する...もし、冷凍は冷凍でも、解凍した後に味が変わらないように冷凍できれば、日本国内だけでなく海外にももっと売ることができるだろう。\"\n\n1. Vì có thể vận chuyển cả cá (Sai)\n2. Vì bán được ra nước ngoài chứ không phải Nhật Bản (Sai)\n3. Vì khi vận chuyển không cần cho vào đá (Sai)\n4. Vì vị không đổi khi rã đông nên có thể bán đi xa (cả trong và ngoài nước) (Đúng)"
+        },
+        {
+          "id": 5,
+          "text": "窓のガラスが破られている。泥棒に入られたの（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"冷凍技術の進歩は消費者よりも生産者に、特に消費地から遠い生産者に恩恵をもたらす\" (kết hợp đoạn đầu nói về lợi ích cho người tiêu dùng).\n\n1. Công nghệ đông lạnh nhanh tốt cho cả người tiêu dùng và nhà sản xuất (Đúng)\n2. Nếu không đông lạnh nhanh thì không thể làm đồ đông lạnh ngon (Sai)\n3. Nếu không có công nghệ đông lạnh nhanh thì cá không thể bán ra nước ngoài (Sai)\n4. Bánh gyoza đông lạnh được đồn ngon nên được dùng ở làng vận động viên (Sai)"
+        },
+        {
+          "id": 6,
+          "text": "前から欲しかったパソコンを買ってもらったので嬉しく（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "私はただのアルバイト（  ）けど、言うべきことは言うよ。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "給料は多い（  ）けど、忙しすぎるのは嫌だ。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "一人っ子なので兄弟がほしく（  ）。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "もらえるお金は1 万円（  ）けれど、面白い仕事だからやってみたい。",
+          "options": [
+            "てたまらない",
+            "にすぎない",
+            "ではあるまいか",
+            "に越したことはない"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    }
+  ]
+}

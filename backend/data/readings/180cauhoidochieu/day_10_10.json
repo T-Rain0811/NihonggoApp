@@ -1,0 +1,419 @@
+{
+  "lesson": 6,
+  "title": "Day 10/10",
+  "time_limit_minutes": 26,
+  "parts": [
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 1 (3 phút)",
+      "passage": "Test 1 (3 phút)  \n 日本人が英語を苦手とすることは相変わらずである。私も、指導している大学院生\nに英語の論文を書かせるときに、いつも苦労している。せっかく学力があるのに、国\n際舞台に立つ際に英語力がハンディキャップになっている。文部科学省から企業、家\n庭のお父さん、お母さんまで、自分や他人の英語力を何とかしたい！と願っている人\nは多いのではないか。 \n 最初から自分でしゃべろうとすると、つたなくなってしまう。それで、ついおっく\nうになる。ならば、熟練した人々が、目の前で流暢な会話を交わしているところを、\nライヴで見るのがよい。そのような「劇場効果」による学習効果は、きわめて高い。\n実際、私たちは、大人たちの交わす言葉のドラマを聞きながら、母国語を学んできた\nのである。 \n（茂木健一郎『脳の中の人生』中公新書ラクレによる）",
+      "questions": [
+        {
+          "id": 2,
+          "text": "「劇場効果」とあるが、その学習方法とはどのようなものか。",
+          "options": [
+            "海外で実際に英語をどんどん使って話してみること",
+            "英語が上手な人同士が会話しているのをその場で見ること",
+            "英語のドラマや映画を見て勉強すること",
+            "子供の時から大人に英語をきちんと学ぶこと"
+          ],
+          "correct_answer": 2,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"熟練した人々が、目の前で流暢な会話を交わしているところを、ライヴで見るのがよい。そのような「劇場効果」による学習効果は、きわめて高い。\"\n\n1. Ra nước ngoài thực tế dùng tiếng Anh nói chuyện nhiều (Sai)\n2. Nhìn tận mắt tại chỗ người giỏi tiếng Anh nói chuyện với nhau (Đúng)\n3. Xem phim/kịch tiếng Anh để học (Sai)\n4. Học tiếng Anh bài bản từ người lớn từ nhỏ (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 2 (3 phút)",
+      "passage": "Test 2  (3 phút)    \n 現在は、モノと情報があふれかえっている時代だ。少し前には、テレビやラジオで\n確認するしかなかったプロ野球のリアルタイムな試合経過も、今では、ネットさえつ\nながれば携帯やスマホでどこにいても知ることができる。 \n 商品やサービスについての情報も大量に流通しているので、まったく目にしたこと\nも、耳にしたこともない商品やサービスなどはそうそうない。 \n こうした状況で、顧客に、「あっ、これは面白そう」「他とちょっと違うな」「な\nんだ、これは！？」という驚きや感動を与えられなければ、勝ち残ることができない\nわけだから、ビジネスのハードルは以前に比べて相当に高くなっている。いかにユニ\nークな価値を持つ発想ができるかで勝敗は決まってくる。 \n（理央周『ひつまぶしとスマホは、同じ原理でできている』日経プレミアシリーズに\nよる）",
+      "questions": [
+        {
+          "id": 3,
+          "text": "筆者の考えに合うものはどれか。",
+          "options": [
+            "現在を情報があふれかえっている時代なので、何が本当かを見極める目が大切だ。",
+            "情報を得る手段としてネットに頼りすぎており、ネットがないと何もできない。",
+            "他と同じことをしていては、お客様の目を引くことはできない。",
+            "以前と比べるとユニークな発想を持つ会社が増えてきた。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"「あっ、これは面白そう」「他とちょっと違うな」...という驚きや感動を与えられなければ、勝ち残ることができないわけだから...いかにユニークな価値を持つ発想ができるかで勝敗は決まってくる。\"\n\n1. Vì thời đại tràn ngập thông tin nên cần con mắt phân biệt đúng sai (Sai)\n2. Quá phụ thuộc vào internet để lấy thông tin, không có mạng thì không làm được gì (Sai)\n3. Làm giống người khác thì không thể thu hút khách hàng (Đúng)\n4. So với trước, số công ty có ý tưởng độc đáo đã tăng lên (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 3 (3 phút)",
+      "passage": "Test 3  (3 phút)    \nいけづくり【生け作り】 \n 刺身の食べ方のひとつで、珍重される（注1）。ぴくぴく動いているのがいいのであ\nって、動かないでいるのには、わざとお酒をかけたり、つついたりして、跳ねるのを\n見て面白がっている。味はこの際どうでもいい。生きているのなら新鮮だ。新鮮だか\nらおいしいに違いないという、論理にならない論理によって、おいしがられる。 \n 数年前、イギリスの権威ある科学雑誌に、魚には痛覚（注2）があるという論文が発\n表された。以来、私は、生け作りがおいしいと思えなくなってしまった。世の中には、\n知らないでいるほうがずっと幸せであることが、たくさんある。読まなきゃよかった。 \n（金田一秀穂『お食辞解』文春文庫による） \n（注1）珍重する：珍しいものとして大切にする \n（注2）痛覚：痛いと感じる感覚",
+      "questions": [
+        {
+          "id": 4,
+          "text": "筆者がイギリスの雑誌を読まなきゃよかったと思っているのはなぜか。",
+          "options": [
+            "新鮮だからおいしいということに、根拠がないと書いてあったから",
+            "動いている魚を見ているだけでおいしさを感じるのは勘違いだとわかったから",
+            "魚が痛みを感じていることを知り、生け作りのおいしさを感じなくなったから",
+            "動かないものを動かそうとしてつついたりすると、魚が嫌がると知ったから"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"イギリスの権威ある科学雑誌に、魚には痛覚があるという論文が発表された。以来、私は、生け作りがおいしいと思えなくなってしまった。\"\n\n1. Vì viết rằng \"tươi thì ngon\" là không có căn cứ (Sai)\n2. Vì hiểu ra rằng thấy cá đang cử động rồi cảm nhận ngon chỉ là ngộ nhận (Sai)\n3. Biết cá cảm nhận đau, nên không còn thấy ngon món sashimi cá sống (Đúng)\n4. Biết rằng cá sẽ khó chịu khi bị chọc/lay để cử động (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 4 (3 phút)",
+      "passage": "Test 4  (3 phút)  \n以下は、ある会社が出したメールの内容である。 \n 毎日の業務お疲れ様です。今夏の夏季一斉休暇について下記のとおり決定しました\nのでお知らせいたします。\n1．期間  ：8 月12 日（土）から8 月17 日（木）までの6 日間\n2．注意事項：休暇期間中は、原則として本社事務所および工場への立入りができ   \n     ません。立入りの必要がある場合には、あらかじめ各課の課長の許 \n     可を得て入場許可証を受領し、総務部長に提出してください。\n3．その他 ：8 月18 日（金）から平常勤務とします。 \n     当日から速やかに平常業務が再開できるよう、各自事前の清掃等実 \n     施してください。 \n     なお、この件に関してご質問のある場合は、総務部・石田までメー   \n     ルをお送りください。 \n以上よろしくお願いします。",
+      "questions": [
+        {
+          "id": 5,
+          "text": "休暇中に工場に入りたい社員は、まず何をしなければならないか。",
+          "options": [
+            "課長に立入りを申請する。",
+            "総務部長に入場許可証を提出する。",
+            "清掃等を実施する。",
+            "総務の石田さんにメールする。"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"立入りの必要がある場合には、あらかじめ各課の課長の許可を得て入場許可証を受領し、総務部長に提出してください。\"\n→ Trình tự: (1) xin phép 課長 → (2) nhận giấy phép → (3) nộp cho 総務部長.\n\n1. Xin phép trưởng phòng để được vào (Đúng)\n2. Nộp giấy phép vào cửa cho trưởng phòng tổng vụ (Sai: Đây là bước 3)\n3. Thực hiện dọn dẹp (Sai)\n4. Gửi email cho anh Ishida ở phòng tổng vụ (Sai)"
+        }
+      ]
+    },
+    {
+      "part_type": "reading_fill_in_blank",
+      "instruction": "Test 5 (14 phút)",
+      "passage": "Test 5  (14 phút) \n 昨日の3 時ごろアリさんは「明日までに書類を作っておいて」と課長に頼まれました\nが、その日のうちに終わりませんでした。次の朝、続きをやっていると、 課長が来て\n「書類できている？」と聞きました。アリさんは驚いて、「今、作成中です。今日中\nに終わりますから大丈夫ですよ」と答えました。すると、今度は課長が驚いて「えっ、\nもう、できていると思っていたのに」と言いました。アリさんはそれを聞いて、昨日\nのうちに作らなければならなかったのかと、ショックの（ A ）何も言えなくなって\nしまいました。 \n「～までに」と言う時、例えば「3 日までに届けて」なら普通3 日も含まれます。で\nは、「赤ちゃんが起きるまでに」はどうでしょうか。起きる前と考える人が多いでし\nょう。アリさんのケースのように「明日までに」と言った場合に「明日」が入ると考\nえるのは当然だと思われますが、実は課長のように考える日本人もいます。もちろん、\nこのような依頼の仕方は避けるべきですが、言われた方も確認したほうがいいです。\n日本語が上手になれば言葉の誤解は起き（ B ）と思うかもしれませんが、実は上手\nだからこそ、起きる恐れがあるのです。日本語が下手な人には話す方も理解したかど\nうか確認しますが、上手な場合は確認しないことが多いからです。\n6．（  ）の中に「げ、一方、あげく、あまり」を入れなさい。\n7．（  ）の中に「っけ、っぽい、っこない、っぱなし」を入れなさい。",
+      "questions": [
+        {
+          "id": 1,
+          "text": "（ A ）の中に一番よいものを入れなさい。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"ショックの（A）何も言えなくなってしまいました。\"\n→ ショックのあまり = \"vì quá sốc\" (mức độ quá mức dẫn đến kết quả không nói được gì).\n\n1. げ: vẻ, có vẻ (Sai: không dùng sau danh từ)\n2. 一方: mặt khác; càng...càng (Sai: không hợp nghĩa)\n3. あげく: rốt cuộc (Sai: cần đi sau động từ/quá trình dài)\n4. あまり: vì quá... (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "（ B ）の中に一番よいものを入れなさい。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"日本語が上手になれば言葉の誤解は起き（B）と思うかもしれませんが\"\n→ 起きっこない = \"sẽ không thể xảy ra\" (khẳng định mạnh mẽ về việc không thể).\n\n1. っけ: nhỉ? (Sai)\n2. っぽい: có vẻ (Sai)\n3. っこない: không đời nào, không thể nào (Đúng)\n4. っぱなし: cứ để nguyên như vậy (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "なぜこんなことが起きたのか。",
+          "options": [
+            "明日の意味がいろいろあるから",
+            "アリさんが「明日までに」の使い方を間違えたから",
+            "外国人と日本人で「明日までに」の意味が違うから",
+            "「明日までに」の認識が課長とアリさんでは違っていたから"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"「明日までに」と言った場合に「明日」が入ると考えるのは当然だと思われますが、実は課長のように考える日本人もいます。\"\n→ Ari nghĩ \"明日までに\" bao gồm cả ngày mai, nhưng trưởng phòng lại hiểu khác (trước đó/không tính ngày mai).\n\n1. Vì \"ngày mai\" có nhiều nghĩa (Sai)\n2. Vì Ari dùng sai cách \"明日までに\" (Sai)\n3. Vì người nước ngoài và người Nhật hiểu \"明日までに\" khác nhau (Sai)\n4. Vì nhận thức về \"明日までに\" khác nhau giữa trưởng phòng và Ari (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "課長はどう言えばよかったのか。",
+          "options": [
+            "今日書類が必要ですよ。",
+            "明日の朝までに書類を完成させてね。",
+            "今日中に書類を作っておいてください。",
+            "明日の9 時まで書類を作ってください。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng thực chất muốn tài liệu xong trước sáng hôm sau, nhưng lại dùng từ \"明日までに\" khiến Ari hiểu nhầm.\n\n1. \"Hôm nay cần tài liệu đấy\" (Sai: mơ hồ)\n2. \"Hãy hoàn thành tài liệu trước sáng mai\" (Sai: mơ hồ)\n3. \"Hãy làm xong tài liệu trong hôm nay\" (Đúng: Rõ ràng, không gây hiểu lầm)\n4. \"Hãy làm tài liệu đến 9 giờ sáng mai\" (Sai: không có thông tin này)"
+        },
+        {
+          "id": 5,
+          "text": "内容が正しいものはどれか。",
+          "options": [
+            "今回のようなことが起きた責任は課長にある。",
+            "「〜までに」は最も誤解が生じやすい言葉である。",
+            "書類は前の日には完成させる必要があった。",
+            "日本語が上手ではない人にはこのような問題は起きない。"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng nói \"えっ、もう、できていると思っていたのに\" (tưởng đã xong rồi) khi nghe Ari nói \"hôm nay sẽ xong\" — cho thấy trưởng phòng mong đợi tài liệu xong từ ngày hôm trước.\n\n1. Trách nhiệm của việc này thuộc về trưởng phòng (Sai)\n2. \"〜までに\" là từ dễ gây hiểu lầm nhất (Sai)\n3. Tài liệu cần phải hoàn thành trước (ngày hôm trước) (Đúng)\n4. Người không giỏi tiếng Nhật sẽ không gặp vấn đề này (Sai)"
+        },
+        {
+          "id": 1,
+          "text": "日本は子供が減る（  ）なので将来が心配だ。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"ショックの（A）何も言えなくなってしまいました。\"\n→ ショックのあまり = \"vì quá sốc\" (mức độ quá mức dẫn đến kết quả không nói được gì).\n\n1. げ: vẻ, có vẻ (Sai: không dùng sau danh từ)\n2. 一方: mặt khác; càng...càng (Sai: không hợp nghĩa)\n3. あげく: rốt cuộc (Sai: cần đi sau động từ/quá trình dài)\n4. あまり: vì quá... (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "母は娘を心配する（  ）毎日電話している。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"日本語が上手になれば言葉の誤解は起き（B）と思うかもしれませんが\"\n→ 起きっこない = \"sẽ không thể xảy ra\" (khẳng định mạnh mẽ về việc không thể).\n\n1. っけ: nhỉ? (Sai)\n2. っぽい: có vẻ (Sai)\n3. っこない: không đời nào, không thể nào (Đúng)\n4. っぱなし: cứ để nguyên như vậy (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "女の子が一人で寂し（  ）に座っている。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"「明日までに」と言った場合に「明日」が入ると考えるのは当然だと思われますが、実は課長のように考える日本人もいます。\"\n→ Ari nghĩ \"明日までに\" bao gồm cả ngày mai, nhưng trưởng phòng lại hiểu khác (trước đó/không tính ngày mai).\n\n1. Vì \"ngày mai\" có nhiều nghĩa (Sai)\n2. Vì Ari dùng sai cách \"明日までに\" (Sai)\n3. Vì người nước ngoài và người Nhật hiểu \"明日までに\" khác nhau (Sai)\n4. Vì nhận thức về \"明日までに\" khác nhau giữa trưởng phòng và Ari (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "悩んだ（  ）会社を辞めることにした。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng thực chất muốn tài liệu xong trước sáng hôm sau, nhưng lại dùng từ \"明日までに\" khiến Ari hiểu nhầm.\n\n1. \"Hôm nay cần tài liệu đấy\" (Sai: mơ hồ)\n2. \"Hãy hoàn thành tài liệu trước sáng mai\" (Sai: mơ hồ)\n3. \"Hãy làm xong tài liệu trong hôm nay\" (Đúng: Rõ ràng, không gây hiểu lầm)\n4. \"Hãy làm tài liệu đến 9 giờ sáng mai\" (Sai: không có thông tin này)"
+        },
+        {
+          "id": 5,
+          "text": "あまり急いだ（  ）階段で転んでしまった。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng nói \"えっ、もう、できていると思っていたのに\" (tưởng đã xong rồi) khi nghe Ari nói \"hôm nay sẽ xong\" — cho thấy trưởng phòng mong đợi tài liệu xong từ ngày hôm trước.\n\n1. Trách nhiệm của việc này thuộc về trưởng phòng (Sai)\n2. \"〜までに\" là từ dễ gây hiểu lầm nhất (Sai)\n3. Tài liệu cần phải hoàn thành trước (ngày hôm trước) (Đúng)\n4. Người không giỏi tiếng Nhật sẽ không gặp vấn đề này (Sai)"
+        },
+        {
+          "id": 6,
+          "text": "物の値段が上がる（  ）だから生活が苦しくなった。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "上司が朝からが忙し（  ）にしているので声がかけづらい。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "会議で何度も議論した（  ）何も決められなかった。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "新幹線が止まってからの町の（  ）の変化にショックを受けた。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "薬を飲んだのに熱は上がる（  ）だ。",
+          "options": [
+            "げ",
+            "一方",
+            "あげく",
+            "あまり"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 1,
+          "text": "歩け（  ）とあきらめないでリハビリを続けよう。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"ショックの（A）何も言えなくなってしまいました。\"\n→ ショックのあまり = \"vì quá sốc\" (mức độ quá mức dẫn đến kết quả không nói được gì).\n\n1. げ: vẻ, có vẻ (Sai: không dùng sau danh từ)\n2. 一方: mặt khác; càng...càng (Sai: không hợp nghĩa)\n3. あげく: rốt cuộc (Sai: cần đi sau động từ/quá trình dài)\n4. あまり: vì quá... (Đúng)"
+        },
+        {
+          "id": 2,
+          "text": "この料理はちょっと水（  ）なあ。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Câu văn: \"日本語が上手になれば言葉の誤解は起き（B）と思うかもしれませんが\"\n→ 起きっこない = \"sẽ không thể xảy ra\" (khẳng định mạnh mẽ về việc không thể).\n\n1. っけ: nhỉ? (Sai)\n2. っぽい: có vẻ (Sai)\n3. っこない: không đời nào, không thể nào (Đúng)\n4. っぱなし: cứ để nguyên như vậy (Sai)"
+        },
+        {
+          "id": 3,
+          "text": "もう山田さんを紹介した（  ）。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 4,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: \"「明日までに」と言った場合に「明日」が入ると考えるのは当然だと思われますが、実は課長のように考える日本人もいます。\"\n→ Ari nghĩ \"明日までに\" bao gồm cả ngày mai, nhưng trưởng phòng lại hiểu khác (trước đó/không tính ngày mai).\n\n1. Vì \"ngày mai\" có nhiều nghĩa (Sai)\n2. Vì Ari dùng sai cách \"明日までに\" (Sai)\n3. Vì người nước ngoài và người Nhật hiểu \"明日までに\" khác nhau (Sai)\n4. Vì nhận thức về \"明日までに\" khác nhau giữa trưởng phòng và Ari (Đúng)"
+        },
+        {
+          "id": 4,
+          "text": "水を出し（  ）にしたのは誰なの。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng thực chất muốn tài liệu xong trước sáng hôm sau, nhưng lại dùng từ \"明日までに\" khiến Ari hiểu nhầm.\n\n1. \"Hôm nay cần tài liệu đấy\" (Sai: mơ hồ)\n2. \"Hãy hoàn thành tài liệu trước sáng mai\" (Sai: mơ hồ)\n3. \"Hãy làm xong tài liệu trong hôm nay\" (Đúng: Rõ ràng, không gây hiểu lầm)\n4. \"Hãy làm tài liệu đến 9 giờ sáng mai\" (Sai: không có thông tin này)"
+        },
+        {
+          "id": 5,
+          "text": "毎日漢字を50 個覚えるなんて、でき（  ）よ。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 3,
+          "explanation": "",
+          "explanation_vi": "Trích dẫn: Trưởng phòng nói \"えっ、もう、できていると思っていたのに\" (tưởng đã xong rồi) khi nghe Ari nói \"hôm nay sẽ xong\" — cho thấy trưởng phòng mong đợi tài liệu xong từ ngày hôm trước.\n\n1. Trách nhiệm của việc này thuộc về trưởng phòng (Sai)\n2. \"〜までに\" là từ dễ gây hiểu lầm nhất (Sai)\n3. Tài liệu cần phải hoàn thành trước (ngày hôm trước) (Đúng)\n4. Người không giỏi tiếng Nhật sẽ không gặp vấn đề này (Sai)"
+        },
+        {
+          "id": 6,
+          "text": "30 歳にもなって彼の行動は子供（  ）。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 7,
+          "text": "僕は10km も泳げ（  ）よ。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 8,
+          "text": "服を脱ぎ（  ）にしないでかごに入れなさい。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 9,
+          "text": "君はこのテーブルが安（  ）と言うけど20 万円もしたんだよ。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        },
+        {
+          "id": 10,
+          "text": "このカレー屋、月曜日が休みだった（  ）。",
+          "options": [
+            "っけ",
+            "っぽい",
+            "っこない",
+            "っぱなし"
+          ],
+          "correct_answer": 1,
+          "explanation": "",
+          "explanation_vi": ""
+        }
+      ]
+    }
+  ]
+}

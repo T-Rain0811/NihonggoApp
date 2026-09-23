@@ -6,6 +6,7 @@ from backend.data.grammas.grammar_data import GRAMMAR
 
 DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "grammas", "drillsGrammas")
 VOCAB_DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "vocabs", "drillsVocabs")
+READING_DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "readings", "180cauhoidochieu")
 
 # Mapping bài học → URL video giảng dạy
 VIDEO_URLS = {
@@ -109,7 +110,15 @@ class DataManager:
     def get_drill_lesson_list(drill_type="grammar"):
         """Liệt kê các bài Drill có sẵn từ thư mục drills/."""
         lessons = []
-        target_dir = DRILLS_DIR if drill_type == "grammar" else VOCAB_DRILLS_DIR
+        if drill_type == "grammar":
+            target_dir = DRILLS_DIR
+        elif drill_type == "vocabulary":
+            target_dir = VOCAB_DRILLS_DIR
+        elif drill_type == "reading":
+            target_dir = READING_DRILLS_DIR
+        else:
+            return lessons
+            
         if not os.path.isdir(target_dir):
             return lessons
         for fname in sorted(os.listdir(target_dir)):
@@ -126,12 +135,23 @@ class DataManager:
                     })
                 except Exception as e:
                     print(f"Error loading drill {fname}: {e}")
+                    
+        # Sort by lesson number
+        lessons.sort(key=lambda x: x.get("lesson", 0))
         return lessons
 
     @staticmethod
     def load_drill_lesson(filename, drill_type="grammar"):
         """Đọc nội dung bài Drill từ file JSON."""
-        target_dir = DRILLS_DIR if drill_type == "grammar" else VOCAB_DRILLS_DIR
+        if drill_type == "grammar":
+            target_dir = DRILLS_DIR
+        elif drill_type == "vocabulary":
+            target_dir = VOCAB_DRILLS_DIR
+        elif drill_type == "reading":
+            target_dir = READING_DRILLS_DIR
+        else:
+            return None
+            
         fpath = os.path.join(target_dir, filename)
         try:
             with open(fpath, "r", encoding="utf-8") as f:
