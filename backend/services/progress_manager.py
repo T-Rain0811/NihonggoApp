@@ -21,8 +21,9 @@ class ProgressManager:
             json.dump(data, f, indent=4, ensure_ascii=False)
 
     @staticmethod
-    def mark_drill_completed(drill_type, filename):
+    def mark_drill_completed(drill_type, filename, is_perfect=False):
         data = ProgressManager.load_progress()
+        
         if "completed_drills" not in data:
             data["completed_drills"] = {}
         if drill_type not in data["completed_drills"]:
@@ -30,9 +31,23 @@ class ProgressManager:
             
         if filename not in data["completed_drills"][drill_type]:
             data["completed_drills"][drill_type].append(filename)
-            ProgressManager.save_progress(data)
+            
+        if is_perfect:
+            if "perfect_drills" not in data:
+                data["perfect_drills"] = {}
+            if drill_type not in data["perfect_drills"]:
+                data["perfect_drills"][drill_type] = []
+            if filename not in data["perfect_drills"][drill_type]:
+                data["perfect_drills"][drill_type].append(filename)
+                
+        ProgressManager.save_progress(data)
 
     @staticmethod
     def is_drill_completed(drill_type, filename):
         data = ProgressManager.load_progress()
         return filename in data.get("completed_drills", {}).get(drill_type, [])
+
+    @staticmethod
+    def is_drill_perfect(drill_type, filename):
+        data = ProgressManager.load_progress()
+        return filename in data.get("perfect_drills", {}).get(drill_type, [])

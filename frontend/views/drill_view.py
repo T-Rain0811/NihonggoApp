@@ -148,14 +148,6 @@ class StarOrderWidget(QWidget):
             slot_btn.setEnabled(False)
             slot_btn.setStyleSheet(correct_colors[is_correct])
 
-        # Nếu sai → hiển thị thứ tự đúng trên các slot
-        if not is_correct:
-            for i, correct_idx_1based in enumerate(self.correct_order):
-                correct_text = self.options[correct_idx_1based - 1]
-                self.slot_btns[i].setText(correct_text)
-                self.slot_btns[i].setStyleSheet(
-                    "background-color:#10B981;color:white;border-radius:8px;"
-                )
 
 
 # ─────────────────────────────────────────────────────────────────────────────
@@ -410,8 +402,13 @@ class DrillPracticeWidget(QWidget):
             btn = QPushButton(f"第{les['lesson']:02d}回")
             filename = les["filename"]
             
-            if ProgressManager.is_drill_completed(self.drill_type, filename):
+            is_completed = ProgressManager.is_drill_completed(self.drill_type, filename)
+            is_perfect = ProgressManager.is_drill_perfect(self.drill_type, filename)
+            
+            if is_perfect:
                 btn.setObjectName("BtnEasy")
+            elif is_completed:
+                btn.setObjectName("BtnHard")
             else:
                 btn.setObjectName("BtnStart")
                 
@@ -720,7 +717,8 @@ class DrillPracticeWidget(QWidget):
             grade = "📚 Cần ôn luyện thêm!"
             
         if pct >= 60 and hasattr(self, 'current_filename') and self.current_filename:
-            ProgressManager.mark_drill_completed(self.drill_type, self.current_filename)
+            is_perfect = (pct == 100)
+            ProgressManager.mark_drill_completed(self.drill_type, self.current_filename, is_perfect=is_perfect)
             # Tải lại danh sách để cập nhật màu nút
             self._load_lesson_list()
 

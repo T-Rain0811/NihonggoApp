@@ -1,6 +1,16 @@
 {
     "completed_drills": {
         "grammar": [
+            "lesson_01.json",
+            "lesson_02.json"
+        ],
+        "vocab": [
+            "lesson_01.json",
+            "lesson_02.json"
+        ]
+    },
+    "perfect_drills": {
+        "vocab": [
             "lesson_01.json"
         ]
     }

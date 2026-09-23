@@ -2666,7 +2666,7 @@ VOCABULARY = {
         {
             "word": "目立つ",
             "reading": "めだつ",
-            "meaning": "Nổi bật",
+            "meaning": "Nổi bật, nổi lên, gây chú ý",
             "kanji_meaning": "MỤC LẬP"
         },
         {
@@ -2840,7 +2840,7 @@ VOCABULARY = {
         {
             "word": "要領",
             "reading": "ようりょう",
-            "meaning": "Trọng điểm, khéo léo",
+            "meaning": "Trọng điểm, khái quát\nNghệ thuật; thủ thuật",
             "kanji_meaning": " YẾU LÃNH"
         },
         {
