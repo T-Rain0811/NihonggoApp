@@ -3288,7 +3288,7 @@ VOCABULARY = {
         {
             "word": "的確",
             "reading": "てきかく",
-            "meaning": "Đích xác",
+            "meaning": "đích xác, chính xác, đúng đắn, thích đáng",
             "kanji_meaning": "ĐÍCH XÁC"
         },
         {

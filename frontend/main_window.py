@@ -98,7 +98,7 @@ class MainWindow(QMainWindow):
         self.stack.addWidget(self.grammar_drill_view)
 
         # ── 6: Vocab Drill ─────────────────────────────────────────────────
-        self.vocab_drill_view = DrillPracticeWidget(drill_type="vocab")
+        self.vocab_drill_view = DrillPracticeWidget(drill_type="vocabulary")
         self.vocab_drill_view.navigate_back.connect(
             lambda: self.stack.setCurrentWidget(self.vocab_hub)
         )
