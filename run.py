@@ -1,16 +1,21 @@
-import sys
+import webbrowser
+import http.server
+import socketserver
 import os
 
-# QWebEngineWidgets phải được import TRƯỚC khi QApplication được tạo (yêu cầu của Qt6)
-os.environ["QTWEBENGINE_CHROMIUM_FLAGS"] = "--disable-gpu --log-level=3"
+PORT = 8080
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-from PyQt6.QtWidgets import QApplication
-from PyQt6.QtWebEngineWidgets import QWebEngineView  # noqa: F401 – pre-import required
-from frontend.main_window import MainWindow
+url = f"http://localhost:{PORT}/index.html"
+print(f"=== JLPT N2 Mastery Web Server ===")
+print(f"Mở ứng dụng tại: {url}")
+print("Nhấn Ctrl + C để dừng server.")
 
-if __name__ == "__main__":
-    app = QApplication(sys.argv)
-    window = MainWindow()
-    window.show()
-    sys.exit(app.exec())
+webbrowser.open(url)
 
+Handler = http.server.SimpleHTTPRequestHandler
+with socketserver.TCPServer(("", PORT), Handler) as httpd:
+    try:
+        httpd.serve_forever()
+    except KeyboardInterrupt:
+        print("\nĐã dừng server thành công.")

@@ -1,9 +1,8 @@
-PyQt6==6.11.0
-PyQt6-Qt6==6.11.2
-PyQt6_sip==13.12.0
-PyQt6-WebEngine==6.11.0
-PyQt6-WebEngine-Qt6==6.11.2
-yt-dlp>=2023.0.0
-opencv-python>=4.8.0
-
-openpyxl==3.1.2
+# ==============================================================================
+# JLPT N2 Mastery - Web Application
+# ==============================================================================
+# Ứng dụng đã được chuyển đổi hoàn toàn sang Web App tĩnh (HTML5, Modern CSS, ES Modules)
+# và hỗ trợ cài đặt PWA (Progressive Web App) trên iPhone / Android.
+#
+# Không cần cài đặt bất kỳ thư viện Python nào (No external Python dependencies needed).
+# Chạy trực tiếp qua trình duyệt hoặc mở bằng lệnh: python run.py
