@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="vi" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>JLPT N2 Mastery - Ứng dụng học tiếng Nhật N2</title>
+  <meta name="description" content="Luyện thi JLPT N2 toàn diện: 58 bài từ vựng, 150 mẫu ngữ pháp, Power Drill và sổ tay từ vựng cá nhân hỗ trợ trên iPhone và PC.">
+  <meta name="theme-color" content="#0b0f19">
+
+  <!-- Apple iOS Web App Meta Tags -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="JLPT N2">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+
+  <!-- PWA Manifest -->
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Google Fonts: Inter & Noto Sans JP -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Desktop & Mobile Top Header -->
+    <header class="header">
+      <div class="header-inner">
+        <div class="brand-logo" id="brand-link">
+          <span class="brand-badge">N2</span>
+          <span class="brand-name">JLPT Mastery</span>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+          <a class="nav-link active" data-target="home">Trang chủ</a>
+          <a class="nav-link" data-target="vocab">Từ vựng</a>
+          <a class="nav-link" data-target="grammar">Ngữ pháp</a>
+          <a class="nav-link" data-target="custom">Sổ tay cá nhân</a>
+          <a class="nav-link" data-target="drill">Luyện Drill</a>
+          <a class="nav-link" data-target="extra">Mở rộng</a>
+        </nav>
+
+        <!-- Header Actions -->
+        <div class="header-actions">
+          <button class="icon-btn" id="btn-theme-toggle" title="Đổi giao diện Sáng / Tối">☀️</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Dynamic View Area -->
+    <main class="main-content" id="view-container">
+      <!-- Dynamic views rendered via JavaScript -->
+    </main>
+
+    <!-- Mobile Bottom Navigation Bar -->
+    <nav class="mobile-nav">
+      <a class="mobile-nav-item active" data-target="home">
+        <span class="nav-icon">🏠</span>
+        <span>Trang chủ</span>
+      </a>
+      <a class="mobile-nav-item" data-target="vocab">
+        <span class="nav-icon">📚</span>
+        <span>Từ vựng</span>
+      </a>
+      <a class="mobile-nav-item" data-target="grammar">
+        <span class="nav-icon">✍️</span>
+        <span>Ngữ pháp</span>
+      </a>
+      <a class="mobile-nav-item" data-target="custom">
+        <span class="nav-icon">📝</span>
+        <span>Sổ tay</span>
+      </a>
+      <a class="mobile-nav-item" data-target="drill">
+        <span class="nav-icon">⚡</span>
+        <span>Drill</span>
+      </a>
+    </nav>
+  </div>
+
+  <!-- Main Application Script (ES Module) -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

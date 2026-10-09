@@ -1,0 +1,166 @@
+// Main Application Controller & Router
+import { renderHome } from './views/home.js';
+import { renderVocab } from './views/vocab.js';
+import { renderGrammar } from './views/grammar.js';
+import { renderCustomVocab } from './views/customVocab.js';
+import { renderDrill } from './views/drill.js';
+import { renderExtraVocab } from './views/extraVocab.js';
+
+class App {
+  constructor() {
+    this.state = {
+      currentView: 'home',
+      vocabData: null,
+      grammarData: null,
+      extraVocabData: null,
+      meta: null,
+      drillsVocabList: [],
+      drillsGrammarList: [],
+      customVocab: JSON.parse(localStorage.getItem('jlpt_custom_vocab') || '[]'),
+      theme: localStorage.getItem('jlpt_theme') || 'dark',
+      selectedVocabLesson: '1',
+      selectedGrammarSession: '1'
+    };
+
+    this.container = document.getElementById('view-container');
+    this.init();
+  }
+
+  async init() {
+    this.applyTheme(this.state.theme);
+    this.setupThemeToggle();
+    this.setupNavigation();
+    this.setupPWA();
+
+    // Show initial loading or render home immediately
+    this.navigate('home');
+
+    // Load data in background
+    await this.loadAllData();
+  }
+
+  async loadAllData() {
+    try {
+      const [vocabRes, grammarRes, extraRes, metaRes, drillsVocabRes, drillsGrammarRes] = await Promise.all([
+        fetch('data/vocab_data.json').then(r => r.json()).catch(() => null),
+        fetch('data/grammar_data.json').then(r => r.json()).catch(() => null),
+        fetch('data/extra_vocab_data.json').then(r => r.json()).catch(() => null),
+        fetch('data/meta.json').then(r => r.json()).catch(() => null),
+        fetch('data/drills_vocab_list.json').then(r => r.json()).catch(() => []),
+        fetch('data/drills_grammar_list.json').then(r => r.json()).catch(() => [])
+      ]);
+
+      this.state.vocabData = vocabRes;
+      this.state.grammarData = grammarRes;
+      this.state.extraVocabData = extraRes;
+      this.state.meta = metaRes;
+      this.state.drillsVocabList = drillsVocabRes;
+      this.state.drillsGrammarList = drillsGrammarRes;
+
+      // Re-render current view with data loaded
+      this.renderCurrentView();
+    } catch (e) {
+      console.error('Error loading data:', e);
+    }
+  }
+
+  navigate(viewName) {
+    this.state.currentView = viewName;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Update active state in top & bottom nav
+    document.querySelectorAll('.nav-link, .mobile-nav-item').forEach(el => {
+      const target = el.getAttribute('data-target');
+      if (target === viewName) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    });
+
+    this.renderCurrentView();
+  }
+
+  renderCurrentView() {
+    if (!this.container) return;
+
+    switch (this.state.currentView) {
+      case 'home':
+        renderHome(this.container, this.state, (v) => this.navigate(v));
+        break;
+      case 'vocab':
+        renderVocab(this.container, this.state, (v) => this.navigate(v));
+        break;
+      case 'grammar':
+        renderGrammar(this.container, this.state, (v) => this.navigate(v));
+        break;
+      case 'custom':
+        renderCustomVocab(this.container, this.state, (v) => this.navigate(v));
+        break;
+      case 'drill':
+        renderDrill(this.container, this.state, (v) => this.navigate(v));
+        break;
+      case 'extra':
+        renderExtraVocab(this.container, this.state, (v) => this.navigate(v));
+        break;
+      default:
+        renderHome(this.container, this.state, (v) => this.navigate(v));
+    }
+  }
+
+  setupNavigation() {
+    // Top brand link
+    document.getElementById('brand-link')?.addEventListener('click', () => this.navigate('home'));
+
+    // Desktop nav links
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = link.getAttribute('data-target');
+        if (target) this.navigate(target);
+      });
+    });
+
+    // Mobile nav links
+    document.querySelectorAll('.mobile-nav-item').forEach(item => {
+      item.addEventListener('click', (e) => {
+        e.preventDefault();
+        const target = item.getAttribute('data-target');
+        if (target) this.navigate(target);
+      });
+    });
+  }
+
+  applyTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    const themeBtn = document.getElementById('btn-theme-toggle');
+    if (themeBtn) {
+      themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
+    }
+    localStorage.setItem('jlpt_theme', theme);
+  }
+
+  setupThemeToggle() {
+    const themeBtn = document.getElementById('btn-theme-toggle');
+    if (themeBtn) {
+      themeBtn.addEventListener('click', () => {
+        const nextTheme = this.state.theme === 'dark' ? 'light' : 'dark';
+        this.state.theme = nextTheme;
+        this.applyTheme(nextTheme);
+      });
+    }
+  }
+
+  setupPWA() {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+        .then(() => console.log('Service Worker registered.'))
+        .catch(err => console.log('Service Worker registration failed:', err));
+    }
+  }
+}
+
+// Start app on DOM ready
+document.addEventListener('DOMContentLoaded', () => {
+  window.jlptApp = new App();
+});
