@@ -2908,7 +2908,7 @@ VOCABULARY = {
         {
             "word": "定める",
             "reading": "さだめる",
-            "meaning": "Quy định, xác định",
+            "meaning": "Làm ổn định, Quy định, xác định",
             "kanji_meaning": "ĐỊNH"
         },
         {

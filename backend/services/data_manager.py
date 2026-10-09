@@ -6,7 +6,7 @@ from backend.data.grammas.grammar_data import GRAMMAR
 
 DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "grammas", "drillsGrammas")
 VOCAB_DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "vocabs", "drillsVocabs")
-READING_DRILLS_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "readings", "180cauhoidochieu")
+
 
 # Mapping bài học → URL video giảng dạy
 VIDEO_URLS = {
@@ -114,8 +114,6 @@ class DataManager:
             target_dir = DRILLS_DIR
         elif drill_type == "vocabulary":
             target_dir = VOCAB_DRILLS_DIR
-        elif drill_type == "reading":
-            target_dir = READING_DRILLS_DIR
         else:
             return lessons
             
@@ -147,8 +145,6 @@ class DataManager:
             target_dir = DRILLS_DIR
         elif drill_type == "vocabulary":
             target_dir = VOCAB_DRILLS_DIR
-        elif drill_type == "reading":
-            target_dir = READING_DRILLS_DIR
         else:
             return None
             
