@@ -1,11 +1,11 @@
 {
-  "name": "JLPT N2 Mastery",
-  "short_name": "JLPT N2",
-  "description": "Ứng dụng luyện thi tiếng Nhật JLPT N2 toàn diện",
+  "name": "N2 合格 - Quốc Toàn",
+  "short_name": "N2 合格",
+  "description": "Ứng dụng luyện thi JLPT N2 cá nhân hóa của Quốc Toàn",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#0b0f19",
-  "theme_color": "#0b0f19",
+  "background_color": "#091827",
+  "theme_color": "#0e2439",
   "orientation": "portrait-primary",
   "icons": [
     {

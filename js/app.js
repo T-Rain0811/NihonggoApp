@@ -1,10 +1,10 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js';
-import { renderVocab } from './views/vocab.js';
-import { renderGrammar } from './views/grammar.js';
-import { renderCustomVocab } from './views/customVocab.js';
-import { renderDrill } from './views/drill.js';
-import { renderExtraVocab } from './views/extraVocab.js';
+import { renderHome } from './views/home.js?v=7';
+import { renderVocab } from './views/vocab.js?v=7';
+import { renderGrammar } from './views/grammar.js?v=11';
+import { renderCustomVocab } from './views/customVocab.js?v=7';
+import { renderDrill } from './views/drill.js?v=7';
+import { renderExtraVocab } from './views/extraVocab.js?v=7';
 
 class App {
   constructor() {
@@ -17,7 +17,6 @@ class App {
       drillsVocabList: [],
       drillsGrammarList: [],
       customVocab: JSON.parse(localStorage.getItem('jlpt_custom_vocab') || '[]'),
-      theme: localStorage.getItem('jlpt_theme') || 'dark',
       selectedVocabLesson: '1',
       selectedGrammarSession: '1'
     };
@@ -27,12 +26,10 @@ class App {
   }
 
   async init() {
-    this.applyTheme(this.state.theme);
-    this.setupThemeToggle();
     this.setupNavigation();
     this.setupPWA();
 
-    // Show initial loading or render home immediately
+    // Render home view immediately
     this.navigate('home');
 
     // Load data in background
@@ -129,26 +126,6 @@ class App {
         if (target) this.navigate(target);
       });
     });
-  }
-
-  applyTheme(theme) {
-    document.documentElement.setAttribute('data-theme', theme);
-    const themeBtn = document.getElementById('btn-theme-toggle');
-    if (themeBtn) {
-      themeBtn.textContent = theme === 'dark' ? '☀️' : '🌙';
-    }
-    localStorage.setItem('jlpt_theme', theme);
-  }
-
-  setupThemeToggle() {
-    const themeBtn = document.getElementById('btn-theme-toggle');
-    if (themeBtn) {
-      themeBtn.addEventListener('click', () => {
-        const nextTheme = this.state.theme === 'dark' ? 'light' : 'dark';
-        this.state.theme = nextTheme;
-        this.applyTheme(nextTheme);
-      });
-    }
   }
 
   setupPWA() {
