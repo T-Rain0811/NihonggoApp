@@ -269,6 +269,8 @@ class DraggableCard(QFrame):
         self.is_front = True
         self.drag_distance = 0
         self.threshold = 100
+        self._is_animating = False
+        self._anim = None
 
     def set_item(self, item):
         self.current_item = item
@@ -322,6 +324,15 @@ class DraggableCard(QFrame):
             self.dragged.emit(self.drag_distance)
             self.update()
 
+    def flip(self):
+        if not self.current_item:
+            return
+        self.is_front = not self.is_front
+        self.update_content()
+        self.drag_distance = 0
+        self.dragged.emit(0)
+        self.update()
+
     def mouseReleaseEvent(self, event):
         if not self.start_pos or not self.current_item:
             return
@@ -329,11 +340,7 @@ class DraggableCard(QFrame):
         delta = event.globalPosition().toPoint() - self.start_pos
         
         if abs(delta.x()) < 5 and abs(delta.y()) < 5:
-            self.is_front = not self.is_front
-            self.update_content()
-            self.drag_distance = 0
-            self.dragged.emit(0)
-            self.update()
+            self.flip()
         else:
             if delta.x() > self.threshold:
                 self.drag_distance = 0
@@ -364,3 +371,44 @@ class DraggableCard(QFrame):
             painter.setBrush(QBrush(color))
             painter.setPen(Qt.PenStyle.NoPen)
             painter.drawRoundedRect(self.rect(), 16, 16)
+
+    def animateLeft(self):
+        if self._is_animating or not self.current_item: return
+        self._animate_swipe(-self.threshold - 50)
+        
+    def animateRight(self):
+        if self._is_animating or not self.current_item: return
+        self._animate_swipe(self.threshold + 50)
+        
+    def _animate_swipe(self, target_x_delta):
+        self._is_animating = True
+        self.orig_pos = self.pos()
+        
+        from PyQt6.QtCore import QVariantAnimation, QEasingCurve
+        self._anim = QVariantAnimation(self)
+        self._anim.setDuration(200)
+        self._anim.setStartValue(0)
+        self._anim.setEndValue(target_x_delta)
+        self._anim.setEasingCurve(QEasingCurve.Type.OutQuad)
+        
+        self._anim.valueChanged.connect(self._on_anim_value)
+        self._anim.finished.connect(lambda: self._on_anim_finished(target_x_delta))
+        self._anim.start()
+        
+    def _on_anim_value(self, value):
+        from PyQt6.QtCore import QPoint
+        self.move(self.orig_pos + QPoint(value, 0))
+        self.drag_distance = value
+        self.dragged.emit(self.drag_distance)
+        self.update()
+        
+    def _on_anim_finished(self, target_x_delta):
+        self._is_animating = False
+        self.drag_distance = 0
+        self.dragged.emit(0)
+        if target_x_delta > 0:
+            self.swipedRight.emit()
+        else:
+            self.swipedLeft.emit()
+        self.update()
+

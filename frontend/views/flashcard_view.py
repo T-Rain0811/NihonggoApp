@@ -10,6 +10,7 @@ from frontend.components.cards import DraggableCard
 class FlashcardPracticeWidget(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent)
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
         self.original_queue = []
         self.queue = []
         self.struggled_items = []
@@ -165,6 +166,7 @@ class FlashcardPracticeWidget(QWidget):
             self.card.show()
             self.btn_search.show()
             self.btn_shuffle.show()
+            self.setFocus()
         else:
             self.card_area.hide()
             self.btn_search.hide()
@@ -276,3 +278,13 @@ class FlashcardPracticeWidget(QWidget):
         
     def retry_struggled(self):
         self.load_vocab(self.struggled_items)
+
+    def keyPressEvent(self, event):
+        if not self.card_area.isHidden() and self.queue:
+            if event.key() == Qt.Key.Key_Left:
+                self.card.animateLeft()
+            elif event.key() == Qt.Key.Key_Right:
+                self.card.animateRight()
+            elif event.key() in (Qt.Key.Key_Enter, Qt.Key.Key_Return):
+                self.card.flip()
+        super().keyPressEvent(event)

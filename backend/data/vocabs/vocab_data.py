@@ -3506,7 +3506,7 @@ VOCABULARY = {
         {
             "word": "除く",
             "reading": "のぞく",
-            "meaning": "Loại bỏ",
+            "meaning": "Ngoại trừ",
             "kanji_meaning": "TRỪ"
         },
         {
@@ -3560,7 +3560,7 @@ VOCABULARY = {
         {
             "word": "過密",
             "reading": "かみつ",
-            "meaning": "Quá dày đặc (lịch trình)",
+            "meaning": "Quá dày đặc (lịch trình)\nĐông đúc, dày đặc",
             "kanji_meaning": "QUÁ MẬT"
         },
         {
@@ -3578,7 +3578,7 @@ VOCABULARY = {
         {
             "word": "必死",
             "reading": "ひっし",
-            "meaning": "Quyết tâm, liều lĩnh",
+            "meaning": "Quyết tâm, liều lĩnh\nLiều mạng, toàn lực, dốc toàn bộ công sức cho một điều gì đó",
             "kanji_meaning": "TẤT TỬ"
         },
         {
@@ -3608,13 +3608,13 @@ VOCABULARY = {
         {
             "word": "解釈",
             "reading": "かいしゃく",
-            "meaning": "Giải thích, hiểu",
+            "meaning": "Giải nghĩa",
             "kanji_meaning": "GIẢI THÍCH"
         },
         {
             "word": "書留",
             "reading": "かきとめ",
-            "meaning": "Gửi bảo đảm",
+            "meaning": "Gửi bảo đảm, gửi có kí nhận\nHình thức gửi cần chữ ký xác nhận",
             "kanji_meaning": "THƯ LƯU"
         },
         {
@@ -3634,19 +3634,19 @@ VOCABULARY = {
         {
             "word": "掲載",
             "reading": "けいさい",
-            "meaning": "Đăng tải",
+            "meaning": "Đăng lên, post lên, up lên",
             "kanji_meaning": "YẾT TẢI"
         },
         {
             "word": "掲示",
             "reading": "けいじ",
-            "meaning": "Niêm yết",
+            "meaning": "Bản thông báo\nTreo lên , dán lên ( thông báo, cho xem)\nCáo thị ( Viết thông báo ở nơi mọi người nhìn thấy )",
             "kanji_meaning": "YẾT THỊ"
         },
         {
             "word": "傑作",
             "reading": "けっさく",
-            "meaning": "Kiệt tác",
+            "meaning": "Kiệt tác, kiệt xuất, cực phẩm",
             "kanji_meaning": "KIỆT TÁC"
         },
         {
@@ -3658,13 +3658,13 @@ VOCABULARY = {
         {
             "word": "講演",
             "reading": "こうえん",
-            "meaning": "Giảng giải",
+            "meaning": "Diễn thuyết, Diễn giảng",
             "kanji_meaning": "GIẢNG DIỄN"
         },
         {
             "word": "好奇心",
             "reading": "こうきしん",
-            "meaning": "Lòng hiếu kỳ",
+            "meaning": "Tính hiếu kỳ, sự tò mò, lòng ham học hỏi",
             "kanji_meaning": "HẢO KỲ TÂM"
         },
         {
@@ -3676,7 +3676,7 @@ VOCABULARY = {
         {
             "word": "好評",
             "reading": "こうひょう",
-            "meaning": "Đánh giá tốt",
+            "meaning": "Đánh giá tốt, đánh giá cao",
             "kanji_meaning": "HẢO BÌNH"
         },
         {
@@ -3699,8 +3699,8 @@ VOCABULARY = {
         },
         {
             "word": "取材",
-            "reading": "しゅざi",
-            "meaning": "Thu thập tin tức",
+            "reading": "しゅざい",
+            "meaning": "Sự điều tra; sự lượm lặt; sự thu thập tài liệu thông tin\nphỏng vấn",
             "kanji_meaning": "THỦ TÀI"
         },
         {
@@ -3754,7 +3754,7 @@ VOCABULARY = {
         {
             "word": "投書",
             "reading": "とうしょ",
-            "meaning": "Thư bạn đọc",
+            "meaning": "Thư góp ý, feedback",
             "kanji_meaning": "ĐẦU THƯ"
         },
         {
@@ -3790,7 +3790,7 @@ VOCABULARY = {
         {
             "word": "報道",
             "reading": "ほうどう",
-            "meaning": "Tin tức, thông tấn",
+            "meaning": "Đưa tin trên báo",
             "kanji_meaning": "BÁO ĐẠO"
         },
         {
@@ -3832,7 +3832,7 @@ VOCABULARY = {
         {
             "word": "及ぼす",
             "reading": "およぼす",
-            "meaning": "Gây ra",
+            "meaning": "Gây (ảnh hưởng, hại)",
             "kanji_meaning": "CẬP"
         },
         {
@@ -3844,7 +3844,7 @@ VOCABULARY = {
         {
             "word": "覆す",
             "reading": "くつがえす",
-            "meaning": "Lật ngược",
+            "meaning": "Lật ngược lại\nLật đổ thể chế, chính quyền\nPhủ định toàn diện\nlội ngược dòng",
             "kanji_meaning": "PHÚC"
         },
         {
