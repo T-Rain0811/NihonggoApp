@@ -191,7 +191,7 @@ export function renderDrill(container, state, navigate) {
         ${parts.map((part, partIdx) => `
           <div class="drill-part-card" style="background:var(--glass-bg); backdrop-filter:blur(20px); -webkit-backdrop-filter:blur(20px); border:1px solid var(--glass-border); border-radius:var(--radius-xl); padding:24px; box-shadow:var(--shadow-glass);">
             <div style="display:flex; align-items:center; gap:10px; margin-bottom:12px;">
-              <span style="background:linear-gradient(135deg, #2563eb, #3897d8); color:#fff; font-size:0.8rem; font-weight:800; padding:4px 12px; border-radius:var(--radius-full);">
+              <span style="background:var(--toan-navy); color:#fff; font-size:0.8rem; font-weight:800; padding:4px 12px; border-radius:var(--radius-full);">
                 PHẦN ${partIdx + 1}
               </span>
               <span style="font-size:0.95rem; font-weight:700; color:var(--text-primary);">${part.instruction || ''}</span>

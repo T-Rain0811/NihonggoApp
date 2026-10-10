@@ -1,8 +1,0 @@
-# ==============================================================================
-# JLPT N2 Mastery - Web Application
-# ==============================================================================
-# Ứng dụng đã được chuyển đổi hoàn toàn sang Web App tĩnh (HTML5, Modern CSS, ES Modules)
-# và hỗ trợ cài đặt PWA (Progressive Web App) trên iPhone / Android.
-#
-# Không cần cài đặt bất kỳ thư viện Python nào (No external Python dependencies needed).
-# Chạy trực tiếp qua trình duyệt hoặc mở bằng lệnh: python run.py

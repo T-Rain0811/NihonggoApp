@@ -1,20 +1,20 @@
 {
-  "name": "N2 合格 - Quốc Toàn",
-  "short_name": "N2 合格",
+  "name": "TŌあN - N2 合格祈願",
+  "short_name": "TŌあN",
   "description": "Ứng dụng luyện thi JLPT N2 cá nhân hóa của Quốc Toàn",
   "start_url": "./index.html",
   "display": "standalone",
-  "background_color": "#091827",
-  "theme_color": "#0e2439",
+  "background_color": "#F7F6F2",
+  "theme_color": "#142B49",
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "assets/icon-192.png",
+      "src": "assets/logo_page.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "assets/icon-512.png",
+      "src": "assets/logo_page.png",
       "sizes": "512x512",
       "type": "image/png"
     }

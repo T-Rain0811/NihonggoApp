@@ -1,10 +1,10 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=7';
-import { renderVocab } from './views/vocab.js?v=7';
-import { renderGrammar } from './views/grammar.js?v=11';
-import { renderCustomVocab } from './views/customVocab.js?v=7';
-import { renderDrill } from './views/drill.js?v=7';
-import { renderExtraVocab } from './views/extraVocab.js?v=7';
+import { renderHome } from './views/home.js?v=34';
+import { renderVocab } from './views/vocab.js?v=34';
+import { renderGrammar } from './views/grammar.js?v=34';
+import { renderCustomVocab } from './views/customVocab.js?v=27';
+import { renderDrill } from './views/drill.js?v=30';
+import { renderExtraVocab } from './views/extraVocab.js?v=24';
 
 class App {
   constructor() {
@@ -38,14 +38,27 @@ class App {
 
   async loadAllData() {
     try {
-      const [vocabRes, grammarRes, extraRes, metaRes, drillsVocabRes, drillsGrammarRes] = await Promise.all([
-        fetch('data/vocab_data.json').then(r => r.json()).catch(() => null),
+      const [vocabRes, grammarRes, extraRes, metaRes, drillsVocabRes, drillsGrammarRes, personalRes] = await Promise.all([
+        fetch('data/vocab_data.json?_t=' + Date.now()).then(r => r.json()).catch(() => null),
         fetch('data/grammar_data.json').then(r => r.json()).catch(() => null),
         fetch('data/extra_vocab_data.json').then(r => r.json()).catch(() => null),
         fetch('data/meta.json').then(r => r.json()).catch(() => null),
         fetch('data/drills_vocab_list.json').then(r => r.json()).catch(() => []),
-        fetch('data/drills_grammar_list.json').then(r => r.json()).catch(() => [])
+        fetch('data/drills_grammar_list.json').then(r => r.json()).catch(() => []),
+        fetch('data/personal_vocab.json?_t=' + Date.now()).then(r => r.json()).catch(() => null)
       ]);
+
+      // Apply overrides to vocab_data if any
+      const overrides = JSON.parse(localStorage.getItem('jlpt_vocab_overrides') || '{}');
+      if (vocabRes && Object.keys(overrides).length > 0) {
+        for (const [key, newMeaning] of Object.entries(overrides)) {
+          const [lesson, word] = key.split(':::');
+          if (vocabRes[lesson]) {
+            const item = vocabRes[lesson].find(w => w.word === word);
+            if (item) item.meaning = newMeaning;
+          }
+        }
+      }
 
       this.state.vocabData = vocabRes;
       this.state.grammarData = grammarRes;
@@ -53,6 +66,14 @@ class App {
       this.state.meta = metaRes;
       this.state.drillsVocabList = drillsVocabRes;
       this.state.drillsGrammarList = drillsGrammarRes;
+
+      // Personal vocab: use personal_vocab.json if available
+      if (Array.isArray(personalRes) && personalRes.length > 0) {
+        this.state.customVocab = personalRes;
+        localStorage.setItem('jlpt_custom_vocab', JSON.stringify(personalRes));
+      } else {
+        this.state.customVocab = JSON.parse(localStorage.getItem('jlpt_custom_vocab') || '[]');
+      }
 
       // Re-render current view with data loaded
       this.renderCurrentView();
