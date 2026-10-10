@@ -793,7 +793,8 @@ body {
   box-shadow: var(--shadow-glass);
 }
 
-.flashcard.is-flipped {
+.flashcard.is-flipped,
+.flashcard.flipped {
   transform: rotateY(180deg);
 }
 

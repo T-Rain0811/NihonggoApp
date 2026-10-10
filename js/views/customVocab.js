@@ -407,15 +407,22 @@ export function renderCustomVocab(container, state, navigate) {
       </div>
     `;
 
-    document.getElementById('fc-scene')?.addEventListener('click', (e) => {
-      if (e.target.closest('.btn-audio') || e.target.closest('#btn-fc-mazii')) return;
+    function toggleCustomFlip() {
       isCardFlipped = !isCardFlipped;
-      document.getElementById('fc-card')?.classList.toggle('flipped', isCardFlipped);
+      const card = document.getElementById('fc-card');
+      if (card) {
+        card.classList.toggle('is-flipped', isCardFlipped);
+        card.classList.toggle('flipped', isCardFlipped);
+      }
+    }
+
+    document.getElementById('fc-scene')?.addEventListener('click', (e) => {
+      if (e.target.closest('.btn-audio') || e.target.closest('#btn-fc-mazii') || e.target.closest('button') || e.target.closest('a')) return;
+      toggleCustomFlip();
     });
 
     document.getElementById('fc-flip')?.addEventListener('click', () => {
-      isCardFlipped = !isCardFlipped;
-      document.getElementById('fc-card')?.classList.toggle('flipped', isCardFlipped);
+      toggleCustomFlip();
     });
 
     document.getElementById('fc-prev')?.addEventListener('click', () => {

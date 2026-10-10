@@ -19,6 +19,7 @@ export function renderVocab(container, state, navigate) {
   let quizQuestions = [];
   let quizQuestionCount = 'all'; // Default to ALL words of the selected lessons!
   let activeKeyHandler = null;
+  let activeFlashcardCleanups = null;
   let lastClickedLessonIndex = -1;
   let isMobileSheetOpen = false;
 
@@ -26,6 +27,13 @@ export function renderVocab(container, state, navigate) {
     if (activeKeyHandler) {
       window.removeEventListener('keydown', activeKeyHandler);
       activeKeyHandler = null;
+    }
+  }
+
+  function cleanupFlashcardHandlers() {
+    if (activeFlashcardCleanups) {
+      activeFlashcardCleanups();
+      activeFlashcardCleanups = null;
     }
   }
 
@@ -396,11 +404,13 @@ export function renderVocab(container, state, navigate) {
 
     if (currentTab === 'list') {
       cleanupKeyHandler();
+      cleanupFlashcardHandlers();
       renderListView(content, words);
     } else if (currentTab === 'flashcard') {
       renderFlashcardView(content, words);
     } else if (currentTab === 'quiz') {
       cleanupKeyHandler();
+      cleanupFlashcardHandlers();
       renderQuizView(content, words);
     }
   }
@@ -583,6 +593,7 @@ export function renderVocab(container, state, navigate) {
   // ─── 2. FLASHCARD 3D (Slow-motion hold & clean card) ────────────────────────
   function renderFlashcardView(content, words) {
     cleanupKeyHandler();
+    cleanupFlashcardHandlers();
 
     if (!words || words.length === 0) {
       content.innerHTML = `<div style="text-align:center; padding: 40px; color: var(--text-muted);">Vui lòng chọn ít nhất 1 bài để học Flashcard.</div>`;
@@ -656,8 +667,11 @@ export function renderVocab(container, state, navigate) {
     const stampReview = document.getElementById('fc-stamp-review');
 
     function flipCard() {
+      if (isAnimating) return;
       isCardFlipped = !isCardFlipped;
+      cardBox.style.transition = 'transform 0.45s cubic-bezier(0.4, 0, 0.2, 1)';
       cardBox.classList.toggle('is-flipped', isCardFlipped);
+      cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
     }
 
     function advanceCard() {
@@ -720,32 +734,35 @@ export function renderVocab(container, state, navigate) {
       }
     }
 
-    // Touch & Mouse Drag Handling
+    // Drag, Swipe & Tap Handling via Pointer Events (unifies Mouse & Touch, avoids double events on mobile)
     let isDragging = false;
     let startX = 0;
     let startY = 0;
     let hasMoved = false;
+    let currentPointerId = null;
 
     function onPointerDown(e) {
       if (isAnimating) return;
-      if (e.target.closest('.btn-audio') || e.target.closest('#fc-btn-mazii')) return;
+      if (e.target.closest('.btn-audio') || e.target.closest('#fc-btn-mazii') || e.target.closest('button') || e.target.closest('a')) return;
+      if (e.button !== undefined && e.button !== 0) return; // Only primary mouse button
+      if (e.isPrimary === false) return;
+
       isDragging = true;
       hasMoved = false;
-      const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
-      const clientY = e.type.startsWith('touch') ? e.touches[0].clientY : e.clientY;
-      startX = clientX;
-      startY = clientY;
+      startX = e.clientX;
+      startY = e.clientY;
+      currentPointerId = e.pointerId;
       cardBox.style.transition = 'none';
     }
 
     function onPointerMove(e) {
       if (!isDragging || isAnimating) return;
-      const clientX = e.type.startsWith('touch') ? e.touches[0].clientX : e.clientX;
-      const clientY = e.type.startsWith('touch') ? e.touches[0].clientY : e.clientY;
-      const dx = clientX - startX;
-      const dy = clientY - startY;
+      if (currentPointerId !== null && e.pointerId !== currentPointerId) return;
 
-      if (Math.abs(dx) > 6 || Math.abs(dy) > 6) {
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+
+      if (Math.abs(dx) > 8 || Math.abs(dy) > 8) {
         hasMoved = true;
       }
 
@@ -754,27 +771,30 @@ export function renderVocab(container, state, navigate) {
         cardBox.style.transform = `translate(${dx}px, ${dy * 0.3}px) rotate(${rot}deg) ${isCardFlipped ? 'rotateY(180deg)' : ''}`;
 
         if (dx > 15) {
-          stampMastered.style.opacity = Math.min(1, (dx - 15) / 80).toString();
-          stampReview.style.opacity = '0';
+          if (stampMastered) stampMastered.style.opacity = Math.min(1, (dx - 15) / 80).toString();
+          if (stampReview) stampReview.style.opacity = '0';
         } else if (dx < -15) {
-          stampReview.style.opacity = Math.min(1, (Math.abs(dx) - 15) / 80).toString();
-          stampMastered.style.opacity = '0';
+          if (stampReview) stampReview.style.opacity = Math.min(1, (Math.abs(dx) - 15) / 80).toString();
+          if (stampMastered) stampMastered.style.opacity = '0';
         } else {
-          stampMastered.style.opacity = '0';
-          stampReview.style.opacity = '0';
+          if (stampMastered) stampMastered.style.opacity = '0';
+          if (stampReview) stampReview.style.opacity = '0';
         }
       }
     }
 
     function onPointerUp(e) {
-      if (!isDragging || isAnimating) return;
+      if (!isDragging) return;
+      if (currentPointerId !== null && e.pointerId !== currentPointerId) return;
       isDragging = false;
-      const endX = (e.type.startsWith('touch') && e.changedTouches) ? e.changedTouches[0].clientX : e.clientX;
-      const dx = endX !== undefined ? (endX - startX) : 0;
+      currentPointerId = null;
 
+      if (isAnimating) return;
+
+      const dx = e.clientX - startX;
+
+      // Tap / Click to flip: if not moved or movement < 12px
       if (!hasMoved || Math.abs(dx) < 12) {
-        cardBox.style.transition = 'transform 0.4s ease';
-        cardBox.style.transform = isCardFlipped ? '' : 'rotateY(180deg)';
         flipCard();
         return;
       }
@@ -786,19 +806,34 @@ export function renderVocab(container, state, navigate) {
       } else {
         cardBox.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
         cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
-        stampMastered.style.opacity = '0';
-        stampReview.style.opacity = '0';
+        if (stampMastered) stampMastered.style.opacity = '0';
+        if (stampReview) stampReview.style.opacity = '0';
+      }
+    }
+
+    function onPointerCancel(e) {
+      if (isDragging && (currentPointerId === null || e.pointerId === currentPointerId)) {
+        isDragging = false;
+        currentPointerId = null;
+        cardBox.style.transition = 'transform 0.3s ease';
+        cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
+        if (stampMastered) stampMastered.style.opacity = '0';
+        if (stampReview) stampReview.style.opacity = '0';
       }
     }
 
     const sceneEl = document.getElementById('fc-scene');
-    sceneEl.addEventListener('mousedown', onPointerDown);
-    window.addEventListener('mousemove', onPointerMove);
-    window.addEventListener('mouseup', onPointerUp);
+    sceneEl.addEventListener('pointerdown', onPointerDown);
+    window.addEventListener('pointermove', onPointerMove);
+    window.addEventListener('pointerup', onPointerUp);
+    window.addEventListener('pointercancel', onPointerCancel);
 
-    sceneEl.addEventListener('touchstart', onPointerDown, { passive: true });
-    sceneEl.addEventListener('touchmove', onPointerMove, { passive: true });
-    sceneEl.addEventListener('touchend', onPointerUp, { passive: true });
+    activeFlashcardCleanups = () => {
+      sceneEl.removeEventListener('pointerdown', onPointerDown);
+      window.removeEventListener('pointermove', onPointerMove);
+      window.removeEventListener('pointerup', onPointerUp);
+      window.removeEventListener('pointercancel', onPointerCancel);
+    };
 
     // Buttons
     document.getElementById('btn-fc-review').addEventListener('click', (e) => {

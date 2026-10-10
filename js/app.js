@@ -1,8 +1,8 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=34';
-import { renderVocab } from './views/vocab.js?v=34';
-import { renderGrammar } from './views/grammar.js?v=34';
-import { renderCustomVocab } from './views/customVocab.js?v=27';
+import { renderHome } from './views/home.js?v=35';
+import { renderVocab } from './views/vocab.js?v=35';
+import { renderGrammar } from './views/grammar.js?v=35';
+import { renderCustomVocab } from './views/customVocab.js?v=28';
 import { renderDrill } from './views/drill.js?v=30';
 import { renderExtraVocab } from './views/extraVocab.js?v=24';
 
