@@ -945,14 +945,10 @@ export function renderVocab(container, state, navigate) {
               Thêm từ mới, học Flashcard riêng hoặc gộp với các bài N2, và tự động đồng bộ lên GitHub
             </div>
           </div>
-          <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+          <div style="display:flex; align-items:center; gap:8px;">
             <button class="btn btn-primary btn-sm" id="btn-show-add-custom" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
               <span>➕ Thêm Từ Mới</span>
             </button>
-            <span class="cloud-sync-pill ${hasToken ? 'connected' : ''}" id="btn-open-sync-settings-custom" title="Trạng thái đồng bộ (Bấm để mở Cài đặt)">
-              <span>${hasToken ? '☁️ Cloud Sync: Bật' : '☁️ Lưu nội bộ'}</span>
-              <span style="font-size:0.7rem; opacity:0.8;">⚙️</span>
-            </span>
           </div>
         </div>
 
@@ -1075,12 +1071,6 @@ export function renderVocab(container, state, navigate) {
     document.getElementById('btn-cancel-custom-add')?.addEventListener('click', () => {
       editingCustomWordId = null;
       addBox.style.display = 'none';
-    });
-
-    document.getElementById('btn-open-sync-settings-custom')?.addEventListener('click', () => {
-      SettingsModal.show(() => {
-        renderCustomVocabTab(content);
-      });
     });
 
     // Form submit (Add or Edit)

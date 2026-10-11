@@ -37,15 +37,7 @@ export function renderCustomVocab(container, state, navigate) {
       <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 20px; flex-wrap:wrap; gap:12px;">
         <div style="display:flex; align-items:center; gap:12px;">
           <button class="btn btn-secondary btn-sm" id="btn-back-home">← Trang chủ</button>
-          <div>
-            <h2 style="font-size:1.35rem; font-weight:800; color:var(--text-title); margin:0;">Sổ Tay Từ Vựng Cá Nhân</h2>
-            <div style="margin-top:3px;">
-              <span class="cloud-sync-pill ${hasToken ? 'connected' : ''}" id="btn-open-sync-settings" title="Trạng thái đồng bộ (Bấm để mở Cài đặt)">
-                <span>${hasToken ? '☁️ Cloud Sync: Bật' : '☁️ Lưu nội bộ'}</span>
-                <span style="font-size:0.7rem; opacity:0.8;">⚙️</span>
-              </span>
-            </div>
-          </div>
+          <h2 style="font-size:1.35rem; font-weight:800; color:var(--text-title); margin:0;">Sổ Tay Từ Vựng Cá Nhân</h2>
         </div>
         <div style="display:flex; align-items:center; gap:10px;">
           <button class="btn btn-primary btn-sm" id="btn-show-add" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
@@ -113,12 +105,6 @@ export function renderCustomVocab(container, state, navigate) {
     document.getElementById('btn-back-home').addEventListener('click', () => {
       cleanupKeyHandler();
       navigate('home');
-    });
-
-    document.getElementById('btn-open-sync-settings')?.addEventListener('click', () => {
-      SettingsModal.show(() => {
-        render();
-      });
     });
     
     const addBox = document.getElementById('add-word-container');
