@@ -1,12 +1,12 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=54';
-import { renderVocab } from './views/vocab.js?v=54';
-import { renderGrammar } from './views/grammar.js?v=54';
-import { renderCustomVocab } from './views/customVocab.js?v=54';
-import { renderDrill } from './views/drill.js?v=54';
-import { renderExtraVocab } from './views/extraVocab.js?v=54';
-import { SettingsModal } from './services/settingsModal.js?v=54';
-import { GitHubSync } from './services/githubSync.js?v=54';
+import { renderHome } from './views/home.js?v=56';
+import { renderVocab } from './views/vocab.js?v=56';
+import { renderGrammar } from './views/grammar.js?v=56';
+import { renderCustomVocab } from './views/customVocab.js?v=56';
+import { renderDrill } from './views/drill.js?v=56';
+import { renderExtraVocab } from './views/extraVocab.js?v=56';
+import { SettingsModal } from './services/settingsModal.js?v=56';
+import { GitHubSync } from './services/githubSync.js?v=56';
 
 class App {
   constructor() {
@@ -28,6 +28,7 @@ class App {
   }
 
   async init() {
+    this.checkUrlTokenSync();
     this.setupNavigation();
     this.setupPWA();
 
@@ -36,6 +37,30 @@ class App {
 
     // Load data in background
     await this.loadAllData();
+  }
+
+  checkUrlTokenSync() {
+    try {
+      const hash = window.location.hash || '';
+      const search = window.location.search || '';
+      let incomingToken = '';
+      if (hash.includes('token=')) {
+        incomingToken = decodeURIComponent(hash.split('token=')[1].split('&')[0]);
+      } else if (search.includes('token=')) {
+        const params = new URLSearchParams(search);
+        incomingToken = params.get('token') || '';
+      } else if (hash.includes('sync=')) {
+        incomingToken = atob(decodeURIComponent(hash.split('sync=')[1].split('&')[0]));
+      }
+
+      if (incomingToken && (incomingToken.startsWith('ghp_') || incomingToken.startsWith('github_pat_'))) {
+        GitHubSync.setToken(incomingToken);
+        history.replaceState(null, '', window.location.pathname);
+        this.updateSettingsIndicator();
+      }
+    } catch (e) {
+      console.warn('URL token sync check error:', e);
+    }
   }
 
   async loadAllData() {
@@ -184,7 +209,7 @@ class App {
 
   setupPWA() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=54')
+      navigator.serviceWorker.register('sw.js?v=56')
         .then(() => console.log('Service Worker registered.'))
         .catch(err => console.log('Service Worker registration failed:', err));
     }

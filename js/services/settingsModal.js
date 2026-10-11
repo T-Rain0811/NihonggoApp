@@ -47,10 +47,16 @@ export const SettingsModal = {
               Đồng bộ từ vựng trực tiếp với kho lưu trữ <code>${GITHUB_CONFIG.owner}/${GITHUB_CONFIG.repo}</code>.
             </div>
 
-            <!-- Input Token -->
-            <div style="position:relative; margin-bottom:10px;">
-              <input type="password" id="input-settings-token" class="form-input" placeholder="Dán mã Token (ghp_...)" value="${currentToken}" style="width:100%; font-family:monospace; font-size:0.82rem; padding:8px 36px 8px 10px; border-radius:8px;">
-              <button type="button" id="btn-toggle-token-eye" style="position:absolute; right:8px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; font-size:1rem; padding:2px;" title="Xem/Ẩn">👁️</button>
+            <!-- Input Token with Paste button -->
+            <div style="display:flex; gap:6px; margin-bottom:6px;">
+              <div style="position:relative; flex:1;">
+                <input type="text" id="input-settings-token" class="form-input" placeholder="Dán mã Token (ghp_...)" value="${currentToken}" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" style="width:100%; font-family:monospace; font-size:0.82rem; padding:8px 36px 8px 10px; border-radius:8px;">
+                <button type="button" id="btn-toggle-token-eye" style="position:absolute; right:8px; top:50%; transform:translateY(-50%); background:none; border:none; cursor:pointer; font-size:1rem; padding:2px;" title="Xem/Ẩn">👁️</button>
+              </div>
+              <button type="button" class="btn btn-secondary btn-sm" id="btn-paste-token" style="font-size:0.78rem; padding:6px 10px; white-space:nowrap; border-radius:8px;" title="Dán mã từ bộ nhớ tạm">📋 Dán</button>
+            </div>
+            <div style="font-size:0.74rem; color:var(--text-muted); margin-bottom:10px; line-height:1.35;">
+              💡 <em>Lưu ý iPhone: Nhập mã và bấm Lưu 1 lần duy nhất trên App, hệ thống sẽ nhớ mãi trên máy.</em>
             </div>
 
             <!-- Test & Action Result Feedback Box -->
@@ -157,11 +163,30 @@ export const SettingsModal = {
     eyeBtn?.addEventListener('click', () => {
       if (tokenInput.type === 'password') {
         tokenInput.type = 'text';
-        eyeBtn.textContent = '🙈';
+        eyeBtn.textContent = '👁️';
       } else {
         tokenInput.type = 'password';
-        eyeBtn.textContent = '👁️';
+        eyeBtn.textContent = '🙈';
       }
+    });
+
+    // Paste from Clipboard
+    document.getElementById('btn-paste-token')?.addEventListener('click', async () => {
+      try {
+        if (navigator.clipboard && navigator.clipboard.readText) {
+          const text = await navigator.clipboard.readText();
+          if (text && text.trim()) {
+            tokenInput.value = text.trim();
+            showToast('Đã dán mã Token từ Clipboard!');
+            return;
+          }
+        }
+      } catch (err) {
+        console.warn('Clipboard error:', err);
+      }
+      tokenInput.focus();
+      tokenInput.select();
+      showToast('Chạm giữ vào ô rồi chọn "Dán" (Paste).');
     });
 
     // Test & Save Token
@@ -186,6 +211,11 @@ export const SettingsModal = {
       const check = await GitHubSync.testConnection(val);
       if (check.success) {
         GitHubSync.setToken(val);
+        // Tự động ghim token vào URL hash để khi người dùng Share -> Thêm vào MH chính sẽ tự động mang token sang PWA
+        try {
+          history.replaceState(null, '', '#token=' + encodeURIComponent(val));
+        } catch (e) {}
+
         testFeedback.style.background = 'rgba(16, 185, 129, 0.1)';
         testFeedback.style.color = '#047857';
         testFeedback.style.border = '1px solid rgba(16, 185, 129, 0.25)';
