@@ -1,10 +1,10 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=35';
-import { renderVocab } from './views/vocab.js?v=35';
-import { renderGrammar } from './views/grammar.js?v=35';
-import { renderCustomVocab } from './views/customVocab.js?v=28';
-import { renderDrill } from './views/drill.js?v=30';
-import { renderExtraVocab } from './views/extraVocab.js?v=24';
+import { renderHome } from './views/home.js?v=50';
+import { renderVocab } from './views/vocab.js?v=50';
+import { renderGrammar } from './views/grammar.js?v=50';
+import { renderCustomVocab } from './views/customVocab.js?v=50';
+import { renderDrill } from './views/drill.js?v=50';
+import { renderExtraVocab } from './views/extraVocab.js?v=50';
 
 class App {
   constructor() {
@@ -83,6 +83,12 @@ class App {
   }
 
   navigate(viewName) {
+    if (viewName === 'custom') {
+      this.state.vocabCategory = 'custom';
+      this.state.selectedVocabLesson = 'custom';
+      viewName = 'vocab';
+    }
+
     this.state.currentView = viewName;
     window.scrollTo({ top: 0, behavior: 'smooth' });
 
@@ -113,13 +119,16 @@ class App {
         renderGrammar(this.container, this.state, (v) => this.navigate(v));
         break;
       case 'custom':
-        renderCustomVocab(this.container, this.state, (v) => this.navigate(v));
+        this.state.vocabCategory = 'custom';
+        this.state.selectedVocabLesson = 'custom';
+        renderVocab(this.container, this.state, (v) => this.navigate(v));
         break;
       case 'drill':
         renderDrill(this.container, this.state, (v) => this.navigate(v));
         break;
       case 'extra':
-        renderExtraVocab(this.container, this.state, (v) => this.navigate(v));
+        this.state.vocabCategory = 'prefix';
+        renderVocab(this.container, this.state, (v) => this.navigate(v));
         break;
       default:
         renderHome(this.container, this.state, (v) => this.navigate(v));
@@ -151,7 +160,7 @@ class App {
 
   setupPWA() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js')
+      navigator.serviceWorker.register('sw.js?v=50')
         .then(() => console.log('Service Worker registered.'))
         .catch(err => console.log('Service Worker registration failed:', err));
     }

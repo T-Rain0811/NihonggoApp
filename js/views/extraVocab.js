@@ -67,10 +67,18 @@ export function renderExtraVocab(container, state, navigate) {
                (it.meaning && it.meaning.toLowerCase().includes(q));
       });
       document.getElementById('extra-list-grid').innerHTML = renderCards(filtered);
-      attachAudioListeners();
+      attachCardListeners();
     });
 
-    attachAudioListeners();
+    attachCardListeners();
+  }
+
+  function openMazii(word) {
+    if (!word) return;
+    const cleanWord = word.split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
+    if (!cleanWord) return;
+    const url = `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(cleanWord)}`;
+    window.open(url, '_blank');
   }
 
   function renderCards(items) {
@@ -83,7 +91,7 @@ export function renderExtraVocab(container, state, navigate) {
         const prefixClean = (it.prefix || '').replace(/[～~]/g, '');
         const exampleWords = it.words || [];
         return `
-          <div class="word-item-card" style="display:flex; flex-direction:column; justify-content:space-between; gap:12px;">
+          <div class="prefix-group-card" style="display:flex; flex-direction:column; justify-content:space-between; gap:12px;">
             <div>
               <div class="word-header" style="align-items:flex-start; margin-bottom:8px;">
                 <div>
@@ -104,23 +112,28 @@ export function renderExtraVocab(container, state, navigate) {
                     Từ ghép minh họa (${exampleWords.length}):
                   </div>
                   <div style="display:flex; flex-direction:column; gap:8px;">
-                    ${exampleWords.map(w => `
-                      <div style="background:rgba(255, 255, 255, 0.7); border:1px solid var(--glass-border-subtle); border-radius:var(--radius-sm); padding:8px 12px; display:flex; justify-content:space-between; align-items:center;">
-                        <div>
-                          <div style="display:flex; align-items:baseline; gap:8px;">
-                            <span style="font-family:var(--font-japanese); font-weight:800; font-size:1.08rem; color:var(--text-title);">${w.word || ''}</span>
-                            ${w.reading ? `<span style="font-size:0.82rem; color:var(--fuji-blue-primary); font-weight:700;">(${w.reading})</span>` : ''}
-                          </div>
-                          <div style="font-size:0.88rem; color:var(--text-secondary); margin-top:2px;">${w.meaning || ''}</div>
+                    ${exampleWords.map(w => {
+                      const cleanWord = (w.word || '').split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
+                      const maziiUrl = cleanWord ? `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(cleanWord)}` : '#';
+                      return `
+                      <div class="extra-word-row" data-search="${cleanWord}" title="Bấm để tra cứu '${cleanWord}' trên Mazii" style="background:rgba(255, 255, 255, 0.75); border:1px solid var(--glass-border-subtle); border-radius:var(--radius-sm); padding:10px 14px; display:flex; justify-content:space-between; align-items:center; gap:12px;">
+                        <div style="flex:1; min-width:0;">
+                          <!-- Dòng 1: Kanji -->
+                          <div style="font-family:var(--font-japanese); font-weight:800; font-size:1.15rem; color:var(--text-title); line-height:1.2;">${w.word || ''}</div>
+                          <!-- Dòng 2: Hiragana -->
+                          ${w.reading ? `<div style="font-size:0.86rem; color:var(--fuji-blue-primary); font-weight:700; margin-top:3px; line-height:1.2;">${w.reading}</div>` : ''}
+                          <!-- Dòng 3: Nghĩa -->
+                          <div style="font-size:0.9rem; color:var(--text-secondary); margin-top:4px; line-height:1.4; word-break:break-word;">${w.meaning || ''}</div>
                         </div>
-                        <div style="display:flex; align-items:center; gap:6px;">
-                          <a href="https://mazii.net/vi/search/word/ja-vi/${encodeURIComponent(w.word || '')}" target="_blank" rel="noopener noreferrer" class="word-mazii-badge" title="Tra cứu '${w.word}' trên từ điển Mazii" style="text-decoration:none;">
-                            🔍 Mazii
+                        <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
+                          <a href="${maziiUrl}" target="_blank" rel="noopener noreferrer" class="btn-mazii-icon" title="Tra cứu '${cleanWord}' trên từ điển Mazii">
+                            🔍
                           </a>
-                          <button class="icon-btn btn-audio" data-speak="${w.reading || w.word || ''}" title="Nghe phát âm '${w.word}'" style="width:30px; height:30px; font-size:0.85rem;">🔊</button>
+                          <button class="icon-btn btn-audio" data-speak="${w.reading || cleanWord}" title="Nghe phát âm '${cleanWord}'" style="width:34px; height:34px; font-size:0.9rem;">🔊</button>
                         </div>
                       </div>
-                    `).join('')}
+                    `;
+                    }).join('')}
                   </div>
                 </div>
               ` : ''}
@@ -130,35 +143,62 @@ export function renderExtraVocab(container, state, navigate) {
       }).join('');
     }
 
-    return items.map((it, idx) => `
-      <div class="word-item-card" style="display:flex; flex-direction:column; justify-content:space-between; gap:12px;">
-        <div>
-          <div class="word-header" style="align-items:flex-start; margin-bottom:8px;">
-            <div>
-              <div class="word-kanji" style="font-size:1.55rem; color:var(--text-title); font-family:var(--font-japanese);">${it.word || ''}</div>
-              ${it.reading ? `<div class="word-reading" style="font-size:0.92rem; color:var(--fuji-blue-primary); font-weight:700; margin-top:2px;">${it.reading}</div>` : ''}
+    return items.map((it, idx) => {
+      const searchTarget = it.word ? it.word.split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim() : '';
+      const maziiUrl = searchTarget ? `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(searchTarget)}` : '#';
+      return `
+        <div class="word-item-card" data-search="${searchTarget}" title="Bấm để tra cứu '${searchTarget}' trên Mazii" style="display:flex; flex-direction:column; justify-content:space-between; gap:12px; cursor:pointer;">
+          <div>
+            <div class="word-header" style="align-items:flex-start; margin-bottom:8px;">
+              <div style="flex:1; min-width:0;">
+                <div class="word-kanji" style="font-size:1.45rem; color:var(--text-title); font-family:var(--font-japanese); line-height:1.3; word-break:break-word;">${it.word || ''}</div>
+                ${it.reading ? `<div class="word-reading" style="font-size:0.92rem; color:var(--fuji-blue-primary); font-weight:700; margin-top:4px;">${it.reading}</div>` : ''}
+              </div>
+              <div style="display:flex; align-items:center; gap:6px; flex-shrink:0; margin-left:8px;">
+                ${searchTarget ? `
+                  <a href="${maziiUrl}" target="_blank" rel="noopener noreferrer" class="btn-mazii-icon" title="Tra cứu '${searchTarget}' trên Mazii">
+                    🔍
+                  </a>
+                ` : ''}
+                <button class="icon-btn btn-audio" data-speak="${it.reading || searchTarget}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
+              </div>
             </div>
-            <div style="display:flex; align-items:center; gap:6px;">
-              ${it.word ? `
-                <a href="https://mazii.net/vi/search/word/ja-vi/${encodeURIComponent(it.word.split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim())}" target="_blank" rel="noopener noreferrer" class="word-mazii-badge" title="Tra cứu trên Mazii" style="text-decoration:none;">
-                  🔍 Mazii
-                </a>
-              ` : ''}
-              <button class="icon-btn btn-audio" data-speak="${it.reading || (it.word ? it.word.split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim() : '')}" title="Nghe phát âm">🔊</button>
-            </div>
+            <div class="word-meaning" style="white-space: pre-line; line-height:1.6; font-size:0.95rem; color:var(--text-secondary); margin-top:8px;">${it.meaning || ''}</div>
           </div>
-          <div class="word-meaning" style="white-space: pre-line; line-height:1.6; font-size:0.95rem; color:var(--text-secondary); margin-top:6px;">${it.meaning || ''}</div>
         </div>
-      </div>
-    `).join('');
+      `;
+    }).join('');
   }
 
-  function attachAudioListeners() {
+  function attachCardListeners() {
     container.querySelectorAll('.btn-audio').forEach(btn => {
       btn.addEventListener('click', (e) => {
         e.stopPropagation();
         const text = btn.getAttribute('data-speak');
         if (text) SpeechHelper.speak(text);
+      });
+    });
+
+    // Từ ghép minh họa trong Tiền tố/Hậu tố
+    container.querySelectorAll('.extra-word-row').forEach(row => {
+      row.addEventListener('click', (e) => {
+        if (e.target.closest('.btn-audio') || e.target.closest('a')) return;
+        e.stopPropagation();
+        const searchWord = row.getAttribute('data-search');
+        if (searchWord) {
+          openMazii(searchWord);
+        }
+      });
+    });
+
+    // Thẻ từ trong Từ tượng thanh, tượng hình & Từ đồng nghĩa
+    container.querySelectorAll('.word-item-card').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.btn-audio') || e.target.closest('a')) return;
+        const searchWord = card.getAttribute('data-search');
+        if (searchWord) {
+          openMazii(searchWord);
+        }
       });
     });
   }

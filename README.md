@@ -37,7 +37,7 @@
 - **Ôn tập Flashcard & Trắc nghiệm** riêng cho danh sách từ bạn tự tạo.
 - **Xuất / Nhập file JSON (Export & Import)**: Dễ dàng sao lưu dữ liệu hoặc chuyển qua lại giữa các máy.
 
-### 4. ⚡ Luyện Power Drill N2 (60 Đề thi)
+### 4. ⚡ Luyện Power Drill (60 Đề thi)
 - 30 đề thi Power Drill Từ vựng & 30 đề thi Power Drill Ngữ pháp.
 - Giả lập phòng thi với đồng hồ đếm ngược 20 phút.
 - Tự động chấm điểm, tính tỷ lệ % chính xác và giải thích đáp án chi tiết từng câu.

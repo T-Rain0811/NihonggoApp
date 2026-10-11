@@ -5,7 +5,7 @@ export function renderHome(container, state, navigate) {
   let lastStudied = null;
   try {
     lastStudied = JSON.parse(localStorage.getItem('jlpt_last_studied'));
-  } catch (e) {}
+  } catch (e) { }
 
   const resumeLabel = (lastStudied && lastStudied.label) ? `Học tiếp: ${lastStudied.label}` : 'Học tiếp bài cũ';
 
@@ -52,9 +52,9 @@ export function renderHome(container, state, navigate) {
             <span class="stat-value">60</span>
             <span class="stat-label">Đề Power Drill</span>
           </div>
-          <div class="stat-chip">
+          <div class="stat-chip" id="chip-custom-vocab" style="cursor:pointer;" title="Bấm để mở Sổ tay cá nhân trong mục Từ vựng">
             <span class="stat-value" id="home-custom-count">${customCount}</span>
-            <span class="stat-label">Từ Của Quốc Toàn</span>
+            <span class="stat-label">Từ Vựng ↗</span>
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@ export function renderHome(container, state, navigate) {
             📚
           </div>
           <h2 class="card-title">Học Từ Vựng N2</h2>
-          <p class="card-desc">58 bài từ vựng trọng tâm kèm phát âm chuẩn Nhật, Hán tự, Furigana, Flashcard 3D và trắc nghiệm.</p>
+          <p class="card-desc">58 bài từ vựng trọng tâm, Sổ tay từ cá nhân, chuyên đề tiền tố/tượng thanh, Flashcard 3D và trắc nghiệm.</p>
         </div>
         <div class="card-footer">
           <span class="card-btn">Vào học ngay →</span>
@@ -89,21 +89,7 @@ export function renderHome(container, state, navigate) {
         </div>
       </div>
 
-      <!-- Card 3: Sổ tay từ vựng tự tạo (Custom Vocab) -->
-      <div class="action-card" id="card-custom">
-        <div>
-          <div class="card-icon-wrapper">
-            📝
-          </div>
-          <h2 class="card-title">Sổ Tay Cá Nhân</h2>
-          <p class="card-desc">Thêm từ mới bất kỳ lúc nào, ôn Flashcard 3D riêng, làm Quiz và lưu đồng bộ trực tiếp thuận tiện.</p>
-        </div>
-        <div class="card-footer">
-          <span class="card-btn">Mở sổ tay →</span>
-        </div>
-      </div>
-
-      <!-- Card 4: Luyện đề Drill N2 -->
+      <!-- Card 3: Luyện đề Drill N2 -->
       <div class="action-card" id="card-drill">
         <div>
           <div class="card-icon-wrapper">
@@ -114,20 +100,6 @@ export function renderHome(container, state, navigate) {
         </div>
         <div class="card-footer">
           <span class="card-btn">Luyện đề ngay →</span>
-        </div>
-      </div>
-
-      <!-- Card 5: Tài liệu mở rộng -->
-      <div class="action-card" id="card-extra">
-        <div>
-          <div class="card-icon-wrapper">
-            🌸
-          </div>
-          <h2 class="card-title">Từ Vựng Mở Rộng</h2>
-          <p class="card-desc">Chuyên đề Tiền tố, Tượng thanh / tượng hình và 220 cặp từ đồng nghĩa hay xuất hiện trong kỳ thi N2.</p>
-        </div>
-        <div class="card-footer">
-          <span class="card-btn">Khám phá →</span>
         </div>
       </div>
     </div>
@@ -151,9 +123,12 @@ export function renderHome(container, state, navigate) {
     }
     navigate('vocab');
   });
+  document.getElementById('chip-custom-vocab')?.addEventListener('click', () => {
+    state.vocabCategory = 'custom';
+    state.selectedVocabLesson = 'custom';
+    navigate('vocab');
+  });
   document.getElementById('card-vocab').addEventListener('click', () => navigate('vocab'));
   document.getElementById('card-grammar').addEventListener('click', () => navigate('grammar'));
-  document.getElementById('card-custom').addEventListener('click', () => navigate('custom'));
-  document.getElementById('card-drill').addEventListener('click', () => navigate('drill'));
-  document.getElementById('card-extra').addEventListener('click', () => navigate('extra'));
+  document.getElementById('card-drill')?.addEventListener('click', () => navigate('drill'));
 }

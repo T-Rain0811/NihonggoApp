@@ -39,7 +39,10 @@ export function renderCustomVocab(container, state, navigate) {
           <h2 style="font-size:1.4rem; font-weight:800; color:var(--text-title);">Sổ Tay Từ Vựng Cá Nhân</h2>
         </div>
         <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-          <button class="btn btn-primary btn-sm" id="btn-show-add">➕ Thêm Từ Mới</button>
+          <button class="btn btn-primary btn-sm" id="btn-show-add" style="display:inline-flex; align-items:center; gap:6px;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>Thêm Từ Mới</span>
+          </button>
           <button class="btn btn-secondary btn-sm" id="btn-github-sync" title="Cài đặt mã token để đồng bộ lên GitHub">
             ${hasToken ? '✅ Đã kết nối GitHub' : '🔗 Kết nối GitHub'}
           </button>
@@ -234,7 +237,10 @@ export function renderCustomVocab(container, state, navigate) {
           <div style="font-size:3rem; margin-bottom:12px;">📝</div>
           <h3 style="font-size:1.3rem; margin-bottom:8px; font-weight:800; color:var(--text-title);">Sổ tay của bạn đang trống</h3>
           <p style="color:var(--text-secondary); margin-bottom:20px; max-width:440px; margin-inline:auto;">Bấm "➕ Thêm Từ Mới" để tạo từ vựng cá nhân. File <code>data/personal_vocab.json</code> sẽ tự động được tạo trên GitHub của bạn.</p>
-          <button class="btn btn-primary" id="btn-empty-add-word">➕ Thêm từ đầu tiên</button>
+          <button class="btn btn-primary" id="btn-empty-add-word" style="display:inline-flex; align-items:center; gap:6px;">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+            <span>Thêm từ đầu tiên</span>
+          </button>
         </div>
       `;
       document.getElementById('btn-empty-add-word')?.addEventListener('click', () => {
@@ -269,16 +275,30 @@ export function renderCustomVocab(container, state, navigate) {
     attachCardActions();
   }
 
+  function openMazii(word) {
+    if (!word) return;
+    const cleanWord = word.split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
+    if (!cleanWord) return;
+    const url = `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(cleanWord)}`;
+    window.open(url, '_blank');
+  }
+
   function renderCustomWordCards(items) {
-    return items.map(w => `
-      <div class="word-item-card" data-id="${w.id || w.word}" style="display:flex; flex-direction:column; justify-content:space-between; min-height:160px;">
+    return items.map(w => {
+      const cleanWord = (w.word || w.reading || '').split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
+      const maziiUrl = cleanWord ? `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(cleanWord)}` : '#';
+      return `
+      <div class="word-item-card" data-id="${w.id || w.word}" data-search="${cleanWord}" title="Bấm để tra cứu '${cleanWord}' trên Mazii" style="display:flex; flex-direction:column; justify-content:space-between; min-height:140px; cursor:pointer;">
         <div>
-          <div class="word-header">
+          <div class="word-header" style="align-items:flex-start; margin-bottom:8px;">
             <div>
               <div class="word-kanji">${w.word || ''}</div>
-              <div class="word-reading">${w.reading || ''}</div>
+              <div class="word-reading" style="margin-top:2px;">${w.reading || ''}</div>
             </div>
-            <div style="display:flex; align-items:center; gap:6px;">
+            <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
+              <a href="${maziiUrl}" target="_blank" rel="noopener noreferrer" class="btn-mazii-icon" title="Tra cứu '${cleanWord}' trên Mazii">
+                🔍
+              </a>
               <button class="icon-btn btn-audio" data-speak="${w.reading || w.word}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
               <button class="icon-btn btn-edit-custom-word" data-id="${w.id || w.word}" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;" title="Sửa từ này">✏️</button>
               <button class="icon-btn btn-delete-word" data-id="${w.id || w.word}" data-word="${w.word}" style="color:var(--accent-rose); width:34px; height:34px; font-size:0.9rem;" title="Xóa từ">🗑️</button>
@@ -288,13 +308,9 @@ export function renderCustomVocab(container, state, navigate) {
           <div class="word-meaning" style="margin-top:6px;">${w.meaning || ''}</div>
           ${w.example ? `<div class="word-example" style="margin-top:8px;">${w.example}</div>` : ''}
         </div>
-        <div style="display:flex; justify-content:flex-end; align-items:center; margin-top:10px;">
-          <a href="https://mazii.net/vi/search/word/ja-vi/${encodeURIComponent(w.word || '')}" target="_blank" rel="noopener noreferrer" class="word-mazii-badge" title="Tra cứu Mazii" style="text-decoration:none;">
-            Mazii ↗
-          </a>
-        </div>
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   function attachCardActions() {
@@ -353,6 +369,17 @@ export function renderCustomVocab(container, state, navigate) {
         }
       });
     });
+
+    // Bấm vào thẻ từ bất kỳ chỗ nào cũng tương đương ấn search Mazii
+    document.querySelectorAll('.word-item-card').forEach(card => {
+      card.addEventListener('click', (e) => {
+        if (e.target.closest('.btn-audio') || e.target.closest('.btn-edit-custom-word') || e.target.closest('.btn-delete-word') || e.target.closest('a')) return;
+        const searchWord = card.getAttribute('data-search');
+        if (searchWord) {
+          openMazii(searchWord);
+        }
+      });
+    });
   }
 
   // Flashcard View
@@ -362,6 +389,8 @@ export function renderCustomVocab(container, state, navigate) {
     if (!words || words.length === 0) return;
     const currentWord = words[flashcardIndex];
     const progressPercent = Math.round(((flashcardIndex + 1) / words.length) * 100);
+    const cleanFcWord = (currentWord.word || currentWord.reading || '').split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
+    const fcMaziiUrl = cleanFcWord ? `https://mazii.net/vi-VN/search/word/javi/${encodeURIComponent(cleanFcWord)}` : '#';
 
     content.innerHTML = `
       <div class="flashcard-container">
@@ -382,14 +411,16 @@ export function renderCustomVocab(container, state, navigate) {
               <button class="icon-btn btn-audio" data-speak="${currentWord.reading || currentWord.word}" title="Nghe phát âm" style="margin-top:16px;">🔊</button>
             </div>
 
-            <!-- Back Face: Meaning + Hanviet + Example + Mazii link -->
+            <!-- Back Face: Meaning + Hanviet + Example + Mazii link & Edit button -->
             <div class="flashcard-face flashcard-back">
               <div class="fc-back-topbar">
                 <span class="fc-lesson-badge">Sổ tay cá nhân</span>
-                <a href="https://mazii.net/vi/search/word/ja-vi/${encodeURIComponent(currentWord.word || '')}" target="_blank" rel="noopener noreferrer" class="btn-fc-mazii" id="btn-fc-mazii" title="Tra cứu nhanh trên từ điển Mazii" style="text-decoration:none;">
-                  <span>🔍</span>
-                  <span>Mazii</span>
-                </a>
+                <div style="display:flex; align-items:center; gap:6px;">
+                  <a href="${fcMaziiUrl}" target="_blank" rel="noopener noreferrer" class="btn-fc-mazii" id="btn-fc-mazii" title="Tra cứu nhanh trên từ điển Mazii" style="text-decoration:none;">
+                    🔍
+                  </a>
+                  <button class="btn-fc-mazii" id="btn-fc-edit" title="Sửa từ này" style="color:var(--fuji-blue-primary);">✏️</button>
+                </div>
               </div>
 
               ${currentWord.kanji_meaning ? `<div class="fc-hanviet" style="margin-top:20px;">${currentWord.kanji_meaning}</div>` : ''}
@@ -439,6 +470,24 @@ export function renderCustomVocab(container, state, navigate) {
         isCardFlipped = false;
         renderFlashcardView(content, words);
       }
+    });
+
+    document.getElementById('btn-fc-edit')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      editingWordId = currentWord.id || currentWord.word;
+      mode = 'list';
+      render();
+      document.getElementById('input-word').value = currentWord.word || '';
+      document.getElementById('input-reading').value = currentWord.reading || '';
+      document.getElementById('input-meaning').value = currentWord.meaning || '';
+      document.getElementById('input-hanviet').value = currentWord.kanji_meaning || '';
+      document.getElementById('input-example').value = currentWord.example || '';
+      document.getElementById('form-add-title').textContent = `✏️ Chỉnh sửa từ: ${currentWord.word}`;
+      document.getElementById('btn-submit-word').textContent = '💾 Cập nhật & Đồng bộ';
+      const addBox = document.getElementById('add-word-container');
+      addBox.style.display = 'block';
+      addBox.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      document.getElementById('input-meaning').focus();
     });
 
     document.querySelectorAll('.btn-audio').forEach(btn => {
