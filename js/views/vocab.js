@@ -1,6 +1,7 @@
 // Vocab View Component (Multi-lesson Selection, Mazii Integration, Flashcard 3D & Quiz)
 import { SpeechHelper } from '../speech.js';
 import { GitHubSync, showToast } from '../services/githubSync.js';
+import { SettingsModal } from '../services/settingsModal.js';
 
 export function renderVocab(container, state, navigate) {
   const lessonKeys = state.vocabData ? Object.keys(state.vocabData).sort((a, b) => parseInt(a) - parseInt(b)) : [];
@@ -948,9 +949,10 @@ export function renderVocab(container, state, navigate) {
             <button class="btn btn-primary btn-sm" id="btn-show-add-custom" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
               <span>➕ Thêm Từ Mới</span>
             </button>
-            <button class="btn btn-secondary btn-sm" id="btn-github-sync-custom" title="Cài đặt mã token để đồng bộ lên GitHub" style="font-weight:600;">
-              ${hasToken ? '✅ Đã kết nối GitHub' : '🔗 Kết nối GitHub'}
-            </button>
+            <span class="cloud-sync-pill ${hasToken ? 'connected' : ''}" id="btn-open-sync-settings-custom" title="Trạng thái đồng bộ (Bấm để mở Cài đặt)">
+              <span>${hasToken ? '☁️ Cloud Sync: Bật' : '☁️ Lưu nội bộ'}</span>
+              <span style="font-size:0.7rem; opacity:0.8;">⚙️</span>
+            </span>
           </div>
         </div>
 
@@ -1075,10 +1077,9 @@ export function renderVocab(container, state, navigate) {
       addBox.style.display = 'none';
     });
 
-    document.getElementById('btn-github-sync-custom')?.addEventListener('click', () => {
-      GitHubSync.showTokenModal((token) => {
-        render();
-        if (token) showToast('Đã lưu mã GitHub Token!');
+    document.getElementById('btn-open-sync-settings-custom')?.addEventListener('click', () => {
+      SettingsModal.show(() => {
+        renderCustomVocabTab(content);
       });
     });
 

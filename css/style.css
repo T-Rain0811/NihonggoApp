@@ -281,6 +281,85 @@ body {
   box-shadow: 0 2px 10px rgba(20, 43, 73, 0.18);
 }
 
+/* Header Right Actions & Settings Button */
+.header-right-actions {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-settings-trigger {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  box-shadow: 0 2px 8px rgba(10, 36, 68, 0.05);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-settings-trigger:hover {
+  background: var(--toan-light-blue);
+  color: var(--toan-navy);
+  transform: rotate(30deg);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.btn-settings-trigger:active {
+  transform: scale(0.95) rotate(45deg);
+}
+
+.settings-dot {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 8px;
+  height: 8px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  transition: all var(--transition-fast);
+}
+
+.settings-dot.connected {
+  background: #10b981;
+  box-shadow: 0 0 6px #10b981;
+}
+
+/* Subtle Cloud indicator badge */
+.cloud-sync-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(20, 43, 73, 0.1);
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.cloud-sync-pill:hover {
+  background: var(--toan-light-blue);
+  color: var(--toan-navy);
+  border-color: rgba(37, 99, 235, 0.3);
+}
+
+.cloud-sync-pill.connected {
+  background: rgba(16, 185, 129, 0.1);
+  color: #047857;
+  border-color: rgba(16, 185, 129, 0.25);
+}
+
 /* Mobile Bottom Navigation */
 .mobile-nav {
   display: none;

@@ -1,10 +1,12 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=50';
-import { renderVocab } from './views/vocab.js?v=50';
-import { renderGrammar } from './views/grammar.js?v=50';
-import { renderCustomVocab } from './views/customVocab.js?v=50';
-import { renderDrill } from './views/drill.js?v=50';
-import { renderExtraVocab } from './views/extraVocab.js?v=50';
+import { renderHome } from './views/home.js?v=52';
+import { renderVocab } from './views/vocab.js?v=52';
+import { renderGrammar } from './views/grammar.js?v=52';
+import { renderCustomVocab } from './views/customVocab.js?v=52';
+import { renderDrill } from './views/drill.js?v=52';
+import { renderExtraVocab } from './views/extraVocab.js?v=52';
+import { SettingsModal } from './services/settingsModal.js?v=52';
+import { GitHubSync } from './services/githubSync.js?v=52';
 
 class App {
   constructor() {
@@ -156,11 +158,33 @@ class App {
         if (target) this.navigate(target);
       });
     });
+
+    // Settings modal button
+    document.getElementById('btn-open-settings')?.addEventListener('click', () => {
+      SettingsModal.show(() => {
+        this.updateSettingsIndicator();
+        // Re-render current view if in custom or vocab to sync indicator
+        if (['custom', 'vocab'].includes(this.state.currentView)) {
+          this.renderCurrentView();
+        }
+      });
+    });
+
+    this.updateSettingsIndicator();
+  }
+
+  updateSettingsIndicator() {
+    const hasToken = GitHubSync.hasToken();
+    const dot = document.getElementById('header-settings-dot');
+    if (dot) {
+      if (hasToken) dot.classList.add('connected');
+      else dot.classList.remove('connected');
+    }
   }
 
   setupPWA() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=50')
+      navigator.serviceWorker.register('sw.js?v=52')
         .then(() => console.log('Service Worker registered.'))
         .catch(err => console.log('Service Worker registration failed:', err));
     }

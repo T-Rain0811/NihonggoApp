@@ -1,5 +1,5 @@
 // Service Worker for N2 合格 (Network-first with offline fallback)
-const CACHE_NAME = 'n2-gokaku-v50';
+const CACHE_NAME = 'n2-gokaku-v52';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
@@ -14,6 +14,15 @@ self.addEventListener('activate', (e) => {
 });
 
 self.addEventListener('fetch', (e) => {
+  // Chỉ can thiệp các request GET
+  if (e.request.method !== 'GET') return;
+
+  const url = e.request.url;
+  // Bỏ qua hoàn toàn các API gọi ra ngoài (GitHub API, Mazii...)
+  if (url.includes('api.github.com') || !url.startsWith(self.location.origin)) {
+    return;
+  }
+
   // Network first for all local scripts and views, fallback to cache
   e.respondWith(
     fetch(e.request)

@@ -1,6 +1,7 @@
 // Custom Vocabulary Manager & Study View (Personal Vocab)
 import { SpeechHelper } from '../speech.js';
 import { GitHubSync, showToast } from '../services/githubSync.js';
+import { SettingsModal } from '../services/settingsModal.js';
 
 export function renderCustomVocab(container, state, navigate) {
   let mode = 'list'; // 'list', 'flashcard', 'quiz'
@@ -36,15 +37,20 @@ export function renderCustomVocab(container, state, navigate) {
       <div style="display:flex; align-items:center; justify-content:space-between; margin-bottom: 20px; flex-wrap:wrap; gap:12px;">
         <div style="display:flex; align-items:center; gap:12px;">
           <button class="btn btn-secondary btn-sm" id="btn-back-home">← Trang chủ</button>
-          <h2 style="font-size:1.4rem; font-weight:800; color:var(--text-title);">Sổ Tay Từ Vựng Cá Nhân</h2>
+          <div>
+            <h2 style="font-size:1.35rem; font-weight:800; color:var(--text-title); margin:0;">Sổ Tay Từ Vựng Cá Nhân</h2>
+            <div style="margin-top:3px;">
+              <span class="cloud-sync-pill ${hasToken ? 'connected' : ''}" id="btn-open-sync-settings" title="Trạng thái đồng bộ (Bấm để mở Cài đặt)">
+                <span>${hasToken ? '☁️ Cloud Sync: Bật' : '☁️ Lưu nội bộ'}</span>
+                <span style="font-size:0.7rem; opacity:0.8;">⚙️</span>
+              </span>
+            </div>
+          </div>
         </div>
-        <div style="display:flex; align-items:center; gap:10px; flex-wrap:wrap;">
-          <button class="btn btn-primary btn-sm" id="btn-show-add" style="display:inline-flex; align-items:center; gap:6px;">
+        <div style="display:flex; align-items:center; gap:10px;">
+          <button class="btn btn-primary btn-sm" id="btn-show-add" style="display:inline-flex; align-items:center; gap:6px; font-weight:700;">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
             <span>Thêm Từ Mới</span>
-          </button>
-          <button class="btn btn-secondary btn-sm" id="btn-github-sync" title="Cài đặt mã token để đồng bộ lên GitHub">
-            ${hasToken ? '✅ Đã kết nối GitHub' : '🔗 Kết nối GitHub'}
           </button>
         </div>
       </div>
@@ -109,10 +115,9 @@ export function renderCustomVocab(container, state, navigate) {
       navigate('home');
     });
 
-    document.getElementById('btn-github-sync').addEventListener('click', () => {
-      GitHubSync.showTokenModal((token) => {
+    document.getElementById('btn-open-sync-settings')?.addEventListener('click', () => {
+      SettingsModal.show(() => {
         render();
-        if (token) showToast('Đã lưu mã GitHub Token!');
       });
     });
     
