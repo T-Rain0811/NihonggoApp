@@ -1,12 +1,12 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=52';
-import { renderVocab } from './views/vocab.js?v=52';
-import { renderGrammar } from './views/grammar.js?v=52';
-import { renderCustomVocab } from './views/customVocab.js?v=52';
-import { renderDrill } from './views/drill.js?v=52';
-import { renderExtraVocab } from './views/extraVocab.js?v=52';
-import { SettingsModal } from './services/settingsModal.js?v=52';
-import { GitHubSync } from './services/githubSync.js?v=52';
+import { renderHome } from './views/home.js?v=53';
+import { renderVocab } from './views/vocab.js?v=53';
+import { renderGrammar } from './views/grammar.js?v=53';
+import { renderCustomVocab } from './views/customVocab.js?v=53';
+import { renderDrill } from './views/drill.js?v=53';
+import { renderExtraVocab } from './views/extraVocab.js?v=53';
+import { SettingsModal } from './services/settingsModal.js?v=53';
+import { GitHubSync } from './services/githubSync.js?v=53';
 
 class App {
   constructor() {
@@ -184,7 +184,7 @@ class App {
 
   setupPWA() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=52')
+      navigator.serviceWorker.register('sw.js?v=53')
         .then(() => console.log('Service Worker registered.'))
         .catch(err => console.log('Service Worker registration failed:', err));
     }

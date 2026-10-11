@@ -1,5 +1,5 @@
 // Service Worker for N2 合格 (Network-first with offline fallback)
-const CACHE_NAME = 'n2-gokaku-v52';
+const CACHE_NAME = 'n2-gokaku-v53';
 
 self.addEventListener('install', (e) => {
   self.skipWaiting();
