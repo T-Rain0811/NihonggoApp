@@ -122,7 +122,7 @@ export const SettingsModal = {
 
         <!-- 3. FIXED FOOTER (Đáy modal: Nút đóng to dễ bấm không bao giờ trôi) -->
         <div class="settings-modal-footer">
-          <span style="font-size:0.72rem; color:var(--text-muted);">TŌあN JLPT N2 • 2026</span>
+          <span style="font-size:0.72rem; color:var(--text-muted);">TŌあN JLPT N2 </span>
           <button type="button" class="btn btn-secondary btn-sm" id="btn-bottom-close-settings" style="font-weight:700; padding:6px 16px; border-radius:8px;">
             Đóng lại
           </button>
@@ -214,7 +214,7 @@ export const SettingsModal = {
         // Tự động ghim token vào URL hash để khi người dùng Share -> Thêm vào MH chính sẽ tự động mang token sang PWA
         try {
           history.replaceState(null, '', '#token=' + encodeURIComponent(val));
-        } catch (e) {}
+        } catch (e) { }
 
         testFeedback.style.background = 'rgba(16, 185, 129, 0.1)';
         testFeedback.style.color = '#047857';
@@ -261,7 +261,7 @@ export const SettingsModal = {
             await reg.unregister();
           }
         }
-      } catch (e) {}
+      } catch (e) { }
 
       setTimeout(() => {
         window.location.reload(true);

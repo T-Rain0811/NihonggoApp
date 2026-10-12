@@ -230,11 +230,29 @@ export function renderGrammar(container, state, navigate) {
       });
     });
 
-    modal.querySelectorAll('[data-modal-session]').forEach(cb => {
-      cb.addEventListener('change', (e) => {
-        const k = e.target.getAttribute('data-modal-session');
-        if (e.target.checked) tempSelected.add(k);
-        else tempSelected.delete(k);
+    let lastQuizSessionIndex = -1;
+    const allQuizCheckboxes = Array.from(modal.querySelectorAll('[data-modal-session]'));
+
+    allQuizCheckboxes.forEach((cb, index) => {
+      cb.addEventListener('click', (e) => {
+        const k = cb.getAttribute('data-modal-session');
+        const isChecking = cb.checked;
+
+        if (e.shiftKey && lastQuizSessionIndex !== -1 && lastQuizSessionIndex !== index) {
+          const start = Math.min(lastQuizSessionIndex, index);
+          const end = Math.max(lastQuizSessionIndex, index);
+          for (let i = start; i <= end; i++) {
+            const targetCb = allQuizCheckboxes[i];
+            const targetKey = targetCb.getAttribute('data-modal-session');
+            targetCb.checked = isChecking;
+            if (isChecking) tempSelected.add(targetKey);
+            else tempSelected.delete(targetKey);
+          }
+        } else {
+          if (isChecking) tempSelected.add(k);
+          else tempSelected.delete(k);
+        }
+        lastQuizSessionIndex = index;
         updateModalUI();
       });
     });
@@ -468,6 +486,10 @@ export function renderGrammar(container, state, navigate) {
   }
 
   function renderContent() {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
     const content = document.getElementById('grammar-tab-content');
     if (!content) return;
 
@@ -486,7 +508,7 @@ export function renderGrammar(container, state, navigate) {
 
     content.innerHTML = `
       <div class="grammar-split-layout">
-        <!-- Left: Embedded Cloudinary Video Player (Không có tab thừa bên dưới!) -->
+        <!-- Left: Embedded Cloudinary Video Player + Danh Sách Mục Lục Nhanh -->
         <div class="grammar-left-column">
           <div class="grammar-video-panel">
             <div class="grammar-video-wrapper">
@@ -505,6 +527,24 @@ export function renderGrammar(container, state, navigate) {
 
             <div class="video-info-bar">
               <span>🎬 Video Giảng Dạy: ${sessionLabel}</span>
+              <span style="font-size:0.8rem; color:var(--text-muted); font-weight:600;">${items.length} mẫu câu</span>
+            </div>
+
+            <!-- Mục lục danh sách mẫu câu trong bài (chỉ hiển thị trên PC/desktop, ẩn trên điện thoại) -->
+            <div class="grammar-video-quickindex desktop-only">
+              <div style="font-size:0.78rem; font-weight:800; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+                <span>📑 Mục lục mẫu câu (${items.length})</span>
+                <span style="font-size:0.75rem; color:var(--fuji-blue-primary); font-weight:700;">Bấm để xem chi tiết →</span>
+              </div>
+              <div class="grammar-quick-list">
+                ${items.map((it, idx) => `
+                  <div class="grammar-quick-item" data-goto-grammar="${idx}" title="Bấm để xem chi tiết mẫu câu ${it.pattern || ''}">
+                    <span class="quick-item-badge">#${idx + 1}</span>
+                    <span class="quick-item-pattern">${it.pattern || ''}</span>
+                    <span class="quick-item-meaning">${it.meaning || ''}</span>
+                  </div>
+                `).join('')}
+              </div>
             </div>
           </div>
         </div>
@@ -524,6 +564,19 @@ export function renderGrammar(container, state, navigate) {
         </div>
       </div>
     `;
+
+    // Click quick item to jump and highlight target card on the right
+    content.querySelectorAll('[data-goto-grammar]').forEach(item => {
+      item.addEventListener('click', () => {
+        const idx = item.getAttribute('data-goto-grammar');
+        const targetCard = document.getElementById(`grammar-card-${idx}`);
+        if (targetCard) {
+          targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          targetCard.classList.add('grammar-card-focus');
+          setTimeout(() => targetCard.classList.remove('grammar-card-focus'), 1500);
+        }
+      });
+    });
 
     document.getElementById('grammar-search')?.addEventListener('input', (e) => {
       const q = e.target.value.toLowerCase().trim();
@@ -546,7 +599,7 @@ export function renderGrammar(container, state, navigate) {
       return `<div class="grammar-card" style="text-align:center; padding: 40px; color: var(--text-muted); box-sizing:border-box;">Không tìm thấy mẫu ngữ pháp nào.</div>`;
     }
     return items.map((item, idx) => `
-      <div class="grammar-card" style="margin-bottom:0; padding:16px; box-sizing:border-box; width:100%; max-width:100%; overflow:hidden;">
+      <div class="grammar-card" id="grammar-card-${idx}" style="flex-shrink:0; margin-bottom:0; padding:16px; box-sizing:border-box; width:100%; max-width:100%; transition:all 0.3s ease;">
         <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom: 10px; gap:8px;">
           <h3 style="font-size:1.25rem; font-weight:800; color:var(--fuji-blue-deep); letter-spacing:0.3px; flex:1; min-width:0; word-break:break-word; overflow-wrap:break-word; margin:0;">
             <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600; margin-right:6px;">#${idx + 1}</span>

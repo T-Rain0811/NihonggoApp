@@ -28,6 +28,11 @@
   --sakura-badge-bg: rgba(217, 111, 97, 0.1);
   --sakura-border: rgba(217, 111, 97, 0.28);
 
+  --accent-rose: #e11d48;
+  --accent-red: #dc2626;
+  --accent-amber: #d97706;
+  --accent-emerald: #059669;
+
   /* Minimalist High-Readability Typography */
   --text-title: #142B49;
   --text-primary: #1E293B;
@@ -95,7 +100,7 @@ body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow-x: clip;
   line-height: 1.55;
   -webkit-font-smoothing: antialiased;
   background-color: var(--toan-ivory);
@@ -655,6 +660,20 @@ body {
   color: var(--toan-navy);
 }
 
+.btn-danger {
+  background: #dc2626 !important;
+  color: #ffffff !important;
+  border: 1px solid #b91c1c !important;
+  box-shadow: 0 4px 14px rgba(220, 38, 38, 0.35);
+}
+
+.btn-danger:hover {
+  background: #b91c1c !important;
+  color: #ffffff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(220, 38, 38, 0.45);
+}
+
 .btn-sm {
   padding: 7px 16px;
   font-size: 0.88rem;
@@ -702,10 +721,20 @@ body {
 }
 
 /* Glass Search Bar */
-/* Glass Search Bar */
 .search-bar-wrapper {
   position: relative;
   margin-bottom: 20px;
+}
+
+/* Sticky Search Bar in Vocab View */
+.vocab-main-area .search-bar-wrapper {
+  position: -webkit-sticky;
+  position: sticky;
+  top: calc(var(--nav-height) + env(safe-area-inset-top, 0px));
+  z-index: 45;
+  padding: 8px 0;
+  background: var(--toan-ivory);
+  margin-bottom: 12px;
 }
 
 .search-input {
@@ -1415,7 +1444,7 @@ body {
 }
 
 .vocab-sidebar-footer {
-  margin-top: 12px;
+  margin-top: auto;
   padding-top: 10px;
   border-top: 1px solid var(--glass-border-subtle);
   display: flex;
@@ -1752,18 +1781,18 @@ body {
    ========================================================================== */
 .grammar-split-layout {
   display: grid;
-  grid-template-columns: 1.8fr 1fr;
+  grid-template-columns: minmax(0, 1.4fr) minmax(380px, 1fr);
   gap: 20px;
-  align-items: start;
+  align-items: stretch;
+  height: calc(100vh - var(--nav-height) - 130px);
+  min-height: 560px;
 }
 
 .grammar-left-column {
-  position: sticky;
-  top: calc(var(--nav-height) + 14px);
-  height: calc(100vh - var(--nav-height) - 34px);
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  min-height: 0;
 }
 
 .grammar-video-panel {
@@ -1778,12 +1807,12 @@ body {
   padding: 12px;
   box-shadow: var(--shadow-glass);
   min-height: 0;
+  gap: 10px;
 }
 
 .grammar-video-wrapper {
-  flex: 1;
   width: 100%;
-  min-height: 0;
+  aspect-ratio: 16 / 9;
   background: #000;
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -1792,6 +1821,7 @@ body {
   align-items: center;
   justify-content: center;
   position: relative;
+  flex-shrink: 0;
 }
 
 .grammar-video-wrapper video {
@@ -1806,29 +1836,100 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 10px;
-  padding-top: 8px;
-  border-top: 1px solid var(--glass-border-subtle);
+  padding: 4px 2px 8px;
+  border-bottom: 1px solid var(--glass-border-subtle);
   font-size: 0.88rem;
   font-weight: 700;
   color: var(--text-title);
 }
 
+.grammar-video-quickindex {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
+}
+
+.grammar-quick-list {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 4px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(20, 43, 73, 0.2) transparent;
+}
+
+.grammar-quick-list::-webkit-scrollbar {
+  width: 5px;
+}
+
+.grammar-quick-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.grammar-quick-list::-webkit-scrollbar-thumb {
+  background: rgba(20, 43, 73, 0.2);
+  border-radius: 999px;
+}
+
+.grammar-quick-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 10px;
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid var(--glass-border-subtle);
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: all 0.15s ease;
+  user-select: none;
+}
+
+.grammar-quick-item:hover {
+  background: #ffffff;
+  border-color: var(--fuji-blue-lake);
+  transform: translateX(3px);
+  box-shadow: 0 2px 8px rgba(37, 99, 235, 0.1);
+}
+
+.quick-item-badge {
+  font-size: 0.75rem;
+  font-weight: 800;
+  color: var(--fuji-blue-primary);
+  background: rgba(37, 99, 235, 0.1);
+  padding: 2px 6px;
+  border-radius: var(--radius-full);
+  flex-shrink: 0;
+}
+
+.quick-item-pattern {
+  font-size: 0.88rem;
+  font-weight: 800;
+  color: var(--text-title);
+  font-family: var(--font-japanese);
+  flex-shrink: 0;
+}
+
+.quick-item-meaning {
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  min-width: 0;
+}
+
 .grammar-content-panel {
+  height: 100%;
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: calc(100vh - var(--nav-height) - 34px);
-  max-height: calc(100vh - var(--nav-height) - 34px);
-  overflow: hidden;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.grammar-content-panel::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
+  min-height: 0;
 }
 
 .grammar-search-header {
@@ -1840,22 +1941,57 @@ body {
 
 .grammar-items-scroll {
   flex: 1;
+  min-height: 0;
   overflow-y: auto;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  padding-right: 2px;
-  -ms-overflow-style: none;
-  /* IE and Edge */
-  scrollbar-width: none;
-  /* Firefox */
+  padding-right: 6px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(20, 43, 73, 0.2) transparent;
 }
 
 .grammar-items-scroll::-webkit-scrollbar {
-  display: none;
-  /* Chrome, Safari, Edge, Opera */
-  width: 0;
-  height: 0;
+  width: 6px;
+}
+
+.grammar-items-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.grammar-items-scroll::-webkit-scrollbar-thumb {
+  background: rgba(20, 43, 73, 0.2);
+  border-radius: 999px;
+}
+
+.grammar-items-scroll::-webkit-scrollbar-thumb:hover {
+  background: var(--fuji-blue-primary);
+}
+
+.grammar-items-scroll .grammar-card {
+  flex-shrink: 0;
+}
+
+.grammar-card-focus {
+  animation: pulseGrammarFocus 1.4s ease-out;
+}
+
+@keyframes pulseGrammarFocus {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 99, 235, 0.6);
+    border-color: var(--fuji-blue-primary);
+    transform: scale(1.02);
+  }
+  50% {
+    box-shadow: 0 0 0 10px rgba(37, 99, 235, 0.15);
+    border-color: var(--fuji-blue-primary);
+    transform: scale(1.01);
+  }
+  100% {
+    box-shadow: 0 2px 10px rgba(20, 43, 73, 0.04);
+    border-color: rgba(20, 43, 73, 0.08);
+    transform: scale(1);
+  }
 }
 
 @media (max-width: 991px) {
@@ -1866,14 +2002,26 @@ body {
     min-width: 0;
     max-width: 100%;
     gap: 16px;
+    height: auto;
+    min-height: 0;
+  }
+
+  .grammar-video-quickindex {
+    display: none !important;
   }
 
   .grammar-left-column {
-    position: static;
+    position: -webkit-sticky;
+    position: sticky;
+    top: calc(var(--nav-height) + env(safe-area-inset-top, 0px));
+    z-index: 50;
     height: auto;
     width: 100%;
     min-width: 0;
     max-width: 100%;
+    margin-bottom: 6px;
+    padding-top: 4px;
+    background: var(--toan-ivory);
   }
 
   .grammar-video-panel {
@@ -1882,8 +2030,13 @@ body {
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
-    padding: 10px;
+    padding: 6px;
     border-radius: var(--radius-md);
+    background: rgba(255, 255, 255, 0.96);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 4px 16px rgba(10, 36, 68, 0.12);
+    border: 1px solid var(--glass-border);
   }
 
   .grammar-video-wrapper {
@@ -1902,6 +2055,10 @@ body {
     max-width: 100%;
     object-fit: contain;
     display: block;
+  }
+
+  .video-info-bar {
+    display: none !important;
   }
 
   .grammar-content-panel {
@@ -2336,5 +2493,58 @@ body {
   100% {
     box-shadow: 0 0 20px 4px rgba(239, 68, 68, 0.45);
     border-color: rgba(239, 68, 68, 0.85);
+  }
+}
+
+/* ==========================================================================
+   FLOATING SCROLL TO TOP BUTTON
+   ========================================================================== */
+.btn-scroll-top {
+  position: fixed;
+  right: 24px;
+  bottom: 28px;
+  width: 44px;
+  height: 44px;
+  border-radius: var(--radius-full);
+  background: var(--toan-navy);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 4px 18px rgba(20, 43, 73, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 95;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(16px) scale(0.85);
+  pointer-events: none;
+  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), visibility 0.25s ease, background 0.15s ease, box-shadow 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn-scroll-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0) scale(1);
+  pointer-events: auto;
+}
+
+.btn-scroll-top:hover {
+  background: var(--toan-navy-hover);
+  transform: translateY(-3px) scale(1.06);
+  box-shadow: 0 8px 24px rgba(20, 43, 73, 0.38);
+}
+
+.btn-scroll-top:active {
+  transform: translateY(0) scale(0.92);
+}
+
+@media (max-width: 768px) {
+  .btn-scroll-top {
+    right: 16px;
+    bottom: calc(var(--bottom-nav-height) + 16px);
+    width: 42px;
+    height: 42px;
   }
 }

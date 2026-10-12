@@ -1,12 +1,12 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=56';
-import { renderVocab } from './views/vocab.js?v=56';
-import { renderGrammar } from './views/grammar.js?v=56';
-import { renderCustomVocab } from './views/customVocab.js?v=56';
-import { renderDrill } from './views/drill.js?v=56';
-import { renderExtraVocab } from './views/extraVocab.js?v=56';
-import { SettingsModal } from './services/settingsModal.js?v=56';
-import { GitHubSync } from './services/githubSync.js?v=56';
+import { renderHome } from './views/home.js?v=62';
+import { renderVocab } from './views/vocab.js?v=62';
+import { renderGrammar } from './views/grammar.js?v=62';
+import { renderCustomVocab } from './views/customVocab.js?v=62';
+import { renderDrill } from './views/drill.js?v=62';
+import { renderExtraVocab } from './views/extraVocab.js?v=62';
+import { SettingsModal } from './services/settingsModal.js?v=62';
+import { GitHubSync } from './services/githubSync.js?v=62';
 
 class App {
   constructor() {
@@ -30,6 +30,7 @@ class App {
   async init() {
     this.checkUrlTokenSync();
     this.setupNavigation();
+    this.setupScrollToTop();
     this.setupPWA();
 
     // Render home view immediately
@@ -116,8 +117,38 @@ class App {
       viewName = 'vocab';
     }
 
+    // Nếu đang trong bài thi Drill chưa nộp mà người dùng bấm chuyển trang/tab khác
+    if (window.__isDrillActive && window.__isDrillActive() && viewName !== 'drill') {
+      if (window.__showDrillQuitModal) {
+        window.__showDrillQuitModal(() => {
+          if (window.__drillCleanup) {
+            window.__drillCleanup();
+          }
+          this.executeNavigate(viewName);
+        });
+        return;
+      }
+    }
+
+    this.executeNavigate(viewName);
+  }
+
+  executeNavigate(viewName) {
+    // Dọn dẹp timer bài thi Drill nếu người dùng chuyển tab/rời khỏi màn Drill
+    if (window.__drillCleanup) {
+      try {
+        window.__drillCleanup();
+      } catch (e) {
+        console.error('Error in drill cleanup:', e);
+      }
+    }
+
     this.state.currentView = viewName;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+
+    // Reset cuộn trang ngay lập tức về đỉnh trang (xóa vị trí cuộn của trang trước)
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
 
     // Update active state in top & bottom nav
     document.querySelectorAll('.nav-link, .mobile-nav-item').forEach(el => {
@@ -130,6 +161,17 @@ class App {
     });
 
     this.renderCurrentView();
+
+    // Ẩn nút cuộn lên khi vừa chuyển sang trang mới
+    const btnScrollTop = document.getElementById('btn-scroll-top');
+    if (btnScrollTop) btnScrollTop.classList.remove('visible');
+
+    // Reset cuộn lại một lần nữa sau khi DOM render xong để chắc chắn không bị dính vị trí cũ
+    requestAnimationFrame(() => {
+      window.scrollTo(0, 0);
+      document.documentElement.scrollTop = 0;
+      document.body.scrollTop = 0;
+    });
   }
 
   renderCurrentView() {
@@ -207,9 +249,29 @@ class App {
     }
   }
 
+  setupScrollToTop() {
+    const btnScrollTop = document.getElementById('btn-scroll-top');
+    if (!btnScrollTop) return;
+
+    window.addEventListener('scroll', () => {
+      const top = window.scrollY || document.documentElement.scrollTop || document.body.scrollTop || 0;
+      if (top > 250) {
+        btnScrollTop.classList.add('visible');
+      } else {
+        btnScrollTop.classList.remove('visible');
+      }
+    }, { passive: true });
+
+    btnScrollTop.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      document.documentElement.scrollTo({ top: 0, behavior: 'smooth' });
+      document.body.scrollTop = 0;
+    });
+  }
+
   setupPWA() {
     if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js?v=56')
+      navigator.serviceWorker.register('sw.js?v=62')
         .then(() => console.log('Service Worker registered.'))
         .catch(err => console.log('Service Worker registration failed:', err));
     }

@@ -467,9 +467,12 @@ export function renderVocab(container, state, navigate) {
           </div>
 
           <!-- Lựa chọn 2: Chọn gộp nhiều bài -->
-          <div style="font-size:0.88rem; font-weight:800; color:var(--text-title); margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
+          <div style="font-size:0.88rem; font-weight:800; color:var(--text-title); margin-bottom:4px; display:flex; justify-content:space-between; align-items:center;">
             <span>Chọn gộp bài:</span>
             <span id="modal-word-counter" style="color:var(--fuji-blue-deep); font-size:0.84rem;">Đã chọn: ${tempSelected.size} bài</span>
+          </div>
+          <div style="font-size:0.75rem; color:var(--text-muted); margin-bottom:10px;">
+            💡 Giữ phím <kbd style="background:rgba(20,43,73,0.08); padding:2px 5px; border-radius:4px; font-weight:700;">Shift</kbd> để chọn nhanh dải nhiều bài (như Excel).
           </div>
 
           <!-- Presets lọc nhanh -->
@@ -540,15 +543,36 @@ export function renderVocab(container, state, navigate) {
       renderContent();
     });
 
-    // Checkbox changes
-    modal.querySelectorAll('[data-modal-lesson]').forEach(chk => {
-      chk.addEventListener('change', (e) => {
+    // Checkbox changes with Shift + Click range support (like Excel)
+    let lastLessonIndex = -1;
+    const allLessonCheckboxes = Array.from(modal.querySelectorAll('[data-modal-lesson]'));
+
+    allLessonCheckboxes.forEach((chk, index) => {
+      chk.addEventListener('click', (e) => {
         const k = chk.getAttribute('data-modal-lesson');
-        if (e.target.checked) {
-          tempSelected.add(k);
+        const isChecking = chk.checked;
+
+        if (e.shiftKey && lastLessonIndex !== -1 && lastLessonIndex !== index) {
+          const start = Math.min(lastLessonIndex, index);
+          const end = Math.max(lastLessonIndex, index);
+          for (let i = start; i <= end; i++) {
+            const targetChk = allLessonCheckboxes[i];
+            const targetKey = targetChk.getAttribute('data-modal-lesson');
+            targetChk.checked = isChecking;
+            if (isChecking) {
+              tempSelected.add(targetKey);
+            } else {
+              tempSelected.delete(targetKey);
+            }
+          }
         } else {
-          tempSelected.delete(k);
+          if (isChecking) {
+            tempSelected.add(k);
+          } else {
+            tempSelected.delete(k);
+          }
         }
+        lastLessonIndex = index;
         updateModalUI();
       });
     });
@@ -875,6 +899,10 @@ export function renderVocab(container, state, navigate) {
   }
 
   function renderContent() {
+    window.scrollTo(0, 0);
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+
     const content = document.getElementById('vocab-tab-content');
     if (!content) return;
 
@@ -1675,18 +1703,22 @@ export function renderVocab(container, state, navigate) {
         <!-- 3D Card Scene -->
         <div class="flashcard-scene" id="fc-scene" style="touch-action: pan-y;">
           <div class="flashcard ${isCardFlipped ? 'is-flipped' : ''}" id="flashcard-box">
-            <!-- Stamps for swipe feedback -->
-            <div class="fc-stamp fc-stamp-mastered" id="fc-stamp-mastered">✓ ĐÃ THUỘC</div>
-            <div class="fc-stamp fc-stamp-review" id="fc-stamp-review">✗ CHƯA THUỘC</div>
-
             <!-- Front Face: CHỈ hiển thị từ vựng chính + nút loa 🔊 -->
             <div class="flashcard-face flashcard-front">
+              <!-- Stamps for swipe feedback on front face -->
+              <div class="fc-stamp fc-stamp-mastered">✓ ĐÃ THUỘC</div>
+              <div class="fc-stamp fc-stamp-review">✗ CHƯA THUỘC</div>
+
               <div class="fc-word">${currentWord.word || currentWord.reading}</div>
               <button class="icon-btn btn-audio" data-speak="${currentWord.word || currentWord.reading}" style="margin-top:20px;" title="Nghe phát âm">🔊</button>
             </div>
 
             <!-- Back Face: Tra cứu Mazii gọn gàng chỉ icon 🔍 & nút sửa ✏️ -->
             <div class="flashcard-face flashcard-back">
+              <!-- Stamps for swipe feedback on back face (never mirrored when flipped!) -->
+              <div class="fc-stamp fc-stamp-mastered">✓ ĐÃ THUỘC</div>
+              <div class="fc-stamp fc-stamp-review">✗ CHƯA THUỘC</div>
+
               <div class="fc-back-topbar">
                 <span class="fc-lesson-badge" style="${currentWord._isCustom ? 'background:rgba(245,158,11,0.15); color:#b45309; border-color:#d97706;' : ''}">${currentWord._isCustom ? '📝 Từ Vựng Cá Nhân' : `Bài ${currentWord._lesson || state.selectedVocabLesson || '1'}`}</span>
                 <div style="display:flex; align-items:center; gap:6px;">
@@ -1716,8 +1748,8 @@ export function renderVocab(container, state, navigate) {
     `;
 
     const cardBox = document.getElementById('flashcard-box');
-    const stampMastered = document.getElementById('fc-stamp-mastered');
-    const stampReview = document.getElementById('fc-stamp-review');
+    const stampsMastered = cardBox.querySelectorAll('.fc-stamp-mastered');
+    const stampsReview = cardBox.querySelectorAll('.fc-stamp-review');
 
     function flipCard() {
       if (isAnimating) return;
@@ -1761,11 +1793,11 @@ export function renderVocab(container, state, navigate) {
       isAnimating = true;
 
       if (direction === 'right') {
-        if (stampMastered) {
-          stampMastered.style.opacity = '1';
-          stampMastered.style.transform = 'scale(1.15) rotate(14deg)';
-        }
-        if (stampReview) stampReview.style.opacity = '0';
+        stampsMastered.forEach(s => {
+          s.style.opacity = '1';
+          s.style.transform = 'scale(1.15) rotate(14deg)';
+        });
+        stampsReview.forEach(s => s.style.opacity = '0');
 
         cardBox.style.transition = 'transform 0.45s cubic-bezier(0.25, 1, 0.5, 1)';
         cardBox.style.transform = `translate(48px, -12px) rotate(14deg) ${isCardFlipped ? 'rotateY(180deg)' : ''}`;
@@ -1781,11 +1813,11 @@ export function renderVocab(container, state, navigate) {
           }, 380);
         }, 550);
       } else {
-        if (stampReview) {
-          stampReview.style.opacity = '1';
-          stampReview.style.transform = 'scale(1.15) rotate(-14deg)';
-        }
-        if (stampMastered) stampMastered.style.opacity = '0';
+        stampsReview.forEach(s => {
+          s.style.opacity = '1';
+          s.style.transform = 'scale(1.15) rotate(-14deg)';
+        });
+        stampsMastered.forEach(s => s.style.opacity = '0');
 
         cardBox.style.transition = 'transform 0.45s cubic-bezier(0.25, 1, 0.5, 1)';
         cardBox.style.transform = `translate(-48px, -12px) rotate(-14deg) ${isCardFlipped ? 'rotateY(180deg)' : ''}`;
@@ -1840,14 +1872,16 @@ export function renderVocab(container, state, navigate) {
         cardBox.style.transform = `translate(${dx}px, ${dy * 0.3}px) rotate(${rot}deg) ${isCardFlipped ? 'rotateY(180deg)' : ''}`;
 
         if (dx > 15) {
-          if (stampMastered) stampMastered.style.opacity = Math.min(1, (dx - 15) / 80).toString();
-          if (stampReview) stampReview.style.opacity = '0';
+          const op = Math.min(1, (dx - 15) / 80).toString();
+          stampsMastered.forEach(s => s.style.opacity = op);
+          stampsReview.forEach(s => s.style.opacity = '0');
         } else if (dx < -15) {
-          if (stampReview) stampReview.style.opacity = Math.min(1, (Math.abs(dx) - 15) / 80).toString();
-          if (stampMastered) stampMastered.style.opacity = '0';
+          const op = Math.min(1, (Math.abs(dx) - 15) / 80).toString();
+          stampsReview.forEach(s => s.style.opacity = op);
+          stampsMastered.forEach(s => s.style.opacity = '0');
         } else {
-          if (stampMastered) stampMastered.style.opacity = '0';
-          if (stampReview) stampReview.style.opacity = '0';
+          stampsMastered.forEach(s => s.style.opacity = '0');
+          stampsReview.forEach(s => s.style.opacity = '0');
         }
       }
     }
@@ -1875,8 +1909,8 @@ export function renderVocab(container, state, navigate) {
       } else {
         cardBox.style.transition = 'transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
         cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
-        if (stampMastered) stampMastered.style.opacity = '0';
-        if (stampReview) stampReview.style.opacity = '0';
+        stampsMastered.forEach(s => s.style.opacity = '0');
+        stampsReview.forEach(s => s.style.opacity = '0');
       }
     }
 
@@ -1886,8 +1920,8 @@ export function renderVocab(container, state, navigate) {
         currentPointerId = null;
         cardBox.style.transition = 'transform 0.3s ease';
         cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
-        if (stampMastered) stampMastered.style.opacity = '0';
-        if (stampReview) stampReview.style.opacity = '0';
+        stampsMastered.forEach(s => s.style.opacity = '0');
+        stampsReview.forEach(s => s.style.opacity = '0');
       }
     }
 
