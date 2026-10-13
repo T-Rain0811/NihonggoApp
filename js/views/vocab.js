@@ -1755,15 +1755,6 @@ export function renderVocab(container, state, navigate) {
     const stampsMastered = cardBox.querySelectorAll('.fc-stamp-mastered');
     const stampsReview = cardBox.querySelectorAll('.fc-stamp-review');
 
-    // Tự động phát âm từ mới khi thẻ hiển thị (khi bắt đầu hoặc khi lướt sang thẻ mới)
-    if (autoAudioEnabled && currentWord) {
-      setTimeout(() => {
-        if (!isFlashcardFinished && flashcardQueue[flashcardQueueIndex] === currentWord) {
-          SpeechHelper.speak(currentWord);
-        }
-      }, 160);
-    }
-
     function flipCard() {
       if (isAnimating) return;
       isCardFlipped = !isCardFlipped;
@@ -1771,7 +1762,8 @@ export function renderVocab(container, state, navigate) {
       cardBox.classList.toggle('is-flipped', isCardFlipped);
       cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
 
-      if (autoAudioEnabled) {
+      // Tự động phát âm khi lật sang mặt sau (xem đáp án / cách đọc và nghĩa)
+      if (autoAudioEnabled && isCardFlipped && currentWord) {
         SpeechHelper.speak(currentWord);
       }
     }
@@ -1808,6 +1800,11 @@ export function renderVocab(container, state, navigate) {
     function triggerSwipeAnimation(direction) {
       if (isAnimating) return;
       isAnimating = true;
+
+      // Khi lướt sang trái hoặc phải để thuộc hay chưa thuộc: Tự động phát âm từ của thẻ đó!
+      if (autoAudioEnabled && currentWord) {
+        SpeechHelper.speak(currentWord);
+      }
 
       if (direction === 'right') {
         stampsMastered.forEach(s => {

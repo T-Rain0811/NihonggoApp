@@ -433,15 +433,6 @@ export function renderCustomVocab(container, state, navigate) {
       </div>
     `;
 
-    // Tự động đọc khi thẻ hiển thị
-    if (autoAudioEnabled && currentWord) {
-      setTimeout(() => {
-        if (words[flashcardIndex] === currentWord) {
-          SpeechHelper.speak(currentWord);
-        }
-      }, 160);
-    }
-
     function toggleCustomFlip() {
       isCardFlipped = !isCardFlipped;
       const card = document.getElementById('fc-card');
@@ -449,7 +440,8 @@ export function renderCustomVocab(container, state, navigate) {
         card.classList.toggle('is-flipped', isCardFlipped);
         card.classList.toggle('flipped', isCardFlipped);
       }
-      if (autoAudioEnabled && currentWord) {
+      // Chỉ đọc khi lật sang mặt sau (xem đáp án / nghĩa)
+      if (autoAudioEnabled && isCardFlipped && currentWord) {
         SpeechHelper.speak(currentWord);
       }
     }
@@ -473,6 +465,9 @@ export function renderCustomVocab(container, state, navigate) {
 
     document.getElementById('fc-prev')?.addEventListener('click', () => {
       if (flashcardIndex > 0) {
+        if (autoAudioEnabled && currentWord) {
+          SpeechHelper.speak(currentWord);
+        }
         flashcardIndex--;
         isCardFlipped = false;
         renderFlashcardView(content, words);
@@ -481,6 +476,9 @@ export function renderCustomVocab(container, state, navigate) {
 
     document.getElementById('fc-next')?.addEventListener('click', () => {
       if (flashcardIndex < words.length - 1) {
+        if (autoAudioEnabled && currentWord) {
+          SpeechHelper.speak(currentWord);
+        }
         flashcardIndex++;
         isCardFlipped = false;
         renderFlashcardView(content, words);
