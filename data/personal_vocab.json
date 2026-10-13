@@ -1,5 +1,78 @@
 [
   {
+    "id": "1791817070205",
+    "word": "正座",
+    "reading": "せいざ",
+    "meaning": "Ngồi quỳ kiểu Nhật, ngồi ngay ngắn",
+    "kanji_meaning": "CHÁNH TOẠ",
+    "example": "",
+    "createdAt": "2026-10-12T14:57:50.205Z"
+  },
+  {
+    "id": "1791789013163",
+    "word": "頻繁",
+    "reading": "ひんぱん",
+    "meaning": "Tấp nập, =よく thường xuyên, rất hay",
+    "kanji_meaning": "TẦN PHỒN",
+    "example": "",
+    "createdAt": "2026-10-12T07:10:13.163Z"
+  },
+  {
+    "id": "1791788884469",
+    "word": "踏襲",
+    "reading": "とうしゅう",
+    "meaning": "kế thừa, kế tụng, dựa trên cách làm, con đường của người đi trước mà làm theo",
+    "kanji_meaning": "ĐẠP TẬP",
+    "example": "",
+    "createdAt": "2026-10-12T07:08:04.469Z"
+  },
+  {
+    "id": "1791788489741",
+    "word": "油断",
+    "reading": "ゆだん",
+    "meaning": "Chủ quan; lơ là; mất cảnh giác",
+    "kanji_meaning": "DU ĐOẠN",
+    "example": "",
+    "createdAt": "2026-10-12T07:01:29.741Z"
+  },
+  {
+    "id": "1791788260177",
+    "word": "顧みる",
+    "reading": "かえりみる",
+    "meaning": "1. Nhìn hồi tưởng lại  2. Ngoảnh lại nhìn  3. Không đoái hoài ( phủ định )",
+    "kanji_meaning": "CỐ",
+    "example": "",
+    "createdAt": "2026-10-12T06:57:40.177Z"
+  },
+  {
+    "id": "1791786223745",
+    "word": "監督",
+    "reading": "かんとく",
+    "meaning": "Huấn luyện viên (trong thể thao), Giám Sát, Giám",
+    "kanji_meaning": "GIAM ĐỐC",
+    "example": "",
+    "createdAt": "2026-10-12T06:23:43.745Z"
+  },
+  {
+    "id": "1791786210147",
+    "word": "相性",
+    "reading": "あいしょう",
+    "meaning": "Sự đồng cảm, hợp nhau, tương hợp",
+    "kanji_meaning": "TƯƠNG TÍNH",
+    "example": "",
+    "createdAt": "2026-10-12T06:23:30.147Z"
+  },
+  {
+    "id": "1791785566555",
+    "word": "贔屓",
+    "reading": "ひいき",
+    "meaning": "Ưu ái, thiên vị",
+    "kanji_meaning": "BÍ",
+    "example": "",
+    "createdAt": "2026-10-12T06:12:46.555Z",
+    "updatedAt": "2026-10-12T06:21:27.062Z"
+  },
+  {
     "id": "1791732030690",
     "word": "告白",
     "reading": "こくはく",
