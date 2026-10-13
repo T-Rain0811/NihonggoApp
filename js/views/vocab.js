@@ -26,6 +26,7 @@ export function renderVocab(container, state, navigate) {
   let flashcardOriginalLength = 0;
   let isFlashcardFinished = false;
   let isCardFlipped = false;
+  let autoAudioEnabled = localStorage.getItem('nihongo_fc_auto_audio') !== 'false';
   let quizIndex = 0;
   let quizScore = 0;
   let quizQuestions = [];
@@ -1060,7 +1061,7 @@ export function renderVocab(container, state, navigate) {
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
               <button class="icon-btn btn-mazii-card" data-search="${w.word || w.reading}" title="Tra cứu '${w.word || w.reading}' trên Mazii" style="width:34px; height:34px; font-size:0.92rem; color:var(--fuji-blue-primary);">🔍</button>
-              <button class="icon-btn btn-audio" data-speak="${w.word || w.reading}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
+              <button class="icon-btn btn-audio" data-speak="${w.reading || w.word}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
               <button class="icon-btn btn-edit-custom-item" data-id="${w.id || idx}" title="Chỉnh sửa từ vựng này" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;">✏️</button>
               <button class="icon-btn btn-del-custom-item" data-id="${w.id || idx}" data-word="${w.word || w.reading}" title="Xóa từ khỏi sổ tay" style="color:#ef4444; width:34px; height:34px; font-size:0.9rem;">🗑️</button>
             </div>
@@ -1434,7 +1435,7 @@ export function renderVocab(container, state, navigate) {
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
               <button class="icon-btn btn-mazii-card" data-search="${w.word || w.reading}" title="Tra cứu '${w.word || w.reading}' trên Mazii" style="width:34px; height:34px; font-size:0.92rem; color:var(--fuji-blue-primary);">🔍</button>
-              <button class="icon-btn btn-audio" data-speak="${w.word || w.reading}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
+              <button class="icon-btn btn-audio" data-speak="${w.reading || w.word}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
               <button class="icon-btn btn-edit-meaning" data-lesson="${w._lesson}" data-word="${w.word}" title="Chỉnh sửa nghĩa tiếng Việt" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;">✏️</button>
             </div>
           </div>
@@ -1684,6 +1685,9 @@ export function renderVocab(container, state, navigate) {
             <button class="btn btn-secondary btn-sm" id="btn-fc-back-to-list" style="font-weight:700; padding:6px 10px; font-size:0.82rem;">← Danh sách từ</button>
             <button class="btn btn-secondary btn-sm" id="btn-fc-change-lessons" style="font-weight:700; padding:6px 10px; font-size:0.82rem;">📚 Đổi bài (${studyLessons.size} bài) ▾</button>
             <button class="btn btn-secondary btn-sm" id="fc-shuffle" style="font-weight:700; padding:6px 10px; font-size:0.82rem;" title="Xáo trộn thứ tự các từ còn lại">🔀 Xáo trộn</button>
+            <button class="btn btn-secondary btn-sm" id="fc-toggle-auto-audio" style="font-weight:700; padding:6px 10px; font-size:0.82rem; ${autoAudioEnabled ? 'color:var(--accent-emerald); border-color:var(--accent-emerald);' : ''}" title="Bật/Tắt tự động đọc âm thanh khi lật/chuyển thẻ">
+              ${autoAudioEnabled ? '🔊 Tự đọc: BẬT' : '🔇 Tự đọc: TẮT'}
+            </button>
           </div>
 
           <!-- Cụm phải: Toàn bộ tiến độ cùng 1 hàng bên phải -->
@@ -1710,7 +1714,7 @@ export function renderVocab(container, state, navigate) {
               <div class="fc-stamp fc-stamp-review">✗ CHƯA THUỘC</div>
 
               <div class="fc-word">${currentWord.word || currentWord.reading}</div>
-              <button class="icon-btn btn-audio" data-speak="${currentWord.word || currentWord.reading}" style="margin-top:20px;" title="Nghe phát âm">🔊</button>
+              <button class="icon-btn btn-audio" data-speak="${currentWord.reading || currentWord.word}" style="margin-top:20px;" title="Nghe phát âm">🔊</button>
             </div>
 
             <!-- Back Face: Tra cứu Mazii gọn gàng chỉ icon 🔍 & nút sửa ✏️ -->
@@ -1739,7 +1743,7 @@ export function renderVocab(container, state, navigate) {
 
               ${currentWord.example ? `<div class="word-example" style="width:100%; text-align:left; max-height:100px; overflow-y:auto; margin-bottom:14px;">${currentWord.example}</div>` : ''}
 
-              <button class="icon-btn btn-audio" data-speak="${currentWord.word || currentWord.reading}" title="Nghe phát âm">🔊</button>
+              <button class="icon-btn btn-audio" data-speak="${currentWord.reading || currentWord.word}" title="Nghe phát âm">🔊</button>
             </div>
           </div>
         </div>
@@ -1751,12 +1755,25 @@ export function renderVocab(container, state, navigate) {
     const stampsMastered = cardBox.querySelectorAll('.fc-stamp-mastered');
     const stampsReview = cardBox.querySelectorAll('.fc-stamp-review');
 
+    // Tự động phát âm từ mới khi thẻ hiển thị (khi bắt đầu hoặc khi lướt sang thẻ mới)
+    if (autoAudioEnabled && currentWord) {
+      setTimeout(() => {
+        if (!isFlashcardFinished && flashcardQueue[flashcardQueueIndex] === currentWord) {
+          SpeechHelper.speak(currentWord);
+        }
+      }, 160);
+    }
+
     function flipCard() {
       if (isAnimating) return;
       isCardFlipped = !isCardFlipped;
       cardBox.style.transition = 'transform 0.45s cubic-bezier(0.4, 0, 0.2, 1)';
       cardBox.classList.toggle('is-flipped', isCardFlipped);
       cardBox.style.transform = isCardFlipped ? 'rotateY(180deg)' : '';
+
+      if (autoAudioEnabled) {
+        SpeechHelper.speak(currentWord);
+      }
     }
 
     function advanceCard(direction) {
@@ -1937,6 +1954,23 @@ export function renderVocab(container, state, navigate) {
       window.removeEventListener('pointerup', onPointerUp);
       window.removeEventListener('pointercancel', onPointerCancel);
     };
+
+    // Toggle auto-audio action
+    document.getElementById('fc-toggle-auto-audio')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      autoAudioEnabled = !autoAudioEnabled;
+      localStorage.setItem('nihongo_fc_auto_audio', autoAudioEnabled.toString());
+      const btn = document.getElementById('fc-toggle-auto-audio');
+      if (btn) {
+        btn.textContent = autoAudioEnabled ? '🔊 Tự đọc: BẬT' : '🔇 Tự đọc: TẮT';
+        btn.style.color = autoAudioEnabled ? 'var(--accent-emerald)' : '';
+        btn.style.borderColor = autoAudioEnabled ? 'var(--accent-emerald)' : '';
+      }
+      showToast(autoAudioEnabled ? 'Đã bật tự động đọc âm thanh khi lật & lướt thẻ 🔊' : 'Đã tắt tự động đọc 🔇');
+      if (autoAudioEnabled && currentWord) {
+        SpeechHelper.speak(currentWord);
+      }
+    });
 
     // Shuffle action
     document.getElementById('fc-shuffle')?.addEventListener('click', (e) => {
@@ -2381,7 +2415,7 @@ export function renderVocab(container, state, navigate) {
         if (selected === currentQ.correctAnswer) {
           quizScore++;
         }
-        SpeechHelper.speak(currentQ.target.word || currentQ.target.reading);
+        SpeechHelper.speak(currentQ.target.reading || currentQ.target.word);
         renderQuizView(content, words);
       });
     });
@@ -2696,7 +2730,7 @@ export function renderVocab(container, state, navigate) {
             selectedTile2.isMatched = true;
             matchedPairsCount++;
 
-            SpeechHelper.speak(tile.wordObj.word || tile.wordObj.reading);
+            SpeechHelper.speak(tile.wordObj.reading || tile.wordObj.word);
 
             setTimeout(() => {
               updateTilesDOM();

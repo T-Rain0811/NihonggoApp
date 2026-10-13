@@ -378,6 +378,7 @@ export function renderCustomVocab(container, state, navigate) {
     cleanupKeyHandler();
 
     if (!words || words.length === 0) return;
+    const autoAudioEnabled = localStorage.getItem('nihongo_fc_auto_audio') !== 'false';
     const currentWord = words[flashcardIndex];
     const progressPercent = Math.round(((flashcardIndex + 1) / words.length) * 100);
     const cleanFcWord = (currentWord.word || currentWord.reading || '').split('＝')[0].replace(/[（(][^）)]*[）)]/g, '').trim();
@@ -421,13 +422,25 @@ export function renderCustomVocab(container, state, navigate) {
           </div>
         </div>
 
-        <div class="flashcard-controls">
+        <div class="flashcard-controls" style="display:flex; justify-content:center; align-items:center; gap:10px;">
           <button class="btn btn-secondary btn-icon" id="fc-prev" ${flashcardIndex === 0 ? 'disabled' : ''}>←</button>
           <button class="btn btn-primary" id="fc-flip">Lật thẻ ↺</button>
           <button class="btn btn-secondary btn-icon" id="fc-next" ${flashcardIndex === words.length - 1 ? 'disabled' : ''}>→</button>
+          <button class="btn btn-secondary btn-sm" id="btn-custom-fc-sound" style="font-weight:700; ${autoAudioEnabled ? 'color:var(--accent-emerald); border-color:var(--accent-emerald);' : ''}" title="Bật/Tắt tự động đọc âm thanh">
+            ${autoAudioEnabled ? '🔊 Tự đọc: BẬT' : '🔇 Tự đọc: TẮT'}
+          </button>
         </div>
       </div>
     `;
+
+    // Tự động đọc khi thẻ hiển thị
+    if (autoAudioEnabled && currentWord) {
+      setTimeout(() => {
+        if (words[flashcardIndex] === currentWord) {
+          SpeechHelper.speak(currentWord);
+        }
+      }, 160);
+    }
 
     function toggleCustomFlip() {
       isCardFlipped = !isCardFlipped;
@@ -436,7 +449,18 @@ export function renderCustomVocab(container, state, navigate) {
         card.classList.toggle('is-flipped', isCardFlipped);
         card.classList.toggle('flipped', isCardFlipped);
       }
+      if (autoAudioEnabled && currentWord) {
+        SpeechHelper.speak(currentWord);
+      }
     }
+
+    document.getElementById('btn-custom-fc-sound')?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      const currentVal = localStorage.getItem('nihongo_fc_auto_audio') !== 'false';
+      const newVal = !currentVal;
+      localStorage.setItem('nihongo_fc_auto_audio', newVal.toString());
+      renderFlashcardView(content, words);
+    });
 
     document.getElementById('fc-scene')?.addEventListener('click', (e) => {
       if (e.target.closest('.btn-audio') || e.target.closest('#btn-fc-mazii') || e.target.closest('button') || e.target.closest('a')) return;
