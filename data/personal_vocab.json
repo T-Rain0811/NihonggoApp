@@ -1,12 +1,13 @@
 [
   {
     "id": "1792723674088",
-    "word": "あやふやな",
-    "reading": "あやふやな",
-    "meaning": "Mơ hồ, không rõ ràng, không chắc chắn",
+    "word": "あやふや",
+    "reading": "あやふや",
+    "meaning": "Mơ hồ, không rõ ràng, không chắc chắn, ＝あいまい",
     "kanji_meaning": "",
     "example": "",
-    "createdAt": "2026-10-23T02:47:54.088Z"
+    "createdAt": "2026-10-23T02:47:54.088Z",
+    "updatedAt": "2026-10-23T02:48:29.450Z"
   },
   {
     "id": "1792719542117",
