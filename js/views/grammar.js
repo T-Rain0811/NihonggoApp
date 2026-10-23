@@ -22,6 +22,10 @@ export function renderGrammar(container, state, navigate) {
   let quizQuestionCount = 20; // Default to 20 questions
   let isMobileSheetOpen = false;
 
+  // Search state across grammar sessions
+  let grammarSearchQuery = '';
+  let grammarSearchScope = 'all'; // 'all' (Tất cả 8 bài) | 'current' (Chỉ bài hiện tại)
+
   const labels = (state.meta && state.meta.lesson_labels) || {
     "1": "Bài 1 (1–20)", "2": "Bài 2 (21–40)", "3": "Bài 3 (41–60)", "4": "Bài 4 (61–80)",
     "5": "Bài 5 (81–89)", "6": "Bài 6 (90–111)", "7": "Bài 7 (112–130)", "8": "Bài 8 (131–150)"
@@ -41,6 +45,24 @@ export function renderGrammar(container, state, navigate) {
   function getGrammarItems(sessionKey) {
     if (!state.grammarData) return [];
     return state.grammarData[sessionKey || currentSession] || [];
+  }
+
+  function getAllGrammarItems() {
+    if (!state.grammarData) return [];
+    const all = [];
+    const sessions = Object.keys(state.grammarData).sort((a, b) => parseInt(a) - parseInt(b));
+    sessions.forEach(s => {
+      const patterns = state.grammarData[s] || [];
+      patterns.forEach((it, idx) => {
+        all.push({
+          ...it,
+          _session: s,
+          _sessionLabel: labels[s] || `Bài ${s}`,
+          _patternIdx: idx + 1
+        });
+      });
+    });
+    return all;
   }
 
   function getAllSelectedQuizzes() {
@@ -71,6 +93,7 @@ export function renderGrammar(container, state, navigate) {
   function selectSession(sessionKey) {
     currentSession = sessionKey;
     state.selectedGrammarSession = currentSession;
+    grammarSearchQuery = '';
     closeSheet();
     saveLastStudied();
     updateSidebarItems();
@@ -506,6 +529,22 @@ export function renderGrammar(container, state, navigate) {
     const videoUrl = videoUrls[currentSession];
     const sessionLabel = labels[currentSession] || `Bài ${currentSession}`;
 
+    const isSearching = grammarSearchQuery.trim().length > 0;
+    const q = grammarSearchQuery.toLowerCase().trim();
+
+    const pool = isSearching
+      ? (grammarSearchScope === 'all' ? getAllGrammarItems() : items)
+      : items;
+
+    const filtered = isSearching
+      ? pool.filter(it =>
+          (it.pattern && it.pattern.toLowerCase().includes(q)) ||
+          (it.meaning && it.meaning.toLowerCase().includes(q)) ||
+          (it.full_meaning && it.full_meaning.toLowerCase().includes(q)) ||
+          (it.examples && it.examples.some(ex => (ex.jp && ex.jp.toLowerCase().includes(q)) || (ex.vi && ex.vi.toLowerCase().includes(q))))
+        )
+      : items;
+
     content.innerHTML = `
       <div class="grammar-split-layout">
         <!-- Left: Embedded Cloudinary Video Player + Danh Sách Mục Lục Nhanh -->
@@ -533,17 +572,11 @@ export function renderGrammar(container, state, navigate) {
             <!-- Mục lục danh sách mẫu câu trong bài (chỉ hiển thị trên PC/desktop, ẩn trên điện thoại) -->
             <div class="grammar-video-quickindex desktop-only">
               <div style="font-size:0.78rem; font-weight:800; color:var(--text-muted); text-transform:uppercase; letter-spacing:0.5px; margin-bottom:8px; display:flex; justify-content:space-between; align-items:center;">
-                <span>📑 Mục lục mẫu câu (${items.length})</span>
+                <span id="quickindex-title">📑 ${isSearching ? `Kết quả tìm (${filtered.length})` : `Mục lục mẫu câu (${items.length})`}</span>
                 <span style="font-size:0.75rem; color:var(--fuji-blue-primary); font-weight:700;">Bấm để xem chi tiết →</span>
               </div>
-              <div class="grammar-quick-list">
-                ${items.map((it, idx) => `
-                  <div class="grammar-quick-item" data-goto-grammar="${idx}" title="Bấm để xem chi tiết mẫu câu ${it.pattern || ''}">
-                    <span class="quick-item-badge">#${idx + 1}</span>
-                    <span class="quick-item-pattern">${it.pattern || ''}</span>
-                    <span class="quick-item-meaning">${it.meaning || ''}</span>
-                  </div>
-                `).join('')}
+              <div class="grammar-quick-list" id="grammar-quick-list-container">
+                ${renderQuickItemsHtml(filtered)}
               </div>
             </div>
           </div>
@@ -552,59 +585,202 @@ export function renderGrammar(container, state, navigate) {
         <!-- Right: Scrollable Grammar Knowledge Column -->
         <div class="grammar-content-panel">
           <div class="grammar-search-header">
-            <div class="search-bar-wrapper" style="margin-bottom:0;">
+            <div class="search-bar-wrapper" style="margin-bottom:0; position:relative;">
               <span class="search-icon">🔍</span>
-              <input type="text" id="grammar-search" class="search-input" placeholder="Tìm kiếm mẫu câu, ý nghĩa hoặc ví dụ...">
+              <input type="text" id="grammar-search" class="search-input"
+                placeholder="Tìm kiếm mẫu câu full tất cả các bài, ý nghĩa, ví dụ..."
+                value="${grammarSearchQuery}">
+              ${grammarSearchQuery ? `<button type="button" id="btn-clear-grammar-search" class="btn-clear-search" title="Xóa tìm kiếm">✕</button>` : ''}
+            </div>
+
+            <div class="search-scope-bar" style="margin-bottom: 2px;">
+              <div style="display:flex; align-items:center; gap:6px;">
+                <span style="font-weight:700; color:var(--text-muted); font-size:0.8rem;">Phạm vi:</span>
+                <button type="button" class="search-scope-pill btn-grammar-scope ${grammarSearchScope === 'all' ? 'active' : ''}" data-scope="all">
+                  🌐 Tất cả bài (1-8)
+                </button>
+                <button type="button" class="search-scope-pill btn-grammar-scope ${grammarSearchScope === 'current' ? 'active' : ''}" data-scope="current">
+                  📖 Chỉ ${labels[currentSession] || 'Bài ' + currentSession}
+                </button>
+              </div>
+              <div id="grammar-search-stats" style="color:var(--text-secondary); font-weight:600; font-size:0.8rem;">
+                ${isSearching
+                  ? `Tìm thấy <strong style="color:var(--toan-navy);">${filtered.length}</strong> mẫu (${grammarSearchScope === 'all' ? 'Tất cả 8 bài' : `Bài ${currentSession}`})`
+                  : `${labels[currentSession] || 'Bài ' + currentSession}: <strong style="color:var(--toan-navy);">${items.length}</strong> mẫu`
+                }
+              </div>
             </div>
           </div>
 
           <div id="grammar-items-container" class="grammar-items-scroll">
-            ${renderGrammarCards(items)}
+            ${renderGrammarCards(filtered, isSearching && grammarSearchScope === 'all')}
           </div>
         </div>
       </div>
     `;
 
-    // Click quick item to jump and highlight target card on the right
-    content.querySelectorAll('[data-goto-grammar]').forEach(item => {
-      item.addEventListener('click', () => {
-        const idx = item.getAttribute('data-goto-grammar');
-        const targetCard = document.getElementById(`grammar-card-${idx}`);
-        if (targetCard) {
-          targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-          targetCard.classList.add('grammar-card-focus');
-          setTimeout(() => targetCard.classList.remove('grammar-card-focus'), 1500);
+    function updateGrammarSearchResults() {
+      const isSearchNow = grammarSearchQuery.trim().length > 0;
+      const query = grammarSearchQuery.toLowerCase().trim();
+      const currentList = getGrammarItems(currentSession);
+      const searchPool = isSearchNow
+        ? (grammarSearchScope === 'all' ? getAllGrammarItems() : currentList)
+        : currentList;
+
+      const currentFiltered = isSearchNow
+        ? searchPool.filter(it =>
+            (it.pattern && it.pattern.toLowerCase().includes(query)) ||
+            (it.meaning && it.meaning.toLowerCase().includes(query)) ||
+            (it.full_meaning && it.full_meaning.toLowerCase().includes(query)) ||
+            (it.examples && it.examples.some(ex => (ex.jp && ex.jp.toLowerCase().includes(query)) || (ex.vi && ex.vi.toLowerCase().includes(query))))
+          )
+        : currentList;
+
+      const statsEl = document.getElementById('grammar-search-stats');
+      if (statsEl) {
+        statsEl.innerHTML = isSearchNow
+          ? `Tìm thấy <strong style="color:var(--toan-navy);">${currentFiltered.length}</strong> mẫu (${grammarSearchScope === 'all' ? 'Tất cả 8 bài' : `Bài ${currentSession}`})`
+          : `${labels[currentSession] || 'Bài ' + currentSession}: <strong style="color:var(--toan-navy);">${currentList.length}</strong> mẫu`;
+      }
+
+      const qTitle = document.getElementById('quickindex-title');
+      if (qTitle) {
+        qTitle.textContent = isSearchNow
+          ? `📑 Kết quả tìm (${currentFiltered.length})`
+          : `📑 Mục lục mẫu câu (${currentList.length})`;
+      }
+
+      const qListContainer = document.getElementById('grammar-quick-list-container');
+      if (qListContainer) {
+        qListContainer.innerHTML = renderQuickItemsHtml(currentFiltered);
+      }
+
+      const itemsContainer = document.getElementById('grammar-items-container');
+      if (itemsContainer) {
+        itemsContainer.innerHTML = renderGrammarCards(currentFiltered, isSearchNow && grammarSearchScope === 'all');
+      }
+
+      // Update clear button
+      const searchWrapper = content.querySelector('.grammar-search-header .search-bar-wrapper');
+      let clearBtn = document.getElementById('btn-clear-grammar-search');
+      if (isSearchNow) {
+        if (!clearBtn && searchWrapper) {
+          clearBtn = document.createElement('button');
+          clearBtn.type = 'button';
+          clearBtn.id = 'btn-clear-grammar-search';
+          clearBtn.className = 'btn-clear-search';
+          clearBtn.title = 'Xóa tìm kiếm';
+          clearBtn.textContent = '✕';
+          clearBtn.addEventListener('click', handleClearGrammarSearch);
+          searchWrapper.appendChild(clearBtn);
         }
+      } else {
+        if (clearBtn) clearBtn.remove();
+      }
+
+      attachInteractiveListeners();
+    }
+
+    function handleClearGrammarSearch() {
+      grammarSearchQuery = '';
+      const input = document.getElementById('grammar-search');
+      if (input) {
+        input.value = '';
+        input.focus();
+      }
+      updateGrammarSearchResults();
+    }
+
+    function attachInteractiveListeners() {
+      // Audio listeners
+      attachAudioListeners();
+
+      // Quick item click jumps to card
+      content.querySelectorAll('[data-goto-grammar]').forEach(item => {
+        item.addEventListener('click', () => {
+          const idx = item.getAttribute('data-goto-grammar');
+          const targetCard = document.getElementById(`grammar-card-${idx}`);
+          if (targetCard) {
+            targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            targetCard.classList.add('grammar-card-focus');
+            setTimeout(() => targetCard.classList.remove('grammar-card-focus'), 1500);
+          }
+        });
+      });
+
+      // Jump to session button
+      content.querySelectorAll('[data-jump-session]').forEach(btn => {
+        btn.addEventListener('click', (e) => {
+          e.stopPropagation();
+          const target = btn.getAttribute('data-jump-session');
+          if (target) {
+            selectSession(target);
+          }
+        });
+      });
+    }
+
+    const searchInput = document.getElementById('grammar-search');
+    searchInput?.addEventListener('input', (e) => {
+      grammarSearchQuery = e.target.value;
+      updateGrammarSearchResults();
+    });
+
+    document.getElementById('btn-clear-grammar-search')?.addEventListener('click', handleClearGrammarSearch);
+
+    // Scope button click
+    content.querySelectorAll('.btn-grammar-scope').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const scope = btn.getAttribute('data-scope');
+        if (scope === grammarSearchScope) return;
+        grammarSearchScope = scope;
+        content.querySelectorAll('.btn-grammar-scope').forEach(b => {
+          b.classList.toggle('active', b.getAttribute('data-scope') === scope);
+        });
+        updateGrammarSearchResults();
       });
     });
 
-    document.getElementById('grammar-search')?.addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      const filtered = items.filter(it =>
-        (it.pattern && it.pattern.toLowerCase().includes(q)) ||
-        (it.meaning && it.meaning.toLowerCase().includes(q)) ||
-        (it.full_meaning && it.full_meaning.toLowerCase().includes(q)) ||
-        (it.examples && it.examples.some(ex => (ex.jp && ex.jp.toLowerCase().includes(q)) || (ex.vi && ex.vi.toLowerCase().includes(q))))
-      );
-      const containerEl = document.getElementById('grammar-items-container');
-      if (containerEl) containerEl.innerHTML = renderGrammarCards(filtered);
-      attachAudioListeners();
-    });
-
-    attachAudioListeners();
+    attachInteractiveListeners();
   }
 
-  function renderGrammarCards(items) {
+  function renderQuickItemsHtml(list) {
+    if (!list || list.length === 0) {
+      return `<div style="text-align:center; padding:16px; color:var(--text-muted); font-size:0.82rem;">Không có mẫu câu nào</div>`;
+    }
+    return list.map((it, idx) => `
+      <div class="grammar-quick-item" data-goto-grammar="${idx}" title="Bấm để xem chi tiết mẫu câu ${it.pattern || ''}">
+        <span class="quick-item-badge">#${it._patternIdx || (idx + 1)}</span>
+        <span class="quick-item-pattern" style="flex:1; min-width:0; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;">${it.pattern || ''}</span>
+        ${it._session ? `<span style="font-size:0.72rem; color:var(--fuji-blue-primary); font-weight:700; flex-shrink:0;">Bài ${it._session}</span>` : ''}
+      </div>
+    `).join('');
+  }
+
+  function renderGrammarCards(items, isGlobalSearch = false) {
     if (!items || items.length === 0) {
-      return `<div class="grammar-card" style="text-align:center; padding: 40px; color: var(--text-muted); box-sizing:border-box;">Không tìm thấy mẫu ngữ pháp nào.</div>`;
+      return `<div class="grammar-card" style="text-align:center; padding: 40px; color: var(--text-muted); box-sizing:border-box;">
+        <div style="font-size:2rem; margin-bottom:8px;">🔍</div>
+        <div style="font-weight:700; color:var(--text-title); margin-bottom:4px;">Không tìm thấy mẫu ngữ pháp nào</div>
+        <div style="font-size:0.88rem;">${isGlobalSearch ? 'Thử tìm với từ khóa khác trong tất cả 8 bài học' : `Không có mẫu phù hợp trong Bài ${currentSession}`}</div>
+      </div>`;
     }
     return items.map((item, idx) => `
       <div class="grammar-card" id="grammar-card-${idx}" style="flex-shrink:0; margin-bottom:0; padding:16px; box-sizing:border-box; width:100%; max-width:100%; transition:all 0.3s ease;">
         <div style="display:flex; align-items:flex-start; justify-content:space-between; margin-bottom: 10px; gap:8px;">
-          <h3 style="font-size:1.25rem; font-weight:800; color:var(--fuji-blue-deep); letter-spacing:0.3px; flex:1; min-width:0; word-break:break-word; overflow-wrap:break-word; margin:0;">
-            <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600; margin-right:6px;">#${idx + 1}</span>
-            <span class="grammar-pattern">${item.pattern || ''}</span>
-          </h3>
+          <div style="flex:1; min-width:0;">
+            <div style="display:flex; align-items:center; gap:8px; flex-wrap:wrap;">
+              <span style="font-size:0.85rem; color:var(--text-muted); font-weight:600;">#${item._patternIdx || (idx + 1)}</span>
+              <h3 style="font-size:1.25rem; font-weight:800; color:var(--fuji-blue-deep); letter-spacing:0.3px; margin:0; display:inline;">
+                <span class="grammar-pattern">${item.pattern || ''}</span>
+              </h3>
+              ${item._session ? `
+                <button type="button" class="badge btn-jump-session" data-jump-session="${item._session}" title="Bấm để chuyển tới xem Video & Danh sách của Bài ${item._session}" style="background:rgba(37,99,235,0.1); color:var(--fuji-blue-primary); padding:3px 9px; border-radius:10px; font-weight:800; font-size:0.75rem; border:none; cursor:pointer; transition:all var(--transition-fast);">
+                  🎬 ${item._sessionLabel || `Bài ${item._session}`}
+                </button>
+              ` : ''}
+            </div>
+          </div>
           <button class="icon-btn btn-audio" data-speak="${item.pattern || ''}" title="Nghe phát âm mẫu câu" style="width:34px; height:34px; font-size:1rem; flex-shrink:0;">🔊</button>
         </div>
 

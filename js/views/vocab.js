@@ -35,6 +35,10 @@ export function renderVocab(container, state, navigate) {
   let activeFlashcardCleanups = null;
   let isMobileSheetOpen = false;
 
+  // Search state across lessons
+  let vocabSearchQuery = '';
+  let vocabSearchScope = 'all'; // 'all' (Tất cả 58 bài + Sổ tay) | 'current' (Chỉ bài hiện tại)
+
   // Matching Game state
   let matchGameTimer = null;
   let matchTimeRemaining = 30;
@@ -84,6 +88,24 @@ export function renderVocab(container, state, navigate) {
     if (!state.vocabData) return [];
     const list = state.vocabData[selectedLesson] || [];
     return list.map(w => ({ ...w, _lesson: selectedLesson }));
+  }
+
+  function getAllVocabWords() {
+    const all = [];
+    if (state.vocabData) {
+      const lessons = Object.keys(state.vocabData).sort((a, b) => parseInt(a) - parseInt(b));
+      lessons.forEach(l => {
+        const list = state.vocabData[l] || [];
+        list.forEach(w => {
+          all.push({ ...w, _lesson: l });
+        });
+      });
+    }
+    const customWords = getCustomWords();
+    customWords.forEach(w => {
+      all.push({ ...w, _lesson: 'Sổ tay', _isCustom: true });
+    });
+    return all;
   }
 
   function getStudyWords() {
@@ -138,6 +160,7 @@ export function renderVocab(container, state, navigate) {
     state.selectedVocabLessons = [lessonKey];
     currentTab = 'list';
     state.vocabTab = 'list';
+    vocabSearchQuery = '';
 
     if (lessonKey === 'custom') {
       activeCategory = 'custom';
@@ -1396,47 +1419,167 @@ export function renderVocab(container, state, navigate) {
 
   // ─── 1. LIST VIEW ────────────────────────────────────────────────────────────
   function renderListView(content, words) {
+    const isSearching = vocabSearchQuery.trim().length > 0;
+    const q = vocabSearchQuery.toLowerCase().trim();
+
+    const activePool = isSearching
+      ? (vocabSearchScope === 'all' ? getAllVocabWords() : words)
+      : words;
+
+    const filtered = isSearching
+      ? activePool.filter(w =>
+          (w.word && w.word.toLowerCase().includes(q)) ||
+          (w.reading && w.reading.toLowerCase().includes(q)) ||
+          (w.meaning && w.meaning.toLowerCase().includes(q)) ||
+          (w.kanji_meaning && w.kanji_meaning.toLowerCase().includes(q))
+        )
+      : words;
+
     content.innerHTML = `
       <div class="search-bar-wrapper">
         <span class="search-icon">🔍</span>
-        <input type="text" id="vocab-search" class="search-input" placeholder="Tìm kiếm từ vựng (Kanji, Hiragana, Nghĩa)...">
+        <input type="text" id="vocab-search" class="search-input"
+          placeholder="Tìm kiếm từ vựng full tất cả các bài (Kanji, Hiragana, Nghĩa)..."
+          value="${vocabSearchQuery}">
+        ${vocabSearchQuery ? `<button type="button" id="btn-clear-vocab-search" class="btn-clear-search" title="Xóa tìm kiếm">✕</button>` : ''}
       </div>
+
+      <div class="search-scope-bar">
+        <div style="display:flex; align-items:center; gap:6px;">
+          <span style="font-weight:700; color:var(--text-muted);">Phạm vi:</span>
+          <button type="button" class="search-scope-pill btn-vocab-scope ${vocabSearchScope === 'all' ? 'active' : ''}" data-scope="all">
+            🌐 Tất cả bài (1-58)
+          </button>
+          <button type="button" class="search-scope-pill btn-vocab-scope ${vocabSearchScope === 'current' ? 'active' : ''}" data-scope="current">
+            📖 Chỉ Bài ${selectedLesson}
+          </button>
+        </div>
+        <div id="vocab-search-stats" style="color:var(--text-secondary); font-weight:600;">
+          ${isSearching
+            ? `Tìm thấy <strong style="color:var(--toan-navy);">${filtered.length}</strong> từ (${vocabSearchScope === 'all' ? 'Tất cả các bài' : `Bài ${selectedLesson}`})`
+            : `Bài ${selectedLesson}: <strong style="color:var(--toan-navy);">${words.length}</strong> từ`
+          }
+        </div>
+      </div>
+
       <div class="word-list" id="words-grid">
-        ${renderWordCards(words)}
+        ${renderWordCards(filtered, isSearching && vocabSearchScope === 'all')}
       </div>
     `;
 
-    document.getElementById('vocab-search').addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase().trim();
-      const filtered = words.filter(w =>
-        (w.word && w.word.toLowerCase().includes(q)) ||
-        (w.reading && w.reading.toLowerCase().includes(q)) ||
-        (w.meaning && w.meaning.toLowerCase().includes(q)) ||
-        (w.kanji_meaning && w.kanji_meaning.toLowerCase().includes(q))
-      );
-      document.getElementById('words-grid').innerHTML = renderWordCards(filtered);
-      attachWordCardEvents();
+    function updateSearchResults() {
+      const isSearchNow = vocabSearchQuery.trim().length > 0;
+      const query = vocabSearchQuery.toLowerCase().trim();
+      const pool = isSearchNow
+        ? (vocabSearchScope === 'all' ? getAllVocabWords() : getCurrentLessonWords())
+        : getCurrentLessonWords();
+
+      const results = isSearchNow
+        ? pool.filter(w =>
+            (w.word && w.word.toLowerCase().includes(query)) ||
+            (w.reading && w.reading.toLowerCase().includes(query)) ||
+            (w.meaning && w.meaning.toLowerCase().includes(query)) ||
+            (w.kanji_meaning && w.kanji_meaning.toLowerCase().includes(query))
+          )
+        : pool;
+
+      const statsEl = document.getElementById('vocab-search-stats');
+      if (statsEl) {
+        statsEl.innerHTML = isSearchNow
+          ? `Tìm thấy <strong style="color:var(--toan-navy);">${results.length}</strong> từ (${vocabSearchScope === 'all' ? 'Tất cả các bài' : `Bài ${selectedLesson}`})`
+          : `Bài ${selectedLesson}: <strong style="color:var(--toan-navy);">${pool.length}</strong> từ`;
+      }
+
+      const gridEl = document.getElementById('words-grid');
+      if (gridEl) {
+        gridEl.innerHTML = renderWordCards(results, isSearchNow && vocabSearchScope === 'all');
+        attachWordCardEvents();
+      }
+
+      // Update Clear Button
+      const wrapper = document.querySelector('.vocab-main-area .search-bar-wrapper');
+      let clearBtn = document.getElementById('btn-clear-vocab-search');
+      if (isSearchNow) {
+        if (!clearBtn && wrapper) {
+          clearBtn = document.createElement('button');
+          clearBtn.type = 'button';
+          clearBtn.id = 'btn-clear-vocab-search';
+          clearBtn.className = 'btn-clear-search';
+          clearBtn.title = 'Xóa tìm kiếm';
+          clearBtn.textContent = '✕';
+          clearBtn.addEventListener('click', handleClearSearch);
+          wrapper.appendChild(clearBtn);
+        }
+      } else {
+        if (clearBtn) clearBtn.remove();
+      }
+    }
+
+    function handleClearSearch() {
+      vocabSearchQuery = '';
+      const input = document.getElementById('vocab-search');
+      if (input) {
+        input.value = '';
+        input.focus();
+      }
+      updateSearchResults();
+    }
+
+    const searchInput = document.getElementById('vocab-search');
+    searchInput?.addEventListener('input', (e) => {
+      vocabSearchQuery = e.target.value;
+      updateSearchResults();
+    });
+
+    document.getElementById('btn-clear-vocab-search')?.addEventListener('click', handleClearSearch);
+
+    // Scope button click
+    content.querySelectorAll('.btn-vocab-scope').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const scope = btn.getAttribute('data-scope');
+        if (scope === vocabSearchScope) return;
+        vocabSearchScope = scope;
+        content.querySelectorAll('.btn-vocab-scope').forEach(b => {
+          b.classList.toggle('active', b.getAttribute('data-scope') === scope);
+        });
+        updateSearchResults();
+      });
     });
 
     attachWordCardEvents();
   }
 
-  function renderWordCards(items) {
+  function renderWordCards(items, isAllLessons = false) {
     if (!items || items.length === 0) {
-      return `<div style="grid-column: 1/-1; text-align:center; padding: 40px; color: var(--text-muted);">Không tìm thấy từ vựng nào trong Bài ${selectedLesson}.</div>`;
+      return `<div style="grid-column: 1/-1; text-align:center; padding: 40px; color: var(--text-muted); background:var(--glass-bg); border-radius:var(--radius-lg); border:1px solid var(--glass-border);">
+        <div style="font-size:2rem; margin-bottom:8px;">🔍</div>
+        <div style="font-weight:700; color:var(--text-title); margin-bottom:4px;">Không tìm thấy từ vựng nào</div>
+        <div style="font-size:0.88rem;">${isAllLessons ? 'Thử tìm với từ khóa khác (Kanji, Hiragana hoặc Tiếng Việt)' : `Không có từ phù hợp trong Bài ${selectedLesson}`}</div>
+      </div>`;
     }
-    return items.map((w) => `
+    return items.map((w) => {
+      const lessonBadgeText = w._lesson === 'Sổ tay' ? '📝 Sổ tay' : `Bài ${w._lesson || selectedLesson}`;
+      return `
       <div class="word-item-card" data-search="${w.word || w.reading}" title="Bấm để tra cứu '${w.word || w.reading}' trên Mazii" style="display:flex; flex-direction:column; justify-content:space-between; min-height:140px; cursor:pointer;">
         <div>
           <div class="word-header" style="align-items:flex-start; margin-bottom:8px;">
-            <div>
-              <div class="word-kanji">${w.word || ''}</div>
+            <div style="flex:1; min-width:0;">
+              <div style="display:flex; align-items:center; gap:6px; flex-wrap:wrap; margin-bottom:3px;">
+                <span class="word-kanji">${w.word || ''}</span>
+                ${w._lesson ? `
+                  <span class="badge badge-lesson-tag" data-jump-lesson="${w._lesson}" title="Bấm để chuyển tới ${lessonBadgeText}" style="background:rgba(37,99,235,0.1); color:var(--fuji-blue-primary); font-size:0.75rem; padding:2px 8px; border-radius:10px; font-weight:700; cursor:pointer;">${lessonBadgeText}</span>
+                ` : ''}
+              </div>
               <div class="word-reading" style="margin-top:2px;">${w.reading || ''}</div>
             </div>
             <div style="display:flex; align-items:center; gap:6px; flex-shrink:0;">
               <button class="icon-btn btn-mazii-card" data-search="${w.word || w.reading}" title="Tra cứu '${w.word || w.reading}' trên Mazii" style="width:34px; height:34px; font-size:0.92rem; color:var(--fuji-blue-primary);">🔍</button>
               <button class="icon-btn btn-audio" data-speak="${w.reading || w.word}" title="Nghe phát âm" style="width:34px; height:34px; font-size:0.95rem;">🔊</button>
-              <button class="icon-btn btn-edit-meaning" data-lesson="${w._lesson}" data-word="${w.word}" title="Chỉnh sửa nghĩa tiếng Việt" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;">✏️</button>
+              ${w._isCustom ? `
+                <button class="icon-btn btn-edit-meaning" data-lesson="${w._lesson}" data-word="${w.word}" title="Chỉnh sửa từ trong sổ tay" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;">✏️</button>
+              ` : `
+                <button class="icon-btn btn-edit-meaning" data-lesson="${w._lesson || selectedLesson}" data-word="${w.word}" title="Chỉnh sửa nghĩa tiếng Việt" style="color:var(--fuji-blue-primary); width:34px; height:34px; font-size:0.9rem;">✏️</button>
+              `}
             </div>
           </div>
           ${w.kanji_meaning ? `
@@ -1447,7 +1590,8 @@ export function renderVocab(container, state, navigate) {
           ${w.example ? `<div class="word-example" style="margin-top:6px;">${w.example}</div>` : ''}
         </div>
       </div>
-    `).join('');
+    `;
+    }).join('');
   }
 
   function attachWordCardEvents() {
@@ -1472,7 +1616,20 @@ export function renderVocab(container, state, navigate) {
         e.stopPropagation();
         const lesson = btn.getAttribute('data-lesson');
         const wordText = btn.getAttribute('data-word');
-        if (!lesson || !wordText || !state.vocabData[lesson]) return;
+        if (!lesson || !wordText) return;
+
+        if (lesson === 'Sổ tay') {
+          const words = getCustomWords();
+          const target = words.find(item => item.word === wordText);
+          if (target) {
+            openEditCustomWordModal(target, () => {
+              renderContent();
+            });
+          }
+          return;
+        }
+
+        if (!state.vocabData[lesson]) return;
 
         const target = state.vocabData[lesson].find(item => item.word === wordText);
         if (!target) return;
@@ -1481,10 +1638,22 @@ export function renderVocab(container, state, navigate) {
       });
     });
 
+    // Bấm vào badge bài học để chuyển ngay tới bài đó
+    document.querySelectorAll('[data-jump-lesson]').forEach(badge => {
+      badge.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const lesson = badge.getAttribute('data-jump-lesson');
+        if (lesson) {
+          vocabSearchQuery = '';
+          handleLessonClick(lesson);
+        }
+      });
+    });
+
     // Bấm vào thẻ từ bất kỳ chỗ nào cũng tương đương ấn search Mazii
     document.querySelectorAll('.word-item-card').forEach(card => {
       card.addEventListener('click', (e) => {
-        if (e.target.closest('.btn-audio') || e.target.closest('.btn-edit-meaning')) return;
+        if (e.target.closest('.btn-audio') || e.target.closest('.btn-edit-meaning') || e.target.closest('[data-jump-lesson]')) return;
         const searchWord = card.getAttribute('data-search');
         if (searchWord) openMazii(searchWord);
       });

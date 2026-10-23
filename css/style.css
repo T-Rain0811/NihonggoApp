@@ -739,7 +739,7 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 12px 18px 12px 44px;
+  padding: 12px 42px 12px 44px;
   border-radius: var(--radius-md);
   background: var(--glass-input);
   backdrop-filter: blur(14px);
@@ -770,6 +770,77 @@ body {
   pointer-events: none;
   display: flex;
   align-items: center;
+}
+
+.btn-clear-search {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  cursor: pointer;
+  font-size: 0.95rem;
+  width: 28px;
+  height: 28px;
+  border-radius: var(--radius-full);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--transition-fast);
+  z-index: 3;
+}
+
+.btn-clear-search:hover {
+  background: rgba(20, 43, 73, 0.08);
+  color: var(--toan-navy);
+}
+
+/* Search Scope Bar */
+.search-scope-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-size: 0.84rem;
+}
+
+.search-scope-pill {
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+  background: var(--toan-white);
+  border: 1px solid rgba(20, 43, 73, 0.12);
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all var(--transition-fast);
+  box-shadow: 0 1px 3px rgba(20, 43, 73, 0.04);
+}
+
+.search-scope-pill:hover {
+  color: var(--toan-navy);
+  background: var(--toan-light-blue);
+}
+
+.search-scope-pill.active {
+  background: var(--toan-navy);
+  color: #fff;
+  border-color: var(--toan-navy);
+  box-shadow: 0 2px 6px rgba(20, 43, 73, 0.15);
+}
+
+.badge-lesson-tag {
+  transition: all var(--transition-fast);
+}
+
+.badge-lesson-tag:hover {
+  filter: brightness(0.92);
+  transform: translateY(-1px);
 }
 
 /* Word Cards List - Frosted Glass */

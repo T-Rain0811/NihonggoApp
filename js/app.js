@@ -1,12 +1,12 @@
 // Main Application Controller & Router
-import { renderHome } from './views/home.js?v=62';
-import { renderVocab } from './views/vocab.js?v=62';
-import { renderGrammar } from './views/grammar.js?v=62';
-import { renderCustomVocab } from './views/customVocab.js?v=62';
-import { renderDrill } from './views/drill.js?v=62';
-import { renderExtraVocab } from './views/extraVocab.js?v=62';
-import { SettingsModal } from './services/settingsModal.js?v=62';
-import { GitHubSync } from './services/githubSync.js?v=62';
+import { renderHome } from './views/home.js?v=63';
+import { renderVocab } from './views/vocab.js?v=63';
+import { renderGrammar } from './views/grammar.js?v=63';
+import { renderCustomVocab } from './views/customVocab.js?v=63';
+import { renderDrill } from './views/drill.js?v=63';
+import { renderExtraVocab } from './views/extraVocab.js?v=63';
+import { SettingsModal } from './services/settingsModal.js?v=63';
+import { GitHubSync } from './services/githubSync.js?v=63';
 
 class App {
   constructor() {
