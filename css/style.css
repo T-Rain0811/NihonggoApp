@@ -726,8 +726,8 @@ body {
   margin-bottom: 20px;
 }
 
-/* Sticky Search Bar in Vocab View */
-.vocab-main-area .search-bar-wrapper {
+/* Sticky Search Bar - chỉ áp dụng riêng cho trang Từ vựng */
+#vocab-tab-content > .search-bar-wrapper {
   position: -webkit-sticky;
   position: sticky;
   top: calc(var(--nav-height) + env(safe-area-inset-top, 0px));
@@ -735,6 +735,17 @@ body {
   padding: 8px 0;
   background: var(--toan-ivory);
   margin-bottom: 12px;
+}
+
+/* Trong trang Ngữ pháp: thanh tìm kiếm nằm sát đỉnh cột phải (ngang hàng video), không bị sticky hay tụt xuống */
+.grammar-content-panel .search-bar-wrapper,
+.grammar-search-header .search-bar-wrapper {
+  position: relative !important;
+  top: 0 !important;
+  padding: 0 !important;
+  background: transparent !important;
+  margin-bottom: 0 !important;
+  z-index: 2 !important;
 }
 
 .search-input {
