@@ -1,5 +1,313 @@
 [
   {
+    "id": "1792723674088",
+    "word": "あやふや",
+    "reading": "あやふや",
+    "meaning": "Mơ hồ, không rõ ràng, không chắc chắn, ＝あいまい",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-23T02:47:54.088Z",
+    "updatedAt": "2026-10-23T02:48:29.450Z"
+  },
+  {
+    "id": "1792719542117",
+    "word": "発揮",
+    "reading": "はっき",
+    "meaning": "Phát huy, thể hiện năng lực",
+    "kanji_meaning": "PHÁT VẬN",
+    "example": "",
+    "createdAt": "2026-10-23T01:39:02.117Z"
+  },
+  {
+    "id": "1792719311833",
+    "word": "限界",
+    "reading": "げんかい",
+    "meaning": "giới hạn (của bản thân, năng lực, thể lực...)",
+    "kanji_meaning": "HẠN GIỚI",
+    "example": "",
+    "createdAt": "2026-10-23T01:35:11.833Z"
+  },
+  {
+    "id": "1792719252412",
+    "word": "制限",
+    "reading": "せいげん",
+    "meaning": "Sự hạn chế, giới hạn được đặt ra, giới hạn bị khống chế",
+    "kanji_meaning": "CHẾ HẠN",
+    "example": "",
+    "createdAt": "2026-10-23T01:34:12.412Z"
+  },
+  {
+    "id": "1792719155283",
+    "word": "境界",
+    "reading": "きょうかい",
+    "meaning": "Ranh giới, biên giới",
+    "kanji_meaning": "CẢNH GIỚI",
+    "example": "",
+    "createdAt": "2026-10-23T01:32:35.283Z"
+  },
+  {
+    "id": "1792660080385",
+    "word": "じろじろ",
+    "reading": "じろじろ",
+    "meaning": "ジロジロ見る, nhìn chằm chằm",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T09:08:00.385Z"
+  },
+  {
+    "id": "1792660049552",
+    "word": "ぶるぶる",
+    "reading": "ぶるぶる",
+    "meaning": "Run bần bật",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T09:07:29.552Z"
+  },
+  {
+    "id": "1792659993846",
+    "word": "こそこそ",
+    "reading": "こそこそ",
+    "meaning": "Lén lút, làm sau lưng người khác, = こっそり",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T09:06:33.846Z"
+  },
+  {
+    "id": "1792659369650",
+    "word": "倹約",
+    "reading": "けんやく",
+    "meaning": "Tiết kiệm tiền, tiêu ít tiền lại so với trước",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:56:09.650Z"
+  },
+  {
+    "id": "1792659194954",
+    "word": "輝かしい",
+    "reading": "かがやかしい",
+    "meaning": "Rực rỡ, sáng chói (dùng cho thành tích, tương lai )",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:53:14.954Z"
+  },
+  {
+    "id": "1792659121621",
+    "word": "たくましい",
+    "reading": "たくましい",
+    "meaning": "Mạnh mẽ, mạnh mẽ vươn lên",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:52:01.621Z"
+  },
+  {
+    "id": "1792658637463",
+    "word": "円満",
+    "reading": "えんまん",
+    "meaning": "Viên mãn, hạnh phúc",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:43:57.463Z"
+  },
+  {
+    "id": "1792658558559",
+    "word": "好調",
+    "reading": "こうちょう",
+    "meaning": "Trạng thái tốt, thuận lợi",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:42:38.559Z"
+  },
+  {
+    "id": "1792657721056",
+    "word": "どっしり",
+    "reading": "どっしり",
+    "meaning": "Đồ sộ, to lớn",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:28:41.056Z"
+  },
+  {
+    "id": "1792657680396",
+    "word": "どしどし",
+    "reading": "どしどし",
+    "meaning": "Liên tiếp, tới tấp, = どんどん",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:28:00.396Z"
+  },
+  {
+    "id": "1792657609362",
+    "word": "うじゃうじゃ",
+    "reading": "うじゃうじゃ",
+    "meaning": "Lúc nhúc, ngọ nguậy",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:26:49.362Z",
+    "updatedAt": "2026-10-22T08:27:20.804Z"
+  },
+  {
+    "id": "1792657543696",
+    "word": "ぞろぞろ",
+    "reading": "ぞろぞろ",
+    "meaning": "Dài lê thê, nườm nượp",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:25:43.696Z"
+  },
+  {
+    "id": "1792657511819",
+    "word": "ごくごく",
+    "reading": "ごくごく",
+    "meaning": "Uống nước ừng ực",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:25:11.819Z"
+  },
+  {
+    "id": "1792657489271",
+    "word": "ぎしぎし",
+    "reading": "ぎしぎし",
+    "meaning": "Tiếng cót két, kẽo kẹt",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:24:49.271Z"
+  },
+  {
+    "id": "1792657387266",
+    "word": "微か",
+    "reading": "かすか",
+    "meaning": "Thoang thoảng, thấp thoáng, ảo ảo",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:23:07.266Z"
+  },
+  {
+    "id": "1792657303910",
+    "word": "なだらか",
+    "reading": "なだらか",
+    "meaning": "Thoai thoải ( dốc, sườn núi ), = ゆるやか",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:21:43.910Z"
+  },
+  {
+    "id": "1792657249415",
+    "word": "ささやか",
+    "reading": "ささやか",
+    "meaning": "Nhỏ bé, tầm thường",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:20:49.415Z"
+  },
+  {
+    "id": "1792657215586",
+    "word": "まれ",
+    "reading": "まれ",
+    "meaning": "Hiếm hoi, hiếm",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:20:15.586Z"
+  },
+  {
+    "id": "1792657184104",
+    "word": "進出",
+    "reading": "しんしゅつ",
+    "meaning": "Tiến ra, vươn ra, tiến tới",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T08:19:44.104Z"
+  },
+  {
+    "id": "1792650594624",
+    "word": "打ち消す",
+    "reading": "うちけす",
+    "meaning": "Phủ nhận, bác bỏ, đập tan, xoá tan",
+    "kanji_meaning": "",
+    "example": "うわさを打ち消す",
+    "createdAt": "2026-10-22T06:29:54.624Z"
+  },
+  {
+    "id": "1792650401890",
+    "word": "取り払う",
+    "reading": "とりはらう",
+    "meaning": "Tháo dỡ, dỡ bỏ Công trình kiến trúc",
+    "kanji_meaning": "",
+    "example": "警戒心を取り払う (gỡ bỏ sự cảnh giác)",
+    "createdAt": "2026-10-22T06:26:41.890Z"
+  },
+  {
+    "id": "1792650201244",
+    "word": "密着",
+    "reading": "みっちゃく",
+    "meaning": "Gắn liền, liên quan mật thiết",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T06:23:21.244Z"
+  },
+  {
+    "id": "1792636687069",
+    "word": "劇的",
+    "reading": "げきてき",
+    "meaning": "Kịch tính( nói chuyện, drama) , đột ngột, nhanh chóng",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T02:38:07.069Z"
+  },
+  {
+    "id": "1792636321237",
+    "word": "出願",
+    "reading": "しゅつがん",
+    "meaning": "Nguyện vọng, việc nộp đơn",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-22T02:32:01.237Z"
+  },
+  {
+    "id": "1792583755821",
+    "word": "付属",
+    "reading": "ふぞく",
+    "meaning": "Gắn theo, kèm theo, trực thuộc, phụ thuộc",
+    "kanji_meaning": "",
+    "example": "",
+    "createdAt": "2026-10-21T11:55:55.821Z"
+  },
+  {
+    "id": "1792122308515",
+    "word": "衰退",
+    "reading": "すいたい",
+    "meaning": "Suy thoái, suy sụp, suy tàn",
+    "kanji_meaning": "SUY THỐI",
+    "example": "",
+    "createdAt": "2026-10-16T03:45:08.515Z"
+  },
+  {
+    "id": "1792036180574",
+    "word": "手放し",
+    "reading": "てばなし",
+    "meaning": "thả tay, bỏ rơi, buông bỏ",
+    "kanji_meaning": "THỦ PHÓNG",
+    "example": "",
+    "createdAt": "2026-10-15T03:49:40.574Z"
+  },
+  {
+    "id": "1791866171723",
+    "word": "委ねる",
+    "reading": "ゆだねる",
+    "meaning": "\"委ねる\" ám chỉ việc giao phó hoặc ủy thác một trách nhiệm cụ thể, trong khi \"任せる\" ám chỉ việc giao phó và tin tưởng vào khả năng tự làm của người khác",
+    "kanji_meaning": "ỦY",
+    "example": "",
+    "createdAt": "2026-10-13T04:36:11.723Z"
+  },
+  {
+    "id": "1791865667387",
+    "word": "生業",
+    "reading": "なりわい",
+    "meaning": "Kế sinh nhai, nghề kiếm sống",
+    "kanji_meaning": "SANH NGHIỆP",
+    "example": "",
+    "createdAt": "2026-10-13T04:27:47.387Z"
+  },
+  {
     "id": "1791817070205",
     "word": "正座",
     "reading": "せいざ",
